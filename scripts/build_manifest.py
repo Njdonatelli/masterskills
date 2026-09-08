@@ -47,6 +47,12 @@ def parse_frontmatter(path: Path) -> dict[str, str]:
     return fields
 
 
+def write(path: Path, text: str) -> None:
+    """Always LF, on every platform: these files are committed, and a CRLF
+    rewrite would show up as a whole-file diff on the next machine."""
+    path.write_text(text, encoding="utf-8", newline="\n")
+
+
 def collect(plugin_dir: Path) -> list[dict[str, str]]:
     skills_dir = plugin_dir / "skills"
     if not skills_dir.is_dir():
@@ -113,7 +119,7 @@ def main() -> int:
         }
         out = plugin_dir / ".claude-plugin" / "plugin.json"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(json.dumps(plugin_json, indent=2) + "\n", encoding="utf-8")
+        write(out, json.dumps(plugin_json, indent=2) + "\n")
 
         entries.append(
             {
@@ -146,8 +152,8 @@ def main() -> int:
     }
     manifest_path = ROOT / ".claude-plugin" / "marketplace.json"
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
-    manifest_path.write_text(json.dumps(marketplace, indent=2) + "\n", encoding="utf-8")
-    (ROOT / "SKILLS.md").write_text("\n".join(index_lines), encoding="utf-8")
+    write(manifest_path, json.dumps(marketplace, indent=2) + "\n")
+    write(ROOT / "SKILLS.md", "\n".join(index_lines))
 
     print(f"wrote {manifest_path.relative_to(ROOT)}")
     print(f"  {len(entries)} plugin(s), {total} skills, version {version}")
