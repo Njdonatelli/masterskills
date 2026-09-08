@@ -6,14 +6,14 @@ marketplace once on a machine, install the plugin, and every skill is available 
 ## Install on a new machine
 
 ```
-/plugin marketplace add nicolasdonatelli/masterskills
+/plugin marketplace add Njdonatelli/masterskills
 /plugin install masterskills@masterskills
 ```
 
 Or from the CLI:
 
 ```bash
-claude plugin marketplace add nicolasdonatelli/masterskills
+claude plugin marketplace add Njdonatelli/masterskills
 claude plugin install masterskills@masterskills
 ```
 

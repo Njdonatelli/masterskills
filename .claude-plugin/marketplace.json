@@ -2,11 +2,11 @@
   "name": "masterskills",
   "owner": {
     "name": "Nicolas Donatelli",
-    "url": "https://github.com/nicolasdonatelli"
+    "url": "https://github.com/Njdonatelli"
   },
   "description": "Personal hosted marketplace of Claude Code skills. Install once, get every skill on any machine. 382 skills across 1 plugin(s).",
-  "homepage": "https://github.com/nicolasdonatelli/masterskills",
-  "repository": "https://github.com/nicolasdonatelli/masterskills",
+  "homepage": "https://github.com/Njdonatelli/masterskills",
+  "repository": "https://github.com/Njdonatelli/masterskills",
   "metadata": {
     "description": "Personal hosted marketplace of Claude Code skills. Install once, get every skill on any machine.",
     "version": "1.0.0"
@@ -19,7 +19,7 @@
       "version": "1.0.0",
       "author": {
         "name": "Nicolas Donatelli",
-        "url": "https://github.com/nicolasdonatelli"
+        "url": "https://github.com/Njdonatelli"
       },
       "keywords": [
         "skills",
