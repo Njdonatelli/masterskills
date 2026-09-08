@@ -1,0 +1,17 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (scripts/)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor
+.idea/
+*.swp
+
+# Local Claude state that must not ship with the marketplace
+.claude/settings.local.json

@@ -1,0 +1,21 @@
+{
+  "name": "masterskills",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Nicolas Donatelli",
+    "url": "https://github.com/nicolasdonatelli"
+  },
+  "homepage": "https://github.com/nicolasdonatelli/masterskills",
+  "repository": "https://github.com/nicolasdonatelli/masterskills",
+  "license": "MIT",
+  "description": "Personal hosted marketplace of Claude Code skills. Install once, get every skill on any machine.",
+  "plugins": [
+    {
+      "name": "masterskills",
+      "source": "./plugins/masterskills",
+      "description": "The complete master skill library.",
+      "category": "productivity",
+      "keywords": ["skills", "library", "productivity", "engineering", "marketing", "operations"]
+    }
+  ]
+}
