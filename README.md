@@ -33,6 +33,23 @@ claude plugin marketplace update masterskills
 Installed plugins track the marketplace, so a `git push` here is all that a new skill needs to
 reach every machine.
 
+## Third-party plugins
+
+Plugins installed from other marketplaces (superpowers, caveman, claude-code-skills, ...) are not
+vendored here — they ship hooks, agents and commands that only work through their own
+marketplace. Instead `plugins.lock.json` records every one installed on the authoring machine.
+Reproduce the full setup on a new machine with:
+
+```bash
+python scripts/install_plugins.py
+```
+
+After installing or removing a plugin locally, refresh the lockfile and commit it:
+
+```bash
+python scripts/export_plugins.py
+```
+
 ## Layout
 
 ```
@@ -44,6 +61,9 @@ plugins/masterskills/
 SKILLS.md                         generated — browsable index of every skill
 scripts/build_manifest.py         regenerates the three generated files from disk
 scripts/sync_skills.py            moves skills between ~/.claude/skills and this repo
+plugins.lock.json                 generated — third-party marketplaces + plugins installed locally
+scripts/export_plugins.py         writes plugins.lock.json from ~/.claude/plugins
+scripts/install_plugins.py        installs everything in plugins.lock.json via the claude CLI
 ```
 
 The filesystem is the source of truth. Nothing lists skills by hand — whatever sits at

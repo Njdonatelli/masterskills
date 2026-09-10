@@ -1,0 +1,72 @@
+{
+  "marketplaces": {
+    "addy-agent-skills": "https://github.com/addyosmani/agent-skills.git",
+    "claude-code-skills": "alirezarezvani/claude-skills",
+    "caveman": "JuliusBrussee/caveman",
+    "superpowers-marketplace": "obra/superpowers-marketplace",
+    "ui-ux-pro-max-skill": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "web-designer-marketplace": "MickeyAlton33/web-designer-plugin"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "marketplace": "addy-agent-skills",
+      "version": "0.6.9"
+    },
+    {
+      "name": "business-growth-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.9.0"
+    },
+    {
+      "name": "business-operations-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.9.0"
+    },
+    {
+      "name": "c-level-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.9.0"
+    },
+    {
+      "name": "caveman",
+      "marketplace": "caveman",
+      "version": "15581d14007f"
+    },
+    {
+      "name": "engineering-advanced-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.9.0"
+    },
+    {
+      "name": "engineering-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.9.0"
+    },
+    {
+      "name": "marketing-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.9.0"
+    },
+    {
+      "name": "pm-skills",
+      "marketplace": "claude-code-skills",
+      "version": "2.11.1"
+    },
+    {
+      "name": "superpowers",
+      "marketplace": "superpowers-marketplace",
+      "version": "6.3.0"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "marketplace": "ui-ux-pro-max-skill",
+      "version": "2.13.0"
+    },
+    {
+      "name": "web-designer",
+      "marketplace": "web-designer-marketplace",
+      "version": "1.1.0"
+    }
+  ]
+}
