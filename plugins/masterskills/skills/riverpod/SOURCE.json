@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/evanca/flutter-ai-rules",
+  "ref": "main",
+  "commit": "7b9cce235714ae17acbae896b1e8c8627e128f4c",
+  "path": "skills/riverpod",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "riverpod",
+  "tool": "scripts/vendor_skill.py"
+}

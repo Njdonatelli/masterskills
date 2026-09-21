@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/supabase/agent-skills",
+  "ref": "main",
+  "commit": "8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+  "path": "skills/supabase",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "supabase",
+  "tool": "scripts/vendor_skill.py"
+}

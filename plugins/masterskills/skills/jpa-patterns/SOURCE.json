@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/decebals/claude-code-java",
+  "ref": "main",
+  "commit": "0d98fe9bd62923e819568ee1e041a1bf320f74d4",
+  "path": "skills/jpa-patterns",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "jpa-patterns",
+  "tool": "scripts/vendor_skill.py"
+}

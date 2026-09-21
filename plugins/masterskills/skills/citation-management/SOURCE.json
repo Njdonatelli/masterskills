@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "ref": "main",
+  "commit": "49c6e97775eaa18ba791bebe23162a70ae601c18",
+  "path": "skills/citation-management",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "citation-management",
+  "tool": "scripts/vendor_skill.py"
+}

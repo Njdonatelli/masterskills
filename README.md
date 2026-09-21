@@ -1,6 +1,6 @@
 # masterskills
 
-Personal hosted Claude Code plugin marketplace. One repo, one plugin, 382 skills. Add the
+Personal hosted Claude Code plugin marketplace. One repo, one plugin, 646 skills. Add the
 marketplace once on a machine, install the plugin, and every skill is available everywhere.
 
 ## Install on a new machine
@@ -58,9 +58,13 @@ marketplace.config.json           hand-edited — owner, version, plugin blurbs
 plugins/masterskills/
   .claude-plugin/plugin.json      generated — the plugin manifest
   skills/<skill-name>/SKILL.md    the skills themselves
+  skills/<skill-name>/SOURCE.json provenance for skills vendored from other repos
 SKILLS.md                         generated — browsable index of every skill
-scripts/build_manifest.py         regenerates the three generated files from disk
+SOURCES.md                        generated — where every vendored skill came from
+scripts/build_manifest.py         regenerates the generated files from disk
 scripts/sync_skills.py            moves skills between ~/.claude/skills and this repo
+scripts/vendor_skill.py           copies a skill out of a public repo and records its SOURCE.json
+scripts/check_skills.py           lints frontmatter, referenced files and provenance
 plugins.lock.json                 generated — third-party marketplaces + plugins installed locally
 scripts/export_plugins.py         writes plugins.lock.json from ~/.claude/plugins
 scripts/install_plugins.py        installs everything in plugins.lock.json via the claude CLI
@@ -90,6 +94,43 @@ The filesystem is the source of truth. Nothing lists skills by hand — whatever
 `build_manifest.py` warns — without failing — when a `SKILL.md` has no `description`, when a
 frontmatter `name` disagrees with its directory name, or when two skills claim the same name.
 Both scripts are stdlib-only Python 3.9+; `sync_skills.py` is a dry run unless given `--apply`.
+
+## Vendoring a skill from another repo
+
+Skills copied from public repos keep their provenance so the trail never goes cold again:
+
+```bash
+python scripts/vendor_skill.py --repo owner/name --path skills/foo [--path skills/bar] [--name newname]
+python scripts/build_manifest.py
+python scripts/check_skills.py --network --only foo
+```
+
+`vendor_skill.py` does a shallow sparse clone, copies the skill directory verbatim, strips any
+nested `.git`, copies the repo-level `LICENSE` in when the skill has none, rewrites the frontmatter
+`name` only if it must match the destination directory, and writes `SOURCE.json` next to
+`SKILL.md`:
+
+```json
+{"repo": "https://github.com/owner/name", "ref": "main", "commit": "<sha>",
+ "path": "skills/foo", "license": "MIT", "vendored_at": "2026-09-21", "upstream_name": "foo"}
+```
+
+Any later local edit to a vendored skill goes into its `SOURCE.json` under `patches` (what
+changed and why), and `lint_ignore` lists path-like strings the checker should not treat as
+references. `build_manifest.py` folds every `SOURCE.json` into [SOURCES.md](SOURCES.md).
+
+## Checking the library
+
+```bash
+python scripts/check_skills.py            # frontmatter, referenced files, SOURCE.json
+python scripts/check_skills.py --network  # also confirm each upstream commit/path still resolves
+```
+
+Errors: unparseable frontmatter, missing `name`/`description`, `name` not matching the directory,
+descriptions over Claude Code's 1024-character cap, relative references to files that do not
+exist, and provenance that no longer resolves. Warnings: crude prompt-injection patterns (the
+checker cannot tell a security tutorial from an attack, so read them). `check_skills.py` needs
+PyYAML; everything else is stdlib.
 
 ## Adding a second plugin
 

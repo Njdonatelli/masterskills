@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/DreambigOu/ELI5",
+  "ref": "main",
+  "commit": "a766623b062331fdde53467001379b4ddf3acc2f",
+  "path": "skills/eli5",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "eli5",
+  "tool": "scripts/vendor_skill.py"
+}

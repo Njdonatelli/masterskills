@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+  "ref": "main",
+  "commit": "b105e1cf617adf0b68ed98790a716bbb60993179",
+  "path": "skills/disciplines/procedural-gen",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "procedural-gen",
+  "tool": "scripts/vendor_skill.py"
+}

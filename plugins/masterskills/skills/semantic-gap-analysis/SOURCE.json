@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/inhouseseo/superseo-skills",
+  "ref": "main",
+  "commit": "9cf22cc065a294bf0077ea6af6b4ea0eb7f89cdc",
+  "path": "skills/semantic-gap-analysis",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "semantic-gap-analysis",
+  "tool": "scripts/vendor_skill.py"
+}

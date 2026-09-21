@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/Agents365-ai/drawio-skill",
+  "ref": "main",
+  "commit": "7aa92f73819766eb914fffac66762cf2adb5d828",
+  "path": "skills/drawio-skill",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "drawio-skill",
+  "tool": "scripts/vendor_skill.py"
+}

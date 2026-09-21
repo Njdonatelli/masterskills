@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/alirezarezvani/claude-skills",
+  "ref": "main",
+  "commit": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "md-slides",
+  "note": "Provenance reconstructed 2026-09-21 by matching the tree against the locally cloned marketplace; the copy predates SOURCE.json tracking.",
+  "path": "markdown-html/skills/md-slides",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "description wrapped in double quotes",
+      "reason": "unquoted ': ' inside the description made the frontmatter invalid YAML, so the skill failed to load"
+    }
+  ]
+}

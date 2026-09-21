@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/pbakaus/impeccable",
+  "ref": "main",
+  "commit": "83c2c735777c68e30ea536ab9cc97f7843456945",
+  "path": "plugin/skills/impeccable",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "impeccable",
+  "tool": "scripts/vendor_skill.py"
+}

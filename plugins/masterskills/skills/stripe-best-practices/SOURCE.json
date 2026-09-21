@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/stripe/ai",
+  "ref": "main",
+  "commit": "ea6997c4551d1bfa010b70d875d1aa738a379b25",
+  "path": "skills/stripe-best-practices",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "stripe-best-practices",
+  "tool": "scripts/vendor_skill.py"
+}

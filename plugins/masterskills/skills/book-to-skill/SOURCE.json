@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/virgiliojr94/book-to-skill",
+  "ref": "master",
+  "commit": "526f362552562d88c1a8bbf8012d2cee93f831d5",
+  "path": "",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "book-to-skill",
+  "tool": "scripts/vendor_skill.py"
+}

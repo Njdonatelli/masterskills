@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+  "ref": "main",
+  "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "path": "11-evaluation/lm-evaluation-harness",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "evaluating-llms-harness",
+  "tool": "scripts/vendor_skill.py"
+}

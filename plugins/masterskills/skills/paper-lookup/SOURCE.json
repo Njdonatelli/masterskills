@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "ref": "main",
+  "commit": "49c6e97775eaa18ba791bebe23162a70ae601c18",
+  "path": "skills/paper-lookup",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "paper-lookup",
+  "tool": "scripts/vendor_skill.py"
+}

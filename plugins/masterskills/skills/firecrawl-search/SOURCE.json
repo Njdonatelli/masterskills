@@ -1,0 +1,27 @@
+{
+  "repo": "https://github.com/firecrawl/skills",
+  "ref": "main",
+  "commit": "539c4fa1c6bece3112f44ec4e4aee18137071865",
+  "path": "skills/core/firecrawl-search",
+  "license": "ISC",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "firecrawl-search",
+  "tool": "scripts/vendor_skill.py",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../firecrawl-developer-index/SKILL.md -> https://github.com/firecrawl/skills/blob/539c4fa1c6bece3112f44ec4e4aee18137071865/skills/core/firecrawl-developer-index/SKILL.md",
+      "reason": "target lives outside the vendored skill directory"
+    },
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../firecrawl-research-index/SKILL.md -> https://github.com/firecrawl/skills/blob/539c4fa1c6bece3112f44ec4e4aee18137071865/skills/core/firecrawl-research-index/SKILL.md",
+      "reason": "target lives outside the vendored skill directory"
+    },
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../firecrawl-map/SKILL.md -> https://github.com/firecrawl/skills/blob/539c4fa1c6bece3112f44ec4e4aee18137071865/skills/core/firecrawl-map/SKILL.md",
+      "reason": "target lives outside the vendored skill directory"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/huggingface/skills",
+  "ref": "main",
+  "commit": "abc20ae526d8b4c0e4dff89f904adce28a4a0eb6",
+  "path": "skills/trl-training",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "trl-training",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+  "ref": "main",
+  "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "path": "08-distributed-training/pytorch-fsdp2",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "pytorch-fsdp2",
+  "tool": "scripts/vendor_skill.py"
+}

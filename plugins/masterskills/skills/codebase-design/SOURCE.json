@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/mattpocock/skills",
+  "ref": "main",
+  "commit": "e38b908fb73e4982eee85b2c6f6928e3b46fa0a6",
+  "path": "skills/engineering/codebase-design",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "codebase-design",
+  "note": "Provenance reconstructed 2026-09-21 by matching the tree against upstream history (upstream commit dated 2026-08-19); the copy predates SOURCE.json tracking."
+}

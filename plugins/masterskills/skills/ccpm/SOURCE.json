@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/automazeio/ccpm",
+  "ref": "main",
+  "commit": "7d7e4623bc6d4c0c9ba66ca6bfecd7e5261dc697",
+  "path": "skill/ccpm",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "ccpm",
+  "tool": "scripts/vendor_skill.py"
+}

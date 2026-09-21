@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/upstash/skills",
+  "ref": "main",
+  "commit": "c3d50bed429d2b30e17587521c8f2850864bff14",
+  "path": "skills/upstash",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "upstash",
+  "tool": "scripts/vendor_skill.py"
+}

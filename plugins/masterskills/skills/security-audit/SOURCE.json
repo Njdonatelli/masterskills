@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/cloudflare/security-audit-skill",
+  "ref": "main",
+  "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+  "path": "skills/security-audit",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "security-audit",
+  "tool": "scripts/vendor_skill.py"
+}

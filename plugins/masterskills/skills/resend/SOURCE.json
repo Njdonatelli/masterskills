@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/resend/resend-skills",
+  "ref": "main",
+  "commit": "8fd369f2f590c411f3092a02971bab59d827b00a",
+  "path": "skills/resend",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "resend",
+  "tool": "scripts/vendor_skill.py"
+}

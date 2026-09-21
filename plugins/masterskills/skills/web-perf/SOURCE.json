@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/cloudflare/skills",
+  "ref": "main",
+  "commit": "b052c32bab7dd493513260228a36c88294f343f1",
+  "path": "skills/web-perf",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "web-perf",
+  "tool": "scripts/vendor_skill.py"
+}

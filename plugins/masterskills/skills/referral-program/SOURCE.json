@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/alirezarezvani/claude-skills",
+  "ref": "main",
+  "commit": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "referral-program",
+  "note": "Provenance reconstructed 2026-09-21 by matching the tree against the locally cloned marketplace; the copy predates SOURCE.json tracking.",
+  "path": "marketing-skill/skills/referral-program"
+}

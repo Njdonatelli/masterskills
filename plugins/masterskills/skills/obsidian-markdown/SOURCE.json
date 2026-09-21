@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/kepano/obsidian-skills",
+  "ref": "main",
+  "commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+  "path": "skills/obsidian-markdown",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "obsidian-markdown",
+  "tool": "scripts/vendor_skill.py"
+}

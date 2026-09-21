@@ -1,0 +1,16 @@
+{
+  "repo": "https://github.com/OthmanAdi/planning-with-files",
+  "ref": "master",
+  "commit": "5ac39bcb41a9251d4253f7a2372b32147bfe6c2c",
+  "path": "skills/planning-with-files",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "planning-with-files",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "commands/plan-goal.md",
+    "commands/plan-loop.md",
+    "hooks/hooks.json"
+  ],
+  "lint_ignore_reason": "SKILL.md itself documents that skill-only installs do not include commands/ or hooks/"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/Eronred/aso-skills",
+  "ref": "main",
+  "commit": "4df730f456c21e42b9a2ea2be89fb32caf787728",
+  "path": "skills/apple-search-ads",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "apple-search-ads",
+  "tool": "scripts/vendor_skill.py"
+}

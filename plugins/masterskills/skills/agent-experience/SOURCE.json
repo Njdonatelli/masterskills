@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/browserbase/skills",
+  "ref": "main",
+  "commit": "6811ca31163332d9d60309cff48e77f09de37a17",
+  "path": "skills/agent-experience",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "agent-experience",
+  "tool": "scripts/vendor_skill.py"
+}

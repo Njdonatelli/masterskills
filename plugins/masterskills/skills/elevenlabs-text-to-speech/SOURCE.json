@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/elevenlabs/skills",
+  "ref": "main",
+  "commit": "9edcbd4b80ed57b8e07a3f86ea520333969fbc3c",
+  "path": "text-to-speech",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "text-to-speech",
+  "tool": "scripts/vendor_skill.py"
+}

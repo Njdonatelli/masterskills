@@ -1,0 +1,15 @@
+{
+  "repo": "https://github.com/microsoft/skills",
+  "ref": "main",
+  "commit": "96bbd0043d58468fe02090a1691a138e1ef0182b",
+  "path": ".github/plugins/deep-wiki/skills/wiki-llms-txt",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "wiki-llms-txt",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "onboarding/contributor-guide.md",
+    "wiki/onboarding/contributor-guide.md"
+  ],
+  "lint_ignore_reason": "example llms.txt output lines"
+}

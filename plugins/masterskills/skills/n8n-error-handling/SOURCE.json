@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/czlonkowski/n8n-skills",
+  "ref": "main",
+  "commit": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+  "path": "skills/n8n-error-handling",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "n8n-error-handling",
+  "tool": "scripts/vendor_skill.py"
+}

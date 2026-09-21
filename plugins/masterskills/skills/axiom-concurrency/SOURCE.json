@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/CharlesWiltgen/Axiom",
+  "ref": "main",
+  "commit": "c297598480e39d992044831ac0b895a431c7db51",
+  "path": ".claude-plugin/plugins/axiom/skills/axiom-concurrency",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "axiom-concurrency",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "scripts/build-inlined-auditors.ts"
+  ],
+  "lint_ignore_reason": "upstream build-tool mention inside an HTML comment"
+}

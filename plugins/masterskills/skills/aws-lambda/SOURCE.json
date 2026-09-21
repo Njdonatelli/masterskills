@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/awslabs/agent-plugins",
+  "ref": "main",
+  "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+  "path": "plugins/aws-serverless/skills/aws-lambda",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "aws-lambda",
+  "tool": "scripts/vendor_skill.py"
+}

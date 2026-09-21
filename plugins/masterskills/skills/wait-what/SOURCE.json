@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/mattpocock/skills",
+  "ref": "main",
+  "commit": "9c9f36ccd3995266cd675468af71639c8dde1ec5",
+  "path": "skills/productivity/wait-what",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "wait-what",
+  "note": "Provenance reconstructed 2026-09-21 by matching the tree against upstream history (upstream commit dated 2026-08-17); the copy predates SOURCE.json tracking."
+}

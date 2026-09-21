@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/getsentry/skills",
+  "ref": "main",
+  "commit": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241",
+  "path": "skills/security-review",
+  "license": "CC-BY-4.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "security-review",
+  "tool": "scripts/vendor_skill.py",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "frontmatter name security-review -> sentry-security-review (directory renamed to match)",
+      "reason": "collides with Claude Code's built-in /security-review skill"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/omkamal/pypict-claude-skill",
+  "ref": "main",
+  "commit": "fbda212bca79dfa7611be12527b102c89cc8faeb",
+  "path": "",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "pict-test-designer",
+  "tool": "scripts/vendor_skill.py"
+}

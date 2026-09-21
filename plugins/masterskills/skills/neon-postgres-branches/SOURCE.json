@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/neondatabase/agent-skills",
+  "ref": "main",
+  "commit": "de48bd099a91120f20d79652e0f65540428d596a",
+  "path": "skills/neon-postgres-branches",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "neon-postgres-branches",
+  "tool": "scripts/vendor_skill.py"
+}

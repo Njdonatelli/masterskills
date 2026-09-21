@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/amElnagdy/delegate-skills",
+  "ref": "master",
+  "commit": "6826b363085dcc80875372315fe7d208c4bf733f",
+  "path": "skills/codex-delegate",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "codex-delegate",
+  "tool": "scripts/vendor_skill.py"
+}

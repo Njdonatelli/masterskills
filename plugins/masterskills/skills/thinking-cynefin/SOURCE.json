@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/tjboudreaux/cc-thinking-skills",
+  "ref": "main",
+  "commit": "7b8fece345dfaa11773be7152ccd194589cb5437",
+  "path": "skills/thinking-cynefin",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "thinking-cynefin",
+  "tool": "scripts/vendor_skill.py"
+}

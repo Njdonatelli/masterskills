@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/jeffallan/claude-skills",
+  "ref": "main",
+  "commit": "882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf",
+  "path": "skills/rust-engineer",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "rust-engineer",
+  "tool": "scripts/vendor_skill.py"
+}
