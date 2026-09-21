@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/emilkowalski/skills",
+  "ref": "main",
+  "commit": "85e8e2363b713506e1d5b6e07a0eb2da66be1bc3",
+  "path": "skills/pick-ui-library",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "pick-ui-library",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/nowork-studio/notfair-plugin",
+  "ref": "main",
+  "commit": "68566c06e461ce114e371b852a4212f7d7747f67",
+  "path": "seo/hreflang-international",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "hreflang-international",
+  "tool": "scripts/vendor_skill.py",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "description trimmed from 1127 to 775 chars",
+      "reason": "Claude Code caps skill descriptions at 1024 characters"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "repo": "https://github.com/JimLiu/baoyu-skills",
+  "ref": "main",
+  "commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+  "path": "skills/baoyu-infographic",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "baoyu-infographic",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "prompts/infographic-backup-YYYYMMDD-HHMMSS.md",
+    "prompts/infographic.md"
+  ],
+  "lint_ignore_reason": "output files the skill writes into the user's project"
+}

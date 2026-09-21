@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/grafana/skills",
+  "ref": "main",
+  "commit": "05196628fa1a6a557fad1a5623156170693607eb",
+  "path": "skills/grafana-core/dashboarding",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "dashboarding",
+  "tool": "scripts/vendor_skill.py"
+}

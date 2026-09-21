@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/zanwei/design-dna",
+  "ref": "main",
+  "commit": "593e39bc9e3652734653bd75544a333d7d43615e",
+  "path": "",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "design-dna",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/mattpocock/skills",
+  "ref": "main",
+  "commit": "755611effd107b63d9477e3aa6bf6fbb6ece3d87",
+  "path": "skills/engineering/to-spec",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "to-spec",
+  "note": "Provenance reconstructed 2026-09-21 by matching the tree against upstream history (upstream commit dated 2026-08-15); the copy predates SOURCE.json tracking."
+}

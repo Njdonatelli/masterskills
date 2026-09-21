@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/conorluddy/ios-simulator-skill",
+  "ref": "main",
+  "commit": "037a37f135100c76157b4c915a5b55bd272b5e32",
+  "path": "ios-simulator-skill/skills/ios-simulator-skill",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "ios-simulator-skill",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/timescale/pg-aiguide",
+  "ref": "main",
+  "commit": "2bf9f11df6175d555e9a7f63325b226dca71c1b7",
+  "path": "skills/design-postgres-tables",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "design-postgres-tables",
+  "tool": "scripts/vendor_skill.py"
+}

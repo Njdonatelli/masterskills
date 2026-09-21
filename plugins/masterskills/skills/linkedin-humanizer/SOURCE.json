@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/sergebulaev/linkedin-skills",
+  "ref": "main",
+  "commit": "baa9c909916f98764828e15e7cfc9dffa1aaadb1",
+  "path": "skills/linkedin-humanizer",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "linkedin-humanizer",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "scripts/detectors.env"
+  ],
+  "lint_ignore_reason": "scripts/detectors.env.example exists; the checker cut the extension"
+}

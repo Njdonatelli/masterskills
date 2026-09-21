@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/danyuchn/asd-ste100-skill",
+  "ref": "main",
+  "commit": "4c1633c2d86591e6b95ba0a7b5d677dde8bc88c1",
+  "path": "",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "asd-ste100",
+  "note": "Provenance reconstructed 2026-09-21 by matching tree against upstream history; upstream HEAD 7d4a135 (2026-09-08) adds scripts/ and examples/linter-edge-cases.md."
+}

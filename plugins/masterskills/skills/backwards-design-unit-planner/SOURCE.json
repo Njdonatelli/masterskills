@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/GarethManning/education-agent-skills",
+  "ref": "main",
+  "commit": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+  "path": "skills/curriculum-assessment/backwards-design-unit-planner",
+  "license": "CC-BY-4.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "backwards-design-unit-planner",
+  "tool": "scripts/vendor_skill.py"
+}

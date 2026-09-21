@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/expo/skills",
+  "ref": "main",
+  "commit": "39708666ce7014def1f8e34f3d8c93e8d3f588bb",
+  "path": "plugins/expo/skills/expo-native-ui",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "expo-native-ui",
+  "tool": "scripts/vendor_skill.py"
+}

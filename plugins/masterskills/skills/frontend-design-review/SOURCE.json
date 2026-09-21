@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/microsoft/skills",
+  "ref": "main",
+  "commit": "96bbd0043d58468fe02090a1691a138e1ef0182b",
+  "path": ".github/skills/frontend-design-review",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "frontend-design-review",
+  "tool": "scripts/vendor_skill.py"
+}

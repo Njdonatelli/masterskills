@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/nowork-studio/notfair-plugin",
+  "ref": "main",
+  "commit": "68566c06e461ce114e371b852a4212f7d7747f67",
+  "path": "seo/keyword-research",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "keyword-research",
+  "tool": "scripts/vendor_skill.py",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../content-writer/SKILL.md -> https://github.com/nowork-studio/notfair-plugin/blob/68566c06e461ce114e371b852a4212f7d7747f67/seo/content-writer/SKILL.md",
+      "reason": "target lives outside the vendored skill directory"
+    }
+  ]
+}

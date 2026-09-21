@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/wondelai/skills",
+  "ref": "main",
+  "commit": "c172996495bed0fcd26896a9416b2093fd7073f0",
+  "path": "made-to-stick",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "made-to-stick",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/getsentry/skills",
+  "ref": "main",
+  "commit": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241",
+  "path": "skills/skill-scanner",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "skill-scanner",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "scripts/tool.py"
+  ],
+  "lint_ignore_reason": "example finding location in the report template"
+}

@@ -1,0 +1,24 @@
+{
+  "repo": "https://github.com/upstash/skills",
+  "ref": "main",
+  "commit": "c3d50bed429d2b30e17587521c8f2850864bff14",
+  "path": "skills/upstash-redis-js",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "upstash-redis-js",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "commands/aggregating.md",
+    "commands/aliases.md",
+    "commands/index-management.md",
+    "commands/querying.md"
+  ],
+  "lint_ignore_reason": "listed relative to the search/ folder; files exist at search/commands/",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "description trimmed from 1322 to 978 chars",
+      "reason": "Claude Code caps skill descriptions at 1024 characters"
+    }
+  ]
+}

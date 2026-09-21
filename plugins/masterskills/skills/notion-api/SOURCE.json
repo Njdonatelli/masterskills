@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/intellectronica/agent-skills",
+  "ref": "main",
+  "commit": "9b0e00ad1b941165e2506545bbfddafa34cf2cb8",
+  "path": "skills/notion-api",
+  "license": "UNKNOWN",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "notion-api",
+  "tool": "scripts/vendor_skill.py"
+}

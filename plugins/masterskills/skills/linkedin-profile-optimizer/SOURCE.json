@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/sergebulaev/linkedin-skills",
+  "ref": "main",
+  "commit": "baa9c909916f98764828e15e7cfc9dffa1aaadb1",
+  "path": "skills/linkedin-profile-optimizer",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "linkedin-profile-optimizer",
+  "tool": "scripts/vendor_skill.py"
+}

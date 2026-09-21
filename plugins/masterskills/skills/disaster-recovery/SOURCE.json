@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/BagelHole/DevOps-Security-Agent-Skills",
+  "ref": "main",
+  "commit": "0365f57a079b1332f95cf26e31dd2d5332a8399f",
+  "path": "compliance/continuity/disaster-recovery",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "disaster-recovery",
+  "tool": "scripts/vendor_skill.py"
+}

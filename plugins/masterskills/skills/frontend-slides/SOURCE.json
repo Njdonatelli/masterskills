@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/zarazhangrui/frontend-slides",
+  "ref": "main",
+  "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+  "path": "",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "frontend-slides",
+  "tool": "scripts/vendor_skill.py"
+}

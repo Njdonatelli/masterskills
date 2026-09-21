@@ -1,0 +1,17 @@
+{
+  "repo": "https://github.com/elementalsouls/Claude-OSINT",
+  "ref": "main",
+  "commit": "13d920413448c026b52ac74efee0f1eb39dd81ff",
+  "path": "skills/email-domain-security",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "email-domain-security",
+  "tool": "scripts/vendor_skill.py",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "description trimmed from 1594 to 764 chars",
+      "reason": "Claude Code caps skill descriptions at 1024 characters"
+    }
+  ]
+}

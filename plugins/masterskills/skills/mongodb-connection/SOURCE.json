@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/mongodb/agent-skills",
+  "ref": "main",
+  "commit": "1e72df255e54e81eff078054c2cfb2b5d8c13503",
+  "path": "skills/mongodb-connection",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "mongodb-connection",
+  "tool": "scripts/vendor_skill.py"
+}

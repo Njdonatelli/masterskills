@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/Aaronontheweb/dotnet-skills",
+  "ref": "master",
+  "commit": "e426ed93a9f3215cd21b277fdfa6bfccd3457945",
+  "path": "skills/aot-trimming",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "aot-trimming",
+  "tool": "scripts/vendor_skill.py"
+}

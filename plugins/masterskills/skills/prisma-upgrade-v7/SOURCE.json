@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/prisma/skills",
+  "ref": "main",
+  "commit": "1123817e60d15ca0f3af91878923241dee7e3b09",
+  "path": "prisma-upgrade-v7",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "prisma-upgrade-v7",
+  "tool": "scripts/vendor_skill.py"
+}

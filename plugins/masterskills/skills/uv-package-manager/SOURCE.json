@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/wshobson/agents",
+  "ref": "main",
+  "commit": "4236bb91f8395b0435f1d8b8baf9e8e4c69a8620",
+  "path": "plugins/python-development/skills/uv-package-manager",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "uv-package-manager",
+  "tool": "scripts/vendor_skill.py"
+}

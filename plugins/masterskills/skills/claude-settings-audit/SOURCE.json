@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/getsentry/skills",
+  "ref": "main",
+  "commit": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241",
+  "path": "skills/claude-settings-audit",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "claude-settings-audit",
+  "tool": "scripts/vendor_skill.py",
+  "lint_ignore": [
+    "scripts/deploy.sh"
+  ],
+  "lint_ignore_reason": "example of a script to exclude, not a bundled file"
+}

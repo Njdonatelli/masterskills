@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/lackeyjb/playwright-skill",
+  "ref": "main",
+  "commit": "dd47a6a023e249eb1b36e9e943eab89d0900865d",
+  "path": "skills/playwright-skill",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "playwright-skill",
+  "tool": "scripts/vendor_skill.py"
+}

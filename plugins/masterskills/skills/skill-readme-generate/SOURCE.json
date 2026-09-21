@@ -1,0 +1,14 @@
+{
+  "repo": "https://github.com/agenvoy/skill-readme-generate",
+  "ref": "master",
+  "commit": "989a3b73d5012235e210ec32e3fb36d42bcd95ae",
+  "path": "",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "skill-readme-generate",
+  "note": "Provenance reconstructed 2026-09-21 from the nested .git that the earlier vendoring left behind; that .git was removed.",
+  "lint_ignore": [
+    "../README.md"
+  ],
+  "lint_ignore_reason": "template text for generated bilingual READMEs, not a bundled file"
+}

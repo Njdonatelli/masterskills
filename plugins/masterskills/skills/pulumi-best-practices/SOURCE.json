@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/pulumi/agent-skills",
+  "ref": "main",
+  "commit": "9b794aec9c4169f137285c2763c06064d247dd47",
+  "path": "pulumi/skills/pulumi-best-practices",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "pulumi-best-practices",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/Jeffallan/claude-skills",
+  "ref": "main",
+  "commit": "882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf",
+  "path": "skills/django-expert",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "django-expert",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/PostHog/skills",
+  "ref": "main",
+  "commit": "07fe14c7b9acc961681bf6afc8ed12e1f3df096a",
+  "path": "skills/posthog/feature-flags/skills/all",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "omnibus-instrument-feature-flags",
+  "tool": "scripts/vendor_skill.py"
+}

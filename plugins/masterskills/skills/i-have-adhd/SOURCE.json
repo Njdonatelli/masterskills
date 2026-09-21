@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/ayghri/i-have-adhd",
+  "ref": "main",
+  "commit": "839872f9d1cd634fed642b4589ce7226199cc15f",
+  "path": "skills/i-have-adhd",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "i-have-adhd",
+  "tool": "scripts/vendor_skill.py"
+}

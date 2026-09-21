@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/google-gemma/gemma-skills",
+  "ref": "main",
+  "commit": "c540adc301f6e50d9e20305c0003e409f8c84398",
+  "path": "skills/gemma-trainer",
+  "license": "Apache-2.0",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "gemma-trainer",
+  "note": "Provenance reconstructed 2026-09-21 by matching the tree against upstream history (upstream commit dated 2026-07-08); the copy predates SOURCE.json tracking."
+}

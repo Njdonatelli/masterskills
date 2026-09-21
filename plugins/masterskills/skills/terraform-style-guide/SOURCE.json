@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/hashicorp/agent-skills",
+  "ref": "main",
+  "commit": "c2d65dfe492f74d360d35b859b88932222470bd8",
+  "path": "plugins/terraform/skills/terraform-style-guide",
+  "license": "MPL-2.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "terraform-style-guide",
+  "tool": "scripts/vendor_skill.py"
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/trailofbits/skills",
+  "ref": "main",
+  "commit": "32e34f8173796e3566a51aee877dc96bc5191f64",
+  "path": "plugins/testing-handbook-skills/skills/libfuzzer",
+  "license": "CC-BY-4.0",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "libfuzzer",
+  "tool": "scripts/vendor_skill.py"
+}

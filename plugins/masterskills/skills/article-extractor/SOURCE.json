@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/michalparkola/tapestry-skills-for-claude-code",
+  "ref": "main",
+  "commit": "80e1dc56df74d1cb849ad649c7ead9756e7929bb",
+  "path": "article-extractor",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "article-extractor",
+  "tool": "scripts/vendor_skill.py"
+}

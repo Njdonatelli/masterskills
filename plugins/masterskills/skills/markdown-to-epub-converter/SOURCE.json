@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/smerchek/claude-epub-skill",
+  "ref": "main",
+  "commit": "7c0723087b9f6ec2352b42b73f61d224b542e059",
+  "path": "markdown-to-epub",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "markdown-to-epub-converter",
+  "tool": "scripts/vendor_skill.py"
+}

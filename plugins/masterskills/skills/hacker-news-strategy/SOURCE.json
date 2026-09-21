@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/jonathimer/devmarketing-skills",
+  "ref": "main",
+  "commit": "500b44b53220292879223a807ce0d349aafe2537",
+  "path": "skills/hacker-news-strategy",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "hacker-news-strategy",
+  "tool": "scripts/vendor_skill.py"
+}

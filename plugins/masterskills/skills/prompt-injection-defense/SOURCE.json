@@ -1,0 +1,27 @@
+{
+  "repo": "https://github.com/BagelHole/DevOps-Security-Agent-Skills",
+  "ref": "main",
+  "commit": "0365f57a079b1332f95cf26e31dd2d5332a8399f",
+  "path": "security/ai/prompt-injection-defense",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "prompt-injection-defense",
+  "tool": "scripts/vendor_skill.py",
+  "patches": [
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../../operations/security-automation -> https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/0365f57a079b1332f95cf26e31dd2d5332a8399f/security/operations/security-automation",
+      "reason": "target lives outside the vendored skill directory"
+    },
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../ai-agent-security -> https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/0365f57a079b1332f95cf26e31dd2d5332a8399f/security/ai/ai-agent-security",
+      "reason": "target lives outside the vendored skill directory"
+    },
+    {
+      "file": "SKILL.md",
+      "change": "relative link ../llm-app-security -> https://github.com/BagelHole/DevOps-Security-Agent-Skills/blob/0365f57a079b1332f95cf26e31dd2d5332a8399f/security/ai/llm-app-security",
+      "reason": "target lives outside the vendored skill directory"
+    }
+  ]
+}

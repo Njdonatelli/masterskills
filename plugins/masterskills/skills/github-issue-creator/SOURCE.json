@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/microsoft/skills",
+  "ref": "main",
+  "commit": "96bbd0043d58468fe02090a1691a138e1ef0182b",
+  "path": ".github/skills/github-issue-creator",
+  "license": "MIT",
+  "vendored_at": "2026-09-21",
+  "upstream_name": "github-issue-creator",
+  "tool": "scripts/vendor_skill.py"
+}

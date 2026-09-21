@@ -1,0 +1,11 @@
+{
+  "repo": "https://github.com/alirezarezvani/claude-skills",
+  "ref": "main",
+  "commit": "aa8d778811a557a2c28ccadda4cf3d0bd028a4cc",
+  "path": "markdown-html/skills/md-document",
+  "license": "MIT",
+  "vendored_at": "2026-09-08",
+  "upstream_name": "md-document",
+  "local_divergence": true,
+  "note": "Provenance reconstructed 2026-09-21: the skill exists at this upstream path but the local copy matches no upstream commit (edited locally before this audit, or copied from an older fork). Diff against the upstream path before updating."
+}
