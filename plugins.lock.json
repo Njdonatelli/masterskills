@@ -3,6 +3,7 @@
     "addy-agent-skills": "https://github.com/addyosmani/agent-skills.git",
     "claude-code-skills": "alirezarezvani/claude-skills",
     "caveman": "JuliusBrussee/caveman",
+    "claude-plugins-official": "anthropics/claude-plugins-official",
     "superpowers-marketplace": "obra/superpowers-marketplace",
     "ui-ux-pro-max-skill": "nextlevelbuilder/ui-ux-pro-max-skill",
     "web-designer-marketplace": "MickeyAlton33/web-designer-plugin"
@@ -47,6 +48,11 @@
       "name": "marketing-skills",
       "marketplace": "claude-code-skills",
       "version": "2.9.0"
+    },
+    {
+      "name": "notion",
+      "marketplace": "claude-plugins-official",
+      "version": "0.1.0"
     },
     {
       "name": "pm-skills",
