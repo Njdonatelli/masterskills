@@ -15,3 +15,6 @@ venv/
 
 # Local Claude state that must not ship with the marketplace
 .claude/settings.local.json
+
+# Private owner profiles: facts and decisions stay on the authoring machine
+plugins/masterskills/skills/*/profile.md
