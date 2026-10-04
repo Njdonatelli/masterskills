@@ -1,17 +1,17 @@
 ---
 name: linkedin-post-writer
-description: Draft LinkedIn posts, comments and replies for Nick from his real work (donatelli.tech products, vlogs, research), in a plain and slightly reluctant voice. Drafts only, never publishes. Use when the user asks for a LinkedIn post, a LinkedIn draft, "something to post", a comment or reply for LinkedIn, or wants to turn a finished job, product, vlog or lesson into a post.
+description: Draft LinkedIn posts, comments and replies for Nick from his real work (donatelli.tech products, vlogs, research), in a plain and slightly reluctant voice. Drafts by default; posts to LinkedIn only when he asks for a specific approved draft to be posted. Use when the user asks for a LinkedIn post, a LinkedIn draft, "something to post", a comment or reply for LinkedIn, or wants to turn a finished job, product, vlog or lesson into a post. Also use when he asks to post an approved draft to LinkedIn.
 ---
 
 # LinkedIn Post Writer
 
-Write LinkedIn drafts that a sceptical reader would not mock and that let a possible client see what the owner can do. The owner dislikes social media and pastes the draft himself.
+Write LinkedIn drafts that a sceptical reader would not mock and that let a possible client see what the owner can do. The owner dislikes social media and usually pastes the draft himself; on request the skill posts an approved draft for him (see "Posting on request").
 
 The research behind these rules is in `research/linkedin-report.md` of the set-and-forget-products repo (background; no need to read it to draft). The short version: most long LinkedIn posts are now machine-written and readers punish it; the feed and buyers both favour plain knowledge from someone who does the work; frequency matters little.
 
 ## Hard rules
 
-1. **Never publish.** Do not open LinkedIn, do not use a browser, scheduler, Zapier or any posting tool. Output text for the owner to paste.
+1. **Draft by default; post only on request.** Never post, comment, reply, schedule or edit anything on LinkedIn unless the owner asks in this session for a specific draft to be posted. A request for a draft is not a request to post. When he does ask, follow "Posting on request" below exactly.
 2. **Never invent.** No made-up client, quote, number, date, conversation, feeling or outcome. Every factual statement in a draft must trace to `profile.md`, to a file you read in this session, or to something the owner said in this session.
 3. **A missing fact is a question or a marker, never a guess.** Ask the owner. If he is not available, write `[CONFIRM: what is needed]` as its own sentence at that spot and list it under the draft. At most two markers per draft. If the draft needs more, or the missing fact is the point of the post, do not draft: return the questions and say what you can write once they are answered.
 4. **Inference is limited to arithmetic and restating a known fact.** "4 of 148 is under 3 percent" is allowed. A motive, a reason, a consequence or a promise on the owner's behalf ("message me and I will answer") is not, unless he said it.
@@ -87,9 +87,22 @@ Output, in this order:
 
 Do not add a pep talk, a posting schedule or growth advice unless asked.
 
+## Posting on request
+
+Only when the owner asks, in this session, for a specific draft to be posted.
+
+1. **The draft must be ready.** Linter passes, no `[CONFIRM]` markers, the "To confirm" list is settled. Otherwise stop and say what is open.
+2. **Settle the additions.** Ask whether he wants a link, price or image added, since drafts leave these out. Add only what he gives.
+3. **Show the final text and ask.** Print the exact text that will go out, plus any image, and ask "Post this to LinkedIn now?". Wait for a clear yes. A yes covers that text only; any change needs a new yes.
+4. **Post through his own logged-in browser** (Claude in Chrome). Open the LinkedIn post composer, enter the text exactly, and check the preview against the approved text before pressing Post. If the browser is not logged in, stop and ask him to log in himself. Never type a password, never create an account, never solve a CAPTCHA, never use a third-party posting tool or API.
+5. **One post, as his personal profile, to the default audience** unless he says otherwise. Do not like, follow, connect, message, or comment while there.
+6. **Report.** Give the post's URL, or say plainly that it failed and what LinkedIn showed. Do not retry more than once without asking; a double post is worse than no post.
+
+Comments and replies follow the same six steps, one at a time. Never post several in a batch: LinkedIn restricts accounts for automated commenting.
+
 ## Other requests
 
 - **Comments on other people's posts** (taking part in the community): one to three sentences that add a fact or a specific question from his own experience. No praise-only comments ("Great post"), no pitch, no product name. A real question to the poster is fine here. Check with `lint_post.py c.txt --comment` (15 to 60 words). He pastes them.
 - **Replies to comments on his posts:** one to three sentences, same voice, same rules.
 - **"Give me a month of posts":** list the real events available from `profile.md`, the project files and the session. Draft one post per event. Do not pad the count with opinion pieces.
-- **Posting or scheduling for him:** decline and explain rule 1. He can change the rule by editing this file.
+- **Scheduling, auto-posting or a standing permission to post:** decline. Each post needs its own request and its own confirmation.
