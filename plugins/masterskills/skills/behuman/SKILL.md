@@ -1,6 +1,7 @@
 ---
 name: "behuman"
-description: "Use when the user wants more human-like AI responses — less robotic, less listy, more authentic. Triggers: 'behuman', 'be real', 'like a human', 'more human', 'less AI', 'talk like a person', 'mirror mode', 'stop being so AI', or when conversations are emotionally charged (grief, job loss, relationship advice, fear). NOT for technical questions, code generation, or factual lookups."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —m—o—r—e— —h—u—m—a—n—-—l—i—k—e— —A—I— —r—e—s—p—o—n—s—e—s— ——— —l—e—s—s— —r—o—b—o—t—i—c—,— —l—e—s—s— —l—i—s—t—y—,— —m—o—r—e— —a—u—t—h—e—n—t—i—c—.— —T—r—i—g—g—e—r—s—:— —'—b—e—h—u—m—a—n—'—,— —'—b—e— —r—e—a—l—'—,— —'—l—i—k—e— —a— —h—u—m—a—n—'—,— —'—m—o—r—e— —h—u—m—a—n—'—,— —'—l—e—s—s— —A—I—'—,— —'—t—a—l—k— —l—i—k—e— —a— —p—e—r—s—o—n—'—,— —'—m—i—r—r—o—r— —m—o—d—e—'—,— —'—s—t—o—p— —b—e—i—n—g— —s—o— —A—I—'—,— —o—r— —w—h—e—n— —c—o—n—v—e—r—s—a—t—i—o—n—s— —a—r—e— —e—m—o—t—i—o—n—a—l—l—y— —c—h—a—r—g—e—d— —(—g—r—i—e—f—,— —j—o—b— —l—o—s—s—,— —r—e—l—a—t—i—o—n—s—h—i—p— —a—d—v—i—c—e—,— —f—e—a—r—)—.— —N—O—T— —f—o—r— —t—e—c—h—n—i—c—a—l— —q—u—e—s—t—i—o—n—s—,— —c—o—d—e— —g—e—n—e—r—a—t—i—o—n—,— —o—r— —f—a—c—t—u—a—l— —l—o—o—k—u—p—s.
 ---
 
 # BeHuman — Self-Mirror Consciousness Loop

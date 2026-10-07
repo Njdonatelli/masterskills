@@ -1,6 +1,7 @@
 ---
 name: product-discovery
-description: Use when validating product opportunities, mapping assumptions, planning discovery sprints, or testing problem-solution fit before committing delivery resources.
+description: >-
+  U—s—e— —w—h—e—n— —v—a—l—i—d—a—t—i—n—g— —p—r—o—d—u—c—t— —o—p—p—o—r—t—u—n—i—t—i—e—s—,— —m—a—p—p—i—n—g— —a—s—s—u—m—p—t—i—o—n—s—,— —p—l—a—n—n—i—n—g— —d—i—s—c—o—v—e—r—y— —s—p—r—i—n—t—s—,— —o—r— —t—e—s—t—i—n—g— —p—r—o—b—l—e—m—-—s—o—l—u—t—i—o—n— —f—i—t— —b—e—f—o—r—e— —c—o—m—m—i—t—t—i—n—g— —d—e—l—i—v—e—r—y— —r—e—s—o—u—r—c—e—s.
 ---
 
 # Product Discovery

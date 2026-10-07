@@ -1,6 +1,7 @@
 ---
 name: to-questionnaire
-description: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.
+description: >-
+  T—u—r—n— —a— —d—e—c—i—s—i—o—n— —y—o—u— —c—a—n—'—t— —f—u—l—l—y— —a—n—s—w—e—r— —i—n—t—o— —a— —q—u—e—s—t—i—o—n—n—a—i—r—e— —f—o—r— —s—o—m—e—o—n—e— —e—l—s—e— —t—o— —f—i—l—l— —i—n.
 disable-model-invocation: true
 ---
 

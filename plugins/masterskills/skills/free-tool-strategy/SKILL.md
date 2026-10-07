@@ -1,6 +1,7 @@
 ---
 name: "free-tool-strategy"
-description: "When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive tool,' or 'free resource.' Covers idea evaluation, tool design, and launch strategy. For pure SEO content strategy (no tool), use seo-audit or content-strategy instead."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —b—u—i—l—d— —a— —f—r—e—e— —t—o—o—l— —f—o—r— —m—a—r—k—e—t—i—n—g— ——— —l—e—a—d— —g—e—n—e—r—a—t—i—o—n—,— —S—E—O— —v—a—l—u—e—,— —o—r— —b—r—a—n—d— —a—w—a—r—e—n—e—s—s—.— —U—s—e— —w—h—e—n— —t—h—e—y— —m—e—n—t—i—o—n— —'—e—n—g—i—n—e—e—r—i—n—g— —a—s— —m—a—r—k—e—t—i—n—g—,—'— —'—f—r—e—e— —t—o—o—l—,—'— —'—c—a—l—c—u—l—a—t—o—r—,—'— —'—g—e—n—e—r—a—t—o—r—,—'— —'—c—h—e—c—k—e—r—,—'— —'—g—r—a—d—e—r—,—'— —'—m—a—r—k—e—t—i—n—g— —t—o—o—l—,—'— —'—l—e—a—d— —g—e—n— —t—o—o—l—,—'— —'—b—u—i—l—d— —s—o—m—e—t—h—i—n—g— —f—o—r— —t—r—a—f—f—i—c—,—'— —'—i—n—t—e—r—a—c—t—i—v—e— —t—o—o—l—,—'— —o—r— —'—f—r—e—e— —r—e—s—o—u—r—c—e—.—'— —C—o—v—e—r—s— —i—d—e—a— —e—v—a—l—u—a—t—i—o—n—,— —t—o—o—l— —d—e—s—i—g—n—,— —a—n—d— —l—a—u—n—c—h— —s—t—r—a—t—e—g—y—.— —F—o—r— —p—u—r—e— —S—E—O— —c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y— —(—n—o— —t—o—o—l—)—,— —u—s—e— —s—e—o—-—a—u—d—i—t— —o—r— —c—o—n—t—e—n—t—-—s—t—r—a—t—e—g—y— —i—n—s—t—e—a—d.
 license: MIT
 metadata:
   version: 1.0.0

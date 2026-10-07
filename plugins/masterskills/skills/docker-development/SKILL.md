@@ -1,6 +1,7 @@
 ---
 name: "docker-development"
-description: "Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening. Use when: user wants to optimize a Dockerfile, create or improve docker-compose configurations, implement multi-stage builds, audit container security, reduce image size, or follow container best practices. Covers build performance, layer caching, secret management, and production-ready container patterns."
+description: >-
+  D—o—c—k—e—r— —a—n—d— —c—o—n—t—a—i—n—e—r— —d—e—v—e—l—o—p—m—e—n—t— —a—g—e—n—t— —s—k—i—l—l— —a—n—d— —p—l—u—g—i—n— —f—o—r— —D—o—c—k—e—r—f—i—l—e— —o—p—t—i—m—i—z—a—t—i—o—n—,— —d—o—c—k—e—r—-—c—o—m—p—o—s—e— —o—r—c—h—e—s—t—r—a—t—i—o—n—,— —m—u—l—t—i—-—s—t—a—g—e— —b—u—i—l—d—s—,— —a—n—d— —c—o—n—t—a—i—n—e—r— —s—e—c—u—r—i—t—y— —h—a—r—d—e—n—i—n—g—.— —U—s—e— —w—h—e—n—:— —u—s—e—r— —w—a—n—t—s— —t—o— —o—p—t—i—m—i—z—e— —a— —D—o—c—k—e—r—f—i—l—e—,— —c—r—e—a—t—e— —o—r— —i—m—p—r—o—v—e— —d—o—c—k—e—r—-—c—o—m—p—o—s—e— —c—o—n—f—i—g—u—r—a—t—i—o—n—s—,— —i—m—p—l—e—m—e—n—t— —m—u—l—t—i—-—s—t—a—g—e— —b—u—i—l—d—s—,— —a—u—d—i—t— —c—o—n—t—a—i—n—e—r— —s—e—c—u—r—i—t—y—,— —r—e—d—u—c—e— —i—m—a—g—e— —s—i—z—e—,— —o—r— —f—o—l—l—o—w— —c—o—n—t—a—i—n—e—r— —b—e—s—t— —p—r—a—c—t—i—c—e—s—.— —C—o—v—e—r—s— —b—u—i—l—d— —p—e—r—f—o—r—m—a—n—c—e—,— —l—a—y—e—r— —c—a—c—h—i—n—g—,— —s—e—c—r—e—t— —m—a—n—a—g—e—m—e—n—t—,— —a—n—d— —p—r—o—d—u—c—t—i—o—n—-—r—e—a—d—y— —c—o—n—t—a—i—n—e—r— —p—a—t—t—e—r—n—s.
 license: MIT
 metadata:
   version: 1.0.0

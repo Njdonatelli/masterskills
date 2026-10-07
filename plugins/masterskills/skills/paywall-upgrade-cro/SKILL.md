@@ -1,6 +1,7 @@
 ---
 name: "paywall-upgrade-cro"
-description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," or "in-app pricing." Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e— —o—r— —o—p—t—i—m—i—z—e— —i—n—-—a—p—p— —p—a—y—w—a—l—l—s—,— —u—p—g—r—a—d—e— —s—c—r—e—e—n—s—,— —u—p—s—e—l—l— —m—o—d—a—l—s—,— —o—r— —f—e—a—t—u—r—e— —g—a—t—e—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—p—a—y—w—a—l—l—,—"— —"—u—p—g—r—a—d—e— —s—c—r—e—e—n—,—"— —"—u—p—g—r—a—d—e— —m—o—d—a—l—,—"— —"—u—p—s—e—l—l—,—"— —"—f—e—a—t—u—r—e— —g—a—t—e—,—"— —"—c—o—n—v—e—r—t— —f—r—e—e— —t—o— —p—a—i—d—,—"— —"—f—r—e—e—m—i—u—m— —c—o—n—v—e—r—s—i—o—n—,—"— —"—t—r—i—a—l— —e—x—p—i—r—a—t—i—o—n— —s—c—r—e—e—n—,—"— —"—l—i—m—i—t— —r—e—a—c—h—e—d— —s—c—r—e—e—n—,—"— —"—p—l—a—n— —u—p—g—r—a—d—e— —p—r—o—m—p—t—,—"— —o—r— —"—i—n—-—a—p—p— —p—r—i—c—i—n—g—.—"— —D—i—s—t—i—n—c—t— —f—r—o—m— —p—u—b—l—i—c— —p—r—i—c—i—n—g— —p—a—g—e—s— —(—s—e—e— —p—a—g—e—-—c—r—o—)— ——— —t—h—i—s— —s—k—i—l—l— —f—o—c—u—s—e—s— —o—n— —i—n—-—p—r—o—d—u—c—t— —u—p—g—r—a—d—e— —m—o—m—e—n—t—s— —w—h—e—r—e— —t—h—e— —u—s—e—r— —h—a—s— —a—l—r—e—a—d—y— —e—x—p—e—r—i—e—n—c—e—d— —v—a—l—u—e.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 name: "pw"
-description: "Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserStack. 55 templates, 3 agents, smart reporting."
+description: >-
+  P—r—o—d—u—c—t—i—o—n—-—g—r—a—d—e— —P—l—a—y—w—r—i—g—h—t— —t—e—s—t—i—n—g— —t—o—o—l—k—i—t—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —P—l—a—y—w—r—i—g—h—t— —t—e—s—t—s—,— —e—n—d—-—t—o—-—e—n—d— —t—e—s—t—i—n—g—,— —b—r—o—w—s—e—r— —a—u—t—o—m—a—t—i—o—n—,— —f—i—x—i—n—g— —f—l—a—k—y— —t—e—s—t—s—,— —t—e—s—t— —m—i—g—r—a—t—i—o—n—,— —C—I—/—C—D— —t—e—s—t—i—n—g—,— —o—r— —t—e—s—t— —s—u—i—t—e—s—.— —G—e—n—e—r—a—t—e— —t—e—s—t—s—,— —f—i—x— —f—l—a—k—y— —f—a—i—l—u—r—e—s—,— —m—i—g—r—a—t—e— —f—r—o—m— —C—y—p—r—e—s—s—/—S—e—l—e—n—i—u—m—,— —s—y—n—c— —w—i—t—h— —T—e—s—t—R—a—i—l—,— —r—u—n— —o—n— —B—r—o—w—s—e—r—S—t—a—c—k—.— —5—5— —t—e—m—p—l—a—t—e—s—,— —3— —a—g—e—n—t—s—,— —s—m—a—r—t— —r—e—p—o—r—t—i—n—g.
 ---
 
 # Playwright Pro

@@ -1,6 +1,7 @@
 ---
 name: "ra-qm-skills"
-description: "Router/index for the 15 regulatory & quality-management skills bundled in this plugin (ISO 13485 QMS, EU MDR 2017/745, FDA submissions under QMSR, ISO 14971 risk, CAPA, document control, ISO 27001/ISMS, ISO 42001 AIMS, EU AI Act, GDPR/DSGVO, SOC 2, auditing). Use when a compliance request doesn't obviously match one skill and you need to pick the right one (e.g., 'prepare us for an ISO 13485 audit', 'is my AI system high-risk under the AI Act')."
+description: >-
+  R—o—u—t—e—r—/—i—n—d—e—x— —f—o—r— —t—h—e— —1—5— —r—e—g—u—l—a—t—o—r—y— —&— —q—u—a—l—i—t—y—-—m—a—n—a—g—e—m—e—n—t— —s—k—i—l—l—s— —b—u—n—d—l—e—d— —i—n— —t—h—i—s— —p—l—u—g—i—n— —(—I—S—O— —1—3—4—8—5— —Q—M—S—,— —E—U— —M—D—R— —2—0—1—7—/—7—4—5—,— —F—D—A— —s—u—b—m—i—s—s—i—o—n—s— —u—n—d—e—r— —Q—M—S—R—,— —I—S—O— —1—4—9—7—1— —r—i—s—k—,— —C—A—P—A—,— —d—o—c—u—m—e—n—t— —c—o—n—t—r—o—l—,— —I—S—O— —2—7—0—0—1—/—I—S—M—S—,— —I—S—O— —4—2—0—0—1— —A—I—M—S—,— —E—U— —A—I— —A—c—t—,— —G—D—P—R—/—D—S—G—V—O—,— —S—O—C— —2—,— —a—u—d—i—t—i—n—g—)—.— —U—s—e— —w—h—e—n— —a— —c—o—m—p—l—i—a—n—c—e— —r—e—q—u—e—s—t— —d—o—e—s—n—'—t— —o—b—v—i—o—u—s—l—y— —m—a—t—c—h— —o—n—e— —s—k—i—l—l— —a—n—d— —y—o—u— —n—e—e—d— —t—o— —p—i—c—k— —t—h—e— —r—i—g—h—t— —o—n—e— —(—e—.—g—.—,— —'—p—r—e—p—a—r—e— —u—s— —f—o—r— —a—n— —I—S—O— —1—3—4—8—5— —a—u—d—i—t—'—,— —'—i—s— —m—y— —A—I— —s—y—s—t—e—m— —h—i—g—h—-—r—i—s—k— —u—n—d—e—r— —t—h—e— —A—I— —A—c—t—'—).
 version: 2.9.0
 author: Alireza Rezvani
 license: MIT

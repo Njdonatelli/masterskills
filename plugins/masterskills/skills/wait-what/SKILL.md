@@ -1,6 +1,7 @@
 ---
 name: wait-what
-description: Stop. That last message did not land — re-pitch it.
+description: >-
+  S—t—o—p—.— —T—h—a—t— —l—a—s—t— —m—e—s—s—a—g—e— —d—i—d— —n—o—t— —l—a—n—d— ——— —r—e—-—p—i—t—c—h— —i—t.
 disable-model-invocation: true
 ---
 

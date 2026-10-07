@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
-description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —a—u—d—i—t—,— —r—e—v—i—e—w—,— —o—r— —d—i—a—g—n—o—s—e— —S—E—O— —i—s—s—u—e—s— —o—n— —t—h—e—i—r— —s—i—t—e—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—S—E—O— —a—u—d—i—t—,—"— —"—t—e—c—h—n—i—c—a—l— —S—E—O—,—"— —"—w—h—y— —a—m— —I— —n—o—t— —r—a—n—k—i—n—g—,—"— —"—S—E—O— —i—s—s—u—e—s—,—"— —"—o—n—-—p—a—g—e— —S—E—O—,—"— —"—m—e—t—a— —t—a—g—s— —r—e—v—i—e—w—,—"— —o—r— —"—S—E—O— —h—e—a—l—t—h— —c—h—e—c—k—.—"— —F—o—r— —b—u—i—l—d—i—n—g— —p—a—g—e—s— —a—t— —s—c—a—l—e— —t—o— —t—a—r—g—e—t— —k—e—y—w—o—r—d—s—,— —s—e—e— —p—r—o—g—r—a—m—m—a—t—i—c—-—s—e—o—.— —F—o—r— —a—d—d—i—n—g— —s—t—r—u—c—t—u—r—e—d— —d—a—t—a—,— —s—e—e— —s—c—h—e—m—a—-—m—a—r—k—u—p.
 license: MIT
 metadata:
   version: 1.0.0

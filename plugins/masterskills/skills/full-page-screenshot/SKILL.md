@@ -1,6 +1,7 @@
 ---
 name: "full-page-screenshot"
-description: "Use when the user asks to capture a full-page screenshot, long screenshot, or complete page capture of a web page. Handles SPA scroll containers, lazy-loaded images, and very tall pages via Chrome DevTools Protocol with zero external dependencies."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —c—a—p—t—u—r—e— —a— —f—u—l—l—-—p—a—g—e— —s—c—r—e—e—n—s—h—o—t—,— —l—o—n—g— —s—c—r—e—e—n—s—h—o—t—,— —o—r— —c—o—m—p—l—e—t—e— —p—a—g—e— —c—a—p—t—u—r—e— —o—f— —a— —w—e—b— —p—a—g—e—.— —H—a—n—d—l—e—s— —S—P—A— —s—c—r—o—l—l— —c—o—n—t—a—i—n—e—r—s—,— —l—a—z—y—-—l—o—a—d—e—d— —i—m—a—g—e—s—,— —a—n—d— —v—e—r—y— —t—a—l—l— —p—a—g—e—s— —v—i—a— —C—h—r—o—m—e— —D—e—v—T—o—o—l—s— —P—r—o—t—o—c—o—l— —w—i—t—h— —z—e—r—o— —e—x—t—e—r—n—a—l— —d—e—p—e—n—d—e—n—c—i—e—s.
 ---
 
 # Full Page Screenshot

@@ -1,6 +1,7 @@
 ---
 name: "ab-test-setup"
-description: When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "conversion experiment," "statistical significance," or "test this." For tracking implementation, see analytics-tracking.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —p—l—a—n—,— —d—e—s—i—g—n—,— —o—r— —i—m—p—l—e—m—e—n—t— —a—n— —A—/—B— —t—e—s—t— —o—r— —e—x—p—e—r—i—m—e—n—t—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—A—/—B— —t—e—s—t—,—"— —"—s—p—l—i—t— —t—e—s—t—,—"— —"—e—x—p—e—r—i—m—e—n—t—,—"— —"—t—e—s—t— —t—h—i—s— —c—h—a—n—g—e—,—"— —"—v—a—r—i—a—n—t— —c—o—p—y—,—"— —"—m—u—l—t—i—v—a—r—i—a—t—e— —t—e—s—t—,—"— —"—h—y—p—o—t—h—e—s—i—s—,—"— —"—c—o—n—v—e—r—s—i—o—n— —e—x—p—e—r—i—m—e—n—t—,—"— —"—s—t—a—t—i—s—t—i—c—a—l— —s—i—g—n—i—f—i—c—a—n—c—e—,—"— —o—r— —"—t—e—s—t— —t—h—i—s—.—"— —F—o—r— —t—r—a—c—k—i—n—g— —i—m—p—l—e—m—e—n—t—a—t—i—o—n—,— —s—e—e— —a—n—a—l—y—t—i—c—s—-—t—r—a—c—k—i—n—g.
 license: MIT
 metadata:
   version: 1.0.0

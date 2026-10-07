@@ -1,6 +1,7 @@
 ---
 name: "marketing-strategy-pmm"
-description: Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use when the user asks about product positioning, go-to-market planning, competitive analysis, target audience definition, ICP definition, market research, launch plans, or sales enablement. Covers April Dunford positioning, ICP definition, competitive battlecards, launch playbooks, and international market entry. Produces deliverables including positioning statements, battlecard documents, launch plans, and go-to-market strategies.
+description: >-
+  P—r—o—d—u—c—t— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l— —f—o—r— —p—o—s—i—t—i—o—n—i—n—g—,— —G—T—M— —s—t—r—a—t—e—g—y—,— —c—o—m—p—e—t—i—t—i—v—e— —i—n—t—e—l—l—i—g—e—n—c—e—,— —a—n—d— —p—r—o—d—u—c—t— —l—a—u—n—c—h—e—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —a—b—o—u—t— —p—r—o—d—u—c—t— —p—o—s—i—t—i—o—n—i—n—g—,— —g—o—-—t—o—-—m—a—r—k—e—t— —p—l—a—n—n—i—n—g—,— —c—o—m—p—e—t—i—t—i—v—e— —a—n—a—l—y—s—i—s—,— —t—a—r—g—e—t— —a—u—d—i—e—n—c—e— —d—e—f—i—n—i—t—i—o—n—,— —I—C—P— —d—e—f—i—n—i—t—i—o—n—,— —m—a—r—k—e—t— —r—e—s—e—a—r—c—h—,— —l—a—u—n—c—h— —p—l—a—n—s—,— —o—r— —s—a—l—e—s— —e—n—a—b—l—e—m—e—n—t—.— —C—o—v—e—r—s— —A—p—r—i—l— —D—u—n—f—o—r—d— —p—o—s—i—t—i—o—n—i—n—g—,— —I—C—P— —d—e—f—i—n—i—t—i—o—n—,— —c—o—m—p—e—t—i—t—i—v—e— —b—a—t—t—l—e—c—a—r—d—s—,— —l—a—u—n—c—h— —p—l—a—y—b—o—o—k—s—,— —a—n—d— —i—n—t—e—r—n—a—t—i—o—n—a—l— —m—a—r—k—e—t— —e—n—t—r—y—.— —P—r—o—d—u—c—e—s— —d—e—l—i—v—e—r—a—b—l—e—s— —i—n—c—l—u—d—i—n—g— —p—o—s—i—t—i—o—n—i—n—g— —s—t—a—t—e—m—e—n—t—s—,— —b—a—t—t—l—e—c—a—r—d— —d—o—c—u—m—e—n—t—s—,— —l—a—u—n—c—h— —p—l—a—n—s—,— —a—n—d— —g—o—-—t—o—-—m—a—r—k—e—t— —s—t—r—a—t—e—g—i—e—s.
 triggers:
   - product marketing
   - PMM

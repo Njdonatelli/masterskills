@@ -1,6 +1,7 @@
 ---
 name: "product-manager-toolkit"
-description: Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use when prioritizing features, synthesizing user research, writing requirement documentation, or developing product strategy.
+description: >-
+  C—o—m—p—r—e—h—e—n—s—i—v—e— —t—o—o—l—k—i—t— —f—o—r— —p—r—o—d—u—c—t— —m—a—n—a—g—e—r—s— —i—n—c—l—u—d—i—n—g— —R—I—C—E— —p—r—i—o—r—i—t—i—z—a—t—i—o—n—,— —c—u—s—t—o—m—e—r— —i—n—t—e—r—v—i—e—w— —a—n—a—l—y—s—i—s—,— —P—R—D— —t—e—m—p—l—a—t—e—s—,— —d—i—s—c—o—v—e—r—y— —f—r—a—m—e—w—o—r—k—s—,— —a—n—d— —g—o—-—t—o—-—m—a—r—k—e—t— —s—t—r—a—t—e—g—i—e—s—.— —U—s—e— —w—h—e—n— —p—r—i—o—r—i—t—i—z—i—n—g— —f—e—a—t—u—r—e—s—,— —s—y—n—t—h—e—s—i—z—i—n—g— —u—s—e—r— —r—e—s—e—a—r—c—h—,— —w—r—i—t—i—n—g— —r—e—q—u—i—r—e—m—e—n—t— —d—o—c—u—m—e—n—t—a—t—i—o—n—,— —o—r— —d—e—v—e—l—o—p—i—n—g— —p—r—o—d—u—c—t— —s—t—r—a—t—e—g—y.
 ---
 
 # Product Manager Toolkit

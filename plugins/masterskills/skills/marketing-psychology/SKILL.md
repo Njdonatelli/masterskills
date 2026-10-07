@@ -1,6 +1,7 @@
 ---
 name: "marketing-psychology"
-description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —a—p—p—l—y— —p—s—y—c—h—o—l—o—g—i—c—a—l— —p—r—i—n—c—i—p—l—e—s—,— —m—e—n—t—a—l— —m—o—d—e—l—s—,— —o—r— —b—e—h—a—v—i—o—r—a—l— —s—c—i—e—n—c—e— —t—o— —m—a—r—k—e—t—i—n—g—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—p—s—y—c—h—o—l—o—g—y—,—'— —'—m—e—n—t—a—l— —m—o—d—e—l—s—,—'— —'—c—o—g—n—i—t—i—v—e— —b—i—a—s—,—'— —'—p—e—r—s—u—a—s—i—o—n—,—'— —'—b—e—h—a—v—i—o—r—a—l— —s—c—i—e—n—c—e—,—'— —'—w—h—y— —p—e—o—p—l—e— —b—u—y—,—'— —'—d—e—c—i—s—i—o—n—-—m—a—k—i—n—g—,—'— —o—r— —'—c—o—n—s—u—m—e—r— —b—e—h—a—v—i—o—r—.—'— —T—h—i—s— —s—k—i—l—l— —p—r—o—v—i—d—e—s— —7—0—+— —m—e—n—t—a—l— —m—o—d—e—l—s— —o—r—g—a—n—i—z—e—d— —f—o—r— —m—a—r—k—e—t—i—n—g— —a—p—p—l—i—c—a—t—i—o—n.
 license: MIT
 metadata:
   version: 1.1.0

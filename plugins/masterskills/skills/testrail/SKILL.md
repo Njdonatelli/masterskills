@@ -1,9 +1,7 @@
 ---
 name: "testrail"
 description: >-
-  Sync tests with TestRail. Use when user mentions "testrail", "test management",
-  "test cases", "test run", "sync test cases", "push results to testrail",
-  or "import from testrail".
+  S—y—n—c— —t—e—s—t—s— —w—i—t—h— —T—e—s—t—R—a—i—l—.— —U—s—e— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—t—e—s—t—r—a—i—l—"—,— —"—t—e—s—t— —m—a—n—a—g—e—m—e—n—t—"—,— —"—t—e—s—t— —c—a—s—e—s—"—,— —"—t—e—s—t— —r—u—n—"—,— —"—s—y—n—c— —t—e—s—t— —c—a—s—e—s—"—,— —"—p—u—s—h— —r—e—s—u—l—t—s— —t—o— —t—e—s—t—r—a—i—l—"—,— —o—r— —"—i—m—p—o—r—t— —f—r—o—m— —t—e—s—t—r—a—i—l—".
 ---
 
 # TestRail Integration

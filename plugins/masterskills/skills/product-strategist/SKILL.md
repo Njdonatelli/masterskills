@@ -1,6 +1,7 @@
 ---
 name: "product-strategist"
-description: Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, running competitive analysis, drafting team structure or hiring plans, aligning product strategy across engineering and design, or generating cascaded goal hierarchies from company to team level.
+description: >-
+  S—t—r—a—t—e—g—i—c— —p—r—o—d—u—c—t— —l—e—a—d—e—r—s—h—i—p— —t—o—o—l—k—i—t— —f—o—r— —H—e—a—d— —o—f— —P—r—o—d—u—c—t— —c—o—v—e—r—i—n—g— —O—K—R— —c—a—s—c—a—d—e— —g—e—n—e—r—a—t—i—o—n—,— —q—u—a—r—t—e—r—l—y— —p—l—a—n—n—i—n—g—,— —c—o—m—p—e—t—i—t—i—v—e— —l—a—n—d—s—c—a—p—e— —a—n—a—l—y—s—i—s—,— —p—r—o—d—u—c—t— —v—i—s—i—o—n— —d—o—c—u—m—e—n—t—s—,— —a—n—d— —t—e—a—m— —s—c—a—l—i—n—g— —p—r—o—p—o—s—a—l—s—.— —U—s—e— —w—h—e—n— —c—r—e—a—t—i—n—g— —q—u—a—r—t—e—r—l—y— —O—K—R— —d—o—c—u—m—e—n—t—s—,— —d—e—f—i—n—i—n—g— —p—r—o—d—u—c—t— —g—o—a—l—s— —o—r— —K—P—I—s—,— —b—u—i—l—d—i—n—g— —p—r—o—d—u—c—t— —r—o—a—d—m—a—p—s—,— —r—u—n—n—i—n—g— —c—o—m—p—e—t—i—t—i—v—e— —a—n—a—l—y—s—i—s—,— —d—r—a—f—t—i—n—g— —t—e—a—m— —s—t—r—u—c—t—u—r—e— —o—r— —h—i—r—i—n—g— —p—l—a—n—s—,— —a—l—i—g—n—i—n—g— —p—r—o—d—u—c—t— —s—t—r—a—t—e—g—y— —a—c—r—o—s—s— —e—n—g—i—n—e—e—r—i—n—g— —a—n—d— —d—e—s—i—g—n—,— —o—r— —g—e—n—e—r—a—t—i—n—g— —c—a—s—c—a—d—e—d— —g—o—a—l— —h—i—e—r—a—r—c—h—i—e—s— —f—r—o—m— —c—o—m—p—a—n—y— —t—o— —t—e—a—m— —l—e—v—e—l.
 ---
 
 # Product Strategist

@@ -1,6 +1,7 @@
 ---
 name: "self-eval"
-description: "Honestly evaluate AI work quality using a two-axis scoring system. Use after completing a task, code review, or work session to get an unbiased assessment. Detects score inflation, forces devil's advocate reasoning, and persists scores across sessions."
+description: >-
+  H—o—n—e—s—t—l—y— —e—v—a—l—u—a—t—e— —A—I— —w—o—r—k— —q—u—a—l—i—t—y— —u—s—i—n—g— —a— —t—w—o—-—a—x—i—s— —s—c—o—r—i—n—g— —s—y—s—t—e—m—.— —U—s—e— —a—f—t—e—r— —c—o—m—p—l—e—t—i—n—g— —a— —t—a—s—k—,— —c—o—d—e— —r—e—v—i—e—w—,— —o—r— —w—o—r—k— —s—e—s—s—i—o—n— —t—o— —g—e—t— —a—n— —u—n—b—i—a—s—e—d— —a—s—s—e—s—s—m—e—n—t—.— —D—e—t—e—c—t—s— —s—c—o—r—e— —i—n—f—l—a—t—i—o—n—,— —f—o—r—c—e—s— —d—e—v—i—l—'—s— —a—d—v—o—c—a—t—e— —r—e—a—s—o—n—i—n—g—,— —a—n—d— —p—e—r—s—i—s—t—s— —s—c—o—r—e—s— —a—c—r—o—s—s— —s—e—s—s—i—o—n—s.
 license: "MIT"
 ---
 

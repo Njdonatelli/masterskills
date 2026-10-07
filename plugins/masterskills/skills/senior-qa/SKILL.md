@@ -1,6 +1,7 @@
 ---
 name: "senior-qa"
-description: Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, creates test fixtures, and configures test runners. Use when the user asks to "generate tests", "write unit tests", "analyze test coverage", "scaffold E2E tests", "set up Playwright", "configure Jest", "implement testing patterns", or "improve test quality".
+description: >-
+  G—e—n—e—r—a—t—e—s— —u—n—i—t— —t—e—s—t—s—,— —i—n—t—e—g—r—a—t—i—o—n— —t—e—s—t—s—,— —a—n—d— —E—2—E— —t—e—s—t—s— —f—o—r— —R—e—a—c—t—/—N—e—x—t—.—j—s— —a—p—p—l—i—c—a—t—i—o—n—s—.— —S—c—a—n—s— —c—o—m—p—o—n—e—n—t—s— —t—o— —c—r—e—a—t—e— —J—e—s—t— —+— —R—e—a—c—t— —T—e—s—t—i—n—g— —L—i—b—r—a—r—y— —t—e—s—t— —s—t—u—b—s—,— —a—n—a—l—y—z—e—s— —I—s—t—a—n—b—u—l—/—L—C—O—V— —c—o—v—e—r—a—g—e— —r—e—p—o—r—t—s— —t—o— —s—u—r—f—a—c—e— —g—a—p—s—,— —s—c—a—f—f—o—l—d—s— —P—l—a—y—w—r—i—g—h—t— —t—e—s—t— —f—i—l—e—s— —f—r—o—m— —N—e—x—t—.—j—s— —r—o—u—t—e—s—,— —m—o—c—k—s— —A—P—I— —c—a—l—l—s— —w—i—t—h— —M—S—W—,— —c—r—e—a—t—e—s— —t—e—s—t— —f—i—x—t—u—r—e—s—,— —a—n—d— —c—o—n—f—i—g—u—r—e—s— —t—e—s—t— —r—u—n—n—e—r—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —"—g—e—n—e—r—a—t—e— —t—e—s—t—s—"—,— —"—w—r—i—t—e— —u—n—i—t— —t—e—s—t—s—"—,— —"—a—n—a—l—y—z—e— —t—e—s—t— —c—o—v—e—r—a—g—e—"—,— —"—s—c—a—f—f—o—l—d— —E—2—E— —t—e—s—t—s—"—,— —"—s—e—t— —u—p— —P—l—a—y—w—r—i—g—h—t—"—,— —"—c—o—n—f—i—g—u—r—e— —J—e—s—t—"—,— —"—i—m—p—l—e—m—e—n—t— —t—e—s—t—i—n—g— —p—a—t—t—e—r—n—s—"—,— —o—r— —"—i—m—p—r—o—v—e— —t—e—s—t— —q—u—a—l—i—t—y—".
 ---
 
 # Senior QA Engineer

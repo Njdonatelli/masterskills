@@ -1,6 +1,7 @@
 ---
 name: "quality-manager-qms-iso13485"
-description: ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control, internal auditing, CAPA management, and certification support. Use when working with medical device quality systems, preparing for ISO 13485 audits, managing regulatory compliance documentation, setting up corrective actions, or building audit preparation programs. Useful for quality management, audit preparation, regulatory compliance, medical device documentation, and corrective action workflows.
+description: >-
+  I—S—O— —1—3—4—8—5— —Q—u—a—l—i—t—y— —M—a—n—a—g—e—m—e—n—t— —S—y—s—t—e—m— —i—m—p—l—e—m—e—n—t—a—t—i—o—n— —a—n—d— —m—a—i—n—t—e—n—a—n—c—e— —f—o—r— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —o—r—g—a—n—i—z—a—t—i—o—n—s—.— —P—r—o—v—i—d—e—s— —Q—M—S— —d—e—s—i—g—n—,— —d—o—c—u—m—e—n—t—a—t—i—o—n— —c—o—n—t—r—o—l—,— —i—n—t—e—r—n—a—l— —a—u—d—i—t—i—n—g—,— —C—A—P—A— —m—a—n—a—g—e—m—e—n—t—,— —a—n—d— —c—e—r—t—i—f—i—c—a—t—i—o—n— —s—u—p—p—o—r—t—.— —U—s—e— —w—h—e—n— —w—o—r—k—i—n—g— —w—i—t—h— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —q—u—a—l—i—t—y— —s—y—s—t—e—m—s—,— —p—r—e—p—a—r—i—n—g— —f—o—r— —I—S—O— —1—3—4—8—5— —a—u—d—i—t—s—,— —m—a—n—a—g—i—n—g— —r—e—g—u—l—a—t—o—r—y— —c—o—m—p—l—i—a—n—c—e— —d—o—c—u—m—e—n—t—a—t—i—o—n—,— —s—e—t—t—i—n—g— —u—p— —c—o—r—r—e—c—t—i—v—e— —a—c—t—i—o—n—s—,— —o—r— —b—u—i—l—d—i—n—g— —a—u—d—i—t— —p—r—e—p—a—r—a—t—i—o—n— —p—r—o—g—r—a—m—s—.— —U—s—e—f—u—l— —f—o—r— —q—u—a—l—i—t—y— —m—a—n—a—g—e—m—e—n—t—,— —a—u—d—i—t— —p—r—e—p—a—r—a—t—i—o—n—,— —r—e—g—u—l—a—t—o—r—y— —c—o—m—p—l—i—a—n—c—e—,— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —d—o—c—u—m—e—n—t—a—t—i—o—n—,— —a—n—d— —c—o—r—r—e—c—t—i—v—e— —a—c—t—i—o—n— —w—o—r—k—f—l—o—w—s.
 triggers:
   - ISO 13485
   - QMS implementation

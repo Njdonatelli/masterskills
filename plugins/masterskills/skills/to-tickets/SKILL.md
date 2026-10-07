@@ -1,6 +1,7 @@
 ---
 name: to-tickets
-description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.
+description: >-
+  B—r—e—a—k— —a— —p—l—a—n—,— —s—p—e—c—,— —o—r— —t—h—e— —c—u—r—r—e—n—t— —c—o—n—v—e—r—s—a—t—i—o—n— —i—n—t—o— —a— —s—e—t— —o—f— —t—r—a—c—e—r—-—b—u—l—l—e—t— —t—i—c—k—e—t—s—,— —e—a—c—h— —d—e—c—l—a—r—i—n—g— —i—t—s— —b—l—o—c—k—i—n—g— —e—d—g—e—s—,— —p—u—b—l—i—s—h—e—d— —t—o— —t—h—e— —c—o—n—f—i—g—u—r—e—d— —t—r—a—c—k—e—r— ——— —e—d—g—e—s— —a—s— —t—e—x—t— —i—n— —o—n—e— —f—i—l—e— —p—e—r— —t—i—c—k—e—t— —l—o—c—a—l—l—y—,— —o—r— —n—a—t—i—v—e— —b—l—o—c—k—i—n—g— —l—i—n—k—s— —o—n— —a— —r—e—a—l— —t—r—a—c—k—e—r.
 disable-model-invocation: true
 ---
 

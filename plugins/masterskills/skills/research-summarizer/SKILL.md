@@ -1,6 +1,7 @@
 ---
 name: "research-summarizer"
-description: "Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key findings, generates comparative analyses, and produces properly formatted citations. Use when: user wants to summarize a research paper, compare multiple sources, extract citations from documents, or create structured research briefs. Plugin for Claude Code, Codex, Gemini CLI, and OpenClaw."
+description: >-
+  S—t—r—u—c—t—u—r—e—d— —r—e—s—e—a—r—c—h— —s—u—m—m—a—r—i—z—a—t—i—o—n— —a—g—e—n—t— —s—k—i—l—l— —f—o—r— —n—o—n—-—d—e—v— —u—s—e—r—s—.— —H—a—n—d—l—e—s— —a—c—a—d—e—m—i—c— —p—a—p—e—r—s—,— —w—e—b— —a—r—t—i—c—l—e—s—,— —r—e—p—o—r—t—s—,— —a—n—d— —d—o—c—u—m—e—n—t—a—t—i—o—n—.— —E—x—t—r—a—c—t—s— —k—e—y— —f—i—n—d—i—n—g—s—,— —g—e—n—e—r—a—t—e—s— —c—o—m—p—a—r—a—t—i—v—e— —a—n—a—l—y—s—e—s—,— —a—n—d— —p—r—o—d—u—c—e—s— —p—r—o—p—e—r—l—y— —f—o—r—m—a—t—t—e—d— —c—i—t—a—t—i—o—n—s—.— —U—s—e— —w—h—e—n—:— —u—s—e—r— —w—a—n—t—s— —t—o— —s—u—m—m—a—r—i—z—e— —a— —r—e—s—e—a—r—c—h— —p—a—p—e—r—,— —c—o—m—p—a—r—e— —m—u—l—t—i—p—l—e— —s—o—u—r—c—e—s—,— —e—x—t—r—a—c—t— —c—i—t—a—t—i—o—n—s— —f—r—o—m— —d—o—c—u—m—e—n—t—s—,— —o—r— —c—r—e—a—t—e— —s—t—r—u—c—t—u—r—e—d— —r—e—s—e—a—r—c—h— —b—r—i—e—f—s—.— —P—l—u—g—i—n— —f—o—r— —C—l—a—u—d—e— —C—o—d—e—,— —C—o—d—e—x—,— —G—e—m—i—n—i— —C—L—I—,— —a—n—d— —O—p—e—n—C—l—a—w.
 license: MIT
 metadata:
   version: 1.0.0

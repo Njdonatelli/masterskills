@@ -1,7 +1,8 @@
 ---
 Name: claude-coach
 name: claude-coach
-description: Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a user asks to "learn Claude", "be a power user", "coach me", "teach me Claude tricks", "what can Claude do", "make me better at prompting", or any variation. After activation, also use it on EVERY subsequent turn to detect missed optimization opportunities (vague prompts, ignored capabilities, manual work Claude could automate) and surface a single power-user tip. Trigger generously — most users do not know what they do not know, so err on the side of coaching.
+description: >-
+  P—e—r—s—o—n—a—l— —c—o—a—c—h— —t—h—a—t— —t—e—a—c—h—e—s— —u—s—e—r—s— —t—o— —b—e—c—o—m—e— —C—l—a—u—d—e— —p—o—w—e—r— —u—s—e—r—s—.— —U—s—e— —t—h—i—s— —s—k—i—l—l— —t—h—e— —F—I—R—S—T— —t—i—m—e— —a— —u—s—e—r— —a—s—k—s— —t—o— —"—l—e—a—r—n— —C—l—a—u—d—e—"—,— —"—b—e— —a— —p—o—w—e—r— —u—s—e—r—"—,— —"—c—o—a—c—h— —m—e—"—,— —"—t—e—a—c—h— —m—e— —C—l—a—u—d—e— —t—r—i—c—k—s—"—,— —"—w—h—a—t— —c—a—n— —C—l—a—u—d—e— —d—o—"—,— —"—m—a—k—e— —m—e— —b—e—t—t—e—r— —a—t— —p—r—o—m—p—t—i—n—g—"—,— —o—r— —a—n—y— —v—a—r—i—a—t—i—o—n—.— —A—f—t—e—r— —a—c—t—i—v—a—t—i—o—n—,— —a—l—s—o— —u—s—e— —i—t— —o—n— —E—V—E—R—Y— —s—u—b—s—e—q—u—e—n—t— —t—u—r—n— —t—o— —d—e—t—e—c—t— —m—i—s—s—e—d— —o—p—t—i—m—i—z—a—t—i—o—n— —o—p—p—o—r—t—u—n—i—t—i—e—s— —(—v—a—g—u—e— —p—r—o—m—p—t—s—,— —i—g—n—o—r—e—d— —c—a—p—a—b—i—l—i—t—i—e—s—,— —m—a—n—u—a—l— —w—o—r—k— —C—l—a—u—d—e— —c—o—u—l—d— —a—u—t—o—m—a—t—e—)— —a—n—d— —s—u—r—f—a—c—e— —a— —s—i—n—g—l—e— —p—o—w—e—r—-—u—s—e—r— —t—i—p—.— —T—r—i—g—g—e—r— —g—e—n—e—r—o—u—s—l—y— ——— —m—o—s—t— —u—s—e—r—s— —d—o— —n—o—t— —k—n—o—w— —w—h—a—t— —t—h—e—y— —d—o— —n—o—t— —k—n—o—w—,— —s—o— —e—r—r— —o—n— —t—h—e— —s—i—d—e— —o—f— —c—o—a—c—h—i—n—g.
 Tier: POWERFUL
 Category: meta
 Author: claude-skills

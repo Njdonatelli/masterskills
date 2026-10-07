@@ -1,6 +1,7 @@
 ---
 name: roast
-description: Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, "convene the panel", get a brutal second opinion before building something, or says "/roast". Spins up a 5-angle panel (Critic, Champion, Analyst, Investigator, Customer) that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.
+description: >-
+  U—s—e— —w—h—e—n— —s—o—m—e—o—n—e— —a—s—k—s— —t—o— —r—o—a—s—t— —a—n— —i—d—e—a—,— —p—r—e—s—s—u—r—e—-—t—e—s—t— —o—r— —s—t—r—e—s—s—-—t—e—s—t— —a—n— —i—d—e—a—,— —v—a—l—i—d—a—t—e— —a— —b—u—s—i—n—e—s—s— —i—d—e—a—,— —"—c—o—n—v—e—n—e— —t—h—e— —p—a—n—e—l—"—,— —g—e—t— —a— —b—r—u—t—a—l— —s—e—c—o—n—d— —o—p—i—n—i—o—n— —b—e—f—o—r—e— —b—u—i—l—d—i—n—g— —s—o—m—e—t—h—i—n—g—,— —o—r— —s—a—y—s— —"—/—r—o—a—s—t—"—.— —S—p—i—n—s— —u—p— —a— —5—-—a—n—g—l—e— —p—a—n—e—l— —(—C—r—i—t—i—c—,— —C—h—a—m—p—i—o—n—,— —A—n—a—l—y—s—t—,— —I—n—v—e—s—t—i—g—a—t—o—r—,— —C—u—s—t—o—m—e—r—)— —t—h—a—t— —a—t—t—a—c—k—s— —t—h—e— —i—d—e—a— —f—r—o—m— —e—v—e—r—y— —a—n—g—l—e—,— —t—h—e—n— —a— —J—u—d—g—e— —r—e—t—u—r—n—s— —o—n—e— —G—O— —/— —R—E—S—H—A—P—E— —/— —K—I—L—L— —v—e—r—d—i—c—t— —w—i—t—h— —t—h—e— —c—h—e—a—p—e—s—t— —t—e—s—t— —t—o— —d—e—-—r—i—s—k— —i—t.
 argument-hint: "[the idea to roast]"
 license: MIT
 metadata:

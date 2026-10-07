@@ -1,6 +1,7 @@
 ---
 name: "git-worktree-manager"
-description: "Run parallel feature work safely with Git worktrees. Standardizes branch isolation, port allocation, environment sync, and cleanup so each worktree behaves like an independent local app. Optimized for multi-agent workflows where each agent or terminal session owns one worktree. Use when running multiple feature branches simultaneously, isolating experimental work, or coordinating multi-agent development across the same repo."
+description: >-
+  R—u—n— —p—a—r—a—l—l—e—l— —f—e—a—t—u—r—e— —w—o—r—k— —s—a—f—e—l—y— —w—i—t—h— —G—i—t— —w—o—r—k—t—r—e—e—s—.— —S—t—a—n—d—a—r—d—i—z—e—s— —b—r—a—n—c—h— —i—s—o—l—a—t—i—o—n—,— —p—o—r—t— —a—l—l—o—c—a—t—i—o—n—,— —e—n—v—i—r—o—n—m—e—n—t— —s—y—n—c—,— —a—n—d— —c—l—e—a—n—u—p— —s—o— —e—a—c—h— —w—o—r—k—t—r—e—e— —b—e—h—a—v—e—s— —l—i—k—e— —a—n— —i—n—d—e—p—e—n—d—e—n—t— —l—o—c—a—l— —a—p—p—.— —O—p—t—i—m—i—z—e—d— —f—o—r— —m—u—l—t—i—-—a—g—e—n—t— —w—o—r—k—f—l—o—w—s— —w—h—e—r—e— —e—a—c—h— —a—g—e—n—t— —o—r— —t—e—r—m—i—n—a—l— —s—e—s—s—i—o—n— —o—w—n—s— —o—n—e— —w—o—r—k—t—r—e—e—.— —U—s—e— —w—h—e—n— —r—u—n—n—i—n—g— —m—u—l—t—i—p—l—e— —f—e—a—t—u—r—e— —b—r—a—n—c—h—e—s— —s—i—m—u—l—t—a—n—e—o—u—s—l—y—,— —i—s—o—l—a—t—i—n—g— —e—x—p—e—r—i—m—e—n—t—a—l— —w—o—r—k—,— —o—r— —c—o—o—r—d—i—n—a—t—i—n—g— —m—u—l—t—i—-—a—g—e—n—t— —d—e—v—e—l—o—p—m—e—n—t— —a—c—r—o—s—s— —t—h—e— —s—a—m—e— —r—e—p—o.
 ---
 
 # Git Worktree Manager

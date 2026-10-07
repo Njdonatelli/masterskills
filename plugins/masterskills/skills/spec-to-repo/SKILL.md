@@ -1,6 +1,7 @@
 ---
 name: spec-to-repo
-description: "Use when the user says 'build me an app', 'create a project from this spec', 'scaffold a new repo', 'generate a starter', 'turn this idea into code', 'bootstrap a project', 'I have requirements and need a codebase', or provides a natural-language project specification and expects a complete, runnable repository. Stack-agnostic: Next.js, FastAPI, Rails, Go, Rust, Flutter, and more."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —s—a—y—s— —'—b—u—i—l—d— —m—e— —a—n— —a—p—p—'—,— —'—c—r—e—a—t—e— —a— —p—r—o—j—e—c—t— —f—r—o—m— —t—h—i—s— —s—p—e—c—'—,— —'—s—c—a—f—f—o—l—d— —a— —n—e—w— —r—e—p—o—'—,— —'—g—e—n—e—r—a—t—e— —a— —s—t—a—r—t—e—r—'—,— —'—t—u—r—n— —t—h—i—s— —i—d—e—a— —i—n—t—o— —c—o—d—e—'—,— —'—b—o—o—t—s—t—r—a—p— —a— —p—r—o—j—e—c—t—'—,— —'—I— —h—a—v—e— —r—e—q—u—i—r—e—m—e—n—t—s— —a—n—d— —n—e—e—d— —a— —c—o—d—e—b—a—s—e—'—,— —o—r— —p—r—o—v—i—d—e—s— —a— —n—a—t—u—r—a—l—-—l—a—n—g—u—a—g—e— —p—r—o—j—e—c—t— —s—p—e—c—i—f—i—c—a—t—i—o—n— —a—n—d— —e—x—p—e—c—t—s— —a— —c—o—m—p—l—e—t—e—,— —r—u—n—n—a—b—l—e— —r—e—p—o—s—i—t—o—r—y—.— —S—t—a—c—k—-—a—g—n—o—s—t—i—c—:— —N—e—x—t—.—j—s—,— —F—a—s—t—A—P—I—,— —R—a—i—l—s—,— —G—o—,— —R—u—s—t—,— —F—l—u—t—t—e—r—,— —a—n—d— —m—o—r—e.
 ---
 
 # Spec to Repo

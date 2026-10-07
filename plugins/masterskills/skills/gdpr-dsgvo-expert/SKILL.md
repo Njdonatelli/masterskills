@@ -1,6 +1,7 @@
 ---
 name: "gdpr-dsgvo-expert"
-description: GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests with Art. 12(3) one-month deadlines. Use when running GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, or data subject rights (DSAR) management (e.g., 'check this service for GDPR risks', 'track an access request deadline'). Final compliance determinations route to the DPO or legal counsel.
+description: >-
+  G—D—P—R— —a—n—d— —G—e—r—m—a—n— —D—S—G—V—O— —c—o—m—p—l—i—a—n—c—e— —a—u—t—o—m—a—t—i—o—n—.— —S—c—a—n—s— —c—o—d—e—b—a—s—e—s— —f—o—r— —p—r—i—v—a—c—y— —r—i—s—k—s—,— —g—e—n—e—r—a—t—e—s— —D—P—I—A— —d—o—c—u—m—e—n—t—a—t—i—o—n—,— —t—r—a—c—k—s— —d—a—t—a— —s—u—b—j—e—c—t— —r—i—g—h—t—s— —r—e—q—u—e—s—t—s— —w—i—t—h— —A—r—t—.— —1—2—(—3—)— —o—n—e—-—m—o—n—t—h— —d—e—a—d—l—i—n—e—s—.— —U—s—e— —w—h—e—n— —r—u—n—n—i—n—g— —G—D—P—R— —c—o—m—p—l—i—a—n—c—e— —a—s—s—e—s—s—m—e—n—t—s—,— —p—r—i—v—a—c—y— —a—u—d—i—t—s—,— —d—a—t—a— —p—r—o—t—e—c—t—i—o—n— —p—l—a—n—n—i—n—g—,— —D—P—I—A— —g—e—n—e—r—a—t—i—o—n—,— —o—r— —d—a—t—a— —s—u—b—j—e—c—t— —r—i—g—h—t—s— —(—D—S—A—R—)— —m—a—n—a—g—e—m—e—n—t— —(—e—.—g—.—,— —'—c—h—e—c—k— —t—h—i—s— —s—e—r—v—i—c—e— —f—o—r— —G—D—P—R— —r—i—s—k—s—'—,— —'—t—r—a—c—k— —a—n— —a—c—c—e—s—s— —r—e—q—u—e—s—t— —d—e—a—d—l—i—n—e—'—)—.— —F—i—n—a—l— —c—o—m—p—l—i—a—n—c—e— —d—e—t—e—r—m—i—n—a—t—i—o—n—s— —r—o—u—t—e— —t—o— —t—h—e— —D—P—O— —o—r— —l—e—g—a—l— —c—o—u—n—s—e—l.
 ---
 
 # GDPR/DSGVO Expert

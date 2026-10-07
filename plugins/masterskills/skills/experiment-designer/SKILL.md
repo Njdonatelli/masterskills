@@ -1,6 +1,7 @@
 ---
 name: experiment-designer
-description: Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with practical statistical rigor.
+description: >-
+  U—s—e— —w—h—e—n— —p—l—a—n—n—i—n—g— —p—r—o—d—u—c—t— —e—x—p—e—r—i—m—e—n—t—s—,— —w—r—i—t—i—n—g— —t—e—s—t—a—b—l—e— —h—y—p—o—t—h—e—s—e—s—,— —e—s—t—i—m—a—t—i—n—g— —s—a—m—p—l—e— —s—i—z—e—,— —p—r—i—o—r—i—t—i—z—i—n—g— —t—e—s—t—s—,— —o—r— —i—n—t—e—r—p—r—e—t—i—n—g— —A—/—B— —o—u—t—c—o—m—e—s— —w—i—t—h— —p—r—a—c—t—i—c—a—l— —s—t—a—t—i—s—t—i—c—a—l— —r—i—g—o—r.
 ---
 
 # Experiment Designer

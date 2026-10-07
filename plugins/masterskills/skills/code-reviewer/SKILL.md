@@ -1,6 +1,7 @@
 ---
 name: "code-reviewer"
-description: Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin, C#, .NET, Java, C, C++, Rust, Ruby, PHP, and Dart/Flutter. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.
+description: >-
+  C—o—d—e— —r—e—v—i—e—w— —a—u—t—o—m—a—t—i—o—n— —f—o—r— —T—y—p—e—S—c—r—i—p—t—,— —J—a—v—a—S—c—r—i—p—t—,— —P—y—t—h—o—n—,— —G—o—,— —S—w—i—f—t—,— —K—o—t—l—i—n—,— —C—#—,— —.—N—E—T—,— —J—a—v—a—,— —C—,— —C—+—+—,— —R—u—s—t—,— —R—u—b—y—,— —P—H—P—,— —a—n—d— —D—a—r—t—/—F—l—u—t—t—e—r—.— —A—n—a—l—y—z—e—s— —P—R—s— —f—o—r— —c—o—m—p—l—e—x—i—t—y— —a—n—d— —r—i—s—k—,— —c—h—e—c—k—s— —c—o—d—e— —q—u—a—l—i—t—y— —f—o—r— —S—O—L—I—D— —v—i—o—l—a—t—i—o—n—s— —a—n—d— —c—o—d—e— —s—m—e—l—l—s—,— —g—e—n—e—r—a—t—e—s— —r—e—v—i—e—w— —r—e—p—o—r—t—s—.— —U—s—e— —w—h—e—n— —r—e—v—i—e—w—i—n—g— —p—u—l—l— —r—e—q—u—e—s—t—s—,— —a—n—a—l—y—z—i—n—g— —c—o—d—e— —q—u—a—l—i—t—y—,— —i—d—e—n—t—i—f—y—i—n—g— —i—s—s—u—e—s—,— —g—e—n—e—r—a—t—i—n—g— —r—e—v—i—e—w— —c—h—e—c—k—l—i—s—t—s.
 ---
 
 # Code Reviewer

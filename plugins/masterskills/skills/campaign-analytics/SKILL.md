@@ -1,6 +1,7 @@
 ---
 name: "campaign-analytics"
-description: Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.
+description: >-
+  A—n—a—l—y—z—e—s— —c—a—m—p—a—i—g—n— —p—e—r—f—o—r—m—a—n—c—e— —w—i—t—h— —m—u—l—t—i—-—t—o—u—c—h— —a—t—t—r—i—b—u—t—i—o—n—,— —f—u—n—n—e—l— —c—o—n—v—e—r—s—i—o—n— —a—n—a—l—y—s—i—s—,— —a—n—d— —R—O—I— —c—a—l—c—u—l—a—t—i—o—n— —f—o—r— —m—a—r—k—e—t—i—n—g— —o—p—t—i—m—i—z—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —a—n—a—l—y—z—i—n—g— —m—a—r—k—e—t—i—n—g— —c—a—m—p—a—i—g—n—s—,— —a—d— —p—e—r—f—o—r—m—a—n—c—e—,— —a—t—t—r—i—b—u—t—i—o—n— —m—o—d—e—l—s—,— —c—o—n—v—e—r—s—i—o—n— —r—a—t—e—s—,— —o—r— —c—a—l—c—u—l—a—t—i—n—g— —m—a—r—k—e—t—i—n—g— —R—O—I—,— —R—O—A—S—,— —C—P—A—,— —a—n—d— —c—a—m—p—a—i—g—n— —m—e—t—r—i—c—s— —a—c—r—o—s—s— —c—h—a—n—n—e—l—s.
 license: MIT
 metadata:
   version: 1.0.0

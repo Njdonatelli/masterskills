@@ -1,6 +1,7 @@
 ---
 name: "social-content"
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —h—e—l—p— —c—r—e—a—t—i—n—g—,— —s—c—h—e—d—u—l—i—n—g—,— —o—r— —o—p—t—i—m—i—z—i—n—g— —s—o—c—i—a—l— —m—e—d—i—a— —c—o—n—t—e—n—t— —f—o—r— —L—i—n—k—e—d—I—n—,— —T—w—i—t—t—e—r—/—X—,— —I—n—s—t—a—g—r—a—m—,— —T—i—k—T—o—k—,— —F—a—c—e—b—o—o—k—,— —o—r— —o—t—h—e—r— —p—l—a—t—f—o—r—m—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—L—i—n—k—e—d—I—n— —p—o—s—t—,—'— —'—T—w—i—t—t—e—r— —t—h—r—e—a—d—,—'— —'—s—o—c—i—a—l— —m—e—d—i—a—,—'— —'—c—o—n—t—e—n—t— —c—a—l—e—n—d—a—r—,—'— —'—s—o—c—i—a—l— —s—c—h—e—d—u—l—i—n—g—,—'— —'—e—n—g—a—g—e—m—e—n—t—,—'— —o—r— —'—v—i—r—a—l— —c—o—n—t—e—n—t—.—'— —T—h—i—s— —s—k—i—l—l— —c—o—v—e—r—s— —c—o—n—t—e—n—t— —c—r—e—a—t—i—o—n—,— —r—e—p—u—r—p—o—s—i—n—g—,— —a—n—d— —p—l—a—t—f—o—r—m—-—s—p—e—c—i—f—i—c— —s—t—r—a—t—e—g—i—e—s.
 license: MIT
 metadata:
   version: 1.0.0

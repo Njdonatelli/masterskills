@@ -1,6 +1,7 @@
 ---
 name: to-spec
-description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.
+description: >-
+  T—u—r—n— —t—h—e— —c—u—r—r—e—n—t— —c—o—n—v—e—r—s—a—t—i—o—n— —i—n—t—o— —a— —s—p—e—c— —a—n—d— —p—u—b—l—i—s—h— —i—t— —t—o— —t—h—e— —p—r—o—j—e—c—t— —i—s—s—u—e— —t—r—a—c—k—e—r— ——— —n—o— —i—n—t—e—r—v—i—e—w—,— —j—u—s—t— —s—y—n—t—h—e—s—i—s— —o—f— —w—h—a—t— —y—o—u—'—v—e— —a—l—r—e—a—d—y— —d—i—s—c—u—s—s—e—d.
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: implement
-description: "Implement a piece of work based on a spec or set of tickets."
+description: >-
+  I—m—p—l—e—m—e—n—t— —a— —p—i—e—c—e— —o—f— —w—o—r—k— —b—a—s—e—d— —o—n— —a— —s—p—e—c— —o—r— —s—e—t— —o—f— —t—i—c—k—e—t—s.
 disable-model-invocation: true
 ---
 

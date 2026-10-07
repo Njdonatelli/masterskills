@@ -1,6 +1,7 @@
 ---
 name: "browser-automation"
-description: "Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use playwright-pro for that."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —a—u—t—o—m—a—t—e— —b—r—o—w—s—e—r— —t—a—s—k—s—,— —s—c—r—a—p—e— —w—e—b—s—i—t—e—s—,— —f—i—l—l— —f—o—r—m—s—,— —c—a—p—t—u—r—e— —s—c—r—e—e—n—s—h—o—t—s—,— —e—x—t—r—a—c—t— —s—t—r—u—c—t—u—r—e—d— —d—a—t—a— —f—r—o—m— —w—e—b— —p—a—g—e—s—,— —o—r— —b—u—i—l—d— —w—e—b— —a—u—t—o—m—a—t—i—o—n— —w—o—r—k—f—l—o—w—s—.— —N—O—T— —f—o—r— —t—e—s—t—i—n—g— ——— —u—s—e— —p—l—a—y—w—r—i—g—h—t—-—p—r—o— —f—o—r— —t—h—a—t.
 ---
 
 # Browser Automation - POWERFUL

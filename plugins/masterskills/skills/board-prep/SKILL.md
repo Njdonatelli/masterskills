@@ -1,6 +1,7 @@
 ---
 name: "board-prep"
-description: "Board meeting preparation for the adversarial scenario, not the friendly one. Forces numbers-cold mastery, anticipates hard questions, builds a narrative that acknowledges weakness without losing the room. Use when preparing for a board meeting, an investor update, fundraising presentation, or any high-stakes adversarial review where every number must live in your head not just on a slide."
+description: >-
+  B—o—a—r—d— —m—e—e—t—i—n—g— —p—r—e—p—a—r—a—t—i—o—n— —f—o—r— —t—h—e— —a—d—v—e—r—s—a—r—i—a—l— —s—c—e—n—a—r—i—o—,— —n—o—t— —t—h—e— —f—r—i—e—n—d—l—y— —o—n—e—.— —F—o—r—c—e—s— —n—u—m—b—e—r—s—-—c—o—l—d— —m—a—s—t—e—r—y—,— —a—n—t—i—c—i—p—a—t—e—s— —h—a—r—d— —q—u—e—s—t—i—o—n—s—,— —b—u—i—l—d—s— —a— —n—a—r—r—a—t—i—v—e— —t—h—a—t— —a—c—k—n—o—w—l—e—d—g—e—s— —w—e—a—k—n—e—s—s— —w—i—t—h—o—u—t— —l—o—s—i—n—g— —t—h—e— —r—o—o—m—.— —U—s—e— —w—h—e—n— —p—r—e—p—a—r—i—n—g— —f—o—r— —a— —b—o—a—r—d— —m—e—e—t—i—n—g—,— —a—n— —i—n—v—e—s—t—o—r— —u—p—d—a—t—e—,— —f—u—n—d—r—a—i—s—i—n—g— —p—r—e—s—e—n—t—a—t—i—o—n—,— —o—r— —a—n—y— —h—i—g—h—-—s—t—a—k—e—s— —a—d—v—e—r—s—a—r—i—a—l— —r—e—v—i—e—w— —w—h—e—r—e— —e—v—e—r—y— —n—u—m—b—e—r— —m—u—s—t— —l—i—v—e— —i—n— —y—o—u—r— —h—e—a—d— —n—o—t— —j—u—s—t— —o—n— —a— —s—l—i—d—e.
 ---
 
 # /em:board-prep — Board Meeting Preparation

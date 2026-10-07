@@ -1,6 +1,7 @@
 ---
 name: "stress-test"
-description: "/em:stress-test — Business assumption stress testing. Use before betting on a plan whose core assumptions are unvalidated — e.g. stress-testing 'enterprise buyers will tolerate a 6-month pilot' or a hockey-stick revenue model."
+description: >-
+  /—e—m—:—s—t—r—e—s—s—-—t—e—s—t— ——— —B—u—s—i—n—e—s—s— —a—s—s—u—m—p—t—i—o—n— —s—t—r—e—s—s— —t—e—s—t—i—n—g—.— —U—s—e— —b—e—f—o—r—e— —b—e—t—t—i—n—g— —o—n— —a— —p—l—a—n— —w—h—o—s—e— —c—o—r—e— —a—s—s—u—m—p—t—i—o—n—s— —a—r—e— —u—n—v—a—l—i—d—a—t—e—d— ——— —e—.—g—.— —s—t—r—e—s—s—-—t—e—s—t—i—n—g— —'—e—n—t—e—r—p—r—i—s—e— —b—u—y—e—r—s— —w—i—l—l— —t—o—l—e—r—a—t—e— —a— —6—-—m—o—n—t—h— —p—i—l—o—t—'— —o—r— —a— —h—o—c—k—e—y—-—s—t—i—c—k— —r—e—v—e—n—u—e— —m—o—d—e—l.
 ---
 
 # /em:stress-test — Business Assumption Stress Testing

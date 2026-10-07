@@ -1,6 +1,7 @@
 ---
 name: "ciso-review"
-description: "/cs:ciso-review <plan> — Risk-paranoid interrogation of any plan that touches data, compliance, or production access. Use when launching features that handle customer data, before a SOC 2 / ISO audit, or after any incident or near-miss."
+description: >-
+  /—c—s—:—c—i—s—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —R—i—s—k—-—p—a—r—a—n—o—i—d— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —p—l—a—n— —t—h—a—t— —t—o—u—c—h—e—s— —d—a—t—a—,— —c—o—m—p—l—i—a—n—c—e—,— —o—r— —p—r—o—d—u—c—t—i—o—n— —a—c—c—e—s—s—.— —U—s—e— —w—h—e—n— —l—a—u—n—c—h—i—n—g— —f—e—a—t—u—r—e—s— —t—h—a—t— —h—a—n—d—l—e— —c—u—s—t—o—m—e—r— —d—a—t—a—,— —b—e—f—o—r—e— —a— —S—O—C— —2— —/— —I—S—O— —a—u—d—i—t—,— —o—r— —a—f—t—e—r— —a—n—y— —i—n—c—i—d—e—n—t— —o—r— —n—e—a—r—-—m—i—s—s.
 ---
 
 # /cs:ciso-review — CISO Forcing Questions

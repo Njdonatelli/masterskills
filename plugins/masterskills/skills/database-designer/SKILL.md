@@ -1,6 +1,7 @@
 ---
 name: "database-designer"
-description: "Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —d—e—s—i—g—n— —d—a—t—a—b—a—s—e— —s—c—h—e—m—a—s—,— —p—l—a—n— —d—a—t—a— —m—i—g—r—a—t—i—o—n—s—,— —o—p—t—i—m—i—z—e— —q—u—e—r—i—e—s—,— —c—h—o—o—s—e— —b—e—t—w—e—e—n— —S—Q—L— —a—n—d— —N—o—S—Q—L—,— —o—r— —m—o—d—e—l— —d—a—t—a— —r—e—l—a—t—i—o—n—s—h—i—p—s.
 ---
 
 # Database Designer - POWERFUL Tier Skill

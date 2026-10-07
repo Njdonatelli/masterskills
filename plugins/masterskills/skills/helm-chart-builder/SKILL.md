@@ -1,6 +1,7 @@
 ---
 name: "helm-chart-builder"
-description: "Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw — chart scaffolding, values design, template patterns, dependency management, security hardening, and chart testing. Use when: user wants to create or improve Helm charts, design values.yaml files, implement template helpers, audit chart security (RBAC, network policies, pod security), manage subcharts, or run helm lint/test."
+description: >-
+  H—e—l—m— —c—h—a—r—t— —d—e—v—e—l—o—p—m—e—n—t— —a—g—e—n—t— —s—k—i—l—l— —a—n—d— —p—l—u—g—i—n— —f—o—r— —C—l—a—u—d—e— —C—o—d—e—,— —C—o—d—e—x—,— —G—e—m—i—n—i— —C—L—I—,— —C—u—r—s—o—r—,— —O—p—e—n—C—l—a—w— ——— —c—h—a—r—t— —s—c—a—f—f—o—l—d—i—n—g—,— —v—a—l—u—e—s— —d—e—s—i—g—n—,— —t—e—m—p—l—a—t—e— —p—a—t—t—e—r—n—s—,— —d—e—p—e—n—d—e—n—c—y— —m—a—n—a—g—e—m—e—n—t—,— —s—e—c—u—r—i—t—y— —h—a—r—d—e—n—i—n—g—,— —a—n—d— —c—h—a—r—t— —t—e—s—t—i—n—g—.— —U—s—e— —w—h—e—n—:— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e— —o—r— —i—m—p—r—o—v—e— —H—e—l—m— —c—h—a—r—t—s—,— —d—e—s—i—g—n— —v—a—l—u—e—s—.—y—a—m—l— —f—i—l—e—s—,— —i—m—p—l—e—m—e—n—t— —t—e—m—p—l—a—t—e— —h—e—l—p—e—r—s—,— —a—u—d—i—t— —c—h—a—r—t— —s—e—c—u—r—i—t—y— —(—R—B—A—C—,— —n—e—t—w—o—r—k— —p—o—l—i—c—i—e—s—,— —p—o—d— —s—e—c—u—r—i—t—y—)—,— —m—a—n—a—g—e— —s—u—b—c—h—a—r—t—s—,— —o—r— —r—u—n— —h—e—l—m— —l—i—n—t—/—t—e—s—t.
 license: MIT
 metadata:
   version: 1.0.0

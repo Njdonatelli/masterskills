@@ -1,6 +1,7 @@
 ---
 name: "customer-success-manager"
-description: Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, upsell opportunities, expansion revenue, retention analysis, or customer analytics. Runs three Python CLI tools to produce deterministic health scores, churn risk tiers, and prioritized expansion recommendations across Enterprise, Mid-Market, and SMB segments.
+description: >-
+  M—o—n—i—t—o—r—s— —c—u—s—t—o—m—e—r— —h—e—a—l—t—h—,— —p—r—e—d—i—c—t—s— —c—h—u—r—n— —r—i—s—k—,— —a—n—d— —i—d—e—n—t—i—f—i—e—s— —e—x—p—a—n—s—i—o—n— —o—p—p—o—r—t—u—n—i—t—i—e—s— —u—s—i—n—g— —w—e—i—g—h—t—e—d— —s—c—o—r—i—n—g— —m—o—d—e—l—s— —f—o—r— —S—a—a—S— —c—u—s—t—o—m—e—r— —s—u—c—c—e—s—s—.— —U—s—e— —w—h—e—n— —a—n—a—l—y—z—i—n—g— —c—u—s—t—o—m—e—r— —a—c—c—o—u—n—t—s—,— —r—e—v—i—e—w—i—n—g— —r—e—t—e—n—t—i—o—n— —m—e—t—r—i—c—s—,— —s—c—o—r—i—n—g— —a—t—-—r—i—s—k— —c—u—s—t—o—m—e—r—s—,— —o—r— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —c—h—u—r—n—,— —c—u—s—t—o—m—e—r— —h—e—a—l—t—h— —s—c—o—r—e—s—,— —u—p—s—e—l—l— —o—p—p—o—r—t—u—n—i—t—i—e—s—,— —e—x—p—a—n—s—i—o—n— —r—e—v—e—n—u—e—,— —r—e—t—e—n—t—i—o—n— —a—n—a—l—y—s—i—s—,— —o—r— —c—u—s—t—o—m—e—r— —a—n—a—l—y—t—i—c—s—.— —R—u—n—s— —t—h—r—e—e— —P—y—t—h—o—n— —C—L—I— —t—o—o—l—s— —t—o— —p—r—o—d—u—c—e— —d—e—t—e—r—m—i—n—i—s—t—i—c— —h—e—a—l—t—h— —s—c—o—r—e—s—,— —c—h—u—r—n— —r—i—s—k— —t—i—e—r—s—,— —a—n—d— —p—r—i—o—r—i—t—i—z—e—d— —e—x—p—a—n—s—i—o—n— —r—e—c—o—m—m—e—n—d—a—t—i—o—n—s— —a—c—r—o—s—s— —E—n—t—e—r—p—r—i—s—e—,— —M—i—d—-—M—a—r—k—e—t—,— —a—n—d— —S—M—B— —s—e—g—m—e—n—t—s.
 license: MIT
 metadata:
   version: 1.0.0

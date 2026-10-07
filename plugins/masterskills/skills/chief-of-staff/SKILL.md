@@ -1,6 +1,7 @@
 ---
 name: "chief-of-staff"
-description: "C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically. Use when a founder question needs routing to the right advisor — e.g. 'should we raise now or cut burn?' — or when a multi-domain decision needs a board meeting convened."
+description: >-
+  C—-—s—u—i—t—e— —o—r—c—h—e—s—t—r—a—t—i—o—n— —l—a—y—e—r—.— —R—o—u—t—e—s— —f—o—u—n—d—e—r— —q—u—e—s—t—i—o—n—s— —t—o— —t—h—e— —r—i—g—h—t— —a—d—v—i—s—o—r— —r—o—l—e—(—s—)—,— —t—r—i—g—g—e—r—s— —m—u—l—t—i—-—r—o—l—e— —b—o—a—r—d— —m—e—e—t—i—n—g—s— —f—o—r— —c—o—m—p—l—e—x— —d—e—c—i—s—i—o—n—s—,— —s—y—n—t—h—e—s—i—z—e—s— —o—u—t—p—u—t—s—,— —a—n—d— —t—r—a—c—k—s— —d—e—c—i—s—i—o—n—s—.— —E—v—e—r—y— —C—-—s—u—i—t—e— —i—n—t—e—r—a—c—t—i—o—n— —s—t—a—r—t—s— —h—e—r—e—.— —L—o—a—d—s— —c—o—m—p—a—n—y— —c—o—n—t—e—x—t— —a—u—t—o—m—a—t—i—c—a—l—l—y—.— —U—s—e— —w—h—e—n— —a— —f—o—u—n—d—e—r— —q—u—e—s—t—i—o—n— —n—e—e—d—s— —r—o—u—t—i—n—g— —t—o— —t—h—e— —r—i—g—h—t— —a—d—v—i—s—o—r— ——— —e—.—g—.— —'—s—h—o—u—l—d— —w—e— —r—a—i—s—e— —n—o—w— —o—r— —c—u—t— —b—u—r—n—?—'— ——— —o—r— —w—h—e—n— —a— —m—u—l—t—i—-—d—o—m—a—i—n— —d—e—c—i—s—i—o—n— —n—e—e—d—s— —a— —b—o—a—r—d— —m—e—e—t—i—n—g— —c—o—n—v—e—n—e—d.
 license: MIT
 metadata:
   version: 1.0.0

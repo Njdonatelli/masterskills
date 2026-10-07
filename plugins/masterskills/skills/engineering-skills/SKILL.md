@@ -1,6 +1,7 @@
 ---
 name: "engineering-skills"
-description: "Index of the engineering-team skills bundle for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365 (stdlib-only Python tools). Use when browsing or choosing among engineering-team role skills — load only the one specialist SKILL.md you need, never bulk-load the bundle."
+description: >-
+  I—n—d—e—x— —o—f— —t—h—e— —e—n—g—i—n—e—e—r—i—n—g—-—t—e—a—m— —s—k—i—l—l—s— —b—u—n—d—l—e— —f—o—r— —C—l—a—u—d—e— —C—o—d—e—,— —C—o—d—e—x—,— —G—e—m—i—n—i— —C—L—I—,— —C—u—r—s—o—r—,— —O—p—e—n—C—l—a—w—,— —a—n—d— —6— —m—o—r—e— —t—o—o—l—s—.— —A—r—c—h—i—t—e—c—t—u—r—e—,— —f—r—o—n—t—e—n—d—,— —b—a—c—k—e—n—d—,— —Q—A—,— —D—e—v—O—p—s—,— —s—e—c—u—r—i—t—y—,— —A—I—/—M—L—,— —d—a—t—a— —e—n—g—i—n—e—e—r—i—n—g—,— —P—l—a—y—w—r—i—g—h—t—,— —S—t—r—i—p—e—,— —A—W—S—,— —M—S—3—6—5— —(—s—t—d—l—i—b—-—o—n—l—y— —P—y—t—h—o—n— —t—o—o—l—s—)—.— —U—s—e— —w—h—e—n— —b—r—o—w—s—i—n—g— —o—r— —c—h—o—o—s—i—n—g— —a—m—o—n—g— —e—n—g—i—n—e—e—r—i—n—g—-—t—e—a—m— —r—o—l—e— —s—k—i—l—l—s— ——— —l—o—a—d— —o—n—l—y— —t—h—e— —o—n—e— —s—p—e—c—i—a—l—i—s—t— —S—K—I—L—L—.—m—d— —y—o—u— —n—e—e—d—,— —n—e—v—e—r— —b—u—l—k—-—l—o—a—d— —t—h—e— —b—u—n—d—l—e.
 version: 2.9.0
 author: Alireza Rezvani
 license: MIT

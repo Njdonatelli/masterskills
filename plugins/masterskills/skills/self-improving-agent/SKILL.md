@@ -1,6 +1,7 @@
 ---
 name: "self-improving-agent"
-description: "Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern from notes to enforced rules, (3) turning a debugging solution into a skill, (4) checking memory health and capacity."
+description: >-
+  C—u—r—a—t—e— —C—l—a—u—d—e— —C—o—d—e—'—s— —a—u—t—o—-—m—e—m—o—r—y— —i—n—t—o— —d—u—r—a—b—l—e— —p—r—o—j—e—c—t— —k—n—o—w—l—e—d—g—e—.— —A—n—a—l—y—z—e— —M—E—M—O—R—Y—.—m—d— —f—o—r— —p—a—t—t—e—r—n—s—,— —p—r—o—m—o—t—e— —p—r—o—v—e—n— —l—e—a—r—n—i—n—g—s— —t—o— —C—L—A—U—D—E—.—m—d— —a—n—d— —.—c—l—a—u—d—e—/—r—u—l—e—s—/—,— —e—x—t—r—a—c—t— —r—e—c—u—r—r—i—n—g— —s—o—l—u—t—i—o—n—s— —i—n—t—o— —r—e—u—s—a—b—l—e— —s—k—i—l—l—s—.— —U—s—e— —w—h—e—n—:— —(—1—)— —r—e—v—i—e—w—i—n—g— —w—h—a—t— —C—l—a—u—d—e— —h—a—s— —l—e—a—r—n—e—d— —a—b—o—u—t— —y—o—u—r— —p—r—o—j—e—c—t—,— —(—2—)— —g—r—a—d—u—a—t—i—n—g— —a— —p—a—t—t—e—r—n— —f—r—o—m— —n—o—t—e—s— —t—o— —e—n—f—o—r—c—e—d— —r—u—l—e—s—,— —(—3—)— —t—u—r—n—i—n—g— —a— —d—e—b—u—g—g—i—n—g— —s—o—l—u—t—i—o—n— —i—n—t—o— —a— —s—k—i—l—l—,— —(—4—)— —c—h—e—c—k—i—n—g— —m—e—m—o—r—y— —h—e—a—l—t—h— —a—n—d— —c—a—p—a—c—i—t—y.
 ---
 
 # Self-Improving Agent

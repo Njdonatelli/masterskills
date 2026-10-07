@@ -1,6 +1,7 @@
 ---
 name: writing-for-agents
-description: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.
+description: >-
+  W—r—i—t—i—n—g— —d—o—c—u—m—e—n—t—s— —f—o—r— —a—g—e—n—t—s—.— —U—s—e— —w—h—e—n— —c—r—e—a—t—i—n—g— —o—r— —e—d—i—t—i—n—g— —s—k—i—l—l—s—,— —o—r— —m—o—d—i—f—y—i—n—g— —A—G—E—N—T—S—.—m—d— —o—r— —C—L—A—U—D—E—.—m—d.
 ---
 
 Reference for writing any document an agent consumes — a skill, an `AGENTS.md` / `CLAUDE.md`, a doc reached by a pointer. The packaging differs; the writing does not: the same levers make each one predictable — the agent taking the same _process_ every run, not producing the same output.

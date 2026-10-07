@@ -1,6 +1,7 @@
 ---
 name: "spawn"
-description: "Launch N parallel subagents in isolated git worktrees to compete on the session task. Use when the user runs /hub:spawn or asks to start the competing agents for an initialized AgentHub session."
+description: >-
+  L—a—u—n—c—h— —N— —p—a—r—a—l—l—e—l— —s—u—b—a—g—e—n—t—s— —i—n— —i—s—o—l—a—t—e—d— —g—i—t— —w—o—r—k—t—r—e—e—s— —t—o— —c—o—m—p—e—t—e— —o—n— —t—h—e— —s—e—s—s—i—o—n— —t—a—s—k—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—h—u—b—:—s—p—a—w—n— —o—r— —a—s—k—s— —t—o— —s—t—a—r—t— —t—h—e— —c—o—m—p—e—t—i—n—g— —a—g—e—n—t—s— —f—o—r— —a—n— —i—n—i—t—i—a—l—i—z—e—d— —A—g—e—n—t—H—u—b— —s—e—s—s—i—o—n.
 command: /hub:spawn
 ---
 

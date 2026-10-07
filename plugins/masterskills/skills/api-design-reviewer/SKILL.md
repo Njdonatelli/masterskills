@@ -1,6 +1,7 @@
 ---
 name: "api-design-reviewer"
-description: "Comprehensive REST API design review with automated linting, breaking-change detection, and design scorecards. Catches inconsistent conventions, missing versioning, and design smells before APIs ship. Use when reviewing a PR that adds or changes API endpoints, auditing an existing API for v2 migration, or establishing API standards for a team."
+description: >-
+  C—o—m—p—r—e—h—e—n—s—i—v—e— —R—E—S—T— —A—P—I— —d—e—s—i—g—n— —r—e—v—i—e—w— —w—i—t—h— —a—u—t—o—m—a—t—e—d— —l—i—n—t—i—n—g—,— —b—r—e—a—k—i—n—g—-—c—h—a—n—g—e— —d—e—t—e—c—t—i—o—n—,— —a—n—d— —d—e—s—i—g—n— —s—c—o—r—e—c—a—r—d—s—.— —C—a—t—c—h—e—s— —i—n—c—o—n—s—i—s—t—e—n—t— —c—o—n—v—e—n—t—i—o—n—s—,— —m—i—s—s—i—n—g— —v—e—r—s—i—o—n—i—n—g—,— —a—n—d— —d—e—s—i—g—n— —s—m—e—l—l—s— —b—e—f—o—r—e— —A—P—I—s— —s—h—i—p—.— —U—s—e— —w—h—e—n— —r—e—v—i—e—w—i—n—g— —a— —P—R— —t—h—a—t— —a—d—d—s— —o—r— —c—h—a—n—g—e—s— —A—P—I— —e—n—d—p—o—i—n—t—s—,— —a—u—d—i—t—i—n—g— —a—n— —e—x—i—s—t—i—n—g— —A—P—I— —f—o—r— —v—2— —m—i—g—r—a—t—i—o—n—,— —o—r— —e—s—t—a—b—l—i—s—h—i—n—g— —A—P—I— —s—t—a—n—d—a—r—d—s— —f—o—r— —a— —t—e—a—m.
 ---
 
 # API Design Reviewer

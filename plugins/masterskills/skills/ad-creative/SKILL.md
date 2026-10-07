@@ -1,6 +1,7 @@
 ---
 name: "ad-creative"
-description: "When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' This is pure creative production — distinct from paid-ads (campaign strategy). Use ad-creative when you need the copy, not the campaign plan."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —n—e—e—d—s— —t—o— —g—e—n—e—r—a—t—e—,— —i—t—e—r—a—t—e—,— —o—r— —s—c—a—l—e— —a—d— —c—r—e—a—t—i—v—e— —f—o—r— —p—a—i—d— —a—d—v—e—r—t—i—s—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e—y— —s—a—y— —'—w—r—i—t—e— —a—d— —c—o—p—y—,—'— —'—g—e—n—e—r—a—t—e— —h—e—a—d—l—i—n—e—s—,—'— —'—c—r—e—a—t—e— —a—d— —v—a—r—i—a—t—i—o—n—s—,—'— —'—b—u—l—k— —c—r—e—a—t—i—v—e—,—'— —'—i—t—e—r—a—t—e— —o—n— —a—d—s—,—'— —'—a—d— —c—o—p—y— —v—a—l—i—d—a—t—i—o—n—,—'— —'—R—S—A— —h—e—a—d—l—i—n—e—s—,—'— —'—M—e—t—a— —a—d— —c—o—p—y—,—'— —'—L—i—n—k—e—d—I—n— —a—d—,—'— —o—r— —'—c—r—e—a—t—i—v—e— —t—e—s—t—i—n—g—.—'— —T—h—i—s— —i—s— —p—u—r—e— —c—r—e—a—t—i—v—e— —p—r—o—d—u—c—t—i—o—n— ——— —d—i—s—t—i—n—c—t— —f—r—o—m— —p—a—i—d—-—a—d—s— —(—c—a—m—p—a—i—g—n— —s—t—r—a—t—e—g—y—)—.— —U—s—e— —a—d—-—c—r—e—a—t—i—v—e— —w—h—e—n— —y—o—u— —n—e—e—d— —t—h—e— —c—o—p—y—,— —n—o—t— —t—h—e— —c—a—m—p—a—i—g—n— —p—l—a—n.
 license: MIT
 metadata:
   version: 1.0.0

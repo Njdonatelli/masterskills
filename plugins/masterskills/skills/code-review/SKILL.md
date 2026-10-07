@@ -1,6 +1,7 @@
 ---
 name: code-review
-description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".
+description: >-
+  R—e—v—i—e—w— —t—h—e— —c—h—a—n—g—e—s— —s—i—n—c—e— —a— —f—i—x—e—d— —p—o—i—n—t— —(—c—o—m—m—i—t—,— —b—r—a—n—c—h—,— —t—a—g—,— —o—r— —m—e—r—g—e—-—b—a—s—e—)— —a—l—o—n—g— —t—w—o— —a—x—e—s— ——— —S—t—a—n—d—a—r—d—s— —(—d—o—e—s— —t—h—e— —c—o—d—e— —f—o—l—l—o—w— —t—h—i—s— —r—e—p—o—'—s— —d—o—c—u—m—e—n—t—e—d— —c—o—d—i—n—g— —s—t—a—n—d—a—r—d—s—?—)— —a—n—d— —S—p—e—c— —(—d—o—e—s— —t—h—e— —c—o—d—e— —m—a—t—c—h— —w—h—a—t— —t—h—e— —o—r—i—g—i—n—a—t—i—n—g— —i—s—s—u—e—/—s—p—e—c— —a—s—k—e—d— —f—o—r—?—)—.— —R—u—n—s— —b—o—t—h— —r—e—v—i—e—w—s— —i—n— —p—a—r—a—l—l—e—l— —s—u—b—-—a—g—e—n—t—s— —a—n—d— —r—e—p—o—r—t—s— —t—h—e—m— —s—i—d—e— —b—y— —s—i—d—e—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —r—e—v—i—e—w— —a— —b—r—a—n—c—h—,— —a— —P—R—,— —w—o—r—k—-—i—n—-—p—r—o—g—r—e—s—s— —c—h—a—n—g—e—s—,— —o—r— —a—s—k—s— —t—o— —"—r—e—v—i—e—w— —s—i—n—c—e— —X—".
 ---
 
 Two-axis review of the diff between `HEAD` and a fixed point the user supplies:

@@ -1,16 +1,7 @@
 ---
 name: epic-design
-description: >
-  Build immersive, cinematic 2.5D interactive websites using scroll storytelling,
-  parallax depth, text animations, and premium scroll effects — no WebGL required.
-  Use this skill for any web design task: landing pages, product sites, hero sections,
-  scroll animations, parallax, sticky sections, section overlaps, floating products
-  between sections, clip-path reveals, text that flies in from sides, words that light
-  up on scroll, curtain drops, iris opens, card stacks, bleed typography, and any
-  site that should feel cinematic or premium. Trigger on phrases like "make it feel
-  alive", "Apple-style animation", "sections that overlap", "product rises between
-  sections", "immersive", "scrollytelling", or any scroll-driven visual effect.
-  Covers 45+ techniques across 8 categories. Always inspects, judges, and plans assets before coding. Use aggressively for ANY web design task.
+description: >-
+  B—u—i—l—d— —i—m—m—e—r—s—i—v—e—,— —c—i—n—e—m—a—t—i—c— —2—.—5—D— —i—n—t—e—r—a—c—t—i—v—e— —w—e—b—s—i—t—e—s— —u—s—i—n—g— —s—c—r—o—l—l— —s—t—o—r—y—t—e—l—l—i—n—g—,— —p—a—r—a—l—l—a—x— —d—e—p—t—h—,— —t—e—x—t— —a—n—i—m—a—t—i—o—n—s—,— —a—n—d— —p—r—e—m—i—u—m— —s—c—r—o—l—l— —e—f—f—e—c—t—s— ——— —n—o— —W—e—b—G—L— —r—e—q—u—i—r—e—d—.— —U—s—e— —t—h—i—s— —s—k—i—l—l— —f—o—r— —a—n—y— —w—e—b— —d—e—s—i—g—n— —t—a—s—k—:— —l—a—n—d—i—n—g— —p—a—g—e—s—,— —p—r—o—d—u—c—t— —s—i—t—e—s—,— —h—e—r—o— —s—e—c—t—i—o—n—s—,— —s—c—r—o—l—l— —a—n—i—m—a—t—i—o—n—s—,— —p—a—r—a—l—l—a—x—,— —s—t—i—c—k—y— —s—e—c—t—i—o—n—s—,— —s—e—c—t—i—o—n— —o—v—e—r—l—a—p—s—,— —f—l—o—a—t—i—n—g— —p—r—o—d—u—c—t—s— —b—e—t—w—e—e—n— —s—e—c—t—i—o—n—s—,— —c—l—i—p—-—p—a—t—h— —r—e—v—e—a—l—s—,— —t—e—x—t— —t—h—a—t— —f—l—i—e—s— —i—n— —f—r—o—m— —s—i—d—e—s—,— —w—o—r—d—s— —t—h—a—t— —l—i—g—h—t— —u—p— —o—n— —s—c—r—o—l—l—,— —c—u—r—t—a—i—n— —d—r—o—p—s—,— —i—r—i—s— —o—p—e—n—s—,— —c—a—r—d— —s—t—a—c—k—s—,— —b—l—e—e—d— —t—y—p—o—g—r—a—p—h—y—,— —a—n—d— —a—n—y— —s—i—t—e— —t—h—a—t— —s—h—o—u—l—d— —f—e—e—l— —c—i—n—e—m—a—t—i—c— —o—r— —p—r—e—m—i—u—m—.— —T—r—i—g—g—e—r— —o—n— —p—h—r—a—s—e—s— —l—i—k—e— —"—m—a—k—e— —i—t— —f—e—e—l— —a—l—i—v—e—"—,— —"—A—p—p—l—e—-—s—t—y—l—e— —a—n—i—m—a—t—i—o—n—"—,— —"—s—e—c—t—i—o—n—s— —t—h—a—t— —o—v—e—r—l—a—p—"—,— —"—p—r—o—d—u—c—t— —r—i—s—e—s— —b—e—t—w—e—e—n— —s—e—c—t—i—o—n—s—"—,— —"—i—m—m—e—r—s—i—v—e—"—,— —"—s—c—r—o—l—l—y—t—e—l—l—i—n—g—"—,— —o—r— —a—n—y— —s—c—r—o—l—l—-—d—r—i—v—e—n— —v—i—s—u—a—l— —e—f—f—e—c—t—.— —C—o—v—e—r—s— —4—5—+— —t—e—c—h—n—i—q—u—e—s— —a—c—r—o—s—s— —8— —c—a—t—e—g—o—r—i—e—s—.— —A—l—w—a—y—s— —i—n—s—p—e—c—t—s—,— —j—u—d—g—e—s—,— —a—n—d— —p—l—a—n—s— —a—s—s—e—t—s— —b—e—f—o—r—e— —c—o—d—i—n—g—.— —U—s—e— —a—g—g—r—e—s—s—i—v—e—l—y— —f—o—r— —A—N—Y— —w—e—b— —d—e—s—i—g—n— —t—a—s—k.
 license: MIT
 metadata:
   version: 1.0.0

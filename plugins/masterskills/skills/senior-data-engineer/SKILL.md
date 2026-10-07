@@ -1,6 +1,7 @@
 ---
 name: "senior-data-engineer"
-description: Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, building data pipelines, optimizing data workflows, implementing data governance, or troubleshooting data issues.
+description: >-
+  D—a—t—a— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l— —f—o—r— —b—u—i—l—d—i—n—g— —s—c—a—l—a—b—l—e— —d—a—t—a— —p—i—p—e—l—i—n—e—s—,— —E—T—L—/—E—L—T— —s—y—s—t—e—m—s—,— —a—n—d— —d—a—t—a— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—.— —E—x—p—e—r—t—i—s—e— —i—n— —P—y—t—h—o—n—,— —S—Q—L—,— —S—p—a—r—k—,— —A—i—r—f—l—o—w—,— —d—b—t—,— —K—a—f—k—a—,— —a—n—d— —m—o—d—e—r—n— —d—a—t—a— —s—t—a—c—k—.— —I—n—c—l—u—d—e—s— —d—a—t—a— —m—o—d—e—l—i—n—g—,— —p—i—p—e—l—i—n—e— —o—r—c—h—e—s—t—r—a—t—i—o—n—,— —d—a—t—a— —q—u—a—l—i—t—y—,— —a—n—d— —D—a—t—a—O—p—s—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —d—a—t—a— —a—r—c—h—i—t—e—c—t—u—r—e—s—,— —b—u—i—l—d—i—n—g— —d—a—t—a— —p—i—p—e—l—i—n—e—s—,— —o—p—t—i—m—i—z—i—n—g— —d—a—t—a— —w—o—r—k—f—l—o—w—s—,— —i—m—p—l—e—m—e—n—t—i—n—g— —d—a—t—a— —g—o—v—e—r—n—a—n—c—e—,— —o—r— —t—r—o—u—b—l—e—s—h—o—o—t—i—n—g— —d—a—t—a— —i—s—s—u—e—s.
 ---
 
 # Senior Data Engineer

@@ -1,6 +1,7 @@
 ---
 name: llm-wiki
-description: Use when building or maintaining a persistent personal knowledge base (second brain) in Obsidian where an LLM incrementally ingests sources, updates entity/concept pages, maintains cross-references, and keeps a synthesis current. Triggers include "second brain", "Obsidian wiki", "personal knowledge management", "ingest this paper/article/book", "build a research wiki", "compound knowledge", "Memex", or whenever the user wants knowledge to accumulate across sessions instead of being re-derived by RAG on every query.
+description: >-
+  U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —o—r— —m—a—i—n—t—a—i—n—i—n—g— —a— —p—e—r—s—i—s—t—e—n—t— —p—e—r—s—o—n—a—l— —k—n—o—w—l—e—d—g—e— —b—a—s—e— —(—s—e—c—o—n—d— —b—r—a—i—n—)— —i—n— —O—b—s—i—d—i—a—n— —w—h—e—r—e— —a—n— —L—L—M— —i—n—c—r—e—m—e—n—t—a—l—l—y— —i—n—g—e—s—t—s— —s—o—u—r—c—e—s—,— —u—p—d—a—t—e—s— —e—n—t—i—t—y—/—c—o—n—c—e—p—t— —p—a—g—e—s—,— —m—a—i—n—t—a—i—n—s— —c—r—o—s—s—-—r—e—f—e—r—e—n—c—e—s—,— —a—n—d— —k—e—e—p—s— —a— —s—y—n—t—h—e—s—i—s— —c—u—r—r—e—n—t—.— —T—r—i—g—g—e—r—s— —i—n—c—l—u—d—e— —"—s—e—c—o—n—d— —b—r—a—i—n—"—,— —"—O—b—s—i—d—i—a—n— —w—i—k—i—"—,— —"—p—e—r—s—o—n—a—l— —k—n—o—w—l—e—d—g—e— —m—a—n—a—g—e—m—e—n—t—"—,— —"—i—n—g—e—s—t— —t—h—i—s— —p—a—p—e—r—/—a—r—t—i—c—l—e—/—b—o—o—k—"—,— —"—b—u—i—l—d— —a— —r—e—s—e—a—r—c—h— —w—i—k—i—"—,— —"—c—o—m—p—o—u—n—d— —k—n—o—w—l—e—d—g—e—"—,— —"—M—e—m—e—x—"—,— —o—r— —w—h—e—n—e—v—e—r— —t—h—e— —u—s—e—r— —w—a—n—t—s— —k—n—o—w—l—e—d—g—e— —t—o— —a—c—c—u—m—u—l—a—t—e— —a—c—r—o—s—s— —s—e—s—s—i—o—n—s— —i—n—s—t—e—a—d— —o—f— —b—e—i—n—g— —r—e—-—d—e—r—i—v—e—d— —b—y— —R—A—G— —o—n— —e—v—e—r—y— —q—u—e—r—y.
 context: fork
 version: 2.9.0
 author: claude-code-skills

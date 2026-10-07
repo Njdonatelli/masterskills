@@ -1,6 +1,7 @@
 ---
 name: "senior-ml-engineer"
-description: ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, Kubeflow, Kubernetes, Docker), monitoring model performance or drift, building RAG pipelines, or integrating LLM APIs with retry logic and cost controls. Focused on production and operational concerns rather than model research or initial training.
+description: >-
+  M—L— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l— —f—o—r— —p—r—o—d—u—c—t—i—o—n—i—z—i—n—g— —m—o—d—e—l—s—,— —b—u—i—l—d—i—n—g— —M—L—O—p—s— —p—i—p—e—l—i—n—e—s—,— —a—n—d— —i—n—t—e—g—r—a—t—i—n—g— —L—L—M—s—.— —C—o—v—e—r—s— —m—o—d—e—l— —d—e—p—l—o—y—m—e—n—t—,— —f—e—a—t—u—r—e— —s—t—o—r—e—s—,— —d—r—i—f—t— —m—o—n—i—t—o—r—i—n—g—,— —R—A—G— —s—y—s—t—e—m—s—,— —a—n—d— —c—o—s—t— —o—p—t—i—m—i—z—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —a—b—o—u—t— —d—e—p—l—o—y—i—n—g— —M—L— —m—o—d—e—l—s— —t—o— —p—r—o—d—u—c—t—i—o—n—,— —s—e—t—t—i—n—g— —u—p— —M—L—O—p—s— —i—n—f—r—a—s—t—r—u—c—t—u—r—e— —(—M—L—f—l—o—w—,— —K—u—b—e—f—l—o—w—,— —K—u—b—e—r—n—e—t—e—s—,— —D—o—c—k—e—r—)—,— —m—o—n—i—t—o—r—i—n—g— —m—o—d—e—l— —p—e—r—f—o—r—m—a—n—c—e— —o—r— —d—r—i—f—t—,— —b—u—i—l—d—i—n—g— —R—A—G— —p—i—p—e—l—i—n—e—s—,— —o—r— —i—n—t—e—g—r—a—t—i—n—g— —L—L—M— —A—P—I—s— —w—i—t—h— —r—e—t—r—y— —l—o—g—i—c— —a—n—d— —c—o—s—t— —c—o—n—t—r—o—l—s—.— —F—o—c—u—s—e—d— —o—n— —p—r—o—d—u—c—t—i—o—n— —a—n—d— —o—p—e—r—a—t—i—o—n—a—l— —c—o—n—c—e—r—n—s— —r—a—t—h—e—r— —t—h—a—n— —m—o—d—e—l— —r—e—s—e—a—r—c—h— —o—r— —i—n—i—t—i—a—l— —t—r—a—i—n—i—n—g.
 triggers:
   - MLOps pipeline
   - model deployment

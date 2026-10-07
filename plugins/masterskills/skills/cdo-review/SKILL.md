@@ -1,6 +1,7 @@
 ---
 name: "cdo-review"
-description: "/cs:cdo-review <plan> — Decision-driven Chief Data Officer interrogation of any plan that touches training data, data architecture, data productization, or data team hiring. Use when validating training-data rights before model work, choosing warehouse vs lakehouse vs mesh, or valuing data assets for productization or M&A."
+description: >-
+  /—c—s—:—c—d—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —D—e—c—i—s—i—o—n—-—d—r—i—v—e—n— —C—h—i—e—f— —D—a—t—a— —O—f—f—i—c—e—r— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —p—l—a—n— —t—h—a—t— —t—o—u—c—h—e—s— —t—r—a—i—n—i—n—g— —d—a—t—a—,— —d—a—t—a— —a—r—c—h—i—t—e—c—t—u—r—e—,— —d—a—t—a— —p—r—o—d—u—c—t—i—z—a—t—i—o—n—,— —o—r— —d—a—t—a— —t—e—a—m— —h—i—r—i—n—g—.— —U—s—e— —w—h—e—n— —v—a—l—i—d—a—t—i—n—g— —t—r—a—i—n—i—n—g—-—d—a—t—a— —r—i—g—h—t—s— —b—e—f—o—r—e— —m—o—d—e—l— —w—o—r—k—,— —c—h—o—o—s—i—n—g— —w—a—r—e—h—o—u—s—e— —v—s— —l—a—k—e—h—o—u—s—e— —v—s— —m—e—s—h—,— —o—r— —v—a—l—u—i—n—g— —d—a—t—a— —a—s—s—e—t—s— —f—o—r— —p—r—o—d—u—c—t—i—z—a—t—i—o—n— —o—r— —M—&—A.
 ---
 
 # /cs:cdo-review — CDO Forcing Questions

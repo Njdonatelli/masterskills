@@ -1,6 +1,7 @@
 ---
 name: "agent-protocol"
-description: "Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles."
+description: >-
+  I—n—t—e—r—-—a—g—e—n—t— —c—o—m—m—u—n—i—c—a—t—i—o—n— —p—r—o—t—o—c—o—l— —f—o—r— —C—-—s—u—i—t—e— —a—g—e—n—t— —t—e—a—m—s—.— —D—e—f—i—n—e—s— —i—n—v—o—c—a—t—i—o—n— —s—y—n—t—a—x—,— —l—o—o—p— —p—r—e—v—e—n—t—i—o—n—,— —i—s—o—l—a—t—i—o—n— —r—u—l—e—s—,— —a—n—d— —r—e—s—p—o—n—s—e— —f—o—r—m—a—t—s—.— —U—s—e— —w—h—e—n— —C—-—s—u—i—t—e— —a—g—e—n—t—s— —n—e—e—d— —t—o— —q—u—e—r—y— —e—a—c—h— —o—t—h—e—r—,— —c—o—o—r—d—i—n—a—t—e— —c—r—o—s—s—-—f—u—n—c—t—i—o—n—a—l— —a—n—a—l—y—s—i—s—,— —o—r— —r—u—n— —b—o—a—r—d— —m—e—e—t—i—n—g—s— —w—i—t—h— —m—u—l—t—i—p—l—e— —a—g—e—n—t— —r—o—l—e—s.
 license: MIT
 metadata:
   version: 1.0.0

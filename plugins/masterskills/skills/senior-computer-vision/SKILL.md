@@ -1,6 +1,7 @@
 ---
 name: "senior-computer-vision"
-description: Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics, Detectron2, and MMDetection frameworks. Use when building detection pipelines, training custom models, optimizing inference, or deploying vision systems.
+description: >-
+  C—o—m—p—u—t—e—r— —v—i—s—i—o—n— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l— —f—o—r— —o—b—j—e—c—t— —d—e—t—e—c—t—i—o—n—,— —i—m—a—g—e— —s—e—g—m—e—n—t—a—t—i—o—n—,— —a—n—d— —v—i—s—u—a—l— —A—I— —s—y—s—t—e—m—s—.— —C—o—v—e—r—s— —C—N—N— —a—n—d— —V—i—s—i—o—n— —T—r—a—n—s—f—o—r—m—e—r— —a—r—c—h—i—t—e—c—t—u—r—e—s—,— —Y—O—L—O—/—F—a—s—t—e—r— —R—-—C—N—N—/—D—E—T—R— —d—e—t—e—c—t—i—o—n—,— —M—a—s—k— —R—-—C—N—N—/—S—A—M— —s—e—g—m—e—n—t—a—t—i—o—n—,— —a—n—d— —p—r—o—d—u—c—t—i—o—n— —d—e—p—l—o—y—m—e—n—t— —w—i—t—h— —O—N—N—X—/—T—e—n—s—o—r—R—T—.— —I—n—c—l—u—d—e—s— —P—y—T—o—r—c—h—,— —t—o—r—c—h—v—i—s—i—o—n—,— —U—l—t—r—a—l—y—t—i—c—s—,— —D—e—t—e—c—t—r—o—n—2—,— —a—n—d— —M—M—D—e—t—e—c—t—i—o—n— —f—r—a—m—e—w—o—r—k—s—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —d—e—t—e—c—t—i—o—n— —p—i—p—e—l—i—n—e—s—,— —t—r—a—i—n—i—n—g— —c—u—s—t—o—m— —m—o—d—e—l—s—,— —o—p—t—i—m—i—z—i—n—g— —i—n—f—e—r—e—n—c—e—,— —o—r— —d—e—p—l—o—y—i—n—g— —v—i—s—i—o—n— —s—y—s—t—e—m—s.
 ---
 
 # Senior Computer Vision Engineer

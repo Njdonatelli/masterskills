@@ -1,6 +1,7 @@
 ---
 name: "org-health-diagnostic"
-description: "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health, health check, or health dashboard."
+description: >-
+  C—r—o—s—s—-—f—u—n—c—t—i—o—n—a—l— —o—r—g—a—n—i—z—a—t—i—o—n—a—l— —h—e—a—l—t—h— —c—h—e—c—k— —c—o—m—b—i—n—i—n—g— —s—i—g—n—a—l—s— —f—r—o—m— —a—l—l— —C—-—s—u—i—t—e— —r—o—l—e—s—.— —S—c—o—r—e—s— —8— —d—i—m—e—n—s—i—o—n—s— —o—n— —a— —t—r—a—f—f—i—c—-—l—i—g—h—t— —s—c—a—l—e— —w—i—t—h— —d—r—i—l—l—-—d—o—w—n— —r—e—c—o—m—m—e—n—d—a—t—i—o—n—s—.— —U—s—e— —w—h—e—n— —a—s—s—e—s—s—i—n—g— —o—v—e—r—a—l—l— —c—o—m—p—a—n—y— —h—e—a—l—t—h—,— —p—r—e—p—a—r—i—n—g— —f—o—r— —b—o—a—r—d— —r—e—v—i—e—w—s—,— —i—d—e—n—t—i—f—y—i—n—g— —a—t—-—r—i—s—k— —f—u—n—c—t—i—o—n—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —o—r—g— —h—e—a—l—t—h—,— —h—e—a—l—t—h— —c—h—e—c—k—,— —o—r— —h—e—a—l—t—h— —d—a—s—h—b—o—a—r—d.
 license: MIT
 metadata:
   version: 1.0.0

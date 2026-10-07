@@ -1,6 +1,7 @@
 ---
 name: "execute"
-description: "/cs:execute <decision> — Generate a 90-day execution plan with weekly milestones, DRIs, and check-in cadence from an approved decision. Use when a logged decision needs to become an operating plan — e.g. turning an approved market-entry call into weekly milestones with DRIs."
+description: >-
+  /—c—s—:—e—x—e—c—u—t—e— —<—d—e—c—i—s—i—o—n—>— ——— —G—e—n—e—r—a—t—e— —a— —9—0—-—d—a—y— —e—x—e—c—u—t—i—o—n— —p—l—a—n— —w—i—t—h— —w—e—e—k—l—y— —m—i—l—e—s—t—o—n—e—s—,— —D—R—I—s—,— —a—n—d— —c—h—e—c—k—-—i—n— —c—a—d—e—n—c—e— —f—r—o—m— —a—n— —a—p—p—r—o—v—e—d— —d—e—c—i—s—i—o—n—.— —U—s—e— —w—h—e—n— —a— —l—o—g—g—e—d— —d—e—c—i—s—i—o—n— —n—e—e—d—s— —t—o— —b—e—c—o—m—e— —a—n— —o—p—e—r—a—t—i—n—g— —p—l—a—n— ——— —e—.—g—.— —t—u—r—n—i—n—g— —a—n— —a—p—p—r—o—v—e—d— —m—a—r—k—e—t—-—e—n—t—r—y— —c—a—l—l— —i—n—t—o— —w—e—e—k—l—y— —m—i—l—e—s—t—o—n—e—s— —w—i—t—h— —D—R—I—s.
 ---
 
 # /cs:execute — 90-Day Execution Plan

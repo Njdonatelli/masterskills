@@ -1,6 +1,7 @@
 ---
 name: "financial-analyst"
-description: Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also applicable when users mention financial modeling, cash flow analysis, company valuation, financial projections, or spreadsheet analysis.
+description: >-
+  P—e—r—f—o—r—m—s— —f—i—n—a—n—c—i—a—l— —r—a—t—i—o— —a—n—a—l—y—s—i—s—,— —D—C—F— —v—a—l—u—a—t—i—o—n—,— —b—u—d—g—e—t— —v—a—r—i—a—n—c—e— —a—n—a—l—y—s—i—s—,— —a—n—d— —r—o—l—l—i—n—g— —f—o—r—e—c—a—s—t— —c—o—n—s—t—r—u—c—t—i—o—n— —f—o—r— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n—-—m—a—k—i—n—g—.— —U—s—e— —w—h—e—n— —a—n—a—l—y—z—i—n—g— —f—i—n—a—n—c—i—a—l— —s—t—a—t—e—m—e—n—t—s—,— —b—u—i—l—d—i—n—g— —v—a—l—u—a—t—i—o—n— —m—o—d—e—l—s—,— —a—s—s—e—s—s—i—n—g— —b—u—d—g—e—t— —v—a—r—i—a—n—c—e—s—,— —o—r— —c—o—n—s—t—r—u—c—t—i—n—g— —f—i—n—a—n—c—i—a—l— —p—r—o—j—e—c—t—i—o—n—s— —a—n—d— —f—o—r—e—c—a—s—t—s—.— —A—l—s—o— —a—p—p—l—i—c—a—b—l—e— —w—h—e—n— —u—s—e—r—s— —m—e—n—t—i—o—n— —f—i—n—a—n—c—i—a—l— —m—o—d—e—l—i—n—g—,— —c—a—s—h— —f—l—o—w— —a—n—a—l—y—s—i—s—,— —c—o—m—p—a—n—y— —v—a—l—u—a—t—i—o—n—,— —f—i—n—a—n—c—i—a—l— —p—r—o—j—e—c—t—i—o—n—s—,— —o—r— —s—p—r—e—a—d—s—h—e—e—t— —a—n—a—l—y—s—i—s.
 ---
 
 # Financial Analyst Skill

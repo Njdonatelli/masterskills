@@ -1,6 +1,7 @@
 ---
 name: "api-test-suite-builder"
-description: "Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —g—e—n—e—r—a—t—e— —A—P—I— —t—e—s—t—s—,— —c—r—e—a—t—e— —i—n—t—e—g—r—a—t—i—o—n— —t—e—s—t— —s—u—i—t—e—s—,— —t—e—s—t— —R—E—S—T— —e—n—d—p—o—i—n—t—s—,— —o—r— —b—u—i—l—d— —c—o—n—t—r—a—c—t— —t—e—s—t—s.
 ---
 
 # API Test Suite Builder

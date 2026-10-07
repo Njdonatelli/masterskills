@@ -1,6 +1,7 @@
 ---
 name: "hard-call"
-description: "/em:hard-call — Framework for decisions with no good options. Use when every option is painful and a structured 10/10/10 + regret-minimization pass is needed — e.g. choosing between a layoff and a down round, or killing a beloved product line."
+description: >-
+  /—e—m—:—h—a—r—d—-—c—a—l—l— ——— —F—r—a—m—e—w—o—r—k— —f—o—r— —d—e—c—i—s—i—o—n—s— —w—i—t—h— —n—o— —g—o—o—d— —o—p—t—i—o—n—s—.— —U—s—e— —w—h—e—n— —e—v—e—r—y— —o—p—t—i—o—n— —i—s— —p—a—i—n—f—u—l— —a—n—d— —a— —s—t—r—u—c—t—u—r—e—d— —1—0—/—1—0—/—1—0— —+— —r—e—g—r—e—t—-—m—i—n—i—m—i—z—a—t—i—o—n— —p—a—s—s— —i—s— —n—e—e—d—e—d— ——— —e—.—g—.— —c—h—o—o—s—i—n—g— —b—e—t—w—e—e—n— —a— —l—a—y—o—f—f— —a—n—d— —a— —d—o—w—n— —r—o—u—n—d—,— —o—r— —k—i—l—l—i—n—g— —a— —b—e—l—o—v—e—d— —p—r—o—d—u—c—t— —l—i—n—e.
 ---
 
 # /em:hard-call — Framework for Decisions With No Good Options

@@ -1,6 +1,7 @@
 ---
 name: "autoresearch-agent"
-description: "Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code speed, reduce bundle/image size, improve test pass rate, optimize prompts, improve content quality (headlines, copy, CTR), or run any measurable improvement loop. Requires: a target file, an evaluation command that outputs a metric, and a git repo."
+description: >-
+  A—u—t—o—n—o—m—o—u—s— —e—x—p—e—r—i—m—e—n—t— —l—o—o—p— —t—h—a—t— —o—p—t—i—m—i—z—e—s— —a—n—y— —f—i—l—e— —b—y— —a— —m—e—a—s—u—r—a—b—l—e— —m—e—t—r—i—c—.— —I—n—s—p—i—r—e—d— —b—y— —K—a—r—p—a—t—h—y—'—s— —a—u—t—o—r—e—s—e—a—r—c—h—.— —T—h—e— —a—g—e—n—t— —e—d—i—t—s— —a— —t—a—r—g—e—t— —f—i—l—e—,— —r—u—n—s— —a— —f—i—x—e—d— —e—v—a—l—u—a—t—i—o—n—,— —k—e—e—p—s— —i—m—p—r—o—v—e—m—e—n—t—s— —(—g—i—t— —c—o—m—m—i—t—)—,— —d—i—s—c—a—r—d—s— —f—a—i—l—u—r—e—s— —(—g—i—t— —r—e—s—e—t—)—,— —a—n—d— —l—o—o—p—s— —i—n—d—e—f—i—n—i—t—e—l—y—.— —U—s—e— —w—h—e—n—:— —u—s—e—r— —w—a—n—t—s— —t—o— —o—p—t—i—m—i—z—e— —c—o—d—e— —s—p—e—e—d—,— —r—e—d—u—c—e— —b—u—n—d—l—e—/—i—m—a—g—e— —s—i—z—e—,— —i—m—p—r—o—v—e— —t—e—s—t— —p—a—s—s— —r—a—t—e—,— —o—p—t—i—m—i—z—e— —p—r—o—m—p—t—s—,— —i—m—p—r—o—v—e— —c—o—n—t—e—n—t— —q—u—a—l—i—t—y— —(—h—e—a—d—l—i—n—e—s—,— —c—o—p—y—,— —C—T—R—)—,— —o—r— —r—u—n— —a—n—y— —m—e—a—s—u—r—a—b—l—e— —i—m—p—r—o—v—e—m—e—n—t— —l—o—o—p—.— —R—e—q—u—i—r—e—s—:— —a— —t—a—r—g—e—t— —f—i—l—e—,— —a—n— —e—v—a—l—u—a—t—i—o—n— —c—o—m—m—a—n—d— —t—h—a—t— —o—u—t—p—u—t—s— —a— —m—e—t—r—i—c—,— —a—n—d— —a— —g—i—t— —r—e—p—o.
 license: MIT
 metadata:
   version: 2.0.0

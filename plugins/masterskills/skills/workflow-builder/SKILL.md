@@ -1,6 +1,7 @@
 ---
 name: workflow-builder
-description: Design and write deterministic multi-agent workflow scripts (.js files in .claude/workflows/) for Claude Code's Workflow tool. Use when a user wants to build, create, author, scaffold, or run a custom Claude Code workflow, orchestrate sub-agents (fan-out, pipeline, loop, judge-panel), or automate a repeatable multi-step task across fresh-context agents.
+description: >-
+  D—e—s—i—g—n— —a—n—d— —w—r—i—t—e— —d—e—t—e—r—m—i—n—i—s—t—i—c— —m—u—l—t—i—-—a—g—e—n—t— —w—o—r—k—f—l—o—w— —s—c—r—i—p—t—s— —(—.—j—s— —f—i—l—e—s— —i—n— —.—c—l—a—u—d—e—/—w—o—r—k—f—l—o—w—s—/—)— —f—o—r— —C—l—a—u—d—e— —C—o—d—e—'—s— —W—o—r—k—f—l—o—w— —t—o—o—l—.— —U—s—e— —w—h—e—n— —a— —u—s—e—r— —w—a—n—t—s— —t—o— —b—u—i—l—d—,— —c—r—e—a—t—e—,— —a—u—t—h—o—r—,— —s—c—a—f—f—o—l—d—,— —o—r— —r—u—n— —a— —c—u—s—t—o—m— —C—l—a—u—d—e— —C—o—d—e— —w—o—r—k—f—l—o—w—,— —o—r—c—h—e—s—t—r—a—t—e— —s—u—b—-—a—g—e—n—t—s— —(—f—a—n—-—o—u—t—,— —p—i—p—e—l—i—n—e—,— —l—o—o—p—,— —j—u—d—g—e—-—p—a—n—e—l—)—,— —o—r— —a—u—t—o—m—a—t—e— —a— —r—e—p—e—a—t—a—b—l—e— —m—u—l—t—i—-—s—t—e—p— —t—a—s—k— —a—c—r—o—s—s— —f—r—e—s—h—-—c—o—n—t—e—x—t— —a—g—e—n—t—s.
 license: MIT
 metadata:
   inspired_by: "https://github.com/ray-amjad/claude-code-workflow-creator (Ray Amjad)"

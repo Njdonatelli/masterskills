@@ -1,6 +1,7 @@
 ---
 name: setup-matt-pocock-skills
-description: Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
+description: >-
+  C—o—n—f—i—g—u—r—e— —t—h—i—s— —r—e—p—o— —f—o—r— —t—h—e— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l—s— ——— —s—e—t— —u—p— —i—t—s— —i—s—s—u—e— —t—r—a—c—k—e—r—,— —t—r—i—a—g—e— —l—a—b—e—l— —v—o—c—a—b—u—l—a—r—y—,— —a—n—d— —d—o—m—a—i—n— —d—o—c— —l—a—y—o—u—t—.— —R—u—n— —o—n—c—e— —b—e—f—o—r—e— —f—i—r—s—t— —u—s—e— —o—f— —t—h—e— —o—t—h—e—r— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l—s.
 disable-model-invocation: true
 ---
 

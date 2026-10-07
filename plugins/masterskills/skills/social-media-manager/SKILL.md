@@ -1,6 +1,7 @@
 ---
 name: "social-media-manager"
-description: "When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms. Also use when the user mentions 'social media strategy,' 'social calendar,' 'community management,' 'social media plan,' 'grow followers,' 'engagement rate,' 'social media audit,' or 'which platforms should I use.' For writing individual social posts, see social-content. For analyzing social performance data, see social-media-analyzer."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —d—e—v—e—l—o—p— —s—o—c—i—a—l— —m—e—d—i—a— —s—t—r—a—t—e—g—y—,— —p—l—a—n— —c—o—n—t—e—n—t— —c—a—l—e—n—d—a—r—s—,— —m—a—n—a—g—e— —c—o—m—m—u—n—i—t—y— —e—n—g—a—g—e—m—e—n—t—,— —o—r— —g—r—o—w— —t—h—e—i—r— —s—o—c—i—a—l— —p—r—e—s—e—n—c—e— —a—c—r—o—s—s— —p—l—a—t—f—o—r—m—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—s—o—c—i—a—l— —m—e—d—i—a— —s—t—r—a—t—e—g—y—,—'— —'—s—o—c—i—a—l— —c—a—l—e—n—d—a—r—,—'— —'—c—o—m—m—u—n—i—t—y— —m—a—n—a—g—e—m—e—n—t—,—'— —'—s—o—c—i—a—l— —m—e—d—i—a— —p—l—a—n—,—'— —'—g—r—o—w— —f—o—l—l—o—w—e—r—s—,—'— —'—e—n—g—a—g—e—m—e—n—t— —r—a—t—e—,—'— —'—s—o—c—i—a—l— —m—e—d—i—a— —a—u—d—i—t—,—'— —o—r— —'—w—h—i—c—h— —p—l—a—t—f—o—r—m—s— —s—h—o—u—l—d— —I— —u—s—e—.—'— —F—o—r— —w—r—i—t—i—n—g— —i—n—d—i—v—i—d—u—a—l— —s—o—c—i—a—l— —p—o—s—t—s—,— —s—e—e— —s—o—c—i—a—l—-—c—o—n—t—e—n—t—.— —F—o—r— —a—n—a—l—y—z—i—n—g— —s—o—c—i—a—l— —p—e—r—f—o—r—m—a—n—c—e— —d—a—t—a—,— —s—e—e— —s—o—c—i—a—l—-—m—e—d—i—a—-—a—n—a—l—y—z—e—r.
 license: MIT
 metadata:
   version: 1.0.0

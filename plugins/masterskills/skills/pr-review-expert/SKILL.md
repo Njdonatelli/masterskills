@@ -1,6 +1,7 @@
 ---
 name: "pr-review-expert"
-description: "Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —r—e—v—i—e—w— —p—u—l—l— —r—e—q—u—e—s—t—s—,— —a—n—a—l—y—z—e— —c—o—d—e— —c—h—a—n—g—e—s—,— —c—h—e—c—k— —f—o—r— —s—e—c—u—r—i—t—y— —i—s—s—u—e—s— —i—n— —P—R—s—,— —o—r— —a—s—s—e—s—s— —c—o—d—e— —q—u—a—l—i—t—y— —o—f— —d—i—f—f—s.
 ---
 
 # PR Review Expert

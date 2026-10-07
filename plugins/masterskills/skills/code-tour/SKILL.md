@@ -1,6 +1,7 @@
 ---
 name: "code-tour"
-description: "Use when the user asks to create a CodeTour .tour file — persona-targeted, step-by-step walkthroughs that link to real files and line numbers. Trigger for: create a tour, onboarding tour, architecture tour, PR review tour, explain how X works, vibe check, RCA tour, contributor guide, or any structured code walkthrough request."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —c—r—e—a—t—e— —a— —C—o—d—e—T—o—u—r— —.—t—o—u—r— —f—i—l—e— ——— —p—e—r—s—o—n—a—-—t—a—r—g—e—t—e—d—,— —s—t—e—p—-—b—y—-—s—t—e—p— —w—a—l—k—t—h—r—o—u—g—h—s— —t—h—a—t— —l—i—n—k— —t—o— —r—e—a—l— —f—i—l—e—s— —a—n—d— —l—i—n—e— —n—u—m—b—e—r—s—.— —T—r—i—g—g—e—r— —f—o—r—:— —c—r—e—a—t—e— —a— —t—o—u—r—,— —o—n—b—o—a—r—d—i—n—g— —t—o—u—r—,— —a—r—c—h—i—t—e—c—t—u—r—e— —t—o—u—r—,— —P—R— —r—e—v—i—e—w— —t—o—u—r—,— —e—x—p—l—a—i—n— —h—o—w— —X— —w—o—r—k—s—,— —v—i—b—e— —c—h—e—c—k—,— —R—C—A— —t—o—u—r—,— —c—o—n—t—r—i—b—u—t—o—r— —g—u—i—d—e—,— —o—r— —a—n—y— —s—t—r—u—c—t—u—r—e—d— —c—o—d—e— —w—a—l—k—t—h—r—o—u—g—h— —r—e—q—u—e—s—t.
 ---
 
 # Code Tour

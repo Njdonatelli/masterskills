@@ -1,6 +1,7 @@
 ---
 name: "youtube-full"
-description: "Use when the user needs YouTube transcripts, video search, channel browsing, playlist extraction, or content monitoring. Trigger phrases: 'get the transcript for', 'search YouTube for', 'what are the latest videos on', 'list this playlist', 'monitor this channel', or any request involving a YouTube URL, video ID, or @handle. Do NOT use for downloading video or audio files, YouTube engagement data (likes, comments), or private/age-restricted videos."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —n—e—e—d—s— —Y—o—u—T—u—b—e— —t—r—a—n—s—c—r—i—p—t—s—,— —v—i—d—e—o— —s—e—a—r—c—h—,— —c—h—a—n—n—e—l— —b—r—o—w—s—i—n—g—,— —p—l—a—y—l—i—s—t— —e—x—t—r—a—c—t—i—o—n—,— —o—r— —c—o—n—t—e—n—t— —m—o—n—i—t—o—r—i—n—g—.— —T—r—i—g—g—e—r— —p—h—r—a—s—e—s—:— —'—g—e—t— —t—h—e— —t—r—a—n—s—c—r—i—p—t— —f—o—r—'—,— —'—s—e—a—r—c—h— —Y—o—u—T—u—b—e— —f—o—r—'—,— —'—w—h—a—t— —a—r—e— —t—h—e— —l—a—t—e—s—t— —v—i—d—e—o—s— —o—n—'—,— —'—l—i—s—t— —t—h—i—s— —p—l—a—y—l—i—s—t—'—,— —'—m—o—n—i—t—o—r— —t—h—i—s— —c—h—a—n—n—e—l—'—,— —o—r— —a—n—y— —r—e—q—u—e—s—t— —i—n—v—o—l—v—i—n—g— —a— —Y—o—u—T—u—b—e— —U—R—L—,— —v—i—d—e—o— —I—D—,— —o—r— —@—h—a—n—d—l—e—.— —D—o— —N—O—T— —u—s—e— —f—o—r— —d—o—w—n—l—o—a—d—i—n—g— —v—i—d—e—o— —o—r— —a—u—d—i—o— —f—i—l—e—s—,— —Y—o—u—T—u—b—e— —e—n—g—a—g—e—m—e—n—t— —d—a—t—a— —(—l—i—k—e—s—,— —c—o—m—m—e—n—t—s—)—,— —o—r— —p—r—i—v—a—t—e—/—a—g—e—-—r—e—s—t—r—i—c—t—e—d— —v—i—d—e—o—s.
 license: "MIT"
 ---
 

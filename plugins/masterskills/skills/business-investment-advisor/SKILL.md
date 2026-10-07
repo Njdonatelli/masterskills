@@ -1,6 +1,7 @@
 ---
 name: business-investment-advisor
-description: "Business investment analysis and capital allocation advisor. Use when evaluating whether to invest in equipment, real estate, a new business, hiring, technology, or any capital expenditure. Also use for ROI calculations, IRR, NPV, payback period, build vs buy decisions, lease vs buy analysis, vendor evaluation, or deciding where to allocate limited budget for maximum return."
+description: >-
+  B—u—s—i—n—e—s—s— —i—n—v—e—s—t—m—e—n—t— —a—n—a—l—y—s—i—s— —a—n—d— —c—a—p—i—t—a—l— —a—l—l—o—c—a—t—i—o—n— —a—d—v—i—s—o—r—.— —U—s—e— —w—h—e—n— —e—v—a—l—u—a—t—i—n—g— —w—h—e—t—h—e—r— —t—o— —i—n—v—e—s—t— —i—n— —e—q—u—i—p—m—e—n—t—,— —r—e—a—l— —e—s—t—a—t—e—,— —a— —n—e—w— —b—u—s—i—n—e—s—s—,— —h—i—r—i—n—g—,— —t—e—c—h—n—o—l—o—g—y—,— —o—r— —a—n—y— —c—a—p—i—t—a—l— —e—x—p—e—n—d—i—t—u—r—e—.— —A—l—s—o— —u—s—e— —f—o—r— —R—O—I— —c—a—l—c—u—l—a—t—i—o—n—s—,— —I—R—R—,— —N—P—V—,— —p—a—y—b—a—c—k— —p—e—r—i—o—d—,— —b—u—i—l—d— —v—s— —b—u—y— —d—e—c—i—s—i—o—n—s—,— —l—e—a—s—e— —v—s— —b—u—y— —a—n—a—l—y—s—i—s—,— —v—e—n—d—o—r— —e—v—a—l—u—a—t—i—o—n—,— —o—r— —d—e—c—i—d—i—n—g— —w—h—e—r—e— —t—o— —a—l—l—o—c—a—t—e— —l—i—m—i—t—e—d— —b—u—d—g—e—t— —f—o—r— —m—a—x—i—m—u—m— —r—e—t—u—r—n.
 ---
 
 # Business Investment Advisor

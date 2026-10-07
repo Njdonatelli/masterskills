@@ -1,6 +1,7 @@
 ---
 name: "aims-audit"
-description: "/cs:aims-audit <scope> — ISO/IEC 42001 AIMS internal-audit 6-question forcing interrogation. Use before certification stage 1, before annual internal audit cycles, or when onboarding a new AI system into an existing AIMS."
+description: >-
+  /—c—s—:—a—i—m—s—-—a—u—d—i—t— —<—s—c—o—p—e—>— ——— —I—S—O—/—I—E—C— —4—2—0—0—1— —A—I—M—S— —i—n—t—e—r—n—a—l—-—a—u—d—i—t— —6—-—q—u—e—s—t—i—o—n— —f—o—r—c—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n—.— —U—s—e— —b—e—f—o—r—e— —c—e—r—t—i—f—i—c—a—t—i—o—n— —s—t—a—g—e— —1—,— —b—e—f—o—r—e— —a—n—n—u—a—l— —i—n—t—e—r—n—a—l— —a—u—d—i—t— —c—y—c—l—e—s—,— —o—r— —w—h—e—n— —o—n—b—o—a—r—d—i—n—g— —a— —n—e—w— —A—I— —s—y—s—t—e—m— —i—n—t—o— —a—n— —e—x—i—s—t—i—n—g— —A—I—M—S.
 ---
 
 # /cs:aims-audit — AIMS ISO 42001 Forcing Questions

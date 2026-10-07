@@ -1,6 +1,7 @@
 ---
 name: video-content-strategist
-description: "Use when planning video content strategy, writing video scripts, optimizing YouTube channels, building short-form video pipelines (Reels, TikTok, Shorts), or repurposing long-form content into video. Triggers: 'start a YouTube channel', 'video content strategy', 'write a video script', 'repurpose into video', 'YouTube SEO', 'short-form video'. NOT for written blog content (use content-production). NOT for social captions without video (use social-media-manager)."
+description: >-
+  U—s—e— —w—h—e—n— —p—l—a—n—n—i—n—g— —v—i—d—e—o— —c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y—,— —w—r—i—t—i—n—g— —v—i—d—e—o— —s—c—r—i—p—t—s—,— —o—p—t—i—m—i—z—i—n—g— —Y—o—u—T—u—b—e— —c—h—a—n—n—e—l—s—,— —b—u—i—l—d—i—n—g— —s—h—o—r—t—-—f—o—r—m— —v—i—d—e—o— —p—i—p—e—l—i—n—e—s— —(—R—e—e—l—s—,— —T—i—k—T—o—k—,— —S—h—o—r—t—s—)—,— —o—r— —r—e—p—u—r—p—o—s—i—n—g— —l—o—n—g—-—f—o—r—m— —c—o—n—t—e—n—t— —i—n—t—o— —v—i—d—e—o—.— —T—r—i—g—g—e—r—s—:— —'—s—t—a—r—t— —a— —Y—o—u—T—u—b—e— —c—h—a—n—n—e—l—'—,— —'—v—i—d—e—o— —c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y—'—,— —'—w—r—i—t—e— —a— —v—i—d—e—o— —s—c—r—i—p—t—'—,— —'—r—e—p—u—r—p—o—s—e— —i—n—t—o— —v—i—d—e—o—'—,— —'—Y—o—u—T—u—b—e— —S—E—O—'—,— —'—s—h—o—r—t—-—f—o—r—m— —v—i—d—e—o—'—.— —N—O—T— —f—o—r— —w—r—i—t—t—e—n— —b—l—o—g— —c—o—n—t—e—n—t— —(—u—s—e— —c—o—n—t—e—n—t—-—p—r—o—d—u—c—t—i—o—n—)—.— —N—O—T— —f—o—r— —s—o—c—i—a—l— —c—a—p—t—i—o—n—s— —w—i—t—h—o—u—t— —v—i—d—e—o— —(—u—s—e— —s—o—c—i—a—l—-—m—e—d—i—a—-—m—a—n—a—g—e—r—).
 ---
 
 # Video Content Strategist

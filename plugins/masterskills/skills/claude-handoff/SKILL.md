@@ -1,6 +1,7 @@
 ---
 name: claude-handoff
-description: Hand the current conversation off to a fresh background agent that picks up the work immediately.
+description: >-
+  H—a—n—d— —t—h—e— —c—u—r—r—e—n—t— —c—o—n—v—e—r—s—a—t—i—o—n— —o—f—f— —t—o— —a— —f—r—e—s—h— —b—a—c—k—g—r—o—u—n—d— —a—g—e—n—t— —t—h—a—t— —p—i—c—k—s— —u—p— —t—h—e— —w—o—r—k— —i—m—m—e—d—i—a—t—e—l—y.
 argument-hint: "What will the next session be used for?"
 disable-model-invocation: true
 ---

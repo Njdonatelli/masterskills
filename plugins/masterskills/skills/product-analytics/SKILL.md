@@ -1,6 +1,7 @@
 ---
 name: product-analytics
-description: Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages.
+description: >-
+  U—s—e— —w—h—e—n— —d—e—f—i—n—i—n—g— —p—r—o—d—u—c—t— —K—P—I—s—,— —b—u—i—l—d—i—n—g— —m—e—t—r—i—c— —d—a—s—h—b—o—a—r—d—s—,— —r—u—n—n—i—n—g— —c—o—h—o—r—t— —o—r— —r—e—t—e—n—t—i—o—n— —a—n—a—l—y—s—i—s—,— —o—r— —i—n—t—e—r—p—r—e—t—i—n—g— —f—e—a—t—u—r—e— —a—d—o—p—t—i—o—n— —t—r—e—n—d—s— —a—c—r—o—s—s— —p—r—o—d—u—c—t— —s—t—a—g—e—s.
 ---
 
 # Product Analytics

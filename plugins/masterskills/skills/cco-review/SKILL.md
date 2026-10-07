@@ -1,6 +1,7 @@
 ---
 name: "cco-review"
-description: "/cs:cco-review <plan> — Retention-obsessed Chief Customer Officer interrogation of any plan that touches customer retention, segmentation, CS team sizing, or CS team hiring. Use when gross retention is slipping, before approving CSM headcount, or when deciding which customer segments to keep or fire."
+description: >-
+  /—c—s—:—c—c—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —R—e—t—e—n—t—i—o—n—-—o—b—s—e—s—s—e—d— —C—h—i—e—f— —C—u—s—t—o—m—e—r— —O—f—f—i—c—e—r— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —p—l—a—n— —t—h—a—t— —t—o—u—c—h—e—s— —c—u—s—t—o—m—e—r— —r—e—t—e—n—t—i—o—n—,— —s—e—g—m—e—n—t—a—t—i—o—n—,— —C—S— —t—e—a—m— —s—i—z—i—n—g—,— —o—r— —C—S— —t—e—a—m— —h—i—r—i—n—g—.— —U—s—e— —w—h—e—n— —g—r—o—s—s— —r—e—t—e—n—t—i—o—n— —i—s— —s—l—i—p—p—i—n—g—,— —b—e—f—o—r—e— —a—p—p—r—o—v—i—n—g— —C—S—M— —h—e—a—d—c—o—u—n—t—,— —o—r— —w—h—e—n— —d—e—c—i—d—i—n—g— —w—h—i—c—h— —c—u—s—t—o—m—e—r— —s—e—g—m—e—n—t—s— —t—o— —k—e—e—p— —o—r— —f—i—r—e.
 ---
 
 # /cs:cco-review — CCO Forcing Questions

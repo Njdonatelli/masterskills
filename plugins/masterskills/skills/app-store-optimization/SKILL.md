@@ -1,6 +1,7 @@
 ---
 name: "app-store-optimization"
-description: App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, app store listings, app visibility, or mobile app marketing on iOS or Android. Supports keyword research and scoring, competitor keyword analysis, metadata optimization, A/B test planning, launch checklists, and tracking ranking changes.
+description: >-
+  A—p—p— —S—t—o—r—e— —O—p—t—i—m—i—z—a—t—i—o—n— —(—A—S—O—)— —t—o—o—l—k—i—t— —f—o—r— —r—e—s—e—a—r—c—h—i—n—g— —k—e—y—w—o—r—d—s—,— —a—n—a—l—y—z—i—n—g— —c—o—m—p—e—t—i—t—o—r— —r—a—n—k—i—n—g—s—,— —g—e—n—e—r—a—t—i—n—g— —m—e—t—a—d—a—t—a— —s—u—g—g—e—s—t—i—o—n—s—,— —a—n—d— —i—m—p—r—o—v—i—n—g— —a—p—p— —v—i—s—i—b—i—l—i—t—y— —o—n— —A—p—p—l—e— —A—p—p— —S—t—o—r—e— —a—n—d— —G—o—o—g—l—e— —P—l—a—y— —S—t—o—r—e—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —a—b—o—u—t— —A—S—O—,— —a—p—p— —s—t—o—r—e— —r—a—n—k—i—n—g—s—,— —a—p—p— —m—e—t—a—d—a—t—a—,— —a—p—p— —t—i—t—l—e—s— —a—n—d— —d—e—s—c—r—i—p—t—i—o—n—s—,— —a—p—p— —s—t—o—r—e— —l—i—s—t—i—n—g—s—,— —a—p—p— —v—i—s—i—b—i—l—i—t—y—,— —o—r— —m—o—b—i—l—e— —a—p—p— —m—a—r—k—e—t—i—n—g— —o—n— —i—O—S— —o—r— —A—n—d—r—o—i—d—.— —S—u—p—p—o—r—t—s— —k—e—y—w—o—r—d— —r—e—s—e—a—r—c—h— —a—n—d— —s—c—o—r—i—n—g—,— —c—o—m—p—e—t—i—t—o—r— —k—e—y—w—o—r—d— —a—n—a—l—y—s—i—s—,— —m—e—t—a—d—a—t—a— —o—p—t—i—m—i—z—a—t—i—o—n—,— —A—/—B— —t—e—s—t— —p—l—a—n—n—i—n—g—,— —l—a—u—n—c—h— —c—h—e—c—k—l—i—s—t—s—,— —a—n—d— —t—r—a—c—k—i—n—g— —r—a—n—k—i—n—g— —c—h—a—n—g—e—s.
 triggers:
   - ASO
   - app store optimization

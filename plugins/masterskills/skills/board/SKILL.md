@@ -1,6 +1,7 @@
 ---
 name: "board"
-description: "Read, write, and browse the AgentHub message board for agent coordination. Use when the user runs /hub:board or asks to post, read, or inspect coordination messages between competing AgentHub agents."
+description: >-
+  R—e—a—d—,— —w—r—i—t—e—,— —a—n—d— —b—r—o—w—s—e— —t—h—e— —A—g—e—n—t—H—u—b— —m—e—s—s—a—g—e— —b—o—a—r—d— —f—o—r— —a—g—e—n—t— —c—o—o—r—d—i—n—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—h—u—b—:—b—o—a—r—d— —o—r— —a—s—k—s— —t—o— —p—o—s—t—,— —r—e—a—d—,— —o—r— —i—n—s—p—e—c—t— —c—o—o—r—d—i—n—a—t—i—o—n— —m—e—s—s—a—g—e—s— —b—e—t—w—e—e—n— —c—o—m—p—e—t—i—n—g— —A—g—e—n—t—H—u—b— —a—g—e—n—t—s.
 command: /hub:board
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: "quality-documentation-manager"
-description: Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use when working on document control procedures, change control workflows, document numbering, version management, electronic signature compliance, or regulatory documentation review.
+description: >-
+  D—o—c—u—m—e—n—t— —c—o—n—t—r—o—l— —s—y—s—t—e—m— —m—a—n—a—g—e—m—e—n—t— —f—o—r— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —Q—M—S—.— —C—o—v—e—r—s— —d—o—c—u—m—e—n—t— —n—u—m—b—e—r—i—n—g—,— —v—e—r—s—i—o—n— —c—o—n—t—r—o—l—,— —c—h—a—n—g—e— —m—a—n—a—g—e—m—e—n—t—,— —a—n—d— —2—1— —C—F—R— —P—a—r—t— —1—1— —c—o—m—p—l—i—a—n—c—e—.— —U—s—e— —w—h—e—n— —w—o—r—k—i—n—g— —o—n— —d—o—c—u—m—e—n—t— —c—o—n—t—r—o—l— —p—r—o—c—e—d—u—r—e—s—,— —c—h—a—n—g—e— —c—o—n—t—r—o—l— —w—o—r—k—f—l—o—w—s—,— —d—o—c—u—m—e—n—t— —n—u—m—b—e—r—i—n—g—,— —v—e—r—s—i—o—n— —m—a—n—a—g—e—m—e—n—t—,— —e—l—e—c—t—r—o—n—i—c— —s—i—g—n—a—t—u—r—e— —c—o—m—p—l—i—a—n—c—e—,— —o—r— —r—e—g—u—l—a—t—o—r—y— —d—o—c—u—m—e—n—t—a—t—i—o—n— —r—e—v—i—e—w.
 triggers:
   - document control
   - document numbering

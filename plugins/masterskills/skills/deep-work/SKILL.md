@@ -1,6 +1,7 @@
 ---
 name: deep-work
-description: Use when someone wants to plan a deep work day, time-block their calendar or task list, budget or cut shallow work, protect focus hours, track deep-work sessions and streaks, run an end-of-day shutdown ritual, or says "/deep-work" or "/time-block". Classifies tasks deep vs shallow, builds an energy-first time-blocked schedule that refuses deep demand past the 4-hour ceiling, batches shallow work into at most two windows, and logs focus sessions against a weekly target.
+description: >-
+  U—s—e— —w—h—e—n— —s—o—m—e—o—n—e— —w—a—n—t—s— —t—o— —p—l—a—n— —a— —d—e—e—p— —w—o—r—k— —d—a—y—,— —t—i—m—e—-—b—l—o—c—k— —t—h—e—i—r— —c—a—l—e—n—d—a—r— —o—r— —t—a—s—k— —l—i—s—t—,— —b—u—d—g—e—t— —o—r— —c—u—t— —s—h—a—l—l—o—w— —w—o—r—k—,— —p—r—o—t—e—c—t— —f—o—c—u—s— —h—o—u—r—s—,— —t—r—a—c—k— —d—e—e—p—-—w—o—r—k— —s—e—s—s—i—o—n—s— —a—n—d— —s—t—r—e—a—k—s—,— —r—u—n— —a—n— —e—n—d—-—o—f—-—d—a—y— —s—h—u—t—d—o—w—n— —r—i—t—u—a—l—,— —o—r— —s—a—y—s— —"—/—d—e—e—p—-—w—o—r—k—"— —o—r— —"—/—t—i—m—e—-—b—l—o—c—k—"—.— —C—l—a—s—s—i—f—i—e—s— —t—a—s—k—s— —d—e—e—p— —v—s— —s—h—a—l—l—o—w—,— —b—u—i—l—d—s— —a—n— —e—n—e—r—g—y—-—f—i—r—s—t— —t—i—m—e—-—b—l—o—c—k—e—d— —s—c—h—e—d—u—l—e— —t—h—a—t— —r—e—f—u—s—e—s— —d—e—e—p— —d—e—m—a—n—d— —p—a—s—t— —t—h—e— —4—-—h—o—u—r— —c—e—i—l—i—n—g—,— —b—a—t—c—h—e—s— —s—h—a—l—l—o—w— —w—o—r—k— —i—n—t—o— —a—t— —m—o—s—t— —t—w—o— —w—i—n—d—o—w—s—,— —a—n—d— —l—o—g—s— —f—o—c—u—s— —s—e—s—s—i—o—n—s— —a—g—a—i—n—s—t— —a— —w—e—e—k—l—y— —t—a—r—g—e—t.
 argument-hint: "[today's task list]"
 license: MIT
 metadata:

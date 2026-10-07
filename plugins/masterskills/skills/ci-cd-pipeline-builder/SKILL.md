@@ -1,6 +1,7 @@
 ---
 name: "ci-cd-pipeline-builder"
-description: "Generate pragmatic CI/CD pipelines from detected project stack signals — fast baseline generation, repeatable checks, environment-aware deployment stages. Use when setting up CI for a new project, refactoring existing pipelines, or standardizing deployment workflows across multiple repos."
+description: >-
+  G—e—n—e—r—a—t—e— —p—r—a—g—m—a—t—i—c— —C—I—/—C—D— —p—i—p—e—l—i—n—e—s— —f—r—o—m— —d—e—t—e—c—t—e—d— —p—r—o—j—e—c—t— —s—t—a—c—k— —s—i—g—n—a—l—s— ——— —f—a—s—t— —b—a—s—e—l—i—n—e— —g—e—n—e—r—a—t—i—o—n—,— —r—e—p—e—a—t—a—b—l—e— —c—h—e—c—k—s—,— —e—n—v—i—r—o—n—m—e—n—t—-—a—w—a—r—e— —d—e—p—l—o—y—m—e—n—t— —s—t—a—g—e—s—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —C—I— —f—o—r— —a— —n—e—w— —p—r—o—j—e—c—t—,— —r—e—f—a—c—t—o—r—i—n—g— —e—x—i—s—t—i—n—g— —p—i—p—e—l—i—n—e—s—,— —o—r— —s—t—a—n—d—a—r—d—i—z—i—n—g— —d—e—p—l—o—y—m—e—n—t— —w—o—r—k—f—l—o—w—s— —a—c—r—o—s—s— —m—u—l—t—i—p—l—e— —r—e—p—o—s.
 ---
 
 # CI/CD Pipeline Builder

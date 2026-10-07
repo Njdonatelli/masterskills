@@ -1,6 +1,7 @@
 ---
 name: "memory-review"
-description: "Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics. Use when the user runs /si:memory-review or asks what has been learned and what should be promoted or pruned."
+description: >-
+  A—n—a—l—y—z—e— —a—u—t—o—-—m—e—m—o—r—y— —f—o—r— —p—r—o—m—o—t—i—o—n— —c—a—n—d—i—d—a—t—e—s—,— —s—t—a—l—e— —e—n—t—r—i—e—s—,— —c—o—n—s—o—l—i—d—a—t—i—o—n— —o—p—p—o—r—t—u—n—i—t—i—e—s—,— —a—n—d— —h—e—a—l—t—h— —m—e—t—r—i—c—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—s—i—:—m—e—m—o—r—y—-—r—e—v—i—e—w— —o—r— —a—s—k—s— —w—h—a—t— —h—a—s— —b—e—e—n— —l—e—a—r—n—e—d— —a—n—d— —w—h—a—t— —s—h—o—u—l—d— —b—e— —p—r—o—m—o—t—e—d— —o—r— —p—r—u—n—e—d.
 ---
 
 # /si:memory-review — Analyze Auto-Memory

@@ -1,6 +1,7 @@
 ---
 name: resolving-merge-conflicts
-description: "Use when you need to resolve an in-progress git merge/rebase conflict."
+description: >-
+  U—s—e— —w—h—e—n— —y—o—u— —n—e—e—d— —t—o— —r—e—s—o—l—v—e— —a—n— —i—n—-—p—r—o—g—r—e—s—s— —g—i—t— —m—e—r—g—e—/—r—e—b—a—s—e— —c—o—n—f—l—i—c—t.
 ---
 
 1. **See the current state** of the merge/rebase. Check git history, and the conflicting files.

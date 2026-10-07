@@ -1,6 +1,7 @@
 ---
 name: "aws-solution-architect"
-description: Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimization.
+description: >-
+  D—e—s—i—g—n— —A—W—S— —a—r—c—h—i—t—e—c—t—u—r—e—s— —f—o—r— —s—t—a—r—t—u—p—s— —u—s—i—n—g— —s—e—r—v—e—r—l—e—s—s— —p—a—t—t—e—r—n—s— —a—n—d— —I—a—C— —t—e—m—p—l—a—t—e—s—.— —U—s—e— —w—h—e—n— —a—s—k—e—d— —t—o— —d—e—s—i—g—n— —s—e—r—v—e—r—l—e—s—s— —a—r—c—h—i—t—e—c—t—u—r—e—,— —c—r—e—a—t—e— —C—l—o—u—d—F—o—r—m—a—t—i—o—n— —t—e—m—p—l—a—t—e—s—,— —o—p—t—i—m—i—z—e— —A—W—S— —c—o—s—t—s—,— —s—e—t— —u—p— —C—I—/—C—D— —p—i—p—e—l—i—n—e—s—,— —o—r— —m—i—g—r—a—t—e— —t—o— —A—W—S—.— —C—o—v—e—r—s— —L—a—m—b—d—a—,— —A—P—I— —G—a—t—e—w—a—y—,— —D—y—n—a—m—o—D—B—,— —E—C—S—,— —A—u—r—o—r—a—,— —a—n—d— —c—o—s—t— —o—p—t—i—m—i—z—a—t—i—o—n.
 ---
 
 # AWS Solution Architect

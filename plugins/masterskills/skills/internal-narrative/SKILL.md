@@ -1,6 +1,7 @@
 ---
 name: "internal-narrative"
-description: "Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board communications, recruiting narratives, crisis communications, or when user mentions company narrative, messaging consistency, storytelling, all-hands, investor update, or crisis communication."
+description: >-
+  B—u—i—l—d— —a—n—d— —m—a—i—n—t—a—i—n— —o—n—e— —c—o—h—e—r—e—n—t— —c—o—m—p—a—n—y— —s—t—o—r—y— —a—c—r—o—s—s— —a—l—l— —a—u—d—i—e—n—c—e—s— ——— —e—m—p—l—o—y—e—e—s—,— —i—n—v—e—s—t—o—r—s—,— —c—u—s—t—o—m—e—r—s—,— —c—a—n—d—i—d—a—t—e—s—,— —a—n—d— —p—a—r—t—n—e—r—s—.— —D—e—t—e—c—t—s— —n—a—r—r—a—t—i—v—e— —c—o—n—t—r—a—d—i—c—t—i—o—n—s— —a—n—d— —e—n—s—u—r—e—s— —t—h—e— —s—a—m—e— —t—r—u—t—h— —i—s— —f—r—a—m—e—d— —f—o—r— —e—a—c—h— —a—u—d—i—e—n—c—e—'—s— —n—e—e—d—s—.— —U—s—e— —w—h—e—n— —p—r—e—p—a—r—i—n—g— —i—n—v—e—s—t—o—r— —u—p—d—a—t—e—s—,— —a—l—l—-—h—a—n—d—s— —p—r—e—s—e—n—t—a—t—i—o—n—s—,— —b—o—a—r—d— —c—o—m—m—u—n—i—c—a—t—i—o—n—s—,— —r—e—c—r—u—i—t—i—n—g— —n—a—r—r—a—t—i—v—e—s—,— —c—r—i—s—i—s— —c—o—m—m—u—n—i—c—a—t—i—o—n—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —c—o—m—p—a—n—y— —n—a—r—r—a—t—i—v—e—,— —m—e—s—s—a—g—i—n—g— —c—o—n—s—i—s—t—e—n—c—y—,— —s—t—o—r—y—t—e—l—l—i—n—g—,— —a—l—l—-—h—a—n—d—s—,— —i—n—v—e—s—t—o—r— —u—p—d—a—t—e—,— —o—r— —c—r—i—s—i—s— —c—o—m—m—u—n—i—c—a—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

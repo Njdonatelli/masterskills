@@ -1,6 +1,7 @@
 ---
 name: "remember"
-description: "Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture."
+description: >-
+  E—x—p—l—i—c—i—t—l—y— —s—a—v—e— —i—m—p—o—r—t—a—n—t— —k—n—o—w—l—e—d—g—e— —t—o— —a—u—t—o—-—m—e—m—o—r—y— —w—i—t—h— —t—i—m—e—s—t—a—m—p— —a—n—d— —c—o—n—t—e—x—t—.— —U—s—e— —w—h—e—n— —a— —d—i—s—c—o—v—e—r—y— —i—s— —t—o—o— —i—m—p—o—r—t—a—n—t— —t—o— —r—e—l—y— —o—n— —a—u—t—o—-—c—a—p—t—u—r—e.
 ---
 
 # /si:remember — Save Knowledge Explicitly

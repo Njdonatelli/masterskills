@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
-description: "When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general SEO audits (use seo-audit) or technical SEO crawl issues (use site-architecture)."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —i—m—p—l—e—m—e—n—t—,— —a—u—d—i—t—,— —o—r— —v—a—l—i—d—a—t—e— —s—t—r—u—c—t—u—r—e—d— —d—a—t—a— —(—s—c—h—e—m—a— —m—a—r—k—u—p—)— —o—n— —t—h—e—i—r— —w—e—b—s—i—t—e—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—s—t—r—u—c—t—u—r—e—d— —d—a—t—a—,—'— —'—s—c—h—e—m—a—.—o—r—g—,—'— —'—J—S—O—N—-—L—D—,—'— —'—r—i—c—h— —r—e—s—u—l—t—s—,—'— —'—r—i—c—h— —s—n—i—p—p—e—t—s—,—'— —'—s—c—h—e—m—a— —m—a—r—k—u—p—,—'— —'—F—A—Q— —s—c—h—e—m—a—,—'— —'—P—r—o—d—u—c—t— —s—c—h—e—m—a—,—'— —'—H—o—w—T—o— —s—c—h—e—m—a—,—'— —o—r— —'—s—t—r—u—c—t—u—r—e—d— —d—a—t—a— —e—r—r—o—r—s— —i—n— —S—e—a—r—c—h— —C—o—n—s—o—l—e—.—'— —A—l—s—o— —u—s—e— —w—h—e—n— —s—o—m—e—o—n—e— —a—s—k—s— —w—h—y— —t—h—e—i—r— —c—o—n—t—e—n—t— —i—s—n—'—t— —s—h—o—w—i—n—g— —r—i—c—h— —r—e—s—u—l—t—s— —o—r— —w—a—n—t—s— —t—o— —i—m—p—r—o—v—e— —A—I— —s—e—a—r—c—h— —v—i—s—i—b—i—l—i—t—y—.— —N—O—T— —f—o—r— —g—e—n—e—r—a—l— —S—E—O— —a—u—d—i—t—s— —(—u—s—e— —s—e—o—-—a—u—d—i—t—)— —o—r— —t—e—c—h—n—i—c—a—l— —S—E—O— —c—r—a—w—l— —i—s—s—u—e—s— —(—u—s—e— —s—i—t—e—-—a—r—c—h—i—t—e—c—t—u—r—e—).
 license: MIT
 metadata:
   version: 1.0.0

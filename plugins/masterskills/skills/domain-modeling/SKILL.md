@@ -1,6 +1,7 @@
 ---
 name: domain-modeling
-description: Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR.
+description: >-
+  B—u—i—l—d— —a—n—d— —s—h—a—r—p—e—n— —a— —p—r—o—j—e—c—t—'—s— —d—o—m—a—i—n— —m—o—d—e—l—.— —U—s—e— —w—h—e—n— —d—i—s—c—u—s—s—i—n—g— —c—o—d—e—b—a—s—e— —t—e—r—m—i—n—o—l—o—g—y—,— —w—r—i—t—i—n—g— —o—r— —e—d—i—t—i—n—g— —a— —C—O—N—T—E—X—T—.—m—d—,— —o—r— —r—e—c—o—r—d—i—n—g— —o—r— —e—d—i—t—i—n—g— —a—n— —A—D—R.
 ---
 
 # Domain Modeling

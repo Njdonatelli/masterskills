@@ -1,6 +1,7 @@
 ---
 name: "cro-advisor"
-description: "Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief revenue officer, revenue strategy, sales model, ARR growth, NRR, expansion revenue, churn, pricing strategy, or sales capacity."
+description: >-
+  R—e—v—e—n—u—e— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —B—2—B— —S—a—a—S— —c—o—m—p—a—n—i—e—s—.— —R—e—v—e—n—u—e— —f—o—r—e—c—a—s—t—i—n—g—,— —s—a—l—e—s— —m—o—d—e—l— —d—e—s—i—g—n—,— —p—r—i—c—i—n—g— —s—t—r—a—t—e—g—y—,— —n—e—t— —r—e—v—e—n—u—e— —r—e—t—e—n—t—i—o—n—,— —a—n—d— —s—a—l—e—s— —t—e—a—m— —s—c—a—l—i—n—g—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —t—h—e— —r—e—v—e—n—u—e— —e—n—g—i—n—e—,— —s—e—t—t—i—n—g— —q—u—o—t—a—s—,— —m—o—d—e—l—i—n—g— —N—R—R—,— —e—v—a—l—u—a—t—i—n—g— —p—r—i—c—i—n—g—,— —b—u—i—l—d—i—n—g— —b—o—a—r—d— —f—o—r—e—c—a—s—t—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—R—O—,— —c—h—i—e—f— —r—e—v—e—n—u—e— —o—f—f—i—c—e—r—,— —r—e—v—e—n—u—e— —s—t—r—a—t—e—g—y—,— —s—a—l—e—s— —m—o—d—e—l—,— —A—R—R— —g—r—o—w—t—h—,— —N—R—R—,— —e—x—p—a—n—s—i—o—n— —r—e—v—e—n—u—e—,— —c—h—u—r—n—,— —p—r—i—c—i—n—g— —s—t—r—a—t—e—g—y—,— —o—r— —s—a—l—e—s— —c—a—p—a—c—i—t—y.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 name: gemma-dev
-description: Trigger this skill when building applications with Gemma or for general knowledge inquiries related to Gemma models (e.g. prompt structure, capabilities). Covers model selection, development workflows, and deployment best practices.
+description: >-
+  T—r—i—g—g—e—r— —t—h—i—s— —s—k—i—l—l— —w—h—e—n— —b—u—i—l—d—i—n—g— —a—p—p—l—i—c—a—t—i—o—n—s— —w—i—t—h— —G—e—m—m—a— —o—r— —f—o—r— —g—e—n—e—r—a—l— —k—n—o—w—l—e—d—g—e— —i—n—q—u—i—r—i—e—s— —r—e—l—a—t—e—d— —t—o— —G—e—m—m—a— —m—o—d—e—l—s— —(—e—.—g—.— —p—r—o—m—p—t— —s—t—r—u—c—t—u—r—e—,— —c—a—p—a—b—i—l—i—t—i—e—s—)—.— —C—o—v—e—r—s— —m—o—d—e—l— —s—e—l—e—c—t—i—o—n—,— —d—e—v—e—l—o—p—m—e—n—t— —w—o—r—k—f—l—o—w—s—,— —a—n—d— —d—e—p—l—o—y—m—e—n—t— —b—e—s—t— —p—r—a—c—t—i—c—e—s.
 ---
 
 # Gemma Development Skill

@@ -1,6 +1,7 @@
 ---
 name: pricing-strategist
-description: "Use when designing or revisiting product pricing — selecting a pricing model (subscription seat-based, usage-based, value-based, freemium, or hybrid), running Van Westendorp Price Sensitivity Meter analysis on WTP survey data, or designing Good/Better/Best packaging tiers. Recommends a model and a price range with trade-offs, never a single number. For Commercial leads, Product Marketing, and CMOs at the pricing-design moment — not deal-by-deal discounting, not brand positioning."
+description: >-
+  U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —o—r— —r—e—v—i—s—i—t—i—n—g— —p—r—o—d—u—c—t— —p—r—i—c—i—n—g— ——— —s—e—l—e—c—t—i—n—g— —a— —p—r—i—c—i—n—g— —m—o—d—e—l— —(—s—u—b—s—c—r—i—p—t—i—o—n— —s—e—a—t—-—b—a—s—e—d—,— —u—s—a—g—e—-—b—a—s—e—d—,— —v—a—l—u—e—-—b—a—s—e—d—,— —f—r—e—e—m—i—u—m—,— —o—r— —h—y—b—r—i—d—)—,— —r—u—n—n—i—n—g— —V—a—n— —W—e—s—t—e—n—d—o—r—p— —P—r—i—c—e— —S—e—n—s—i—t—i—v—i—t—y— —M—e—t—e—r— —a—n—a—l—y—s—i—s— —o—n— —W—T—P— —s—u—r—v—e—y— —d—a—t—a—,— —o—r— —d—e—s—i—g—n—i—n—g— —G—o—o—d—/—B—e—t—t—e—r—/—B—e—s—t— —p—a—c—k—a—g—i—n—g— —t—i—e—r—s—.— —R—e—c—o—m—m—e—n—d—s— —a— —m—o—d—e—l— —a—n—d— —a— —p—r—i—c—e— —r—a—n—g—e— —w—i—t—h— —t—r—a—d—e—-—o—f—f—s—,— —n—e—v—e—r— —a— —s—i—n—g—l—e— —n—u—m—b—e—r—.— —F—o—r— —C—o—m—m—e—r—c—i—a—l— —l—e—a—d—s—,— —P—r—o—d—u—c—t— —M—a—r—k—e—t—i—n—g—,— —a—n—d— —C—M—O—s— —a—t— —t—h—e— —p—r—i—c—i—n—g—-—d—e—s—i—g—n— —m—o—m—e—n—t— ——— —n—o—t— —d—e—a—l—-—b—y—-—d—e—a—l— —d—i—s—c—o—u—n—t—i—n—g—,— —n—o—t— —b—r—a—n—d— —p—o—s—i—t—i—o—n—i—n—g.
 version: 2.8.0
 author: claude-code-skills
 license: MIT

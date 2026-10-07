@@ -1,6 +1,7 @@
 ---
 name: "qms-audit-expert"
-description: ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use when planning internal audits, executing audits, classifying findings, preparing for external audits, or managing an audit program.
+description: >-
+  I—S—O— —1—3—4—8—5— —i—n—t—e—r—n—a—l— —a—u—d—i—t— —e—x—p—e—r—t—i—s—e— —f—o—r— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —Q—M—S—.— —C—o—v—e—r—s— —a—u—d—i—t— —p—l—a—n—n—i—n—g—,— —e—x—e—c—u—t—i—o—n—,— —n—o—n—c—o—n—f—o—r—m—i—t—y— —c—l—a—s—s—i—f—i—c—a—t—i—o—n—,— —a—n—d— —C—A—P—A— —v—e—r—i—f—i—c—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —p—l—a—n—n—i—n—g— —i—n—t—e—r—n—a—l— —a—u—d—i—t—s—,— —e—x—e—c—u—t—i—n—g— —a—u—d—i—t—s—,— —c—l—a—s—s—i—f—y—i—n—g— —f—i—n—d—i—n—g—s—,— —p—r—e—p—a—r—i—n—g— —f—o—r— —e—x—t—e—r—n—a—l— —a—u—d—i—t—s—,— —o—r— —m—a—n—a—g—i—n—g— —a—n— —a—u—d—i—t— —p—r—o—g—r—a—m.
 triggers:
   - ISO 13485 audit
   - internal audit

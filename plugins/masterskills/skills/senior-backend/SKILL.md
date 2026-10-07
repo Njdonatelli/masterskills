@@ -1,6 +1,7 @@
 ---
 name: "senior-backend"
-description: Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "set up GraphQL", "handle database migrations", or "load test APIs". Covers Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.
+description: >-
+  D—e—s—i—g—n—s— —a—n—d— —i—m—p—l—e—m—e—n—t—s— —b—a—c—k—e—n—d— —s—y—s—t—e—m—s— —i—n—c—l—u—d—i—n—g— —R—E—S—T— —A—P—I—s—,— —m—i—c—r—o—s—e—r—v—i—c—e—s—,— —d—a—t—a—b—a—s—e— —a—r—c—h—i—t—e—c—t—u—r—e—s—,— —a—u—t—h—e—n—t—i—c—a—t—i—o—n— —f—l—o—w—s—,— —a—n—d— —s—e—c—u—r—i—t—y— —h—a—r—d—e—n—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —"—d—e—s—i—g—n— —R—E—S—T— —A—P—I—s—"—,— —"—o—p—t—i—m—i—z—e— —d—a—t—a—b—a—s—e— —q—u—e—r—i—e—s—"—,— —"—i—m—p—l—e—m—e—n—t— —a—u—t—h—e—n—t—i—c—a—t—i—o—n—"—,— —"—b—u—i—l—d— —m—i—c—r—o—s—e—r—v—i—c—e—s—"—,— —"—r—e—v—i—e—w— —b—a—c—k—e—n—d— —c—o—d—e—"—,— —"—s—e—t— —u—p— —G—r—a—p—h—Q—L—"—,— —"—h—a—n—d—l—e— —d—a—t—a—b—a—s—e— —m—i—g—r—a—t—i—o—n—s—"—,— —o—r— —"—l—o—a—d— —t—e—s—t— —A—P—I—s—"—.— —C—o—v—e—r—s— —N—o—d—e—.—j—s—/—E—x—p—r—e—s—s—/—F—a—s—t—i—f—y— —d—e—v—e—l—o—p—m—e—n—t—,— —P—o—s—t—g—r—e—S—Q—L— —o—p—t—i—m—i—z—a—t—i—o—n—,— —A—P—I— —s—e—c—u—r—i—t—y—,— —a—n—d— —b—a—c—k—e—n—d— —a—r—c—h—i—t—e—c—t—u—r—e— —p—a—t—t—e—r—n—s.
 ---
 
 # Senior Backend Engineer

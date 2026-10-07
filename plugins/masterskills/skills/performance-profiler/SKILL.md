@@ -1,6 +1,7 @@
 ---
 name: "performance-profiler"
-description: "Systematic performance profiling for Node.js, Python, and Go applications. Identifies CPU, memory, and I/O bottlenecks, generates flamegraphs, analyzes bundle sizes, optimizes database queries, runs load tests with k6 and Artillery. Always measures before and after. Use when investigating a slow endpoint, planning a performance budget, or hunting a memory leak in production."
+description: >-
+  S—y—s—t—e—m—a—t—i—c— —p—e—r—f—o—r—m—a—n—c—e— —p—r—o—f—i—l—i—n—g— —f—o—r— —N—o—d—e—.—j—s—,— —P—y—t—h—o—n—,— —a—n—d— —G—o— —a—p—p—l—i—c—a—t—i—o—n—s—.— —I—d—e—n—t—i—f—i—e—s— —C—P—U—,— —m—e—m—o—r—y—,— —a—n—d— —I—/—O— —b—o—t—t—l—e—n—e—c—k—s—,— —g—e—n—e—r—a—t—e—s— —f—l—a—m—e—g—r—a—p—h—s—,— —a—n—a—l—y—z—e—s— —b—u—n—d—l—e— —s—i—z—e—s—,— —o—p—t—i—m—i—z—e—s— —d—a—t—a—b—a—s—e— —q—u—e—r—i—e—s—,— —r—u—n—s— —l—o—a—d— —t—e—s—t—s— —w—i—t—h— —k—6— —a—n—d— —A—r—t—i—l—l—e—r—y—.— —A—l—w—a—y—s— —m—e—a—s—u—r—e—s— —b—e—f—o—r—e— —a—n—d— —a—f—t—e—r—.— —U—s—e— —w—h—e—n— —i—n—v—e—s—t—i—g—a—t—i—n—g— —a— —s—l—o—w— —e—n—d—p—o—i—n—t—,— —p—l—a—n—n—i—n—g— —a— —p—e—r—f—o—r—m—a—n—c—e— —b—u—d—g—e—t—,— —o—r— —h—u—n—t—i—n—g— —a— —m—e—m—o—r—y— —l—e—a—k— —i—n— —p—r—o—d—u—c—t—i—o—n.
 ---
 
 # Performance Profiler

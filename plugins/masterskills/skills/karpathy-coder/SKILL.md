@@ -1,6 +1,7 @@
 ---
 name: karpathy-coder
-description: Use when writing, reviewing, or committing code to enforce Karpathy's 4 coding principles — surface assumptions before coding, keep it simple, make surgical changes, define verifiable goals. Triggers on "review my diff", "check complexity", "am I overcomplicating this", "karpathy check", "before I commit", or any code quality concern where the LLM might be overcoding.
+description: >-
+  U—s—e— —w—h—e—n— —w—r—i—t—i—n—g—,— —r—e—v—i—e—w—i—n—g—,— —o—r— —c—o—m—m—i—t—t—i—n—g— —c—o—d—e— —t—o— —e—n—f—o—r—c—e— —K—a—r—p—a—t—h—y—'—s— —4— —c—o—d—i—n—g— —p—r—i—n—c—i—p—l—e—s— ——— —s—u—r—f—a—c—e— —a—s—s—u—m—p—t—i—o—n—s— —b—e—f—o—r—e— —c—o—d—i—n—g—,— —k—e—e—p— —i—t— —s—i—m—p—l—e—,— —m—a—k—e— —s—u—r—g—i—c—a—l— —c—h—a—n—g—e—s—,— —d—e—f—i—n—e— —v—e—r—i—f—i—a—b—l—e— —g—o—a—l—s—.— —T—r—i—g—g—e—r—s— —o—n— —"—r—e—v—i—e—w— —m—y— —d—i—f—f—"—,— —"—c—h—e—c—k— —c—o—m—p—l—e—x—i—t—y—"—,— —"—a—m— —I— —o—v—e—r—c—o—m—p—l—i—c—a—t—i—n—g— —t—h—i—s—"—,— —"—k—a—r—p—a—t—h—y— —c—h—e—c—k—"—,— —"—b—e—f—o—r—e— —I— —c—o—m—m—i—t—"—,— —o—r— —a—n—y— —c—o—d—e— —q—u—a—l—i—t—y— —c—o—n—c—e—r—n— —w—h—e—r—e— —t—h—e— —L—L—M— —m—i—g—h—t— —b—e— —o—v—e—r—c—o—d—i—n—g.
 context: fork
 version: 2.9.0
 author: claude-code-skills

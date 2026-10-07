@@ -1,6 +1,7 @@
 ---
 name: "cfo-review"
-description: "/cs:cfo-review <plan> — Numerate-skeptic interrogation of any plan that touches money. Unit economics, runway, dilution, capital allocation. Use when a plan commits meaningful spend — e.g. a hiring wave, a fundraise decision, or a new channel budget."
+description: >-
+  /—c—s—:—c—f—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —N—u—m—e—r—a—t—e—-—s—k—e—p—t—i—c— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —p—l—a—n— —t—h—a—t— —t—o—u—c—h—e—s— —m—o—n—e—y—.— —U—n—i—t— —e—c—o—n—o—m—i—c—s—,— —r—u—n—w—a—y—,— —d—i—l—u—t—i—o—n—,— —c—a—p—i—t—a—l— —a—l—l—o—c—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —a— —p—l—a—n— —c—o—m—m—i—t—s— —m—e—a—n—i—n—g—f—u—l— —s—p—e—n—d— ——— —e—.—g—.— —a— —h—i—r—i—n—g— —w—a—v—e—,— —a— —f—u—n—d—r—a—i—s—e— —d—e—c—i—s—i—o—n—,— —o—r— —a— —n—e—w— —c—h—a—n—n—e—l— —b—u—d—g—e—t.
 ---
 
 # /cs:cfo-review — CFO Forcing Questions

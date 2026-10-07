@@ -1,6 +1,7 @@
 ---
 name: "cross-eval"
-description: "/cs:cross-eval <memo> — Multi-model consensus on a board memo or strategy brief. Claude + Codex + Gemini cross-review with graceful degradation. Use when a high-stakes memo needs an independent sanity check before the boardroom — e.g. a bet-the-company pivot or fundraise terms."
+description: >-
+  /—c—s—:—c—r—o—s—s—-—e—v—a—l— —<—m—e—m—o—>— ——— —M—u—l—t—i—-—m—o—d—e—l— —c—o—n—s—e—n—s—u—s— —o—n— —a— —b—o—a—r—d— —m—e—m—o— —o—r— —s—t—r—a—t—e—g—y— —b—r—i—e—f—.— —C—l—a—u—d—e— —+— —C—o—d—e—x— —+— —G—e—m—i—n—i— —c—r—o—s—s—-—r—e—v—i—e—w— —w—i—t—h— —g—r—a—c—e—f—u—l— —d—e—g—r—a—d—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —a— —h—i—g—h—-—s—t—a—k—e—s— —m—e—m—o— —n—e—e—d—s— —a—n— —i—n—d—e—p—e—n—d—e—n—t— —s—a—n—i—t—y— —c—h—e—c—k— —b—e—f—o—r—e— —t—h—e— —b—o—a—r—d—r—o—o—m— ——— —e—.—g—.— —a— —b—e—t—-—t—h—e—-—c—o—m—p—a—n—y— —p—i—v—o—t— —o—r— —f—u—n—d—r—a—i—s—e— —t—e—r—m—s.
 ---
 
 # /cs:cross-eval — Multi-Model Consensus

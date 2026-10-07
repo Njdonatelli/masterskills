@@ -1,6 +1,7 @@
 ---
 name: "content-production"
-description: "Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT for content strategy or calendar planning (use content-strategy). NOT for repurposing existing content (use content-repurposing). NOT for social captions only."
+description: >-
+  F—u—l—l— —c—o—n—t—e—n—t— —p—r—o—d—u—c—t—i—o—n— —p—i—p—e—l—i—n—e— ——— —t—a—k—e—s— —a— —t—o—p—i—c— —f—r—o—m— —b—l—a—n—k— —p—a—g—e— —t—o— —p—u—b—l—i—s—h—e—d—-—r—e—a—d—y— —p—i—e—c—e—.— —U—s—e— —w—h—e—n— —y—o—u— —n—e—e—d— —t—o— —e—x—e—c—u—t—e— —c—o—n—t—e—n—t—:— —w—r—i—t—e— —a— —b—l—o—g— —p—o—s—t—,— —a—r—t—i—c—l—e—,— —o—r— —g—u—i—d—e— —e—n—d—-—t—o—-—e—n—d—.— —T—r—i—g—g—e—r—s—:— —'—w—r—i—t—e— —a— —p—o—s—t— —a—b—o—u—t—'—,— —'—d—r—a—f—t— —a—n— —a—r—t—i—c—l—e—'—,— —'—c—r—e—a—t—e— —c—o—n—t—e—n—t— —f—o—r—'—,— —'—h—e—l—p— —m—e— —w—r—i—t—e—'—,— —'—I— —n—e—e—d— —a— —b—l—o—g— —p—o—s—t—'—.— —N—O—T— —f—o—r— —c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y— —o—r— —c—a—l—e—n—d—a—r— —p—l—a—n—n—i—n—g— —(—u—s—e— —c—o—n—t—e—n—t—-—s—t—r—a—t—e—g—y—)—.— —N—O—T— —f—o—r— —r—e—p—u—r—p—o—s—i—n—g— —e—x—i—s—t—i—n—g— —c—o—n—t—e—n—t— —(—u—s—e— —c—o—n—t—e—n—t—-—r—e—p—u—r—p—o—s—i—n—g—)—.— —N—O—T— —f—o—r— —s—o—c—i—a—l— —c—a—p—t—i—o—n—s— —o—n—l—y.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 name: prompt-governance
-description: "Use when managing prompts in production at scale: versioning prompts, running A/B tests on prompts, building prompt registries, preventing prompt regressions, or creating eval pipelines for production AI features. Triggers: 'manage prompts in production', 'prompt versioning', 'prompt regression', 'prompt A/B test', 'prompt registry', 'eval pipeline'. NOT for writing or improving individual prompts (use senior-prompt-engineer). NOT for RAG pipeline design (use rag-architect). NOT for LLM cost reduction (use llm-cost-optimizer)."
+description: >-
+  U—s—e— —w—h—e—n— —m—a—n—a—g—i—n—g— —p—r—o—m—p—t—s— —i—n— —p—r—o—d—u—c—t—i—o—n— —a—t— —s—c—a—l—e—:— —v—e—r—s—i—o—n—i—n—g— —p—r—o—m—p—t—s—,— —r—u—n—n—i—n—g— —A—/—B— —t—e—s—t—s— —o—n— —p—r—o—m—p—t—s—,— —b—u—i—l—d—i—n—g— —p—r—o—m—p—t— —r—e—g—i—s—t—r—i—e—s—,— —p—r—e—v—e—n—t—i—n—g— —p—r—o—m—p—t— —r—e—g—r—e—s—s—i—o—n—s—,— —o—r— —c—r—e—a—t—i—n—g— —e—v—a—l— —p—i—p—e—l—i—n—e—s— —f—o—r— —p—r—o—d—u—c—t—i—o—n— —A—I— —f—e—a—t—u—r—e—s—.— —T—r—i—g—g—e—r—s—:— —'—m—a—n—a—g—e— —p—r—o—m—p—t—s— —i—n— —p—r—o—d—u—c—t—i—o—n—'—,— —'—p—r—o—m—p—t— —v—e—r—s—i—o—n—i—n—g—'—,— —'—p—r—o—m—p—t— —r—e—g—r—e—s—s—i—o—n—'—,— —'—p—r—o—m—p—t— —A—/—B— —t—e—s—t—'—,— —'—p—r—o—m—p—t— —r—e—g—i—s—t—r—y—'—,— —'—e—v—a—l— —p—i—p—e—l—i—n—e—'—.— —N—O—T— —f—o—r— —w—r—i—t—i—n—g— —o—r— —i—m—p—r—o—v—i—n—g— —i—n—d—i—v—i—d—u—a—l— —p—r—o—m—p—t—s— —(—u—s—e— —s—e—n—i—o—r—-—p—r—o—m—p—t—-—e—n—g—i—n—e—e—r—)—.— —N—O—T— —f—o—r— —R—A—G— —p—i—p—e—l—i—n—e— —d—e—s—i—g—n— —(—u—s—e— —r—a—g—-—a—r—c—h—i—t—e—c—t—)—.— —N—O—T— —f—o—r— —L—L—M— —c—o—s—t— —r—e—d—u—c—t—i—o—n— —(—u—s—e— —l—l—m—-—c—o—s—t—-—o—p—t—i—m—i—z—e—r—).
 ---
 
 # Prompt Governance

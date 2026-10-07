@@ -1,6 +1,7 @@
 ---
 name: "iso13485-audit-prep"
-description: "/cs:iso13485-audit-prep <scope> — ISO 13485 QMS audit 6-question forcing interrogation. Design controls + CAPA + post-market focused. Use before Clause 8.2.4 internal audit, MDR / FDA QSR alignment review, or product-launch DHF closure audit."
+description: >-
+  /—c—s—:—i—s—o—1—3—4—8—5—-—a—u—d—i—t—-—p—r—e—p— —<—s—c—o—p—e—>— ——— —I—S—O— —1—3—4—8—5— —Q—M—S— —a—u—d—i—t— —6—-—q—u—e—s—t—i—o—n— —f—o—r—c—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n—.— —D—e—s—i—g—n— —c—o—n—t—r—o—l—s— —+— —C—A—P—A— —+— —p—o—s—t—-—m—a—r—k—e—t— —f—o—c—u—s—e—d—.— —U—s—e— —b—e—f—o—r—e— —C—l—a—u—s—e— —8—.—2—.—4— —i—n—t—e—r—n—a—l— —a—u—d—i—t—,— —M—D—R— —/— —F—D—A— —Q—S—R— —a—l—i—g—n—m—e—n—t— —r—e—v—i—e—w—,— —o—r— —p—r—o—d—u—c—t—-—l—a—u—n—c—h— —D—H—F— —c—l—o—s—u—r—e— —a—u—d—i—t.
 ---
 
 # /cs:iso13485-audit-prep — ISO 13485 QMS Forcing Questions

@@ -1,6 +1,7 @@
 ---
 name: "coo-advisor"
-description: "Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, process improvement, OKRs, scaling, operational efficiency, or execution."
+description: >-
+  O—p—e—r—a—t—i—o—n—s— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —P—r—o—c—e—s—s— —d—e—s—i—g—n—,— —O—K—R— —e—x—e—c—u—t—i—o—n—,— —o—p—e—r—a—t—i—o—n—a—l— —c—a—d—e—n—c—e—,— —a—n—d— —s—c—a—l—i—n—g— —p—l—a—y—b—o—o—k—s—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —o—p—e—r—a—t—i—o—n—s—,— —s—e—t—t—i—n—g— —u—p— —O—K—R—s—,— —b—u—i—l—d—i—n—g— —p—r—o—c—e—s—s—e—s—,— —s—c—a—l—i—n—g— —t—e—a—m—s—,— —a—n—a—l—y—z—i—n—g— —b—o—t—t—l—e—n—e—c—k—s—,— —p—l—a—n—n—i—n—g— —o—p—e—r—a—t—i—o—n—a—l— —c—a—d—e—n—c—e—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—O—O—,— —o—p—e—r—a—t—i—o—n—s—,— —p—r—o—c—e—s—s— —i—m—p—r—o—v—e—m—e—n—t—,— —O—K—R—s—,— —s—c—a—l—i—n—g—,— —o—p—e—r—a—t—i—o—n—a—l— —e—f—f—i—c—i—e—n—c—y—,— —o—r— —e—x—e—c—u—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

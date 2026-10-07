@@ -1,6 +1,7 @@
 ---
 name: "gcp-cloud-architect"
-description: "Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure BigQuery pipelines, optimize GCP costs, or migrate to GCP. Covers Cloud Run, GKE, Cloud Functions, Cloud SQL, BigQuery, and cost optimization."
+description: >-
+  D—e—s—i—g—n— —G—C—P— —a—r—c—h—i—t—e—c—t—u—r—e—s— —f—o—r— —s—t—a—r—t—u—p—s— —a—n—d— —e—n—t—e—r—p—r—i—s—e—s—.— —U—s—e— —w—h—e—n— —a—s—k—e—d— —t—o— —d—e—s—i—g—n— —G—o—o—g—l—e— —C—l—o—u—d— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—,— —d—e—p—l—o—y— —t—o— —G—K—E— —o—r— —C—l—o—u—d— —R—u—n—,— —c—o—n—f—i—g—u—r—e— —B—i—g—Q—u—e—r—y— —p—i—p—e—l—i—n—e—s—,— —o—p—t—i—m—i—z—e— —G—C—P— —c—o—s—t—s—,— —o—r— —m—i—g—r—a—t—e— —t—o— —G—C—P—.— —C—o—v—e—r—s— —C—l—o—u—d— —R—u—n—,— —G—K—E—,— —C—l—o—u—d— —F—u—n—c—t—i—o—n—s—,— —C—l—o—u—d— —S—Q—L—,— —B—i—g—Q—u—e—r—y—,— —a—n—d— —c—o—s—t— —o—p—t—i—m—i—z—a—t—i—o—n.
 ---
 
 # GCP Cloud Architect

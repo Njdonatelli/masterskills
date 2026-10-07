@@ -1,6 +1,7 @@
 ---
 name: "marketing-skills"
-description: "Directory and router for the marketing skills library. Use when you need to find the right marketing skill for a task, see what marketing capabilities exist, or get oriented in this plugin. 44 specialist skills across 8 pods (content, SEO + AEO, CRO, channels, growth, intelligence, sales enablement, ops), 59 stdlib Python tools. Routes to one skill — it does not execute marketing work itself."
+description: >-
+  D—i—r—e—c—t—o—r—y— —a—n—d— —r—o—u—t—e—r— —f—o—r— —t—h—e— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l—s— —l—i—b—r—a—r—y—.— —U—s—e— —w—h—e—n— —y—o—u— —n—e—e—d— —t—o— —f—i—n—d— —t—h—e— —r—i—g—h—t— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l— —f—o—r— —a— —t—a—s—k—,— —s—e—e— —w—h—a—t— —m—a—r—k—e—t—i—n—g— —c—a—p—a—b—i—l—i—t—i—e—s— —e—x—i—s—t—,— —o—r— —g—e—t— —o—r—i—e—n—t—e—d— —i—n— —t—h—i—s— —p—l—u—g—i—n—.— —4—4— —s—p—e—c—i—a—l—i—s—t— —s—k—i—l—l—s— —a—c—r—o—s—s— —8— —p—o—d—s— —(—c—o—n—t—e—n—t—,— —S—E—O— —+— —A—E—O—,— —C—R—O—,— —c—h—a—n—n—e—l—s—,— —g—r—o—w—t—h—,— —i—n—t—e—l—l—i—g—e—n—c—e—,— —s—a—l—e—s— —e—n—a—b—l—e—m—e—n—t—,— —o—p—s—)—,— —5—9— —s—t—d—l—i—b— —P—y—t—h—o—n— —t—o—o—l—s—.— —R—o—u—t—e—s— —t—o— —o—n—e— —s—k—i—l—l— ——— —i—t— —d—o—e—s— —n—o—t— —e—x—e—c—u—t—e— —m—a—r—k—e—t—i—n—g— —w—o—r—k— —i—t—s—e—l—f.
 version: 2.10.3
 author: Alireza Rezvani
 license: MIT

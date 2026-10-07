@@ -1,6 +1,7 @@
 ---
 name: "senior-devops"
-description: Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.
+description: >-
+  C—o—m—p—r—e—h—e—n—s—i—v—e— —D—e—v—O—p—s— —s—k—i—l—l— —f—o—r— —C—I—/—C—D—,— —i—n—f—r—a—s—t—r—u—c—t—u—r—e— —a—u—t—o—m—a—t—i—o—n—,— —c—o—n—t—a—i—n—e—r—i—z—a—t—i—o—n—,— —a—n—d— —c—l—o—u—d— —p—l—a—t—f—o—r—m—s— —(—A—W—S—,— —G—C—P—,— —A—z—u—r—e—)—.— —I—n—c—l—u—d—e—s— —p—i—p—e—l—i—n—e— —s—e—t—u—p—,— —i—n—f—r—a—s—t—r—u—c—t—u—r—e— —a—s— —c—o—d—e—,— —d—e—p—l—o—y—m—e—n—t— —a—u—t—o—m—a—t—i—o—n—,— —a—n—d— —m—o—n—i—t—o—r—i—n—g—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —p—i—p—e—l—i—n—e—s—,— —d—e—p—l—o—y—i—n—g— —a—p—p—l—i—c—a—t—i—o—n—s—,— —m—a—n—a—g—i—n—g— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—,— —i—m—p—l—e—m—e—n—t—i—n—g— —m—o—n—i—t—o—r—i—n—g—,— —o—r— —o—p—t—i—m—i—z—i—n—g— —d—e—p—l—o—y—m—e—n—t— —p—r—o—c—e—s—s—e—s.
 ---
 
 # Senior Devops

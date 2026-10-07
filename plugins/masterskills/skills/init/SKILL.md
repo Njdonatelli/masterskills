@@ -1,9 +1,7 @@
 ---
 name: "init"
 description: >-
-  Set up Playwright in a project. Use when user says "set up playwright",
-  "add e2e tests", "configure playwright", "testing setup", "init playwright",
-  or "add test infrastructure".
+  S—e—t— —u—p— —P—l—a—y—w—r—i—g—h—t— —i—n— —a— —p—r—o—j—e—c—t—.— —U—s—e— —w—h—e—n— —u—s—e—r— —s—a—y—s— —"—s—e—t— —u—p— —p—l—a—y—w—r—i—g—h—t—"—,— —"—a—d—d— —e—2—e— —t—e—s—t—s—"—,— —"—c—o—n—f—i—g—u—r—e— —p—l—a—y—w—r—i—g—h—t—"—,— —"—t—e—s—t—i—n—g— —s—e—t—u—p—"—,— —"—i—n—i—t— —p—l—a—y—w—r—i—g—h—t—"—,— —o—r— —"—a—d—d— —t—e—s—t— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—".
 ---
 
 # Initialize Playwright Project

@@ -1,15 +1,7 @@
 ---
 name: "skill-security-auditor"
-description: >
-  Security audit and vulnerability scanner for AI agent skills before installation.
-  Use when: (1) evaluating a skill from an untrusted source, (2) auditing a skill
-  directory or git repo URL for malicious code, (3) pre-install security gate for
-  Claude Code plugins, OpenClaw skills, or Codex skills, (4) scanning Python scripts
-  for dangerous patterns like os.system, eval, subprocess, network exfiltration,
-  (5) detecting prompt injection in SKILL.md files, (6) checking dependency supply
-  chain risks, (7) verifying file system access stays within skill boundaries.
-  Triggers: "audit this skill", "is this skill safe", "scan skill for security",
-  "check skill before install", "skill security check", "skill vulnerability scan".
+description: >-
+  S—e—c—u—r—i—t—y— —a—u—d—i—t— —a—n—d— —v—u—l—n—e—r—a—b—i—l—i—t—y— —s—c—a—n—n—e—r— —f—o—r— —A—I— —a—g—e—n—t— —s—k—i—l—l—s— —b—e—f—o—r—e— —i—n—s—t—a—l—l—a—t—i—o—n—.— —U—s—e— —w—h—e—n—:— —(—1—)— —e—v—a—l—u—a—t—i—n—g— —a— —s—k—i—l—l— —f—r—o—m— —a—n— —u—n—t—r—u—s—t—e—d— —s—o—u—r—c—e—,— —(—2—)— —a—u—d—i—t—i—n—g— —a— —s—k—i—l—l— —d—i—r—e—c—t—o—r—y— —o—r— —g—i—t— —r—e—p—o— —U—R—L— —f—o—r— —m—a—l—i—c—i—o—u—s— —c—o—d—e—,— —(—3—)— —p—r—e—-—i—n—s—t—a—l—l— —s—e—c—u—r—i—t—y— —g—a—t—e— —f—o—r— —C—l—a—u—d—e— —C—o—d—e— —p—l—u—g—i—n—s—,— —O—p—e—n—C—l—a—w— —s—k—i—l—l—s—,— —o—r— —C—o—d—e—x— —s—k—i—l—l—s—,— —(—4—)— —s—c—a—n—n—i—n—g— —P—y—t—h—o—n— —s—c—r—i—p—t—s— —f—o—r— —d—a—n—g—e—r—o—u—s— —p—a—t—t—e—r—n—s— —l—i—k—e— —o—s—.—s—y—s—t—e—m—,— —e—v—a—l—,— —s—u—b—p—r—o—c—e—s—s—,— —n—e—t—w—o—r—k— —e—x—f—i—l—t—r—a—t—i—o—n—,— —(—5—)— —d—e—t—e—c—t—i—n—g— —p—r—o—m—p—t— —i—n—j—e—c—t—i—o—n— —i—n— —S—K—I—L—L—.—m—d— —f—i—l—e—s—,— —(—6—)— —c—h—e—c—k—i—n—g— —d—e—p—e—n—d—e—n—c—y— —s—u—p—p—l—y— —c—h—a—i—n— —r—i—s—k—s—,— —(—7—)— —v—e—r—i—f—y—i—n—g— —f—i—l—e— —s—y—s—t—e—m— —a—c—c—e—s—s— —s—t—a—y—s— —w—i—t—h—i—n— —s—k—i—l—l— —b—o—u—n—d—a—r—i—e—s—.— —T—r—i—g—g—e—r—s—:— —"—a—u—d—i—t— —t—h—i—s— —s—k—i—l—l—"—,— —"—i—s— —t—h—i—s— —s—k—i—l—l— —s—a—f—e—"—,— —"—s—c—a—n— —s—k—i—l—l— —f—o—r— —s—e—c—u—r—i—t—y—"—,— —"—c—h—e—c—k— —s—k—i—l—l— —b—e—f—o—r—e— —i—n—s—t—a—l—l—"—,— —"—s—k—i—l—l— —s—e—c—u—r—i—t—y— —c—h—e—c—k—"—,— —"—s—k—i—l—l— —v—u—l—n—e—r—a—b—i—l—i—t—y— —s—c—a—n—".
 ---
 
 # Skill Security Auditor

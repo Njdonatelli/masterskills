@@ -1,6 +1,7 @@
 ---
 name: "snowflake-development"
-description: "Use when writing Snowflake SQL, building data pipelines with Dynamic Tables or Streams/Tasks, using Cortex AI functions, creating Cortex Agents, writing Snowpark Python, configuring dbt for Snowflake, or troubleshooting Snowflake errors."
+description: >-
+  U—s—e— —w—h—e—n— —w—r—i—t—i—n—g— —S—n—o—w—f—l—a—k—e— —S—Q—L—,— —b—u—i—l—d—i—n—g— —d—a—t—a— —p—i—p—e—l—i—n—e—s— —w—i—t—h— —D—y—n—a—m—i—c— —T—a—b—l—e—s— —o—r— —S—t—r—e—a—m—s—/—T—a—s—k—s—,— —u—s—i—n—g— —C—o—r—t—e—x— —A—I— —f—u—n—c—t—i—o—n—s—,— —c—r—e—a—t—i—n—g— —C—o—r—t—e—x— —A—g—e—n—t—s—,— —w—r—i—t—i—n—g— —S—n—o—w—p—a—r—k— —P—y—t—h—o—n—,— —c—o—n—f—i—g—u—r—i—n—g— —d—b—t— —f—o—r— —S—n—o—w—f—l—a—k—e—,— —o—r— —t—r—o—u—b—l—e—s—h—o—o—t—i—n—g— —S—n—o—w—f—l—a—k—e— —e—r—r—o—r—s.
 ---
 
 # Snowflake Development

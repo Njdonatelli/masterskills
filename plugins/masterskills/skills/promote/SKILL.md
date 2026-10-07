@@ -1,6 +1,7 @@
 ---
 name: "promote"
-description: "Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement. Use when the user runs /si:promote or asks to make a learned behavior permanent."
+description: >-
+  G—r—a—d—u—a—t—e— —a— —p—r—o—v—e—n— —p—a—t—t—e—r—n— —f—r—o—m— —a—u—t—o—-—m—e—m—o—r—y— —(—M—E—M—O—R—Y—.—m—d—)— —t—o— —C—L—A—U—D—E—.—m—d— —o—r— —.—c—l—a—u—d—e—/—r—u—l—e—s—/— —f—o—r— —p—e—r—m—a—n—e—n—t— —e—n—f—o—r—c—e—m—e—n—t—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—s—i—:—p—r—o—m—o—t—e— —o—r— —a—s—k—s— —t—o— —m—a—k—e— —a— —l—e—a—r—n—e—d— —b—e—h—a—v—i—o—r— —p—e—r—m—a—n—e—n—t.
 ---
 
 # /si:promote — Graduate Learnings to Rules

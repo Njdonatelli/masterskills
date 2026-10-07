@@ -1,6 +1,7 @@
 ---
 name: grill-me
-description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+description: >-
+  I—n—t—e—r—v—i—e—w— —t—h—e— —u—s—e—r— —r—e—l—e—n—t—l—e—s—s—l—y— —a—b—o—u—t— —a— —p—l—a—n— —o—r— —d—e—s—i—g—n— —u—n—t—i—l— —r—e—a—c—h—i—n—g— —s—h—a—r—e—d— —u—n—d—e—r—s—t—a—n—d—i—n—g—,— —r—e—s—o—l—v—i—n—g— —e—a—c—h— —b—r—a—n—c—h— —o—f— —t—h—e— —d—e—c—i—s—i—o—n— —t—r—e—e—.— —U—s—e— —w—h—e—n— —u—s—e—r— —w—a—n—t—s— —t—o— —s—t—r—e—s—s—-—t—e—s—t— —a— —p—l—a—n—,— —g—e—t— —g—r—i—l—l—e—d— —o—n— —t—h—e—i—r— —d—e—s—i—g—n—,— —o—r— —m—e—n—t—i—o—n—s— —"—g—r—i—l—l— —m—e—".
 license: MIT
 metadata:
   derived_from: "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me"

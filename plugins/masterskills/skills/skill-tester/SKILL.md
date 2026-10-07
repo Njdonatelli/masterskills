@@ -1,6 +1,7 @@
 ---
 name: "skill-tester"
-description: "Validate, test, and score the quality of skills within the claude-skills ecosystem. Comprehensive meta-skill: structure validation, Python script testing (syntax + imports + runtime + output format), multi-dimensional quality scoring with letter grades and tier classification (BASIC/STANDARD/POWERFUL). Use when authoring a new skill, auditing existing skills for tier promotion, setting up pre-commit hooks for skill quality, or integrating skill QA into CI."
+description: >-
+  V—a—l—i—d—a—t—e—,— —t—e—s—t—,— —a—n—d— —s—c—o—r—e— —t—h—e— —q—u—a—l—i—t—y— —o—f— —s—k—i—l—l—s— —w—i—t—h—i—n— —t—h—e— —c—l—a—u—d—e—-—s—k—i—l—l—s— —e—c—o—s—y—s—t—e—m—.— —C—o—m—p—r—e—h—e—n—s—i—v—e— —m—e—t—a—-—s—k—i—l—l—:— —s—t—r—u—c—t—u—r—e— —v—a—l—i—d—a—t—i—o—n—,— —P—y—t—h—o—n— —s—c—r—i—p—t— —t—e—s—t—i—n—g— —(—s—y—n—t—a—x— —+— —i—m—p—o—r—t—s— —+— —r—u—n—t—i—m—e— —+— —o—u—t—p—u—t— —f—o—r—m—a—t—)—,— —m—u—l—t—i—-—d—i—m—e—n—s—i—o—n—a—l— —q—u—a—l—i—t—y— —s—c—o—r—i—n—g— —w—i—t—h— —l—e—t—t—e—r— —g—r—a—d—e—s— —a—n—d— —t—i—e—r— —c—l—a—s—s—i—f—i—c—a—t—i—o—n— —(—B—A—S—I—C—/—S—T—A—N—D—A—R—D—/—P—O—W—E—R—F—U—L—)—.— —U—s—e— —w—h—e—n— —a—u—t—h—o—r—i—n—g— —a— —n—e—w— —s—k—i—l—l—,— —a—u—d—i—t—i—n—g— —e—x—i—s—t—i—n—g— —s—k—i—l—l—s— —f—o—r— —t—i—e—r— —p—r—o—m—o—t—i—o—n—,— —s—e—t—t—i—n—g— —u—p— —p—r—e—-—c—o—m—m—i—t— —h—o—o—k—s— —f—o—r— —s—k—i—l—l— —q—u—a—l—i—t—y—,— —o—r— —i—n—t—e—g—r—a—t—i—n—g— —s—k—i—l—l— —Q—A— —i—n—t—o— —C—I.
 ---
 
 # Skill Tester

@@ -1,6 +1,7 @@
 ---
 name: "status"
-description: "Show DAG state, agent progress, and branch status for an AgentHub session. Use when the user runs /hub:status or asks how the AgentHub agents are doing."
+description: >-
+  S—h—o—w— —D—A—G— —s—t—a—t—e—,— —a—g—e—n—t— —p—r—o—g—r—e—s—s—,— —a—n—d— —b—r—a—n—c—h— —s—t—a—t—u—s— —f—o—r— —a—n— —A—g—e—n—t—H—u—b— —s—e—s—s—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—h—u—b—:—s—t—a—t—u—s— —o—r— —a—s—k—s— —h—o—w— —t—h—e— —A—g—e—n—t—H—u—b— —a—g—e—n—t—s— —a—r—e— —d—o—i—n—g.
 command: /hub:status
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: "form-cro"
-description: When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fields," "form completion rate," or "contact form." For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —o—p—t—i—m—i—z—e— —a—n—y— —f—o—r—m— —t—h—a—t— —i—s— —N—O—T— —s—i—g—n—u—p—/—r—e—g—i—s—t—r—a—t—i—o—n— ——— —i—n—c—l—u—d—i—n—g— —l—e—a—d— —c—a—p—t—u—r—e— —f—o—r—m—s—,— —c—o—n—t—a—c—t— —f—o—r—m—s—,— —d—e—m—o— —r—e—q—u—e—s—t— —f—o—r—m—s—,— —a—p—p—l—i—c—a—t—i—o—n— —f—o—r—m—s—,— —s—u—r—v—e—y— —f—o—r—m—s—,— —o—r— —c—h—e—c—k—o—u—t— —f—o—r—m—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—f—o—r—m— —o—p—t—i—m—i—z—a—t—i—o—n—,—"— —"—l—e—a—d— —f—o—r—m— —c—o—n—v—e—r—s—i—o—n—s—,—"— —"—f—o—r—m— —f—r—i—c—t—i—o—n—,—"— —"—f—o—r—m— —f—i—e—l—d—s—,—"— —"—f—o—r—m— —c—o—m—p—l—e—t—i—o—n— —r—a—t—e—,—"— —o—r— —"—c—o—n—t—a—c—t— —f—o—r—m—.—"— —F—o—r— —s—i—g—n—u—p—/—r—e—g—i—s—t—r—a—t—i—o—n— —f—o—r—m—s—,— —s—e—e— —s—i—g—n—u—p—-—f—l—o—w—-—c—r—o—.— —F—o—r— —p—o—p—u—p—s— —c—o—n—t—a—i—n—i—n—g— —f—o—r—m—s—,— —s—e—e— —p—o—p—u—p—-—c—r—o.
 license: MIT
 metadata:
   version: 1.0.0

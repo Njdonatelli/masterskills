@@ -1,6 +1,7 @@
 ---
 name: "senior-architect"
-description: This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design". Use for architecture decision records (ADRs), tech stack evaluation, system design reviews, dependency analysis, and generating architecture diagrams in Mermaid, PlantUML, or ASCII format.
+description: >-
+  T—h—i—s— —s—k—i—l—l— —s—h—o—u—l—d— —b—e— —u—s—e—d— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —"—d—e—s—i—g—n— —s—y—s—t—e—m— —a—r—c—h—i—t—e—c—t—u—r—e—"—,— —"—e—v—a—l—u—a—t—e— —m—i—c—r—o—s—e—r—v—i—c—e—s— —v—s— —m—o—n—o—l—i—t—h—"—,— —"—c—r—e—a—t—e— —a—r—c—h—i—t—e—c—t—u—r—e— —d—i—a—g—r—a—m—s—"—,— —"—a—n—a—l—y—z—e— —d—e—p—e—n—d—e—n—c—i—e—s—"—,— —"—c—h—o—o—s—e— —a— —d—a—t—a—b—a—s—e—"—,— —"—p—l—a—n— —f—o—r— —s—c—a—l—a—b—i—l—i—t—y—"—,— —"—m—a—k—e— —t—e—c—h—n—i—c—a—l— —d—e—c—i—s—i—o—n—s—"—,— —o—r— —"—r—e—v—i—e—w— —s—y—s—t—e—m— —d—e—s—i—g—n—"—.— —U—s—e— —f—o—r— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n— —r—e—c—o—r—d—s— —(—A—D—R—s—)—,— —t—e—c—h— —s—t—a—c—k— —e—v—a—l—u—a—t—i—o—n—,— —s—y—s—t—e—m— —d—e—s—i—g—n— —r—e—v—i—e—w—s—,— —d—e—p—e—n—d—e—n—c—y— —a—n—a—l—y—s—i—s—,— —a—n—d— —g—e—n—e—r—a—t—i—n—g— —a—r—c—h—i—t—e—c—t—u—r—e— —d—i—a—g—r—a—m—s— —i—n— —M—e—r—m—a—i—d—,— —P—l—a—n—t—U—M—L—,— —o—r— —A—S—C—I—I— —f—o—r—m—a—t.
 ---
 
 # Senior Architect

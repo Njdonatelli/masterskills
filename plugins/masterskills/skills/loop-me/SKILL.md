@@ -1,6 +1,7 @@
 ---
 name: loop-me
-description: Grill me about specs for the workflows I want to build, within this workspace.
+description: >-
+  G—r—i—l—l— —m—e— —a—b—o—u—t— —s—p—e—c—s— —f—o—r— —t—h—e— —w—o—r—k—f—l—o—w—s— —I— —w—a—n—t— —t—o— —b—u—i—l—d—,— —w—i—t—h—i—n— —t—h—i—s— —w—o—r—k—s—p—a—c—e.
 disable-model-invocation: true
 argument-hint: "A workflow to design, or nothing to go find one"
 ---

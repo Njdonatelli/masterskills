@@ -1,6 +1,7 @@
 ---
 name: "eval"
-description: "Evaluate and rank agent results by metric or LLM judge for an AgentHub session. Use when the user runs /hub:eval or asks to score, compare, or pick a winner among completed AgentHub agents."
+description: >-
+  E—v—a—l—u—a—t—e— —a—n—d— —r—a—n—k— —a—g—e—n—t— —r—e—s—u—l—t—s— —b—y— —m—e—t—r—i—c— —o—r— —L—L—M— —j—u—d—g—e— —f—o—r— —a—n— —A—g—e—n—t—H—u—b— —s—e—s—s—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—h—u—b—:—e—v—a—l— —o—r— —a—s—k—s— —t—o— —s—c—o—r—e—,— —c—o—m—p—a—r—e—,— —o—r— —p—i—c—k— —a— —w—i—n—n—e—r— —a—m—o—n—g— —c—o—m—p—l—e—t—e—d— —A—g—e—n—t—H—u—b— —a—g—e—n—t—s.
 command: /hub:eval
 ---
 

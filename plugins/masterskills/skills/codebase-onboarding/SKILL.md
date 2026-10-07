@@ -1,6 +1,7 @@
 ---
 name: "codebase-onboarding"
-description: "Analyze a codebase and generate onboarding documentation for engineers, tech leads, and contractors. Fast fact-gathering and repeatable onboarding outputs. Use when onboarding a new engineer, writing architecture-overview docs for a new project, or producing tech-lead briefings for unfamiliar repos."
+description: >-
+  A—n—a—l—y—z—e— —a— —c—o—d—e—b—a—s—e— —a—n—d— —g—e—n—e—r—a—t—e— —o—n—b—o—a—r—d—i—n—g— —d—o—c—u—m—e—n—t—a—t—i—o—n— —f—o—r— —e—n—g—i—n—e—e—r—s—,— —t—e—c—h— —l—e—a—d—s—,— —a—n—d— —c—o—n—t—r—a—c—t—o—r—s—.— —F—a—s—t— —f—a—c—t—-—g—a—t—h—e—r—i—n—g— —a—n—d— —r—e—p—e—a—t—a—b—l—e— —o—n—b—o—a—r—d—i—n—g— —o—u—t—p—u—t—s—.— —U—s—e— —w—h—e—n— —o—n—b—o—a—r—d—i—n—g— —a— —n—e—w— —e—n—g—i—n—e—e—r—,— —w—r—i—t—i—n—g— —a—r—c—h—i—t—e—c—t—u—r—e—-—o—v—e—r—v—i—e—w— —d—o—c—s— —f—o—r— —a— —n—e—w— —p—r—o—j—e—c—t—,— —o—r— —p—r—o—d—u—c—i—n—g— —t—e—c—h—-—l—e—a—d— —b—r—i—e—f—i—n—g—s— —f—o—r— —u—n—f—a—m—i—l—i—a—r— —r—e—p—o—s.
 ---
 
 # Codebase Onboarding

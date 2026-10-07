@@ -1,6 +1,7 @@
 ---
 name: "cto-advisor"
-description: "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technical debt, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, or technology strategy."
+description: >-
+  T—e—c—h—n—i—c—a—l— —l—e—a—d—e—r—s—h—i—p— —g—u—i—d—a—n—c—e— —f—o—r— —e—n—g—i—n—e—e—r—i—n—g— —t—e—a—m—s—,— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n—s—,— —a—n—d— —t—e—c—h—n—o—l—o—g—y— —s—t—r—a—t—e—g—y—.— —U—s—e— —w—h—e—n— —a—s—s—e—s—s—i—n—g— —t—e—c—h—n—i—c—a—l— —d—e—b—t—,— —s—c—a—l—i—n—g— —e—n—g—i—n—e—e—r—i—n—g— —t—e—a—m—s—,— —e—v—a—l—u—a—t—i—n—g— —t—e—c—h—n—o—l—o—g—i—e—s—,— —m—a—k—i—n—g— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n—s—,— —e—s—t—a—b—l—i—s—h—i—n—g— —e—n—g—i—n—e—e—r—i—n—g— —m—e—t—r—i—c—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—T—O—,— —t—e—c—h— —d—e—b—t—,— —t—e—c—h—n—i—c—a—l— —d—e—b—t—,— —t—e—a—m— —s—c—a—l—i—n—g—,— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n—s—,— —t—e—c—h—n—o—l—o—g—y— —e—v—a—l—u—a—t—i—o—n—,— —e—n—g—i—n—e—e—r—i—n—g— —m—e—t—r—i—c—s—,— —D—O—R—A— —m—e—t—r—i—c—s—,— —o—r— —t—e—c—h—n—o—l—o—g—y— —s—t—r—a—t—e—g—y.
 license: MIT
 metadata:
   version: 2.0.0

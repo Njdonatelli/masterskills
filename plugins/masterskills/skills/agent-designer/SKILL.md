@@ -1,6 +1,7 @@
 ---
 name: "agent-designer"
-description: "Use when the user asks to design a multi-agent system, pick an orchestration pattern (supervisor/swarm/pipeline), generate tool schemas for agents, or evaluate agent execution logs for cost, latency, and failure bottlenecks. Examples: 'design an agent architecture for research automation', 'generate Anthropic tool schemas from these tool descriptions', 'analyze these agent run logs for bottlenecks'. NOT for Claude Code workflow files (use workflow-builder) or single-agent prompt design (use agent-workflow-designer)."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —d—e—s—i—g—n— —a— —m—u—l—t—i—-—a—g—e—n—t— —s—y—s—t—e—m—,— —p—i—c—k— —a—n— —o—r—c—h—e—s—t—r—a—t—i—o—n— —p—a—t—t—e—r—n— —(—s—u—p—e—r—v—i—s—o—r—/—s—w—a—r—m—/—p—i—p—e—l—i—n—e—)—,— —g—e—n—e—r—a—t—e— —t—o—o—l— —s—c—h—e—m—a—s— —f—o—r— —a—g—e—n—t—s—,— —o—r— —e—v—a—l—u—a—t—e— —a—g—e—n—t— —e—x—e—c—u—t—i—o—n— —l—o—g—s— —f—o—r— —c—o—s—t—,— —l—a—t—e—n—c—y—,— —a—n—d— —f—a—i—l—u—r—e— —b—o—t—t—l—e—n—e—c—k—s—.— —E—x—a—m—p—l—e—s—:— —'—d—e—s—i—g—n— —a—n— —a—g—e—n—t— —a—r—c—h—i—t—e—c—t—u—r—e— —f—o—r— —r—e—s—e—a—r—c—h— —a—u—t—o—m—a—t—i—o—n—'—,— —'—g—e—n—e—r—a—t—e— —A—n—t—h—r—o—p—i—c— —t—o—o—l— —s—c—h—e—m—a—s— —f—r—o—m— —t—h—e—s—e— —t—o—o—l— —d—e—s—c—r—i—p—t—i—o—n—s—'—,— —'—a—n—a—l—y—z—e— —t—h—e—s—e— —a—g—e—n—t— —r—u—n— —l—o—g—s— —f—o—r— —b—o—t—t—l—e—n—e—c—k—s—'—.— —N—O—T— —f—o—r— —C—l—a—u—d—e— —C—o—d—e— —w—o—r—k—f—l—o—w— —f—i—l—e—s— —(—u—s—e— —w—o—r—k—f—l—o—w—-—b—u—i—l—d—e—r—)— —o—r— —s—i—n—g—l—e—-—a—g—e—n—t— —p—r—o—m—p—t— —d—e—s—i—g—n— —(—u—s—e— —a—g—e—n—t—-—w—o—r—k—f—l—o—w—-—d—e—s—i—g—n—e—r—).
 ---
 
 # Agent Designer — Multi-Agent System Architecture

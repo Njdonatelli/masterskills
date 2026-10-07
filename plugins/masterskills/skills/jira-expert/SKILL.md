@@ -1,6 +1,7 @@
 ---
 name: "jira-expert"
-description: Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use when setting up or configuring Jira projects, writing JQL and advanced searches, creating dashboards, designing workflows, or performing technical Jira operations.
+description: >-
+  A—t—l—a—s—s—i—a—n— —J—i—r—a— —e—x—p—e—r—t— —f—o—r— —c—r—e—a—t—i—n—g— —a—n—d— —m—a—n—a—g—i—n—g— —p—r—o—j—e—c—t—s—,— —p—l—a—n—n—i—n—g—,— —p—r—o—d—u—c—t— —d—i—s—c—o—v—e—r—y—,— —J—Q—L— —q—u—e—r—i—e—s—,— —w—o—r—k—f—l—o—w—s—,— —c—u—s—t—o—m— —f—i—e—l—d—s—,— —a—u—t—o—m—a—t—i—o—n—,— —r—e—p—o—r—t—i—n—g—,— —a—n—d— —a—l—l— —J—i—r—a— —f—e—a—t—u—r—e—s—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —o—r— —c—o—n—f—i—g—u—r—i—n—g— —J—i—r—a— —p—r—o—j—e—c—t—s—,— —w—r—i—t—i—n—g— —J—Q—L— —a—n—d— —a—d—v—a—n—c—e—d— —s—e—a—r—c—h—e—s—,— —c—r—e—a—t—i—n—g— —d—a—s—h—b—o—a—r—d—s—,— —d—e—s—i—g—n—i—n—g— —w—o—r—k—f—l—o—w—s—,— —o—r— —p—e—r—f—o—r—m—i—n—g— —t—e—c—h—n—i—c—a—l— —J—i—r—a— —o—p—e—r—a—t—i—o—n—s.
 ---
 
 # Atlassian Jira Expert

@@ -1,6 +1,7 @@
 ---
 name: "setup"
-description: "Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator. Use when the user runs /ar:setup or asks to start optimizing a file with the autoresearch loop."
+description: >-
+  S—e—t— —u—p— —a— —n—e—w— —a—u—t—o—r—e—s—e—a—r—c—h— —e—x—p—e—r—i—m—e—n—t— —i—n—t—e—r—a—c—t—i—v—e—l—y—.— —C—o—l—l—e—c—t—s— —d—o—m—a—i—n—,— —t—a—r—g—e—t— —f—i—l—e—,— —e—v—a—l— —c—o—m—m—a—n—d—,— —m—e—t—r—i—c—,— —d—i—r—e—c—t—i—o—n—,— —a—n—d— —e—v—a—l—u—a—t—o—r—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—a—r—:—s—e—t—u—p— —o—r— —a—s—k—s— —t—o— —s—t—a—r—t— —o—p—t—i—m—i—z—i—n—g— —a— —f—i—l—e— —w—i—t—h— —t—h—e— —a—u—t—o—r—e—s—e—a—r—c—h— —l—o—o—p.
 command: /ar:setup
 ---
 

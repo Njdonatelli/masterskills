@@ -1,6 +1,7 @@
 ---
 name: "c-level-agents"
-description: "Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /cs:* slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing. Use when the founder needs a virtual executive team, when invoking /cs:* commands, or when orchestrating multi-role decisions."
+description: >-
+  F—o—u—n—d—e—r—-—m—o—d—e— —e—x—e—c—u—t—i—v—e— —t—e—a—m—.— —1—3— —c—s—-—*— —C—-—s—u—i—t—e— —a—g—e—n—t—s— —(—C—F—O—,— —C—M—O—,— —C—R—O—,— —C—P—O—,— —C—O—O—,— —C—H—R—O—,— —C—I—S—O—,— —G—C—,— —C—D—O—,— —C—A—I—O—,— —C—C—O—,— —V—P—E—,— —C—h—i—e—f— —o—f— —S—t—a—f—f—)— —a—n—d— —2—1— —/—c—s—:—*— —s—l—a—s—h— —c—o—m—m—a—n—d—s— —f—o—r— —f—o—r—c—i—n—g—-—q—u—e—s—t—i—o—n— —o—f—f—i—c—e— —h—o—u—r—s—,— —m—u—l—t—i—-—r—o—l—e— —b—o—a—r—d—r—o—o—m— —d—e—l—i—b—e—r—a—t—i—o—n—,— —s—t—r—a—t—e—g—i—c— —s—p—r—i—n—t— —p—i—p—e—l—i—n—e—,— —a—n—d— —m—e—t—a— —r—o—u—t—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e— —f—o—u—n—d—e—r— —n—e—e—d—s— —a— —v—i—r—t—u—a—l— —e—x—e—c—u—t—i—v—e— —t—e—a—m—,— —w—h—e—n— —i—n—v—o—k—i—n—g— —/—c—s—:—*— —c—o—m—m—a—n—d—s—,— —o—r— —w—h—e—n— —o—r—c—h—e—s—t—r—a—t—i—n—g— —m—u—l—t—i—-—r—o—l—e— —d—e—c—i—s—i—o—n—s.
 license: MIT
 metadata:
   version: 1.0.0

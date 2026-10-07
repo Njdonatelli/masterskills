@@ -1,6 +1,7 @@
 ---
 name: "fda-consultant-specialist"
-description: FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QMSR (21 CFR 820, which incorporates ISO 13485:2016 by reference since 2026-02-02; formerly QSR) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QMSR, QSR, ISO 13485 for FDA, premarket, predicate device, substantial equivalence, HIPAA medical device, or FDA cybersecurity.
+description: >-
+  F—D—A— —r—e—g—u—l—a—t—o—r—y— —c—o—n—s—u—l—t—a—n—t— —f—o—r— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —c—o—m—p—a—n—i—e—s—.— —P—r—o—v—i—d—e—s— —5—1—0—(—k—)—/—P—M—A—/—D—e— —N—o—v—o— —p—a—t—h—w—a—y— —g—u—i—d—a—n—c—e—,— —Q—M—S—R— —(—2—1— —C—F—R— —8—2—0—,— —w—h—i—c—h— —i—n—c—o—r—p—o—r—a—t—e—s— —I—S—O— —1—3—4—8—5—:—2—0—1—6— —b—y— —r—e—f—e—r—e—n—c—e— —s—i—n—c—e— —2—0—2—6—-—0—2—-—0—2—;— —f—o—r—m—e—r—l—y— —Q—S—R—)— —c—o—m—p—l—i—a—n—c—e—,— —H—I—P—A—A— —a—s—s—e—s—s—m—e—n—t—s—,— —a—n—d— —d—e—v—i—c—e— —c—y—b—e—r—s—e—c—u—r—i—t—y—.— —U—s—e— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —F—D—A— —s—u—b—m—i—s—s—i—o—n—,— —5—1—0—(—k—)—,— —P—M—A—,— —D—e— —N—o—v—o—,— —Q—M—S—R—,— —Q—S—R—,— —I—S—O— —1—3—4—8—5— —f—o—r— —F—D—A—,— —p—r—e—m—a—r—k—e—t—,— —p—r—e—d—i—c—a—t—e— —d—e—v—i—c—e—,— —s—u—b—s—t—a—n—t—i—a—l— —e—q—u—i—v—a—l—e—n—c—e—,— —H—I—P—A—A— —m—e—d—i—c—a—l— —d—e—v—i—c—e—,— —o—r— —F—D—A— —c—y—b—e—r—s—e—c—u—r—i—t—y.
 ---
 
 # FDA Consultant Specialist

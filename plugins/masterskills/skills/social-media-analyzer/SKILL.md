@@ -1,6 +1,7 @@
 ---
 name: "social-media-analyzer"
-description: Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use when analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards. Also use when the user mentions "social media audit," "engagement rate," or "which platform performs best."
+description: >-
+  S—o—c—i—a—l— —m—e—d—i—a— —c—a—m—p—a—i—g—n— —a—n—a—l—y—s—i—s— —a—n—d— —p—e—r—f—o—r—m—a—n—c—e— —t—r—a—c—k—i—n—g—.— —C—a—l—c—u—l—a—t—e—s— —e—n—g—a—g—e—m—e—n—t— —r—a—t—e—s—,— —R—O—I—,— —a—n—d— —b—e—n—c—h—m—a—r—k—s— —a—c—r—o—s—s— —p—l—a—t—f—o—r—m—s—.— —U—s—e— —w—h—e—n— —a—n—a—l—y—z—i—n—g— —s—o—c—i—a—l— —m—e—d—i—a— —p—e—r—f—o—r—m—a—n—c—e—,— —c—a—l—c—u—l—a—t—i—n—g— —e—n—g—a—g—e—m—e—n—t— —r—a—t—e—,— —m—e—a—s—u—r—i—n—g— —c—a—m—p—a—i—g—n— —R—O—I—,— —c—o—m—p—a—r—i—n—g— —p—l—a—t—f—o—r—m— —m—e—t—r—i—c—s—,— —o—r— —b—e—n—c—h—m—a—r—k—i—n—g— —a—g—a—i—n—s—t— —i—n—d—u—s—t—r—y— —s—t—a—n—d—a—r—d—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—s—o—c—i—a—l— —m—e—d—i—a— —a—u—d—i—t—,—"— —"—e—n—g—a—g—e—m—e—n—t— —r—a—t—e—,—"— —o—r— —"—w—h—i—c—h— —p—l—a—t—f—o—r—m— —p—e—r—f—o—r—m—s— —b—e—s—t.
 triggers:
   - analyze social media
   - calculate engagement rate

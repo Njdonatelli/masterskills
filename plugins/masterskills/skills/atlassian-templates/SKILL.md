@@ -1,6 +1,7 @@
 ---
 name: "atlassian-templates"
-description: Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated content generation.
+description: >-
+  A—t—l—a—s—s—i—a—n— —T—e—m—p—l—a—t—e— —a—n—d— —F—i—l—e—s— —C—r—e—a—t—o—r—/—M—o—d—i—f—i—e—r— —e—x—p—e—r—t— —f—o—r— —c—r—e—a—t—i—n—g—,— —m—o—d—i—f—y—i—n—g—,— —a—n—d— —m—a—n—a—g—i—n—g— —J—i—r—a— —a—n—d— —C—o—n—f—l—u—e—n—c—e— —t—e—m—p—l—a—t—e—s—,— —b—l—u—e—p—r—i—n—t—s—,— —c—u—s—t—o—m— —l—a—y—o—u—t—s—,— —r—e—u—s—a—b—l—e— —c—o—m—p—o—n—e—n—t—s—,— —a—n—d— —s—t—a—n—d—a—r—d—i—z—e—d— —c—o—n—t—e—n—t— —s—t—r—u—c—t—u—r—e—s—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —o—r—g—-—w—i—d—e— —t—e—m—p—l—a—t—e—s—,— —c—u—s—t—o—m— —b—l—u—e—p—r—i—n—t—s—,— —p—a—g—e— —l—a—y—o—u—t—s—,— —a—n—d— —a—u—t—o—m—a—t—e—d— —c—o—n—t—e—n—t— —g—e—n—e—r—a—t—i—o—n.
 ---
 
 # Atlassian Template & Files Creator Expert

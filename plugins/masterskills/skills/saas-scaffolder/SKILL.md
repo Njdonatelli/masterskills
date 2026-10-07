@@ -1,6 +1,7 @@
 ---
 name: "saas-scaffolder"
-description: "Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new SaaS app, start a subscription-based web project, scaffold a Next.js application, or mentions terms like starter template, boilerplate, new project, or wiring up auth and payments."
+description: >-
+  G—e—n—e—r—a—t—e—s— —c—o—m—p—l—e—t—e—,— —p—r—o—d—u—c—t—i—o—n—-—r—e—a—d—y— —S—a—a—S— —p—r—o—j—e—c—t— —b—o—i—l—e—r—p—l—a—t—e— —i—n—c—l—u—d—i—n—g— —a—u—t—h—e—n—t—i—c—a—t—i—o—n—,— —d—a—t—a—b—a—s—e— —s—c—h—e—m—a—s—,— —b—i—l—l—i—n—g— —i—n—t—e—g—r—a—t—i—o—n—,— —A—P—I— —r—o—u—t—e—s—,— —a—n—d— —a— —w—o—r—k—i—n—g— —d—a—s—h—b—o—a—r—d— —u—s—i—n—g— —N—e—x—t—.—j—s— —1—4—+— —A—p—p— —R—o—u—t—e—r—,— —T—y—p—e—S—c—r—i—p—t—,— —T—a—i—l—w—i—n—d— —C—S—S—,— —s—h—a—d—c—n—/—u—i—,— —D—r—i—z—z—l—e— —O—R—M—,— —a—n—d— —S—t—r—i—p—e—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e— —a— —n—e—w— —S—a—a—S— —a—p—p—,— —s—t—a—r—t— —a— —s—u—b—s—c—r—i—p—t—i—o—n—-—b—a—s—e—d— —w—e—b— —p—r—o—j—e—c—t—,— —s—c—a—f—f—o—l—d— —a— —N—e—x—t—.—j—s— —a—p—p—l—i—c—a—t—i—o—n—,— —o—r— —m—e—n—t—i—o—n—s— —t—e—r—m—s— —l—i—k—e— —s—t—a—r—t—e—r— —t—e—m—p—l—a—t—e—,— —b—o—i—l—e—r—p—l—a—t—e—,— —n—e—w— —p—r—o—j—e—c—t—,— —o—r— —w—i—r—i—n—g— —u—p— —a—u—t—h— —a—n—d— —p—a—y—m—e—n—t—s.
 ---
 
 # SaaS Scaffolder

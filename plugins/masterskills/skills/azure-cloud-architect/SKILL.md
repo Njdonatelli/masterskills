@@ -1,6 +1,7 @@
 ---
 name: "azure-cloud-architect"
-description: "Design Azure architectures for startups and enterprises. Use when asked to design Azure infrastructure, create Bicep/ARM templates, optimize Azure costs, set up Azure DevOps pipelines, or migrate to Azure. Covers AKS, App Service, Azure Functions, Cosmos DB, and cost optimization."
+description: >-
+  D—e—s—i—g—n— —A—z—u—r—e— —a—r—c—h—i—t—e—c—t—u—r—e—s— —f—o—r— —s—t—a—r—t—u—p—s— —a—n—d— —e—n—t—e—r—p—r—i—s—e—s—.— —U—s—e— —w—h—e—n— —a—s—k—e—d— —t—o— —d—e—s—i—g—n— —A—z—u—r—e— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—,— —c—r—e—a—t—e— —B—i—c—e—p—/—A—R—M— —t—e—m—p—l—a—t—e—s—,— —o—p—t—i—m—i—z—e— —A—z—u—r—e— —c—o—s—t—s—,— —s—e—t— —u—p— —A—z—u—r—e— —D—e—v—O—p—s— —p—i—p—e—l—i—n—e—s—,— —o—r— —m—i—g—r—a—t—e— —t—o— —A—z—u—r—e—.— —C—o—v—e—r—s— —A—K—S—,— —A—p—p— —S—e—r—v—i—c—e—,— —A—z—u—r—e— —F—u—n—c—t—i—o—n—s—,— —C—o—s—m—o—s— —D—B—,— —a—n—d— —c—o—s—t— —o—p—t—i—m—i—z—a—t—i—o—n.
 ---
 
 # Azure Cloud Architect

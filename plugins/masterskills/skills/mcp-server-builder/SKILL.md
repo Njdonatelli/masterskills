@@ -1,6 +1,7 @@
 ---
 name: "mcp-server-builder"
-description: "Design and ship production-ready MCP (Model Context Protocol) servers from OpenAPI contracts instead of hand-written tool wrappers. Python and TypeScript support, schema validation, safe evolution. Use when exposing an existing API as an MCP server, building tool integrations for Claude or Codex or Cursor, or scaffolding an MCP project from scratch."
+description: >-
+  D—e—s—i—g—n— —a—n—d— —s—h—i—p— —p—r—o—d—u—c—t—i—o—n—-—r—e—a—d—y— —M—C—P— —(—M—o—d—e—l— —C—o—n—t—e—x—t— —P—r—o—t—o—c—o—l—)— —s—e—r—v—e—r—s— —f—r—o—m— —O—p—e—n—A—P—I— —c—o—n—t—r—a—c—t—s— —i—n—s—t—e—a—d— —o—f— —h—a—n—d—-—w—r—i—t—t—e—n— —t—o—o—l— —w—r—a—p—p—e—r—s—.— —P—y—t—h—o—n— —a—n—d— —T—y—p—e—S—c—r—i—p—t— —s—u—p—p—o—r—t—,— —s—c—h—e—m—a— —v—a—l—i—d—a—t—i—o—n—,— —s—a—f—e— —e—v—o—l—u—t—i—o—n—.— —U—s—e— —w—h—e—n— —e—x—p—o—s—i—n—g— —a—n— —e—x—i—s—t—i—n—g— —A—P—I— —a—s— —a—n— —M—C—P— —s—e—r—v—e—r—,— —b—u—i—l—d—i—n—g— —t—o—o—l— —i—n—t—e—g—r—a—t—i—o—n—s— —f—o—r— —C—l—a—u—d—e— —o—r— —C—o—d—e—x— —o—r— —C—u—r—s—o—r—,— —o—r— —s—c—a—f—f—o—l—d—i—n—g— —a—n— —M—C—P— —p—r—o—j—e—c—t— —f—r—o—m— —s—c—r—a—t—c—h.
 ---
 
 # MCP Server Builder

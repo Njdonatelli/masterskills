@@ -1,6 +1,7 @@
 ---
 name: "vpe-review"
-description: "/cs:vpe-review <plan> — Throughput-first VP of Engineering interrogation of any plan that touches delivery, eng hiring, team structure, or production discipline. Use when cycle time balloons, DORA metrics slide, or before committing to an eng hiring wave or a reorg."
+description: >-
+  /—c—s—:—v—p—e—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —T—h—r—o—u—g—h—p—u—t—-—f—i—r—s—t— —V—P— —o—f— —E—n—g—i—n—e—e—r—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —p—l—a—n— —t—h—a—t— —t—o—u—c—h—e—s— —d—e—l—i—v—e—r—y—,— —e—n—g— —h—i—r—i—n—g—,— —t—e—a—m— —s—t—r—u—c—t—u—r—e—,— —o—r— —p—r—o—d—u—c—t—i—o—n— —d—i—s—c—i—p—l—i—n—e—.— —U—s—e— —w—h—e—n— —c—y—c—l—e— —t—i—m—e— —b—a—l—l—o—o—n—s—,— —D—O—R—A— —m—e—t—r—i—c—s— —s—l—i—d—e—,— —o—r— —b—e—f—o—r—e— —c—o—m—m—i—t—t—i—n—g— —t—o— —a—n— —e—n—g— —h—i—r—i—n—g— —w—a—v—e— —o—r— —a— —r—e—o—r—g.
 ---
 
 # /cs:vpe-review — VPE Forcing Questions

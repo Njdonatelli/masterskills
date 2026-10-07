@@ -1,6 +1,7 @@
 ---
 name: "observability-designer"
-description: "Design production-ready observability strategies combining metrics, logs, and traces. Includes SLI/SLO design, golden-signals monitoring, alert optimization. Use when adding observability to a new service, refactoring alerting that is too noisy, or designing an SLO program before scaling production load."
+description: >-
+  D—e—s—i—g—n— —p—r—o—d—u—c—t—i—o—n—-—r—e—a—d—y— —o—b—s—e—r—v—a—b—i—l—i—t—y— —s—t—r—a—t—e—g—i—e—s— —c—o—m—b—i—n—i—n—g— —m—e—t—r—i—c—s—,— —l—o—g—s—,— —a—n—d— —t—r—a—c—e—s—.— —I—n—c—l—u—d—e—s— —S—L—I—/—S—L—O— —d—e—s—i—g—n—,— —g—o—l—d—e—n—-—s—i—g—n—a—l—s— —m—o—n—i—t—o—r—i—n—g—,— —a—l—e—r—t— —o—p—t—i—m—i—z—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —a—d—d—i—n—g— —o—b—s—e—r—v—a—b—i—l—i—t—y— —t—o— —a— —n—e—w— —s—e—r—v—i—c—e—,— —r—e—f—a—c—t—o—r—i—n—g— —a—l—e—r—t—i—n—g— —t—h—a—t— —i—s— —t—o—o— —n—o—i—s—y—,— —o—r— —d—e—s—i—g—n—i—n—g— —a—n— —S—L—O— —p—r—o—g—r—a—m— —b—e—f—o—r—e— —s—c—a—l—i—n—g— —p—r—o—d—u—c—t—i—o—n— —l—o—a—d.
 ---
 
 # Observability Designer (POWERFUL)

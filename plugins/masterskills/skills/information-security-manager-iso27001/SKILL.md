@@ -1,6 +1,7 @@
 ---
 name: "information-security-manager-iso27001"
-description: ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and MedTech companies. Use when designing an ISMS, running security risk assessments, implementing controls, pursuing ISO 27001 certification, preparing security audits, responding to security incidents, or verifying compliance. Covers ISO 27001, ISO 27002, healthcare security, and medical device cybersecurity.
+description: >-
+  I—S—O— —2—7—0—0—1— —I—S—M—S— —i—m—p—l—e—m—e—n—t—a—t—i—o—n— —a—n—d— —c—y—b—e—r—s—e—c—u—r—i—t—y— —g—o—v—e—r—n—a—n—c—e— —f—o—r— —H—e—a—l—t—h—T—e—c—h— —a—n—d— —M—e—d—T—e—c—h— —c—o—m—p—a—n—i—e—s—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —a—n— —I—S—M—S—,— —r—u—n—n—i—n—g— —s—e—c—u—r—i—t—y— —r—i—s—k— —a—s—s—e—s—s—m—e—n—t—s—,— —i—m—p—l—e—m—e—n—t—i—n—g— —c—o—n—t—r—o—l—s—,— —p—u—r—s—u—i—n—g— —I—S—O— —2—7—0—0—1— —c—e—r—t—i—f—i—c—a—t—i—o—n—,— —p—r—e—p—a—r—i—n—g— —s—e—c—u—r—i—t—y— —a—u—d—i—t—s—,— —r—e—s—p—o—n—d—i—n—g— —t—o— —s—e—c—u—r—i—t—y— —i—n—c—i—d—e—n—t—s—,— —o—r— —v—e—r—i—f—y—i—n—g— —c—o—m—p—l—i—a—n—c—e—.— —C—o—v—e—r—s— —I—S—O— —2—7—0—0—1—,— —I—S—O— —2—7—0—0—2—,— —h—e—a—l—t—h—c—a—r—e— —s—e—c—u—r—i—t—y—,— —a—n—d— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —c—y—b—e—r—s—e—c—u—r—i—t—y.
 ---
 
 # Information Security Manager - ISO 27001

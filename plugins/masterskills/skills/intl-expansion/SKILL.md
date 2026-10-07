@@ -1,6 +1,7 @@
 ---
 name: "intl-expansion"
-description: "International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams."
+description: >-
+  I—n—t—e—r—n—a—t—i—o—n—a—l— —m—a—r—k—e—t— —e—x—p—a—n—s—i—o—n— —s—t—r—a—t—e—g—y—.— —M—a—r—k—e—t— —s—e—l—e—c—t—i—o—n—,— —e—n—t—r—y— —m—o—d—e—s—,— —l—o—c—a—l—i—z—a—t—i—o—n—,— —r—e—g—u—l—a—t—o—r—y— —c—o—m—p—l—i—a—n—c—e—,— —a—n—d— —g—o—-—t—o—-—m—a—r—k—e—t— —b—y— —r—e—g—i—o—n—.— —U—s—e— —w—h—e—n— —e—x—p—a—n—d—i—n—g— —t—o— —n—e—w— —c—o—u—n—t—r—i—e—s—,— —e—v—a—l—u—a—t—i—n—g— —i—n—t—e—r—n—a—t—i—o—n—a—l— —m—a—r—k—e—t—s—,— —p—l—a—n—n—i—n—g— —l—o—c—a—l—i—z—a—t—i—o—n—,— —o—r— —b—u—i—l—d—i—n—g— —r—e—g—i—o—n—a—l— —t—e—a—m—s.
 license: MIT
 metadata:
   version: 1.0.0

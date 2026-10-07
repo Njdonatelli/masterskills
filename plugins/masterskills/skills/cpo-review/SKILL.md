@@ -1,6 +1,7 @@
 ---
 name: "cpo-review"
-description: "/cs:cpo-review <plan> — JTBD-driven interrogation of product roadmap, PMF signal, and portfolio focus. Use when committing a quarter's roadmap, deciding whether to kill a feature, or claiming PMF without a retention curve."
+description: >-
+  /—c—s—:—c—p—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —J—T—B—D—-—d—r—i—v—e—n— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —p—r—o—d—u—c—t— —r—o—a—d—m—a—p—,— —P—M—F— —s—i—g—n—a—l—,— —a—n—d— —p—o—r—t—f—o—l—i—o— —f—o—c—u—s—.— —U—s—e— —w—h—e—n— —c—o—m—m—i—t—t—i—n—g— —a— —q—u—a—r—t—e—r—'—s— —r—o—a—d—m—a—p—,— —d—e—c—i—d—i—n—g— —w—h—e—t—h—e—r— —t—o— —k—i—l—l— —a— —f—e—a—t—u—r—e—,— —o—r— —c—l—a—i—m—i—n—g— —P—M—F— —w—i—t—h—o—u—t— —a— —r—e—t—e—n—t—i—o—n— —c—u—r—v—e.
 ---
 
 # /cs:cpo-review — CPO Forcing Questions

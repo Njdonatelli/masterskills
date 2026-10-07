@@ -1,6 +1,7 @@
 ---
 name: "copy-editing"
-description: "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —e—d—i—t—,— —r—e—v—i—e—w—,— —o—r— —i—m—p—r—o—v—e— —e—x—i—s—t—i—n—g— —m—a—r—k—e—t—i—n—g— —c—o—p—y—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—e—d—i—t— —t—h—i—s— —c—o—p—y—,—'— —'—r—e—v—i—e—w— —m—y— —c—o—p—y—,—'— —'—c—o—p—y— —f—e—e—d—b—a—c—k—,—'— —'—p—r—o—o—f—r—e—a—d—,—'— —'—p—o—l—i—s—h— —t—h—i—s—,—'— —'—m—a—k—e— —t—h—i—s— —b—e—t—t—e—r—,—'— —o—r— —'—c—o—p—y— —s—w—e—e—p—.—'— —T—h—i—s— —s—k—i—l—l— —p—r—o—v—i—d—e—s— —a— —s—y—s—t—e—m—a—t—i—c— —a—p—p—r—o—a—c—h— —t—o— —e—d—i—t—i—n—g— —m—a—r—k—e—t—i—n—g— —c—o—p—y— —t—h—r—o—u—g—h— —m—u—l—t—i—p—l—e— —f—o—c—u—s—e—d— —p—a—s—s—e—s.
 license: MIT
 metadata:
   version: 1.0.0

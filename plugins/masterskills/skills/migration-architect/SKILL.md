@@ -1,6 +1,7 @@
 ---
 name: "migration-architect"
-description: "Zero-downtime migration planning, compatibility validation, and rollback strategy generation. Tools for system, database, and infrastructure migrations with minimal business impact. Use when planning a database migration, infrastructure cutover, system replacement, or any high-risk transition that needs explicit rollback paths."
+description: >-
+  Z—e—r—o—-—d—o—w—n—t—i—m—e— —m—i—g—r—a—t—i—o—n— —p—l—a—n—n—i—n—g—,— —c—o—m—p—a—t—i—b—i—l—i—t—y— —v—a—l—i—d—a—t—i—o—n—,— —a—n—d— —r—o—l—l—b—a—c—k— —s—t—r—a—t—e—g—y— —g—e—n—e—r—a—t—i—o—n—.— —T—o—o—l—s— —f—o—r— —s—y—s—t—e—m—,— —d—a—t—a—b—a—s—e—,— —a—n—d— —i—n—f—r—a—s—t—r—u—c—t—u—r—e— —m—i—g—r—a—t—i—o—n—s— —w—i—t—h— —m—i—n—i—m—a—l— —b—u—s—i—n—e—s—s— —i—m—p—a—c—t—.— —U—s—e— —w—h—e—n— —p—l—a—n—n—i—n—g— —a— —d—a—t—a—b—a—s—e— —m—i—g—r—a—t—i—o—n—,— —i—n—f—r—a—s—t—r—u—c—t—u—r—e— —c—u—t—o—v—e—r—,— —s—y—s—t—e—m— —r—e—p—l—a—c—e—m—e—n—t—,— —o—r— —a—n—y— —h—i—g—h—-—r—i—s—k— —t—r—a—n—s—i—t—i—o—n— —t—h—a—t— —n—e—e—d—s— —e—x—p—l—i—c—i—t— —r—o—l—l—b—a—c—k— —p—a—t—h—s.
 ---
 
 # Migration Architect

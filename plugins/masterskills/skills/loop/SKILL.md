@@ -1,6 +1,7 @@
 ---
 name: "loop"
-description: "Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling. Use when the user runs /ar:loop or asks to run an autoresearch experiment continuously on a schedule."
+description: >-
+  S—t—a—r—t— —a—n— —a—u—t—o—n—o—m—o—u—s— —e—x—p—e—r—i—m—e—n—t— —l—o—o—p— —w—i—t—h— —u—s—e—r—-—s—e—l—e—c—t—e—d— —i—n—t—e—r—v—a—l— —(—1—0—m—i—n—,— —1—h—,— —d—a—i—l—y—,— —w—e—e—k—l—y—,— —m—o—n—t—h—l—y—)—.— —U—s—e—s— —C—r—o—n—C—r—e—a—t—e— —f—o—r— —s—c—h—e—d—u—l—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—a—r—:—l—o—o—p— —o—r— —a—s—k—s— —t—o— —r—u—n— —a—n— —a—u—t—o—r—e—s—e—a—r—c—h— —e—x—p—e—r—i—m—e—n—t— —c—o—n—t—i—n—u—o—u—s—l—y— —o—n— —a— —s—c—h—e—d—u—l—e.
 command: /ar:loop
 ---
 

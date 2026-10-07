@@ -1,6 +1,7 @@
 ---
 name: "x-twitter-growth"
-description: "X/Twitter growth engine for building audience, crafting viral content, and analyzing engagement. Use when the user wants to grow on X/Twitter, write tweets or threads, analyze their X profile, research competitors on X, plan a posting strategy, or optimize engagement. Complements social-content (generic multi-platform) with X-specific depth: algorithm mechanics, thread engineering, reply strategy, profile optimization, and competitive intelligence via web search."
+description: >-
+  X—/—T—w—i—t—t—e—r— —g—r—o—w—t—h— —e—n—g—i—n—e— —f—o—r— —b—u—i—l—d—i—n—g— —a—u—d—i—e—n—c—e—,— —c—r—a—f—t—i—n—g— —v—i—r—a—l— —c—o—n—t—e—n—t—,— —a—n—d— —a—n—a—l—y—z—i—n—g— —e—n—g—a—g—e—m—e—n—t—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —g—r—o—w— —o—n— —X—/—T—w—i—t—t—e—r—,— —w—r—i—t—e— —t—w—e—e—t—s— —o—r— —t—h—r—e—a—d—s—,— —a—n—a—l—y—z—e— —t—h—e—i—r— —X— —p—r—o—f—i—l—e—,— —r—e—s—e—a—r—c—h— —c—o—m—p—e—t—i—t—o—r—s— —o—n— —X—,— —p—l—a—n— —a— —p—o—s—t—i—n—g— —s—t—r—a—t—e—g—y—,— —o—r— —o—p—t—i—m—i—z—e— —e—n—g—a—g—e—m—e—n—t—.— —C—o—m—p—l—e—m—e—n—t—s— —s—o—c—i—a—l—-—c—o—n—t—e—n—t— —(—g—e—n—e—r—i—c— —m—u—l—t—i—-—p—l—a—t—f—o—r—m—)— —w—i—t—h— —X—-—s—p—e—c—i—f—i—c— —d—e—p—t—h—:— —a—l—g—o—r—i—t—h—m— —m—e—c—h—a—n—i—c—s—,— —t—h—r—e—a—d— —e—n—g—i—n—e—e—r—i—n—g—,— —r—e—p—l—y— —s—t—r—a—t—e—g—y—,— —p—r—o—f—i—l—e— —o—p—t—i—m—i—z—a—t—i—o—n—,— —a—n—d— —c—o—m—p—e—t—i—t—i—v—e— —i—n—t—e—l—l—i—g—e—n—c—e— —v—i—a— —w—e—b— —s—e—a—r—c—h.
 license: MIT
 metadata:
   version: 1.0.0

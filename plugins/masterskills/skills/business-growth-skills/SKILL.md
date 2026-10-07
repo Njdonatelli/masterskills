@@ -1,6 +1,7 @@
 ---
 name: "business-growth-skills"
-description: "Router/index for the 4 business & growth skills bundled in this plugin: customer-success-manager (health scoring, churn risk, expansion), sales-engineer (RFP analysis, competitive matrices, PoC planning), revenue-operations (pipeline, forecast accuracy, GTM efficiency), and contract-and-proposal-writer. Use when a growth/revenue request doesn't obviously match one skill and you need to pick the right one (e.g., 'which accounts are at risk', 'should we bid on this RFP')."
+description: >-
+  R—o—u—t—e—r—/—i—n—d—e—x— —f—o—r— —t—h—e— —4— —b—u—s—i—n—e—s—s— —&— —g—r—o—w—t—h— —s—k—i—l—l—s— —b—u—n—d—l—e—d— —i—n— —t—h—i—s— —p—l—u—g—i—n—:— —c—u—s—t—o—m—e—r—-—s—u—c—c—e—s—s—-—m—a—n—a—g—e—r— —(—h—e—a—l—t—h— —s—c—o—r—i—n—g—,— —c—h—u—r—n— —r—i—s—k—,— —e—x—p—a—n—s—i—o—n—)—,— —s—a—l—e—s—-—e—n—g—i—n—e—e—r— —(—R—F—P— —a—n—a—l—y—s—i—s—,— —c—o—m—p—e—t—i—t—i—v—e— —m—a—t—r—i—c—e—s—,— —P—o—C— —p—l—a—n—n—i—n—g—)—,— —r—e—v—e—n—u—e—-—o—p—e—r—a—t—i—o—n—s— —(—p—i—p—e—l—i—n—e—,— —f—o—r—e—c—a—s—t— —a—c—c—u—r—a—c—y—,— —G—T—M— —e—f—f—i—c—i—e—n—c—y—)—,— —a—n—d— —c—o—n—t—r—a—c—t—-—a—n—d—-—p—r—o—p—o—s—a—l—-—w—r—i—t—e—r—.— —U—s—e— —w—h—e—n— —a— —g—r—o—w—t—h—/—r—e—v—e—n—u—e— —r—e—q—u—e—s—t— —d—o—e—s—n—'—t— —o—b—v—i—o—u—s—l—y— —m—a—t—c—h— —o—n—e— —s—k—i—l—l— —a—n—d— —y—o—u— —n—e—e—d— —t—o— —p—i—c—k— —t—h—e— —r—i—g—h—t— —o—n—e— —(—e—.—g—.—,— —'—w—h—i—c—h— —a—c—c—o—u—n—t—s— —a—r—e— —a—t— —r—i—s—k—'—,— —'—s—h—o—u—l—d— —w—e— —b—i—d— —o—n— —t—h—i—s— —R—F—P—'—).
 version: 2.9.0
 author: Alireza Rezvani
 license: MIT

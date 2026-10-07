@@ -1,6 +1,7 @@
 ---
 name: "stripe-integration-expert"
-description: "Production-grade Stripe integrations: subscriptions with trials and proration, one-time payments, usage-based billing, checkout sessions, idempotent webhook handlers, customer portal, and invoicing. Covers Next.js, Express, and Django patterns. Use when integrating Stripe for the first time, debugging webhook reliability issues, migrating from a different payment provider, or adding usage-based billing to an existing subscription product."
+description: >-
+  P—r—o—d—u—c—t—i—o—n—-—g—r—a—d—e— —S—t—r—i—p—e— —i—n—t—e—g—r—a—t—i—o—n—s—:— —s—u—b—s—c—r—i—p—t—i—o—n—s— —w—i—t—h— —t—r—i—a—l—s— —a—n—d— —p—r—o—r—a—t—i—o—n—,— —o—n—e—-—t—i—m—e— —p—a—y—m—e—n—t—s—,— —u—s—a—g—e—-—b—a—s—e—d— —b—i—l—l—i—n—g—,— —c—h—e—c—k—o—u—t— —s—e—s—s—i—o—n—s—,— —i—d—e—m—p—o—t—e—n—t— —w—e—b—h—o—o—k— —h—a—n—d—l—e—r—s—,— —c—u—s—t—o—m—e—r— —p—o—r—t—a—l—,— —a—n—d— —i—n—v—o—i—c—i—n—g—.— —C—o—v—e—r—s— —N—e—x—t—.—j—s—,— —E—x—p—r—e—s—s—,— —a—n—d— —D—j—a—n—g—o— —p—a—t—t—e—r—n—s—.— —U—s—e— —w—h—e—n— —i—n—t—e—g—r—a—t—i—n—g— —S—t—r—i—p—e— —f—o—r— —t—h—e— —f—i—r—s—t— —t—i—m—e—,— —d—e—b—u—g—g—i—n—g— —w—e—b—h—o—o—k— —r—e—l—i—a—b—i—l—i—t—y— —i—s—s—u—e—s—,— —m—i—g—r—a—t—i—n—g— —f—r—o—m— —a— —d—i—f—f—e—r—e—n—t— —p—a—y—m—e—n—t— —p—r—o—v—i—d—e—r—,— —o—r— —a—d—d—i—n—g— —u—s—a—g—e—-—b—a—s—e—d— —b—i—l—l—i—n—g— —t—o— —a—n— —e—x—i—s—t—i—n—g— —s—u—b—s—c—r—i—p—t—i—o—n— —p—r—o—d—u—c—t.
 ---
 
 # Stripe Integration Expert

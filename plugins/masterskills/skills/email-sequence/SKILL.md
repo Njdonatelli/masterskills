@@ -1,6 +1,7 @@
 ---
 name: "email-sequence"
-description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," or "lifecycle emails." For in-app onboarding, see onboarding-cro.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e— —o—r— —o—p—t—i—m—i—z—e— —a—n— —e—m—a—i—l— —s—e—q—u—e—n—c—e—,— —d—r—i—p— —c—a—m—p—a—i—g—n—,— —a—u—t—o—m—a—t—e—d— —e—m—a—i—l— —f—l—o—w—,— —o—r— —l—i—f—e—c—y—c—l—e— —e—m—a—i—l— —p—r—o—g—r—a—m—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—e—m—a—i—l— —s—e—q—u—e—n—c—e—,—"— —"—d—r—i—p— —c—a—m—p—a—i—g—n—,—"— —"—n—u—r—t—u—r—e— —s—e—q—u—e—n—c—e—,—"— —"—o—n—b—o—a—r—d—i—n—g— —e—m—a—i—l—s—,—"— —"—w—e—l—c—o—m—e— —s—e—q—u—e—n—c—e—,—"— —"—r—e—-—e—n—g—a—g—e—m—e—n—t— —e—m—a—i—l—s—,—"— —"—e—m—a—i—l— —a—u—t—o—m—a—t—i—o—n—,—"— —o—r— —"—l—i—f—e—c—y—c—l—e— —e—m—a—i—l—s—.—"— —F—o—r— —i—n—-—a—p—p— —o—n—b—o—a—r—d—i—n—g—,— —s—e—e— —o—n—b—o—a—r—d—i—n—g—-—c—r—o.
 license: MIT
 metadata:
   version: 1.0.0

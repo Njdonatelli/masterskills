@@ -1,6 +1,7 @@
 ---
 name: "tdd-guide"
-description: "Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or stubs, or mentions testing frameworks like Jest, pytest, or JUnit."
+description: >-
+  T—e—s—t—-—d—r—i—v—e—n— —d—e—v—e—l—o—p—m—e—n—t— —s—k—i—l—l— —f—o—r— —w—r—i—t—i—n—g— —u—n—i—t— —t—e—s—t—s—,— —g—e—n—e—r—a—t—i—n—g— —t—e—s—t— —f—i—x—t—u—r—e—s— —a—n—d— —m—o—c—k—s—,— —a—n—a—l—y—z—i—n—g— —c—o—v—e—r—a—g—e— —g—a—p—s—,— —a—n—d— —g—u—i—d—i—n—g— —r—e—d—-—g—r—e—e—n—-—r—e—f—a—c—t—o—r— —w—o—r—k—f—l—o—w—s— —a—c—r—o—s—s— —J—e—s—t—,— —P—y—t—e—s—t—,— —J—U—n—i—t—,— —V—i—t—e—s—t—,— —a—n—d— —M—o—c—h—a—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —w—r—i—t—e— —t—e—s—t—s—,— —i—m—p—r—o—v—e— —t—e—s—t— —c—o—v—e—r—a—g—e—,— —p—r—a—c—t—i—c—e— —T—D—D—,— —g—e—n—e—r—a—t—e— —m—o—c—k—s— —o—r— —s—t—u—b—s—,— —o—r— —m—e—n—t—i—o—n—s— —t—e—s—t—i—n—g— —f—r—a—m—e—w—o—r—k—s— —l—i—k—e— —J—e—s—t—,— —p—y—t—e—s—t—,— —o—r— —J—U—n—i—t.
 ---
 
 # TDD Guide

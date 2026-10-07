@@ -1,6 +1,7 @@
 ---
 name: diagnosing-bugs
-description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.
+description: >-
+  D—i—a—g—n—o—s—i—s— —l—o—o—p— —f—o—r— —h—a—r—d— —b—u—g—s— —a—n—d— —p—e—r—f—o—r—m—a—n—c—e— —r—e—g—r—e—s—s—i—o—n—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —s—a—y—s— —"—d—i—a—g—n—o—s—e—"—/—"—d—e—b—u—g— —t—h—i—s—"—,— —o—r— —r—e—p—o—r—t—s— —s—o—m—e—t—h—i—n—g— —b—r—o—k—e—n—/—t—h—r—o—w—i—n—g—/—f—a—i—l—i—n—g—/—s—l—o—w.
 ---
 
 # Diagnosing Bugs

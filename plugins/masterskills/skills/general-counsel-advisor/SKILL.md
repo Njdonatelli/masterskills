@@ -1,6 +1,7 @@
 ---
 name: "general-counsel-advisor"
-description: "General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (HIPAA, GDPR, FDA, fintech), or when user mentions general counsel, GC, legal review, contract risk, term sheet, IP assignment, or regulatory exposure. NOT a substitute for licensed counsel — surfaces questions to bring to qualified attorneys."
+description: >-
+  G—e—n—e—r—a—l— —C—o—u—n—s—e—l— —a—d—v—i—s—o—r—y— —f—o—r— —s—t—a—r—t—u—p—s—:— —c—o—n—t—r—a—c—t— —r—e—v—i—e—w— —(—M—S—A—,— —S—a—a—S—,— —N—D—A—,— —D—P—A—,— —e—m—p—l—o—y—m—e—n—t—)—,— —I—P— —s—t—r—a—t—e—g—y—,— —t—e—r—m— —s—h—e—e—t— —d—e—c—o—d—i—n—g—,— —a—n—d— —r—e—g—u—l—a—t—o—r—y— —l—a—n—d—s—c—a—p—e— —m—a—p—p—i—n—g—.— —U—s—e— —w—h—e—n— —r—e—v—i—e—w—i—n—g— —a—n—y— —c—o—n—t—r—a—c—t— —o—r— —t—e—r—m— —s—h—e—e—t—,— —d—e—c—i—d—i—n—g— —w—h—e—n— —t—o— —e—n—g—a—g—e— —o—u—t—s—i—d—e— —c—o—u—n—s—e—l—,— —d—e—f—i—n—i—n—g— —I—P— —s—t—r—a—t—e—g—y—,— —e—v—a—l—u—a—t—i—n—g— —r—e—g—u—l—a—t—o—r—y— —e—x—p—o—s—u—r—e— —(—H—I—P—A—A—,— —G—D—P—R—,— —F—D—A—,— —f—i—n—t—e—c—h—)—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —g—e—n—e—r—a—l— —c—o—u—n—s—e—l—,— —G—C—,— —l—e—g—a—l— —r—e—v—i—e—w—,— —c—o—n—t—r—a—c—t— —r—i—s—k—,— —t—e—r—m— —s—h—e—e—t—,— —I—P— —a—s—s—i—g—n—m—e—n—t—,— —o—r— —r—e—g—u—l—a—t—o—r—y— —e—x—p—o—s—u—r—e—.— —N—O—T— —a— —s—u—b—s—t—i—t—u—t—e— —f—o—r— —l—i—c—e—n—s—e—d— —c—o—u—n—s—e—l— ——— —s—u—r—f—a—c—e—s— —q—u—e—s—t—i—o—n—s— —t—o— —b—r—i—n—g— —t—o— —q—u—a—l—i—f—i—e—d— —a—t—t—o—r—n—e—y—s.
 license: MIT
 metadata:
   version: 1.0.0

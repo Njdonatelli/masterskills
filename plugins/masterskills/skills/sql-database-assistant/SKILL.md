@@ -1,6 +1,7 @@
 ---
 name: "sql-database-assistant"
-description: "Use when the user asks to write SQL queries, optimize database performance, generate migrations, explore database schemas, or work with ORMs like Prisma, Drizzle, TypeORM, or SQLAlchemy."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —w—r—i—t—e— —S—Q—L— —q—u—e—r—i—e—s—,— —o—p—t—i—m—i—z—e— —d—a—t—a—b—a—s—e— —p—e—r—f—o—r—m—a—n—c—e—,— —g—e—n—e—r—a—t—e— —m—i—g—r—a—t—i—o—n—s—,— —e—x—p—l—o—r—e— —d—a—t—a—b—a—s—e— —s—c—h—e—m—a—s—,— —o—r— —w—o—r—k— —w—i—t—h— —O—R—M—s— —l—i—k—e— —P—r—i—s—m—a—,— —D—r—i—z—z—l—e—,— —T—y—p—e—O—R—M—,— —o—r— —S—Q—L—A—l—c—h—e—m—y.
 ---
 
 # SQL Database Assistant - POWERFUL Tier Skill

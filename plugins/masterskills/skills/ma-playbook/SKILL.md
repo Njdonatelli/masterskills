@@ -1,6 +1,7 @@
 ---
 name: "ma-playbook"
-description: "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation."
+description: >-
+  M—&—A— —s—t—r—a—t—e—g—y— —f—o—r— —a—c—q—u—i—r—i—n—g— —c—o—m—p—a—n—i—e—s— —o—r— —b—e—i—n—g— —a—c—q—u—i—r—e—d—.— —D—u—e— —d—i—l—i—g—e—n—c—e—,— —v—a—l—u—a—t—i—o—n—,— —i—n—t—e—g—r—a—t—i—o—n—,— —a—n—d— —d—e—a—l— —s—t—r—u—c—t—u—r—e—.— —U—s—e— —w—h—e—n— —e—v—a—l—u—a—t—i—n—g— —a—c—q—u—i—s—i—t—i—o—n—s—,— —p—r—e—p—a—r—i—n—g— —f—o—r— —a—c—q—u—i—s—i—t—i—o—n—,— —M—&—A— —d—u—e— —d—i—l—i—g—e—n—c—e—,— —i—n—t—e—g—r—a—t—i—o—n— —p—l—a—n—n—i—n—g—,— —o—r— —d—e—a—l— —n—e—g—o—t—i—a—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

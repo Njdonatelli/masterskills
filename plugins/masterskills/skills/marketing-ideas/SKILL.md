@@ -1,6 +1,7 @@
 ---
 name: "marketing-ideas"
-description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —n—e—e—d—s— —m—a—r—k—e—t—i—n—g— —i—d—e—a—s—,— —i—n—s—p—i—r—a—t—i—o—n—,— —o—r— —s—t—r—a—t—e—g—i—e—s— —f—o—r— —t—h—e—i—r— —S—a—a—S— —o—r— —s—o—f—t—w—a—r—e— —p—r—o—d—u—c—t—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —f—o—r— —'—m—a—r—k—e—t—i—n—g— —i—d—e—a—s—,—'— —'—g—r—o—w—t—h— —i—d—e—a—s—,—'— —'—h—o—w— —t—o— —m—a—r—k—e—t—,—'— —'—m—a—r—k—e—t—i—n—g— —s—t—r—a—t—e—g—i—e—s—,—'— —'—m—a—r—k—e—t—i—n—g— —t—a—c—t—i—c—s—,—'— —'—w—a—y—s— —t—o— —p—r—o—m—o—t—e—,—'— —o—r— —'—i—d—e—a—s— —t—o— —g—r—o—w—.—'— —T—h—i—s— —s—k—i—l—l— —p—r—o—v—i—d—e—s— —1—3—9— —p—r—o—v—e—n— —m—a—r—k—e—t—i—n—g— —a—p—p—r—o—a—c—h—e—s— —o—r—g—a—n—i—z—e—d— —b—y— —c—a—t—e—g—o—r—y.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 name: "env-secrets-manager"
-description: "Manage environment-variable hygiene and secrets safety across local development and production. Practical auditing, drift awareness, rotation readiness. Use when auditing .env files for committed secrets, planning a credential rotation, debugging missing-env-var production incidents, or hardening a new project against secrets leakage."
+description: >-
+  M—a—n—a—g—e— —e—n—v—i—r—o—n—m—e—n—t—-—v—a—r—i—a—b—l—e— —h—y—g—i—e—n—e— —a—n—d— —s—e—c—r—e—t—s— —s—a—f—e—t—y— —a—c—r—o—s—s— —l—o—c—a—l— —d—e—v—e—l—o—p—m—e—n—t— —a—n—d— —p—r—o—d—u—c—t—i—o—n—.— —P—r—a—c—t—i—c—a—l— —a—u—d—i—t—i—n—g—,— —d—r—i—f—t— —a—w—a—r—e—n—e—s—s—,— —r—o—t—a—t—i—o—n— —r—e—a—d—i—n—e—s—s—.— —U—s—e— —w—h—e—n— —a—u—d—i—t—i—n—g— —.—e—n—v— —f—i—l—e—s— —f—o—r— —c—o—m—m—i—t—t—e—d— —s—e—c—r—e—t—s—,— —p—l—a—n—n—i—n—g— —a— —c—r—e—d—e—n—t—i—a—l— —r—o—t—a—t—i—o—n—,— —d—e—b—u—g—g—i—n—g— —m—i—s—s—i—n—g—-—e—n—v—-—v—a—r— —p—r—o—d—u—c—t—i—o—n— —i—n—c—i—d—e—n—t—s—,— —o—r— —h—a—r—d—e—n—i—n—g— —a— —n—e—w— —p—r—o—j—e—c—t— —a—g—a—i—n—s—t— —s—e—c—r—e—t—s— —l—e—a—k—a—g—e.
 ---
 
 # Env & Secrets Manager

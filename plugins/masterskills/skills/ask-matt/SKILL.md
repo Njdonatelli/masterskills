@@ -1,6 +1,7 @@
 ---
 name: ask-matt
-description: Ask which skill or flow fits your situation. A router over the skills in this repo.
+description: >-
+  A—s—k— —w—h—i—c—h— —s—k—i—l—l— —o—r— —f—l—o—w— —f—i—t—s— —y—o—u—r— —s—i—t—u—a—t—i—o—n—.— —A— —r—o—u—t—e—r— —o—v—e—r— —t—h—e— —s—k—i—l—l—s— —i—n— —t—h—i—s— —r—e—p—o.
 disable-model-invocation: true
 ---
 

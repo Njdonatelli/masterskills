@@ -1,6 +1,7 @@
 ---
 name: tech-debt-tracker
-description: Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation.
+description: >-
+  S—c—a—n— —c—o—d—e—b—a—s—e—s— —f—o—r— —t—e—c—h—n—i—c—a—l— —d—e—b—t—,— —s—c—o—r—e— —s—e—v—e—r—i—t—y—,— —t—r—a—c—k— —t—r—e—n—d—s—,— —a—n—d— —g—e—n—e—r—a—t—e— —p—r—i—o—r—i—t—i—z—e—d— —r—e—m—e—d—i—a—t—i—o—n— —p—l—a—n—s—.— —U—s—e— —w—h—e—n— —u—s—e—r—s— —m—e—n—t—i—o—n— —t—e—c—h— —d—e—b—t—,— —c—o—d—e— —q—u—a—l—i—t—y—,— —r—e—f—a—c—t—o—r—i—n—g— —p—r—i—o—r—i—t—y—,— —d—e—b—t— —s—c—o—r—i—n—g—,— —c—l—e—a—n—u—p— —s—p—r—i—n—t—s—,— —o—r— —c—o—d—e— —h—e—a—l—t—h— —a—s—s—e—s—s—m—e—n—t—.— —A—l—s—o— —u—s—e— —f—o—r— —l—e—g—a—c—y— —c—o—d—e— —m—o—d—e—r—n—i—z—a—t—i—o—n— —p—l—a—n—n—i—n—g— —a—n—d— —m—a—i—n—t—e—n—a—n—c—e— —c—o—s—t— —e—s—t—i—m—a—t—i—o—n.
 ---
 
 # Tech Debt Tracker

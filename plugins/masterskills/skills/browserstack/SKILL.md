@@ -1,9 +1,7 @@
 ---
 name: "browserstack"
 description: >-
-  Run tests on BrowserStack. Use when user mentions "browserstack",
-  "cross-browser", "cloud testing", "browser matrix", "test on safari",
-  "test on firefox", or "browser compatibility".
+  R—u—n— —t—e—s—t—s— —o—n— —B—r—o—w—s—e—r—S—t—a—c—k—.— —U—s—e— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—b—r—o—w—s—e—r—s—t—a—c—k—"—,— —"—c—r—o—s—s—-—b—r—o—w—s—e—r—"—,— —"—c—l—o—u—d— —t—e—s—t—i—n—g—"—,— —"—b—r—o—w—s—e—r— —m—a—t—r—i—x—"—,— —"—t—e—s—t— —o—n— —s—a—f—a—r—i—"—,— —"—t—e—s—t— —o—n— —f—i—r—e—f—o—x—"—,— —o—r— —"—b—r—o—w—s—e—r— —c—o—m—p—a—t—i—b—i—l—i—t—y—".
 ---
 
 # BrowserStack Integration

@@ -1,6 +1,7 @@
 ---
 name: "demo-video"
-description: "Use when the user asks to create a demo video, product walkthrough, feature showcase, animated presentation, marketing video, or GIF from screenshots or scene descriptions. Orchestrates playwright, ffmpeg, and edge-tts MCPs to produce polished video content."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —c—r—e—a—t—e— —a— —d—e—m—o— —v—i—d—e—o—,— —p—r—o—d—u—c—t— —w—a—l—k—t—h—r—o—u—g—h—,— —f—e—a—t—u—r—e— —s—h—o—w—c—a—s—e—,— —a—n—i—m—a—t—e—d— —p—r—e—s—e—n—t—a—t—i—o—n—,— —m—a—r—k—e—t—i—n—g— —v—i—d—e—o—,— —o—r— —G—I—F— —f—r—o—m— —s—c—r—e—e—n—s—h—o—t—s— —o—r— —s—c—e—n—e— —d—e—s—c—r—i—p—t—i—o—n—s—.— —O—r—c—h—e—s—t—r—a—t—e—s— —p—l—a—y—w—r—i—g—h—t—,— —f—f—m—p—e—g—,— —a—n—d— —e—d—g—e—-—t—t—s— —M—C—P—s— —t—o— —p—r—o—d—u—c—e— —p—o—l—i—s—h—e—d— —v—i—d—e—o— —c—o—n—t—e—n—t.
 ---
 
 # Demo Video

@@ -1,6 +1,7 @@
 ---
 name: improve-codebase-architecture
-description: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
+description: >-
+  S—c—a—n— —a— —c—o—d—e—b—a—s—e— —f—o—r— —d—e—e—p—e—n—i—n—g— —o—p—p—o—r—t—u—n—i—t—i—e—s—,— —p—r—e—s—e—n—t— —t—h—e—m— —a—s— —a— —v—i—s—u—a—l— —H—T—M—L— —r—e—p—o—r—t—,— —t—h—e—n— —g—r—i—l—l— —t—h—r—o—u—g—h— —w—h—i—c—h—e—v—e—r— —o—n—e— —y—o—u— —p—i—c—k.
 disable-model-invocation: true
 ---
 

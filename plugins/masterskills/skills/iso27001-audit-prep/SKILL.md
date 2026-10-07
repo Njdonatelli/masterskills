@@ -1,6 +1,7 @@
 ---
 name: "iso27001-audit-prep"
-description: "/cs:iso27001-audit-prep <scope> — ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before annual Clause 9.2 internal audit, surveillance audit prep, or stage 1 certification readiness."
+description: >-
+  /—c—s—:—i—s—o—2—7—0—0—1—-—a—u—d—i—t—-—p—r—e—p— —<—s—c—o—p—e—>— ——— —I—S—O— —2—7—0—0—1— —I—S—M—S— —a—u—d—i—t— —r—e—a—d—i—n—e—s—s— —6—-—q—u—e—s—t—i—o—n— —f—o—r—c—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n—.— —U—s—e— —b—e—f—o—r—e— —a—n—n—u—a—l— —C—l—a—u—s—e— —9—.—2— —i—n—t—e—r—n—a—l— —a—u—d—i—t—,— —s—u—r—v—e—i—l—l—a—n—c—e— —a—u—d—i—t— —p—r—e—p—,— —o—r— —s—t—a—g—e— —1— —c—e—r—t—i—f—i—c—a—t—i—o—n— —r—e—a—d—i—n—e—s—s.
 ---
 
 # /cs:iso27001-audit-prep — ISO 27001 ISMS Audit Forcing Questions

@@ -1,6 +1,7 @@
 ---
 name: "contract-and-proposal-writer"
-description: "Generate professional, jurisdiction-aware business documents: freelance contracts, project proposals, SOWs, NDAs, and MSAs. Structured Markdown output with docx conversion instructions. Covers US (Delaware), EU (GDPR), UK, and DACH (German law) jurisdictions. Not a substitute for legal counsel — use as strong starting points. Use when drafting a freelance contract, preparing a client proposal, writing an SOW for a new engagement, or producing an NDA before sharing sensitive material."
+description: >-
+  G—e—n—e—r—a—t—e— —p—r—o—f—e—s—s—i—o—n—a—l—,— —j—u—r—i—s—d—i—c—t—i—o—n—-—a—w—a—r—e— —b—u—s—i—n—e—s—s— —d—o—c—u—m—e—n—t—s—:— —f—r—e—e—l—a—n—c—e— —c—o—n—t—r—a—c—t—s—,— —p—r—o—j—e—c—t— —p—r—o—p—o—s—a—l—s—,— —S—O—W—s—,— —N—D—A—s—,— —a—n—d— —M—S—A—s—.— —S—t—r—u—c—t—u—r—e—d— —M—a—r—k—d—o—w—n— —o—u—t—p—u—t— —w—i—t—h— —d—o—c—x— —c—o—n—v—e—r—s—i—o—n— —i—n—s—t—r—u—c—t—i—o—n—s—.— —C—o—v—e—r—s— —U—S— —(—D—e—l—a—w—a—r—e—)—,— —E—U— —(—G—D—P—R—)—,— —U—K—,— —a—n—d— —D—A—C—H— —(—G—e—r—m—a—n— —l—a—w—)— —j—u—r—i—s—d—i—c—t—i—o—n—s—.— —N—o—t— —a— —s—u—b—s—t—i—t—u—t—e— —f—o—r— —l—e—g—a—l— —c—o—u—n—s—e—l— ——— —u—s—e— —a—s— —s—t—r—o—n—g— —s—t—a—r—t—i—n—g— —p—o—i—n—t—s—.— —U—s—e— —w—h—e—n— —d—r—a—f—t—i—n—g— —a— —f—r—e—e—l—a—n—c—e— —c—o—n—t—r—a—c—t—,— —p—r—e—p—a—r—i—n—g— —a— —c—l—i—e—n—t— —p—r—o—p—o—s—a—l—,— —w—r—i—t—i—n—g— —a—n— —S—O—W— —f—o—r— —a— —n—e—w— —e—n—g—a—g—e—m—e—n—t—,— —o—r— —p—r—o—d—u—c—i—n—g— —a—n— —N—D—A— —b—e—f—o—r—e— —s—h—a—r—i—n—g— —s—e—n—s—i—t—i—v—e— —m—a—t—e—r—i—a—l.
 ---
 
 # Contract & Proposal Writer

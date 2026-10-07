@@ -1,6 +1,7 @@
 ---
 name: "cmo-review"
-description: "/cs:cmo-review <plan> — Narrative-first interrogation of positioning, ICP, message house, and channel mix. Use when launching a campaign or repositioning, or when CAC is rising and the one-sentence positioning test fails."
+description: >-
+  /—c—s—:—c—m—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —N—a—r—r—a—t—i—v—e—-—f—i—r—s—t— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —p—o—s—i—t—i—o—n—i—n—g—,— —I—C—P—,— —m—e—s—s—a—g—e— —h—o—u—s—e—,— —a—n—d— —c—h—a—n—n—e—l— —m—i—x—.— —U—s—e— —w—h—e—n— —l—a—u—n—c—h—i—n—g— —a— —c—a—m—p—a—i—g—n— —o—r— —r—e—p—o—s—i—t—i—o—n—i—n—g—,— —o—r— —w—h—e—n— —C—A—C— —i—s— —r—i—s—i—n—g— —a—n—d— —t—h—e— —o—n—e—-—s—e—n—t—e—n—c—e— —p—o—s—i—t—i—o—n—i—n—g— —t—e—s—t— —f—a—i—l—s.
 ---
 
 # /cs:cmo-review — CMO Forcing Questions

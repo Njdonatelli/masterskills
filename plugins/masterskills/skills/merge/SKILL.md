@@ -1,6 +1,7 @@
 ---
 name: "merge"
-description: "Merge the winning agent's branch into base, archive losers, and clean up worktrees. Use when the user runs /hub:merge or asks to land the winning AgentHub result and tidy the session."
+description: >-
+  M—e—r—g—e— —t—h—e— —w—i—n—n—i—n—g— —a—g—e—n—t—'—s— —b—r—a—n—c—h— —i—n—t—o— —b—a—s—e—,— —a—r—c—h—i—v—e— —l—o—s—e—r—s—,— —a—n—d— —c—l—e—a—n— —u—p— —w—o—r—k—t—r—e—e—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—h—u—b—:—m—e—r—g—e— —o—r— —a—s—k—s— —t—o— —l—a—n—d— —t—h—e— —w—i—n—n—i—n—g— —A—g—e—n—t—H—u—b— —r—e—s—u—l—t— —a—n—d— —t—i—d—y— —t—h—e— —s—e—s—s—i—o—n.
 command: /hub:merge
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: "secrets-vault-manager"
-description: "Use when the user asks to set up secret management infrastructure, integrate HashiCorp Vault, configure cloud secret stores (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager), implement secret rotation, or audit secret access patterns."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —s—e—t— —u—p— —s—e—c—r—e—t— —m—a—n—a—g—e—m—e—n—t— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—,— —i—n—t—e—g—r—a—t—e— —H—a—s—h—i—C—o—r—p— —V—a—u—l—t—,— —c—o—n—f—i—g—u—r—e— —c—l—o—u—d— —s—e—c—r—e—t— —s—t—o—r—e—s— —(—A—W—S— —S—e—c—r—e—t—s— —M—a—n—a—g—e—r—,— —A—z—u—r—e— —K—e—y— —V—a—u—l—t—,— —G—C—P— —S—e—c—r—e—t— —M—a—n—a—g—e—r—)—,— —i—m—p—l—e—m—e—n—t— —s—e—c—r—e—t— —r—o—t—a—t—i—o—n—,— —o—r— —a—u—d—i—t— —s—e—c—r—e—t— —a—c—c—e—s—s— —p—a—t—t—e—r—n—s.
 ---
 
 # Secrets Vault Manager

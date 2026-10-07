@@ -1,6 +1,7 @@
 ---
 name: "cro-review"
-description: "/cs:cro-review <plan> — Pipeline-paranoid interrogation of revenue, win rate, NRR, and ramp time. Use when the forecast misses pipeline coverage, win rates drop, or before scaling the sales team."
+description: >-
+  /—c—s—:—c—r—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —P—i—p—e—l—i—n—e—-—p—a—r—a—n—o—i—d— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —r—e—v—e—n—u—e—,— —w—i—n— —r—a—t—e—,— —N—R—R—,— —a—n—d— —r—a—m—p— —t—i—m—e—.— —U—s—e— —w—h—e—n— —t—h—e— —f—o—r—e—c—a—s—t— —m—i—s—s—e—s— —p—i—p—e—l—i—n—e— —c—o—v—e—r—a—g—e—,— —w—i—n— —r—a—t—e—s— —d—r—o—p—,— —o—r— —b—e—f—o—r—e— —s—c—a—l—i—n—g— —t—h—e— —s—a—l—e—s— —t—e—a—m.
 ---
 
 # /cs:cro-review — CRO Forcing Questions

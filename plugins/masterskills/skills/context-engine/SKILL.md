@@ -1,6 +1,7 @@
 ---
 name: "context-engine"
-description: "Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls. Use when starting any C-suite advisor session, when context looks stale or missing, or before sending company data to an external service."
+description: >-
+  L—o—a—d—s— —a—n—d— —m—a—n—a—g—e—s— —c—o—m—p—a—n—y— —c—o—n—t—e—x—t— —f—o—r— —a—l—l— —C—-—s—u—i—t—e— —a—d—v—i—s—o—r— —s—k—i—l—l—s—.— —R—e—a—d—s— —~—/—.—c—l—a—u—d—e—/—c—o—m—p—a—n—y—-—c—o—n—t—e—x—t—.—m—d—,— —d—e—t—e—c—t—s— —s—t—a—l—e— —c—o—n—t—e—x—t— —(—>—9—0— —d—a—y—s—)—,— —e—n—r—i—c—h—e—s— —c—o—n—t—e—x—t— —d—u—r—i—n—g— —c—o—n—v—e—r—s—a—t—i—o—n—s—,— —a—n—d— —e—n—f—o—r—c—e—s— —p—r—i—v—a—c—y—/—a—n—o—n—y—m—i—z—a—t—i—o—n— —r—u—l—e—s— —b—e—f—o—r—e— —e—x—t—e—r—n—a—l— —A—P—I— —c—a—l—l—s—.— —U—s—e— —w—h—e—n— —s—t—a—r—t—i—n—g— —a—n—y— —C—-—s—u—i—t—e— —a—d—v—i—s—o—r— —s—e—s—s—i—o—n—,— —w—h—e—n— —c—o—n—t—e—x—t— —l—o—o—k—s— —s—t—a—l—e— —o—r— —m—i—s—s—i—n—g—,— —o—r— —b—e—f—o—r—e— —s—e—n—d—i—n—g— —c—o—m—p—a—n—y— —d—a—t—a— —t—o— —a—n— —e—x—t—e—r—n—a—l— —s—e—r—v—i—c—e.
 license: MIT
 metadata:
   version: 1.0.0

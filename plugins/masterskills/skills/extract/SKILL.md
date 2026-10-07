@@ -1,6 +1,7 @@
 ---
 name: "extract"
-description: "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples. Use when the user runs /si:extract or asks to package a recurring solution from memory into a skill."
+description: >-
+  T—u—r—n— —a— —p—r—o—v—e—n— —p—a—t—t—e—r—n— —o—r— —d—e—b—u—g—g—i—n—g— —s—o—l—u—t—i—o—n— —i—n—t—o— —a— —s—t—a—n—d—a—l—o—n—e— —r—e—u—s—a—b—l—e— —s—k—i—l—l— —w—i—t—h— —S—K—I—L—L—.—m—d—,— —r—e—f—e—r—e—n—c—e— —d—o—c—s—,— —a—n—d— —e—x—a—m—p—l—e—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—s—i—:—e—x—t—r—a—c—t— —o—r— —a—s—k—s— —t—o— —p—a—c—k—a—g—e— —a— —r—e—c—u—r—r—i—n—g— —s—o—l—u—t—i—o—n— —f—r—o—m— —m—e—m—o—r—y— —i—n—t—o— —a— —s—k—i—l—l.
 ---
 
 # /si:extract — Create Skills from Patterns

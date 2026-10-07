@@ -1,6 +1,7 @@
 ---
 name: "quality-manager-qmr"
-description: Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2. Use when leading management reviews, setting quality policy and objectives, monitoring quality KPIs and cost of quality, or exercising QMR governance and regulatory oversight responsibilities.
+description: >-
+  S—e—n—i—o—r— —Q—u—a—l—i—t—y— —M—a—n—a—g—e—r— —R—e—s—p—o—n—s—i—b—l—e— —P—e—r—s—o—n— —(—Q—M—R—)— —f—o—r— —H—e—a—l—t—h—T—e—c—h— —a—n—d— —M—e—d—T—e—c—h— —c—o—m—p—a—n—i—e—s—.— —P—r—o—v—i—d—e—s— —q—u—a—l—i—t—y— —s—y—s—t—e—m— —g—o—v—e—r—n—a—n—c—e—,— —m—a—n—a—g—e—m—e—n—t— —r—e—v—i—e—w— —l—e—a—d—e—r—s—h—i—p—,— —r—e—g—u—l—a—t—o—r—y— —c—o—m—p—l—i—a—n—c—e— —o—v—e—r—s—i—g—h—t—,— —a—n—d— —q—u—a—l—i—t—y— —p—e—r—f—o—r—m—a—n—c—e— —m—o—n—i—t—o—r—i—n—g— —p—e—r— —I—S—O— —1—3—4—8—5— —C—l—a—u—s—e— —5—.—5—.—2—.— —U—s—e— —w—h—e—n— —l—e—a—d—i—n—g— —m—a—n—a—g—e—m—e—n—t— —r—e—v—i—e—w—s—,— —s—e—t—t—i—n—g— —q—u—a—l—i—t—y— —p—o—l—i—c—y— —a—n—d— —o—b—j—e—c—t—i—v—e—s—,— —m—o—n—i—t—o—r—i—n—g— —q—u—a—l—i—t—y— —K—P—I—s— —a—n—d— —c—o—s—t— —o—f— —q—u—a—l—i—t—y—,— —o—r— —e—x—e—r—c—i—s—i—n—g— —Q—M—R— —g—o—v—e—r—n—a—n—c—e— —a—n—d— —r—e—g—u—l—a—t—o—r—y— —o—v—e—r—s—i—g—h—t— —r—e—s—p—o—n—s—i—b—i—l—i—t—i—e—s.
 triggers:
   - management review
   - quality policy

@@ -1,6 +1,7 @@
 ---
 name: "named-persona-adversarial-review"
-description: "Code review through the lens of real engineers' documented philosophies (Torvalds, Thompson, Carmack, Kent Beck, Jobs, Cagan). Complements abstract-role adversarial review with named, sourced perspectives. Use when automated review findings feel generic, when a PR has architectural or UX impact, or when the author wants pre-submit hardening beyond standard checks."
+description: >-
+  C—o—d—e— —r—e—v—i—e—w— —t—h—r—o—u—g—h— —t—h—e— —l—e—n—s— —o—f— —r—e—a—l— —e—n—g—i—n—e—e—r—s—'— —d—o—c—u—m—e—n—t—e—d— —p—h—i—l—o—s—o—p—h—i—e—s— —(—T—o—r—v—a—l—d—s—,— —T—h—o—m—p—s—o—n—,— —C—a—r—m—a—c—k—,— —K—e—n—t— —B—e—c—k—,— —J—o—b—s—,— —C—a—g—a—n—)—.— —C—o—m—p—l—e—m—e—n—t—s— —a—b—s—t—r—a—c—t—-—r—o—l—e— —a—d—v—e—r—s—a—r—i—a—l— —r—e—v—i—e—w— —w—i—t—h— —n—a—m—e—d—,— —s—o—u—r—c—e—d— —p—e—r—s—p—e—c—t—i—v—e—s—.— —U—s—e— —w—h—e—n— —a—u—t—o—m—a—t—e—d— —r—e—v—i—e—w— —f—i—n—d—i—n—g—s— —f—e—e—l— —g—e—n—e—r—i—c—,— —w—h—e—n— —a— —P—R— —h—a—s— —a—r—c—h—i—t—e—c—t—u—r—a—l— —o—r— —U—X— —i—m—p—a—c—t—,— —o—r— —w—h—e—n— —t—h—e— —a—u—t—h—o—r— —w—a—n—t—s— —p—r—e—-—s—u—b—m—i—t— —h—a—r—d—e—n—i—n—g— —b—e—y—o—n—d— —s—t—a—n—d—a—r—d— —c—h—e—c—k—s.
 ---
 
 # Named-Persona Adversarial Review

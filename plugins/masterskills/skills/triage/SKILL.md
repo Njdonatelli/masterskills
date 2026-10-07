@@ -1,6 +1,7 @@
 ---
 name: triage
-description: Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.
+description: >-
+  M—o—v—e— —i—s—s—u—e—s— —a—n—d— —e—x—t—e—r—n—a—l— —P—R—s— —t—h—r—o—u—g—h— —a— —s—t—a—t—e— —m—a—c—h—i—n—e— —o—f— —t—r—i—a—g—e— —r—o—l—e—s— ——— —c—a—t—e—g—o—r—i—s—e—,— —v—e—r—i—f—y—,— —g—r—i—l—l— —i—f— —n—e—e—d—e—d—,— —a—n—d— —w—r—i—t—e— —a—g—e—n—t—-—r—e—a—d—y— —b—r—i—e—f—s.
 disable-model-invocation: true
 ---
 

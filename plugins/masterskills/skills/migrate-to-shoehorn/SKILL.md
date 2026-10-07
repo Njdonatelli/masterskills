@@ -1,6 +1,7 @@
 ---
 name: migrate-to-shoehorn
-description: Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.
+description: >-
+  M—i—g—r—a—t—e— —t—e—s—t— —f—i—l—e—s— —f—r—o—m— —`—a—s—`— —t—y—p—e— —a—s—s—e—r—t—i—o—n—s— —t—o— —@—t—o—t—a—l—-—t—y—p—e—s—c—r—i—p—t—/—s—h—o—e—h—o—r—n—.— —U—s—e— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —s—h—o—e—h—o—r—n—,— —w—a—n—t—s— —t—o— —r—e—p—l—a—c—e— —`—a—s—`— —i—n— —t—e—s—t—s—,— —o—r— —n—e—e—d—s— —p—a—r—t—i—a—l— —t—e—s—t— —d—a—t—a.
 ---
 
 # Migrate to Shoehorn

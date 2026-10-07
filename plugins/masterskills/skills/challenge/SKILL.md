@@ -1,6 +1,7 @@
 ---
 name: "challenge"
-description: "Pre-mortem plan analysis. Imagine the plan failed 12 months from now and work backwards to find the weaknesses. Surfaces assumptions, dependencies, and execution risks before committing resources. Use when before significant resource commitment, before presenting to a board or investors, when feedback has been one-sidedly positive, or when there is pressure to move fast and figure it out later."
+description: >-
+  P—r—e—-—m—o—r—t—e—m— —p—l—a—n— —a—n—a—l—y—s—i—s—.— —I—m—a—g—i—n—e— —t—h—e— —p—l—a—n— —f—a—i—l—e—d— —1—2— —m—o—n—t—h—s— —f—r—o—m— —n—o—w— —a—n—d— —w—o—r—k— —b—a—c—k—w—a—r—d—s— —t—o— —f—i—n—d— —t—h—e— —w—e—a—k—n—e—s—s—e—s—.— —S—u—r—f—a—c—e—s— —a—s—s—u—m—p—t—i—o—n—s—,— —d—e—p—e—n—d—e—n—c—i—e—s—,— —a—n—d— —e—x—e—c—u—t—i—o—n— —r—i—s—k—s— —b—e—f—o—r—e— —c—o—m—m—i—t—t—i—n—g— —r—e—s—o—u—r—c—e—s—.— —U—s—e— —w—h—e—n— —b—e—f—o—r—e— —s—i—g—n—i—f—i—c—a—n—t— —r—e—s—o—u—r—c—e— —c—o—m—m—i—t—m—e—n—t—,— —b—e—f—o—r—e— —p—r—e—s—e—n—t—i—n—g— —t—o— —a— —b—o—a—r—d— —o—r— —i—n—v—e—s—t—o—r—s—,— —w—h—e—n— —f—e—e—d—b—a—c—k— —h—a—s— —b—e—e—n— —o—n—e—-—s—i—d—e—d—l—y— —p—o—s—i—t—i—v—e—,— —o—r— —w—h—e—n— —t—h—e—r—e— —i—s— —p—r—e—s—s—u—r—e— —t—o— —m—o—v—e— —f—a—s—t— —a—n—d— —f—i—g—u—r—e— —i—t— —o—u—t— —l—a—t—e—r.
 ---
 
 # /em:challenge — Pre-Mortem Plan Analysis

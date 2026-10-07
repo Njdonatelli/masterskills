@@ -1,6 +1,7 @@
 ---
 name: "ciso-advisor"
-description: "Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selecting compliance frameworks, managing incidents, assessing vendor risk, or when user mentions CISO, security strategy, compliance roadmap, zero trust, or board security reporting."
+description: >-
+  S—e—c—u—r—i—t—y— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —g—r—o—w—t—h—-—s—t—a—g—e— —c—o—m—p—a—n—i—e—s—.— —R—i—s—k— —q—u—a—n—t—i—f—i—c—a—t—i—o—n— —i—n— —d—o—l—l—a—r—s—,— —c—o—m—p—l—i—a—n—c—e— —r—o—a—d—m—a—p— —(—S—O—C— —2—/—I—S—O— —2—7—0—0—1—/—H—I—P—A—A—/—G—D—P—R—)—,— —s—e—c—u—r—i—t—y— —a—r—c—h—i—t—e—c—t—u—r—e— —s—t—r—a—t—e—g—y—,— —i—n—c—i—d—e—n—t— —r—e—s—p—o—n—s—e— —l—e—a—d—e—r—s—h—i—p—,— —a—n—d— —b—o—a—r—d—-—l—e—v—e—l— —s—e—c—u—r—i—t—y— —r—e—p—o—r—t—i—n—g—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —s—e—c—u—r—i—t—y— —p—r—o—g—r—a—m—s—,— —j—u—s—t—i—f—y—i—n—g— —s—e—c—u—r—i—t—y— —b—u—d—g—e—t—,— —s—e—l—e—c—t—i—n—g— —c—o—m—p—l—i—a—n—c—e— —f—r—a—m—e—w—o—r—k—s—,— —m—a—n—a—g—i—n—g— —i—n—c—i—d—e—n—t—s—,— —a—s—s—e—s—s—i—n—g— —v—e—n—d—o—r— —r—i—s—k—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—I—S—O—,— —s—e—c—u—r—i—t—y— —s—t—r—a—t—e—g—y—,— —c—o—m—p—l—i—a—n—c—e— —r—o—a—d—m—a—p—,— —z—e—r—o— —t—r—u—s—t—,— —o—r— —b—o—a—r—d— —s—e—c—u—r—i—t—y— —r—e—p—o—r—t—i—n—g.
 license: MIT
 metadata:
   version: 1.0.0

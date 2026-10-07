@@ -1,6 +1,7 @@
 ---
 name: "atlassian-admin"
-description: Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance. Use when asked to add users to Jira, change Confluence permissions, configure access control, update admin settings, manage Atlassian groups, set up SSO, install marketplace apps, review security policies, or handle any org-wide Atlassian administration task.
+description: >-
+  A—t—l—a—s—s—i—a—n— —A—d—m—i—n—i—s—t—r—a—t—o—r— —f—o—r— —m—a—n—a—g—i—n—g— —a—n—d— —o—r—g—a—n—i—z—i—n—g— —A—t—l—a—s—s—i—a—n— —p—r—o—d—u—c—t—s— —(—J—i—r—a—,— —C—o—n—f—l—u—e—n—c—e—,— —B—i—t—b—u—c—k—e—t—,— —T—r—e—l—l—o—)—,— —u—s—e—r—s—,— —p—e—r—m—i—s—s—i—o—n—s—,— —s—e—c—u—r—i—t—y—,— —i—n—t—e—g—r—a—t—i—o—n—s—,— —s—y—s—t—e—m— —c—o—n—f—i—g—u—r—a—t—i—o—n—,— —a—n—d— —o—r—g—-—w—i—d—e— —g—o—v—e—r—n—a—n—c—e—.— —U—s—e— —w—h—e—n— —a—s—k—e—d— —t—o— —a—d—d— —u—s—e—r—s— —t—o— —J—i—r—a—,— —c—h—a—n—g—e— —C—o—n—f—l—u—e—n—c—e— —p—e—r—m—i—s—s—i—o—n—s—,— —c—o—n—f—i—g—u—r—e— —a—c—c—e—s—s— —c—o—n—t—r—o—l—,— —u—p—d—a—t—e— —a—d—m—i—n— —s—e—t—t—i—n—g—s—,— —m—a—n—a—g—e— —A—t—l—a—s—s—i—a—n— —g—r—o—u—p—s—,— —s—e—t— —u—p— —S—S—O—,— —i—n—s—t—a—l—l— —m—a—r—k—e—t—p—l—a—c—e— —a—p—p—s—,— —r—e—v—i—e—w— —s—e—c—u—r—i—t—y— —p—o—l—i—c—i—e—s—,— —o—r— —h—a—n—d—l—e— —a—n—y— —o—r—g—-—w—i—d—e— —A—t—l—a—s—s—i—a—n— —a—d—m—i—n—i—s—t—r—a—t—i—o—n— —t—a—s—k.
 ---
 
 # Atlassian Administrator Expert

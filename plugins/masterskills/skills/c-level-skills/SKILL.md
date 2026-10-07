@@ -1,6 +1,7 @@
 ---
 name: "c-level-skills"
-description: "Index and router for the C-level advisory bundle: 33 skills covering 14 C-suite roles, orchestration, cross-cutting capabilities, and culture. Use when exploring what the c-level-advisor bundle contains, deciding which advisor skill fits a question, or finding the entry points (cs-onboard interview, chief-of-staff routing, board-meeting protocol)."
+description: >-
+  I—n—d—e—x— —a—n—d— —r—o—u—t—e—r— —f—o—r— —t—h—e— —C—-—l—e—v—e—l— —a—d—v—i—s—o—r—y— —b—u—n—d—l—e—:— —3—3— —s—k—i—l—l—s— —c—o—v—e—r—i—n—g— —1—4— —C—-—s—u—i—t—e— —r—o—l—e—s—,— —o—r—c—h—e—s—t—r—a—t—i—o—n—,— —c—r—o—s—s—-—c—u—t—t—i—n—g— —c—a—p—a—b—i—l—i—t—i—e—s—,— —a—n—d— —c—u—l—t—u—r—e—.— —U—s—e— —w—h—e—n— —e—x—p—l—o—r—i—n—g— —w—h—a—t— —t—h—e— —c—-—l—e—v—e—l—-—a—d—v—i—s—o—r— —b—u—n—d—l—e— —c—o—n—t—a—i—n—s—,— —d—e—c—i—d—i—n—g— —w—h—i—c—h— —a—d—v—i—s—o—r— —s—k—i—l—l— —f—i—t—s— —a— —q—u—e—s—t—i—o—n—,— —o—r— —f—i—n—d—i—n—g— —t—h—e— —e—n—t—r—y— —p—o—i—n—t—s— —(—c—s—-—o—n—b—o—a—r—d— —i—n—t—e—r—v—i—e—w—,— —c—h—i—e—f—-—o—f—-—s—t—a—f—f— —r—o—u—t—i—n—g—,— —b—o—a—r—d—-—m—e—e—t—i—n—g— —p—r—o—t—o—c—o—l—).
 license: MIT
 metadata:
   version: 2.1.0

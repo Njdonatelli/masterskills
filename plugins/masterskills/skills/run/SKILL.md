@@ -1,6 +1,7 @@
 ---
 name: "run"
-description: "One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation. Use when the user runs /hub:run or asks to execute a full AgentHub competition end-to-end."
+description: >-
+  O—n—e—-—s—h—o—t— —l—i—f—e—c—y—c—l—e— —c—o—m—m—a—n—d— —t—h—a—t— —c—h—a—i—n—s— —i—n—i—t— —→— —b—a—s—e—l—i—n—e— —→— —s—p—a—w—n— —→— —e—v—a—l— —→— —m—e—r—g—e— —i—n— —a— —s—i—n—g—l—e— —i—n—v—o—c—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—h—u—b—:—r—u—n— —o—r— —a—s—k—s— —t—o— —e—x—e—c—u—t—e— —a— —f—u—l—l— —A—g—e—n—t—H—u—b— —c—o—m—p—e—t—i—t—i—o—n— —e—n—d—-—t—o—-—e—n—d.
 command: /hub:run
 ---
 

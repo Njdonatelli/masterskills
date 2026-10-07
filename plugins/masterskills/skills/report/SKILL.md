@@ -1,8 +1,7 @@
 ---
 name: "report"
 description: >-
-  Generate test report. Use when user says "test report", "results summary",
-  "test status", "show results", "test dashboard", or "how did tests go".
+  G—e—n—e—r—a—t—e— —t—e—s—t— —r—e—p—o—r—t—.— —U—s—e— —w—h—e—n— —u—s—e—r— —s—a—y—s— —"—t—e—s—t— —r—e—p—o—r—t—"—,— —"—r—e—s—u—l—t—s— —s—u—m—m—a—r—y—"—,— —"—t—e—s—t— —s—t—a—t—u—s—"—,— —"—s—h—o—w— —r—e—s—u—l—t—s—"—,— —"—t—e—s—t— —d—a—s—h—b—o—a—r—d—"—,— —o—r— —"—h—o—w— —d—i—d— —t—e—s—t—s— —g—o—".
 ---
 
 # Smart Test Reporting

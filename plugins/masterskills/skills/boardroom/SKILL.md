@@ -1,6 +1,7 @@
 ---
 name: "boardroom"
-description: "/cs:boardroom <brief> — 6-phase multi-role deliberation across the C-suite with Phase 2 isolation, critic pre-screen, and synthesis. Outputs a board memo. Use when a decision spans multiple executive domains — e.g. a pricing change touching finance, positioning, and product, or a raise-vs-cut runway call."
+description: >-
+  /—c—s—:—b—o—a—r—d—r—o—o—m— —<—b—r—i—e—f—>— ——— —6—-—p—h—a—s—e— —m—u—l—t—i—-—r—o—l—e— —d—e—l—i—b—e—r—a—t—i—o—n— —a—c—r—o—s—s— —t—h—e— —C—-—s—u—i—t—e— —w—i—t—h— —P—h—a—s—e— —2— —i—s—o—l—a—t—i—o—n—,— —c—r—i—t—i—c— —p—r—e—-—s—c—r—e—e—n—,— —a—n—d— —s—y—n—t—h—e—s—i—s—.— —O—u—t—p—u—t—s— —a— —b—o—a—r—d— —m—e—m—o—.— —U—s—e— —w—h—e—n— —a— —d—e—c—i—s—i—o—n— —s—p—a—n—s— —m—u—l—t—i—p—l—e— —e—x—e—c—u—t—i—v—e— —d—o—m—a—i—n—s— ——— —e—.—g—.— —a— —p—r—i—c—i—n—g— —c—h—a—n—g—e— —t—o—u—c—h—i—n—g— —f—i—n—a—n—c—e—,— —p—o—s—i—t—i—o—n—i—n—g—,— —a—n—d— —p—r—o—d—u—c—t—,— —o—r— —a— —r—a—i—s—e—-—v—s—-—c—u—t— —r—u—n—w—a—y— —c—a—l—l.
 ---
 
 # /cs:boardroom — Multi-Role Boardroom Deliberation

@@ -1,6 +1,7 @@
 ---
 name: "compliance-readiness"
-description: "/cs:compliance-readiness <program> — Multi-framework compliance officer 6-question forcing interrogation of any compliance program. Use before starting a new framework, planning the annual audit calendar, or preparing for certification stage 1."
+description: >-
+  /—c—s—:—c—o—m—p—l—i—a—n—c—e—-—r—e—a—d—i—n—e—s—s— —<—p—r—o—g—r—a—m—>— ——— —M—u—l—t—i—-—f—r—a—m—e—w—o—r—k— —c—o—m—p—l—i—a—n—c—e— —o—f—f—i—c—e—r— —6—-—q—u—e—s—t—i—o—n— —f—o—r—c—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —c—o—m—p—l—i—a—n—c—e— —p—r—o—g—r—a—m—.— —U—s—e— —b—e—f—o—r—e— —s—t—a—r—t—i—n—g— —a— —n—e—w— —f—r—a—m—e—w—o—r—k—,— —p—l—a—n—n—i—n—g— —t—h—e— —a—n—n—u—a—l— —a—u—d—i—t— —c—a—l—e—n—d—a—r—,— —o—r— —p—r—e—p—a—r—i—n—g— —f—o—r— —c—e—r—t—i—f—i—c—a—t—i—o—n— —s—t—a—g—e— —1.
 ---
 
 # /cs:compliance-readiness — Compliance Officer Forcing Questions

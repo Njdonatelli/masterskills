@@ -1,6 +1,7 @@
 ---
 name: "red-team"
-description: "Use when planning or executing authorized red team engagements, attack path analysis, or offensive security simulations. Covers MITRE ATT&CK kill-chain planning, technique scoring, choke point identification, OPSEC risk assessment, and crown jewel targeting."
+description: >-
+  U—s—e— —w—h—e—n— —p—l—a—n—n—i—n—g— —o—r— —e—x—e—c—u—t—i—n—g— —a—u—t—h—o—r—i—z—e—d— —r—e—d— —t—e—a—m— —e—n—g—a—g—e—m—e—n—t—s—,— —a—t—t—a—c—k— —p—a—t—h— —a—n—a—l—y—s—i—s—,— —o—r— —o—f—f—e—n—s—i—v—e— —s—e—c—u—r—i—t—y— —s—i—m—u—l—a—t—i—o—n—s—.— —C—o—v—e—r—s— —M—I—T—R—E— —A—T—T—&—C—K— —k—i—l—l—-—c—h—a—i—n— —p—l—a—n—n—i—n—g—,— —t—e—c—h—n—i—q—u—e— —s—c—o—r—i—n—g—,— —c—h—o—k—e— —p—o—i—n—t— —i—d—e—n—t—i—f—i—c—a—t—i—o—n—,— —O—P—S—E—C— —r—i—s—k— —a—s—s—e—s—s—m—e—n—t—,— —a—n—d— —c—r—o—w—n— —j—e—w—e—l— —t—a—r—g—e—t—i—n—g.
 ---
 
 # Red Team

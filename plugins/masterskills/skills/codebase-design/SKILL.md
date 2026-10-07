@@ -1,6 +1,7 @@
 ---
 name: codebase-design
-description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
+description: >-
+  S—h—a—r—e—d— —v—o—c—a—b—u—l—a—r—y— —f—o—r— —d—e—s—i—g—n—i—n—g— —d—e—e—p— —m—o—d—u—l—e—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —d—e—s—i—g—n— —o—r— —i—m—p—r—o—v—e— —a— —m—o—d—u—l—e—'—s— —i—n—t—e—r—f—a—c—e—,— —f—i—n—d— —d—e—e—p—e—n—i—n—g— —o—p—p—o—r—t—u—n—i—t—i—e—s—,— —d—e—c—i—d—e— —w—h—e—r—e— —a— —s—e—a—m— —g—o—e—s—,— —m—a—k—e— —c—o—d—e— —m—o—r—e— —t—e—s—t—a—b—l—e— —o—r— —A—I—-—n—a—v—i—g—a—b—l—e—,— —o—r— —w—h—e—n— —a—n—o—t—h—e—r— —s—k—i—l—l— —n—e—e—d—s— —t—h—e— —d—e—e—p—-—m—o—d—u—l—e— —v—o—c—a—b—u—l—a—r—y.
 ---
 
 # Codebase Design

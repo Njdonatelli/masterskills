@@ -1,6 +1,7 @@
 ---
 name: "dependency-auditor"
-description: "Audit and manage dependencies across multi-language projects. Identifies vulnerabilities, license conflicts, transitive dependency risks, and safe-upgrade paths. Use when auditing third-party packages before release, investigating a CVE, planning a major version bump, or running a license-compliance review. Examples: 'audit our npm dependencies', 'do we have GPL contamination', 'plan the upgrade to React 19'."
+description: >-
+  A—u—d—i—t— —a—n—d— —m—a—n—a—g—e— —d—e—p—e—n—d—e—n—c—i—e—s— —a—c—r—o—s—s— —m—u—l—t—i—-—l—a—n—g—u—a—g—e— —p—r—o—j—e—c—t—s—.— —I—d—e—n—t—i—f—i—e—s— —v—u—l—n—e—r—a—b—i—l—i—t—i—e—s—,— —l—i—c—e—n—s—e— —c—o—n—f—l—i—c—t—s—,— —t—r—a—n—s—i—t—i—v—e— —d—e—p—e—n—d—e—n—c—y— —r—i—s—k—s—,— —a—n—d— —s—a—f—e—-—u—p—g—r—a—d—e— —p—a—t—h—s—.— —U—s—e— —w—h—e—n— —a—u—d—i—t—i—n—g— —t—h—i—r—d—-—p—a—r—t—y— —p—a—c—k—a—g—e—s— —b—e—f—o—r—e— —r—e—l—e—a—s—e—,— —i—n—v—e—s—t—i—g—a—t—i—n—g— —a— —C—V—E—,— —p—l—a—n—n—i—n—g— —a— —m—a—j—o—r— —v—e—r—s—i—o—n— —b—u—m—p—,— —o—r— —r—u—n—n—i—n—g— —a— —l—i—c—e—n—s—e—-—c—o—m—p—l—i—a—n—c—e— —r—e—v—i—e—w—.— —E—x—a—m—p—l—e—s—:— —'—a—u—d—i—t— —o—u—r— —n—p—m— —d—e—p—e—n—d—e—n—c—i—e—s—'—,— —'—d—o— —w—e— —h—a—v—e— —G—P—L— —c—o—n—t—a—m—i—n—a—t—i—o—n—'—,— —'—p—l—a—n— —t—h—e— —u—p—g—r—a—d—e— —t—o— —R—e—a—c—t— —1—9—'.
 ---
 
 # Dependency Auditor

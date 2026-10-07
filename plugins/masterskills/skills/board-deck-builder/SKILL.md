@@ -1,6 +1,7 @@
 ---
 name: "board-deck-builder"
-description: "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes."
+description: >-
+  A—s—s—e—m—b—l—e—s— —c—o—m—p—r—e—h—e—n—s—i—v—e— —b—o—a—r—d— —a—n—d— —i—n—v—e—s—t—o—r— —u—p—d—a—t—e— —d—e—c—k—s— —b—y— —p—u—l—l—i—n—g— —p—e—r—s—p—e—c—t—i—v—e—s— —f—r—o—m— —a—l—l— —C—-—s—u—i—t—e— —r—o—l—e—s—.— —U—s—e— —w—h—e—n— —p—r—e—p—a—r—i—n—g— —b—o—a—r—d— —m—e—e—t—i—n—g—s—,— —i—n—v—e—s—t—o—r— —u—p—d—a—t—e—s—,— —q—u—a—r—t—e—r—l—y— —b—u—s—i—n—e—s—s— —r—e—v—i—e—w—s—,— —o—r— —f—u—n—d—r—a—i—s—i—n—g— —n—a—r—r—a—t—i—v—e—s—.— —C—o—v—e—r—s— —s—t—r—u—c—t—u—r—e—,— —n—a—r—r—a—t—i—v—e— —f—r—a—m—e—w—o—r—k—,— —b—a—d— —n—e—w—s— —d—e—l—i—v—e—r—y—,— —a—n—d— —c—o—m—m—o—n— —m—i—s—t—a—k—e—s.
 license: MIT
 metadata:
   version: 1.0.0

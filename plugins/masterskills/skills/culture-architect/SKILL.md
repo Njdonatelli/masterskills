@@ -1,6 +1,7 @@
 ---
 name: "culture-architect"
-description: "Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health, designing cultural rituals, creating culture codes, handling culture clashes, or when user mentions culture, values, culture debt, founder culture, or culture code."
+description: >-
+  B—u—i—l—d—,— —m—e—a—s—u—r—e—,— —a—n—d— —e—v—o—l—v—e— —c—o—m—p—a—n—y— —c—u—l—t—u—r—e— —a—s— —o—p—e—r—a—t—i—o—n—a—l— —b—e—h—a—v—i—o—r— ——— —n—o—t— —w—a—l—l— —p—o—s—t—e—r—s—.— —C—o—v—e—r—s— —m—i—s—s—i—o—n—/—v—i—s—i—o—n—/—v—a—l—u—e—s— —w—o—r—k—s—h—o—p—s—,— —v—a—l—u—e—s—-—t—o—-—b—e—h—a—v—i—o—r—s— —t—r—a—n—s—l—a—t—i—o—n—,— —c—u—l—t—u—r—e— —c—o—d—e— —c—r—e—a—t—i—o—n—,— —c—u—l—t—u—r—e— —h—e—a—l—t—h— —a—s—s—e—s—s—m—e—n—t—,— —a—n—d— —c—u—l—t—u—r—a—l— —r—i—t—u—a—l—s— —b—y— —s—t—a—g—e—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —c—o—m—p—a—n—y— —v—a—l—u—e—s—,— —a—s—s—e—s—s—i—n—g— —c—u—l—t—u—r—e— —h—e—a—l—t—h—,— —d—e—s—i—g—n—i—n—g— —c—u—l—t—u—r—a—l— —r—i—t—u—a—l—s—,— —c—r—e—a—t—i—n—g— —c—u—l—t—u—r—e— —c—o—d—e—s—,— —h—a—n—d—l—i—n—g— —c—u—l—t—u—r—e— —c—l—a—s—h—e—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —c—u—l—t—u—r—e—,— —v—a—l—u—e—s—,— —c—u—l—t—u—r—e— —d—e—b—t—,— —f—o—u—n—d—e—r— —c—u—l—t—u—r—e—,— —o—r— —c—u—l—t—u—r—e— —c—o—d—e.
 license: MIT
 metadata:
   version: 1.0.0

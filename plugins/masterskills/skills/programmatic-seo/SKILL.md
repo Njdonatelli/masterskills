@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
-description: When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," or "building many pages for SEO." For auditing existing SEO issues, see seo-audit.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e— —S—E—O—-—d—r—i—v—e—n— —p—a—g—e—s— —a—t— —s—c—a—l—e— —u—s—i—n—g— —t—e—m—p—l—a—t—e—s— —a—n—d— —d—a—t—a—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—p—r—o—g—r—a—m—m—a—t—i—c— —S—E—O—,—"— —"—t—e—m—p—l—a—t—e— —p—a—g—e—s—,—"— —"—p—a—g—e—s— —a—t— —s—c—a—l—e—,—"— —"—d—i—r—e—c—t—o—r—y— —p—a—g—e—s—,—"— —"—l—o—c—a—t—i—o—n— —p—a—g—e—s—,—"— —"—[—k—e—y—w—o—r—d—]— —+— —[—c—i—t—y—]— —p—a—g—e—s—,—"— —"—c—o—m—p—a—r—i—s—o—n— —p—a—g—e—s—,—"— —"—i—n—t—e—g—r—a—t—i—o—n— —p—a—g—e—s—,—"— —o—r— —"—b—u—i—l—d—i—n—g— —m—a—n—y— —p—a—g—e—s— —f—o—r— —S—E—O—.—"— —F—o—r— —a—u—d—i—t—i—n—g— —e—x—i—s—t—i—n—g— —S—E—O— —i—s—s—u—e—s—,— —s—e—e— —s—e—o—-—a—u—d—i—t.
 license: MIT
 metadata:
   version: 1.0.0

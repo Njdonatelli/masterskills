@@ -1,6 +1,7 @@
 ---
 name: "chro-advisor"
-description: "People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture, or when user mentions CHRO, HR, people strategy, talent, headcount, compensation, org design, retention, or performance management."
+description: >-
+  P—e—o—p—l—e— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —H—i—r—i—n—g— —s—t—r—a—t—e—g—y—,— —c—o—m—p—e—n—s—a—t—i—o—n— —d—e—s—i—g—n—,— —o—r—g— —s—t—r—u—c—t—u—r—e—,— —c—u—l—t—u—r—e—,— —a—n—d— —r—e—t—e—n—t—i—o—n—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —h—i—r—i—n—g— —p—l—a—n—s—,— —d—e—s—i—g—n—i—n—g— —c—o—m—p— —f—r—a—m—e—w—o—r—k—s—,— —r—e—s—t—r—u—c—t—u—r—i—n—g— —t—e—a—m—s—,— —m—a—n—a—g—i—n—g— —p—e—r—f—o—r—m—a—n—c—e—,— —b—u—i—l—d—i—n—g— —c—u—l—t—u—r—e—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—H—R—O—,— —H—R—,— —p—e—o—p—l—e— —s—t—r—a—t—e—g—y—,— —t—a—l—e—n—t—,— —h—e—a—d—c—o—u—n—t—,— —c—o—m—p—e—n—s—a—t—i—o—n—,— —o—r—g— —d—e—s—i—g—n—,— —r—e—t—e—n—t—i—o—n—,— —o—r— —p—e—r—f—o—r—m—a—n—c—e— —m—a—n—a—g—e—m—e—n—t.
 license: MIT
 metadata:
   version: 1.0.0

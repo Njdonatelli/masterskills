@@ -1,6 +1,7 @@
 ---
 name: teach
-description: Teach the user a new skill or concept, within this workspace.
+description: >-
+  T—e—a—c—h— —t—h—e— —u—s—e—r— —a— —n—e—w— —s—k—i—l—l— —o—r— —c—o—n—c—e—p—t—,— —w—i—t—h—i—n— —t—h—i—s— —w—o—r—k—s—p—a—c—e.
 disable-model-invocation: true
 argument-hint: "What would you like to learn about?"
 ---

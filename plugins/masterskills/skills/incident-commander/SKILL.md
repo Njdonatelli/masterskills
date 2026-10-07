@@ -1,6 +1,7 @@
 ---
 name: "incident-commander"
-description: "Comprehensive incident response framework from detection through resolution and post-incident review. Battle-tested SRE/DevOps practices: severity classification, timeline reconstruction, structured post-incident analysis. Use when declaring an incident, coordinating multi-team response during an outage, leading a post-mortem, or setting up on-call practices for a new service."
+description: >-
+  C—o—m—p—r—e—h—e—n—s—i—v—e— —i—n—c—i—d—e—n—t— —r—e—s—p—o—n—s—e— —f—r—a—m—e—w—o—r—k— —f—r—o—m— —d—e—t—e—c—t—i—o—n— —t—h—r—o—u—g—h— —r—e—s—o—l—u—t—i—o—n— —a—n—d— —p—o—s—t—-—i—n—c—i—d—e—n—t— —r—e—v—i—e—w—.— —B—a—t—t—l—e—-—t—e—s—t—e—d— —S—R—E—/—D—e—v—O—p—s— —p—r—a—c—t—i—c—e—s—:— —s—e—v—e—r—i—t—y— —c—l—a—s—s—i—f—i—c—a—t—i—o—n—,— —t—i—m—e—l—i—n—e— —r—e—c—o—n—s—t—r—u—c—t—i—o—n—,— —s—t—r—u—c—t—u—r—e—d— —p—o—s—t—-—i—n—c—i—d—e—n—t— —a—n—a—l—y—s—i—s—.— —U—s—e— —w—h—e—n— —d—e—c—l—a—r—i—n—g— —a—n— —i—n—c—i—d—e—n—t—,— —c—o—o—r—d—i—n—a—t—i—n—g— —m—u—l—t—i—-—t—e—a—m— —r—e—s—p—o—n—s—e— —d—u—r—i—n—g— —a—n— —o—u—t—a—g—e—,— —l—e—a—d—i—n—g— —a— —p—o—s—t—-—m—o—r—t—e—m—,— —o—r— —s—e—t—t—i—n—g— —u—p— —o—n—-—c—a—l—l— —p—r—a—c—t—i—c—e—s— —f—o—r— —a— —n—e—w— —s—e—r—v—i—c—e.
 ---
 
 # Incident Commander Skill

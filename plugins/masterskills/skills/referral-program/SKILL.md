@@ -1,6 +1,7 @@
 ---
 name: "referral-program"
-description: "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth through referrals.' Covers program mechanics, incentive design, and optimization — not just the idea of referrals but the actual system."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —d—e—s—i—g—n—,— —l—a—u—n—c—h—,— —o—r— —o—p—t—i—m—i—z—e— —a— —r—e—f—e—r—r—a—l— —o—r— —a—f—f—i—l—i—a—t—e— —p—r—o—g—r—a—m—.— —U—s—e— —w—h—e—n— —t—h—e—y— —m—e—n—t—i—o—n— —'—r—e—f—e—r—r—a—l— —p—r—o—g—r—a—m—,—'— —'—a—f—f—i—l—i—a—t—e— —p—r—o—g—r—a—m—,—'— —'—w—o—r—d— —o—f— —m—o—u—t—h—,—'— —'—r—e—f—e—r— —a— —f—r—i—e—n—d—,—'— —'—i—n—c—e—n—t—i—v—e— —p—r—o—g—r—a—m—,—'— —'—c—u—s—t—o—m—e—r— —r—e—f—e—r—r—a—l—s—,—'— —'—b—r—a—n—d— —a—m—b—a—s—s—a—d—o—r—,—'— —'—p—a—r—t—n—e—r— —p—r—o—g—r—a—m—,—'— —'—r—e—f—e—r—r—a—l— —l—i—n—k—,—'— —o—r— —'—g—r—o—w—t—h— —t—h—r—o—u—g—h— —r—e—f—e—r—r—a—l—s—.—'— —C—o—v—e—r—s— —p—r—o—g—r—a—m— —m—e—c—h—a—n—i—c—s—,— —i—n—c—e—n—t—i—v—e— —d—e—s—i—g—n—,— —a—n—d— —o—p—t—i—m—i—z—a—t—i—o—n— ——— —n—o—t— —j—u—s—t— —t—h—e— —i—d—e—a— —o—f— —r—e—f—e—r—r—a—l—s— —b—u—t— —t—h—e— —a—c—t—u—a—l— —s—y—s—t—e—m.
 license: MIT
 metadata:
   version: 1.0.0

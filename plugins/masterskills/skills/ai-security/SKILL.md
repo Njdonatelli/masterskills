@@ -1,6 +1,7 @@
 ---
 name: "ai-security"
-description: "Use when assessing AI/ML systems for prompt injection, jailbreak vulnerabilities, model inversion risk, data poisoning exposure, or agent tool abuse. Covers MITRE ATLAS technique mapping, injection signature detection, and adversarial robustness scoring."
+description: >-
+  U—s—e— —w—h—e—n— —a—s—s—e—s—s—i—n—g— —A—I—/—M—L— —s—y—s—t—e—m—s— —f—o—r— —p—r—o—m—p—t— —i—n—j—e—c—t—i—o—n—,— —j—a—i—l—b—r—e—a—k— —v—u—l—n—e—r—a—b—i—l—i—t—i—e—s—,— —m—o—d—e—l— —i—n—v—e—r—s—i—o—n— —r—i—s—k—,— —d—a—t—a— —p—o—i—s—o—n—i—n—g— —e—x—p—o—s—u—r—e—,— —o—r— —a—g—e—n—t— —t—o—o—l— —a—b—u—s—e—.— —C—o—v—e—r—s— —M—I—T—R—E— —A—T—L—A—S— —t—e—c—h—n—i—q—u—e— —m—a—p—p—i—n—g—,— —i—n—j—e—c—t—i—o—n— —s—i—g—n—a—t—u—r—e— —d—e—t—e—c—t—i—o—n—,— —a—n—d— —a—d—v—e—r—s—a—r—i—a—l— —r—o—b—u—s—t—n—e—s—s— —s—c—o—r—i—n—g.
 ---
 
 # AI Security

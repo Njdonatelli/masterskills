@@ -1,6 +1,7 @@
 ---
 name: "tech-stack-evaluator"
-description: Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.
+description: >-
+  T—e—c—h—n—o—l—o—g—y— —s—t—a—c—k— —e—v—a—l—u—a—t—i—o—n— —a—n—d— —c—o—m—p—a—r—i—s—o—n— —w—i—t—h— —T—C—O— —a—n—a—l—y—s—i—s—,— —s—e—c—u—r—i—t—y— —a—s—s—e—s—s—m—e—n—t—,— —a—n—d— —e—c—o—s—y—s—t—e—m— —h—e—a—l—t—h— —s—c—o—r—i—n—g—.— —U—s—e— —w—h—e—n— —c—o—m—p—a—r—i—n—g— —f—r—a—m—e—w—o—r—k—s—,— —e—v—a—l—u—a—t—i—n—g— —t—e—c—h—n—o—l—o—g—y— —s—t—a—c—k—s—,— —c—a—l—c—u—l—a—t—i—n—g— —t—o—t—a—l— —c—o—s—t— —o—f— —o—w—n—e—r—s—h—i—p—,— —a—s—s—e—s—s—i—n—g— —m—i—g—r—a—t—i—o—n— —p—a—t—h—s—,— —o—r— —a—n—a—l—y—z—i—n—g— —e—c—o—s—y—s—t—e—m— —v—i—a—b—i—l—i—t—y.
 ---
 
 # Technology Stack Evaluator

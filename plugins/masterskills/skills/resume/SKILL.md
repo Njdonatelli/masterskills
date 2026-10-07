@@ -1,6 +1,7 @@
 ---
 name: "resume"
-description: "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating. Use when the user runs /ar:resume or asks to pick up a previously started autoresearch experiment."
+description: >-
+  R—e—s—u—m—e— —a— —p—a—u—s—e—d— —e—x—p—e—r—i—m—e—n—t—.— —C—h—e—c—k—o—u—t— —t—h—e— —e—x—p—e—r—i—m—e—n—t— —b—r—a—n—c—h—,— —r—e—a—d— —r—e—s—u—l—t—s— —h—i—s—t—o—r—y—,— —c—o—n—t—i—n—u—e— —i—t—e—r—a—t—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—a—r—:—r—e—s—u—m—e— —o—r— —a—s—k—s— —t—o— —p—i—c—k— —u—p— —a— —p—r—e—v—i—o—u—s—l—y— —s—t—a—r—t—e—d— —a—u—t—o—r—e—s—e—a—r—c—h— —e—x—p—e—r—i—m—e—n—t.
 command: /ar:resume
 ---
 

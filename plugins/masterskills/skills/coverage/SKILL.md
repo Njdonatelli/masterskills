@@ -1,9 +1,7 @@
 ---
 name: "coverage"
 description: >-
-  Analyze test coverage gaps. Use when user says "test coverage",
-  "what's not tested", "coverage gaps", "missing tests", "coverage report",
-  or "what needs testing".
+  A—n—a—l—y—z—e— —t—e—s—t— —c—o—v—e—r—a—g—e— —g—a—p—s—.— —U—s—e— —w—h—e—n— —u—s—e—r— —s—a—y—s— —"—t—e—s—t— —c—o—v—e—r—a—g—e—"—,— —"—w—h—a—t—'—s— —n—o—t— —t—e—s—t—e—d—"—,— —"—c—o—v—e—r—a—g—e— —g—a—p—s—"—,— —"—m—i—s—s—i—n—g— —t—e—s—t—s—"—,— —"—c—o—v—e—r—a—g—e— —r—e—p—o—r—t—"—,— —o—r— —"—w—h—a—t— —n—e—e—d—s— —t—e—s—t—i—n—g—".
 ---
 
 # Analyze Test Coverage Gaps

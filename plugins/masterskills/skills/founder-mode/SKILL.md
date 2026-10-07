@@ -1,6 +1,7 @@
 ---
 name: "founder-mode"
-description: "/cs:founder-mode <question> — Auto-routes any founder question to the right C-role advisor or to /cs:boardroom for multi-role topics. The single-command entry point. Use when a founder asks any strategic question without knowing which advisor or command fits — e.g. 'runway pressure' routes to the CFO, 'gross retention dropped' routes to the CCO."
+description: >-
+  /—c—s—:—f—o—u—n—d—e—r—-—m—o—d—e— —<—q—u—e—s—t—i—o—n—>— ——— —A—u—t—o—-—r—o—u—t—e—s— —a—n—y— —f—o—u—n—d—e—r— —q—u—e—s—t—i—o—n— —t—o— —t—h—e— —r—i—g—h—t— —C—-—r—o—l—e— —a—d—v—i—s—o—r— —o—r— —t—o— —/—c—s—:—b—o—a—r—d—r—o—o—m— —f—o—r— —m—u—l—t—i—-—r—o—l—e— —t—o—p—i—c—s—.— —T—h—e— —s—i—n—g—l—e—-—c—o—m—m—a—n—d— —e—n—t—r—y— —p—o—i—n—t—.— —U—s—e— —w—h—e—n— —a— —f—o—u—n—d—e—r— —a—s—k—s— —a—n—y— —s—t—r—a—t—e—g—i—c— —q—u—e—s—t—i—o—n— —w—i—t—h—o—u—t— —k—n—o—w—i—n—g— —w—h—i—c—h— —a—d—v—i—s—o—r— —o—r— —c—o—m—m—a—n—d— —f—i—t—s— ——— —e—.—g—.— —'—r—u—n—w—a—y— —p—r—e—s—s—u—r—e—'— —r—o—u—t—e—s— —t—o— —t—h—e— —C—F—O—,— —'—g—r—o—s—s— —r—e—t—e—n—t—i—o—n— —d—r—o—p—p—e—d—'— —r—o—u—t—e—s— —t—o— —t—h—e— —C—C—O.
 ---
 
 # /cs:founder-mode — The Auto-Router

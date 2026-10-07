@@ -1,6 +1,7 @@
 ---
 name: "cto-review"
-description: "/cs:cto-review <plan> — Architecture and scaling interrogation. Tech debt, scaling cliffs, team scaling, build-vs-buy. Use when committing to an architecture, planning for 10x load, or weighing a rebuild against a vendor."
+description: >-
+  /—c—s—:—c—t—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —A—r—c—h—i—t—e—c—t—u—r—e— —a—n—d— —s—c—a—l—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n—.— —T—e—c—h— —d—e—b—t—,— —s—c—a—l—i—n—g— —c—l—i—f—f—s—,— —t—e—a—m— —s—c—a—l—i—n—g—,— —b—u—i—l—d—-—v—s—-—b—u—y—.— —U—s—e— —w—h—e—n— —c—o—m—m—i—t—t—i—n—g— —t—o— —a—n— —a—r—c—h—i—t—e—c—t—u—r—e—,— —p—l—a—n—n—i—n—g— —f—o—r— —1—0—x— —l—o—a—d—,— —o—r— —w—e—i—g—h—i—n—g— —a— —r—e—b—u—i—l—d— —a—g—a—i—n—s—t— —a— —v—e—n—d—o—r.
 ---
 
 # /cs:cto-review — CTO Forcing Questions

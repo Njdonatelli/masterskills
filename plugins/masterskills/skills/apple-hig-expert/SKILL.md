@@ -1,6 +1,7 @@
 ---
 name: apple-hig-expert
-description: "Audits and designs iOS/macOS/watchOS/visionOS interfaces against the Apple Human Interface Guidelines, including the Liquid Glass design language (announced WWDC25, shipped with iOS 26/macOS Tahoe, Sept 2025). Use when reviewing an Apple-platform mockup or app for HIG compliance, checking contrast or tap-target sizes, or designing native-feeling Apple UI (e.g., 'audit my iOS app against the HIG', 'is this text readable on Liquid Glass?')."
+description: >-
+  A—u—d—i—t—s— —a—n—d— —d—e—s—i—g—n—s— —i—O—S—/—m—a—c—O—S—/—w—a—t—c—h—O—S—/—v—i—s—i—o—n—O—S— —i—n—t—e—r—f—a—c—e—s— —a—g—a—i—n—s—t— —t—h—e— —A—p—p—l—e— —H—u—m—a—n— —I—n—t—e—r—f—a—c—e— —G—u—i—d—e—l—i—n—e—s—,— —i—n—c—l—u—d—i—n—g— —t—h—e— —L—i—q—u—i—d— —G—l—a—s—s— —d—e—s—i—g—n— —l—a—n—g—u—a—g—e— —(—a—n—n—o—u—n—c—e—d— —W—W—D—C—2—5—,— —s—h—i—p—p—e—d— —w—i—t—h— —i—O—S— —2—6—/—m—a—c—O—S— —T—a—h—o—e—,— —S—e—p—t— —2—0—2—5—)—.— —U—s—e— —w—h—e—n— —r—e—v—i—e—w—i—n—g— —a—n— —A—p—p—l—e—-—p—l—a—t—f—o—r—m— —m—o—c—k—u—p— —o—r— —a—p—p— —f—o—r— —H—I—G— —c—o—m—p—l—i—a—n—c—e—,— —c—h—e—c—k—i—n—g— —c—o—n—t—r—a—s—t— —o—r— —t—a—p—-—t—a—r—g—e—t— —s—i—z—e—s—,— —o—r— —d—e—s—i—g—n—i—n—g— —n—a—t—i—v—e—-—f—e—e—l—i—n—g— —A—p—p—l—e— —U—I— —(—e—.—g—.—,— —'—a—u—d—i—t— —m—y— —i—O—S— —a—p—p— —a—g—a—i—n—s—t— —t—h—e— —H—I—G—'—,— —'—i—s— —t—h—i—s— —t—e—x—t— —r—e—a—d—a—b—l—e— —o—n— —L—i—q—u—i—d— —G—l—a—s—s—?—'—).
 license: MIT
 metadata:
   version: 1.1.0

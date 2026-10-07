@@ -1,6 +1,7 @@
 ---
 name: "email-template-builder"
-description: "Build complete transactional email systems: React Email templates, provider integration (Resend, Postmark, SendGrid, AWS SES), preview server, i18n support, dark mode, spam optimization, analytics tracking. Use when adding transactional email to a new product, migrating between email providers, refactoring legacy email templates for accessibility, or adding internationalization to existing templates."
+description: >-
+  B—u—i—l—d— —c—o—m—p—l—e—t—e— —t—r—a—n—s—a—c—t—i—o—n—a—l— —e—m—a—i—l— —s—y—s—t—e—m—s—:— —R—e—a—c—t— —E—m—a—i—l— —t—e—m—p—l—a—t—e—s—,— —p—r—o—v—i—d—e—r— —i—n—t—e—g—r—a—t—i—o—n— —(—R—e—s—e—n—d—,— —P—o—s—t—m—a—r—k—,— —S—e—n—d—G—r—i—d—,— —A—W—S— —S—E—S—)—,— —p—r—e—v—i—e—w— —s—e—r—v—e—r—,— —i—1—8—n— —s—u—p—p—o—r—t—,— —d—a—r—k— —m—o—d—e—,— —s—p—a—m— —o—p—t—i—m—i—z—a—t—i—o—n—,— —a—n—a—l—y—t—i—c—s— —t—r—a—c—k—i—n—g—.— —U—s—e— —w—h—e—n— —a—d—d—i—n—g— —t—r—a—n—s—a—c—t—i—o—n—a—l— —e—m—a—i—l— —t—o— —a— —n—e—w— —p—r—o—d—u—c—t—,— —m—i—g—r—a—t—i—n—g— —b—e—t—w—e—e—n— —e—m—a—i—l— —p—r—o—v—i—d—e—r—s—,— —r—e—f—a—c—t—o—r—i—n—g— —l—e—g—a—c—y— —e—m—a—i—l— —t—e—m—p—l—a—t—e—s— —f—o—r— —a—c—c—e—s—s—i—b—i—l—i—t—y—,— —o—r— —a—d—d—i—n—g— —i—n—t—e—r—n—a—t—i—o—n—a—l—i—z—a—t—i—o—n— —t—o— —e—x—i—s—t—i—n—g— —t—e—m—p—l—a—t—e—s.
 ---
 
 # Email Template Builder

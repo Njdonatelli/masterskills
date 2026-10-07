@@ -1,6 +1,7 @@
 ---
 name: "churn-prevention"
-description: "Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, save offers, dunning, exit survey, payment recovery, win-back, involuntary churn, failed payments, cancel page. NOT for customer health scoring or expansion revenue — use customer-success-manager for that."
+description: >-
+  R—e—d—u—c—e— —v—o—l—u—n—t—a—r—y— —a—n—d— —i—n—v—o—l—u—n—t—a—r—y— —c—h—u—r—n— —t—h—r—o—u—g—h— —c—a—n—c—e—l— —f—l—o—w— —d—e—s—i—g—n—,— —s—a—v—e— —o—f—f—e—r—s—,— —e—x—i—t— —s—u—r—v—e—y—s—,— —a—n—d— —d—u—n—n—i—n—g— —s—e—q—u—e—n—c—e—s—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —o—r— —o—p—t—i—m—i—z—i—n—g— —a— —c—a—n—c—e—l— —f—l—o—w—,— —b—u—i—l—d—i—n—g— —s—a—v—e— —o—f—f—e—r—s—,— —s—e—t—t—i—n—g— —u—p— —d—u—n—n—i—n—g— —e—m—a—i—l—s—,— —o—r— —r—e—d—u—c—i—n—g— —f—a—i—l—e—d—-—p—a—y—m—e—n—t— —c—h—u—r—n—.— —T—r—i—g—g—e—r— —k—e—y—w—o—r—d—s—:— —c—a—n—c—e—l— —f—l—o—w—,— —c—h—u—r—n— —r—e—d—u—c—t—i—o—n—,— —s—a—v—e— —o—f—f—e—r—s—,— —d—u—n—n—i—n—g—,— —e—x—i—t— —s—u—r—v—e—y—,— —p—a—y—m—e—n—t— —r—e—c—o—v—e—r—y—,— —w—i—n—-—b—a—c—k—,— —i—n—v—o—l—u—n—t—a—r—y— —c—h—u—r—n—,— —f—a—i—l—e—d— —p—a—y—m—e—n—t—s—,— —c—a—n—c—e—l— —p—a—g—e—.— —N—O—T— —f—o—r— —c—u—s—t—o—m—e—r— —h—e—a—l—t—h— —s—c—o—r—i—n—g— —o—r— —e—x—p—a—n—s—i—o—n— —r—e—v—e—n—u—e— ——— —u—s—e— —c—u—s—t—o—m—e—r—-—s—u—c—c—e—s—s—-—m—a—n—a—g—e—r— —f—o—r— —t—h—a—t.
 license: MIT
 metadata:
   version: 1.0.0

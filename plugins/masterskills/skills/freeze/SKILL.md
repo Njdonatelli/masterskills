@@ -1,6 +1,7 @@
 ---
 name: "freeze"
-description: "/cs:freeze <decision> <days> — Lock a strategic decision for a cooldown period to prevent impulse reversal. Mirrors gstack's safety primitives for the business layer. Use when an irreversible decision was made under pressure — e.g. a layoff plan or multi-year contract — and deserves a cooling-off lock before execution."
+description: >-
+  /—c—s—:—f—r—e—e—z—e— —<—d—e—c—i—s—i—o—n—>— —<—d—a—y—s—>— ——— —L—o—c—k— —a— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n— —f—o—r— —a— —c—o—o—l—d—o—w—n— —p—e—r—i—o—d— —t—o— —p—r—e—v—e—n—t— —i—m—p—u—l—s—e— —r—e—v—e—r—s—a—l—.— —M—i—r—r—o—r—s— —g—s—t—a—c—k—'—s— —s—a—f—e—t—y— —p—r—i—m—i—t—i—v—e—s— —f—o—r— —t—h—e— —b—u—s—i—n—e—s—s— —l—a—y—e—r—.— —U—s—e— —w—h—e—n— —a—n— —i—r—r—e—v—e—r—s—i—b—l—e— —d—e—c—i—s—i—o—n— —w—a—s— —m—a—d—e— —u—n—d—e—r— —p—r—e—s—s—u—r—e— ——— —e—.—g—.— —a— —l—a—y—o—f—f— —p—l—a—n— —o—r— —m—u—l—t—i—-—y—e—a—r— —c—o—n—t—r—a—c—t— ——— —a—n—d— —d—e—s—e—r—v—e—s— —a— —c—o—o—l—i—n—g—-—o—f—f— —l—o—c—k— —b—e—f—o—r—e— —e—x—e—c—u—t—i—o—n.
 ---
 
 # /cs:freeze — Cooldown Lock on a Decision

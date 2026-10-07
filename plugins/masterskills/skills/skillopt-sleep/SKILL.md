@@ -1,6 +1,7 @@
 ---
 name: skillopt-sleep
-description: "Use when the user wants their Claude agent to self-improve from past usage, asks about a nightly/offline 'sleep' or 'dream' cycle, memory/skill consolidation, or says things like 'make my agent better the more I use it', 'review my past sessions', 'learn my preferences', 'consolidate what you learned', 'run the sleep cycle', or wants to schedule offline self-optimization. Drives the skillopt_sleep engine: harvest past sessions -> mine recurring tasks -> replay offline -> consolidate validated CLAUDE.md and SKILL.md behind a held-out gate."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—h—e—i—r— —C—l—a—u—d—e— —a—g—e—n—t— —t—o— —s—e—l—f—-—i—m—p—r—o—v—e— —f—r—o—m— —p—a—s—t— —u—s—a—g—e—,— —a—s—k—s— —a—b—o—u—t— —a— —n—i—g—h—t—l—y—/—o—f—f—l—i—n—e— —'—s—l—e—e—p—'— —o—r— —'—d—r—e—a—m—'— —c—y—c—l—e—,— —m—e—m—o—r—y—/—s—k—i—l—l— —c—o—n—s—o—l—i—d—a—t—i—o—n—,— —o—r— —s—a—y—s— —t—h—i—n—g—s— —l—i—k—e— —'—m—a—k—e— —m—y— —a—g—e—n—t— —b—e—t—t—e—r— —t—h—e— —m—o—r—e— —I— —u—s—e— —i—t—'—,— —'—r—e—v—i—e—w— —m—y— —p—a—s—t— —s—e—s—s—i—o—n—s—'—,— —'—l—e—a—r—n— —m—y— —p—r—e—f—e—r—e—n—c—e—s—'—,— —'—c—o—n—s—o—l—i—d—a—t—e— —w—h—a—t— —y—o—u— —l—e—a—r—n—e—d—'—,— —'—r—u—n— —t—h—e— —s—l—e—e—p— —c—y—c—l—e—'—,— —o—r— —w—a—n—t—s— —t—o— —s—c—h—e—d—u—l—e— —o—f—f—l—i—n—e— —s—e—l—f—-—o—p—t—i—m—i—z—a—t—i—o—n—.— —D—r—i—v—e—s— —t—h—e— —s—k—i—l—l—o—p—t—_—s—l—e—e—p— —e—n—g—i—n—e—:— —h—a—r—v—e—s—t— —p—a—s—t— —s—e—s—s—i—o—n—s— —-—>— —m—i—n—e— —r—e—c—u—r—r—i—n—g— —t—a—s—k—s— —-—>— —r—e—p—l—a—y— —o—f—f—l—i—n—e— —-—>— —c—o—n—s—o—l—i—d—a—t—e— —v—a—l—i—d—a—t—e—d— —C—L—A—U—D—E—.—m—d— —a—n—d— —S—K—I—L—L—.—m—d— —b—e—h—i—n—d— —a— —h—e—l—d—-—o—u—t— —g—a—t—e.
 ---
 
 # SkillOpt-Sleep: offline self-evolution for a local Claude agent

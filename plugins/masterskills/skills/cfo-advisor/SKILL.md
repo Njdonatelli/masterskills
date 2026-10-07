@@ -1,6 +1,7 @@
 ---
 name: "cfo-advisor"
-description: "Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or when user mentions CFO, burn rate, runway, fundraising, unit economics, LTV, CAC, term sheets, or financial strategy."
+description: >-
+  F—i—n—a—n—c—i—a—l— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—t—a—r—t—u—p—s— —a—n—d— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —F—i—n—a—n—c—i—a—l— —m—o—d—e—l—i—n—g—,— —u—n—i—t— —e—c—o—n—o—m—i—c—s—,— —f—u—n—d—r—a—i—s—i—n—g— —s—t—r—a—t—e—g—y—,— —c—a—s—h— —m—a—n—a—g—e—m—e—n—t—,— —a—n—d— —b—o—a—r—d— —f—i—n—a—n—c—i—a—l— —p—a—c—k—a—g—e—s—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —f—i—n—a—n—c—i—a—l— —m—o—d—e—l—s—,— —a—n—a—l—y—z—i—n—g— —u—n—i—t— —e—c—o—n—o—m—i—c—s—,— —p—l—a—n—n—i—n—g— —f—u—n—d—r—a—i—s—i—n—g—,— —m—a—n—a—g—i—n—g— —c—a—s—h— —r—u—n—w—a—y—,— —p—r—e—p—a—r—i—n—g— —b—o—a—r—d— —m—a—t—e—r—i—a—l—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—F—O—,— —b—u—r—n— —r—a—t—e—,— —r—u—n—w—a—y—,— —f—u—n—d—r—a—i—s—i—n—g—,— —u—n—i—t— —e—c—o—n—o—m—i—c—s—,— —L—T—V—,— —C—A—C—,— —t—e—r—m— —s—h—e—e—t—s—,— —o—r— —f—i—n—a—n—c—i—a—l— —s—t—r—a—t—e—g—y.
 license: MIT
 metadata:
   version: 1.0.0

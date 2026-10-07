@@ -1,6 +1,7 @@
 ---
 name: "office-hours"
-description: "/cs:office-hours <topic> — YC-style 6-question founder interrogation before any advice. Forces clarity on problem, customer, distribution, defensibility, capital, and founder fit. Use when a founder question is too vague to route — e.g. 'should we grow faster?' — or before drafting a strategy brief."
+description: >-
+  /—c—s—:—o—f—f—i—c—e—-—h—o—u—r—s— —<—t—o—p—i—c—>— ——— —Y—C—-—s—t—y—l—e— —6—-—q—u—e—s—t—i—o—n— —f—o—u—n—d—e—r— —i—n—t—e—r—r—o—g—a—t—i—o—n— —b—e—f—o—r—e— —a—n—y— —a—d—v—i—c—e—.— —F—o—r—c—e—s— —c—l—a—r—i—t—y— —o—n— —p—r—o—b—l—e—m—,— —c—u—s—t—o—m—e—r—,— —d—i—s—t—r—i—b—u—t—i—o—n—,— —d—e—f—e—n—s—i—b—i—l—i—t—y—,— —c—a—p—i—t—a—l—,— —a—n—d— —f—o—u—n—d—e—r— —f—i—t—.— —U—s—e— —w—h—e—n— —a— —f—o—u—n—d—e—r— —q—u—e—s—t—i—o—n— —i—s— —t—o—o— —v—a—g—u—e— —t—o— —r—o—u—t—e— ——— —e—.—g—.— —'—s—h—o—u—l—d— —w—e— —g—r—o—w— —f—a—s—t—e—r—?—'— ——— —o—r— —b—e—f—o—r—e— —d—r—a—f—t—i—n—g— —a— —s—t—r—a—t—e—g—y— —b—r—i—e—f.
 ---
 
 # /cs:office-hours — Six-Question Founder Interrogation

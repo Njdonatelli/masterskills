@@ -1,6 +1,7 @@
 ---
 name: "cmo-advisor"
-description: "Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or when user mentions CMO, brand strategy, growth model, CAC, LTV, channel mix, or marketing ROI."
+description: >-
+  M—a—r—k—e—t—i—n—g— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —B—r—a—n—d— —p—o—s—i—t—i—o—n—i—n—g—,— —g—r—o—w—t—h— —m—o—d—e—l— —d—e—s—i—g—n—,— —m—a—r—k—e—t—i—n—g— —b—u—d—g—e—t— —a—l—l—o—c—a—t—i—o—n—,— —a—n—d— —m—a—r—k—e—t—i—n—g— —o—r—g— —d—e—s—i—g—n—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —b—r—a—n—d— —s—t—r—a—t—e—g—y—,— —s—e—l—e—c—t—i—n—g— —g—r—o—w—t—h— —m—o—d—e—l—s— —(—P—L—G— —v—s— —s—a—l—e—s—-—l—e—d— —v—s— —c—o—m—m—u—n—i—t—y—-—l—e—d—)—,— —a—l—l—o—c—a—t—i—n—g— —m—a—r—k—e—t—i—n—g— —b—u—d—g—e—t—s—,— —b—u—i—l—d—i—n—g— —m—a—r—k—e—t—i—n—g— —t—e—a—m—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—M—O—,— —b—r—a—n—d— —s—t—r—a—t—e—g—y—,— —g—r—o—w—t—h— —m—o—d—e—l—,— —C—A—C—,— —L—T—V—,— —c—h—a—n—n—e—l— —m—i—x—,— —o—r— —m—a—r—k—e—t—i—n—g— —R—O—I.
 license: MIT
 metadata:
   version: 1.0.0

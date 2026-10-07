@@ -1,10 +1,7 @@
 ---
 name: caveman
-description: >
-  Ultra-compressed communication mode. Cuts token usage ~75% by dropping
-  filler, articles, and pleasantries while keeping full technical accuracy.
-  Use when user says "caveman mode", "talk like caveman", "use caveman",
-  "less tokens", "be brief", or invokes /caveman.
+description: >-
+  U—l—t—r—a—-—c—o—m—p—r—e—s—s—e—d— —c—o—m—m—u—n—i—c—a—t—i—o—n— —m—o—d—e—.— —C—u—t—s— —t—o—k—e—n— —u—s—a—g—e— —~—7—5—%— —b—y— —d—r—o—p—p—i—n—g— —f—i—l—l—e—r—,— —a—r—t—i—c—l—e—s—,— —a—n—d— —p—l—e—a—s—a—n—t—r—i—e—s— —w—h—i—l—e— —k—e—e—p—i—n—g— —f—u—l—l— —t—e—c—h—n—i—c—a—l— —a—c—c—u—r—a—c—y—.— —U—s—e— —w—h—e—n— —u—s—e—r— —s—a—y—s— —"—c—a—v—e—m—a—n— —m—o—d—e—"—,— —"—t—a—l—k— —l—i—k—e— —c—a—v—e—m—a—n—"—,— —"—u—s—e— —c—a—v—e—m—a—n—"—,— —"—l—e—s—s— —t—o—k—e—n—s—"—,— —"—b—e— —b—r—i—e—f—"—,— —o—r— —i—n—v—o—k—e—s— —/—c—a—v—e—m—a—n.
 license: MIT
 metadata:
   derived_from: "https://github.com/mattpocock/skills/tree/main/skills/productivity/caveman"

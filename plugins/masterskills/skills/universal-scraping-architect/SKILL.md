@@ -1,6 +1,7 @@
 ---
 name: "universal-scraping-architect"
-description: "Use for web scraping, crawling, document extraction, API parsing, or building validation-heavy data pipelines using Firecrawl or local Python scripts."
+description: >-
+  U—s—e— —f—o—r— —w—e—b— —s—c—r—a—p—i—n—g—,— —c—r—a—w—l—i—n—g—,— —d—o—c—u—m—e—n—t— —e—x—t—r—a—c—t—i—o—n—,— —A—P—I— —p—a—r—s—i—n—g—,— —o—r— —b—u—i—l—d—i—n—g— —v—a—l—i—d—a—t—i—o—n—-—h—e—a—v—y— —d—a—t—a— —p—i—p—e—l—i—n—e—s— —u—s—i—n—g— —F—i—r—e—c—r—a—w—l— —o—r— —l—o—c—a—l— —P—y—t—h—o—n— —s—c—r—i—p—t—s.
 ---
 
 # Universal Scraping Architect

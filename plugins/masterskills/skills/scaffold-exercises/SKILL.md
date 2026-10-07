@@ -1,6 +1,7 @@
 ---
 name: scaffold-exercises
-description: Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.
+description: >-
+  C—r—e—a—t—e— —e—x—e—r—c—i—s—e— —d—i—r—e—c—t—o—r—y— —s—t—r—u—c—t—u—r—e—s— —w—i—t—h— —s—e—c—t—i—o—n—s—,— —p—r—o—b—l—e—m—s—,— —s—o—l—u—t—i—o—n—s—,— —a—n—d— —e—x—p—l—a—i—n—e—r—s— —t—h—a—t— —p—a—s—s— —l—i—n—t—i—n—g—.— —U—s—e— —w—h—e—n— —u—s—e—r— —w—a—n—t—s— —t—o— —s—c—a—f—f—o—l—d— —e—x—e—r—c—i—s—e—s—,— —c—r—e—a—t—e— —e—x—e—r—c—i—s—e— —s—t—u—b—s—,— —o—r— —s—e—t— —u—p— —a— —n—e—w— —c—o—u—r—s—e— —s—e—c—t—i—o—n.
 ---
 
 # Scaffold Exercises

@@ -1,6 +1,7 @@
 ---
 name: "ms365-tenant-manager"
-description: Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, license management, and compliance reporting. Use for M365 tenant manager, Office 365 admin, Azure AD users, Global Administrator, tenant configuration, or Microsoft 365 automation.
+description: >-
+  M—i—c—r—o—s—o—f—t— —3—6—5— —t—e—n—a—n—t— —a—d—m—i—n—i—s—t—r—a—t—i—o—n— —f—o—r— —G—l—o—b—a—l— —A—d—m—i—n—i—s—t—r—a—t—o—r—s—.— —A—u—t—o—m—a—t—e— —M—3—6—5— —t—e—n—a—n—t— —s—e—t—u—p—,— —O—f—f—i—c—e— —3—6—5— —a—d—m—i—n— —t—a—s—k—s—,— —A—z—u—r—e— —A—D— —u—s—e—r— —m—a—n—a—g—e—m—e—n—t—,— —E—x—c—h—a—n—g—e— —O—n—l—i—n—e— —c—o—n—f—i—g—u—r—a—t—i—o—n—,— —T—e—a—m—s— —a—d—m—i—n—i—s—t—r—a—t—i—o—n—,— —a—n—d— —s—e—c—u—r—i—t—y— —p—o—l—i—c—i—e—s—.— —G—e—n—e—r—a—t—e— —P—o—w—e—r—S—h—e—l—l— —s—c—r—i—p—t—s— —f—o—r— —b—u—l—k— —o—p—e—r—a—t—i—o—n—s—,— —C—o—n—d—i—t—i—o—n—a—l— —A—c—c—e—s—s— —p—o—l—i—c—i—e—s—,— —l—i—c—e—n—s—e— —m—a—n—a—g—e—m—e—n—t—,— —a—n—d— —c—o—m—p—l—i—a—n—c—e— —r—e—p—o—r—t—i—n—g—.— —U—s—e— —f—o—r— —M—3—6—5— —t—e—n—a—n—t— —m—a—n—a—g—e—r—,— —O—f—f—i—c—e— —3—6—5— —a—d—m—i—n—,— —A—z—u—r—e— —A—D— —u—s—e—r—s—,— —G—l—o—b—a—l— —A—d—m—i—n—i—s—t—r—a—t—o—r—,— —t—e—n—a—n—t— —c—o—n—f—i—g—u—r—a—t—i—o—n—,— —o—r— —M—i—c—r—o—s—o—f—t— —3—6—5— —a—u—t—o—m—a—t—i—o—n.
 ---
 
 # Microsoft 365 Tenant Manager

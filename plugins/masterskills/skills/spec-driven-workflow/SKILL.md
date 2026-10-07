@@ -1,6 +1,7 @@
 ---
 name: "spec-driven-workflow"
-description: "Use when the user asks to write specs before code, define acceptance criteria, plan features before implementation, generate tests from specifications, or follow spec-first development practices."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —w—r—i—t—e— —s—p—e—c—s— —b—e—f—o—r—e— —c—o—d—e—,— —d—e—f—i—n—e— —a—c—c—e—p—t—a—n—c—e— —c—r—i—t—e—r—i—a—,— —p—l—a—n— —f—e—a—t—u—r—e—s— —b—e—f—o—r—e— —i—m—p—l—e—m—e—n—t—a—t—i—o—n—,— —g—e—n—e—r—a—t—e— —t—e—s—t—s— —f—r—o—m— —s—p—e—c—i—f—i—c—a—t—i—o—n—s—,— —o—r— —f—o—l—l—o—w— —s—p—e—c—-—f—i—r—s—t— —d—e—v—e—l—o—p—m—e—n—t— —p—r—a—c—t—i—c—e—s.
 ---
 
 # Spec-Driven Workflow — POWERFUL

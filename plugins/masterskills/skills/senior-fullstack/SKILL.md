@@ -1,6 +1,7 @@
 ---
 name: "senior-fullstack"
-description: Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to "scaffold a new project", "create a Next.js app", "set up FastAPI with React", "analyze code quality", "audit my codebase", "what stack should I use", "generate project boilerplate", or mentions fullstack development, project setup, or tech stack comparison.
+description: >-
+  F—u—l—l—s—t—a—c—k— —d—e—v—e—l—o—p—m—e—n—t— —t—o—o—l—k—i—t— —w—i—t—h— —p—r—o—j—e—c—t— —s—c—a—f—f—o—l—d—i—n—g— —f—o—r— —N—e—x—t—.—j—s—,— —F—a—s—t—A—P—I—,— —M—E—R—N—,— —a—n—d— —D—j—a—n—g—o— —s—t—a—c—k—s—,— —c—o—d—e— —q—u—a—l—i—t—y— —a—n—a—l—y—s—i—s— —w—i—t—h— —s—e—c—u—r—i—t—y— —a—n—d— —c—o—m—p—l—e—x—i—t—y— —s—c—o—r—i—n—g—,— —a—n—d— —s—t—a—c—k— —s—e—l—e—c—t—i—o—n— —g—u—i—d—a—n—c—e—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —"—s—c—a—f—f—o—l—d— —a— —n—e—w— —p—r—o—j—e—c—t—"—,— —"—c—r—e—a—t—e— —a— —N—e—x—t—.—j—s— —a—p—p—"—,— —"—s—e—t— —u—p— —F—a—s—t—A—P—I— —w—i—t—h— —R—e—a—c—t—"—,— —"—a—n—a—l—y—z—e— —c—o—d—e— —q—u—a—l—i—t—y—"—,— —"—a—u—d—i—t— —m—y— —c—o—d—e—b—a—s—e—"—,— —"—w—h—a—t— —s—t—a—c—k— —s—h—o—u—l—d— —I— —u—s—e—"—,— —"—g—e—n—e—r—a—t—e— —p—r—o—j—e—c—t— —b—o—i—l—e—r—p—l—a—t—e—"—,— —o—r— —m—e—n—t—i—o—n—s— —f—u—l—l—s—t—a—c—k— —d—e—v—e—l—o—p—m—e—n—t—,— —p—r—o—j—e—c—t— —s—e—t—u—p—,— —o—r— —t—e—c—h— —s—t—a—c—k— —c—o—m—p—a—r—i—s—o—n.
 ---
 
 # Senior Fullstack

@@ -1,6 +1,7 @@
 ---
 name: "brand-guidelines"
-description: "When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,' 'brand colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of voice,' 'brand standards,' 'style guide,' 'brand consistency,' or 'company design standards.' Covers color systems, typography, logo rules, imagery guidelines, and tone matrix for any brand — including Anthropic's official identity."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —a—p—p—l—y—,— —d—o—c—u—m—e—n—t—,— —o—r— —e—n—f—o—r—c—e— —b—r—a—n—d— —g—u—i—d—e—l—i—n—e—s— —f—o—r— —a—n—y— —p—r—o—d—u—c—t— —o—r— —c—o—m—p—a—n—y—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—b—r—a—n—d— —g—u—i—d—e—l—i—n—e—s—,—'— —'—b—r—a—n—d— —c—o—l—o—r—s—,—'— —'—t—y—p—o—g—r—a—p—h—y—,—'— —'—l—o—g—o— —u—s—a—g—e—,—'— —'—b—r—a—n—d— —v—o—i—c—e—,—'— —'—v—i—s—u—a—l— —i—d—e—n—t—i—t—y—,—'— —'—t—o—n—e— —o—f— —v—o—i—c—e—,—'— —'—b—r—a—n—d— —s—t—a—n—d—a—r—d—s—,—'— —'—s—t—y—l—e— —g—u—i—d—e—,—'— —'—b—r—a—n—d— —c—o—n—s—i—s—t—e—n—c—y—,—'— —o—r— —'—c—o—m—p—a—n—y— —d—e—s—i—g—n— —s—t—a—n—d—a—r—d—s—.—'— —C—o—v—e—r—s— —c—o—l—o—r— —s—y—s—t—e—m—s—,— —t—y—p—o—g—r—a—p—h—y—,— —l—o—g—o— —r—u—l—e—s—,— —i—m—a—g—e—r—y— —g—u—i—d—e—l—i—n—e—s—,— —a—n—d— —t—o—n—e— —m—a—t—r—i—x— —f—o—r— —a—n—y— —b—r—a—n—d— ——— —i—n—c—l—u—d—i—n—g— —A—n—t—h—r—o—p—i—c—'—s— —o—f—f—i—c—i—a—l— —i—d—e—n—t—i—t—y.
 license: MIT
 metadata:
   version: 1.0.0

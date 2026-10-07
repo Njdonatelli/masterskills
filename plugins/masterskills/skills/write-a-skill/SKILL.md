@@ -1,6 +1,7 @@
 ---
 name: write-a-skill
-description: Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, build, or author a new skill.
+description: >-
+  C—r—e—a—t—e— —n—e—w— —a—g—e—n—t— —s—k—i—l—l—s— —w—i—t—h— —p—r—o—p—e—r— —s—t—r—u—c—t—u—r—e—,— —p—r—o—g—r—e—s—s—i—v—e— —d—i—s—c—l—o—s—u—r—e—,— —a—n—d— —b—u—n—d—l—e—d— —r—e—s—o—u—r—c—e—s—.— —U—s—e— —w—h—e—n— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e—,— —w—r—i—t—e—,— —b—u—i—l—d—,— —o—r— —a—u—t—h—o—r— —a— —n—e—w— —s—k—i—l—l.
 license: MIT
 metadata:
   derived_from: "https://github.com/mattpocock/skills/tree/main/skills/productivity/write-a-skill"

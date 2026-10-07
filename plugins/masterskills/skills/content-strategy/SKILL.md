@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
-description: "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" or \"content planning.\" For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —p—l—a—n— —a— —c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y—,— —d—e—c—i—d—e— —w—h—a—t— —c—o—n—t—e—n—t— —t—o— —c—r—e—a—t—e—,— —o—r— —f—i—g—u—r—e— —o—u—t— —w—h—a—t— —t—o—p—i—c—s— —t—o— —c—o—v—e—r—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —\—"—c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y—,—\—"— —\—"—w—h—a—t— —s—h—o—u—l—d— —I— —w—r—i—t—e— —a—b—o—u—t—,—\—"— —\—"—c—o—n—t—e—n—t— —i—d—e—a—s—,—\—"— —\—"—b—l—o—g— —s—t—r—a—t—e—g—y—,—\—"— —\—"—t—o—p—i—c— —c—l—u—s—t—e—r—s—,—\—"— —o—r— —\—"—c—o—n—t—e—n—t— —p—l—a—n—n—i—n—g—.—\—"— —F—o—r— —w—r—i—t—i—n—g— —i—n—d—i—v—i—d—u—a—l— —p—i—e—c—e—s—,— —s—e—e— —c—o—p—y—w—r—i—t—i—n—g—.— —F—o—r— —S—E—O—-—s—p—e—c—i—f—i—c— —a—u—d—i—t—s—,— —s—e—e— —s—e—o—-—a—u—d—i—t.
 license: MIT
 metadata:
   version: 1.0.0

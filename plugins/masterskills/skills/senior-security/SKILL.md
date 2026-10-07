@@ -1,6 +1,7 @@
 ---
 name: "senior-security"
-description: Use when the user asks for STRIDE threat modeling, DREAD risk scoring, data-flow-diagram threat analysis, or a quick secret scan — or when a security request needs routing to the right specialist skill (pen-testing, incident response, cloud posture, red team, AI security, threat hunting, secure code review). This skill owns threat modeling; everything else routes to a sibling.
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —f—o—r— —S—T—R—I—D—E— —t—h—r—e—a—t— —m—o—d—e—l—i—n—g—,— —D—R—E—A—D— —r—i—s—k— —s—c—o—r—i—n—g—,— —d—a—t—a—-—f—l—o—w—-—d—i—a—g—r—a—m— —t—h—r—e—a—t— —a—n—a—l—y—s—i—s—,— —o—r— —a— —q—u—i—c—k— —s—e—c—r—e—t— —s—c—a—n— ——— —o—r— —w—h—e—n— —a— —s—e—c—u—r—i—t—y— —r—e—q—u—e—s—t— —n—e—e—d—s— —r—o—u—t—i—n—g— —t—o— —t—h—e— —r—i—g—h—t— —s—p—e—c—i—a—l—i—s—t— —s—k—i—l—l— —(—p—e—n—-—t—e—s—t—i—n—g—,— —i—n—c—i—d—e—n—t— —r—e—s—p—o—n—s—e—,— —c—l—o—u—d— —p—o—s—t—u—r—e—,— —r—e—d— —t—e—a—m—,— —A—I— —s—e—c—u—r—i—t—y—,— —t—h—r—e—a—t— —h—u—n—t—i—n—g—,— —s—e—c—u—r—e— —c—o—d—e— —r—e—v—i—e—w—)—.— —T—h—i—s— —s—k—i—l—l— —o—w—n—s— —t—h—r—e—a—t— —m—o—d—e—l—i—n—g—;— —e—v—e—r—y—t—h—i—n—g— —e—l—s—e— —r—o—u—t—e—s— —t—o— —a— —s—i—b—l—i—n—g.
 ---
 
 # Senior Security Engineer — Threat Modeling + Security Router

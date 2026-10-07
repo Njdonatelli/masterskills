@@ -1,6 +1,7 @@
 ---
 name: "google-workspace-cli"
-description: "Google Workspace administration via the gws CLI (github.com/googleworkspace/cli). Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits and use local recipe templates and persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive management, or Calendar scheduling."
+description: >-
+  G—o—o—g—l—e— —W—o—r—k—s—p—a—c—e— —a—d—m—i—n—i—s—t—r—a—t—i—o—n— —v—i—a— —t—h—e— —g—w—s— —C—L—I— —(—g—i—t—h—u—b—.—c—o—m—/—g—o—o—g—l—e—w—o—r—k—s—p—a—c—e—/—c—l—i—)—.— —I—n—s—t—a—l—l—,— —a—u—t—h—e—n—t—i—c—a—t—e—,— —a—n—d— —a—u—t—o—m—a—t—e— —G—m—a—i—l—,— —D—r—i—v—e—,— —S—h—e—e—t—s—,— —C—a—l—e—n—d—a—r—,— —D—o—c—s—,— —C—h—a—t—,— —a—n—d— —T—a—s—k—s—.— —R—u—n— —s—e—c—u—r—i—t—y— —a—u—d—i—t—s— —a—n—d— —u—s—e— —l—o—c—a—l— —r—e—c—i—p—e— —t—e—m—p—l—a—t—e—s— —a—n—d— —p—e—r—s—o—n—a— —b—u—n—d—l—e—s—.— —U—s—e— —f—o—r— —G—o—o—g—l—e— —W—o—r—k—s—p—a—c—e— —a—d—m—i—n—,— —g—w—s— —C—L—I— —s—e—t—u—p—,— —G—m—a—i—l— —a—u—t—o—m—a—t—i—o—n—,— —D—r—i—v—e— —m—a—n—a—g—e—m—e—n—t—,— —o—r— —C—a—l—e—n—d—a—r— —s—c—h—e—d—u—l—i—n—g.
 ---
 
 # Google Workspace CLI

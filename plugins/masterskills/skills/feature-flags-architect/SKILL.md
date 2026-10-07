@@ -1,6 +1,7 @@
 ---
 name: feature-flags-architect
-description: Use when adding, retiring, or auditing feature flags. Triggers on "add a flag", "ship behind a flag", "rollout plan", "kill switch", "stale flags", "flag debt", "LaunchDarkly", "GrowthBook", "Statsig", "Unleash", "Flipt", or any progressive-delivery question. Ships flag debt scanner, rollout planner, and kill-switch auditor (all stdlib Python), 4 references on flag taxonomy + provider trade-offs + rollout strategies + lifecycle, plus a /flag-cleanup slash command.
+description: >-
+  U—s—e— —w—h—e—n— —a—d—d—i—n—g—,— —r—e—t—i—r—i—n—g—,— —o—r— —a—u—d—i—t—i—n—g— —f—e—a—t—u—r—e— —f—l—a—g—s—.— —T—r—i—g—g—e—r—s— —o—n— —"—a—d—d— —a— —f—l—a—g—"—,— —"—s—h—i—p— —b—e—h—i—n—d— —a— —f—l—a—g—"—,— —"—r—o—l—l—o—u—t— —p—l—a—n—"—,— —"—k—i—l—l— —s—w—i—t—c—h—"—,— —"—s—t—a—l—e— —f—l—a—g—s—"—,— —"—f—l—a—g— —d—e—b—t—"—,— —"—L—a—u—n—c—h—D—a—r—k—l—y—"—,— —"—G—r—o—w—t—h—B—o—o—k—"—,— —"—S—t—a—t—s—i—g—"—,— —"—U—n—l—e—a—s—h—"—,— —"—F—l—i—p—t—"—,— —o—r— —a—n—y— —p—r—o—g—r—e—s—s—i—v—e—-—d—e—l—i—v—e—r—y— —q—u—e—s—t—i—o—n—.— —S—h—i—p—s— —f—l—a—g— —d—e—b—t— —s—c—a—n—n—e—r—,— —r—o—l—l—o—u—t— —p—l—a—n—n—e—r—,— —a—n—d— —k—i—l—l—-—s—w—i—t—c—h— —a—u—d—i—t—o—r— —(—a—l—l— —s—t—d—l—i—b— —P—y—t—h—o—n—)—,— —4— —r—e—f—e—r—e—n—c—e—s— —o—n— —f—l—a—g— —t—a—x—o—n—o—m—y— —+— —p—r—o—v—i—d—e—r— —t—r—a—d—e—-—o—f—f—s— —+— —r—o—l—l—o—u—t— —s—t—r—a—t—e—g—i—e—s— —+— —l—i—f—e—c—y—c—l—e—,— —p—l—u—s— —a— —/—f—l—a—g—-—c—l—e—a—n—u—p— —s—l—a—s—h— —c—o—m—m—a—n—d.
 context: fork
 version: 2.9.0
 author: claude-code-skills

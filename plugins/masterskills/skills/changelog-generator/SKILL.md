@@ -1,6 +1,7 @@
 ---
 name: "changelog-generator"
-description: "Produce consistent, auditable release notes from Conventional Commits. Separates commit parsing, semantic-bump logic, and changelog rendering for automated releases with editorial control. Use when cutting a release, generating CHANGELOG.md from git history, computing the next semantic version from commits, automating release notes in CI, or planning a hotfix/rollback. Examples: 'generate the changelog for v1.4.0', 'what version bump do these commits require', 'we need an emergency hotfix process'."
+description: >-
+  P—r—o—d—u—c—e— —c—o—n—s—i—s—t—e—n—t—,— —a—u—d—i—t—a—b—l—e— —r—e—l—e—a—s—e— —n—o—t—e—s— —f—r—o—m— —C—o—n—v—e—n—t—i—o—n—a—l— —C—o—m—m—i—t—s—.— —S—e—p—a—r—a—t—e—s— —c—o—m—m—i—t— —p—a—r—s—i—n—g—,— —s—e—m—a—n—t—i—c—-—b—u—m—p— —l—o—g—i—c—,— —a—n—d— —c—h—a—n—g—e—l—o—g— —r—e—n—d—e—r—i—n—g— —f—o—r— —a—u—t—o—m—a—t—e—d— —r—e—l—e—a—s—e—s— —w—i—t—h— —e—d—i—t—o—r—i—a—l— —c—o—n—t—r—o—l—.— —U—s—e— —w—h—e—n— —c—u—t—t—i—n—g— —a— —r—e—l—e—a—s—e—,— —g—e—n—e—r—a—t—i—n—g— —C—H—A—N—G—E—L—O—G—.—m—d— —f—r—o—m— —g—i—t— —h—i—s—t—o—r—y—,— —c—o—m—p—u—t—i—n—g— —t—h—e— —n—e—x—t— —s—e—m—a—n—t—i—c— —v—e—r—s—i—o—n— —f—r—o—m— —c—o—m—m—i—t—s—,— —a—u—t—o—m—a—t—i—n—g— —r—e—l—e—a—s—e— —n—o—t—e—s— —i—n— —C—I—,— —o—r— —p—l—a—n—n—i—n—g— —a— —h—o—t—f—i—x—/—r—o—l—l—b—a—c—k—.— —E—x—a—m—p—l—e—s—:— —'—g—e—n—e—r—a—t—e— —t—h—e— —c—h—a—n—g—e—l—o—g— —f—o—r— —v—1—.—4—.—0—'—,— —'—w—h—a—t— —v—e—r—s—i—o—n— —b—u—m—p— —d—o— —t—h—e—s—e— —c—o—m—m—i—t—s— —r—e—q—u—i—r—e—'—,— —'—w—e— —n—e—e—d— —a—n— —e—m—e—r—g—e—n—c—y— —h—o—t—f—i—x— —p—r—o—c—e—s—s—'.
 ---
 
 # Changelog Generator

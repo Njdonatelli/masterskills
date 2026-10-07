@@ -1,6 +1,7 @@
 ---
 name: "content-humanizer"
-description: "Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', 'sounds robotic', 'fix AI writing', 'inject our voice'. NOT for initial content creation (use content-production). NOT for SEO optimization (use content-production Mode 3)."
+description: >-
+  M—a—k—e—s— —A—I—-—g—e—n—e—r—a—t—e—d— —c—o—n—t—e—n—t— —s—o—u—n—d— —g—e—n—u—i—n—e—l—y— —h—u—m—a—n— ——— —n—o—t— —j—u—s—t— —c—l—e—a—n—e—d— —u—p—,— —b—u—t— —a—l—i—v—e—.— —U—s—e— —w—h—e—n— —c—o—n—t—e—n—t— —f—e—e—l—s— —r—o—b—o—t—i—c—,— —u—s—e—s— —t—o—o— —m—a—n—y— —A—I— —c—l—i—c—h—é—s—,— —l—a—c—k—s— —p—e—r—s—o—n—a—l—i—t—y—,— —o—r— —r—e—a—d—s— —l—i—k—e— —i—t— —w—a—s— —w—r—i—t—t—e—n— —b—y— —c—o—m—m—i—t—t—e—e—.— —T—r—i—g—g—e—r—s—:— —'—t—h—i—s— —s—o—u—n—d—s— —l—i—k—e— —A—I—'—,— —'—m—a—k—e— —i—t— —m—o—r—e— —h—u—m—a—n—'—,— —'—a—d—d— —p—e—r—s—o—n—a—l—i—t—y—'—,— —'—i—t— —f—e—e—l—s— —g—e—n—e—r—i—c—'—,— —'—s—o—u—n—d—s— —r—o—b—o—t—i—c—'—,— —'—f—i—x— —A—I— —w—r—i—t—i—n—g—'—,— —'—i—n—j—e—c—t— —o—u—r— —v—o—i—c—e—'—.— —N—O—T— —f—o—r— —i—n—i—t—i—a—l— —c—o—n—t—e—n—t— —c—r—e—a—t—i—o—n— —(—u—s—e— —c—o—n—t—e—n—t—-—p—r—o—d—u—c—t—i—o—n—)—.— —N—O—T— —f—o—r— —S—E—O— —o—p—t—i—m—i—z—a—t—i—o—n— —(—u—s—e— —c—o—n—t—e—n—t—-—p—r—o—d—u—c—t—i—o—n— —M—o—d—e— —3—).
 license: MIT
 metadata:
   version: 1.0.0

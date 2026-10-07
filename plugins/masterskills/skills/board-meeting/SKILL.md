@@ -1,6 +1,7 @@
 ---
 name: "board-meeting"
-description: "Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:boardroom, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question."
+description: >-
+  M—u—l—t—i—-—a—g—e—n—t— —b—o—a—r—d— —m—e—e—t—i—n—g— —p—r—o—t—o—c—o—l— —f—o—r— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n—s—.— —R—u—n—s— —a— —s—t—r—u—c—t—u—r—e—d— —6—-—p—h—a—s—e— —d—e—l—i—b—e—r—a—t—i—o—n—:— —c—o—n—t—e—x—t— —l—o—a—d—i—n—g—,— —i—n—d—e—p—e—n—d—e—n—t— —C—-—s—u—i—t—e— —c—o—n—t—r—i—b—u—t—i—o—n—s— —(—i—s—o—l—a—t—e—d—,— —n—o— —c—r—o—s—s—-—p—o—l—l—i—n—a—t—i—o—n—)—,— —c—r—i—t—i—c— —a—n—a—l—y—s—i—s—,— —s—y—n—t—h—e—s—i—s—,— —f—o—u—n—d—e—r— —r—e—v—i—e—w—,— —a—n—d— —d—e—c—i—s—i—o—n— —e—x—t—r—a—c—t—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —i—n—v—o—k—e—s— —/—c—s—:—b—o—a—r—d—r—o—o—m—,— —c—a—l—l—s— —a— —b—o—a—r—d— —m—e—e—t—i—n—g—,— —o—r— —w—a—n—t—s— —s—t—r—u—c—t—u—r—e—d— —m—u—l—t—i—-—p—e—r—s—p—e—c—t—i—v—e— —e—x—e—c—u—t—i—v—e— —d—e—l—i—b—e—r—a—t—i—o—n— —o—n— —a— —s—t—r—a—t—e—g—i—c— —q—u—e—s—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 name: "postmortem"
-description: "/em:postmortem — Honest analysis of what went wrong. Use after a failed launch, missed quarter, or bad hire to run a blameless 5-Whys retrospective with a change register — e.g. dissecting why the Q3 release slipped six weeks."
+description: >-
+  /—e—m—:—p—o—s—t—m—o—r—t—e—m— ——— —H—o—n—e—s—t— —a—n—a—l—y—s—i—s— —o—f— —w—h—a—t— —w—e—n—t— —w—r—o—n—g—.— —U—s—e— —a—f—t—e—r— —a— —f—a—i—l—e—d— —l—a—u—n—c—h—,— —m—i—s—s—e—d— —q—u—a—r—t—e—r—,— —o—r— —b—a—d— —h—i—r—e— —t—o— —r—u—n— —a— —b—l—a—m—e—l—e—s—s— —5—-—W—h—y—s— —r—e—t—r—o—s—p—e—c—t—i—v—e— —w—i—t—h— —a— —c—h—a—n—g—e— —r—e—g—i—s—t—e—r— ——— —e—.—g—.— —d—i—s—s—e—c—t—i—n—g— —w—h—y— —t—h—e— —Q—3— —r—e—l—e—a—s—e— —s—l—i—p—p—e—d— —s—i—x— —w—e—e—k—s.
 ---
 
 # /em:postmortem — Honest Analysis of What Went Wrong

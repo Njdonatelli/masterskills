@@ -1,6 +1,7 @@
 ---
 name: "change-management"
-description: "Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, switching tools, pivoting strategy, killing a product, changing leadership, or when user mentions change management, change rollout, managing resistance, org change, reorg, or pivot communication."
+description: >-
+  F—r—a—m—e—w—o—r—k— —f—o—r— —r—o—l—l—i—n—g— —o—u—t— —o—r—g—a—n—i—z—a—t—i—o—n—a—l— —c—h—a—n—g—e—s— —w—i—t—h—o—u—t— —c—h—a—o—s—.— —C—o—v—e—r—s— —t—h—e— —A—D—K—A—R— —m—o—d—e—l— —a—d—a—p—t—e—d— —f—o—r— —s—t—a—r—t—u—p—s—,— —c—o—m—m—u—n—i—c—a—t—i—o—n— —t—e—m—p—l—a—t—e—s—,— —r—e—s—i—s—t—a—n—c—e— —p—a—t—t—e—r—n—s—,— —a—n—d— —c—h—a—n—g—e— —f—a—t—i—g—u—e— —m—a—n—a—g—e—m—e—n—t—.— —H—a—n—d—l—e—s— —p—r—o—c—e—s—s— —c—h—a—n—g—e—s—,— —o—r—g— —r—e—s—t—r—u—c—t—u—r—e—s—,— —s—t—r—a—t—e—g—y— —p—i—v—o—t—s—,— —a—n—d— —c—u—l—t—u—r—e— —c—h—a—n—g—e—s—.— —U—s—e— —w—h—e—n— —a—n—n—o—u—n—c—i—n—g— —a— —r—e—o—r—g—,— —s—w—i—t—c—h—i—n—g— —t—o—o—l—s—,— —p—i—v—o—t—i—n—g— —s—t—r—a—t—e—g—y—,— —k—i—l—l—i—n—g— —a— —p—r—o—d—u—c—t—,— —c—h—a—n—g—i—n—g— —l—e—a—d—e—r—s—h—i—p—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —c—h—a—n—g—e— —m—a—n—a—g—e—m—e—n—t—,— —c—h—a—n—g—e— —r—o—l—l—o—u—t—,— —m—a—n—a—g—i—n—g— —r—e—s—i—s—t—a—n—c—e—,— —o—r—g— —c—h—a—n—g—e—,— —r—e—o—r—g—,— —o—r— —p—i—v—o—t— —c—o—m—m—u—n—i—c—a—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

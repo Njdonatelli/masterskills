@@ -1,6 +1,7 @@
 ---
 name: "executive-mentor"
-description: "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or understand what actually went wrong."
+description: >-
+  A—d—v—e—r—s—a—r—i—a—l— —t—h—i—n—k—i—n—g— —p—a—r—t—n—e—r— —f—o—r— —f—o—u—n—d—e—r—s— —a—n—d— —e—x—e—c—u—t—i—v—e—s—.— —S—t—r—e—s—s—-—t—e—s—t—s— —p—l—a—n—s—,— —p—r—e—p—a—r—e—s— —f—o—r— —b—r—u—t—a—l— —b—o—a—r—d— —m—e—e—t—i—n—g—s—,— —d—i—s—s—e—c—t—s— —d—e—c—i—s—i—o—n—s— —w—i—t—h— —n—o— —g—o—o—d— —o—p—t—i—o—n—s—,— —a—n—d— —f—o—r—c—e—s— —h—o—n—e—s—t— —p—o—s—t—-—m—o—r—t—e—m—s—.— —U—s—e— —w—h—e—n— —y—o—u— —n—e—e—d— —s—o—m—e—o—n—e— —t—o— —f—i—n—d— —t—h—e— —h—o—l—e—s— —b—e—f—o—r—e— —t—h—e— —b—o—a—r—d— —d—o—e—s—,— —m—a—k—e— —a— —d—e—c—i—s—i—o—n— —y—o—u—'—v—e— —b—e—e—n— —a—v—o—i—d—i—n—g—,— —o—r— —u—n—d—e—r—s—t—a—n—d— —w—h—a—t— —a—c—t—u—a—l—l—y— —w—e—n—t— —w—r—o—n—g.
 license: MIT
 metadata:
   version: 1.0.0

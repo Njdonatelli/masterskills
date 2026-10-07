@@ -1,6 +1,7 @@
 ---
 name: "database-schema-designer"
-description: "Use when the user asks to create ERD diagrams, normalize database schemas, design table relationships, or plan schema migrations."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —c—r—e—a—t—e— —E—R—D— —d—i—a—g—r—a—m—s—,— —n—o—r—m—a—l—i—z—e— —d—a—t—a—b—a—s—e— —s—c—h—e—m—a—s—,— —d—e—s—i—g—n— —t—a—b—l—e— —r—e—l—a—t—i—o—n—s—h—i—p—s—,— —o—r— —p—l—a—n— —s—c—h—e—m—a— —m—i—g—r—a—t—i—o—n—s.
 ---
 
 # Database Schema Designer

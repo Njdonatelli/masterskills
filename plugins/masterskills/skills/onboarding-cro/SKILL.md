@@ -1,6 +1,7 @@
 ---
 name: "onboarding-cro"
-description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," or "new user experience." For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —o—p—t—i—m—i—z—e— —p—o—s—t—-—s—i—g—n—u—p— —o—n—b—o—a—r—d—i—n—g—,— —u—s—e—r— —a—c—t—i—v—a—t—i—o—n—,— —f—i—r—s—t—-—r—u—n— —e—x—p—e—r—i—e—n—c—e—,— —o—r— —t—i—m—e—-—t—o—-—v—a—l—u—e—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—o—n—b—o—a—r—d—i—n—g— —f—l—o—w—,—"— —"—a—c—t—i—v—a—t—i—o—n— —r—a—t—e—,—"— —"—u—s—e—r— —a—c—t—i—v—a—t—i—o—n—,—"— —"—f—i—r—s—t—-—r—u—n— —e—x—p—e—r—i—e—n—c—e—,—"— —"—e—m—p—t—y— —s—t—a—t—e—s—,—"— —"—o—n—b—o—a—r—d—i—n—g— —c—h—e—c—k—l—i—s—t—,—"— —"—a—h—a— —m—o—m—e—n—t—,—"— —o—r— —"—n—e—w— —u—s—e—r— —e—x—p—e—r—i—e—n—c—e—.—"— —F—o—r— —s—i—g—n—u—p—/—r—e—g—i—s—t—r—a—t—i—o—n— —o—p—t—i—m—i—z—a—t—i—o—n—,— —s—e—e— —s—i—g—n—u—p—-—f—l—o—w—-—c—r—o—.— —F—o—r— —o—n—g—o—i—n—g— —e—m—a—i—l— —s—e—q—u—e—n—c—e—s—,— —s—e—e— —e—m—a—i—l—-—s—e—q—u—e—n—c—e.
 license: MIT
 metadata:
   version: 1.0.0

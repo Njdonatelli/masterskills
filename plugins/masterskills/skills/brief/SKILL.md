@@ -1,6 +1,7 @@
 ---
 name: "brief"
-description: "/cs:brief <topic> — Generate a one-page strategy brief from an office-hours intake. First step in the strategic sprint pipeline. Use when a strategic question needs to be framed before boardroom deliberation — e.g. locking options, assumptions, and success criteria for a pricing change or a market-entry decision."
+description: >-
+  /—c—s—:—b—r—i—e—f— —<—t—o—p—i—c—>— ——— —G—e—n—e—r—a—t—e— —a— —o—n—e—-—p—a—g—e— —s—t—r—a—t—e—g—y— —b—r—i—e—f— —f—r—o—m— —a—n— —o—f—f—i—c—e—-—h—o—u—r—s— —i—n—t—a—k—e—.— —F—i—r—s—t— —s—t—e—p— —i—n— —t—h—e— —s—t—r—a—t—e—g—i—c— —s—p—r—i—n—t— —p—i—p—e—l—i—n—e—.— —U—s—e— —w—h—e—n— —a— —s—t—r—a—t—e—g—i—c— —q—u—e—s—t—i—o—n— —n—e—e—d—s— —t—o— —b—e— —f—r—a—m—e—d— —b—e—f—o—r—e— —b—o—a—r—d—r—o—o—m— —d—e—l—i—b—e—r—a—t—i—o—n— ——— —e—.—g—.— —l—o—c—k—i—n—g— —o—p—t—i—o—n—s—,— —a—s—s—u—m—p—t—i—o—n—s—,— —a—n—d— —s—u—c—c—e—s—s— —c—r—i—t—e—r—i—a— —f—o—r— —a— —p—r—i—c—i—n—g— —c—h—a—n—g—e— —o—r— —a— —m—a—r—k—e—t—-—e—n—t—r—y— —d—e—c—i—s—i—o—n.
 ---
 
 # /cs:brief — One-Page Strategy Brief

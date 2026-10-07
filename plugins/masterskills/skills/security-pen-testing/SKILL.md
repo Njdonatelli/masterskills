@@ -1,6 +1,7 @@
 ---
 name: "security-pen-testing"
-description: "Use when the user asks to perform security audits, penetration testing, vulnerability scanning, OWASP Top 10 checks, or offensive security assessments. Covers static analysis, dependency scanning, secret detection, API security testing, and pen test report generation."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —p—e—r—f—o—r—m— —s—e—c—u—r—i—t—y— —a—u—d—i—t—s—,— —p—e—n—e—t—r—a—t—i—o—n— —t—e—s—t—i—n—g—,— —v—u—l—n—e—r—a—b—i—l—i—t—y— —s—c—a—n—n—i—n—g—,— —O—W—A—S—P— —T—o—p— —1—0— —c—h—e—c—k—s—,— —o—r— —o—f—f—e—n—s—i—v—e— —s—e—c—u—r—i—t—y— —a—s—s—e—s—s—m—e—n—t—s—.— —C—o—v—e—r—s— —s—t—a—t—i—c— —a—n—a—l—y—s—i—s—,— —d—e—p—e—n—d—e—n—c—y— —s—c—a—n—n—i—n—g—,— —s—e—c—r—e—t— —d—e—t—e—c—t—i—o—n—,— —A—P—I— —s—e—c—u—r—i—t—y— —t—e—s—t—i—n—g—,— —a—n—d— —p—e—n— —t—e—s—t— —r—e—p—o—r—t— —g—e—n—e—r—a—t—i—o—n.
 ---
 
 # Security Penetration Testing

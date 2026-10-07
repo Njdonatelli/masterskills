@@ -1,6 +1,7 @@
 ---
 name: "strict-api"
-description: "Use when the user says 'no hallucinations', 'verify APIs', 'reality check', or 'don't invent functions'. Prevents the agent from calling methods, imports, or variables that do not provably exist in the user's installed version."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —s—a—y—s— —'—n—o— —h—a—l—l—u—c—i—n—a—t—i—o—n—s—'—,— —'—v—e—r—i—f—y— —A—P—I—s—'—,— —'—r—e—a—l—i—t—y— —c—h—e—c—k—'—,— —o—r— —'—d—o—n—'—t— —i—n—v—e—n—t— —f—u—n—c—t—i—o—n—s—'—.— —P—r—e—v—e—n—t—s— —t—h—e— —a—g—e—n—t— —f—r—o—m— —c—a—l—l—i—n—g— —m—e—t—h—o—d—s—,— —i—m—p—o—r—t—s—,— —o—r— —v—a—r—i—a—b—l—e—s— —t—h—a—t— —d—o— —n—o—t— —p—r—o—v—a—b—l—y— —e—x—i—s—t— —i—n— —t—h—e— —u—s—e—r—'—s— —i—n—s—t—a—l—l—e—d— —v—e—r—s—i—o—n.
 ---
 
 # Strict API Verification

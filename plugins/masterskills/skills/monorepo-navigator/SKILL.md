@@ -1,6 +1,7 @@
 ---
 name: "monorepo-navigator"
-description: "Navigate, manage, and optimize monorepos. Covers Turborepo, Nx, pnpm workspaces, and Lerna. Cross-package impact analysis, selective builds/tests on affected packages, remote caching, dependency graph visualization, and structured multi-repo to monorepo migrations. Use when setting up a new monorepo, optimizing CI for a large workspace, debugging cross-package dependency issues, or planning a multi-repo consolidation."
+description: >-
+  N—a—v—i—g—a—t—e—,— —m—a—n—a—g—e—,— —a—n—d— —o—p—t—i—m—i—z—e— —m—o—n—o—r—e—p—o—s—.— —C—o—v—e—r—s— —T—u—r—b—o—r—e—p—o—,— —N—x—,— —p—n—p—m— —w—o—r—k—s—p—a—c—e—s—,— —a—n—d— —L—e—r—n—a—.— —C—r—o—s—s—-—p—a—c—k—a—g—e— —i—m—p—a—c—t— —a—n—a—l—y—s—i—s—,— —s—e—l—e—c—t—i—v—e— —b—u—i—l—d—s—/—t—e—s—t—s— —o—n— —a—f—f—e—c—t—e—d— —p—a—c—k—a—g—e—s—,— —r—e—m—o—t—e— —c—a—c—h—i—n—g—,— —d—e—p—e—n—d—e—n—c—y— —g—r—a—p—h— —v—i—s—u—a—l—i—z—a—t—i—o—n—,— —a—n—d— —s—t—r—u—c—t—u—r—e—d— —m—u—l—t—i—-—r—e—p—o— —t—o— —m—o—n—o—r—e—p—o— —m—i—g—r—a—t—i—o—n—s—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —a— —n—e—w— —m—o—n—o—r—e—p—o—,— —o—p—t—i—m—i—z—i—n—g— —C—I— —f—o—r— —a— —l—a—r—g—e— —w—o—r—k—s—p—a—c—e—,— —d—e—b—u—g—g—i—n—g— —c—r—o—s—s—-—p—a—c—k—a—g—e— —d—e—p—e—n—d—e—n—c—y— —i—s—s—u—e—s—,— —o—r— —p—l—a—n—n—i—n—g— —a— —m—u—l—t—i—-—r—e—p—o— —c—o—n—s—o—l—i—d—a—t—i—o—n.
 ---
 
 # Monorepo Navigator

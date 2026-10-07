@@ -1,6 +1,7 @@
 ---
 name: "signup-flow-cro"
-description: When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," or "account creation flow." For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —o—p—t—i—m—i—z—e— —s—i—g—n—u—p—,— —r—e—g—i—s—t—r—a—t—i—o—n—,— —a—c—c—o—u—n—t— —c—r—e—a—t—i—o—n—,— —o—r— —t—r—i—a—l— —a—c—t—i—v—a—t—i—o—n— —f—l—o—w—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—s—i—g—n—u—p— —c—o—n—v—e—r—s—i—o—n—s—,—"— —"—r—e—g—i—s—t—r—a—t—i—o—n— —f—r—i—c—t—i—o—n—,—"— —"—s—i—g—n—u—p— —f—o—r—m— —o—p—t—i—m—i—z—a—t—i—o—n—,—"— —"—f—r—e—e— —t—r—i—a—l— —s—i—g—n—u—p—,—"— —"—r—e—d—u—c—e— —s—i—g—n—u—p— —d—r—o—p—o—f—f—,—"— —o—r— —"—a—c—c—o—u—n—t— —c—r—e—a—t—i—o—n— —f—l—o—w—.—"— —F—o—r— —p—o—s—t—-—s—i—g—n—u—p— —o—n—b—o—a—r—d—i—n—g—,— —s—e—e— —o—n—b—o—a—r—d—i—n—g—-—c—r—o—.— —F—o—r— —l—e—a—d— —c—a—p—t—u—r—e— —f—o—r—m—s— —(—n—o—t— —a—c—c—o—u—n—t— —c—r—e—a—t—i—o—n—)—,— —s—e—e— —f—o—r—m—-—c—r—o.
 license: MIT
 metadata:
   version: 1.0.0

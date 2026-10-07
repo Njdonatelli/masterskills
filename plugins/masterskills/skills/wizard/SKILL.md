@@ -1,6 +1,7 @@
 ---
 name: wizard
-description: Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.
+description: >-
+  G—e—n—e—r—a—t—e— —a—n— —i—n—t—e—r—a—c—t—i—v—e— —b—a—s—h— —w—i—z—a—r—d— —t—h—a—t— —w—a—l—k—s— —a— —h—u—m—a—n— —t—h—r—o—u—g—h— —s—t—e—p—s— —o—n—l—y— —t—h—e—y— —c—a—n— —p—e—r—f—o—r—m—.— —U—s—e— —w—h—e—n— —p—r—o—v—i—s—i—o—n—i—n—g— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—,— —s—e—t—t—i—n—g— —u—p— —c—r—e—d—e—n—t—i—a—l—s— —o—r— —C—I— —s—e—c—r—e—t—s—,— —w—a—l—k—i—n—g— —a—n— —u—n—f—a—m—i—l—i—a—r— —t—h—i—r—d—-—p—a—r—t—y— —d—a—s—h—b—o—a—r—d—,— —o—r— —r—u—n—n—i—n—g— —a— —o—n—e—-—o—f—f— —m—i—g—r—a—t—i—o—n— —o—r— —c—u—t—o—v—e—r—.— —D—o—n—'—t— —i—n—v—o—k—e— —t—h—i—s— —f—o—r— —s—t—e—p—s— —t—h—e— —a—g—e—n—t— —c—a—n— —p—e—r—f—o—r—m— —i—t—s—e—l—f.
 ---
 
 # Wizard

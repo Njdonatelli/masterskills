@@ -1,6 +1,7 @@
 ---
 name: "collab-proof"
-description: "Use when you want to understand what Claude contributed vs what you drove in a session. Triggers on: /collab-proof, session retrospective, ai contribution analysis, collaboration evidence, what did claude do."
+description: >-
+  U—s—e— —w—h—e—n— —y—o—u— —w—a—n—t— —t—o— —u—n—d—e—r—s—t—a—n—d— —w—h—a—t— —C—l—a—u—d—e— —c—o—n—t—r—i—b—u—t—e—d— —v—s— —w—h—a—t— —y—o—u— —d—r—o—v—e— —i—n— —a— —s—e—s—s—i—o—n—.— —T—r—i—g—g—e—r—s— —o—n—:— —/—c—o—l—l—a—b—-—p—r—o—o—f—,— —s—e—s—s—i—o—n— —r—e—t—r—o—s—p—e—c—t—i—v—e—,— —a—i— —c—o—n—t—r—i—b—u—t—i—o—n— —a—n—a—l—y—s—i—s—,— —c—o—l—l—a—b—o—r—a—t—i—o—n— —e—v—i—d—e—n—c—e—,— —w—h—a—t— —d—i—d— —c—l—a—u—d—e— —d—o.
 license: MIT
 ---
 

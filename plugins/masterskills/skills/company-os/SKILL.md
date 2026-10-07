@@ -1,6 +1,7 @@
 ---
 name: "company-os"
-description: "The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selecting a management framework, designing meeting rhythms, building accountability systems, implementing OKRs, or when user mentions EOS, Scaling Up, operating system, L10 meetings, rocks, scorecard, accountability chart, or quarterly planning."
+description: >-
+  T—h—e— —m—e—t—a—-—f—r—a—m—e—w—o—r—k— —f—o—r— —h—o—w— —a— —c—o—m—p—a—n—y— —r—u—n—s— ——— —t—h—e— —c—o—n—n—e—c—t—i—v—e— —t—i—s—s—u—e— —b—e—t—w—e—e—n— —a—l—l— —C—-—s—u—i—t—e— —r—o—l—e—s—.— —C—o—v—e—r—s— —o—p—e—r—a—t—i—n—g— —s—y—s—t—e—m— —s—e—l—e—c—t—i—o—n— —(—E—O—S—,— —S—c—a—l—i—n—g— —U—p—,— —O—K—R—-—n—a—t—i—v—e—,— —h—y—b—r—i—d—)—,— —a—c—c—o—u—n—t—a—b—i—l—i—t—y— —c—h—a—r—t—s—,— —s—c—o—r—e—c—a—r—d—s—,— —m—e—e—t—i—n—g— —p—u—l—s—e—,— —i—s—s—u—e— —r—e—s—o—l—u—t—i—o—n—,— —a—n—d— —9—0—-—d—a—y— —r—o—c—k—s—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —c—o—m—p—a—n—y— —o—p—e—r—a—t—i—o—n—s—,— —s—e—l—e—c—t—i—n—g— —a— —m—a—n—a—g—e—m—e—n—t— —f—r—a—m—e—w—o—r—k—,— —d—e—s—i—g—n—i—n—g— —m—e—e—t—i—n—g— —r—h—y—t—h—m—s—,— —b—u—i—l—d—i—n—g— —a—c—c—o—u—n—t—a—b—i—l—i—t—y— —s—y—s—t—e—m—s—,— —i—m—p—l—e—m—e—n—t—i—n—g— —O—K—R—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —E—O—S—,— —S—c—a—l—i—n—g— —U—p—,— —o—p—e—r—a—t—i—n—g— —s—y—s—t—e—m—,— —L—1—0— —m—e—e—t—i—n—g—s—,— —r—o—c—k—s—,— —s—c—o—r—e—c—a—r—d—,— —a—c—c—o—u—n—t—a—b—i—l—i—t—y— —c—h—a—r—t—,— —o—r— —q—u—a—r—t—e—r—l—y— —p—l—a—n—n—i—n—g.
 license: MIT
 metadata:
   version: 1.0.0

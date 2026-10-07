@@ -1,6 +1,7 @@
 ---
 name: "capa-officer"
-description: CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use when running CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.
+description: >-
+  C—A—P—A— —s—y—s—t—e—m— —m—a—n—a—g—e—m—e—n—t— —f—o—r— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —Q—M—S—.— —C—o—v—e—r—s— —r—o—o—t— —c—a—u—s—e— —a—n—a—l—y—s—i—s—,— —c—o—r—r—e—c—t—i—v—e— —a—c—t—i—o—n— —p—l—a—n—n—i—n—g—,— —e—f—f—e—c—t—i—v—e—n—e—s—s— —v—e—r—i—f—i—c—a—t—i—o—n—,— —a—n—d— —C—A—P—A— —m—e—t—r—i—c—s—.— —U—s—e— —w—h—e—n— —r—u—n—n—i—n—g— —C—A—P—A— —i—n—v—e—s—t—i—g—a—t—i—o—n—s—,— —5—-—W—h—y— —a—n—a—l—y—s—i—s—,— —f—i—s—h—b—o—n—e— —d—i—a—g—r—a—m—s—,— —r—o—o—t— —c—a—u—s—e— —d—e—t—e—r—m—i—n—a—t—i—o—n—,— —c—o—r—r—e—c—t—i—v—e— —a—c—t—i—o—n— —t—r—a—c—k—i—n—g—,— —e—f—f—e—c—t—i—v—e—n—e—s—s— —v—e—r—i—f—i—c—a—t—i—o—n—,— —o—r— —C—A—P—A— —p—r—o—g—r—a—m— —o—p—t—i—m—i—z—a—t—i—o—n.
 triggers:
   - CAPA investigation
   - root cause analysis

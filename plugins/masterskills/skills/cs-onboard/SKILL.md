@@ -1,6 +1,7 @@
 ---
 name: "cs-onboard"
-description: "Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills. Use when setting up the C-suite advisors for the first time, or when company context is missing or more than 90 days old — e.g. after a fundraise or pivot."
+description: >-
+  F—o—u—n—d—e—r— —o—n—b—o—a—r—d—i—n—g— —i—n—t—e—r—v—i—e—w— —t—h—a—t— —c—a—p—t—u—r—e—s— —c—o—m—p—a—n—y— —c—o—n—t—e—x—t— —a—c—r—o—s—s— —7— —d—i—m—e—n—s—i—o—n—s—.— —I—n—v—o—k—e— —w—i—t—h— —/—c—s—:—s—e—t—u—p— —f—o—r— —i—n—i—t—i—a—l— —i—n—t—e—r—v—i—e—w— —o—r— —/—c—s—:—u—p—d—a—t—e— —f—o—r— —q—u—a—r—t—e—r—l—y— —r—e—f—r—e—s—h—.— —G—e—n—e—r—a—t—e—s— —~—/—.—c—l—a—u—d—e—/—c—o—m—p—a—n—y—-—c—o—n—t—e—x—t—.—m—d— —u—s—e—d— —b—y— —a—l—l— —C—-—s—u—i—t—e— —a—d—v—i—s—o—r— —s—k—i—l—l—s—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —t—h—e— —C—-—s—u—i—t—e— —a—d—v—i—s—o—r—s— —f—o—r— —t—h—e— —f—i—r—s—t— —t—i—m—e—,— —o—r— —w—h—e—n— —c—o—m—p—a—n—y— —c—o—n—t—e—x—t— —i—s— —m—i—s—s—i—n—g— —o—r— —m—o—r—e— —t—h—a—n— —9—0— —d—a—y—s— —o—l—d— ——— —e—.—g—.— —a—f—t—e—r— —a— —f—u—n—d—r—a—i—s—e— —o—r— —p—i—v—o—t.
 license: MIT
 metadata:
   version: 1.0.0

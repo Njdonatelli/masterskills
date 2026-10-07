@@ -1,6 +1,7 @@
 ---
 name: sample-skill
-description: "Reference example of a minimal Claude Code skill - a stdlib-only text processor. Use as a starting template when authoring a new skill, not as a working tool."
+description: >-
+  R—e—f—e—r—e—n—c—e— —e—x—a—m—p—l—e— —o—f— —a— —m—i—n—i—m—a—l— —C—l—a—u—d—e— —C—o—d—e— —s—k—i—l—l— —-— —a— —s—t—d—l—i—b—-—o—n—l—y— —t—e—x—t— —p—r—o—c—e—s—s—o—r—.— —U—s—e— —a—s— —a— —s—t—a—r—t—i—n—g— —t—e—m—p—l—a—t—e— —w—h—e—n— —a—u—t—h—o—r—i—n—g— —a— —n—e—w— —s—k—i—l—l—,— —n—o—t— —a—s— —a— —w—o—r—k—i—n—g— —t—o—o—l.
 ---
 
 # Sample Text Processor

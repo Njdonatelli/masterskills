@@ -1,6 +1,7 @@
 ---
 name: "marketing-context"
-description: "Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,' 'brand voice,' 'set up context,' 'target audience,' 'ICP,' 'style guide,' 'who is my customer,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Run this at the start of any new project before using other marketing skills."
+description: >-
+  C—r—e—a—t—e— —a—n—d— —m—a—i—n—t—a—i—n— —t—h—e— —m—a—r—k—e—t—i—n—g— —c—o—n—t—e—x—t— —d—o—c—u—m—e—n—t— —t—h—a—t— —a—l—l— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l—s— —r—e—a—d— —b—e—f—o—r—e— —s—t—a—r—t—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—m—a—r—k—e—t—i—n—g— —c—o—n—t—e—x—t—,—'— —'—b—r—a—n—d— —v—o—i—c—e—,—'— —'—s—e—t— —u—p— —c—o—n—t—e—x—t—,—'— —'—t—a—r—g—e—t— —a—u—d—i—e—n—c—e—,—'— —'—I—C—P—,—'— —'—s—t—y—l—e— —g—u—i—d—e—,—'— —'—w—h—o— —i—s— —m—y— —c—u—s—t—o—m—e—r—,—'— —'—p—o—s—i—t—i—o—n—i—n—g—,—'— —o—r— —w—a—n—t—s— —t—o— —a—v—o—i—d— —r—e—p—e—a—t—i—n—g— —f—o—u—n—d—a—t—i—o—n—a—l— —i—n—f—o—r—m—a—t—i—o—n— —a—c—r—o—s—s— —m—a—r—k—e—t—i—n—g— —t—a—s—k—s—.— —R—u—n— —t—h—i—s— —a—t— —t—h—e— —s—t—a—r—t— —o—f— —a—n—y— —n—e—w— —p—r—o—j—e—c—t— —b—e—f—o—r—e— —u—s—i—n—g— —o—t—h—e—r— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l—s.
 license: MIT
 metadata:
   version: 1.0.0

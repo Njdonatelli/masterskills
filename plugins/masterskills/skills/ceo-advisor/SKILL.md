@@ -1,6 +1,7 @@
 ---
 name: "ceo-advisor"
-description: "Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making executive decisions, fundraising, or when user mentions CEO, strategic planning, board meetings, investor updates, organizational leadership, or executive strategy."
+description: >-
+  E—x—e—c—u—t—i—v—e— —l—e—a—d—e—r—s—h—i—p— —g—u—i—d—a—n—c—e— —f—o—r— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n—-—m—a—k—i—n—g—,— —o—r—g—a—n—i—z—a—t—i—o—n—a—l— —d—e—v—e—l—o—p—m—e—n—t—,— —a—n—d— —s—t—a—k—e—h—o—l—d—e—r— —m—a—n—a—g—e—m—e—n—t—.— —U—s—e— —w—h—e—n— —p—l—a—n—n—i—n—g— —s—t—r—a—t—e—g—y—,— —p—r—e—p—a—r—i—n—g— —b—o—a—r—d— —p—r—e—s—e—n—t—a—t—i—o—n—s—,— —m—a—n—a—g—i—n—g— —i—n—v—e—s—t—o—r—s—,— —d—e—v—e—l—o—p—i—n—g— —o—r—g—a—n—i—z—a—t—i—o—n—a—l— —c—u—l—t—u—r—e—,— —m—a—k—i—n—g— —e—x—e—c—u—t—i—v—e— —d—e—c—i—s—i—o—n—s—,— —f—u—n—d—r—a—i—s—i—n—g—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—E—O—,— —s—t—r—a—t—e—g—i—c— —p—l—a—n—n—i—n—g—,— —b—o—a—r—d— —m—e—e—t—i—n—g—s—,— —i—n—v—e—s—t—o—r— —u—p—d—a—t—e—s—,— —o—r—g—a—n—i—z—a—t—i—o—n—a—l— —l—e—a—d—e—r—s—h—i—p—,— —o—r— —e—x—e—c—u—t—i—v—e— —s—t—r—a—t—e—g—y.
 license: MIT
 metadata:
   version: 2.0.0

@@ -1,6 +1,7 @@
 ---
 name: "senior-frontend"
-description: Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.
+description: >-
+  F—r—o—n—t—e—n—d— —d—e—v—e—l—o—p—m—e—n—t— —s—k—i—l—l— —f—o—r— —R—e—a—c—t—,— —N—e—x—t—.—j—s—,— —T—y—p—e—S—c—r—i—p—t—,— —a—n—d— —T—a—i—l—w—i—n—d— —C—S—S— —a—p—p—l—i—c—a—t—i—o—n—s—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —R—e—a—c—t— —c—o—m—p—o—n—e—n—t—s—,— —o—p—t—i—m—i—z—i—n—g— —N—e—x—t—.—j—s— —p—e—r—f—o—r—m—a—n—c—e—,— —a—n—a—l—y—z—i—n—g— —b—u—n—d—l—e— —s—i—z—e—s—,— —s—c—a—f—f—o—l—d—i—n—g— —f—r—o—n—t—e—n—d— —p—r—o—j—e—c—t—s—,— —i—m—p—l—e—m—e—n—t—i—n—g— —a—c—c—e—s—s—i—b—i—l—i—t—y—,— —o—r— —r—e—v—i—e—w—i—n—g— —f—r—o—n—t—e—n—d— —c—o—d—e— —q—u—a—l—i—t—y.
 ---
 
 # Senior Frontend

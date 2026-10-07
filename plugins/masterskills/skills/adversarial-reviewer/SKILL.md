@@ -1,6 +1,7 @@
 ---
 name: "adversarial-reviewer"
-description: "Adversarial code review that breaks the self-review monoculture. Use when you want a genuinely critical review of recent changes, before merging a PR, or when you suspect Claude is being too agreeable about code quality. Forces perspective shifts through hostile reviewer personas that catch blind spots the author's mental model shares with the reviewer."
+description: >-
+  A—d—v—e—r—s—a—r—i—a—l— —c—o—d—e— —r—e—v—i—e—w— —t—h—a—t— —b—r—e—a—k—s— —t—h—e— —s—e—l—f—-—r—e—v—i—e—w— —m—o—n—o—c—u—l—t—u—r—e—.— —U—s—e— —w—h—e—n— —y—o—u— —w—a—n—t— —a— —g—e—n—u—i—n—e—l—y— —c—r—i—t—i—c—a—l— —r—e—v—i—e—w— —o—f— —r—e—c—e—n—t— —c—h—a—n—g—e—s—,— —b—e—f—o—r—e— —m—e—r—g—i—n—g— —a— —P—R—,— —o—r— —w—h—e—n— —y—o—u— —s—u—s—p—e—c—t— —C—l—a—u—d—e— —i—s— —b—e—i—n—g— —t—o—o— —a—g—r—e—e—a—b—l—e— —a—b—o—u—t— —c—o—d—e— —q—u—a—l—i—t—y—.— —F—o—r—c—e—s— —p—e—r—s—p—e—c—t—i—v—e— —s—h—i—f—t—s— —t—h—r—o—u—g—h— —h—o—s—t—i—l—e— —r—e—v—i—e—w—e—r— —p—e—r—s—o—n—a—s— —t—h—a—t— —c—a—t—c—h— —b—l—i—n—d— —s—p—o—t—s— —t—h—e— —a—u—t—h—o—r—'—s— —m—e—n—t—a—l— —m—o—d—e—l— —s—h—a—r—e—s— —w—i—t—h— —t—h—e— —r—e—v—i—e—w—e—r.
 tier: "STANDARD"
 category: "Engineering / Code Quality"
 dependencies: "None (prompt-only, no external tools required)"

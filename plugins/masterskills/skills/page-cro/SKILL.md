@@ -1,6 +1,7 @@
 ---
 name: "page-cro"
-description: When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why isn't this page working." For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —o—p—t—i—m—i—z—e—,— —i—m—p—r—o—v—e—,— —o—r— —i—n—c—r—e—a—s—e— —c—o—n—v—e—r—s—i—o—n—s— —o—n— —a—n—y— —m—a—r—k—e—t—i—n—g— —p—a—g—e— ——— —i—n—c—l—u—d—i—n—g— —h—o—m—e—p—a—g—e—,— —l—a—n—d—i—n—g— —p—a—g—e—s—,— —p—r—i—c—i—n—g— —p—a—g—e—s—,— —f—e—a—t—u—r—e— —p—a—g—e—s—,— —o—r— —b—l—o—g— —p—o—s—t—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —s—a—y—s— —"—C—R—O—,—"— —"—c—o—n—v—e—r—s—i—o—n— —r—a—t—e— —o—p—t—i—m—i—z—a—t—i—o—n—,—"— —"—t—h—i—s— —p—a—g—e— —i—s—n—'—t— —c—o—n—v—e—r—t—i—n—g—,—"— —"—i—m—p—r—o—v—e— —c—o—n—v—e—r—s—i—o—n—s—,—"— —o—r— —"—w—h—y— —i—s—n—'—t— —t—h—i—s— —p—a—g—e— —w—o—r—k—i—n—g—.—"— —F—o—r— —s—i—g—n—u—p—/—r—e—g—i—s—t—r—a—t—i—o—n— —f—l—o—w—s—,— —s—e—e— —s—i—g—n—u—p—-—f—l—o—w—-—c—r—o—.— —F—o—r— —p—o—s—t—-—s—i—g—n—u—p— —a—c—t—i—v—a—t—i—o—n—,— —s—e—e— —o—n—b—o—a—r—d—i—n—g—-—c—r—o—.— —F—o—r— —f—o—r—m—s— —o—u—t—s—i—d—e— —o—f— —s—i—g—n—u—p—,— —s—e—e— —f—o—r—m—-—c—r—o—.— —F—o—r— —p—o—p—u—p—s—/—m—o—d—a—l—s—,— —s—e—e— —p—o—p—u—p—-—c—r—o.
 license: MIT
 metadata:
   version: 1.0.0

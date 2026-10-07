@@ -1,6 +1,7 @@
 ---
 name: "popup-cro"
-description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," or "overlay." For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —c—r—e—a—t—e— —o—r— —o—p—t—i—m—i—z—e— —p—o—p—u—p—s—,— —m—o—d—a—l—s—,— —o—v—e—r—l—a—y—s—,— —s—l—i—d—e—-—i—n—s—,— —o—r— —b—a—n—n—e—r—s— —f—o—r— —c—o—n—v—e—r—s—i—o—n— —p—u—r—p—o—s—e—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—e—x—i—t— —i—n—t—e—n—t—,—"— —"—p—o—p—u—p— —c—o—n—v—e—r—s—i—o—n—s—,—"— —"—m—o—d—a—l— —o—p—t—i—m—i—z—a—t—i—o—n—,—"— —"—l—e—a—d— —c—a—p—t—u—r—e— —p—o—p—u—p—,—"— —"—e—m—a—i—l— —p—o—p—u—p—,—"— —"—a—n—n—o—u—n—c—e—m—e—n—t— —b—a—n—n—e—r—,—"— —o—r— —"—o—v—e—r—l—a—y—.—"— —F—o—r— —f—o—r—m—s— —o—u—t—s—i—d—e— —o—f— —p—o—p—u—p—s—,— —s—e—e— —f—o—r—m—-—c—r—o—.— —F—o—r— —g—e—n—e—r—a—l— —p—a—g—e— —c—o—n—v—e—r—s—i—o—n— —o—p—t—i—m—i—z—a—t—i—o—n—,— —s—e—e— —p—a—g—e—-—c—r—o.
 license: MIT
 metadata:
   version: 1.0.0

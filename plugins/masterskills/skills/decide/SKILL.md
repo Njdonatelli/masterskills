@@ -1,6 +1,7 @@
 ---
 name: "decide"
-description: "/cs:decide <memo> — Log a decision to two-layer memory via decision-logger. Approved memo becomes durable; raw transcripts kept for reference. Use when the founder has approved a boardroom memo and the decision must become durable company memory — e.g. right after /cs:boardroom concludes."
+description: >-
+  /—c—s—:—d—e—c—i—d—e— —<—m—e—m—o—>— ——— —L—o—g— —a— —d—e—c—i—s—i—o—n— —t—o— —t—w—o—-—l—a—y—e—r— —m—e—m—o—r—y— —v—i—a— —d—e—c—i—s—i—o—n—-—l—o—g—g—e—r—.— —A—p—p—r—o—v—e—d— —m—e—m—o— —b—e—c—o—m—e—s— —d—u—r—a—b—l—e—;— —r—a—w— —t—r—a—n—s—c—r—i—p—t—s— —k—e—p—t— —f—o—r— —r—e—f—e—r—e—n—c—e—.— —U—s—e— —w—h—e—n— —t—h—e— —f—o—u—n—d—e—r— —h—a—s— —a—p—p—r—o—v—e—d— —a— —b—o—a—r—d—r—o—o—m— —m—e—m—o— —a—n—d— —t—h—e— —d—e—c—i—s—i—o—n— —m—u—s—t— —b—e—c—o—m—e— —d—u—r—a—b—l—e— —c—o—m—p—a—n—y— —m—e—m—o—r—y— ——— —e—.—g—.— —r—i—g—h—t— —a—f—t—e—r— —/—c—s—:—b—o—a—r—d—r—o—o—m— —c—o—n—c—l—u—d—e—s.
 ---
 
 # /cs:decide — Log the Decision

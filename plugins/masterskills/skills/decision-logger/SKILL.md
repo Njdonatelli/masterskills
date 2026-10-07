@@ -1,6 +1,7 @@
 ---
 name: "decision-logger"
-description: "Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by the board-meeting skill after Phase 5 founder approval."
+description: >-
+  T—w—o—-—l—a—y—e—r— —m—e—m—o—r—y— —a—r—c—h—i—t—e—c—t—u—r—e— —f—o—r— —b—o—a—r—d— —m—e—e—t—i—n—g— —d—e—c—i—s—i—o—n—s—.— —M—a—n—a—g—e—s— —r—a—w— —t—r—a—n—s—c—r—i—p—t—s— —(—L—a—y—e—r— —1—)— —a—n—d— —a—p—p—r—o—v—e—d— —d—e—c—i—s—i—o—n—s— —(—L—a—y—e—r— —2—)—.— —U—s—e— —w—h—e—n— —l—o—g—g—i—n—g— —d—e—c—i—s—i—o—n—s— —a—f—t—e—r— —a— —b—o—a—r—d— —m—e—e—t—i—n—g—,— —r—e—v—i—e—w—i—n—g— —p—a—s—t— —d—e—c—i—s—i—o—n—s— —w—i—t—h— —/—c—s—:—d—e—c—i—s—i—o—n—s—,— —o—r— —c—h—e—c—k—i—n—g— —o—v—e—r—d—u—e— —a—c—t—i—o—n— —i—t—e—m—s— —w—i—t—h— —/—c—s—:—r—e—v—i—e—w—.— —I—n—v—o—k—e—d— —a—u—t—o—m—a—t—i—c—a—l—l—y— —b—y— —t—h—e— —b—o—a—r—d—-—m—e—e—t—i—n—g— —s—k—i—l—l— —a—f—t—e—r— —P—h—a—s—e— —5— —f—o—u—n—d—e—r— —a—p—p—r—o—v—a—l.
 license: MIT
 metadata:
   version: 1.0.0

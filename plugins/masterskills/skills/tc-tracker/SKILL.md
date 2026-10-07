@@ -1,6 +1,7 @@
 ---
 name: "tc-tracker"
-description: "Use when the user asks to track technical changes, create change records, manage TC lifecycles, or hand off work between AI sessions. Covers init/create/update/status/resume/close/export workflows for structured code change documentation."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —t—r—a—c—k— —t—e—c—h—n—i—c—a—l— —c—h—a—n—g—e—s—,— —c—r—e—a—t—e— —c—h—a—n—g—e— —r—e—c—o—r—d—s—,— —m—a—n—a—g—e— —T—C— —l—i—f—e—c—y—c—l—e—s—,— —o—r— —h—a—n—d— —o—f—f— —w—o—r—k— —b—e—t—w—e—e—n— —A—I— —s—e—s—s—i—o—n—s—.— —C—o—v—e—r—s— —i—n—i—t—/—c—r—e—a—t—e—/—u—p—d—a—t—e—/—s—t—a—t—u—s—/—r—e—s—u—m—e—/—c—l—o—s—e—/—e—x—p—o—r—t— —w—o—r—k—f—l—o—w—s— —f—o—r— —s—t—r—u—c—t—u—r—e—d— —c—o—d—e— —c—h—a—n—g—e— —d—o—c—u—m—e—n—t—a—t—i—o—n.
 ---
 
 # TC Tracker

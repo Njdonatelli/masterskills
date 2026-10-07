@@ -1,6 +1,7 @@
 ---
 name: writing-beats
-description: Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it.
+description: >-
+  W—r—i—t—i—n—g—,— —e—x—p—l—o—i—t— ——— —a—s—s—e—m—b—l—e— —r—a—w— —m—a—t—e—r—i—a—l— —i—n—t—o— —a— —j—o—u—r—n—e—y— —o—f— —b—e—a—t—s—,— —g—r—o—u—n—d—i—n—g— —e—a—c—h— —t—e—r—m— —b—e—f—o—r—e— —a— —b—e—a—t— —l—e—a—n—s— —o—n— —i—t.
 disable-model-invocation: true
 ---
 

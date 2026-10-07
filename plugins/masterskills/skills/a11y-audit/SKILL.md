@@ -1,6 +1,7 @@
 ---
 name: "a11y-audit"
-description: "Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating accessibility checks into CI/CD pipelines."
+description: >-
+  A—c—c—e—s—s—i—b—i—l—i—t—y— —a—u—d—i—t— —s—k—i—l—l— —f—o—r— —s—c—a—n—n—i—n—g—,— —f—i—x—i—n—g—,— —a—n—d— —v—e—r—i—f—y—i—n—g— —W—C—A—G— —2—.—2— —L—e—v—e—l— —A— —a—n—d— —A—A— —c—o—m—p—l—i—a—n—c—e— —a—c—r—o—s—s— —R—e—a—c—t—,— —N—e—x—t—.—j—s—,— —V—u—e—,— —A—n—g—u—l—a—r—,— —S—v—e—l—t—e—,— —a—n—d— —p—l—a—i—n— —H—T—M—L— —c—o—d—e—b—a—s—e—s—.— —U—s—e— —w—h—e—n— —a—u—d—i—t—i—n—g— —a—c—c—e—s—s—i—b—i—l—i—t—y—,— —f—i—x—i—n—g— —a—1—1—y— —v—i—o—l—a—t—i—o—n—s—,— —c—h—e—c—k—i—n—g— —c—o—l—o—r— —c—o—n—t—r—a—s—t—,— —g—e—n—e—r—a—t—i—n—g— —c—o—m—p—l—i—a—n—c—e— —r—e—p—o—r—t—s—,— —o—r— —i—n—t—e—g—r—a—t—i—n—g— —a—c—c—e—s—s—i—b—i—l—i—t—y— —c—h—e—c—k—s— —i—n—t—o— —C—I—/—C—D— —p—i—p—e—l—i—n—e—s.
 ---
 
 # Accessibility Audit

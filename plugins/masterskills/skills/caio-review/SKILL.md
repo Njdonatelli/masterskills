@@ -1,6 +1,7 @@
 ---
 name: "caio-review"
-description: "/cs:caio-review <plan> — Eval-demanding Chief AI Officer interrogation of any plan that involves AI: model selection, risk classification, cost economics, or AI hiring. Use when shipping an AI feature without an eval set, choosing between API, fine-tune, and self-hosted, or classifying a use case under the EU AI Act."
+description: >-
+  /—c—s—:—c—a—i—o—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —E—v—a—l—-—d—e—m—a—n—d—i—n—g— —C—h—i—e—f— —A—I— —O—f—f—i—c—e—r— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —a—n—y— —p—l—a—n— —t—h—a—t— —i—n—v—o—l—v—e—s— —A—I—:— —m—o—d—e—l— —s—e—l—e—c—t—i—o—n—,— —r—i—s—k— —c—l—a—s—s—i—f—i—c—a—t—i—o—n—,— —c—o—s—t— —e—c—o—n—o—m—i—c—s—,— —o—r— —A—I— —h—i—r—i—n—g—.— —U—s—e— —w—h—e—n— —s—h—i—p—p—i—n—g— —a—n— —A—I— —f—e—a—t—u—r—e— —w—i—t—h—o—u—t— —a—n— —e—v—a—l— —s—e—t—,— —c—h—o—o—s—i—n—g— —b—e—t—w—e—e—n— —A—P—I—,— —f—i—n—e—-—t—u—n—e—,— —a—n—d— —s—e—l—f—-—h—o—s—t—e—d—,— —o—r— —c—l—a—s—s—i—f—y—i—n—g— —a— —u—s—e— —c—a—s—e— —u—n—d—e—r— —t—h—e— —E—U— —A—I— —A—c—t.
 ---
 
 # /cs:caio-review — CAIO Forcing Questions

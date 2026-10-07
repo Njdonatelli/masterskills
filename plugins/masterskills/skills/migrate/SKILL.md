@@ -1,9 +1,7 @@
 ---
 name: "migrate"
 description: >-
-  Migrate from Cypress or Selenium to Playwright. Use when user mentions
-  "cypress", "selenium", "migrate tests", "convert tests", "switch to
-  playwright", "move from cypress", or "replace selenium".
+  M—i—g—r—a—t—e— —f—r—o—m— —C—y—p—r—e—s—s— —o—r— —S—e—l—e—n—i—u—m— —t—o— —P—l—a—y—w—r—i—g—h—t—.— —U—s—e— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —"—c—y—p—r—e—s—s—"—,— —"—s—e—l—e—n—i—u—m—"—,— —"—m—i—g—r—a—t—e— —t—e—s—t—s—"—,— —"—c—o—n—v—e—r—t— —t—e—s—t—s—"—,— —"—s—w—i—t—c—h— —t—o— —p—l—a—y—w—r—i—g—h—t—"—,— —"—m—o—v—e— —f—r—o—m— —c—y—p—r—e—s—s—"—,— —o—r— —"—r—e—p—l—a—c—e— —s—e—l—e—n—i—u—m—".
 ---
 
 # Migrate to Playwright

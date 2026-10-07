@@ -1,6 +1,7 @@
 ---
 name: "senior-prompt-engineer"
-description: Use when the user asks to optimize prompts, design prompt templates, evaluate LLM outputs with an eval set, measure RAG retrieval quality, validate agent/tool configurations, analyze token usage, or design structured-output contracts. Covers eval-driven prompt iteration, RAG metrics (relevance, faithfulness, coverage), agent workflow validation, and token/cost budgeting — all model-agnostic, with three stdlib Python tools.
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —o—p—t—i—m—i—z—e— —p—r—o—m—p—t—s—,— —d—e—s—i—g—n— —p—r—o—m—p—t— —t—e—m—p—l—a—t—e—s—,— —e—v—a—l—u—a—t—e— —L—L—M— —o—u—t—p—u—t—s— —w—i—t—h— —a—n— —e—v—a—l— —s—e—t—,— —m—e—a—s—u—r—e— —R—A—G— —r—e—t—r—i—e—v—a—l— —q—u—a—l—i—t—y—,— —v—a—l—i—d—a—t—e— —a—g—e—n—t—/—t—o—o—l— —c—o—n—f—i—g—u—r—a—t—i—o—n—s—,— —a—n—a—l—y—z—e— —t—o—k—e—n— —u—s—a—g—e—,— —o—r— —d—e—s—i—g—n— —s—t—r—u—c—t—u—r—e—d—-—o—u—t—p—u—t— —c—o—n—t—r—a—c—t—s—.— —C—o—v—e—r—s— —e—v—a—l—-—d—r—i—v—e—n— —p—r—o—m—p—t— —i—t—e—r—a—t—i—o—n—,— —R—A—G— —m—e—t—r—i—c—s— —(—r—e—l—e—v—a—n—c—e—,— —f—a—i—t—h—f—u—l—n—e—s—s—,— —c—o—v—e—r—a—g—e—)—,— —a—g—e—n—t— —w—o—r—k—f—l—o—w— —v—a—l—i—d—a—t—i—o—n—,— —a—n—d— —t—o—k—e—n—/—c—o—s—t— —b—u—d—g—e—t—i—n—g— ——— —a—l—l— —m—o—d—e—l—-—a—g—n—o—s—t—i—c—,— —w—i—t—h— —t—h—r—e—e— —s—t—d—l—i—b— —P—y—t—h—o—n— —t—o—o—l—s.
 ---
 
 # Senior Prompt Engineer

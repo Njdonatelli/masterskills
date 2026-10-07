@@ -1,6 +1,7 @@
 ---
 name: "onboard"
-description: "/cs:onboard — Founder interview that populates ~/.claude/company-context.md using the canonical 7-dimension cs-onboard schema. The first command to run when starting with c-level-agents. Use when setting up the virtual C-suite for a new company, or when advisors lack company context — e.g. before a first /cs:boardroom or after a fundraise changes the numbers."
+description: >-
+  /—c—s—:—o—n—b—o—a—r—d— ——— —F—o—u—n—d—e—r— —i—n—t—e—r—v—i—e—w— —t—h—a—t— —p—o—p—u—l—a—t—e—s— —~—/—.—c—l—a—u—d—e—/—c—o—m—p—a—n—y—-—c—o—n—t—e—x—t—.—m—d— —u—s—i—n—g— —t—h—e— —c—a—n—o—n—i—c—a—l— —7—-—d—i—m—e—n—s—i—o—n— —c—s—-—o—n—b—o—a—r—d— —s—c—h—e—m—a—.— —T—h—e— —f—i—r—s—t— —c—o—m—m—a—n—d— —t—o— —r—u—n— —w—h—e—n— —s—t—a—r—t—i—n—g— —w—i—t—h— —c—-—l—e—v—e—l—-—a—g—e—n—t—s—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —u—p— —t—h—e— —v—i—r—t—u—a—l— —C—-—s—u—i—t—e— —f—o—r— —a— —n—e—w— —c—o—m—p—a—n—y—,— —o—r— —w—h—e—n— —a—d—v—i—s—o—r—s— —l—a—c—k— —c—o—m—p—a—n—y— —c—o—n—t—e—x—t— ——— —e—.—g—.— —b—e—f—o—r—e— —a— —f—i—r—s—t— —/—c—s—:—b—o—a—r—d—r—o—o—m— —o—r— —a—f—t—e—r— —a— —f—u—n—d—r—a—i—s—e— —c—h—a—n—g—e—s— —t—h—e— —n—u—m—b—e—r—s.
 ---
 
 # /cs:onboard — Founder Interview

@@ -1,6 +1,7 @@
 ---
 name: "incident-response"
-description: "Use when a security incident has been detected or declared and needs classification, triage, escalation path determination, and forensic evidence collection. Covers SEV1-SEV4 classification, false positive filtering, incident taxonomy, and NIST SP 800-61 lifecycle."
+description: >-
+  U—s—e— —w—h—e—n— —a— —s—e—c—u—r—i—t—y— —i—n—c—i—d—e—n—t— —h—a—s— —b—e—e—n— —d—e—t—e—c—t—e—d— —o—r— —d—e—c—l—a—r—e—d— —a—n—d— —n—e—e—d—s— —c—l—a—s—s—i—f—i—c—a—t—i—o—n—,— —t—r—i—a—g—e—,— —e—s—c—a—l—a—t—i—o—n— —p—a—t—h— —d—e—t—e—r—m—i—n—a—t—i—o—n—,— —a—n—d— —f—o—r—e—n—s—i—c— —e—v—i—d—e—n—c—e— —c—o—l—l—e—c—t—i—o—n—.— —C—o—v—e—r—s— —S—E—V—1—-—S—E—V—4— —c—l—a—s—s—i—f—i—c—a—t—i—o—n—,— —f—a—l—s—e— —p—o—s—i—t—i—v—e— —f—i—l—t—e—r—i—n—g—,— —i—n—c—i—d—e—n—t— —t—a—x—o—n—o—m—y—,— —a—n—d— —N—I—S—T— —S—P— —8—0—0—-—6—1— —l—i—f—e—c—y—c—l—e.
 ---
 
 # Incident Response

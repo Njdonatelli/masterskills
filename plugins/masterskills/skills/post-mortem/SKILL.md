@@ -1,6 +1,7 @@
 ---
 name: "post-mortem"
-description: "/cs:post-mortem <decision> — Honest retrospective on an executed decision, scored against original assumptions and dissent. Closes the strategic sprint loop. Use when a decision hits its 90-day review checkpoint or its kill criteria trigger — e.g. scoring last quarter's pricing change against its pre-committed success metrics."
+description: >-
+  /—c—s—:—p—o—s—t—-—m—o—r—t—e—m— —<—d—e—c—i—s—i—o—n—>— ——— —H—o—n—e—s—t— —r—e—t—r—o—s—p—e—c—t—i—v—e— —o—n— —a—n— —e—x—e—c—u—t—e—d— —d—e—c—i—s—i—o—n—,— —s—c—o—r—e—d— —a—g—a—i—n—s—t— —o—r—i—g—i—n—a—l— —a—s—s—u—m—p—t—i—o—n—s— —a—n—d— —d—i—s—s—e—n—t—.— —C—l—o—s—e—s— —t—h—e— —s—t—r—a—t—e—g—i—c— —s—p—r—i—n—t— —l—o—o—p—.— —U—s—e— —w—h—e—n— —a— —d—e—c—i—s—i—o—n— —h—i—t—s— —i—t—s— —9—0—-—d—a—y— —r—e—v—i—e—w— —c—h—e—c—k—p—o—i—n—t— —o—r— —i—t—s— —k—i—l—l— —c—r—i—t—e—r—i—a— —t—r—i—g—g—e—r— ——— —e—.—g—.— —s—c—o—r—i—n—g— —l—a—s—t— —q—u—a—r—t—e—r—'—s— —p—r—i—c—i—n—g— —c—h—a—n—g—e— —a—g—a—i—n—s—t— —i—t—s— —p—r—e—-—c—o—m—m—i—t—t—e—d— —s—u—c—c—e—s—s— —m—e—t—r—i—c—s.
 ---
 
 # /cs:post-mortem — Honest Retrospective

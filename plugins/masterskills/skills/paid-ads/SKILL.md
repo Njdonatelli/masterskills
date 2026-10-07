@@ -1,6 +1,7 @@
 ---
 name: "paid-ads"
-description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —h—e—l—p— —w—i—t—h— —p—a—i—d— —a—d—v—e—r—t—i—s—i—n—g— —c—a—m—p—a—i—g—n—s— —o—n— —G—o—o—g—l—e— —A—d—s—,— —M—e—t—a— —(—F—a—c—e—b—o—o—k—/—I—n—s—t—a—g—r—a—m—)—,— —L—i—n—k—e—d—I—n—,— —T—w—i—t—t—e—r—/—X—,— —o—r— —o—t—h—e—r— —a—d— —p—l—a—t—f—o—r—m—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—P—P—C—,—'— —'—p—a—i—d— —m—e—d—i—a—,—'— —'—a—d— —c—o—p—y—,—'— —'—a—d— —c—r—e—a—t—i—v—e—,—'— —'—R—O—A—S—,—'— —'—C—P—A—,—'— —'—a—d— —c—a—m—p—a—i—g—n—,—'— —'—r—e—t—a—r—g—e—t—i—n—g—,—'— —o—r— —'—a—u—d—i—e—n—c—e— —t—a—r—g—e—t—i—n—g—.—'— —T—h—i—s— —s—k—i—l—l— —c—o—v—e—r—s— —c—a—m—p—a—i—g—n— —s—t—r—a—t—e—g—y—,— —a—d— —c—r—e—a—t—i—o—n—,— —a—u—d—i—e—n—c—e— —t—a—r—g—e—t—i—n—g—,— —a—n—d— —o—p—t—i—m—i—z—a—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

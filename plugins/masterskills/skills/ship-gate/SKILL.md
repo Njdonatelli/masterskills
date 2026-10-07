@@ -1,12 +1,7 @@
 ---
 name: ship-gate
-description: >
-  Pre-production audit that scans a codebase for security, database,
-  deployment, code quality, AI/LLM, dependency, frontend, and observability
-  issues. Intercepts deploy commands and blocks until critical items pass.
-  Stack-agnostic. Use for "run ship gate", "am I ready to ship",
-  "pre-launch audit", "can I deploy", "push to production", "go live
-  checklist", "preflight check". Not for CI/CD setup or infra provisioning.
+description: >-
+  P—r—e—-—p—r—o—d—u—c—t—i—o—n— —a—u—d—i—t— —t—h—a—t— —s—c—a—n—s— —a— —c—o—d—e—b—a—s—e— —f—o—r— —s—e—c—u—r—i—t—y—,— —d—a—t—a—b—a—s—e—,— —d—e—p—l—o—y—m—e—n—t—,— —c—o—d—e— —q—u—a—l—i—t—y—,— —A—I—/—L—L—M—,— —d—e—p—e—n—d—e—n—c—y—,— —f—r—o—n—t—e—n—d—,— —a—n—d— —o—b—s—e—r—v—a—b—i—l—i—t—y— —i—s—s—u—e—s—.— —I—n—t—e—r—c—e—p—t—s— —d—e—p—l—o—y— —c—o—m—m—a—n—d—s— —a—n—d— —b—l—o—c—k—s— —u—n—t—i—l— —c—r—i—t—i—c—a—l— —i—t—e—m—s— —p—a—s—s—.— —S—t—a—c—k—-—a—g—n—o—s—t—i—c—.— —U—s—e— —f—o—r— —"—r—u—n— —s—h—i—p— —g—a—t—e—"—,— —"—a—m— —I— —r—e—a—d—y— —t—o— —s—h—i—p—"—,— —"—p—r—e—-—l—a—u—n—c—h— —a—u—d—i—t—"—,— —"—c—a—n— —I— —d—e—p—l—o—y—"—,— —"—p—u—s—h— —t—o— —p—r—o—d—u—c—t—i—o—n—"—,— —"—g—o— —l—i—v—e— —c—h—e—c—k—l—i—s—t—"—,— —"—p—r—e—f—l—i—g—h—t— —c—h—e—c—k—"—.— —N—o—t— —f—o—r— —C—I—/—C—D— —s—e—t—u—p— —o—r— —i—n—f—r—a— —p—r—o—v—i—s—i—o—n—i—n—g.
 license: MIT
 metadata:
   author: Rajaraman Arumugam

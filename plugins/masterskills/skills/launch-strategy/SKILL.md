@@ -1,6 +1,7 @@
 ---
 name: "launch-strategy"
-description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'launch momentum.' This skill covers phased launches, channel strategy, and ongoing launch momentum."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —p—l—a—n— —a— —p—r—o—d—u—c—t— —l—a—u—n—c—h—,— —f—e—a—t—u—r—e— —a—n—n—o—u—n—c—e—m—e—n—t—,— —o—r— —r—e—l—e—a—s—e— —s—t—r—a—t—e—g—y—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—l—a—u—n—c—h—,—'— —'—P—r—o—d—u—c—t— —H—u—n—t—,—'— —'—f—e—a—t—u—r—e— —r—e—l—e—a—s—e—,—'— —'—a—n—n—o—u—n—c—e—m—e—n—t—,—'— —'—g—o—-—t—o—-—m—a—r—k—e—t—,—'— —'—b—e—t—a— —l—a—u—n—c—h—,—'— —'—e—a—r—l—y— —a—c—c—e—s—s—,—'— —'—w—a—i—t—l—i—s—t—,—'— —'—p—r—o—d—u—c—t— —u—p—d—a—t—e—,—'— —'—G—T—M— —p—l—a—n—,—'— —'—l—a—u—n—c—h— —c—h—e—c—k—l—i—s—t—,—'— —o—r— —'—l—a—u—n—c—h— —m—o—m—e—n—t—u—m—.—'— —T—h—i—s— —s—k—i—l—l— —c—o—v—e—r—s— —p—h—a—s—e—d— —l—a—u—n—c—h—e—s—,— —c—h—a—n—n—e—l— —s—t—r—a—t—e—g—y—,— —a—n—d— —o—n—g—o—i—n—g— —l—a—u—n—c—h— —m—o—m—e—n—t—u—m.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 name: "strategic-alignment"
-description: "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pulling in different directions, OKRs don't connect, departments optimize locally at company expense, or when user mentions alignment, strategy cascade, silo, conflicting OKRs, or strategy communication."
+description: >-
+  C—a—s—c—a—d—e—s— —s—t—r—a—t—e—g—y— —f—r—o—m— —b—o—a—r—d—r—o—o—m— —t—o— —i—n—d—i—v—i—d—u—a—l— —c—o—n—t—r—i—b—u—t—o—r—.— —D—e—t—e—c—t—s— —a—n—d— —f—i—x—e—s— —m—i—s—a—l—i—g—n—m—e—n—t— —b—e—t—w—e—e—n— —c—o—m—p—a—n—y— —g—o—a—l—s— —a—n—d— —t—e—a—m— —e—x—e—c—u—t—i—o—n—.— —C—o—v—e—r—s— —s—t—r—a—t—e—g—y— —a—r—t—i—c—u—l—a—t—i—o—n—,— —c—a—s—c—a—d—e— —m—a—p—p—i—n—g—,— —o—r—p—h—a—n— —g—o—a—l— —d—e—t—e—c—t—i—o—n—,— —s—i—l—o— —i—d—e—n—t—i—f—i—c—a—t—i—o—n—,— —c—o—m—m—u—n—i—c—a—t—i—o—n— —g—a—p— —a—n—a—l—y—s—i—s—,— —a—n—d— —r—e—a—l—i—g—n—m—e—n—t— —p—r—o—t—o—c—o—l—s—.— —U—s—e— —w—h—e—n— —t—e—a—m—s— —a—r—e— —p—u—l—l—i—n—g— —i—n— —d—i—f—f—e—r—e—n—t— —d—i—r—e—c—t—i—o—n—s—,— —O—K—R—s— —d—o—n—'—t— —c—o—n—n—e—c—t—,— —d—e—p—a—r—t—m—e—n—t—s— —o—p—t—i—m—i—z—e— —l—o—c—a—l—l—y— —a—t— —c—o—m—p—a—n—y— —e—x—p—e—n—s—e—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —a—l—i—g—n—m—e—n—t—,— —s—t—r—a—t—e—g—y— —c—a—s—c—a—d—e—,— —s—i—l—o—,— —c—o—n—f—l—i—c—t—i—n—g— —O—K—R—s—,— —o—r— —s—t—r—a—t—e—g—y— —c—o—m—m—u—n—i—c—a—t—i—o—n.
 license: MIT
 metadata:
   version: 1.0.0

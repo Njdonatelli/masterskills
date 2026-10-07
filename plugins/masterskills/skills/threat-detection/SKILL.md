@@ -1,6 +1,7 @@
 ---
 name: "threat-detection"
-description: "Use when hunting for threats in an environment, analyzing IOCs, or detecting behavioral anomalies in telemetry. Covers hypothesis-driven threat hunting, IOC sweep generation, z-score anomaly detection, and MITRE ATT&CK-mapped signal prioritization."
+description: >-
+  U—s—e— —w—h—e—n— —h—u—n—t—i—n—g— —f—o—r— —t—h—r—e—a—t—s— —i—n— —a—n— —e—n—v—i—r—o—n—m—e—n—t—,— —a—n—a—l—y—z—i—n—g— —I—O—C—s—,— —o—r— —d—e—t—e—c—t—i—n—g— —b—e—h—a—v—i—o—r—a—l— —a—n—o—m—a—l—i—e—s— —i—n— —t—e—l—e—m—e—t—r—y—.— —C—o—v—e—r—s— —h—y—p—o—t—h—e—s—i—s—-—d—r—i—v—e—n— —t—h—r—e—a—t— —h—u—n—t—i—n—g—,— —I—O—C— —s—w—e—e—p— —g—e—n—e—r—a—t—i—o—n—,— —z—-—s—c—o—r—e— —a—n—o—m—a—l—y— —d—e—t—e—c—t—i—o—n—,— —a—n—d— —M—I—T—R—E— —A—T—T—&—C—K—-—m—a—p—p—e—d— —s—i—g—n—a—l— —p—r—i—o—r—i—t—i—z—a—t—i—o—n.
 ---
 
 # Threat Detection

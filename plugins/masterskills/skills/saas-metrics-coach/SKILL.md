@@ -1,6 +1,7 @@
 ---
 name: saas-metrics-coach
-description: SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing.
+description: >-
+  S—a—a—S— —f—i—n—a—n—c—i—a—l— —h—e—a—l—t—h— —a—d—v—i—s—o—r—.— —U—s—e— —w—h—e—n— —a— —u—s—e—r— —s—h—a—r—e—s— —r—e—v—e—n—u—e— —o—r— —c—u—s—t—o—m—e—r— —n—u—m—b—e—r—s—,— —o—r— —m—e—n—t—i—o—n—s— —A—R—R—,— —M—R—R—,— —c—h—u—r—n—,— —L—T—V—,— —C—A—C—,— —N—R—R—,— —o—r— —a—s—k—s— —h—o—w— —t—h—e—i—r— —S—a—a—S— —b—u—s—i—n—e—s—s— —i—s— —d—o—i—n—g.
 license: MIT
 metadata:
   version: 1.0.0

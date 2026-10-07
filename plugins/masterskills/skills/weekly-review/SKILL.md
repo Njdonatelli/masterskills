@@ -1,6 +1,7 @@
 ---
 name: weekly-review
-description: Use when someone wants to run a weekly review, close open loops, audit stalled projects and commitments, get their system back to trusted, restart a lapsed review habit, or says "/cs:weekly-review". Walks David Allen's three-phase loop — GET CLEAR, GET CURRENT, GET CREATIVE — with deterministic scripts that inventory open loops, gate the checklist with named gaps, and score commitment health 0-100.
+description: >-
+  U—s—e— —w—h—e—n— —s—o—m—e—o—n—e— —w—a—n—t—s— —t—o— —r—u—n— —a— —w—e—e—k—l—y— —r—e—v—i—e—w—,— —c—l—o—s—e— —o—p—e—n— —l—o—o—p—s—,— —a—u—d—i—t— —s—t—a—l—l—e—d— —p—r—o—j—e—c—t—s— —a—n—d— —c—o—m—m—i—t—m—e—n—t—s—,— —g—e—t— —t—h—e—i—r— —s—y—s—t—e—m— —b—a—c—k— —t—o— —t—r—u—s—t—e—d—,— —r—e—s—t—a—r—t— —a— —l—a—p—s—e—d— —r—e—v—i—e—w— —h—a—b—i—t—,— —o—r— —s—a—y—s— —"—/—c—s—:—w—e—e—k—l—y—-—r—e—v—i—e—w—"—.— —W—a—l—k—s— —D—a—v—i—d— —A—l—l—e—n—'—s— —t—h—r—e—e—-—p—h—a—s—e— —l—o—o—p— ——— —G—E—T— —C—L—E—A—R—,— —G—E—T— —C—U—R—R—E—N—T—,— —G—E—T— —C—R—E—A—T—I—V—E— ——— —w—i—t—h— —d—e—t—e—r—m—i—n—i—s—t—i—c— —s—c—r—i—p—t—s— —t—h—a—t— —i—n—v—e—n—t—o—r—y— —o—p—e—n— —l—o—o—p—s—,— —g—a—t—e— —t—h—e— —c—h—e—c—k—l—i—s—t— —w—i—t—h— —n—a—m—e—d— —g—a—p—s—,— —a—n—d— —s—c—o—r—e— —c—o—m—m—i—t—m—e—n—t— —h—e—a—l—t—h— —0—-—1—0—0.
 argument-hint: "[optional: directory or notes to review]"
 license: MIT
 metadata:

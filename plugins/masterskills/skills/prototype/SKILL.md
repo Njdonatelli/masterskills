@@ -1,6 +1,7 @@
 ---
 name: prototype
-description: Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.
+description: >-
+  B—u—i—l—d— —a— —t—h—r—o—w—a—w—a—y— —p—r—o—t—o—t—y—p—e— —t—o— —a—n—s—w—e—r— —a— —d—e—s—i—g—n— —q—u—e—s—t—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —s—a—n—i—t—y—-—c—h—e—c—k— —w—h—e—t—h—e—r— —a— —s—t—a—t—e— —m—o—d—e—l— —o—r— —l—o—g—i—c— —f—e—e—l—s— —r—i—g—h—t—,— —o—r— —e—x—p—l—o—r—e— —w—h—a—t— —a— —U—I— —s—h—o—u—l—d— —l—o—o—k— —l—i—k—e.
 ---
 
 # Prototype

@@ -1,6 +1,7 @@
 ---
 name: "ui-design-system"
-description: UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use when creating design systems, generating design tokens, maintaining visual consistency, or facilitating design-dev collaboration and developer handoff.
+description: >-
+  U—I— —d—e—s—i—g—n— —s—y—s—t—e—m— —t—o—o—l—k—i—t— —f—o—r— —S—e—n—i—o—r— —U—I— —D—e—s—i—g—n—e—r— —i—n—c—l—u—d—i—n—g— —d—e—s—i—g—n— —t—o—k—e—n— —g—e—n—e—r—a—t—i—o—n—,— —c—o—m—p—o—n—e—n—t— —d—o—c—u—m—e—n—t—a—t—i—o—n—,— —r—e—s—p—o—n—s—i—v—e— —d—e—s—i—g—n— —c—a—l—c—u—l—a—t—i—o—n—s—,— —a—n—d— —d—e—v—e—l—o—p—e—r— —h—a—n—d—o—f—f— —t—o—o—l—s—.— —U—s—e— —w—h—e—n— —c—r—e—a—t—i—n—g— —d—e—s—i—g—n— —s—y—s—t—e—m—s—,— —g—e—n—e—r—a—t—i—n—g— —d—e—s—i—g—n— —t—o—k—e—n—s—,— —m—a—i—n—t—a—i—n—i—n—g— —v—i—s—u—a—l— —c—o—n—s—i—s—t—e—n—c—y—,— —o—r— —f—a—c—i—l—i—t—a—t—i—n—g— —d—e—s—i—g—n—-—d—e—v— —c—o—l—l—a—b—o—r—a—t—i—o—n— —a—n—d— —d—e—v—e—l—o—p—e—r— —h—a—n—d—o—f—f.
 ---
 
 # UI Design System

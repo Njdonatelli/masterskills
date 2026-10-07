@@ -1,6 +1,7 @@
 ---
 name: wayfinder
-description: Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.
+description: >-
+  P—l—a—n— —a— —h—u—g—e— —c—h—u—n—k— —o—f— —w—o—r—k— ——— —m—o—r—e— —t—h—a—n— —o—n—e— —a—g—e—n—t— —s—e—s—s—i—o—n— —c—a—n— —h—o—l—d— ——— —a—s— —a— —s—h—a—r—e—d— —m—a—p— —o—f— —d—e—c—i—s—i—o—n— —t—i—c—k—e—t—s— —o—n— —y—o—u—r— —i—s—s—u—e— —t—r—a—c—k—e—r—,— —a—n—d— —r—e—s—o—l—v—e— —t—h—e—m— —o—n—e— —a—t— —a— —t—i—m—e— —u—n—t—i—l— —t—h—e— —w—a—y— —t—o— —t—h—e— —d—e—s—t—i—n—a—t—i—o—n— —i—s— —c—l—e—a—r.
 disable-model-invocation: true
 ---
 

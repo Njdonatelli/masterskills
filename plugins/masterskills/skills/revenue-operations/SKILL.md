@@ -1,6 +1,7 @@
 ---
 name: "revenue-operations"
-description: Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking forecast accuracy with MAPE, calculating GTM efficiency, or measuring sales efficiency and unit economics for SaaS teams.
+description: >-
+  A—n—a—l—y—z—e—s— —s—a—l—e—s— —p—i—p—e—l—i—n—e— —h—e—a—l—t—h—,— —r—e—v—e—n—u—e— —f—o—r—e—c—a—s—t—i—n—g— —a—c—c—u—r—a—c—y—,— —a—n—d— —g—o—-—t—o—-—m—a—r—k—e—t— —e—f—f—i—c—i—e—n—c—y— —m—e—t—r—i—c—s— —f—o—r— —S—a—a—S— —r—e—v—e—n—u—e— —o—p—t—i—m—i—z—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —a—n—a—l—y—z—i—n—g— —s—a—l—e—s— —p—i—p—e—l—i—n—e— —c—o—v—e—r—a—g—e—,— —f—o—r—e—c—a—s—t—i—n—g— —r—e—v—e—n—u—e—,— —e—v—a—l—u—a—t—i—n—g— —g—o—-—t—o—-—m—a—r—k—e—t— —p—e—r—f—o—r—m—a—n—c—e—,— —r—e—v—i—e—w—i—n—g— —s—a—l—e—s— —m—e—t—r—i—c—s—,— —a—s—s—e—s—s—i—n—g— —p—i—p—e—l—i—n—e— —a—n—a—l—y—s—i—s—,— —t—r—a—c—k—i—n—g— —f—o—r—e—c—a—s—t— —a—c—c—u—r—a—c—y— —w—i—t—h— —M—A—P—E—,— —c—a—l—c—u—l—a—t—i—n—g— —G—T—M— —e—f—f—i—c—i—e—n—c—y—,— —o—r— —m—e—a—s—u—r—i—n—g— —s—a—l—e—s— —e—f—f—i—c—i—e—n—c—y— —a—n—d— —u—n—i—t— —e—c—o—n—o—m—i—c—s— —f—o—r— —S—a—a—S— —t—e—a—m—s.
 ---
 
 # Revenue Operations

@@ -1,6 +1,7 @@
 ---
 name: "minimalist"
-description: "Use when the user asks to write code efficiently, avoid over-engineering, reduce dependencies, or prevent unnecessary abstractions. Enforces a strict efficiency ladder: YAGNI, reuse, stdlib, native platform, existing deps — before writing any new code."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —w—r—i—t—e— —c—o—d—e— —e—f—f—i—c—i—e—n—t—l—y—,— —a—v—o—i—d— —o—v—e—r—-—e—n—g—i—n—e—e—r—i—n—g—,— —r—e—d—u—c—e— —d—e—p—e—n—d—e—n—c—i—e—s—,— —o—r— —p—r—e—v—e—n—t— —u—n—n—e—c—e—s—s—a—r—y— —a—b—s—t—r—a—c—t—i—o—n—s—.— —E—n—f—o—r—c—e—s— —a— —s—t—r—i—c—t— —e—f—f—i—c—i—e—n—c—y— —l—a—d—d—e—r—:— —Y—A—G—N—I—,— —r—e—u—s—e—,— —s—t—d—l—i—b—,— —n—a—t—i—v—e— —p—l—a—t—f—o—r—m—,— —e—x—i—s—t—i—n—g— —d—e—p—s— ——— —b—e—f—o—r—e— —w—r—i—t—i—n—g— —a—n—y— —n—e—w— —c—o—d—e.
 ---
 
 # Minimalist

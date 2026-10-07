@@ -1,6 +1,7 @@
 ---
 name: "founder-coach"
-description: "Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when a founder feels like the bottleneck, struggles to delegate, is burning out, transitioning from IC to executive, managing a board, or when user mentions founder mode, CEO growth, leadership development, delegation, burnout, or imposter syndrome."
+description: >-
+  P—e—r—s—o—n—a—l— —l—e—a—d—e—r—s—h—i—p— —d—e—v—e—l—o—p—m—e—n—t— —f—o—r— —f—o—u—n—d—e—r—s— —a—n—d— —f—i—r—s—t—-—t—i—m—e— —C—E—O—s—.— —C—o—v—e—r—s— —f—o—u—n—d—e—r— —a—r—c—h—e—t—y—p—e— —i—d—e—n—t—i—f—i—c—a—t—i—o—n—,— —d—e—l—e—g—a—t—i—o—n— —f—r—a—m—e—w—o—r—k—s—,— —e—n—e—r—g—y— —m—a—n—a—g—e—m—e—n—t—,— —C—E—O— —c—a—l—e—n—d—a—r— —a—u—d—i—t—s—,— —l—e—a—d—e—r—s—h—i—p— —s—t—y—l—e— —e—v—o—l—u—t—i—o—n—,— —b—l—i—n—d— —s—p—o—t— —i—d—e—n—t—i—f—i—c—a—t—i—o—n—,— —i—m—p—o—s—t—e—r— —s—y—n—d—r—o—m—e—,— —f—o—u—n—d—e—r— —m—e—n—t—a—l— —h—e—a—l—t—h—,— —a—n—d— —s—u—c—c—e—s—s—i—o—n— —p—l—a—n—n—i—n—g—.— —U—s—e— —w—h—e—n— —a— —f—o—u—n—d—e—r— —f—e—e—l—s— —l—i—k—e— —t—h—e— —b—o—t—t—l—e—n—e—c—k—,— —s—t—r—u—g—g—l—e—s— —t—o— —d—e—l—e—g—a—t—e—,— —i—s— —b—u—r—n—i—n—g— —o—u—t—,— —t—r—a—n—s—i—t—i—o—n—i—n—g— —f—r—o—m— —I—C— —t—o— —e—x—e—c—u—t—i—v—e—,— —m—a—n—a—g—i—n—g— —a— —b—o—a—r—d—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —f—o—u—n—d—e—r— —m—o—d—e—,— —C—E—O— —g—r—o—w—t—h—,— —l—e—a—d—e—r—s—h—i—p— —d—e—v—e—l—o—p—m—e—n—t—,— —d—e—l—e—g—a—t—i—o—n—,— —b—u—r—n—o—u—t—,— —o—r— —i—m—p—o—s—t—e—r— —s—y—n—d—r—o—m—e.
 license: MIT
 metadata:
   version: 1.0.0

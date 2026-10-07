@@ -1,6 +1,7 @@
 ---
 name: "mdr-745-specialist"
-description: EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, Art. 86 PSUR schedules, and EUDAMED integration. Use when classifying a medical device under MDR, building or gap-checking a technical file, planning clinical evaluation or PMS/PSUR cadence, or preparing for notified body review (e.g., 'what class is my device under MDR', 'review my PSUR schedule').
+description: >-
+  E—U— —M—D—R— —2—0—1—7—/—7—4—5— —c—o—m—p—l—i—a—n—c—e— —s—p—e—c—i—a—l—i—s—t— —f—o—r— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —c—l—a—s—s—i—f—i—c—a—t—i—o—n—,— —t—e—c—h—n—i—c—a—l— —d—o—c—u—m—e—n—t—a—t—i—o—n—,— —c—l—i—n—i—c—a—l— —e—v—i—d—e—n—c—e—,— —a—n—d— —p—o—s—t—-—m—a—r—k—e—t— —s—u—r—v—e—i—l—l—a—n—c—e—.— —C—o—v—e—r—s— —A—n—n—e—x— —V—I—I—I— —c—l—a—s—s—i—f—i—c—a—t—i—o—n— —r—u—l—e—s—,— —A—n—n—e—x— —I—I—/—I—I—I— —t—e—c—h—n—i—c—a—l— —f—i—l—e—s—,— —A—n—n—e—x— —X—I—V— —c—l—i—n—i—c—a—l— —e—v—a—l—u—a—t—i—o—n—,— —A—r—t—.— —8—6— —P—S—U—R— —s—c—h—e—d—u—l—e—s—,— —a—n—d— —E—U—D—A—M—E—D— —i—n—t—e—g—r—a—t—i—o—n—.— —U—s—e— —w—h—e—n— —c—l—a—s—s—i—f—y—i—n—g— —a— —m—e—d—i—c—a—l— —d—e—v—i—c—e— —u—n—d—e—r— —M—D—R—,— —b—u—i—l—d—i—n—g— —o—r— —g—a—p—-—c—h—e—c—k—i—n—g— —a— —t—e—c—h—n—i—c—a—l— —f—i—l—e—,— —p—l—a—n—n—i—n—g— —c—l—i—n—i—c—a—l— —e—v—a—l—u—a—t—i—o—n— —o—r— —P—M—S—/—P—S—U—R— —c—a—d—e—n—c—e—,— —o—r— —p—r—e—p—a—r—i—n—g— —f—o—r— —n—o—t—i—f—i—e—d— —b—o—d—y— —r—e—v—i—e—w— —(—e—.—g—.—,— —'—w—h—a—t— —c—l—a—s—s— —i—s— —m—y— —d—e—v—i—c—e— —u—n—d—e—r— —M—D—R—'—,— —'—r—e—v—i—e—w— —m—y— —P—S—U—R— —s—c—h—e—d—u—l—e—'—).
 triggers:
   - MDR compliance
   - EU MDR

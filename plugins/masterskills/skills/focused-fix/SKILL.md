@@ -1,6 +1,7 @@
 ---
 name: "focused-fix"
-description: "Use when the user asks to fix, debug, or make a specific feature/module/area work end-to-end. Triggers: 'make X work', 'fix the Y feature', 'the Z module is broken', 'focus on [area]'. Not for quick single-bug fixes — this is for systematic deep-dive repair across all files and dependencies."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —f—i—x—,— —d—e—b—u—g—,— —o—r— —m—a—k—e— —a— —s—p—e—c—i—f—i—c— —f—e—a—t—u—r—e—/—m—o—d—u—l—e—/—a—r—e—a— —w—o—r—k— —e—n—d—-—t—o—-—e—n—d—.— —T—r—i—g—g—e—r—s—:— —'—m—a—k—e— —X— —w—o—r—k—'—,— —'—f—i—x— —t—h—e— —Y— —f—e—a—t—u—r—e—'—,— —'—t—h—e— —Z— —m—o—d—u—l—e— —i—s— —b—r—o—k—e—n—'—,— —'—f—o—c—u—s— —o—n— —[—a—r—e—a—]—'—.— —N—o—t— —f—o—r— —q—u—i—c—k— —s—i—n—g—l—e—-—b—u—g— —f—i—x—e—s— ——— —t—h—i—s— —i—s— —f—o—r— —s—y—s—t—e—m—a—t—i—c— —d—e—e—p—-—d—i—v—e— —r—e—p—a—i—r— —a—c—r—o—s—s— —a—l—l— —f—i—l—e—s— —a—n—d— —d—e—p—e—n—d—e—n—c—i—e—s.
 ---
 
 # Focused Fix — Deep-Dive Feature Repair

@@ -1,6 +1,7 @@
 ---
 name: "agile-product-owner"
-description: Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use when writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing the backlog.
+description: >-
+  A—g—i—l—e— —p—r—o—d—u—c—t— —o—w—n—e—r—s—h—i—p— —f—o—r— —b—a—c—k—l—o—g— —m—a—n—a—g—e—m—e—n—t— —a—n—d— —s—p—r—i—n—t— —e—x—e—c—u—t—i—o—n—.— —C—o—v—e—r—s— —u—s—e—r— —s—t—o—r—y— —w—r—i—t—i—n—g—,— —a—c—c—e—p—t—a—n—c—e— —c—r—i—t—e—r—i—a—,— —s—p—r—i—n—t— —p—l—a—n—n—i—n—g—,— —a—n—d— —v—e—l—o—c—i—t—y— —t—r—a—c—k—i—n—g—.— —U—s—e— —w—h—e—n— —w—r—i—t—i—n—g— —u—s—e—r— —s—t—o—r—i—e—s—,— —c—r—e—a—t—i—n—g— —a—c—c—e—p—t—a—n—c—e— —c—r—i—t—e—r—i—a—,— —p—l—a—n—n—i—n—g— —s—p—r—i—n—t—s—,— —e—s—t—i—m—a—t—i—n—g— —s—t—o—r—y— —p—o—i—n—t—s—,— —b—r—e—a—k—i—n—g— —d—o—w—n— —e—p—i—c—s—,— —o—r— —p—r—i—o—r—i—t—i—z—i—n—g— —t—h—e— —b—a—c—k—l—o—g.
 not_for: Kanban-only workflows, waterfall project planning, general task management, non-Scrum agile frameworks (SAFe, LeSS) without adaptation
 triggers:
   - write user story

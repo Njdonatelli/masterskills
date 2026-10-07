@@ -1,6 +1,7 @@
 ---
 name: "marketing-ops"
-description: "Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do next,' 'marketing priorities,' or 'coordinate marketing.'"
+description: >-
+  C—e—n—t—r—a—l— —r—o—u—t—e—r— —f—o—r— —t—h—e— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l— —e—c—o—s—y—s—t—e—m—.— —U—s—e— —w—h—e—n— —u—n—s—u—r—e— —w—h—i—c—h— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l— —t—o— —u—s—e—,— —w—h—e—n— —o—r—c—h—e—s—t—r—a—t—i—n—g— —a— —m—u—l—t—i—-—s—k—i—l—l— —c—a—m—p—a—i—g—n—,— —o—r— —w—h—e—n— —c—o—o—r—d—i—n—a—t—i—n—g— —a—c—r—o—s—s— —c—o—n—t—e—n—t—,— —S—E—O—,— —C—R—O—,— —c—h—a—n—n—e—l—s—,— —a—n—d— —a—n—a—l—y—t—i—c—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—m—a—r—k—e—t—i—n—g— —h—e—l—p—,—'— —'—c—a—m—p—a—i—g—n— —p—l—a—n—,—'— —'—w—h—a—t— —s—h—o—u—l—d— —I— —d—o— —n—e—x—t—,—'— —'—m—a—r—k—e—t—i—n—g— —p—r—i—o—r—i—t—i—e—s—,—'— —o—r— —'—c—o—o—r—d—i—n—a—t—e— —m—a—r—k—e—t—i—n—g.
 license: MIT
 metadata:
   version: 1.0.0

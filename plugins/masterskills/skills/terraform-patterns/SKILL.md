@@ -1,6 +1,7 @@
 ---
 name: "terraform-patterns"
-description: "Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wants to design Terraform modules, manage state backends, review Terraform security, implement multi-region deployments, or follow IaC best practices."
+description: >-
+  T—e—r—r—a—f—o—r—m— —i—n—f—r—a—s—t—r—u—c—t—u—r—e—-—a—s—-—c—o—d—e— —a—g—e—n—t— —s—k—i—l—l— —a—n—d— —p—l—u—g—i—n— —f—o—r— —C—l—a—u—d—e— —C—o—d—e—,— —C—o—d—e—x—,— —G—e—m—i—n—i— —C—L—I—,— —C—u—r—s—o—r—,— —O—p—e—n—C—l—a—w—.— —C—o—v—e—r—s— —m—o—d—u—l—e— —d—e—s—i—g—n— —p—a—t—t—e—r—n—s—,— —s—t—a—t—e— —m—a—n—a—g—e—m—e—n—t— —s—t—r—a—t—e—g—i—e—s—,— —p—r—o—v—i—d—e—r— —c—o—n—f—i—g—u—r—a—t—i—o—n—,— —s—e—c—u—r—i—t—y— —h—a—r—d—e—n—i—n—g—,— —p—o—l—i—c—y—-—a—s—-—c—o—d—e— —w—i—t—h— —S—e—n—t—i—n—e—l—/—O—P—A—,— —a—n—d— —C—I—/—C—D— —p—l—a—n—/—a—p—p—l—y— —w—o—r—k—f—l—o—w—s—.— —U—s—e— —w—h—e—n—:— —u—s—e—r— —w—a—n—t—s— —t—o— —d—e—s—i—g—n— —T—e—r—r—a—f—o—r—m— —m—o—d—u—l—e—s—,— —m—a—n—a—g—e— —s—t—a—t—e— —b—a—c—k—e—n—d—s—,— —r—e—v—i—e—w— —T—e—r—r—a—f—o—r—m— —s—e—c—u—r—i—t—y—,— —i—m—p—l—e—m—e—n—t— —m—u—l—t—i—-—r—e—g—i—o—n— —d—e—p—l—o—y—m—e—n—t—s—,— —o—r— —f—o—l—l—o—w— —I—a—C— —b—e—s—t— —p—r—a—c—t—i—c—e—s.
 license: MIT
 metadata:
   version: 1.0.0

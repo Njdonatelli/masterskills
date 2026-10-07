@@ -1,6 +1,7 @@
 ---
 name: "copywriting"
-description: "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For email copy, see email-sequence. For popup copy, see popup-cro."
+description: >-
+  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —w—r—i—t—e—,— —r—e—w—r—i—t—e—,— —o—r— —i—m—p—r—o—v—e— —m—a—r—k—e—t—i—n—g— —c—o—p—y— —f—o—r— —a—n—y— —p—a—g—e— ——— —i—n—c—l—u—d—i—n—g— —h—o—m—e—p—a—g—e—,— —l—a—n—d—i—n—g— —p—a—g—e—s—,— —p—r—i—c—i—n—g— —p—a—g—e—s—,— —f—e—a—t—u—r—e— —p—a—g—e—s—,— —a—b—o—u—t— —p—a—g—e—s—,— —o—r— —p—r—o—d—u—c—t— —p—a—g—e—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —s—a—y—s— —\—"—w—r—i—t—e— —c—o—p—y— —f—o—r—,—\—"— —\—"—i—m—p—r—o—v—e— —t—h—i—s— —c—o—p—y—,—\—"— —\—"—r—e—w—r—i—t—e— —t—h—i—s— —p—a—g—e—,—\—"— —\—"—m—a—r—k—e—t—i—n—g— —c—o—p—y—,—\—"— —\—"—h—e—a—d—l—i—n—e— —h—e—l—p—,—\—"— —o—r— —\—"—C—T—A— —c—o—p—y—.—\—"— —F—o—r— —e—m—a—i—l— —c—o—p—y—,— —s—e—e— —e—m—a—i—l—-—s—e—q—u—e—n—c—e—.— —F—o—r— —p—o—p—u—p— —c—o—p—y—,— —s—e—e— —p—o—p—u—p—-—c—r—o.
 license: MIT
 metadata:
   version: 1.0.0

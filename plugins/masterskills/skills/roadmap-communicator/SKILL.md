@@ -1,6 +1,7 @@
 ---
 name: roadmap-communicator
-description: Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers.
+description: >-
+  U—s—e— —w—h—e—n— —p—r—e—p—a—r—i—n—g— —r—o—a—d—m—a—p— —n—a—r—r—a—t—i—v—e—s—,— —r—e—l—e—a—s—e— —n—o—t—e—s—,— —c—h—a—n—g—e—l—o—g—s—,— —o—r— —s—t—a—k—e—h—o—l—d—e—r— —u—p—d—a—t—e—s— —t—a—i—l—o—r—e—d— —f—o—r— —e—x—e—c—u—t—i—v—e—s—,— —e—n—g—i—n—e—e—r—i—n—g— —t—e—a—m—s—,— —a—n—d— —c—u—s—t—o—m—e—r—s.
 ---
 
 # Roadmap Communicator

@@ -1,6 +1,7 @@
 ---
 name: "scenario-war-room"
-description: "Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what if X AND Y both happen?'"
+description: >-
+  C—r—o—s—s—-—f—u—n—c—t—i—o—n—a—l— —w—h—a—t—-—i—f— —m—o—d—e—l—i—n—g— —f—o—r— —c—a—s—c—a—d—i—n—g— —m—u—l—t—i—-—v—a—r—i—a—b—l—e— —s—c—e—n—a—r—i—o—s—.— —U—n—l—i—k—e— —s—i—n—g—l—e—-—a—s—s—u—m—p—t—i—o—n— —s—t—r—e—s—s— —t—e—s—t—i—n—g—,— —t—h—i—s— —m—o—d—e—l—s— —c—o—m—p—o—u—n—d— —a—d—v—e—r—s—i—t—y— —a—c—r—o—s—s— —a—l—l— —b—u—s—i—n—e—s—s— —f—u—n—c—t—i—o—n—s— —s—i—m—u—l—t—a—n—e—o—u—s—l—y—.— —U—s—e— —w—h—e—n— —f—a—c—i—n—g— —c—o—m—p—l—e—x— —r—i—s—k— —s—c—e—n—a—r—i—o—s—,— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n—s— —w—i—t—h— —m—a—j—o—r— —d—o—w—n—s—i—d—e—,— —o—r— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —'—w—h—a—t— —i—f— —X— —A—N—D— —Y— —b—o—t—h— —h—a—p—p—e—n—?.
 license: MIT
 metadata:
   version: 1.0.0

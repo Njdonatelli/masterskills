@@ -1,6 +1,7 @@
 ---
 name: "runbook-generator"
-description: "Generate operational runbooks from a service name — deployment, incident response, maintenance, and rollback workflows. Templated structure customizable per environment. Use when documenting on-call procedures for a new service, standardizing incident response across teams, or producing runbooks before launching to production."
+description: >-
+  G—e—n—e—r—a—t—e— —o—p—e—r—a—t—i—o—n—a—l— —r—u—n—b—o—o—k—s— —f—r—o—m— —a— —s—e—r—v—i—c—e— —n—a—m—e— ——— —d—e—p—l—o—y—m—e—n—t—,— —i—n—c—i—d—e—n—t— —r—e—s—p—o—n—s—e—,— —m—a—i—n—t—e—n—a—n—c—e—,— —a—n—d— —r—o—l—l—b—a—c—k— —w—o—r—k—f—l—o—w—s—.— —T—e—m—p—l—a—t—e—d— —s—t—r—u—c—t—u—r—e— —c—u—s—t—o—m—i—z—a—b—l—e— —p—e—r— —e—n—v—i—r—o—n—m—e—n—t—.— —U—s—e— —w—h—e—n— —d—o—c—u—m—e—n—t—i—n—g— —o—n—-—c—a—l—l— —p—r—o—c—e—d—u—r—e—s— —f—o—r— —a— —n—e—w— —s—e—r—v—i—c—e—,— —s—t—a—n—d—a—r—d—i—z—i—n—g— —i—n—c—i—d—e—n—t— —r—e—s—p—o—n—s—e— —a—c—r—o—s—s— —t—e—a—m—s—,— —o—r— —p—r—o—d—u—c—i—n—g— —r—u—n—b—o—o—k—s— —b—e—f—o—r—e— —l—a—u—n—c—h—i—n—g— —t—o— —p—r—o—d—u—c—t—i—o—n.
 ---
 
 # Runbook Generator

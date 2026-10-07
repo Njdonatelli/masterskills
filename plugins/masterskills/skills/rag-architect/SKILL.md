@@ -1,6 +1,7 @@
 ---
 name: "rag-architect"
-description: "Use when the user asks to design a RAG pipeline, choose a chunking strategy or embedding model, pick a vector database, or evaluate retrieval quality (precision@k, recall@k, NDCG). Examples: 'design a RAG system for our docs', 'what chunk size should I use for this corpus', 'evaluate my retriever against ground truth'. NOT for general LLM cost tuning (use llm-cost-optimizer) or agent loops over retrieval (use agenthub)."
+description: >-
+  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —d—e—s—i—g—n— —a— —R—A—G— —p—i—p—e—l—i—n—e—,— —c—h—o—o—s—e— —a— —c—h—u—n—k—i—n—g— —s—t—r—a—t—e—g—y— —o—r— —e—m—b—e—d—d—i—n—g— —m—o—d—e—l—,— —p—i—c—k— —a— —v—e—c—t—o—r— —d—a—t—a—b—a—s—e—,— —o—r— —e—v—a—l—u—a—t—e— —r—e—t—r—i—e—v—a—l— —q—u—a—l—i—t—y— —(—p—r—e—c—i—s—i—o—n—@—k—,— —r—e—c—a—l—l—@—k—,— —N—D—C—G—)—.— —E—x—a—m—p—l—e—s—:— —'—d—e—s—i—g—n— —a— —R—A—G— —s—y—s—t—e—m— —f—o—r— —o—u—r— —d—o—c—s—'—,— —'—w—h—a—t— —c—h—u—n—k— —s—i—z—e— —s—h—o—u—l—d— —I— —u—s—e— —f—o—r— —t—h—i—s— —c—o—r—p—u—s—'—,— —'—e—v—a—l—u—a—t—e— —m—y— —r—e—t—r—i—e—v—e—r— —a—g—a—i—n—s—t— —g—r—o—u—n—d— —t—r—u—t—h—'—.— —N—O—T— —f—o—r— —g—e—n—e—r—a—l— —L—L—M— —c—o—s—t— —t—u—n—i—n—g— —(—u—s—e— —l—l—m—-—c—o—s—t—-—o—p—t—i—m—i—z—e—r—)— —o—r— —a—g—e—n—t— —l—o—o—p—s— —o—v—e—r— —r—e—t—r—i—e—v—a—l— —(—u—s—e— —a—g—e—n—t—h—u—b—).
 ---
 
 # RAG Architect

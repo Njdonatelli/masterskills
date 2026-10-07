@@ -1,6 +1,7 @@
 ---
 name: linkedin-post-writer
-description: Draft LinkedIn posts, comments and replies for Nick from his real work (donatelli.tech products, vlogs, research), in a plain and slightly reluctant voice. Drafts by default; posts to LinkedIn only when he asks for a specific approved draft to be posted. Use when the user asks for a LinkedIn post, a LinkedIn draft, "something to post", a comment or reply for LinkedIn, or wants to turn a finished job, product, vlog or lesson into a post. Also use when he asks to post an approved draft to LinkedIn.
+description: >-
+  D—r—a—f—t— —L—i—n—k—e—d—I—n— —p—o—s—t—s—,— —c—o—m—m—e—n—t—s— —a—n—d— —r—e—p—l—i—e—s— —f—o—r— —N—i—c—k— —f—r—o—m— —h—i—s— —r—e—a—l— —w—o—r—k— —(—d—o—n—a—t—e—l—l—i—.—t—e—c—h— —p—r—o—d—u—c—t—s—,— —v—l—o—g—s—,— —r—e—s—e—a—r—c—h—)—,— —i—n— —a— —p—l—a—i—n— —a—n—d— —s—l—i—g—h—t—l—y— —r—e—l—u—c—t—a—n—t— —v—o—i—c—e—.— —D—r—a—f—t—s— —b—y— —d—e—f—a—u—l—t—;— —p—o—s—t—s— —t—o— —L—i—n—k—e—d—I—n— —o—n—l—y— —w—h—e—n— —h—e— —a—s—k—s— —f—o—r— —a— —s—p—e—c—i—f—i—c— —a—p—p—r—o—v—e—d— —d—r—a—f—t— —t—o— —b—e— —p—o—s—t—e—d—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —f—o—r— —a— —L—i—n—k—e—d—I—n— —p—o—s—t—,— —a— —L—i—n—k—e—d—I—n— —d—r—a—f—t—,— —"—s—o—m—e—t—h—i—n—g— —t—o— —p—o—s—t—"—,— —a— —c—o—m—m—e—n—t— —o—r— —r—e—p—l—y— —f—o—r— —L—i—n—k—e—d—I—n—,— —o—r— —w—a—n—t—s— —t—o— —t—u—r—n— —a— —f—i—n—i—s—h—e—d— —j—o—b—,— —p—r—o—d—u—c—t—,— —v—l—o—g— —o—r— —l—e—s—s—o—n— —i—n—t—o— —a— —p—o—s—t—.— —A—l—s—o— —u—s—e— —w—h—e—n— —h—e— —a—s—k—s— —t—o— —p—o—s—t— —a—n— —a—p—p—r—o—v—e—d— —d—r—a—f—t— —t—o— —L—i—n—k—e—d—I—n.
 ---
 
 # LinkedIn Post Writer

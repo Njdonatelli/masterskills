@@ -1,6 +1,7 @@
 ---
 name: "memory-status"
-description: "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Use when the user runs /si:memory-status or asks how full or healthy the agent memory is."
+description: >-
+  M—e—m—o—r—y— —h—e—a—l—t—h— —d—a—s—h—b—o—a—r—d— —s—h—o—w—i—n—g— —l—i—n—e— —c—o—u—n—t—s—,— —t—o—p—i—c— —f—i—l—e—s—,— —c—a—p—a—c—i—t—y—,— —s—t—a—l—e— —e—n—t—r—i—e—s—,— —a—n—d— —r—e—c—o—m—m—e—n—d—a—t—i—o—n—s—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —r—u—n—s— —/—s—i—:—m—e—m—o—r—y—-—s—t—a—t—u—s— —o—r— —a—s—k—s— —h—o—w— —f—u—l—l— —o—r— —h—e—a—l—t—h—y— —t—h—e— —a—g—e—n—t— —m—e—m—o—r—y— —i—s.
 ---
 
 # /si:memory-status — Memory Health Dashboard

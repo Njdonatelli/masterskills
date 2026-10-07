@@ -1,9 +1,7 @@
 ---
 name: "fix"
 description: >-
-  Fix failing or flaky Playwright tests. Use when user says "fix test",
-  "flaky test", "test failing", "debug test", "test broken", "test passes
-  sometimes", or "intermittent failure".
+  F—i—x— —f—a—i—l—i—n—g— —o—r— —f—l—a—k—y— —P—l—a—y—w—r—i—g—h—t— —t—e—s—t—s—.— —U—s—e— —w—h—e—n— —u—s—e—r— —s—a—y—s— —"—f—i—x— —t—e—s—t—"—,— —"—f—l—a—k—y— —t—e—s—t—"—,— —"—t—e—s—t— —f—a—i—l—i—n—g—"—,— —"—d—e—b—u—g— —t—e—s—t—"—,— —"—t—e—s—t— —b—r—o—k—e—n—"—,— —"—t—e—s—t— —p—a—s—s—e—s— —s—o—m—e—t—i—m—e—s—"—,— —o—r— —"—i—n—t—e—r—m—i—t—t—e—n—t— —f—a—i—l—u—r—e—".
 ---
 
 # Fix Failing or Flaky Tests

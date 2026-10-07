@@ -1,6 +1,7 @@
 ---
 name: "confluence-expert"
-description: Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build or restructure a Confluence space, design page hierarchies with permission structures, author or standardise documentation templates, embed Jira reports in pages, run knowledge base audits, or establish documentation standards and collaborative workflows.
+description: >-
+  A—t—l—a—s—s—i—a—n— —C—o—n—f—l—u—e—n—c—e— —e—x—p—e—r—t— —f—o—r— —c—r—e—a—t—i—n—g— —a—n—d— —m—a—n—a—g—i—n—g— —s—p—a—c—e—s—,— —k—n—o—w—l—e—d—g—e— —b—a—s—e—s—,— —a—n—d— —d—o—c—u—m—e—n—t—a—t—i—o—n—.— —C—o—n—f—i—g—u—r—e—s— —s—p—a—c—e— —p—e—r—m—i—s—s—i—o—n—s— —a—n—d— —h—i—e—r—a—r—c—h—i—e—s—,— —c—r—e—a—t—e—s— —p—a—g—e— —t—e—m—p—l—a—t—e—s— —w—i—t—h— —m—a—c—r—o—s—,— —s—e—t—s— —u—p— —d—o—c—u—m—e—n—t—a—t—i—o—n— —t—a—x—o—n—o—m—i—e—s—,— —d—e—s—i—g—n—s— —p—a—g—e— —l—a—y—o—u—t—s—,— —a—n—d— —m—a—n—a—g—e—s— —c—o—n—t—e—n—t— —g—o—v—e—r—n—a—n—c—e—.— —U—s—e— —w—h—e—n— —u—s—e—r—s— —n—e—e—d— —t—o— —b—u—i—l—d— —o—r— —r—e—s—t—r—u—c—t—u—r—e— —a— —C—o—n—f—l—u—e—n—c—e— —s—p—a—c—e—,— —d—e—s—i—g—n— —p—a—g—e— —h—i—e—r—a—r—c—h—i—e—s— —w—i—t—h— —p—e—r—m—i—s—s—i—o—n— —s—t—r—u—c—t—u—r—e—s—,— —a—u—t—h—o—r— —o—r— —s—t—a—n—d—a—r—d—i—s—e— —d—o—c—u—m—e—n—t—a—t—i—o—n— —t—e—m—p—l—a—t—e—s—,— —e—m—b—e—d— —J—i—r—a— —r—e—p—o—r—t—s— —i—n— —p—a—g—e—s—,— —r—u—n— —k—n—o—w—l—e—d—g—e— —b—a—s—e— —a—u—d—i—t—s—,— —o—r— —e—s—t—a—b—l—i—s—h— —d—o—c—u—m—e—n—t—a—t—i—o—n— —s—t—a—n—d—a—r—d—s— —a—n—d— —c—o—l—l—a—b—o—r—a—t—i—v—e— —w—o—r—k—f—l—o—w—s.
 ---
 
 # Atlassian Confluence Expert

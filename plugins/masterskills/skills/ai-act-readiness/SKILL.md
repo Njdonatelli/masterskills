@@ -1,6 +1,7 @@
 ---
 name: "ai-act-readiness"
-description: "/cs:ai-act-readiness <system> — EU AI Act 6-question forcing interrogation. Use during AI-system intake, before EU deployment, or during annual compliance refresh as Article 113 obligations phase in (2025-02-02 / 2025-08-02 / 2026-08-02 / 2027-08-02)."
+description: >-
+  /—c—s—:—a—i—-—a—c—t—-—r—e—a—d—i—n—e—s—s— —<—s—y—s—t—e—m—>— ——— —E—U— —A—I— —A—c—t— —6—-—q—u—e—s—t—i—o—n— —f—o—r—c—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n—.— —U—s—e— —d—u—r—i—n—g— —A—I—-—s—y—s—t—e—m— —i—n—t—a—k—e—,— —b—e—f—o—r—e— —E—U— —d—e—p—l—o—y—m—e—n—t—,— —o—r— —d—u—r—i—n—g— —a—n—n—u—a—l— —c—o—m—p—l—i—a—n—c—e— —r—e—f—r—e—s—h— —a—s— —A—r—t—i—c—l—e— —1—1—3— —o—b—l—i—g—a—t—i—o—n—s— —p—h—a—s—e— —i—n— —(—2—0—2—5—-—0—2—-—0—2— —/— —2—0—2—5—-—0—8—-—0—2— —/— —2—0—2—6—-—0—8—-—0—2— —/— —2—0—2—7—-—0—8—-—0—2—).
 ---
 
 # /cs:ai-act-readiness — EU AI Act Forcing Questions

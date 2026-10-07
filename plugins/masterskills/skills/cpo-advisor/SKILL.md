@@ -1,6 +1,7 @@
 ---
 name: "cpo-advisor"
-description: "Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, or when user mentions CPO, product strategy, product-market fit, product organization, portfolio prioritization, or roadmap strategy."
+description: >-
+  P—r—o—d—u—c—t— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —P—r—o—d—u—c—t— —v—i—s—i—o—n—,— —p—o—r—t—f—o—l—i—o— —s—t—r—a—t—e—g—y—,— —p—r—o—d—u—c—t—-—m—a—r—k—e—t— —f—i—t—,— —a—n—d— —p—r—o—d—u—c—t— —o—r—g— —d—e—s—i—g—n—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —p—r—o—d—u—c—t— —v—i—s—i—o—n—,— —m—a—n—a—g—i—n—g— —a— —p—r—o—d—u—c—t— —p—o—r—t—f—o—l—i—o—,— —m—e—a—s—u—r—i—n—g— —P—M—F—,— —d—e—s—i—g—n—i—n—g— —p—r—o—d—u—c—t— —t—e—a—m—s—,— —p—r—i—o—r—i—t—i—z—i—n—g— —a—t— —t—h—e— —p—o—r—t—f—o—l—i—o— —l—e—v—e—l—,— —r—e—p—o—r—t—i—n—g— —t—o— —t—h—e— —b—o—a—r—d— —o—n— —p—r—o—d—u—c—t—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—P—O—,— —p—r—o—d—u—c—t— —s—t—r—a—t—e—g—y—,— —p—r—o—d—u—c—t—-—m—a—r—k—e—t— —f—i—t—,— —p—r—o—d—u—c—t— —o—r—g—a—n—i—z—a—t—i—o—n—,— —p—o—r—t—f—o—l—i—o— —p—r—i—o—r—i—t—i—z—a—t—i—o—n—,— —o—r— —r—o—a—d—m—a—p— —s—t—r—a—t—e—g—y.
 license: MIT
 metadata:
   version: 1.0.0

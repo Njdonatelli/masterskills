@@ -1,6 +1,7 @@
 ---
 name: "fda-qsr-audit-prep"
-description: "/cs:fda-qsr-audit-prep <scope> — FDA 21 CFR 820 (QSR / QMSR) audit 6-question forcing interrogation. Post-Feb 2026 substantially harmonized with ISO 13485. Use before annual internal QSR audit, pre-FDA-inspection readiness, or Form 483 response."
+description: >-
+  /—c—s—:—f—d—a—-—q—s—r—-—a—u—d—i—t—-—p—r—e—p— —<—s—c—o—p—e—>— ——— —F—D—A— —2—1— —C—F—R— —8—2—0— —(—Q—S—R— —/— —Q—M—S—R—)— —a—u—d—i—t— —6—-—q—u—e—s—t—i—o—n— —f—o—r—c—i—n—g— —i—n—t—e—r—r—o—g—a—t—i—o—n—.— —P—o—s—t—-—F—e—b— —2—0—2—6— —s—u—b—s—t—a—n—t—i—a—l—l—y— —h—a—r—m—o—n—i—z—e—d— —w—i—t—h— —I—S—O— —1—3—4—8—5—.— —U—s—e— —b—e—f—o—r—e— —a—n—n—u—a—l— —i—n—t—e—r—n—a—l— —Q—S—R— —a—u—d—i—t—,— —p—r—e—-—F—D—A—-—i—n—s—p—e—c—t—i—o—n— —r—e—a—d—i—n—e—s—s—,— —o—r— —F—o—r—m— —4—8—3— —r—e—s—p—o—n—s—e.
 ---
 
 # /cs:fda-qsr-audit-prep — FDA QSR Forcing Questions

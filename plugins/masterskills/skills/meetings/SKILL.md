@@ -1,6 +1,7 @@
 ---
 name: meetings
-description: Use when someone wants to decide whether a meeting is worth calling, price a meeting in dollars, build a timeboxed agenda with desired outcomes, or turn messy meeting notes into owned action items — or says "should this be a meeting", "/cs:meeting-prep", or "/cs:meeting-actions". Runs a cost gate (ASYNC / NOT-READY / MEET), builds a decision-first agenda, and extracts an owner + due-date checklist that flags every orphan.
+description: >-
+  U—s—e— —w—h—e—n— —s—o—m—e—o—n—e— —w—a—n—t—s— —t—o— —d—e—c—i—d—e— —w—h—e—t—h—e—r— —a— —m—e—e—t—i—n—g— —i—s— —w—o—r—t—h— —c—a—l—l—i—n—g—,— —p—r—i—c—e— —a— —m—e—e—t—i—n—g— —i—n— —d—o—l—l—a—r—s—,— —b—u—i—l—d— —a— —t—i—m—e—b—o—x—e—d— —a—g—e—n—d—a— —w—i—t—h— —d—e—s—i—r—e—d— —o—u—t—c—o—m—e—s—,— —o—r— —t—u—r—n— —m—e—s—s—y— —m—e—e—t—i—n—g— —n—o—t—e—s— —i—n—t—o— —o—w—n—e—d— —a—c—t—i—o—n— —i—t—e—m—s— ——— —o—r— —s—a—y—s— —"—s—h—o—u—l—d— —t—h—i—s— —b—e— —a— —m—e—e—t—i—n—g—"—,— —"—/—c—s—:—m—e—e—t—i—n—g—-—p—r—e—p—"—,— —o—r— —"—/—c—s—:—m—e—e—t—i—n—g—-—a—c—t—i—o—n—s—"—.— —R—u—n—s— —a— —c—o—s—t— —g—a—t—e— —(—A—S—Y—N—C— —/— —N—O—T—-—R—E—A—D—Y— —/— —M—E—E—T—)—,— —b—u—i—l—d—s— —a— —d—e—c—i—s—i—o—n—-—f—i—r—s—t— —a—g—e—n—d—a—,— —a—n—d— —e—x—t—r—a—c—t—s— —a—n— —o—w—n—e—r— —+— —d—u—e—-—d—a—t—e— —c—h—e—c—k—l—i—s—t— —t—h—a—t— —f—l—a—g—s— —e—v—e—r—y— —o—r—p—h—a—n.
 argument-hint: "[the meeting to gate, or the notes to extract actions from]"
 license: MIT
 metadata:

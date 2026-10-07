@@ -1,6 +1,7 @@
 ---
 name: "risk-management-specialist"
-description: Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identification, risk control, risk matrix, benefit-risk analysis, residual risk, risk acceptability, or post-market risk.
+description: >-
+  M—e—d—i—c—a—l— —d—e—v—i—c—e— —r—i—s—k— —m—a—n—a—g—e—m—e—n—t— —s—p—e—c—i—a—l—i—s—t— —i—m—p—l—e—m—e—n—t—i—n—g— —I—S—O— —1—4—9—7—1— —t—h—r—o—u—g—h—o—u—t— —p—r—o—d—u—c—t— —l—i—f—e—c—y—c—l—e—.— —P—r—o—v—i—d—e—s— —r—i—s—k— —a—n—a—l—y—s—i—s—,— —r—i—s—k— —e—v—a—l—u—a—t—i—o—n—,— —r—i—s—k— —c—o—n—t—r—o—l—,— —a—n—d— —p—o—s—t—-—p—r—o—d—u—c—t—i—o—n— —i—n—f—o—r—m—a—t—i—o—n— —a—n—a—l—y—s—i—s—.— —U—s—e— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —r—i—s—k— —m—a—n—a—g—e—m—e—n—t—,— —I—S—O— —1—4—9—7—1—,— —r—i—s—k— —a—n—a—l—y—s—i—s—,— —F—M—E—A—,— —f—a—u—l—t— —t—r—e—e— —a—n—a—l—y—s—i—s—,— —h—a—z—a—r—d— —i—d—e—n—t—i—f—i—c—a—t—i—o—n—,— —r—i—s—k— —c—o—n—t—r—o—l—,— —r—i—s—k— —m—a—t—r—i—x—,— —b—e—n—e—f—i—t—-—r—i—s—k— —a—n—a—l—y—s—i—s—,— —r—e—s—i—d—u—a—l— —r—i—s—k—,— —r—i—s—k— —a—c—c—e—p—t—a—b—i—l—i—t—y—,— —o—r— —p—o—s—t—-—m—a—r—k—e—t— —r—i—s—k.
 ---
 
 # Risk Management Specialist

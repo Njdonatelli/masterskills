@@ -1,6 +1,7 @@
 ---
 name: "gc-review"
-description: "/cs:gc-review <plan> — General Counsel interrogation of contracts, IP, regulatory, term sheets, and employment-law surface. Use when reviewing a term sheet before signing, redlining a customer MSA, or checking IP assignment and regulatory exposure on a new product."
+description: >-
+  /—c—s—:—g—c—-—r—e—v—i—e—w— —<—p—l—a—n—>— ——— —G—e—n—e—r—a—l— —C—o—u—n—s—e—l— —i—n—t—e—r—r—o—g—a—t—i—o—n— —o—f— —c—o—n—t—r—a—c—t—s—,— —I—P—,— —r—e—g—u—l—a—t—o—r—y—,— —t—e—r—m— —s—h—e—e—t—s—,— —a—n—d— —e—m—p—l—o—y—m—e—n—t—-—l—a—w— —s—u—r—f—a—c—e—.— —U—s—e— —w—h—e—n— —r—e—v—i—e—w—i—n—g— —a— —t—e—r—m— —s—h—e—e—t— —b—e—f—o—r—e— —s—i—g—n—i—n—g—,— —r—e—d—l—i—n—i—n—g— —a— —c—u—s—t—o—m—e—r— —M—S—A—,— —o—r— —c—h—e—c—k—i—n—g— —I—P— —a—s—s—i—g—n—m—e—n—t— —a—n—d— —r—e—g—u—l—a—t—o—r—y— —e—x—p—o—s—u—r—e— —o—n— —a— —n—e—w— —p—r—o—d—u—c—t.
 ---
 
 # /cs:gc-review — General Counsel Forcing Questions

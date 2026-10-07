@@ -1,6 +1,7 @@
 ---
 name: "cloud-security"
-description: "Use when assessing cloud infrastructure for security misconfigurations, IAM privilege escalation paths, S3 public exposure, open security group rules, or IaC security gaps. Covers AWS, Azure, and GCP posture assessment with MITRE ATT&CK mapping."
+description: >-
+  U—s—e— —w—h—e—n— —a—s—s—e—s—s—i—n—g— —c—l—o—u—d— —i—n—f—r—a—s—t—r—u—c—t—u—r—e— —f—o—r— —s—e—c—u—r—i—t—y— —m—i—s—c—o—n—f—i—g—u—r—a—t—i—o—n—s—,— —I—A—M— —p—r—i—v—i—l—e—g—e— —e—s—c—a—l—a—t—i—o—n— —p—a—t—h—s—,— —S—3— —p—u—b—l—i—c— —e—x—p—o—s—u—r—e—,— —o—p—e—n— —s—e—c—u—r—i—t—y— —g—r—o—u—p— —r—u—l—e—s—,— —o—r— —I—a—C— —s—e—c—u—r—i—t—y— —g—a—p—s—.— —C—o—v—e—r—s— —A—W—S—,— —A—z—u—r—e—,— —a—n—d— —G—C—P— —p—o—s—t—u—r—e— —a—s—s—e—s—s—m—e—n—t— —w—i—t—h— —M—I—T—R—E— —A—T—T—&—C—K— —m—a—p—p—i—n—g.
 ---
 
 # Cloud Security

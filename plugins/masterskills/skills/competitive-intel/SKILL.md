@@ -1,6 +1,7 @@
 ---
 name: "competitive-intel"
-description: "Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards, tracking market moves, positioning against alternatives, or when user mentions competitive intelligence, competitive analysis, competitor research, battlecards, win/loss, or market positioning."
+description: >-
+  S—y—s—t—e—m—a—t—i—c— —c—o—m—p—e—t—i—t—o—r— —t—r—a—c—k—i—n—g— —t—h—a—t— —f—e—e—d—s— —C—M—O— —p—o—s—i—t—i—o—n—i—n—g—,— —C—R—O— —b—a—t—t—l—e—c—a—r—d—s—,— —a—n—d— —C—P—O— —r—o—a—d—m—a—p— —d—e—c—i—s—i—o—n—s—.— —U—s—e— —w—h—e—n— —a—n—a—l—y—z—i—n—g— —c—o—m—p—e—t—i—t—o—r—s—,— —b—u—i—l—d—i—n—g— —s—a—l—e—s— —b—a—t—t—l—e—c—a—r—d—s—,— —t—r—a—c—k—i—n—g— —m—a—r—k—e—t— —m—o—v—e—s—,— —p—o—s—i—t—i—o—n—i—n—g— —a—g—a—i—n—s—t— —a—l—t—e—r—n—a—t—i—v—e—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —c—o—m—p—e—t—i—t—i—v—e— —i—n—t—e—l—l—i—g—e—n—c—e—,— —c—o—m—p—e—t—i—t—i—v—e— —a—n—a—l—y—s—i—s—,— —c—o—m—p—e—t—i—t—o—r— —r—e—s—e—a—r—c—h—,— —b—a—t—t—l—e—c—a—r—d—s—,— —w—i—n—/—l—o—s—s—,— —o—r— —m—a—r—k—e—t— —p—o—s—i—t—i—o—n—i—n—g.
 license: MIT
 metadata:
   version: 1.0.0
