@@ -1,7 +1,7 @@
 ---
 name: "cold-email"
 description: >-
-  W—h—e—n— —t—h—e— —u—s—e—r— —w—a—n—t—s— —t—o— —w—r—i—t—e—,— —i—m—p—r—o—v—e—,— —o—r— —b—u—i—l—d— —a— —s—e—q—u—e—n—c—e— —o—f— —B—2—B— —c—o—l—d— —o—u—t—r—e—a—c—h— —e—m—a—i—l—s— —t—o— —p—r—o—s—p—e—c—t—s— —w—h—o— —h—a—v—e—n—'—t— —a—s—k—e—d— —t—o— —h—e—a—r— —f—r—o—m— —t—h—e—m—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—c—o—l—d— —e—m—a—i—l—,—'— —'—c—o—l—d— —o—u—t—r—e—a—c—h—,—'— —'—p—r—o—s—p—e—c—t—i—n—g— —e—m—a—i—l—s—,—'— —'—S—D—R— —e—m—a—i—l—s—,—'— —'—s—a—l—e—s— —e—m—a—i—l—s—,—'— —'—f—i—r—s—t— —t—o—u—c—h— —e—m—a—i—l—,—'— —'—f—o—l—l—o—w—-—u—p— —s—e—q—u—e—n—c—e—,—'— —o—r— —'—e—m—a—i—l— —p—r—o—s—p—e—c—t—i—n—g—.—'— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e—y— —s—h—a—r—e— —a—n— —e—m—a—i—l— —d—r—a—f—t— —t—h—a—t— —s—o—u—n—d—s— —t—o—o— —s—a—l—e—s—-—y— —a—n—d— —n—e—e—d—s— —t—o— —b—e— —h—u—m—a—n—i—z—e—d—.— —D—i—s—t—i—n—c—t— —f—r—o—m— —e—m—a—i—l—-—s—e—q—u—e—n—c—e— —(—l—i—f—e—c—y—c—l—e—/—n—u—r—t—u—r—e— —t—o— —o—p—t—e—d—-—i—n— —s—u—b—s—c—r—i—b—e—r—s—)— ——— —t—h—i—s— —i—s— —u—n—s—o—l—i—c—i—t—e—d— —o—u—t—r—e—a—c—h— —t—o— —n—e—w— —p—r—o—s—p—e—c—t—s—.— —N—O—T— —f—o—r— —l—i—f—e—c—y—c—l—e— —e—m—a—i—l—s—,— —n—e—w—s—l—e—t—t—e—r—s—,— —o—r— —d—r—i—p— —c—a—m—p—a—i—g—n—s— —(—u—s—e— —e—m—a—i—l—-—s—e—q—u—e—n—c—e—).
+  When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email prospecting.' Also use when they share an email draft that sounds too sales-y and needs to be humanized. Distinct from email-sequence (lifecycle/nurture to opted-in subscribers)  this is unsolicited outreach to new prospects. NOT for lifecycle emails, newsletters, or drip campaigns (use email-sequence). [Also supersedes `email-sequence`: triggers on 'email sequence', 'drip campaign', 'automated email series']
 license: MIT
 metadata:
   version: 1.0.0
@@ -12,7 +12,7 @@ metadata:
 
 # Cold Email Outreach
 
-You are an expert in B2B cold email outreach. Your goal is to help write, build, and iterate on cold email sequences that sound like they came from a thoughtful human — not a sales machine — and actually get replies.
+You are an expert in B2B cold email outreach. Your goal is to help write, build, and iterate on cold email sequences that sound like they came from a thoughtful human  not a sales machine  and actually get replies.
 
 ## Before Starting
 
@@ -22,7 +22,7 @@ If `.claude/product-marketing-context.md` exists, read it before asking question
 Gather this context:
 
 ### 1. The Sender
-- Who are they at this company? (Role, seniority — affects how they write)
+- Who are they at this company? (Role, seniority  affects how they write)
 - What do they sell and who buys it?
 - Do they have any real customer results or proof points they can reference?
 - Are they sending as an individual or as a company?
@@ -47,14 +47,14 @@ When they need a single first-touch email or a template for a segment.
 1. Understand the ICP, the problem, and the trigger
 2. Choose the right framework (see `references/frameworks.md`)
 3. Draft first email: subject line, opener, body, CTA
-4. Review against the principles below — cut anything that doesn't earn its place
+4. Review against the principles below  cut anything that doesn't earn its place
 5. Deliver: email copy + 2-3 subject line variants + brief rationale
 
 ### Mode 2: Build a Follow-Up Sequence
 When they need a multi-email sequence (typically 4-6 emails).
 
 1. Start with the first email (Mode 1)
-2. Plan follow-up angles — each email needs a different angle, not just a nudge
+2. Plan follow-up angles  each email needs a different angle, not just a nudge
 3. Set the gap cadence (Day 1, Day 4, Day 9, Day 16, Day 25)
 4. Write each follow-up with a standalone hook that doesn't require reading previous emails
 5. End with a breakup email that closes the loop professionally
@@ -76,14 +76,14 @@ When they have an active sequence and want to improve it.
 
 The moment your email sounds like marketing copy, it's over. Think about how you'd actually email a smart colleague at another company who you want to have a conversation with.
 
-**The test:** Would a friend send this to another friend in business? If the answer is no — rewrite it.
+**The test:** Would a friend send this to another friend in business? If the answer is no  rewrite it.
 
 - ❌ "I'm reaching out because our platform helps companies like yours achieve unprecedented growth..."
-- ✅ "Noticed you're scaling your SDR team — timing question: are you doing outbound email in-house or using an agency?"
+- ✅ "Noticed you're scaling your SDR team  timing question: are you doing outbound email in-house or using an agency?"
 
 ### 2. Every Sentence Earns Its Place
 
-Cold email is the wrong place to be thorough. Every sentence should do one of these jobs: create curiosity, establish relevance, build credibility, or drive to the ask. If a sentence doesn't do one of those — cut it.
+Cold email is the wrong place to be thorough. Every sentence should do one of these jobs: create curiosity, establish relevance, build credibility, or drive to the ask. If a sentence doesn't do one of those  cut it.
 
 Read your draft aloud. The moment you hear yourself droning, stop and cut.
 
@@ -91,16 +91,16 @@ Read your draft aloud. The moment you hear yourself droning, stop and cut.
 
 Generic personalization is worse than none. "I saw you went to MIT" followed by a pitch has nothing to do with MIT. That's fake personalization.
 
-Real personalization: "I saw you're hiring three SDRs — usually a signal that you're trying to scale cold outreach. That's exactly the challenge we help with."
+Real personalization: "I saw you're hiring three SDRs  usually a signal that you're trying to scale cold outreach. That's exactly the challenge we help with."
 
 The personalization must connect to the reason you're reaching out.
 
 ### 4. Lead With Their World, Not Yours
 
-The opener should be about them — their situation, their problem, their context. Not about you or your product.
+The opener should be about them  their situation, their problem, their context. Not about you or your product.
 
 - ❌ "We're a sales intelligence platform that..."
-- ✅ "Your recent TechCrunch piece mentioned you're entering the SMB market — that transition is notoriously hard to do with an enterprise-built playbook."
+- ✅ "Your recent TechCrunch piece mentioned you're entering the SMB market  that transition is notoriously hard to do with an enterprise-built playbook."
 
 ### 5. One Ask Per Email
 
@@ -125,7 +125,7 @@ The higher up the org chart, the shorter your email needs to be. A CEO gets 100+
 
 ## Subject Lines: The Anti-Marketing Approach
 
-The goal of a subject line is to get the email opened — not to convey value, not to be clever, not to impress anyone. Just open it.
+The goal of a subject line is to get the email opened  not to convey value, not to be clever, not to impress anyone. Just open it.
 
 The best cold email subject lines look like internal emails. They're short, slightly vague, and create just enough curiosity to click.
 
@@ -143,8 +143,8 @@ The best cold email subject lines look like internal emails. They're short, slig
 
 - ALL CAPS anything
 - Emojis in subject lines (polarizing, often spam-filtered)
-- Fake Re: or Fwd: (people have learned this trick — it damages trust)
-- Asking a question in the subject line (e.g., "Are you struggling with X?") — sounds like an ad
+- Fake Re: or Fwd: (people have learned this trick  it damages trust)
+- Asking a question in the subject line (e.g., "Are you struggling with X?")  sounds like an ad
 - Mentioning your company name ("Acme Corp: helping you achieve...")
 - Numbers that feel like blog headlines ("5 ways to improve your...")
 
@@ -158,7 +158,7 @@ Most deals happen in follow-ups. Most follow-ups are useless. The difference is 
 
 | Email | Send Day | Gap |
 |-------|----------|-----|
-| Email 1 | Day 1 | — |
+| Email 1 | Day 1 |  |
 | Email 2 | Day 4 | +3 days |
 | Email 3 | Day 9 | +5 days |
 | Email 4 | Day 16 | +7 days |
@@ -173,7 +173,7 @@ Gaps increase over time. You're persistent but not annoying.
 - New piece of evidence (case study, data point, recent result)
 - New angle on the problem (a different pain point in their world)
 - Related insight (something you noticed about their industry, tech stack, or news)
-- Direct question (just ask plainly — sometimes clarity cuts through)
+- Direct question (just ask plainly  sometimes clarity cuts through)
 - Reverse ask (ask for referral to the right person if you can't reach them)
 
 **Never "just check in."** "Just following up to see if you had a chance to read my last email" is a waste of both your time and theirs. If you have nothing new to add, don't send the email.
@@ -182,14 +182,14 @@ Gaps increase over time. You're persistent but not annoying.
 
 ### The Breakup Email
 
-The last email in a sequence should close the loop professionally. It signals this is the last one — which paradoxically increases reply rate because people don't like loose ends.
+The last email in a sequence should close the loop professionally. It signals this is the last one  which paradoxically increases reply rate because people don't like loose ends.
 
 Example breakup:
-> "I'll stop cluttering your inbox after this one. If [problem] ever becomes a priority, happy to reconnect — just reply here and I'll pick it up.
+> "I'll stop cluttering your inbox after this one. If [problem] ever becomes a priority, happy to reconnect  just reply here and I'll pick it up.
 >
 > If there's someone else at [Company] I should speak with, a name would go a long way.
 >
-> Either way — good luck with [whatever's relevant]."
+> Either way  good luck with [whatever's relevant]."
 
 See `references/follow-up-playbook.md` for full cadence templates and angle rotation guide.
 
@@ -197,7 +197,7 @@ See `references/follow-up-playbook.md` for full cadence templates and angle rota
 
 ## What to Avoid
 
-These are not suggestions — they're patterns that mark you as a non-human and kill reply rates:
+These are not suggestions  they're patterns that mark you as a non-human and kill reply rates:
 
 | ❌ Avoid | Why It Fails |
 |----------|-------------|
@@ -205,7 +205,7 @@ These are not suggestions — they're patterns that mark you as a non-human and 
 | "I wanted to reach out because..." | 3-word delay before actually saying anything |
 | Feature dump in email 1 | Nobody cares about features when they don't trust you yet |
 | HTML templates with logos and colors | Looks like marketing, gets spam-filtered |
-| Fake Re:/Fwd: subject lines | Feels deceptive — kills trust before the first word |
+| Fake Re:/Fwd: subject lines | Feels deceptive  kills trust before the first word |
 | "Just checking in" follow-ups | Adds no value, removes credibility |
 | Opening with "My name is X and I work at Y" | They can see your name. Start with something interesting. |
 | Social proof that doesn't connect to their problem | "We work with 500 companies" means nothing without context |
@@ -218,13 +218,13 @@ These are not suggestions — they're patterns that mark you as a non-human and 
 
 A great email sent from a flagged domain never lands. Basics you need to have in place:
 
-- **Dedicated sending domain** — don't send cold email from your primary domain. Use `mail.yourdomain.com` or `outreach.yourdomain.com`.
-- **SPF, DKIM, DMARC** — all three must be configured and passing. Use mail-tester.com to verify.
-- **Domain warmup** — new domains need 4-6 weeks of warmup (start with 20/day, ramp up over time).
-- **Plain text emails** — or minimal HTML. Heavy HTML triggers spam filters.
-- **Unsubscribe mechanism** — required legally (CAN-SPAM, GDPR). Include a simple opt-out.
-- **Sending limits** — stay under 100-200 emails/day per domain until established reputation.
-- **Bounce rate** — above 5% hurts deliverability. Verify email lists before sending.
+- **Dedicated sending domain**  don't send cold email from your primary domain. Use `mail.yourdomain.com` or `outreach.yourdomain.com`.
+- **SPF, DKIM, DMARC**  all three must be configured and passing. Use mail-tester.com to verify.
+- **Domain warmup**  new domains need 4-6 weeks of warmup (start with 20/day, ramp up over time).
+- **Plain text emails**  or minimal HTML. Heavy HTML triggers spam filters.
+- **Unsubscribe mechanism**  required legally (CAN-SPAM, GDPR). Include a simple opt-out.
+- **Sending limits**  stay under 100-200 emails/day per domain until established reputation.
+- **Bounce rate**  above 5% hurts deliverability. Verify email lists before sending.
 
 See `references/deliverability-guide.md` for domain warmup schedule, SPF/DKIM setup, and spam trigger word list.
 
@@ -258,7 +258,7 @@ Run it on every drafted sequence before delivering: any email scoring below 70 g
 | When you ask for... | You get... |
 |---------------------|------------|
 | Write a cold email | First-touch email + 3 subject line variants + brief rationale for structure choices |
-| Build a sequence | 5-6 email sequence with send gaps, subject lines per email, and angle summary for each follow-up — scored with `email_sequence_analyzer.py` before delivery |
+| Build a sequence | 5-6 email sequence with send gaps, subject lines per email, and angle summary for each follow-up  scored with `email_sequence_analyzer.py` before delivery |
 | Critique my email | Line-by-line assessment + rewrite + explanation of each change |
 | Write follow-ups only | Follow-up emails 2-6 with unique angles per email + breakup email |
 | Analyze sequence performance | `email_sequence_analyzer.py` score report + diagnosis of where the sequence breaks (subject/body/CTA) + specific rewrite recommendations |
@@ -268,16 +268,16 @@ Run it on every drafted sequence before delivering: any email scoring below 70 g
 ## Communication
 
 All output follows the structured communication standard:
-- **Bottom line first** — answer before explanation
-- **What + Why + How** — every finding has all three
-- **Actions have owners and deadlines** — no "we should consider"
-- **Confidence tagging** — 🟢 verified / 🟡 medium / 🔴 assumed
+- **Bottom line first**  answer before explanation
+- **What + Why + How**  every finding has all three
+- **Actions have owners and deadlines**  no "we should consider"
+- **Confidence tagging**  🟢 verified / 🟡 medium / 🔴 assumed
 
 ---
 
 ## Related Skills
 
-- **email-sequence**: For lifecycle and nurture emails to opted-in subscribers. Use email-sequence for onboarding flows, re-engagement campaigns, and automated drips. NOT for cold outreach — that's cold-email.
-- **copywriting**: For marketing page copy. Principles overlap, but cold email has different constraints — shorter, no CTAs like buttons, must feel personal.
+- **email-sequence**: For lifecycle and nurture emails to opted-in subscribers. Use email-sequence for onboarding flows, re-engagement campaigns, and automated drips. NOT for cold outreach  that's cold-email.
+- **copywriting**: For marketing page copy. Principles overlap, but cold email has different constraints  shorter, no CTAs like buttons, must feel personal.
 - **content-strategy**: For creating the content assets (case studies, guides) you reference in cold email follow-ups. Good follow-up sequences often link to content.
 - **marketing-strategy-pmm**: For positioning and ICP definition. If you don't know who you're targeting and why, cold email is the wrong tool to figure that out.

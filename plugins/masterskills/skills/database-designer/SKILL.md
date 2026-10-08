@@ -1,7 +1,7 @@
 ---
 name: "database-designer"
 description: >-
-  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —d—e—s—i—g—n— —d—a—t—a—b—a—s—e— —s—c—h—e—m—a—s—,— —p—l—a—n— —d—a—t—a— —m—i—g—r—a—t—i—o—n—s—,— —o—p—t—i—m—i—z—e— —q—u—e—r—i—e—s—,— —c—h—o—o—s—e— —b—e—t—w—e—e—n— —S—Q—L— —a—n—d— —N—o—S—Q—L—,— —o—r— —m—o—d—e—l— —d—a—t—a— —r—e—l—a—t—i—o—n—s—h—i—p—s.
+  Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships. [Also supersedes `database-schema-designer`: triggers on 'database schema designer', 'ERD diagram', 'normalize schema']
 ---
 
 # Database Designer - POWERFUL Tier Skill
@@ -34,7 +34,7 @@ A comprehensive database design skill that provides expert-level analysis, optim
 - **Rollback Strategy**: Complete reversal capabilities with validation
 - **Execution Planning**: Ordered migration steps with dependency resolution
 
-## Tool Workflow (run these — do not analyze schemas by hand)
+## Tool Workflow (run these  do not analyze schemas by hand)
 
 All paths relative to this skill folder; sample inputs in `assets/`.
 
@@ -44,7 +44,7 @@ All paths relative to this skill folder; sample inputs in `assets/`.
 python3 schema_analyzer.py --input schema.sql --generate-erd --output-format json -o analysis.json
 ```
 
-Accepts SQL DDL or JSON schema (`assets/sample_schema.sql` / `sample_schema.json`). Output includes normalization findings, missing constraints, naming issues, and a Mermaid ERD — show the ERD to the user and fix flagged issues before optimizing.
+Accepts SQL DDL or JSON schema (`assets/sample_schema.sql` / `sample_schema.json`). Output includes normalization findings, missing constraints, naming issues, and a Mermaid ERD  show the ERD to the user and fix flagged issues before optimizing.
 
 ### 2. Optimize indexes against real query patterns
 
@@ -180,10 +180,10 @@ migrations/
 
 Use the expand-contract pattern to avoid locking or breaking running code:
 
-1. **Expand** — add the new column/table (nullable, with default)
-2. **Migrate data** — backfill in batches; dual-write from application
-3. **Transition** — application reads from new column; stop writing to old
-4. **Contract** — drop old column in a follow-up migration
+1. **Expand**  add the new column/table (nullable, with default)
+2. **Migrate data**  backfill in batches; dual-write from application
+3. **Transition**  application reads from new column; stop writing to old
+4. **Contract**  drop old column in a follow-up migration
 
 ### Data Backfill Strategies
 
@@ -197,7 +197,7 @@ WHERE id IN (SELECT id FROM users WHERE email_normalized IS NULL LIMIT 5000);
 ### Rollback Procedures
 
 - Always test the `down.sql` in staging before deploying `up.sql` to production
-- Keep rollback window short — if the contract step has run, rollback requires a new forward migration
+- Keep rollback window short  if the contract step has run, rollback requires a new forward migration
 - For irreversible changes (dropping columns with data), take a logical backup first
 
 ---
@@ -221,9 +221,9 @@ EXPLAIN (ANALYZE, BUFFERS, FORMAT TEXT) SELECT ...;
 ```
 
 Key signals to watch:
-- **Seq Scan** on large tables — missing index
-- **Nested Loop** with high row estimates — consider hash/merge join or add index
-- **Buffers shared read** much higher than **hit** — working set exceeds memory
+- **Seq Scan** on large tables  missing index
+- **Nested Loop** with high row estimates  consider hash/merge join or add index
+- **Buffers shared read** much higher than **hit**  working set exceeds memory
 
 ### N+1 Query Detection
 
@@ -263,10 +263,10 @@ Fixes:
 | **Max practical size** | Multi-TB | Multi-TB | ~1 TB (single-writer) | Multi-TB |
 
 **When to choose:**
-- **PostgreSQL** — default choice for new projects; best extensibility and standards compliance
-- **MySQL** — existing MySQL ecosystem; simple read-heavy web applications
-- **SQLite** — mobile apps, CLI tools, unit test databases, IoT/edge
-- **SQL Server** — mandated by enterprise policy; deep .NET/Azure integration
+- **PostgreSQL**  default choice for new projects; best extensibility and standards compliance
+- **MySQL**  existing MySQL ecosystem; simple read-heavy web applications
+- **SQLite**  mobile apps, CLI tools, unit test databases, IoT/edge
+- **SQL Server**  mandated by enterprise policy; deep .NET/Azure integration
 
 ### NoSQL Considerations
 
@@ -307,9 +307,9 @@ Fixes:
 
 ## Cross-References
 
-- **sql-database-assistant** — query writing, optimization, and debugging for day-to-day SQL work
-- **database-schema-designer** — ERD modeling, normalization analysis, and schema generation
-- **migration-architect** — large-scale migration planning across database engines or major schema overhauls
-- **senior-backend** — application-layer patterns (connection pooling, ORM best practices)
-- **senior-devops** — infrastructure provisioning for database clusters and replicas
+- **sql-database-assistant**  query writing, optimization, and debugging for day-to-day SQL work
+- **database-schema-designer**  ERD modeling, normalization analysis, and schema generation
+- **migration-architect**  large-scale migration planning across database engines or major schema overhauls
+- **senior-backend**  application-layer patterns (connection pooling, ORM best practices)
+- **senior-devops**  infrastructure provisioning for database clusters and replicas
 

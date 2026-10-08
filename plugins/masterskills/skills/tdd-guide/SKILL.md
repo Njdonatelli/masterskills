@@ -1,7 +1,7 @@
 ---
 name: "tdd-guide"
 description: >-
-  T—e—s—t—-—d—r—i—v—e—n— —d—e—v—e—l—o—p—m—e—n—t— —s—k—i—l—l— —f—o—r— —w—r—i—t—i—n—g— —u—n—i—t— —t—e—s—t—s—,— —g—e—n—e—r—a—t—i—n—g— —t—e—s—t— —f—i—x—t—u—r—e—s— —a—n—d— —m—o—c—k—s—,— —a—n—a—l—y—z—i—n—g— —c—o—v—e—r—a—g—e— —g—a—p—s—,— —a—n—d— —g—u—i—d—i—n—g— —r—e—d—-—g—r—e—e—n—-—r—e—f—a—c—t—o—r— —w—o—r—k—f—l—o—w—s— —a—c—r—o—s—s— —J—e—s—t—,— —P—y—t—e—s—t—,— —J—U—n—i—t—,— —V—i—t—e—s—t—,— —a—n—d— —M—o—c—h—a—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —w—r—i—t—e— —t—e—s—t—s—,— —i—m—p—r—o—v—e— —t—e—s—t— —c—o—v—e—r—a—g—e—,— —p—r—a—c—t—i—c—e— —T—D—D—,— —g—e—n—e—r—a—t—e— —m—o—c—k—s— —o—r— —s—t—u—b—s—,— —o—r— —m—e—n—t—i—o—n—s— —t—e—s—t—i—n—g— —f—r—a—m—e—w—o—r—k—s— —l—i—k—e— —J—e—s—t—,— —p—y—t—e—s—t—,— —o—r— —J—U—n—i—t.
+  Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or stubs, or mentions testing frameworks like Jest, pytest, or JUnit. [Also supersedes `tdd`: triggers on 'tdd', 'test-driven development', 'red green refactor']
 ---
 
 # TDD Guide
@@ -41,7 +41,7 @@ Test-driven development skill for generating tests, analyzing coverage, and guid
 
 ## Examples
 
-### Test Generation — Input → Output (Pytest)
+### Test Generation  Input → Output (Pytest)
 
 **Input source function (`math_utils.py`):**
 ```python
@@ -81,7 +81,7 @@ class TestDivide:
 
 ---
 
-### Coverage Analysis — Sample P0/P1/P2 Output
+### Coverage Analysis  Sample P0/P1/P2 Output
 
 **Command:**
 ```bash
@@ -90,17 +90,17 @@ python scripts/coverage_analyzer.py --report lcov.info --threshold 80
 
 **Sample output:**
 ```
-Coverage Report — Overall: 63% (threshold: 80%)
+Coverage Report  Overall: 63% (threshold: 80%)
 
-P0 — Critical gaps (uncovered error paths):
+P0  Critical gaps (uncovered error paths):
   auth/login.py:42-58   handle_expired_token()       0% covered
   payments/process.py:91-110  handle_payment_failure()   0% covered
 
-P1 — High-value gaps (core logic branches):
-  users/service.py:77   update_profile() — else branch  0% covered
-  orders/cart.py:134    apply_discount() — zero-qty guard  0% covered
+P1  High-value gaps (core logic branches):
+  users/service.py:77   update_profile()  else branch  0% covered
+  orders/cart.py:134    apply_discount()  zero-qty guard  0% covered
 
-P2 — Low-risk gaps (utility / helper functions):
+P2  Low-risk gaps (utility / helper functions):
   utils/formatting.py:12  format_currency()            0% covered
 
 Recommended: Generate tests for P0 items first to reach 80% threshold.
@@ -144,11 +144,11 @@ Additional scripts: `framework_adapter.py` (convert between frameworks), `metric
 
 TDD is most effective when driven by a written spec. The flow:
 
-1. **Write or receive a spec** — stored in `specs/<feature>.md`
-2. **Extract acceptance criteria** — each criterion becomes one or more test cases
-3. **Write failing tests (RED)** — one test per acceptance criterion
-4. **Implement minimal code (GREEN)** — satisfy each test in order
-5. **Refactor** — clean up while all tests stay green
+1. **Write or receive a spec**  stored in `specs/<feature>.md`
+2. **Extract acceptance criteria**  each criterion becomes one or more test cases
+3. **Write failing tests (RED)**  one test per acceptance criterion
+4. **Implement minimal code (GREEN)**  satisfy each test in order
+5. **Refactor**  clean up while all tests stay green
 
 ### Spec Directory Convention
 
@@ -219,7 +219,7 @@ describe("Cart", () => {
 ### Python / Pytest (Advanced Patterns)
 
 ```python
-# tests/conftest.py — shared fixtures
+# tests/conftest.py  shared fixtures
 import pytest
 from app.db import create_engine, Session
 
@@ -236,12 +236,12 @@ def db_session(db_engine):
     session.rollback()
     session.close()
 
-# tests/test_pricing.py — parametrize for multiple cases
+# tests/test_pricing.py  parametrize for multiple cases
 import pytest
 from app.pricing import calculate_discount
 
 @pytest.mark.parametrize("subtotal, expected_discount", [
-    (50.0, 0.0),       # Below threshold — no discount
+    (50.0, 0.0),       # Below threshold  no discount
     (100.0, 5.0),      # 5% tier
     (250.0, 25.0),     # 10% tier
     (500.0, 75.0),     # 15% tier
@@ -250,7 +250,7 @@ def test_calculate_discount(subtotal, expected_discount):
     assert calculate_discount(subtotal) == pytest.approx(expected_discount)
 ```
 
-### Go — Table-Driven Tests
+### Go  Table-Driven Tests
 
 ```go
 // cart_test.go
@@ -290,19 +290,19 @@ When generating tests autonomously, follow these rules to decide when to stop an
 
 ### Stop and Ask When
 
-- **Ambiguous requirements** — the spec or user story has conflicting or unclear acceptance criteria
-- **Missing edge cases** — you cannot determine boundary values without domain knowledge (e.g., max allowed transaction amount)
-- **Test count exceeds 50** — large test suites need human review before committing; present a summary and ask which areas to prioritize
-- **External dependencies unclear** — the feature relies on third-party APIs or services with undocumented behavior
-- **Security-sensitive logic** — authentication, authorization, encryption, or payment flows require human sign-off on test scenarios
+- **Ambiguous requirements**  the spec or user story has conflicting or unclear acceptance criteria
+- **Missing edge cases**  you cannot determine boundary values without domain knowledge (e.g., max allowed transaction amount)
+- **Test count exceeds 50**  large test suites need human review before committing; present a summary and ask which areas to prioritize
+- **External dependencies unclear**  the feature relies on third-party APIs or services with undocumented behavior
+- **Security-sensitive logic**  authentication, authorization, encryption, or payment flows require human sign-off on test scenarios
 
 ### Continue Autonomously When
 
-- **Clear spec with numbered acceptance criteria** — each criterion maps directly to tests
-- **Straightforward CRUD operations** — create, read, update, delete with well-defined models
-- **Well-defined API contracts** — OpenAPI spec or typed interfaces available
-- **Pure functions** — deterministic input/output with no side effects
-- **Existing test patterns** — the codebase already has similar tests to follow
+- **Clear spec with numbered acceptance criteria**  each criterion maps directly to tests
+- **Straightforward CRUD operations**  create, read, update, delete with well-defined models
+- **Well-defined API contracts**  OpenAPI spec or typed interfaces available
+- **Pure functions**  deterministic input/output with no side effects
+- **Existing test patterns**  the codebase already has similar tests to follow
 
 ---
 
@@ -310,7 +310,7 @@ When generating tests autonomously, follow these rules to decide when to stop an
 
 Property-based testing generates random inputs to verify invariants instead of relying on hand-picked examples. Use it when the input space is large and the expected behavior can be described as a property.
 
-### Python — Hypothesis
+### Python  Hypothesis
 
 ```python
 from hypothesis import given, strategies as st
@@ -326,7 +326,7 @@ def test_addition_is_commutative(a, b):
     assert a + b == b + a
 ```
 
-### TypeScript — fast-check
+### TypeScript  fast-check
 
 ```typescript
 import fc from "fast-check";
@@ -367,10 +367,10 @@ Mutation testing modifies your production code (creates "mutants") and checks wh
 
 ### Why Mutation Testing Matters
 
-- **100% line coverage != good tests** — coverage tells you code was executed, not that it was verified
-- **Catches weak assertions** — tests that run code but assert nothing meaningful
-- **Finds missing boundary tests** — mutants that change `<` to `<=` expose off-by-one gaps
-- **Quantifiable quality metric** — mutation score (% mutants killed) is a stronger signal than coverage %
+- **100% line coverage != good tests**  coverage tells you code was executed, not that it was verified
+- **Catches weak assertions**  tests that run code but assert nothing meaningful
+- **Finds missing boundary tests**  mutants that change `<` to `<=` expose off-by-one gaps
+- **Quantifiable quality metric**  mutation score (% mutants killed) is a stronger signal than coverage %
 
 **Recommendation:** Run mutation testing on critical paths (auth, payments, data processing) even if overall coverage is high. Target 85%+ mutation score on P0 modules.
 

@@ -1,7 +1,7 @@
 ---
 name: "chief-data-officer-advisor"
 description: >-
-  C—h—i—e—f— —D—a—t—a— —O—f—f—i—c—e—r— —a—d—v—i—s—o—r—y— —f—o—r— —s—t—a—r—t—u—p—s—:— —A—I— —t—r—a—i—n—i—n—g— —d—a—t—a— —r—i—g—h—t—s— —a—n—d— —c—o—n—s—e—n—t— —p—r—o—v—e—n—a—n—c—e—,— —d—a—t—a— —p—r—o—d—u—c—t— —s—t—r—a—t—e—g—y— —(—w—a—r—e—h—o—u—s—e— —v—s— —l—a—k—e—h—o—u—s—e— —v—s— —m—e—s—h—,— —b—u—i—l—d—-—v—s—-—b—u—y—)—,— —B—2—B— —c—u—s—t—o—m—e—r—-—d—a—t—a—-—a—s—-—a—s—s—e—t— —v—a—l—u—a—t—i—o—n— —a—n—d— —M—&—A— —r—e—a—d—i—n—e—s—s—,— —d—a—t—a— —t—e—a—m— —o—r—g— —e—v—o—l—u—t—i—o—n—.— —U—s—e— —w—h—e—n— —d—e—c—i—d—i—n—g— —w—h—e—t—h—e—r— —t—o— —t—r—a—i—n— —m—o—d—e—l—s— —o—n— —c—u—s—t—o—m—e—r— —d—a—t—a—,— —c—h—o—o—s—i—n—g— —d—a—t—a— —a—r—c—h—i—t—e—c—t—u—r—e—,— —v—a—l—u—i—n—g— —d—a—t—a— —f—o—r— —f—u—n—d—r—a—i—s—i—n—g— —o—r— —M—&—A—,— —s—e—q—u—e—n—c—i—n—g— —d—a—t—a— —h—i—r—e—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—D—O—,— —c—h—i—e—f— —d—a—t—a— —o—f—f—i—c—e—r—,— —d—a—t—a— —s—t—r—a—t—e—g—y—,— —d—a—t—a— —m—e—s—h—,— —l—a—k—e—h—o—u—s—e—,— —t—r—a—i—n—i—n—g— —d—a—t—a—,— —d—a—t—a— —p—r—o—d—u—c—t—,— —d—a—t—a— —m—o—n—e—t—i—z—a—t—i—o—n—,— —o—r— —c—u—s—t—o—m—e—r— —d—a—t—a— —a—s—s—e—t—.— —N—O—T— —a— —t—a—c—t—i—c—a—l— —d—a—t—a— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l— ——— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n—s— —o—n—l—y.
+  Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data, choosing data architecture, valuing data for fundraising or M&A, sequencing data hires, or when user mentions CDO, chief data officer, data strategy, data mesh, lakehouse, training data, data product, data monetization, or customer data asset. NOT a tactical data engineering skill  strategic decisions only. [Also supersedes `cdo-review`: triggers on '/cs:cdo-review', 'cdo review', 'data architecture interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -17,10 +17,10 @@ metadata:
 
 Strategic data leadership for startup CDOs and founders without one. **Four decisions, no surveys:**
 
-1. **Can we train our model on this data?** — origin × consent × use-case matrix
-2. **Warehouse, lakehouse, or mesh — and what do we build vs buy?** — stage-driven architecture
-3. **What is our customer data worth?** — strategic value + M&A multiplier + productization paths
-4. **What data role do we hire next?** — stage-to-role map, centralize-vs-embed trigger
+1. **Can we train our model on this data?**  origin × consent × use-case matrix
+2. **Warehouse, lakehouse, or mesh  and what do we build vs buy?**  stage-driven architecture
+3. **What is our customer data worth?**  strategic value + M&A multiplier + productization paths
+4. **What data role do we hire next?**  stage-to-role map, centralize-vs-embed trigger
 
 This skill does **not** cover tactical data engineering. For schema design, observability, query optimization, RAG, or ML platform implementation, see `engineering/database-designer/`, `engineering/observability-designer/`, `engineering/data-quality-auditor/`, `engineering/sql-database-assistant/`, `engineering/rag-architect/`, `engineering/llm-cost-optimizer/`.
 
@@ -94,7 +94,7 @@ See `references/ai_training_data_rights.md` for the full matrix + GDPR Art. 6 la
 
 ### 3. B2B Customer-Data-as-Asset
 
-**The shift:** at Series B+, customer data is no longer just operational — it’s an asset that can be:
+**The shift:** at Series B+, customer data is no longer just operational  it’s an asset that can be:
 - A defensibility moat (replicating requires years of customer cohort)
 - An M&A multiplier (1.2x–2x ARR uplift for strategic buyers)
 - A direct revenue stream (anonymized industry benchmarks, embedding endpoints, licensing)
@@ -117,8 +117,8 @@ Stage-to-role map (B2B SaaS baseline):
 
 | Stage | First hire | Then | Then |
 |---|---|---|---|
-| Pre-seed / seed | Founder-as-analyst (SQL + spreadsheets) | — | — |
-| Series A (Series A) | Analyst | Analytics engineer (dbt) | — |
+| Pre-seed / seed | Founder-as-analyst (SQL + spreadsheets) |  |  |
+| Series A (Series A) | Analyst | Analytics engineer (dbt) |  |
 | Series B | Data engineer | Senior analyst (embedded in GTM) | Data PM (if 3+ teams need data) |
 | Growth | Manager of analytics | ML engineer (if model is core) | Head of Data |
 | Late-stage | Head of Data → CDO | Specialized: BI, MLE, DPO | Federated owners per domain (mesh) |
@@ -174,7 +174,7 @@ python scripts/data_product_strategy_picker.py profile.json
 ## Output Standards (when invoked via cs-cdo-advisor)
 
 ```
-**Bottom Line:** [one sentence — decision and rationale]
+**Bottom Line:** [one sentence  decision and rationale]
 **The Decision:** [one of the 4 framings]
 **The Evidence:** [numbers, not adjectives]
 **How to Act:** [3 concrete next steps]
@@ -183,24 +183,150 @@ python scripts/data_product_strategy_picker.py profile.json
 
 ## Adjacent Skills
 
-- `c-level-advisor/skills/cto-advisor/` — architecture capacity, scaling cliffs
-- `c-level-advisor/skills/ciso-advisor/` — data security, threat modeling for productized data
-- `c-level-advisor/skills/general-counsel-advisor/` — contractual constraints, DPA, training-data rights
-- `c-level-advisor/skills/cfo-advisor/` — build-vs-buy TCO, M&A valuation math
-- `c-level-advisor/skills/chro-advisor/` — data team hiring, leveling, comp
-- `engineering/skills/database-designer/` — tactical schema design
-- `engineering/skills/rag-architect/` — tactical AI/RAG implementation
-- `engineering/llm-cost-optimizer/` — model cost management
+- `c-level-advisor/skills/cto-advisor/`  architecture capacity, scaling cliffs
+- `c-level-advisor/skills/ciso-advisor/`  data security, threat modeling for productized data
+- `c-level-advisor/skills/general-counsel-advisor/`  contractual constraints, DPA, training-data rights
+- `c-level-advisor/skills/cfo-advisor/`  build-vs-buy TCO, M&A valuation math
+- `c-level-advisor/skills/chro-advisor/`  data team hiring, leveling, comp
+- `engineering/skills/database-designer/`  tactical schema design
+- `engineering/skills/rag-architect/`  tactical AI/RAG implementation
+- `engineering/llm-cost-optimizer/`  model cost management
 
 ## References
 
-- [ai_training_data_rights.md](references/ai_training_data_rights.md) — The training-rights matrix + GDPR Art. 6 / EU AI Act decision tree
-- [data_product_strategy.md](references/data_product_strategy.md) — Warehouse / lakehouse / mesh kill criteria + build-vs-buy decision tree
-- [customer_data_as_asset.md](references/customer_data_as_asset.md) — Valuation framework + M&A diligence prep + productization paths
-- [data_team_org_evolution.md](references/data_team_org_evolution.md) — Stage-to-role map + centralize-vs-embed trigger
+- [ai_training_data_rights.md](references/ai_training_data_rights.md)  The training-rights matrix + GDPR Art. 6 / EU AI Act decision tree
+- [data_product_strategy.md](references/data_product_strategy.md)  Warehouse / lakehouse / mesh kill criteria + build-vs-buy decision tree
+- [customer_data_as_asset.md](references/customer_data_as_asset.md)  Valuation framework + M&A diligence prep + productization paths
+- [data_team_org_evolution.md](references/data_team_org_evolution.md)  Stage-to-role map + centralize-vs-embed trigger
 
 ---
 
 **Version:** 1.0.0
 **Status:** Production Ready
-**Disclaimer:** Decisions touching training data rights, data productization, or M&A data diligence should involve qualified counsel. This skill surfaces decisions and tradeoffs — it does not replace legal review.
+**Disclaimer:** Decisions touching training data rights, data productization, or M&A data diligence should involve qualified counsel. This skill surfaces decisions and tradeoffs  it does not replace legal review.
+
+---
+
+## Consolidated Capabilities: CDO-REVIEW (Subsumed & Superceded)
+
+# /cs:cdo-review  CDO Forcing Questions
+
+**Command:** `/cs:cdo-review <plan>`
+
+The decision-driven CDO pressure-tests any plan that touches data strategy. Six questions before any commitment to a data architecture, AI training run, data productization, or data team hire.
+
+## When to Run
+
+- Before approving any new ML model training run that uses customer data
+- Before signing a multi-year data-infrastructure SaaS contract (Snowflake, Databricks, Fivetran)
+- Before productizing any customer data (benchmark report, embedding endpoint, license)
+- Before a major data team hire (head of data, CDO, data PM, ML engineer)
+- Before M&A diligence  yours or theirs
+- When the founder uses the word "monetize" near "data"
+
+## The Six CDO Questions
+
+### 1. What decision does this data drive?
+**If no decision is unblocked, why are we collecting / training on / productizing it?**
+- "We might need it later" is not a decision.
+- "It feels like a moat" is not a decision.
+- A real answer names a specific business call that requires this data.
+
+### 2. What's the consent provenance for every source?
+**For each data source: origin, consent flow, data class, intended use.**
+- 1st-party-TOS-only is weaker than 1st-party-explicit-opt-in.
+- Bundled TOS doesn't cover material new purposes (training on PII for foundation models).
+- Run `ai_training_data_audit.py` if there's any AI use case in scope.
+
+### 3. Who consumes this internally  and how many distinct functional domains?
+**Drives the centralize-vs-embed and warehouse-vs-mesh decisions.**
+- <5 consumers: warehouse-only.
+- 5-25 consumers: lakehouse.
+- 25+ consumers + federated culture: mesh.
+- Premature architecture choice is the #1 cause of data-team burnout.
+
+### 4. What's the M&A diligence impact?
+**If an acquirer asks about this data corpus tomorrow, are we ready?**
+- Is there a documented anonymization process?
+- What % of customers have MSA carve-outs?
+- Are training-data provenance logs current?
+- Run `data_asset_valuator.py` quarterly.
+
+### 5. Can the model / decision / report be retrained / re-run / re-published without this source?
+**Tests how much you depend on a specific data source.**
+- If yes → low blast radius; you can change consent posture later.
+- If no → high blast radius; you've structurally committed to the source. Vet harder.
+
+### 6. What role unblocks this  and is it the right next hire?
+**Wrong hire (data scientist) when right answer (analytics engineer) is a 12-month productivity loss.**
+- Map the decision being unblocked to the specific role.
+- Confirm prerequisite roles are in place (data engineer before ML engineer, analyst before data scientist).
+
+## Workflow
+
+```bash
+# 1. AI training audit (if any ML / AI use case)
+python ../../../skills/chief-data-officer-advisor/scripts/ai_training_data_audit.py sources.json
+
+# 2. Architecture decision (if changing the stack)
+python ../../../skills/chief-data-officer-advisor/scripts/data_product_strategy_picker.py profile.json
+
+# 3. Data asset valuation (if productizing or pre-M&A)
+python ../../../skills/chief-data-officer-advisor/scripts/data_asset_valuator.py corpus.json
+```
+
+## Output Format
+
+```markdown
+# CDO Review: <plan>
+**Date:** YYYY-MM-DD
+
+## The Decision Being Made
+[one sentence  which of the four CDO decisions: training | architecture | asset | hire]
+
+## Training Audit (if applicable)
+- NO-GO sources: N
+- MITIGATE sources: N
+- GO sources: N
+- Top remediation: <one line>
+
+## Architecture (if applicable)
+- Recommended: WAREHOUSE / LAKEHOUSE / MESH
+- Build-vs-buy summary: <one line>
+- Kill criteria: <when to revisit>
+
+## Asset Value (if applicable)
+- Strategic value: X/10 | Moat: STRONG / MEDIUM / WEAK
+- M&A multiplier: X.Xx – X.Xx ARR
+- Recommended productization path: <name>
+
+## Org (if applicable)
+- Next hire: <role>
+- Why this, not that: <one line>
+- Prerequisite hires in place: yes/no
+
+## Verdict
+🟢 SHIP | 🟡 SHARPEN | 🔴 BLOCK
+
+## Next Steps
+[3 concrete actions]
+```
+
+## Routing
+
+- `/cs:gc-review`  for any productization or licensing path
+- `/cs:ciso-review`  for any architecture change touching customer data
+- `/cs:cfo-review`  for build-vs-buy TCO and M&A valuation math
+- `cs-chro-advisor` agent  for data team hires (comp, ladder, leveling)
+- `/cs:decide`  log the verdict
+- `/cs:freeze 90`  on multi-year infrastructure contracts
+
+## Related
+
+- Agent: [`cs-cdo-advisor`](../../agents/cs-cdo-advisor.md)
+- Skill: [`chief-data-officer-advisor`](../../../skills/chief-data-officer-advisor/SKILL.md)
+- Adjacent: `../../../skills/general-counsel-advisor/` (contractual constraints), `../../../skills/cto-advisor/` (architecture capacity)
+
+---
+
+**Version:** 1.0.0

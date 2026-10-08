@@ -1,7 +1,7 @@
 ---
 name: "chief-customer-officer-advisor"
 description: >-
-  C—h—i—e—f— —C—u—s—t—o—m—e—r— —O—f—f—i—c—e—r— —a—d—v—i—s—o—r—y— —f—o—r— —s—t—a—r—t—u—p—s—:— —r—e—t—e—n—t—i—o—n— —d—e—c—o—m—p—o—s—i—t—i—o—n— —(—g—r—o—s—s— —r—e—t—e—n—t—i—o—n— —v—s— —N—R—R— —h—o—n—e—s—t—y—,— —c—h—u—r—n— —r—o—o—t—-—c—a—u—s—e— —t—a—x—o—n—o—m—y—)—,— —c—u—s—t—o—m—e—r— —s—e—g—m—e—n—t—a—t—i—o—n— —s—t—r—a—t—e—g—y— —(—d—i—f—f—e—r—e—n—t—i—a—l— —i—n—v—e—s—t—m—e—n—t— —a—c—r—o—s—s— —t—i—e—r—s— —+— —I—C—P— —f—i—t— —s—c—o—r—i—n—g—)—,— —C—S— —t—e—a—m— —c—o—v—e—r—a—g—e— —m—o—d—e—l— —(—p—o—o—l—e—d— —v—s— —n—a—m—e—d— —C—S—M— —t—h—r—e—s—h—o—l—d—s— —+— —r—a—t—i—o— —m—a—t—h—)—,— —a—n—d— —C—S— —t—e—a—m— —o—r—g— —e—v—o—l—u—t—i—o—n— —(—C—S— —v—s— —S—u—p—p—o—r—t— —v—s— —A—M— —d—i—s—t—i—n—c—t—i—o—n—s—)—.— —U—s—e— —w—h—e—n— —d—e—s—i—g—n—i—n—g— —r—e—t—e—n—t—i—o—n— —s—t—r—a—t—e—g—y—,— —s—e—g—m—e—n—t—i—n—g— —c—u—s—t—o—m—e—r—s— —f—o—r— —d—i—f—f—e—r—e—n—t—i—a—l— —i—n—v—e—s—t—m—e—n—t—,— —s—i—z—i—n—g— —C—S— —t—e—a—m—,— —o—r— —s—e—q—u—e—n—c—i—n—g— —C—S— —h—i—r—e—s—.— —S—t—r—a—t—e—g—i—c— —o—n—l—y— ——— —d—o—e—s— —n—o—t— —d—u—p—l—i—c—a—t—e— —e—n—g—i—n—e—e—r—i—n—g—/—b—u—s—i—n—e—s—s—-—g—r—o—w—t—h— —t—a—c—t—i—c—a—l— —s—k—i—l—l—s.
+  Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math), and CS team org evolution (CS vs Support vs AM distinctions). Use when designing retention strategy, segmenting customers for differential investment, sizing CS team, or sequencing CS hires. Strategic only  does not duplicate engineering/business-growth tactical skills. [Also supersedes `cco-review`: triggers on '/cs:cco-review', 'cco review', 'churn interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -17,10 +17,10 @@ metadata:
 
 Strategic customer leadership for startup CCOs and founders without one. **Four decisions, no generic CS survey:**
 
-1. **What's our retention architecture — and is gross retention vs NRR honest?** — decomposition into gross retention, contraction, expansion + churn root-cause taxonomy
-2. **How do we segment customers for differential investment?** — tier design + ICP fit scoring + investment-per-segment math
-3. **What's the CS team's coverage model — and when do we go pooled vs named?** — coverage ratio calculator + transition thresholds
-4. **What CS role do we hire next?** — stage-to-role map (CS ≠ Support ≠ AM ≠ Implementation)
+1. **What's our retention architecture  and is gross retention vs NRR honest?**  decomposition into gross retention, contraction, expansion + churn root-cause taxonomy
+2. **How do we segment customers for differential investment?**  tier design + ICP fit scoring + investment-per-segment math
+3. **What's the CS team's coverage model  and when do we go pooled vs named?**  coverage ratio calculator + transition thresholds
+4. **What CS role do we hire next?**  stage-to-role map (CS ≠ Support ≠ AM ≠ Implementation)
 
 This skill does **not** cover tactical CS implementation. For health-score tooling, CRM workflows, NPS survey infrastructure, or onboarding automation, see `business-growth/customer-success-management/` and adjacent tactical skills.
 
@@ -46,11 +46,11 @@ python scripts/cs_coverage_calculator.py path/to/book.json
 
 ## Key Questions (ask these first)
 
-- **What's your GROSS retention rate?** (Not NRR — NRR hides churn behind expansion. Ask gross first.)
+- **What's your GROSS retention rate?** (Not NRR  NRR hides churn behind expansion. Ask gross first.)
 - **What's the #1 reason customers leave?** (If you can't name it, you don't understand churn.)
 - **What's the median time-to-value (TTV) by segment?** (Long TTV in low tier = misfit; long TTV in high tier = onboarding broken.)
-- **Which customer would you fire today?** (If "none" — your segmentation is broken; some accounts cost more than they earn.)
-- **What's your ARR-per-CSM ratio, and what's the model — pooled or named?** (Stage and ACV determine the right answer.)
+- **Which customer would you fire today?** (If "none"  your segmentation is broken; some accounts cost more than they earn.)
+- **What's your ARR-per-CSM ratio, and what's the model  pooled or named?** (Stage and ACV determine the right answer.)
 - **Is CS in your comp plan, and how is it different from Sales comp?** (CS comp on retention; misalignment is a leading indicator of failure.)
 
 ## Core Responsibilities
@@ -181,7 +181,7 @@ python scripts/cs_coverage_calculator.py book.json
 ## Output Standards
 
 ```
-**Bottom Line:** [one sentence — decision and rationale]
+**Bottom Line:** [one sentence  decision and rationale]
 **The Decision:** [one of: retention | segmentation | coverage | next hire]
 **The Evidence:** [numbers from the tool, not adjectives]
 **How to Act:** [3 concrete next steps]
@@ -190,22 +190,152 @@ python scripts/cs_coverage_calculator.py book.json
 
 ## Adjacent Skills
 
-- `c-level-advisor/skills/cro-advisor/` — Revenue math, NRR, expansion comp (CCO owns customer experience; CRO owns revenue math; clean split)
-- `c-level-advisor/skills/cpo-advisor/` — Product strategy, JTBD (CCO surfaces product gaps; CPO decides roadmap)
-- `c-level-advisor/skills/cmo-advisor/` — Customer marketing, advocacy, references
-- `c-level-advisor/skills/cfo-advisor/` — CS team cost, retention-impact-on-revenue math
-- `c-level-advisor/skills/chro-advisor/` — CS team hiring + leveling
-- `business-growth/` — Tactical CS execution: health scores, CRM workflows, onboarding tooling
+- `c-level-advisor/skills/cro-advisor/`  Revenue math, NRR, expansion comp (CCO owns customer experience; CRO owns revenue math; clean split)
+- `c-level-advisor/skills/cpo-advisor/`  Product strategy, JTBD (CCO surfaces product gaps; CPO decides roadmap)
+- `c-level-advisor/skills/cmo-advisor/`  Customer marketing, advocacy, references
+- `c-level-advisor/skills/cfo-advisor/`  CS team cost, retention-impact-on-revenue math
+- `c-level-advisor/skills/chro-advisor/`  CS team hiring + leveling
+- `business-growth/`  Tactical CS execution: health scores, CRM workflows, onboarding tooling
 
 ## References
 
-- [retention_decomposition.md](references/retention_decomposition.md) — GRR vs NRR honest math + 7-category churn taxonomy + leading indicator playbook
-- [customer_segmentation_strategy.md](references/customer_segmentation_strategy.md) — 4-tier framework + ICP fit scoring + tier transition triggers + kill list criteria
-- [cs_coverage_model.md](references/cs_coverage_model.md) — Coverage model decision (tech-touch / pooled / named / named+exec) + ratio benchmarks + manager-trigger
-- [cs_team_org_evolution.md](references/cs_team_org_evolution.md) — Stage-to-role map + 6-role definition table (CSM ≠ Support ≠ AM ≠ IM ≠ CS Ops ≠ Customer Marketing) + AM-vs-CSM split decision + anti-patterns
+- [retention_decomposition.md](references/retention_decomposition.md)  GRR vs NRR honest math + 7-category churn taxonomy + leading indicator playbook
+- [customer_segmentation_strategy.md](references/customer_segmentation_strategy.md)  4-tier framework + ICP fit scoring + tier transition triggers + kill list criteria
+- [cs_coverage_model.md](references/cs_coverage_model.md)  Coverage model decision (tech-touch / pooled / named / named+exec) + ratio benchmarks + manager-trigger
+- [cs_team_org_evolution.md](references/cs_team_org_evolution.md)  Stage-to-role map + 6-role definition table (CSM ≠ Support ≠ AM ≠ IM ≠ CS Ops ≠ Customer Marketing) + AM-vs-CSM split decision + anti-patterns
 
 ---
 
 **Version:** 1.0.0
 **Status:** Production Ready
 **Disclaimer:** Retention benchmarks vary significantly by ACV, segment, and industry. This skill provides B2B SaaS-baseline guidance; consumer SaaS, marketplaces, and hardware all have materially different retention math.
+
+---
+
+## Consolidated Capabilities: CCO-REVIEW (Subsumed & Superceded)
+
+# /cs:cco-review  CCO Forcing Questions
+
+**Command:** `/cs:cco-review <plan>`
+
+The retention-obsessed CCO pressure-tests any plan that touches customer experience. Six questions before any retention claim, segmentation change, CS team expansion, or major CS hire.
+
+## When to Run
+
+- Before any board narrative that includes a retention number
+- Before approving a CS team headcount expansion
+- Before re-segmenting the customer base or changing tier definitions
+- Before launching a customer marketing or advocacy program
+- Before a major CS hire (CSM, AM, Implementation, Customer Marketing)
+- When NRR is "great" but churn complaints from CSMs are increasing
+- Before deciding whether to add an AM role separate from CSM
+
+## The Six CCO Questions
+
+### 1. What's the GROSS retention rate?
+**Not NRR. Gross.** NRR can hide a leaky bucket behind expansion.
+- GRR healthy ≥ 90% at growth stage, ≥ 95% at scale
+- If GRR < 85% but NRR > 100%, the product is failing for 15%+ of customers; expansion is masking the failure
+- Run `retention_decomposition_analyzer.py`
+
+### 2. What's the #1 reason customers leave?
+**If you can't name it, you don't understand churn.**
+- 7-category taxonomy: product_fit / competitor_loss / no_value_realized / pricing / champion_left / company_event / tactical_failure
+- Preventable churn = product_fit + no_value_realized + tactical_failure
+- If preventable > 50%, CS has clear leverage; if < 30%, churn is structural (ICP, market, competition)
+
+### 3. What's the median time-to-value (TTV) by segment?
+**Long TTV signals different problems by segment.**
+- Long TTV in low tier = ICP misfit; downgrade or kill
+- Long TTV in high tier = onboarding broken; fix the Implementation Manager handoff
+- TTV is a leading indicator of GRR
+
+### 4. Which customer would you fire today?
+**If "none"  your segmentation is broken.**
+- Some accounts cost more than they earn (support cost > 50% of ARR + low ICP fit)
+- Run `customer_segmentation_designer.py` to surface kill list
+- The 3 paths for kill candidates: non-renewal / downgrade-to-tech-touch / raise-price-to-cost-recover
+
+### 5. What's the ARR-per-CSM ratio, and is the model pooled or named?
+**Wrong model wastes capacity.**
+- Strategic: named + exec sponsor, $300K-$1M ARR/CSM
+- Enterprise: named, $500K-$2M
+- Mid-market: pooled, $2M-$5M
+- SMB: tech-touch, $5M+
+- Run `cs_coverage_calculator.py` to size the team
+
+### 6. Is CS in your comp plan, and how is it different from Sales comp?
+**Misalignment is the leading indicator of CS failure.**
+- CS comp: 70/30 base/variable typical
+- Variable: 50% gross retention + 30% net retention + 20% activity
+- Anti-pattern: comp CSMs on NPS  they game it
+- Anti-pattern: comp CSMs same as Sales  they sell instead of serve
+
+## Workflow
+
+```bash
+# 1. Retention decomposition (always start here)
+python ../../../skills/chief-customer-officer-advisor/scripts/retention_decomposition_analyzer.py cohorts.json
+
+# 2. Segmentation audit
+python ../../../skills/chief-customer-officer-advisor/scripts/customer_segmentation_designer.py customers.json
+
+# 3. Coverage sizing (if making CS team changes)
+python ../../../skills/chief-customer-officer-advisor/scripts/cs_coverage_calculator.py book.json
+```
+
+## Output Format
+
+```markdown
+# CCO Review: <plan>
+**Date:** YYYY-MM-DD
+
+## The Decision Being Made
+[one sentence  retention | segmentation | coverage | next hire]
+
+## Retention (if applicable)
+- GRR: X% (vs vanity NRR of Y%)
+- Top churn driver: <category> at X% of churn
+- Preventable churn: X% (CS-controllable)
+- Leaky-bucket pattern? yes/no
+
+## Segmentation (if applicable)
+- Tier distribution: Strategic X / Enterprise X / Mid-market X / SMB X
+- Kill list size: N customers (X% of customers, Y% of ARR)
+- Upgrade candidates: N
+
+## Coverage (if applicable)
+- Current CSMs: N | Required now: M | Required 12mo: P
+- Annual cost (12mo): $X
+- Manager trigger fired: yes/no
+
+## Org (if applicable)
+- Next hire: <CSM | Support | AM | IM | CS Ops | Customer Marketing>
+- Why this, not the alternative: <one line>
+- Customer outcome unblocked: <specific>
+
+## Verdict
+🟢 SHIP | 🟡 SHARPEN | 🔴 BLOCK
+
+## Next Steps
+[3 concrete actions]
+```
+
+## Routing
+
+- `/cs:cpo-review`  if churn root cause is product_fit or no_value_realized
+- `/cs:cro-review`  if expansion math or comp alignment is in question
+- `/cs:cfo-review`  for CS cost commitments and retention-impact-on-revenue
+- `cs-chro-advisor` agent  for CS hires, comp, ladder
+- `/cs:decide`  log the verdict
+- `/cs:freeze 30`  on multi-year CS comp plan changes
+
+## Related
+
+- Agent: [`cs-cco-advisor`](../../agents/cs-cco-advisor.md)
+- Skill: [`chief-customer-officer-advisor`](../../../skills/chief-customer-officer-advisor/SKILL.md)
+- Adjacent: `../../../../business-growth/` (tactical CS execution)
+
+---
+
+**Version:** 1.0.0

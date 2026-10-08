@@ -4,19 +4,19 @@
     "name": "Nicolas Donatelli",
     "url": "https://github.com/Njdonatelli"
   },
-  "description": "Personal hosted marketplace of Claude Code skills. Install once, get every skill on any machine. 383 skills across 1 plugin(s).",
+  "description": "Personal hosted marketplace of Claude Code skills. Install once, get every skill on any machine. 345 skills across 1 plugin(s).",
   "homepage": "https://github.com/Njdonatelli/masterskills",
   "repository": "https://github.com/Njdonatelli/masterskills",
   "metadata": {
     "description": "Personal hosted marketplace of Claude Code skills. Install once, get every skill on any machine.",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "masterskills",
       "source": "./plugins/masterskills",
-      "description": "The complete master skill library. 383 skills.",
-      "version": "1.1.0",
+      "description": "The complete master skill library. 345 skills.",
+      "version": "1.2.0",
       "author": {
         "name": "Nicolas Donatelli",
         "url": "https://github.com/Njdonatelli"

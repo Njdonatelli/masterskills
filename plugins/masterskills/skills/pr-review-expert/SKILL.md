@@ -1,7 +1,7 @@
 ---
 name: "pr-review-expert"
 description: >-
-  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —r—e—v—i—e—w— —p—u—l—l— —r—e—q—u—e—s—t—s—,— —a—n—a—l—y—z—e— —c—o—d—e— —c—h—a—n—g—e—s—,— —c—h—e—c—k— —f—o—r— —s—e—c—u—r—i—t—y— —i—s—s—u—e—s— —i—n— —P—R—s—,— —o—r— —a—s—s—e—s—s— —c—o—d—e— —q—u—a—l—i—t—y— —o—f— —d—i—f—f—s.
+  Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs. [Also supersedes `code-reviewer`: triggers on 'code reviewer', 'code review automation', 'SOLID violations']
 ---
 
 # PR Review Expert
@@ -14,7 +14,7 @@ description: >-
 
 ## Overview
 
-Structured, systematic code review for GitHub PRs and GitLab MRs. Goes beyond style nits — this skill
+Structured, systematic code review for GitHub PRs and GitLab MRs. Goes beyond style nits  this skill
 performs blast radius analysis, security scanning, breaking change detection, and test coverage delta
 calculation. Produces a reviewer-ready report with a 30+ item checklist and prioritized findings.
 
@@ -22,12 +22,12 @@ calculation. Produces a reviewer-ready report with a 30+ item checklist and prio
 
 ## Core Capabilities
 
-- **Blast radius analysis** — trace which files, services, and downstream consumers could break
-- **Security scan** — SQL injection, XSS, auth bypass, secret exposure, dependency vulns
-- **Test coverage delta** — new code vs new tests ratio
-- **Breaking change detection** — API contracts, DB schema migrations, config keys
-- **Ticket linking** — verify Jira/Linear ticket exists and matches scope
-- **Performance impact** — N+1 queries, bundle size regression, memory allocations
+- **Blast radius analysis**  trace which files, services, and downstream consumers could break
+- **Security scan**  SQL injection, XSS, auth bypass, secret exposure, dependency vulns
+- **Test coverage delta**  new code vs new tests ratio
+- **Breaking change detection**  API contracts, DB schema migrations, config keys
+- **Ticket linking**  verify Jira/Linear ticket exists and matches scope
+- **Performance impact**  N+1 queries, bundle size regression, memory allocations
 
 ---
 
@@ -37,7 +37,7 @@ calculation. Produces a reviewer-ready report with a 30+ item checklist and prio
 - When a PR is large (>200 lines changed) and needs structured review
 - Onboarding new contributors whose PRs need thorough feedback
 - Security-sensitive code paths (auth, payments, PII handling)
-- After an incident — review similar PRs proactively
+- After an incident  review similar PRs proactively
 
 ---
 
@@ -80,7 +80,7 @@ glab mr diff <MR_IID> > /tmp/mr-<MR_IID>.diff
 
 ## Workflow
 
-### Step 1 — Fetch Context
+### Step 1  Fetch Context
 
 ```bash
 PR=123
@@ -89,11 +89,11 @@ gh pr diff $PR --name-only
 gh pr diff $PR > /tmp/pr-$PR.diff
 ```
 
-### Step 2 — Blast Radius Analysis
+### Step 2  Blast Radius Analysis
 
 For each changed file, identify:
 
-1. **Direct dependents** — who imports this file?
+1. **Direct dependents**  who imports this file?
 ```bash
 # Find all files importing a changed module
 grep -r "from ['\"].*changed-module['\"]" src/ --include="*.ts" -l
@@ -103,29 +103,29 @@ grep -r "require(['\"].*changed-module" src/ --include="*.js" -l
 grep -r "from changed_module import\|import changed_module" . --include="*.py" -l
 ```
 
-2. **Service boundaries** — does this change cross a service?
+2. **Service boundaries**  does this change cross a service?
 ```bash
 # Check if changed files span multiple services (monorepo)
 gh pr diff $PR --name-only | cut -d/ -f1-2 | sort -u
 ```
 
-3. **Shared contracts** — types, interfaces, schemas
+3. **Shared contracts**  types, interfaces, schemas
 ```bash
 gh pr diff $PR --name-only | grep -E "types/|interfaces/|schemas/|models/"
 ```
 
 **Blast radius severity:**
-- CRITICAL — shared library, DB model, auth middleware, API contract
-- HIGH     — service used by >3 others, shared config, env vars
-- MEDIUM   — single service internal change, utility function
-- LOW      — UI component, test file, docs
+- CRITICAL  shared library, DB model, auth middleware, API contract
+- HIGH      service used by >3 others, shared config, env vars
+- MEDIUM    single service internal change, utility function
+- LOW       UI component, test file, docs
 
-### Step 3 — Security Scan
+### Step 3  Security Scan
 
 ```bash
 DIFF=/tmp/pr-$PR.diff
 
-# SQL Injection — raw query string interpolation
+# SQL Injection  raw query string interpolation
 grep -n "query\|execute\|raw(" $DIFF | grep -E '\$\{|f"|%s|format\('
 
 # Hardcoded secrets
@@ -156,7 +156,7 @@ grep -n "__proto__\|constructor\[" $DIFF
 grep -nE "path\.join\(.*req\.|readFile\(.*req\." $DIFF
 ```
 
-### Step 4 — Test Coverage Delta
+### Step 4  Test Coverage Delta
 
 ```bash
 # Count source vs test files changed
@@ -181,7 +181,7 @@ pytest --cov --cov-report=term-missing 2>/dev/null | tail -20
 - Coverage drop >5% → block merge
 - Auth/payments paths → require 100% coverage
 
-### Step 5 — Breaking Change Detection
+### Step 5  Breaking Change Detection
 
 #### API Contract Changes
 ```bash
@@ -219,7 +219,7 @@ grep "^+" /tmp/pr-$PR.diff | grep -oE "process\.env\.[A-Z_]+" | sort -u
 grep "^-" /tmp/pr-$PR.diff | grep -oE "process\.env\.[A-Z_]+" | sort -u
 ```
 
-### Step 6 — Performance Impact
+### Step 6  Performance Impact
 
 ```bash
 # N+1 query patterns (DB calls inside loops)
@@ -250,7 +250,7 @@ gh pr view $PR --json body | jq -r '.body' | \
 
 # Verify Jira ticket exists (requires JIRA_API_TOKEN to be SET in the environment).
 # Credentials are fed to curl via a config read from stdin (-K -) so the token
-# never appears in argv — `ps aux` / /proc/*/cmdline can't see it, and nothing
+# never appears in argv  `ps aux` / /proc/*/cmdline can't see it, and nothing
 # secret lands in shell history. Never paste the raw token on the command line.
 TICKET="PROJ-123"
 : "${JIRA_API_TOKEN:?JIRA_API_TOKEN must be set}"
@@ -259,7 +259,7 @@ curl -s -K - "https://your-org.atlassian.net/rest/api/3/issue/$TICKET" <<EOF | \
 user = "user@company.com:$JIRA_API_TOKEN"
 EOF
 
-# Linear ticket — same pattern: the Authorization header goes through the
+# Linear ticket  same pattern: the Authorization header goes through the
 # stdin config, not a -H flag, to keep the key out of the process list.
 LINEAR_ID="abc-123"
 : "${LINEAR_API_KEY:?LINEAR_API_KEY must be set}"
@@ -272,7 +272,7 @@ EOF
 
 > **Security note:** for repeated Jira use, prefer a `~/.netrc` entry
 > (`machine your-org.atlassian.net login user@company.com password <token>`,
-> `chmod 600 ~/.netrc`) and call `curl -s --netrc …` — no secret material in
+> `chmod 600 ~/.netrc`) and call `curl -s --netrc …`  no secret material in
 > the command at all.
 
 ---
@@ -347,7 +347,7 @@ Structure your review comment as:
 ```
 ## PR Review: [PR Title] (#NUMBER)
 
-Blast Radius: HIGH — changes lib/auth used by 5 services
+Blast Radius: HIGH  changes lib/auth used by 5 services
 Security: 1 finding (medium severity)
 Tests: Coverage delta +2%
 Breaking Changes: None detected
@@ -366,7 +366,7 @@ Breaking Changes: None detected
 --- SUGGESTIONS ---
 
 3. N+1 pattern in src/services/reports.ts:88
-   findUser() called inside results.map() — batch with findManyUsers(ids)
+   findUser() called inside results.map()  batch with findManyUsers(ids)
 
 --- LOOKS GOOD ---
 - Test coverage for new auth flow is thorough
@@ -378,21 +378,21 @@ Breaking Changes: None detected
 
 ## Common Pitfalls
 
-- **Reviewing style over substance** — let the linter handle style; focus on logic, security, correctness
-- **Missing blast radius** — a 5-line change in a shared utility can break 20 services
-- **Approving untested happy paths** — always verify error paths have coverage
-- **Ignoring migration risk** — NOT NULL additions need a default or two-phase migration
-- **Indirect secret exposure** — secrets in error messages/logs, not just hardcoded values
-- **Skipping large PRs** — if a PR is too large to review properly, request it be split
+- **Reviewing style over substance**  let the linter handle style; focus on logic, security, correctness
+- **Missing blast radius**  a 5-line change in a shared utility can break 20 services
+- **Approving untested happy paths**  always verify error paths have coverage
+- **Ignoring migration risk**  NOT NULL additions need a default or two-phase migration
+- **Indirect secret exposure**  secrets in error messages/logs, not just hardcoded values
+- **Skipping large PRs**  if a PR is too large to review properly, request it be split
 
 ---
 
 ## Best Practices
 
-1. Read the linked ticket before looking at code — context prevents false positives
-2. Check CI status before reviewing — don't review code that fails to build
+1. Read the linked ticket before looking at code  context prevents false positives
+2. Check CI status before reviewing  don't review code that fails to build
 3. Prioritize blast radius and security over style
 4. Reproduce locally for non-trivial auth or performance changes
 5. Label each comment clearly: "nit:", "must:", "question:", "suggestion:"
-6. Batch all comments in one review round — don't trickle feedback
-7. Acknowledge good patterns, not just problems — specific praise improves culture
+6. Batch all comments in one review round  don't trickle feedback
+7. Acknowledge good patterns, not just problems  specific praise improves culture

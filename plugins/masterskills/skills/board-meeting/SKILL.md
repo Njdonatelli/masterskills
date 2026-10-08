@@ -1,7 +1,7 @@
 ---
 name: "board-meeting"
 description: >-
-  M—u—l—t—i—-—a—g—e—n—t— —b—o—a—r—d— —m—e—e—t—i—n—g— —p—r—o—t—o—c—o—l— —f—o—r— —s—t—r—a—t—e—g—i—c— —d—e—c—i—s—i—o—n—s—.— —R—u—n—s— —a— —s—t—r—u—c—t—u—r—e—d— —6—-—p—h—a—s—e— —d—e—l—i—b—e—r—a—t—i—o—n—:— —c—o—n—t—e—x—t— —l—o—a—d—i—n—g—,— —i—n—d—e—p—e—n—d—e—n—t— —C—-—s—u—i—t—e— —c—o—n—t—r—i—b—u—t—i—o—n—s— —(—i—s—o—l—a—t—e—d—,— —n—o— —c—r—o—s—s—-—p—o—l—l—i—n—a—t—i—o—n—)—,— —c—r—i—t—i—c— —a—n—a—l—y—s—i—s—,— —s—y—n—t—h—e—s—i—s—,— —f—o—u—n—d—e—r— —r—e—v—i—e—w—,— —a—n—d— —d—e—c—i—s—i—o—n— —e—x—t—r—a—c—t—i—o—n—.— —U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —i—n—v—o—k—e—s— —/—c—s—:—b—o—a—r—d—r—o—o—m—,— —c—a—l—l—s— —a— —b—o—a—r—d— —m—e—e—t—i—n—g—,— —o—r— —w—a—n—t—s— —s—t—r—u—c—t—u—r—e—d— —m—u—l—t—i—-—p—e—r—s—p—e—c—t—i—v—e— —e—x—e—c—u—t—i—v—e— —d—e—l—i—b—e—r—a—t—i—o—n— —o—n— —a— —s—t—r—a—t—e—g—i—c— —q—u—e—s—t—i—o—n.
+  Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:boardroom, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question. [Also supersedes `boardroom`: triggers on '/cs:boardroom', 'boardroom', 'board memo']
 license: MIT
 metadata:
   version: 1.0.0
@@ -20,7 +20,7 @@ Structured multi-agent deliberation that prevents groupthink, captures minority 
 board meeting, executive deliberation, strategic decision, C-suite, multi-agent, /cs:boardroom, founder review, decision extraction, independent perspectives
 
 ## Invoke
-`/cs:boardroom [topic]` — e.g. `/cs:boardroom Should we expand to Spain in Q3?`
+`/cs:boardroom [topic]`  e.g. `/cs:boardroom Should we expand to Spain in Q3?`
 
 ---
 
@@ -28,8 +28,8 @@ board meeting, executive deliberation, strategic decision, C-suite, multi-agent,
 
 ### PHASE 1: Context Gathering
 1. Load `~/.claude/company-context.md`
-2. Load Layer 2 approved decisions from `~/.claude/decisions/approved/` **(Layer 2 ONLY — never raw transcripts)**
-3. Reset session state — no bleed from previous conversations
+2. Load Layer 2 approved decisions from `~/.claude/decisions/approved/` **(Layer 2 ONLY  never raw transcripts)**
+3. Reset session state  no bleed from previous conversations
 4. Present agenda + activated roles → wait for founder confirmation
 
 **Chief of Staff selects relevant roles** based on topic (not all 14 every time):
@@ -58,11 +58,11 @@ Order: Research (if needed) → CMO → CFO → CEO → CTO → COO → CHRO →
 
 **Contribution format (max 5 key points, self-verified):**
 ```
-## [ROLE] — [DATE]
+## [ROLE]  [DATE]
 
 Key points (max 5):
-• [Finding] — [VERIFIED/ASSUMED] — 🟢/🟡/🔴
-• [Finding] — [VERIFIED/ASSUMED] — 🟢/🟡/🔴
+• [Finding]  [VERIFIED/ASSUMED]  🟢/🟡/🔴
+• [Finding]  [VERIFIED/ASSUMED]  🟢/🟡/🔴
 
 Recommendation: [clear position]
 Confidence: High / Medium / Low
@@ -102,7 +102,7 @@ Chief of Staff delivers using the **Board Meeting Output** format (defined in `.
 **Full stop. Wait for the founder.**
 
 ```
-⏸️ FOUNDER REVIEW — [Paste synthesis]
+⏸️ FOUNDER REVIEW  [Paste synthesis]
 
 Options: ✅ Approve | ✏️ Modify | ❌ Reject | ❓ Ask follow-up
 ```
@@ -129,10 +129,10 @@ Uses the canonical two-layer decision memory (see `../agent-protocol/SKILL.md` �
 
 ```
 ~/.claude/decisions/
-├── raw/YYYY-MM-DD-<slug>.md        # Layer 1 — full transcripts (never auto-loaded)
+├── raw/YYYY-MM-DD-<slug>.md        # Layer 1  full transcripts (never auto-loaded)
 ├── raw/archive/YYYY/               # Raw transcripts after 90 days
-├── approved/YYYY-MM-DD-<slug>.md   # Layer 2 — founder-approved records (Phase 1 loads these)
-└── approved/decisions.md           # Layer 2 index — append-only
+├── approved/YYYY-MM-DD-<slug>.md   # Layer 2  founder-approved records (Phase 1 loads these)
+└── approved/decisions.md           # Layer 2 index  append-only
 ```
 
 **Future meetings load Layer 2 only.** Never Layer 1. This prevents hallucinated consensus.
@@ -148,11 +148,11 @@ Migration: a legacy `memory/board-meetings/` folder may exist from earlier versi
 | Analysis paralysis | Cap at 5 points; force recommendation even with Low confidence |
 | Bikeshedding | Log as async action item; return to main agenda |
 | Role bleed (CFO making product calls) | Critic flags; exclude from synthesis |
-| Layer contamination | Phase 1 loads `~/.claude/decisions/approved/` only — hard rule |
+| Layer contamination | Phase 1 loads `~/.claude/decisions/approved/` only  hard rule |
 
 ---
 
 ## References
-- `templates/meeting-agenda.md` — agenda format
-- `templates/meeting-minutes.md` — final output format
-- `references/meeting-facilitation.md` — conflict handling, timing, failure modes
+- `templates/meeting-agenda.md`  agenda format
+- `templates/meeting-minutes.md`  final output format
+- `references/meeting-facilitation.md`  conflict handling, timing, failure modes

@@ -1,7 +1,7 @@
 ---
 name: "chief-ai-officer-advisor"
 description: >-
-  C—h—i—e—f— —A—I— —O—f—f—i—c—e—r— —a—d—v—i—s—o—r—y— —f—o—r— —s—t—a—r—t—u—p—s—:— —m—o—d—e—l— —b—u—i—l—d—-—v—s—-—b—u—y— —d—e—c—i—s—i—o—n—s— —(—A—P—I— —v—s— —f—i—n—e—-—t—u—n—e— —v—s— —i—n—-—h—o—u—s—e—)—,— —A—I— —r—i—s—k— —c—l—a—s—s—i—f—i—c—a—t—i—o—n— —u—n—d—e—r— —E—U— —A—I— —A—c—t— —+— —U—S— —s—t—a—t—e— —p—a—t—c—h—w—o—r—k—,— —A—I— —c—o—s—t— —e—c—o—n—o—m—i—c—s— —(—A—P—I—-—t—o—-—s—e—l—f—-—h—o—s—t—e—d— —b—r—e—a—k—e—v—e—n—)—,— —a—n—d— —A—I— —t—e—a—m— —o—r—g— —e—v—o—l—u—t—i—o—n—.— —U—s—e— —w—h—e—n— —d—e—c—i—d—i—n—g— —w—h—e—t—h—e—r— —t—o— —c—a—l—l— —a—n— —A—P—I— —o—r— —f—i—n—e—-—t—u—n—e—,— —c—l—a—s—s—i—f—y—i—n—g— —A—I— —u—s—e— —c—a—s—e—s— —f—o—r— —r—e—g—u—l—a—t—o—r—y— —r—i—s—k—,— —c—a—l—c—u—l—a—t—i—n—g— —w—h—e—n— —s—e—l—f—-—h—o—s—t—i—n—g— —p—a—y—s— —o—f—f—,— —s—e—q—u—e—n—c—i—n—g— —A—I— —h—i—r—e—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—A—I—O—,— —A—I— —s—t—r—a—t—e—g—y—,— —m—o—d—e—l— —s—e—l—e—c—t—i—o—n—,— —f—o—u—n—d—a—t—i—o—n— —m—o—d—e—l—,— —f—i—n—e—-—t—u—n—i—n—g—,— —E—U— —A—I— —A—c—t—,— —N—I—S—T— —A—I— —R—M—F—,— —A—I— —g—o—v—e—r—n—a—n—c—e—,— —m—o—d—e—l— —r—i—s—k—,— —o—r— —A—I— —e—c—o—n—o—m—i—c—s—.— —S—t—r—a—t—e—g—i—c— —o—n—l—y— ——— —d—o—e—s— —n—o—t— —d—u—p—l—i—c—a—t—e— —e—n—g—i—n—e—e—r—i—n—g— —A—I—/—M—L— —s—k—i—l—l—s.
+  Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution. Use when deciding whether to call an API or fine-tune, classifying AI use cases for regulatory risk, calculating when self-hosting pays off, sequencing AI hires, or when user mentions CAIO, AI strategy, model selection, foundation model, fine-tuning, EU AI Act, NIST AI RMF, AI governance, model risk, or AI economics. Strategic only  does not duplicate engineering AI/ML skills. [Also supersedes `caio-review`: triggers on '/cs:caio-review', 'caio review', 'AI governance interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -17,10 +17,10 @@ metadata:
 
 Strategic AI leadership for startup CAIOs and founders without one. **Four decisions, no AI hype:**
 
-1. **Should we use an API, fine-tune, or build our own?** — model build-vs-buy with 3-year TCO
-2. **Is this AI use case high-risk under regulation, and how do we govern it?** — EU AI Act + NIST AI RMF + US state patchwork
-3. **When do we switch from API to self-hosted, and at what cost?** — token economics with breakeven analysis
-4. **What AI role do we hire next?** — stage-to-role map (AI engineer ≠ ML engineer ≠ research scientist)
+1. **Should we use an API, fine-tune, or build our own?**  model build-vs-buy with 3-year TCO
+2. **Is this AI use case high-risk under regulation, and how do we govern it?**  EU AI Act + NIST AI RMF + US state patchwork
+3. **When do we switch from API to self-hosted, and at what cost?**  token economics with breakeven analysis
+4. **What AI role do we hire next?**  stage-to-role map (AI engineer ≠ ML engineer ≠ research scientist)
 
 This skill does **not** cover tactical AI/ML engineering. For RAG implementation, agent design, prompt engineering, eval infrastructure, model deployment, or cost optimization, see `engineering/rag-architect/`, `engineering/agent-designer/`, `engineering/prompt-governance/`, `engineering/self-eval/`, `engineering/llm-cost-optimizer/`.
 
@@ -57,7 +57,7 @@ python scripts/ai_cost_economics.py path/to/workload.json
 
 ### 1. Model Build-vs-Buy
 
-The decision is not "use AI or not" — it's **API vs fine-tune vs in-house** for each use case. Each path has a different TCO curve, latency profile, and capability ceiling.
+The decision is not "use AI or not"  it's **API vs fine-tune vs in-house** for each use case. Each path has a different TCO curve, latency profile, and capability ceiling.
 
 **Default path: API (frontier model)**
 - Use when: well-served by frontier (Claude, GPT, Gemini), QPS < 100, latency budget > 1s, cost < $50K/month
@@ -92,12 +92,12 @@ The 2026 question every founder is facing: **does this AI use case trigger high-
 
 **US state patchwork (non-exhaustive):**
 
-- NYC LL 144 — Automated Employment Decision Tools (AEDTs) require annual bias audit + candidate notice
-- Colorado AI Act / SB 21-169 — AI in consumer decisions (credit, insurance, employment, housing)
-- Illinois HB 53 — AI in interview/hiring
-- California SB 1001 — Bot disclosure
-- Texas TCPA — Biometric identifier capture
-- Federal NIST AI RMF — voluntary; increasingly referenced in contracts
+- NYC LL 144  Automated Employment Decision Tools (AEDTs) require annual bias audit + candidate notice
+- Colorado AI Act / SB 21-169  AI in consumer decisions (credit, insurance, employment, housing)
+- Illinois HB 53  AI in interview/hiring
+- California SB 1001  Bot disclosure
+- Texas TCPA  Biometric identifier capture
+- Federal NIST AI RMF  voluntary; increasingly referenced in contracts
 
 **Industry-specific overlays:**
 
@@ -113,10 +113,10 @@ See `references/ai_risk_governance.md` for the full regulatory landscape + gover
 
 **Key components:**
 
-- **API cost** — variable, per-token. Frontier models 2026: Claude Sonnet 4.6 ~$3/$15 per M tokens (input/output), GPT-4o ~$2.50/$10, Gemini 2.5 ~$1.25/$5
-- **Self-hosted cost** — fixed (GPU commitment) + variable (electricity). H100 spot ~$2-5/hour, A100 spot ~$1-3/hour. Llama 3.1 70B / Qwen 2.5 72B: ~$0.50-2.00 per million output tokens at 70% utilization
-- **Hidden costs of self-hosting** — ops on-call, monitoring, model updates, scaling overhead, idle time penalty
-- **Hidden costs of API** — rate limits requiring multi-vendor failover, vendor lock-in, capability drift between versions, data residency
+- **API cost**  variable, per-token. Frontier models 2026: Claude Sonnet 4.6 ~$3/$15 per M tokens (input/output), GPT-4o ~$2.50/$10, Gemini 2.5 ~$1.25/$5
+- **Self-hosted cost**  fixed (GPU commitment) + variable (electricity). H100 spot ~$2-5/hour, A100 spot ~$1-3/hour. Llama 3.1 70B / Qwen 2.5 72B: ~$0.50-2.00 per million output tokens at 70% utilization
+- **Hidden costs of self-hosting**  ops on-call, monitoring, model updates, scaling overhead, idle time penalty
+- **Hidden costs of API**  rate limits requiring multi-vendor failover, vendor lock-in, capability drift between versions, data residency
 
 **Typical breakeven (frontier-quality):** 100M–500M tokens/month, depending on model size and acceptable quality tradeoff. Below this, API wins. Above this, run the calculator.
 
@@ -133,8 +133,8 @@ Stage-to-role map:
 
 | Stage | First AI hire | Then | Then |
 |---|---|---|---|
-| Pre-PMF | Founder + 1 ML-curious engineer playing with prompts | — | — |
-| Series A | **AI engineer** (applied, full-stack; owns prompts/evals/deployment) | Second AI engineer for evals/quality | — |
+| Pre-PMF | Founder + 1 ML-curious engineer playing with prompts |  |  |
+| Series A | **AI engineer** (applied, full-stack; owns prompts/evals/deployment) | Second AI engineer for evals/quality |  |
 | Series B | AI/ML platform engineer (inference, evals, observability) | Third AI engineer for production reliability | Data scientist if model is core IP |
 | Series C | Manager of AI | ML research scientist (only if model IS the product) | AI safety / red team (if customer-facing AI) |
 | Late-stage | Head of AI → CAIO | Multiple research scientists, platform team, safety/red team | Federated AI leads per business unit |
@@ -202,7 +202,7 @@ python scripts/ai_cost_economics.py workload.json
 ## Output Standards
 
 ```
-**Bottom Line:** [one sentence — decision and rationale]
+**Bottom Line:** [one sentence  decision and rationale]
 **The Decision:** [one of: model selection | risk classification | economics | next hire]
 **The Evidence:** [numbers from the tool, not adjectives]
 **How to Act:** [3 concrete next steps]
@@ -211,27 +211,167 @@ python scripts/ai_cost_economics.py workload.json
 
 ## Adjacent Skills
 
-- `c-level-advisor/skills/chief-data-officer-advisor/` — Training data rights, data product strategy (chains directly to model decisions)
-- `c-level-advisor/skills/cto-advisor/` — Architecture capacity, scaling cliffs (esp. for self-hosted inference)
-- `c-level-advisor/skills/ciso-advisor/` — Threat modeling for AI (prompt injection, jailbreak, training data poisoning)
-- `c-level-advisor/skills/general-counsel-advisor/` — AI contracts (vendor liability, output ownership, training-data licensing)
-- `c-level-advisor/skills/cfo-advisor/` — Build-vs-buy TCO math, multi-year vendor commitments
-- `c-level-advisor/skills/chro-advisor/` — AI team hiring + comp
-- `engineering/skills/rag-architect/` — Tactical RAG implementation
-- `engineering/skills/agent-designer/` — Tactical agent architecture
-- `engineering/prompt-governance/` — Tactical prompt management
-- `engineering/skills/self-eval/` — Tactical eval infrastructure
-- `engineering/llm-cost-optimizer/` — Tactical inference cost optimization
+- `c-level-advisor/skills/chief-data-officer-advisor/`  Training data rights, data product strategy (chains directly to model decisions)
+- `c-level-advisor/skills/cto-advisor/`  Architecture capacity, scaling cliffs (esp. for self-hosted inference)
+- `c-level-advisor/skills/ciso-advisor/`  Threat modeling for AI (prompt injection, jailbreak, training data poisoning)
+- `c-level-advisor/skills/general-counsel-advisor/`  AI contracts (vendor liability, output ownership, training-data licensing)
+- `c-level-advisor/skills/cfo-advisor/`  Build-vs-buy TCO math, multi-year vendor commitments
+- `c-level-advisor/skills/chro-advisor/`  AI team hiring + comp
+- `engineering/skills/rag-architect/`  Tactical RAG implementation
+- `engineering/skills/agent-designer/`  Tactical agent architecture
+- `engineering/prompt-governance/`  Tactical prompt management
+- `engineering/skills/self-eval/`  Tactical eval infrastructure
+- `engineering/llm-cost-optimizer/`  Tactical inference cost optimization
 
 ## References
 
-- [model_buildvsbuy_strategy.md](references/model_buildvsbuy_strategy.md) — Full decision tree + 3-year TCO components + when each path fails
-- [ai_risk_governance.md](references/ai_risk_governance.md) — EU AI Act + NIST AI RMF + US state patchwork + industry overlays + governance program
-- [ai_cost_economics.md](references/ai_cost_economics.md) — API pricing 2026 + GPU rental economics + utilization realities + migration cost
-- [ai_team_org_evolution.md](references/ai_team_org_evolution.md) — Stage-to-role map + role definitions (AI engineer ≠ ML engineer ≠ scientist) + anti-patterns
+- [model_buildvsbuy_strategy.md](references/model_buildvsbuy_strategy.md)  Full decision tree + 3-year TCO components + when each path fails
+- [ai_risk_governance.md](references/ai_risk_governance.md)  EU AI Act + NIST AI RMF + US state patchwork + industry overlays + governance program
+- [ai_cost_economics.md](references/ai_cost_economics.md)  API pricing 2026 + GPU rental economics + utilization realities + migration cost
+- [ai_team_org_evolution.md](references/ai_team_org_evolution.md)  Stage-to-role map + role definitions (AI engineer ≠ ML engineer ≠ scientist) + anti-patterns
 
 ---
 
 **Version:** 1.0.0
 **Status:** Production Ready
 **Disclaimer:** AI regulation is evolving rapidly. This skill surfaces decisions and tradeoffs as of 2026 but cannot replace qualified AI counsel for binding compliance decisions, especially under EU AI Act conformity assessments.
+
+---
+
+## Consolidated Capabilities: CAIO-REVIEW (Subsumed & Superceded)
+
+# /cs:caio-review  CAIO Forcing Questions
+
+**Command:** `/cs:caio-review <plan>`
+
+The eval-demanding CAIO pressure-tests any plan that involves AI. Six questions before any AI feature ships, any multi-year vendor commitment, or any AI team expansion.
+
+## When to Run
+
+- Before shipping any new AI-powered feature
+- Before signing a multi-year AI vendor contract (API or self-hosted infra)
+- Before EU launch of any AI feature
+- Before a major AI team hire (especially ML engineer or research scientist)
+- Before a fine-tuning project commitment
+- Before adopting AI in a regulated domain (employment, credit, healthcare, education, etc.)
+- When the founder uses the word "AI" near "competitive advantage" or "moat"
+
+## The Six CAIO Questions
+
+### 1. What does this AI need to be good at, and how would you measure it?
+**No eval set = no ship.** Before any AI feature deploys, define the eval criteria.
+- 50-100 representative inputs minimum
+- Expected outputs OR rubric for grading
+- Edge cases: ambiguous, adversarial, format-edge
+- If you can't write down what "good" looks like, you don't have a feature; you have a vibe.
+
+### 2. What's the SLO on hallucination / error rate, and what's the fallback?
+**Every AI feature has a failure mode. Plan for it.**
+- Quantified SLO: "<5% hallucination on factual queries"
+- Detection mechanism: monitoring, sampling, customer feedback loop
+- Fallback: human-in-loop review, lower-risk default response, refuse-to-answer
+- Blast radius if SLO breached: how many users affected, what is the cost?
+
+### 3. What's the risk tier under EU AI Act, and is conformity assessment required?
+**Run `ai_risk_classifier.py` if any EU residents are affected OR domain is regulated.**
+- PROHIBITED → cannot launch in EU; re-scope
+- HIGH → conformity assessment + EU DB registration + 10 Articles of obligations (3-12 months, $50-200K)
+- LIMITED → transparency obligations (chatbot disclosure, AI-generated content marking)
+- MINIMAL → no specific obligations; NIST AI RMF voluntary
+
+### 4. API, fine-tune, or build?
+**Run `model_buildvsbuy_calculator.py` for the specific use case.**
+- 80% of B2B SaaS use cases: API
+- 15%: fine-tune (when domain-specific behavior + labeled data + ML team + high volume)
+- <1%: build from scratch
+- Decision must consider economic breakeven AND practical feasibility (data, team, compliance)
+
+### 5. What's the 12-month cost trajectory at expected scale?
+**Run `ai_cost_economics.py` for the workload.**
+- API: variable, scales linearly
+- Self-hosted: mostly fixed, breakeven typically 1-10B tokens/month for 70B-class
+- Hidden costs of self-hosted: ops, monitoring, model updates, capacity, failover, security
+- Hidden costs of API: vendor lock-in, capability drift, rate limits, data residency
+- Prompt caching is the most underrated lever; check provider support
+
+### 6. What role unblocks this  and have we hired prerequisites first?
+**Map AI capability to specific role. Founders confuse AI engineer / ML engineer / research scientist.**
+- AI engineer: applied + full-stack + prompts + evals + deployment (most startups need this)
+- ML engineer: fine-tuning + retraining infra (only after platform engineer + labeled data)
+- Research scientist: model invention (only if model IS the product)
+- Don't hire research scientist as first AI hire  they need infrastructure to be productive
+
+## Workflow
+
+```bash
+# 1. Model selection check
+python ../../../skills/chief-ai-officer-advisor/scripts/model_buildvsbuy_calculator.py use_case.json
+
+# 2. Regulatory classification
+python ../../../skills/chief-ai-officer-advisor/scripts/ai_risk_classifier.py use_case.json
+
+# 3. Cost projection
+python ../../../skills/chief-ai-officer-advisor/scripts/ai_cost_economics.py workload.json
+```
+
+## Output Format
+
+```markdown
+# CAIO Review: <plan>
+**Date:** YYYY-MM-DD
+
+## The Decision Being Made
+[one sentence  which CAIO decision: model selection | risk classification | economics | next hire]
+
+## Eval Discipline
+- Eval set committed: yes/no
+- SLO defined: <metric> < <threshold>
+- Fallback behavior: <one line>
+
+## Model Selection (if applicable)
+- Recommended: API / FINE_TUNE / BUILD
+- 3-year TCO: $X (chosen path) vs $Y (alternatives)
+- Breakeven: <volume>
+
+## Risk Classification (if applicable)
+- EU AI Act tier: PROHIBITED / HIGH / LIMITED / MINIMAL
+- Conformity assessment required: yes/no
+- US state triggers: [list]
+- Required controls open: N
+
+## Cost Economics (if applicable)
+- Monthly cost at current volume: $X
+- Breakeven for self-hosted migration: <volume>
+- Migration cost if applicable: $X (3-6 months)
+
+## Org (if applicable)
+- Next hire: <role>
+- Why this, not the alternative: <one line>
+- Prerequisite hires in place: yes/no
+
+## Verdict
+🟢 SHIP | 🟡 SHARPEN | 🔴 BLOCK
+
+## Next Steps
+[3 concrete actions]
+```
+
+## Routing
+
+- `/cs:cdo-review`  for any training-data implications
+- `/cs:gc-review`  for AI vendor contracts, output liability, training-data licensing
+- `/cs:ciso-review`  for prompt injection / jailbreak / training-data poisoning threat model
+- `/cs:cfo-review`  for multi-year vendor or GPU commitment TCO
+- `cs-chro-advisor` agent  for AI team hires (comp, ladder, leveling)
+- `/cs:decide`  log the verdict
+- `/cs:freeze 60`  on multi-year AI commitments
+
+## Related
+
+- Agent: [`cs-caio-advisor`](../../agents/cs-caio-advisor.md)
+- Skill: [`chief-ai-officer-advisor`](../../../skills/chief-ai-officer-advisor/SKILL.md)
+- Adjacent: `../../../skills/chief-data-officer-advisor/` (training data rights, data strategy)
+
+---
+
+**Version:** 1.0.0

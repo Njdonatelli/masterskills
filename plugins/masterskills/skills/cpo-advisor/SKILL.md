@@ -1,7 +1,7 @@
 ---
 name: "cpo-advisor"
 description: >-
-  P—r—o—d—u—c—t— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —P—r—o—d—u—c—t— —v—i—s—i—o—n—,— —p—o—r—t—f—o—l—i—o— —s—t—r—a—t—e—g—y—,— —p—r—o—d—u—c—t—-—m—a—r—k—e—t— —f—i—t—,— —a—n—d— —p—r—o—d—u—c—t— —o—r—g— —d—e—s—i—g—n—.— —U—s—e— —w—h—e—n— —s—e—t—t—i—n—g— —p—r—o—d—u—c—t— —v—i—s—i—o—n—,— —m—a—n—a—g—i—n—g— —a— —p—r—o—d—u—c—t— —p—o—r—t—f—o—l—i—o—,— —m—e—a—s—u—r—i—n—g— —P—M—F—,— —d—e—s—i—g—n—i—n—g— —p—r—o—d—u—c—t— —t—e—a—m—s—,— —p—r—i—o—r—i—t—i—z—i—n—g— —a—t— —t—h—e— —p—o—r—t—f—o—l—i—o— —l—e—v—e—l—,— —r—e—p—o—r—t—i—n—g— —t—o— —t—h—e— —b—o—a—r—d— —o—n— —p—r—o—d—u—c—t—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—P—O—,— —p—r—o—d—u—c—t— —s—t—r—a—t—e—g—y—,— —p—r—o—d—u—c—t—-—m—a—r—k—e—t— —f—i—t—,— —p—r—o—d—u—c—t— —o—r—g—a—n—i—z—a—t—i—o—n—,— —p—o—r—t—f—o—l—i—o— —p—r—i—o—r—i—t—i—z—a—t—i—o—n—,— —o—r— —r—o—a—d—m—a—p— —s—t—r—a—t—e—g—y.
+  Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, or when user mentions CPO, product strategy, product-market fit, product organization, portfolio prioritization, or roadmap strategy. [Also supersedes `cpo-review`: triggers on '/cs:cpo-review', 'cpo review', 'JTBD interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +15,7 @@ metadata:
 
 # CPO Advisor
 
-Strategic product leadership. Vision, portfolio, PMF, org design. Not for feature-level work — for the decisions that determine what gets built, why, and by whom.
+Strategic product leadership. Vision, portfolio, PMF, org design. Not for feature-level work  for the decisions that determine what gets built, why, and by whom.
 
 ## Keywords
 CPO, chief product officer, product strategy, product vision, product-market fit, PMF, portfolio management, product org, roadmap strategy, product metrics, north star metric, retention curve, product trio, team topologies, Jobs to be Done, category design, product positioning, board product reporting, invest-maintain-kill, BCG matrix, switching costs, network effects
@@ -63,7 +63,7 @@ These questions expose whether you have a strategy or a list.
 **Org:**
 - Can every PM articulate your north star and how their work connects to it?
 - When did your last product trio do user interviews together?
-- What's blocking your slowest team — the people or the structure?
+- What's blocking your slowest team  the people or the structure?
 
 **Strategy:**
 - If you could only ship one thing this quarter, what is it and why?
@@ -108,7 +108,7 @@ Lagging Indicators (revenue, churn, NPS)
 
 ## Investment Postures
 
-Every product gets one: **Invest / Maintain / Kill**. "Wait and see" is not a posture — it's a decision to lose share.
+Every product gets one: **Invest / Maintain / Kill**. "Wait and see" is not a posture  it's a decision to lose share.
 
 | Posture | Signal | Action |
 |---------|--------|--------|
@@ -199,3 +199,113 @@ All output passes the Internal Quality Loop before reaching the founder (see `..
 - **Always** read `company-context.md` before responding (if it exists)
 - **During board meetings:** Use only your own analysis in Phase 2 (no cross-pollination)
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
+
+---
+
+## Consolidated Capabilities: CPO-REVIEW (Subsumed & Superceded)
+
+# /cs:cpo-review  CPO Forcing Questions
+
+**Command:** `/cs:cpo-review <plan>`
+
+The JTBD-driven builder cuts the roadmap in half. Six questions to surface what to ship and what to kill.
+
+## When to Run
+
+- Before quarterly roadmap commitment
+- Before launching a new product line
+- Before adding > 3 features to a release
+- When retention is flat or declining
+- When the team is debating "should we build X?"
+
+## The Six CPO Questions
+
+### 1. JTBD
+**What job is this feature hired to do, in the user's words?**
+- Not "improve onboarding." "Help a new ops manager get their first deal closed within 7 days."
+- Job ≠ feature. Hire ≠ try.
+
+### 2. North Star Metric
+**What user behavior does this move, and how does that ladder to the North Star?**
+- The metric must be leading, behavior-based, and value-correlated.
+- If you can't trace the feature to the North Star, don't build it.
+
+### 3. PMF Signal
+**What's the retention curve for users who hire this job  is it flat, decaying, or smiling?**
+- Flat or smiling = PMF signal. Decaying = no PMF.
+- "Users like it in surveys" is not a signal.
+
+### 4. RICE Score
+**Reach, Impact, Confidence, Effort  what's the score and where does this rank in the queue?**
+```bash
+python product-team/skills/product-manager-toolkit/scripts/rice_prioritizer.py
+```
+
+### 5. Opportunity Cost
+**What gets cut if this ships? Name the specific initiative or feature.**
+- Headcount and time are zero-sum. The cut list is the focus list.
+
+### 6. Kill Criteria
+**What signal would tell you in 90 days that this was the wrong bet?**
+- Define the metric and threshold in writing, before launch.
+- If you can't define a kill criterion, you can't ship responsibly.
+
+## Workflow
+
+1. **Run the analyses:**
+   ```bash
+   python ../../../skills/cpo-advisor/scripts/pmf_scorer.py
+   python ../../../skills/cpo-advisor/scripts/portfolio_analyzer.py
+   ```
+2. **Answer the six questions.**
+3. **Apply the verdict.**
+
+## Output Format
+
+```markdown
+# CPO Review: <feature/plan>
+**Date:** YYYY-MM-DD
+
+## JTBD
+> <one sentence in user voice>
+
+## North Star Link
+- Metric moved: <name>
+- Expected delta: <%>
+
+## PMF Signal
+- Retention curve shape: flat / smiling / decaying
+- Cohort sample size: N
+
+## Score
+- RICE: <number>
+- Rank in queue: #N of M
+
+## Cut List
+- Cut: <initiative>
+- Reason: <why this matters more>
+
+## Kill Criteria (90 days)
+- Metric: <name>
+- Threshold: <value>
+- Action if missed: <kill | iterate>
+
+## Verdict
+🟢 SHIP | 🟡 SHARPEN | 🔴 KILL
+```
+
+## Routing
+
+- `/cs:cmo-review`  does the positioning support this feature?
+- `/cs:execute`  build the 90-day plan
+- `/cs:post-mortem`  if kill criteria triggered
+
+## Related
+
+- Agent: [`cs-cpo-advisor`](../../agents/cs-cpo-advisor.md)
+- Skill: [`cpo-advisor`](../../../skills/cpo-advisor/SKILL.md)
+- Execution: `product-team/skills/product-manager-toolkit/`
+
+---
+
+**Version:** 1.0.0

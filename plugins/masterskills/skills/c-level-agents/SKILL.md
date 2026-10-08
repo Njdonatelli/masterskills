@@ -1,7 +1,7 @@
 ---
 name: "c-level-agents"
 description: >-
-  F—o—u—n—d—e—r—-—m—o—d—e— —e—x—e—c—u—t—i—v—e— —t—e—a—m—.— —1—3— —c—s—-—*— —C—-—s—u—i—t—e— —a—g—e—n—t—s— —(—C—F—O—,— —C—M—O—,— —C—R—O—,— —C—P—O—,— —C—O—O—,— —C—H—R—O—,— —C—I—S—O—,— —G—C—,— —C—D—O—,— —C—A—I—O—,— —C—C—O—,— —V—P—E—,— —C—h—i—e—f— —o—f— —S—t—a—f—f—)— —a—n—d— —2—1— —/—c—s—:—*— —s—l—a—s—h— —c—o—m—m—a—n—d—s— —f—o—r— —f—o—r—c—i—n—g—-—q—u—e—s—t—i—o—n— —o—f—f—i—c—e— —h—o—u—r—s—,— —m—u—l—t—i—-—r—o—l—e— —b—o—a—r—d—r—o—o—m— —d—e—l—i—b—e—r—a—t—i—o—n—,— —s—t—r—a—t—e—g—i—c— —s—p—r—i—n—t— —p—i—p—e—l—i—n—e—,— —a—n—d— —m—e—t—a— —r—o—u—t—i—n—g—.— —U—s—e— —w—h—e—n— —t—h—e— —f—o—u—n—d—e—r— —n—e—e—d—s— —a— —v—i—r—t—u—a—l— —e—x—e—c—u—t—i—v—e— —t—e—a—m—,— —w—h—e—n— —i—n—v—o—k—i—n—g— —/—c—s—:—*— —c—o—m—m—a—n—d—s—,— —o—r— —w—h—e—n— —o—r—c—h—e—s—t—r—a—t—i—n—g— —m—u—l—t—i—-—r—o—l—e— —d—e—c—i—s—i—o—n—s.
+  Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /cs:* slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing. Use when the founder needs a virtual executive team, when invoking /cs:* commands, or when orchestrating multi-role decisions. [Also supersedes `c-level-skills`: triggers on 'c-level-skills', 'C-suite advisory bundle index', 'C-level router']
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +13,7 @@ metadata:
   commands: cs-office-hours, cs-cfo-review, cs-cmo-review, cs-cpo-review, cs-cro-review, cs-cto-review, cs-ciso-review, cs-gc-review, cs-cdo-review, cs-caio-review, cs-cco-review, cs-vpe-review, cs-brief, cs-boardroom, cs-decide, cs-execute, cs-post-mortem, cs-founder-mode, cs-onboard, cs-cross-eval, cs-freeze
 ---
 
-# c-level-agents — Founder-Mode Executive Team
+# c-level-agents  Founder-Mode Executive Team
 
 A virtual C-suite delivered through slash commands and persona agents.
 
@@ -36,27 +36,27 @@ See `../../references/persona-voices.md` for voice specs.
 ### 21 /cs:* Slash Commands (in `skills/`)
 
 **Forcing-question office hours (12):**
-- `/cs:office-hours` — YC-style 6-question intake
-- `/cs:cfo-review` — unit economics, runway, dilution
-- `/cs:cmo-review` — ICP, CAC payback, positioning
-- `/cs:cpo-review` — RICE, JTBD, North Star, PMF
-- `/cs:cro-review` — pipeline coverage, win rate, NRR
-- `/cs:cto-review` — architecture risk, scaling cliff
-- `/cs:ciso-review` — threat model, blast radius, compliance
-- `/cs:gc-review` — contracts, IP, regulatory, term sheets
-- `/cs:cdo-review` — training-data rights, data products, data assets
-- `/cs:caio-review` — model selection, evals, AI risk, AI costs
-- `/cs:cco-review` — GRR/NRR decomposition, churn root cause, CS coverage
-- `/cs:vpe-review` — DORA metrics, cycle time, eng hiring funnel, team structure
+- `/cs:office-hours`  YC-style 6-question intake
+- `/cs:cfo-review`  unit economics, runway, dilution
+- `/cs:cmo-review`  ICP, CAC payback, positioning
+- `/cs:cpo-review`  RICE, JTBD, North Star, PMF
+- `/cs:cro-review`  pipeline coverage, win rate, NRR
+- `/cs:cto-review`  architecture risk, scaling cliff
+- `/cs:ciso-review`  threat model, blast radius, compliance
+- `/cs:gc-review`  contracts, IP, regulatory, term sheets
+- `/cs:cdo-review`  training-data rights, data products, data assets
+- `/cs:caio-review`  model selection, evals, AI risk, AI costs
+- `/cs:cco-review`  GRR/NRR decomposition, churn root cause, CS coverage
+- `/cs:vpe-review`  DORA metrics, cycle time, eng hiring funnel, team structure
 
 **Strategic sprint pipeline (5):**
 - `/cs:brief` → `/cs:boardroom` → `/cs:decide` → `/cs:execute` → `/cs:post-mortem`
 
 **Meta + safety (4):**
-- `/cs:founder-mode` — auto-routes to the right C-role
-- `/cs:onboard` — founder interview → `company-context.md`
-- `/cs:cross-eval` — multi-model consensus
-- `/cs:freeze` — cooldown lock on a decision
+- `/cs:founder-mode`  auto-routes to the right C-role
+- `/cs:onboard`  founder interview → `company-context.md`
+- `/cs:cross-eval`  multi-model consensus
+- `/cs:freeze`  cooldown lock on a decision
 
 ## Quick Start
 
@@ -91,12 +91,12 @@ User question
 
 ## Integration Points
 
-- **Existing 33 c-level skills** — wrapped, not replaced
-- **decision-logger** — every `/cs:decide` writes here
-- **chief-of-staff** — routing layer the agent orchestrates
-- **board-meeting** — protocol the `/cs:boardroom` command runs
-- **llm-wiki** — optional persistent memory bridge (see `../../references/llm-wiki-bridge.md`)
-- **executive-mentor** — adversarial `/em:*` commands stack cleanly on top
+- **Existing 33 c-level skills**  wrapped, not replaced
+- **decision-logger**  every `/cs:decide` writes here
+- **chief-of-staff**  routing layer the agent orchestrates
+- **board-meeting**  protocol the `/cs:boardroom` command runs
+- **llm-wiki**  optional persistent memory bridge (see `../../references/llm-wiki-bridge.md`)
+- **executive-mentor**  adversarial `/em:*` commands stack cleanly on top
 
 ## Design Principles
 

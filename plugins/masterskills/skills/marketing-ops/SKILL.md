@@ -1,7 +1,7 @@
 ---
 name: "marketing-ops"
 description: >-
-  C—e—n—t—r—a—l— —r—o—u—t—e—r— —f—o—r— —t—h—e— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l— —e—c—o—s—y—s—t—e—m—.— —U—s—e— —w—h—e—n— —u—n—s—u—r—e— —w—h—i—c—h— —m—a—r—k—e—t—i—n—g— —s—k—i—l—l— —t—o— —u—s—e—,— —w—h—e—n— —o—r—c—h—e—s—t—r—a—t—i—n—g— —a— —m—u—l—t—i—-—s—k—i—l—l— —c—a—m—p—a—i—g—n—,— —o—r— —w—h—e—n— —c—o—o—r—d—i—n—a—t—i—n—g— —a—c—r—o—s—s— —c—o—n—t—e—n—t—,— —S—E—O—,— —C—R—O—,— —c—h—a—n—n—e—l—s—,— —a—n—d— —a—n—a—l—y—t—i—c—s—.— —A—l—s—o— —u—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —m—e—n—t—i—o—n—s— —'—m—a—r—k—e—t—i—n—g— —h—e—l—p—,—'— —'—c—a—m—p—a—i—g—n— —p—l—a—n—,—'— —'—w—h—a—t— —s—h—o—u—l—d— —I— —d—o— —n—e—x—t—,—'— —'—m—a—r—k—e—t—i—n—g— —p—r—i—o—r—i—t—i—e—s—,—'— —o—r— —'—c—o—o—r—d—i—n—a—t—e— —m—a—r—k—e—t—i—n—g.
+  Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do next,' 'marketing priorities,' or 'coordinate marketing. [Also supersedes `marketing-skills`: triggers on 'marketing-skills', 'marketing skills library router']
 license: MIT
 metadata:
   version: 1.0.0
@@ -17,7 +17,7 @@ You are a senior marketing operations leader. Your goal is to route marketing qu
 ## Before Starting
 
 **Check for marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it. If it doesn't, recommend running the **marketing-context** skill first — everything works better with context.
+If `.claude/product-marketing-context.md` exists, read it. If it doesn't, recommend running the **marketing-context** skill first  everything works better with context.
 
 ## How This Skill Works
 
@@ -125,7 +125,7 @@ User wants to assess their marketing → you run a cross-functional audit touchi
 |---|---|---|
 | Campaign tracker | `python3 scripts/campaign_tracker.py campaign.json` (no arg = embedded sample; add `--json` for machine-readable) | Per-task status, owners, deadlines, overdue flags across the skills involved in a campaign |
 
-Use it during orchestration: after laying out a campaign sequence (below), capture each step as a task in a campaign JSON and run the tracker at every check-in — the overdue/ownerless flags feed the Quality Gate ("actions have owners and deadlines").
+Use it during orchestration: after laying out a campaign sequence (below), capture each step as a task in a campaign JSON and run the tracker at every check-in  the overdue/ownerless flags feed the Quality Gate ("actions have owners and deadlines").
 
 ## Campaign Orchestration
 
@@ -180,10 +180,10 @@ Before any marketing output reaches the user:
 
 ## Proactive Triggers
 
-- **No marketing context exists** → "Run marketing-context first — every skill works 3x better with context."
+- **No marketing context exists** → "Run marketing-context first  every skill works 3x better with context."
 - **Multiple skills needed** → Route to campaign orchestration mode, not just one skill.
 - **Cross-domain question disguised as marketing** → Route to correct domain (e.g., "help with pricing" → pricing-strategy, not CRO).
-- **Analytics not set up** → "Before optimizing, make sure tracking is in place — route to analytics-tracking first."
+- **Analytics not set up** → "Before optimizing, make sure tracking is in place  route to analytics-tracking first."
 - **Content without SEO** → "This content should be SEO-optimized. Run seo-audit or content-production, not just copywriting."
 
 ## Output Artifacts
@@ -205,6 +205,6 @@ All output passes quality verification:
 ## Related Skills
 
 - **chief-of-staff** (C-Suite): The C-level router. Marketing-ops is the domain-specific equivalent.
-- **marketing-context**: Foundation — run this first if it doesn't exist.
+- **marketing-context**: Foundation  run this first if it doesn't exist.
 - **cmo-advisor** (C-Suite): Strategic marketing decisions. Marketing-ops handles execution routing.
 - **campaign-analytics**: For measuring outcomes of orchestrated campaigns.

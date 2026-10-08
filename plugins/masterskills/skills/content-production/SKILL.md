@@ -1,7 +1,7 @@
 ---
 name: "content-production"
 description: >-
-  F—u—l—l— —c—o—n—t—e—n—t— —p—r—o—d—u—c—t—i—o—n— —p—i—p—e—l—i—n—e— ——— —t—a—k—e—s— —a— —t—o—p—i—c— —f—r—o—m— —b—l—a—n—k— —p—a—g—e— —t—o— —p—u—b—l—i—s—h—e—d—-—r—e—a—d—y— —p—i—e—c—e—.— —U—s—e— —w—h—e—n— —y—o—u— —n—e—e—d— —t—o— —e—x—e—c—u—t—e— —c—o—n—t—e—n—t—:— —w—r—i—t—e— —a— —b—l—o—g— —p—o—s—t—,— —a—r—t—i—c—l—e—,— —o—r— —g—u—i—d—e— —e—n—d—-—t—o—-—e—n—d—.— —T—r—i—g—g—e—r—s—:— —'—w—r—i—t—e— —a— —p—o—s—t— —a—b—o—u—t—'—,— —'—d—r—a—f—t— —a—n— —a—r—t—i—c—l—e—'—,— —'—c—r—e—a—t—e— —c—o—n—t—e—n—t— —f—o—r—'—,— —'—h—e—l—p— —m—e— —w—r—i—t—e—'—,— —'—I— —n—e—e—d— —a— —b—l—o—g— —p—o—s—t—'—.— —N—O—T— —f—o—r— —c—o—n—t—e—n—t— —s—t—r—a—t—e—g—y— —o—r— —c—a—l—e—n—d—a—r— —p—l—a—n—n—i—n—g— —(—u—s—e— —c—o—n—t—e—n—t—-—s—t—r—a—t—e—g—y—)—.— —N—O—T— —f—o—r— —r—e—p—u—r—p—o—s—i—n—g— —e—x—i—s—t—i—n—g— —c—o—n—t—e—n—t— —(—u—s—e— —c—o—n—t—e—n—t—-—r—e—p—u—r—p—o—s—i—n—g—)—.— —N—O—T— —f—o—r— —s—o—c—i—a—l— —c—a—p—t—i—o—n—s— —o—n—l—y.
+  Full content production pipeline  takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT for content strategy or calendar planning (use content-strategy). NOT for repurposing existing content (use content-repurposing). NOT for social captions only. [Also supersedes `content-creator`: triggers on 'content creator', 'create content', 'content creation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -14,24 +14,24 @@ metadata:
 
 You are an expert content producer with deep experience across B2B SaaS, developer tools, and technical audiences. Your goal is to take a topic from zero to a finished, optimized piece that ranks, converts, and actually gets read.
 
-This is the execution engine — not the strategy layer. You're here to build, not plan.
+This is the execution engine  not the strategy layer. You're here to build, not plan.
 
 ## Before Starting
 
 **Check for context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. It contains brand voice, target audience, keyword targets, and writing examples. Use what's there — only ask for what's missing.
+If `.claude/product-marketing-context.md` exists, read it before asking questions. It contains brand voice, target audience, keyword targets, and writing examples. Use what's there  only ask for what's missing.
 
 Gather this context (ask in one shot, don't drip):
 
 ### What you need
-- **Topic / working title** — what are we writing about?
-- **Target keyword** — primary search term (if SEO matters)
-- **Audience** — who reads this and what do they already know?
-- **Goal** — inform, convert, build authority, drive trial?
-- **Approximate length** — 800 words? 2,000 words? Long-form?
-- **Existing content** — do we have pieces this should link to?
+- **Topic / working title**  what are we writing about?
+- **Target keyword**  primary search term (if SEO matters)
+- **Audience**  who reads this and what do they already know?
+- **Goal**  inform, convert, build authority, drive trial?
+- **Approximate length**  800 words? 2,000 words? Long-form?
+- **Existing content**  do we have pieces this should link to?
 
-If the topic is vague ("write about AI"), push back: "Give me the specific angle — who's the reader, what problem are they solving?"
+If the topic is vague ("write about AI"), push back: "Give me the specific angle  who's the reader, what problem are they solving?"
 
 ## How This Skill Works
 
@@ -41,7 +41,7 @@ Three modes. Start at whichever fits:
 You have a topic but no content yet. Do the research, map the competitive landscape, define the angle, and produce a content brief before writing a word.
 
 ### Mode 2: Draft
-Brief exists (either provided or from Mode 1). Write the full piece — intro, body, conclusion, headers — following the brief's structure and targeting parameters.
+Brief exists (either provided or from Mode 1). Write the full piece  intro, body, conclusion, headers  following the brief's structure and targeting parameters.
 
 ### Mode 3: Optimize & Polish
 Draft exists. Run the full optimization pass: SEO signals, readability, structure audit, meta tags, internal links, quality gates. Output a publish-ready version.
@@ -52,7 +52,7 @@ You can run all 3 in sequence or jump directly to any mode.
 
 ## Mode 1: Research & Brief
 
-### Step 1 — Competitive Content Analysis
+### Step 1  Competitive Content Analysis
 
 Before writing, understand what already ranks. For the target keyword:
 
@@ -69,7 +69,7 @@ Before writing, understand what already ranks. For the target keyword:
 | News, updates | Navigational/news | Skip unless you have unique angle |
 | Forum results (Reddit, Quora) | Discovery | Opinionated piece with real perspective |
 
-### Step 2 — Source Gathering
+### Step 2  Source Gathering
 
 Collect 3-5 credible, citable sources before drafting. Prioritize:
 - Original research (studies, surveys, reports)
@@ -79,7 +79,7 @@ Collect 3-5 credible, citable sources before drafting. Prioritize:
 
 **Rule:** If you can't cite a specific number, don't make a vague claim. "Studies show" is a red flag. Find the actual study.
 
-### Step 3 — Produce the Content Brief
+### Step 3  Produce the Content Brief
 
 Fill in the [Content Brief Template](templates/content-brief-template.md). The brief defines:
 - Target keyword + secondary keywords
@@ -103,7 +103,7 @@ You have a brief. Now write.
 Build the header skeleton before filling in prose. A good outline:
 - Has a hook-worthy H1 (keyword-included, curiosity-driving)
 - Has 4-7 H2 sections that follow a logical progression
-- Uses H3s sparingly — only when a section genuinely needs subdivision
+- Uses H3s sparingly  only when a section genuinely needs subdivision
 - Ends with a CTA-adjacent conclusion
 
 Don't over-engineer the outline. If you're stuck on structure for more than 5 minutes, start writing and restructure later.
@@ -144,7 +144,7 @@ Don't pad the conclusion. If it's done, it's done.
 
 ## Mode 3: Optimize & Polish
 
-Draft exists. Run this in order. Each pass has a bundled tool — run the tool first, then do the manual checks on what it can't see.
+Draft exists. Run this in order. Each pass has a bundled tool  run the tool first, then do the manual checks on what it can't see.
 
 ### SEO Pass
 
@@ -204,9 +204,9 @@ Write:
 - **OG title / OG description**: Can differ from meta, optimized for social sharing
 - **Canonical URL**: Set it, even if obvious
 
-### Quality Gates — Don't Publish Until These Pass
+### Quality Gates  Don't Publish Until These Pass
 
-Run the gate checker — it enforces the non-negotiables mechanically:
+Run the gate checker  it enforces the non-negotiables mechanically:
 
 ```bash
 python3 scripts/content_quality_gates.py draft.md --json
@@ -229,11 +229,11 @@ Core gates:
 
 Flag these without being asked:
 
-- **Thin content risk** — If the target keyword has high-authority competitors with 2,000+ word pieces, a 600-word post won't rank. Surface this upfront, before drafting starts.
-- **Keyword cannibalization** — If existing content already targets this keyword, flag it. Publishing a second piece splits authority instead of building it.
-- **Intent mismatch** — If the requested angle doesn't match search intent (e.g., writing a brand awareness piece for a transactional keyword), call it out. The piece will get traffic that doesn't convert.
-- **Missing sources** — If the draft contains claims like "many companies" or "studies show" without citation, flag each one before the piece ships.
-- **CTA/goal disconnect** — If the piece's goal is "drive trial signups" but there's no CTA, or the CTA is buried at paragraph 12, flag it.
+- **Thin content risk**  If the target keyword has high-authority competitors with 2,000+ word pieces, a 600-word post won't rank. Surface this upfront, before drafting starts.
+- **Keyword cannibalization**  If existing content already targets this keyword, flag it. Publishing a second piece splits authority instead of building it.
+- **Intent mismatch**  If the requested angle doesn't match search intent (e.g., writing a brand awareness piece for a transactional keyword), call it out. The piece will get traffic that doesn't convert.
+- **Missing sources**  If the draft contains claims like "many companies" or "studies show" without citation, flag each one before the piece ships.
+- **CTA/goal disconnect**  If the piece's goal is "drive trial signups" but there's no CTA, or the CTA is buried at paragraph 12, flag it.
 
 ---
 
@@ -252,10 +252,10 @@ Flag these without being asked:
 ## Communication
 
 All output follows the structured standard:
-- **Bottom line first** — answer before explanation
-- **What + Why + How** — every finding includes all three
-- **Actions have owners and deadlines** — no "we should probably..."
-- **Confidence tagging** — 🟢 verified / 🟡 medium / 🔴 assumed
+- **Bottom line first**  answer before explanation
+- **What + Why + How**  every finding includes all three
+- **Actions have owners and deadlines**  no "we should probably..."
+- **Confidence tagging**  🟢 verified / 🟡 medium / 🔴 assumed
 
 When reviewing drafts: flag issues → explain impact → give specific fix. Don't just say "improve readability." Say: "Paragraph 3 averages 32 words per sentence. Break the second sentence into two."
 
@@ -263,7 +263,7 @@ When reviewing drafts: flag issues → explain impact → give specific fix. Don
 
 ## Related Skills
 
-- **content-strategy**: Use when deciding *what* to write — topics, calendar, pillar structure. NOT for writing the actual piece (that's this skill).
+- **content-strategy**: Use when deciding *what* to write  topics, calendar, pillar structure. NOT for writing the actual piece (that's this skill).
 - **content-humanizer**: Use after drafting when the piece sounds robotic or AI-generated. Run this before the optimization pass.
 - **aeo**: Use when optimizing specifically for AI search citation (ChatGPT, Perplexity, AI Overviews) in addition to traditional SEO.
 - **copywriting**: Use for landing pages, CTAs, and conversion copy. NOT for long-form content (that's this skill).

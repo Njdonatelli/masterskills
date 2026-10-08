@@ -1,7 +1,7 @@
 ---
 name: "vpe-advisor"
 description: >-
-  V—P— —o—f— —E—n—g—i—n—e—e—r—i—n—g— —a—d—v—i—s—o—r—y— —f—o—r— —s—t—a—r—t—u—p—s—:— —d—e—l—i—v—e—r—y— —t—h—r—o—u—g—h—p—u—t— —(—D—O—R—A— —4— —m—e—t—r—i—c—s— —+— —b—o—t—t—l—e—n—e—c—k— —i—d—e—n—t—i—f—i—c—a—t—i—o—n—)—,— —e—n—g—i—n—e—e—r—i—n—g— —h—i—r—i—n—g— —f—u—n—n—e—l— —(—s—o—u—r—c—i—n—g— —→— —s—c—r—e—e—n— —→— —o—n—s—i—t—e— —→— —o—f—f—e—r— —c—o—n—v—e—r—s—i—o—n— —+— —t—i—m—e—-—t—o—-—f—i—l—l— —+— —p—i—p—e—l—i—n—e— —g—a—p—)—,— —e—n—g—i—n—e—e—r—i—n—g— —t—e—a—m— —s—t—r—u—c—t—u—r—e— —(—s—q—u—a—d—/—t—r—i—b—e—/—c—h—a—p—t—e—r— —d—e—s—i—g—n— —+— —t—e—c—h—-—l—e—a—d— —m—a—n—a—g—e—r—-—t—r—i—g—g—e—r— —t—h—r—e—s—h—o—l—d—s—)—,— —a—n—d— —p—r—o—d—u—c—t—i—o—n— —d—i—s—c—i—p—l—i—n—e— —(—o—n—-—c—a—l—l—,— —d—e—p—l—o—y—m—e—n—t— —c—a—d—e—n—c—e—,— —p—o—s—t—m—o—r—t—e—m— —c—u—l—t—u—r—e—)—.— —U—s—e— —w—h—e—n— —s—p—r—i—n—t— —v—e—l—o—c—i—t—y— —i—s— —d—r—o—p—p—i—n—g—,— —e—n—g— —h—i—r—i—n—g— —i—s— —b—r—o—k—e—n—,— —t—e—a—m— —s—t—r—u—c—t—u—r—e— —i—s— —u—n—c—l—e—a—r—,— —o—r— —d—e—c—i—d—i—n—g— —w—h—e—n— —t—o— —a—d—d— —a— —t—e—c—h—-—l—e—a—d— —m—a—n—a—g—e—r—.— —N—O—T— —a— —C—T—O— —s—k—i—l—l— —(—w—h—i—c—h— —o—w—n—s— —a—r—c—h—i—t—e—c—t—u—r—e—)— ——— —V—P—E— —o—w—n—s— —d—e—l—i—v—e—r—y— —o—p—e—r—a—t—i—o—n—s— —a—n—d— —h—o—w— —t—h—e— —t—e—a—m— —s—h—i—p—s.
+  VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), engineering hiring funnel (sourcing → screen → onsite → offer conversion + time-to-fill + pipeline gap), engineering team structure (squad/tribe/chapter design + tech-lead manager-trigger thresholds), and production discipline (on-call, deployment cadence, postmortem culture). Use when sprint velocity is dropping, eng hiring is broken, team structure is unclear, or deciding when to add a tech-lead manager. NOT a CTO skill (which owns architecture)  VPE owns delivery operations and how the team ships. [Also supersedes `vpe-review`: triggers on '/cs:vpe-review', 'vpe review', 'delivery predictability interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -17,10 +17,10 @@ metadata:
 
 Strategic engineering operations leadership for startup VPEs and founders without one. **Four decisions, no generic engineering survey:**
 
-1. **Are we delivering at the right throughput?** — DORA 4 metrics + bottleneck identification (where work waits)
-2. **How do we scale the eng hiring funnel?** — funnel math + pipeline gap + time-to-fill discipline
-3. **What's our team structure — and when do we add a tech-lead manager?** — squad/tribe/chapter design + manager-trigger
-4. **What's our production discipline?** — on-call rotation, deployment cadence, postmortem culture (reference-only)
+1. **Are we delivering at the right throughput?**  DORA 4 metrics + bottleneck identification (where work waits)
+2. **How do we scale the eng hiring funnel?**  funnel math + pipeline gap + time-to-fill discipline
+3. **What's our team structure  and when do we add a tech-lead manager?**  squad/tribe/chapter design + manager-trigger
+4. **What's our production discipline?**  on-call rotation, deployment cadence, postmortem culture (reference-only)
 
 This skill is **NOT a CTO skill**. CTO owns *what to build* (architecture, scaling cliffs, build-vs-buy). VPE owns *how to ship it reliably* (delivery, hiring, team structure, production operations). At early stage these are often the same person; at scale they're distinct roles.
 
@@ -49,7 +49,7 @@ python scripts/eng_team_structure_designer.py path/to/team.json
 ## Key Questions (ask these first)
 
 - **What's your cycle time, and where does the work spend most of its time waiting?** (If you don't know, you can't improve it.)
-- **How long from commit to production?** (DORA "lead time for changes" — best predictor of overall team health.)
+- **How long from commit to production?** (DORA "lead time for changes"  best predictor of overall team health.)
 - **What's the escape rate?** (Bugs found in production vs caught in CI/staging. > 15% = quality discipline broken.)
 - **When did the eng manager last write code?** (Manager-IC ratio is wrong if managers can't review code at all.)
 - **What's the hiring funnel conversion at each stage?** (Source → screen → onsite → offer → accept. The leakage is the answer.)
@@ -68,15 +68,15 @@ python scripts/eng_team_structure_designer.py path/to/team.json
 | **Mean Time to Recovery (MTTR)** | Incident detection → resolved | < 1 hour | < 1 day | 1-7 days | > 7 days |
 | **Change Failure Rate** | % of deploys causing incidents | 0-15% | 16-30% | 16-45% | 46-60% |
 
-**Bottleneck identification — where does work wait?**
+**Bottleneck identification  where does work wait?**
 
 Cycle time = (PR creation → first review) + (review → approval) + (approval → merge) + (merge → deploy). The longest segment is the bottleneck.
 
 Common bottlenecks:
-- **PR review queue** (waiting for human reviewers) — fix: reviewer rotation + SLA
-- **Test flakiness** (CI fails intermittently, re-runs needed) — fix: flaky-test budget + quarantine
-- **Deploy gates** (manual approval, change-control board) — fix: progressive delivery + feature flags
-- **Database migrations** (locking, scheduled windows) — fix: zero-downtime migration patterns
+- **PR review queue** (waiting for human reviewers)  fix: reviewer rotation + SLA
+- **Test flakiness** (CI fails intermittently, re-runs needed)  fix: flaky-test budget + quarantine
+- **Deploy gates** (manual approval, change-control board)  fix: progressive delivery + feature flags
+- **Database migrations** (locking, scheduled windows)  fix: zero-downtime migration patterns
 
 **Run** `delivery_throughput_analyzer.py` with sprint data to get DORA verdict + top bottleneck.
 
@@ -115,7 +115,7 @@ See `references/engineering_hiring_funnel.md` for the full funnel framework, com
 **Three-axis model (adapted from Spotify, refined by reality):**
 
 - **Squad:** small autonomous team (5-9 engineers) owning a service or product area end-to-end
-- **Chapter:** functional discipline cutting across squads (backend chapter, frontend chapter, etc.) — for skill development, NOT for ownership
+- **Chapter:** functional discipline cutting across squads (backend chapter, frontend chapter, etc.)  for skill development, NOT for ownership
 - **Tribe:** group of related squads working toward a shared goal (e.g., "platform tribe" = 3 squads on infra)
 
 **When to evolve:**
@@ -193,14 +193,14 @@ python ../../skills/vpe-advisor/scripts/eng_team_structure_designer.py team.json
 
 1. Inventory: on-call coverage, incident frequency by severity, MTTR trend
 2. Confirm every customer-facing service has SLOs (pair with `engineering/slo-architect/`)
-3. Review last 5 postmortems — are they blameless? Are action items closed?
+3. Review last 5 postmortems  are they blameless? Are action items closed?
 4. Cross-check deployment cadence against DORA verdict
 5. Output: production-discipline maturity score + 90-day improvement plan
 
 ## Output Standards
 
 ```
-**Bottom Line:** [one sentence — decision and rationale]
+**Bottom Line:** [one sentence  decision and rationale]
 **The Decision:** [one of: throughput | hiring | structure | production]
 **The Evidence:** [numbers from the tool, not adjectives]
 **How to Act:** [3 concrete next steps]
@@ -209,23 +209,152 @@ python ../../skills/vpe-advisor/scripts/eng_team_structure_designer.py team.json
 
 ## Adjacent Skills
 
-- `c-level-advisor/skills/cto-advisor/` — Architecture, scaling cliffs, tech debt strategy (CTO decides what to build; VPE decides how to ship)
-- `c-level-advisor/skills/chro-advisor/` — Hiring systems (ladders, bands, leveling rubrics company-wide); VPE owns eng-specific funnel execution
-- `c-level-advisor/skills/coo-advisor/` — Operating cadence company-wide; VPE owns eng-specific cadence
-- `engineering/skills/slo-architect/` — SLO design (tactical; VPE owns the policy that SLOs are required)
-- `engineering/skills/chaos-engineering/` — Chaos experiment design (tactical resilience)
-- `engineering/skills/feature-flags-architect/` — Progressive delivery (tactical deployment)
-- `engineering/skills/kubernetes-operator/` — K8s operator pattern (tactical infra)
-- `cs-engineering-lead` agent — Day-to-day incident + on-call coordination (VPE owns the operating model that engineering-lead executes)
+- `c-level-advisor/skills/cto-advisor/`  Architecture, scaling cliffs, tech debt strategy (CTO decides what to build; VPE decides how to ship)
+- `c-level-advisor/skills/chro-advisor/`  Hiring systems (ladders, bands, leveling rubrics company-wide); VPE owns eng-specific funnel execution
+- `c-level-advisor/skills/coo-advisor/`  Operating cadence company-wide; VPE owns eng-specific cadence
+- `engineering/skills/slo-architect/`  SLO design (tactical; VPE owns the policy that SLOs are required)
+- `engineering/skills/chaos-engineering/`  Chaos experiment design (tactical resilience)
+- `engineering/skills/feature-flags-architect/`  Progressive delivery (tactical deployment)
+- `engineering/skills/kubernetes-operator/`  K8s operator pattern (tactical infra)
+- `cs-engineering-lead` agent  Day-to-day incident + on-call coordination (VPE owns the operating model that engineering-lead executes)
 
 ## References
 
-- [delivery_throughput.md](references/delivery_throughput.md) — Full DORA framework + 4 common bottlenecks + what to fix first + anti-patterns
-- [engineering_hiring_funnel.md](references/engineering_hiring_funnel.md) — 7-stage funnel + conversion benchmarks + common leakage + sourcing channel diversification + technical interview design
-- [eng_team_structure.md](references/eng_team_structure.md) — Squad/chapter/tribe model + headcount-to-structure map + Conway's Law + EM-vs-tech-lead split + span-of-control
-- [production_discipline.md](references/production_discipline.md) — On-call rotation design + incident response + blameless postmortem culture + deployment cadence + SLO discipline integration
+- [delivery_throughput.md](references/delivery_throughput.md)  Full DORA framework + 4 common bottlenecks + what to fix first + anti-patterns
+- [engineering_hiring_funnel.md](references/engineering_hiring_funnel.md)  7-stage funnel + conversion benchmarks + common leakage + sourcing channel diversification + technical interview design
+- [eng_team_structure.md](references/eng_team_structure.md)  Squad/chapter/tribe model + headcount-to-structure map + Conway's Law + EM-vs-tech-lead split + span-of-control
+- [production_discipline.md](references/production_discipline.md)  On-call rotation design + incident response + blameless postmortem culture + deployment cadence + SLO discipline integration
 
 ---
 
 **Version:** 1.0.0
 **Status:** Production Ready
+
+---
+
+## Consolidated Capabilities: VPE-REVIEW (Subsumed & Superceded)
+
+# /cs:vpe-review  VPE Forcing Questions
+
+**Command:** `/cs:vpe-review <plan>`
+
+The throughput-first VPE pressure-tests any plan touching eng operations. Six questions before any delivery commitment, eng hiring expansion, team restructure, or production-discipline change.
+
+## When to Run
+
+- Before quarterly delivery commitment (sprint planning, OKR review)
+- Before approving an eng hiring plan
+- Before restructuring eng teams (splitting/merging squads, adding tribes)
+- Before deciding whether to hire a VPE separately from CTO (or merge them)
+- When production incidents are increasing
+- When sprint velocity is dropping but everyone says "we're working hard"
+
+## The Six VPE Questions
+
+### 1. What's the cycle time, and where does work wait?
+**No DORA, no diagnosis.**
+- Lead Time for Changes is the single best health metric
+- If you can't decompose cycle time into stages, you can't fix the bottleneck
+- Run `delivery_throughput_analyzer.py`
+
+### 2. What's the DORA performance level on all 4 metrics?
+**One Elite metric and three Lows = bad. Four Highs = healthy.**
+- Deployment Frequency, Lead Time, MTTR, Change Failure Rate
+- The worst metric defines overall level
+- Fix lead time first; everything else follows
+
+### 3. Where is the hiring funnel leaking?
+**"Can't find good engineers" is wrong.**
+- Specific stage is over-filtering OR top-of-funnel volume is too low OR offer-to-accept is broken
+- Run `eng_hiring_funnel_calculator.py`
+- If offer-to-accept < 70%, comp is below market or close discipline is weak
+
+### 4. Is the team structure healthy for the headcount?
+**5-9 ICs per squad; 5-8 ICs per EM; 4-6 EMs per director.**
+- Run `eng_team_structure_designer.py`
+- Manager-trigger fires when 5+ ICs have no dedicated EM
+- Director-trigger fires when 3+ EMs report directly to VPE/CTO
+
+### 5. What's the production discipline maturity?
+**Level 1-5; aim for Level 3 at growth stage.**
+- On-call rotation ≥ 6 people
+- Severity-defined incident response with blameless postmortems
+- SLOs on customer-facing services (pair with `engineering/slo-architect/`)
+- Continuous deployment OR scheduled  not "usually one, sometimes the other"
+
+### 6. Are we adding a VPE separately, or is CTO doing both?
+**If CTO is spending > 50% on management vs strategy, VPE is needed.**
+- Or: VPE complement when CTO is co-founder more comfortable with strategy
+- VPE owns operating model; CTO owns architecture
+- At small scale (< 20 eng), one person can do both
+
+## Workflow
+
+```bash
+# 1. Delivery throughput
+python ../../../skills/vpe-advisor/scripts/delivery_throughput_analyzer.py sprint_metrics.json
+
+# 2. Hiring funnel
+python ../../../skills/vpe-advisor/scripts/eng_hiring_funnel_calculator.py funnel.json
+
+# 3. Team structure
+python ../../../skills/vpe-advisor/scripts/eng_team_structure_designer.py team.json
+```
+
+## Output Format
+
+```markdown
+# VPE Review: <plan>
+**Date:** YYYY-MM-DD
+
+## The Decision Being Made
+[throughput | hiring | structure | production | VPE-vs-CTO]
+
+## Delivery Throughput (if applicable)
+- DORA overall: Elite / High / Medium / Low
+- Worst metric: <DF | LT | MTTR | FR>
+- Bottleneck: <stage> (X% of cycle time)
+- Top fix: <action + owner>
+
+## Hiring Funnel (if applicable)
+- End-to-end conversion: X%
+- Weakest stage: <stage>
+- Pipeline gap: +N candidates needed
+- Top fix: <specific action>
+
+## Team Structure (if applicable)
+- Recommended: <informal pods / squads / tribes>
+- Manager trigger fired: yes/no
+- Director trigger fired: yes/no
+- Action: <hire EM | hire director | split squad>
+
+## Production Discipline (if applicable)
+- Current maturity level: 1-5
+- Next practice to add: <specific>
+- SLO coverage: X / Y services
+
+## Verdict
+🟢 SHIP | 🟡 SHARPEN | 🔴 BLOCK
+
+## Next Steps
+[3 concrete actions]
+```
+
+## Routing
+
+- `/cs:cto-review`  for architectural causes of throughput problems
+- `cs-chro-advisor` agent  for hiring funnel comp/leveling issues
+- `/cs:cfo-review`  for cost-per-hire envelope and eng budget
+- `/cs:ciso-review`  for production discipline + compliance overlap
+- `/cs:decide`  log the verdict
+- `/cs:freeze 30`  on multi-year hiring commitments
+
+## Related
+
+- Agent: [`cs-vpe-advisor`](../../agents/cs-vpe-advisor.md)
+- Skill: [`vpe-advisor`](../../../skills/vpe-advisor/SKILL.md)
+- Adjacent: `../../../../engineering/slo-architect/`, `../../../../engineering/feature-flags-architect/`, `../../../../engineering/chaos-engineering/`
+
+---
+
+**Version:** 1.0.0

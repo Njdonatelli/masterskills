@@ -1,7 +1,7 @@
 ---
 name: "agenthub"
 description: >-
-  Spawns parallel competing subagents via git worktree isolation, evaluating outcomes by metric or LLM judge.
+  Spawns parallel competing subagents via git worktree isolation, evaluating outcomes by metric or LLM judge. [Also supersedes `spawn`: triggers on 'spawn', '/hub:spawn', 'spawn competing agents']
 license: MIT
 metadata:
   version: 2.1.2
@@ -10,7 +10,7 @@ metadata:
   updated: 2026-03-17
 ---
 
-# AgentHub — Multi-Agent Collaboration
+# AgentHub  Multi-Agent Collaboration
 
 Spawn N parallel AI agents that compete on the same task. Each agent works in an isolated git worktree. The coordinator evaluates results and merges the winner.
 
@@ -18,7 +18,7 @@ Spawn N parallel AI agents that compete on the same task. Each agent works in an
 
 | Command | Description |
 |---------|-------------|
-| `/hub:init` | Create a new collaboration session — task, agent count, eval criteria |
+| `/hub:init` | Create a new collaboration session  task, agent count, eval criteria |
 | `/hub:spawn` | Launch N parallel subagents in isolated worktrees |
 | `/hub:status` | Show DAG state, agent progress, branch status |
 | `/hub:eval` | Rank agent results by metric or LLM judge |
@@ -64,9 +64,9 @@ INIT → DISPATCH → MONITOR → EVALUATE → MERGE
 ### 1. Init
 
 Run `/hub:init` to create a session. This generates:
-- `.agenthub/sessions/{session-id}/config.yaml` — task config
-- `.agenthub/sessions/{session-id}/state.json` — state machine
-- `.agenthub/board/` — message board channels
+- `.agenthub/sessions/{session-id}/config.yaml`  task config
+- `.agenthub/sessions/{session-id}/state.json`  state machine
+- `.agenthub/board/`  message board channels
 
 ### 2. Dispatch
 
@@ -106,7 +106,7 @@ Your task: {task description}
 
 Instructions:
 1. Read your assignment at .agenthub/board/dispatch/{seq}-agent-{i}.md
-2. Work in your worktree — make changes, run tests, iterate
+2. Work in your worktree  make changes, run tests, iterate
 3. Commit all changes with descriptive messages
 4. Write your result summary to .agenthub/board/results/agent-{i}-result.md
 5. Exit when done
@@ -168,7 +168,7 @@ parent: null
 - **Approach**: Replaced O(n²) sort with hash map
 - **Files changed**: 3
 - **Metric**: 142ms (baseline: 180ms, delta: -38ms)
-- **Confidence**: High — all tests pass
+- **Confidence**: High  all tests pass
 ```
 
 ### Board Rules
@@ -253,6 +253,6 @@ clawhub install agenthub
 
 ## Related Skills
 
-- **autoresearch-agent** — Single-agent optimization loop (use AgentHub when you want N agents competing)
-- **self-improving-agent** — Self-modifying agent (use AgentHub when you want external competition)
-- **git-worktree-manager** — Git worktree utilities (AgentHub uses worktrees internally)
+- **autoresearch-agent**  Single-agent optimization loop (use AgentHub when you want N agents competing)
+- **self-improving-agent**  Self-modifying agent (use AgentHub when you want external competition)
+- **git-worktree-manager**  Git worktree utilities (AgentHub uses worktrees internally)

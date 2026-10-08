@@ -1,7 +1,7 @@
 ---
 name: "compliance-os"
 description: >-
-  C—o—m—p—l—i—a—n—c—e— —O—S— ——— —m—e—t—a—-—o—r—c—h—e—s—t—r—a—t—o—r— —t—h—a—t— —l—e—t—s— —c—o—m—p—l—i—a—n—c—e— —t—e—a—m—s— —C—O—N—F—I—G—U—R—E— —w—h—i—c—h— —f—r—a—m—e—w—o—r—k—s— —a—p—p—l—y—,— —C—O—M—P—U—T—E— —c—r—o—s—s—-—f—r—a—m—e—w—o—r—k— —c—o—n—t—r—o—l— —o—v—e—r—l—a—p—,— —S—I—M—U—L—A—T—E— —i—n—t—e—r—n—a—l— —a—u—d—i—t—s—,— —a—n—d— —C—O—N—S—O—L—I—D—A—T—E— —e—v—i—d—e—n—c—e— —a—c—r—o—s—s— —m—u—l—t—i—p—l—e— —f—r—a—m—e—w—o—r—k—s—.— —F—o—u—r— —d—e—c—i—s—i—o—n—s—:— —(—1—)— —G—i—v—e—n— —a— —c—o—m—p—a—n—y— —p—r—o—f—i—l—e—,— —w—h—i—c—h— —o—f— —t—h—e— —1—2— —s—u—p—p—o—r—t—e—d— —f—r—a—m—e—w—o—r—k—s— —a—p—p—l—y— —(—I—S—O— —2—7—0—0—1—/—1—3—4—8—5—/—4—2—0—0—1—/—1—4—9—7—1—,— —E—U— —A—I— —A—c—t—,— —M—D—R— —7—4—5—,— —G—D—P—R—,— —S—O—C— —2—,— —F—D—A— —Q—S—R—,— —N—I—S—T— —C—S—F— —2—.—0—,— —N—I—S—2—,— —H—I—P—A—A—)—?— —(—2—)— —A—c—r—o—s—s— —s—e—l—e—c—t—e—d— —f—r—a—m—e—w—o—r—k—s—,— —w—h—i—c—h— —c—o—n—t—r—o—l—s— —o—v—e—r—l—a—p— —a—n—d— —h—o—w— —m—u—c—h— —e—v—i—d—e—n—c—e— —r—e—u—s—e—s—?— —(—3—)— —F—o—r— —a— —g—i—v—e—n— —f—r—a—m—e—w—o—r—k— —+— —s—c—o—p—e—,— —w—h—a—t— —d—o—e—s— —a— —r—e—a—l—i—s—t—i—c— —m—o—c—k— —a—u—d—i—t— —p—r—o—d—u—c—e— ——— —d—r—a—w—i—n—g— —f—r—o—m— —t—h—e— —2—0—5—-—s—c—e—n—a—r—i—o— —l—i—b—r—a—r—y—?— —(—4—)— —A—c—r—o—s—s— —s—e—l—e—c—t—e—d— —f—r—a—m—e—w—o—r—k—s—,— —w—h—a—t—'—s— —t—h—e— —u—n—i—f—i—e—d— —e—v—i—d—e—n—c—e— —c—h—e—c—k—l—i—s—t— —w—i—t—h— —r—e—u—s—e— —m—a—p—?— —U—s—e— —w—h—e—n— —s—t—a—n—d—i—n—g— —u—p— —a— —m—u—l—t—i—-—f—r—a—m—e—w—o—r—k— —p—r—o—g—r—a—m—,— —p—l—a—n—n—i—n—g— —t—h—e— —a—n—n—u—a—l— —a—u—d—i—t— —c—a—l—e—n—d—a—r—,— —o—r— —p—r—e—p—a—r—i—n—g— —f—o—r— —c—e—r—t—i—f—i—c—a—t—i—o—n— —s—t—a—g—e— —1—.— —D—o—e—s— —N—O—T— —r—e—p—l—a—c—e— —p—e—r—-—f—r—a—m—e—w—o—r—k— —s—k—i—l—l—s— —(—i—t— —o—r—c—h—e—s—t—r—a—t—e—s— —t—h—e—m—).
+  Compliance OS  meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks. Four decisions: (1) Given a company profile, which of the 12 supported frameworks apply (ISO 27001/13485/42001/14971, EU AI Act, MDR 745, GDPR, SOC 2, FDA QSR, NIST CSF 2.0, NIS2, HIPAA)? (2) Across selected frameworks, which controls overlap and how much evidence reuses? (3) For a given framework + scope, what does a realistic mock audit produce  drawing from the 205-scenario library? (4) Across selected frameworks, what's the unified evidence checklist with reuse map? Use when standing up a multi-framework program, planning the annual audit calendar, or preparing for certification stage 1. Does NOT replace per-framework skills (it orchestrates them). [Also supersedes `compliance-readiness`: triggers on '/cs:compliance-readiness', 'compliance readiness', 'multi-framework compliance interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,14 +13,14 @@ metadata:
   frameworks: iso-27001, iso-13485, iso-42001, iso-14971, eu-ai-act, eu-mdr-745, gdpr, soc-2, fda-qsr, nist-csf, nis2, hipaa
 ---
 
-# Compliance OS — Meta-Orchestrator
+# Compliance OS  Meta-Orchestrator
 
 Multi-framework compliance program orchestration. **Four decisions, no per-framework deep-dive:**
 
-1. **Which frameworks apply to this company?** — `framework_selector.py` ranks the 12 supported frameworks against a company profile (industry, geography, AI use, medical, financial, headcount, customers, healthcare-PHI, NIS2 essential/important entity, US gov contractor) and returns applicable ones with dependency graph
-2. **How much do selected frameworks overlap?** — `cross_framework_mapper.py` computes control-level overlap with confidence rating; outputs unified control matrix + evidence-reuse opportunities
-3. **What does a mock audit produce?** — `audit_simulator.py` generates 8–15 finding scenarios with severity distribution matching IIA expectations + interview questions per control
-4. **What's the unified evidence checklist?** — `evidence_pool_generator.py` consolidates evidence across enabled frameworks; outputs which artefact satisfies which controls across which frameworks
+1. **Which frameworks apply to this company?**  `framework_selector.py` ranks the 12 supported frameworks against a company profile (industry, geography, AI use, medical, financial, headcount, customers, healthcare-PHI, NIS2 essential/important entity, US gov contractor) and returns applicable ones with dependency graph
+2. **How much do selected frameworks overlap?**  `cross_framework_mapper.py` computes control-level overlap with confidence rating; outputs unified control matrix + evidence-reuse opportunities
+3. **What does a mock audit produce?**  `audit_simulator.py` generates 8–15 finding scenarios with severity distribution matching IIA expectations + interview questions per control
+4. **What's the unified evidence checklist?**  `evidence_pool_generator.py` consolidates evidence across enabled frameworks; outputs which artefact satisfies which controls across which frameworks
 
 This skill is **NOT** a per-framework deep-dive. The per-framework skills (`ra-qm-team/skills/iso42001-specialist/`, `compliance-team-eu-ai-act/`, `ra-qm-team/skills/gdpr-dsgvo-expert/`, etc.) do the operational work. Compliance OS orchestrates them.
 
@@ -54,7 +54,7 @@ python scripts/evidence_pool_generator.py path/to/program.json
 
 - **Have you named every applicable framework?** Forgetting one means rebuilding the audit program later. Run `framework_selector.py` with your profile.
 - **What's the most certificate / regulation your company already operates?** That's your reuse anchor. Map every new framework against it.
-- **What's the audit calendar?** A multi-framework program means surveillance audits stacked through the year — plan auditor independence + capacity.
+- **What's the audit calendar?** A multi-framework program means surveillance audits stacked through the year  plan auditor independence + capacity.
 - **Where is evidence stored?** Multi-framework programs collapse when evidence lives in one team's drive without an index. Run `evidence_pool_generator.py` to surface the reuse opportunities.
 - **What's the management-review cadence across frameworks?** Each framework wants its own management review, but a single integrated review (per ISO Annex SL) typically satisfies all of them with one calendar slot.
 - **Who owns the meta-program?** If no single accountable role, the program fragments.
@@ -84,7 +84,7 @@ python scripts/evidence_pool_generator.py path/to/program.json
 - Per-framework citation
 - Implementation guidance reusable across frameworks
 
-**Densest known overlap:** ISO 27001 Annex A ↔ SOC 2 Trust Services Criteria — historically ~75% control coverage shared. Adding ISO 42001 brings AI-specific controls; adding GDPR brings privacy-specific.
+**Densest known overlap:** ISO 27001 Annex A ↔ SOC 2 Trust Services Criteria  historically ~75% control coverage shared. Adding ISO 42001 brings AI-specific controls; adding GDPR brings privacy-specific.
 
 **Run** `cross_framework_mapper.py` with framework control libraries.
 
@@ -172,41 +172,177 @@ python scripts/evidence_pool_generator.py program.json
 ## Output Standards
 
 ```
-**Bottom Line:** [one sentence — what's the multi-framework picture + biggest reuse opportunity]
+**Bottom Line:** [one sentence  what's the multi-framework picture + biggest reuse opportunity]
 **The Decision:** [one of: framework-set | overlap-map | audit-plan | evidence-consolidation]
 **The Evidence:** [framework names + control IDs from the tool, not adjectives]
 **How to Act:** [3 concrete next steps with owners + dates]
-**Your Decision:** [the call only the compliance officer can make — which frameworks to pursue, audit cycle priority, evidence-reuse policy]
+**Your Decision:** [the call only the compliance officer can make  which frameworks to pursue, audit cycle priority, evidence-reuse policy]
 ```
 
 ## Adjacent Skills
 
-- `ra-qm-team/skills/iso42001-specialist/` — ISO 42001 deep-dive (paired with compliance-team-iso42001 plugin)
-- `ra-qm-team/skills/eu-ai-act-specialist/` — EU AI Act deep-dive (paired with compliance-team-eu-ai-act plugin)
-- `ra-qm-team/skills/information-security-manager-iso27001/` — ISO 27001 ISMS deep-dive
-- `ra-qm-team/skills/quality-manager-qms-iso13485/` — ISO 13485 QMS deep-dive
-- `ra-qm-team/skills/gdpr-dsgvo-expert/` — GDPR deep-dive
-- `ra-qm-team/skills/soc2-compliance/` — SOC 2 deep-dive
-- `ra-qm-team/skills/fda-consultant-specialist/` — FDA QSR deep-dive
-- `ra-qm-team/skills/mdr-745-specialist/` — EU MDR 745 deep-dive
-- `ra-qm-team/skills/risk-management-specialist/` — ISO 14971 deep-dive
-- `c-level-advisor/chief-ai-officer-advisor/` — Executive AI risk decisions (build-vs-buy, model selection)
-- `c-level-advisor/skills/general-counsel-advisor/` — Legal review for novel cases
+- `ra-qm-team/skills/iso42001-specialist/`  ISO 42001 deep-dive (paired with compliance-team-iso42001 plugin)
+- `ra-qm-team/skills/eu-ai-act-specialist/`  EU AI Act deep-dive (paired with compliance-team-eu-ai-act plugin)
+- `ra-qm-team/skills/information-security-manager-iso27001/`  ISO 27001 ISMS deep-dive
+- `ra-qm-team/skills/quality-manager-qms-iso13485/`  ISO 13485 QMS deep-dive
+- `ra-qm-team/skills/gdpr-dsgvo-expert/`  GDPR deep-dive
+- `ra-qm-team/skills/soc2-compliance/`  SOC 2 deep-dive
+- `ra-qm-team/skills/fda-consultant-specialist/`  FDA QSR deep-dive
+- `ra-qm-team/skills/mdr-745-specialist/`  EU MDR 745 deep-dive
+- `ra-qm-team/skills/risk-management-specialist/`  ISO 14971 deep-dive
+- `c-level-advisor/chief-ai-officer-advisor/`  Executive AI risk decisions (build-vs-buy, model selection)
+- `c-level-advisor/skills/general-counsel-advisor/`  Legal review for novel cases
 
 ## References
 
-- [compliance_os_pattern.md](references/compliance_os_pattern.md) — The meta-framework architecture (configure → map → simulate → consolidate → review); when to use vs not
-- [cross_framework_overlap.md](references/cross_framework_overlap.md) — The 9-framework × control-family overlap table with mapping confidence (Phase 3 expands to 12 frameworks via `cross_framework_mapper.py`)
-- [audit_simulation_methodology.md](references/audit_simulation_methodology.md) — ISO 19011 + IIA IPPF + AICPA AT-C audit-simulation principles + severity distribution heuristics
-- [evidence_management.md](references/evidence_management.md) — Evidence pool design + retention + freshness + reuse-leverage scoring
-- [multi_framework_audit_playbook.md](references/multi_framework_audit_playbook.md) — Integrated audit programme for 2+ frameworks (Phase 2)
-- [evidence_artifact_reuse_index.md](references/evidence_artifact_reuse_index.md) — Empirically-derived reuse-leverage ranking across all 12 frameworks (Phase 3)
+- [compliance_os_pattern.md](references/compliance_os_pattern.md)  The meta-framework architecture (configure → map → simulate → consolidate → review); when to use vs not
+- [cross_framework_overlap.md](references/cross_framework_overlap.md)  The 9-framework × control-family overlap table with mapping confidence (Phase 3 expands to 12 frameworks via `cross_framework_mapper.py`)
+- [audit_simulation_methodology.md](references/audit_simulation_methodology.md)  ISO 19011 + IIA IPPF + AICPA AT-C audit-simulation principles + severity distribution heuristics
+- [evidence_management.md](references/evidence_management.md)  Evidence pool design + retention + freshness + reuse-leverage scoring
+- [multi_framework_audit_playbook.md](references/multi_framework_audit_playbook.md)  Integrated audit programme for 2+ frameworks (Phase 2)
+- [evidence_artifact_reuse_index.md](references/evidence_artifact_reuse_index.md)  Empirically-derived reuse-leverage ranking across all 12 frameworks (Phase 3)
 
 ## Phase 3 Asset: Mock Audit Scenario Library
 
-`assets/mock_audit_library.json` — 205 pre-built finding scenarios spanning 12 frameworks + 26 themes + 4 severity levels (34 critical, 88 major, 54 minor, 29 observation). Each scenario tags applicable frameworks; cross-reference `scripts/cross_framework_mapper.py` merged-controls catalogue to resolve framework-specific control IDs. Use as input to enrich `audit_simulator.py` mock audits, as a training resource for new internal auditors, or as the seed for finding-pattern detection across multi-framework programmes.
+`assets/mock_audit_library.json`  205 pre-built finding scenarios spanning 12 frameworks + 26 themes + 4 severity levels (34 critical, 88 major, 54 minor, 29 observation). Each scenario tags applicable frameworks; cross-reference `scripts/cross_framework_mapper.py` merged-controls catalogue to resolve framework-specific control IDs. Use as input to enrich `audit_simulator.py` mock audits, as a training resource for new internal auditors, or as the seed for finding-pattern detection across multi-framework programmes.
 
 ---
 
 **Version:** 1.2.0
 **Status:** Production Ready
+
+---
+
+## Consolidated Capabilities: COMPLIANCE-READINESS (Subsumed & Superceded)
+
+# /cs:compliance-readiness  Compliance Officer Forcing Questions
+
+**Command:** `/cs:compliance-readiness <program>`
+
+The multi-framework compliance officer pressure-tests any compliance program. Six questions before any new-framework commitment, audit cycle planning, or certification readiness sign-off.
+
+## When to Run
+
+- Before adopting a new compliance framework
+- Before annual audit calendar finalization
+- Before certification stage 1 readiness sign-off
+- Before management review (Clause 9.3 across frameworks)
+- When evidence-collection effort has grown 50%+ year-over-year (a smell)
+- When an audit produced > 15% critical findings
+
+## The Six Compliance Officer Questions
+
+### 1. Have you named every applicable framework?
+**No framework selector run, no defensible scope.**
+- Run `framework_selector.py` with company profile
+- Forgetting a framework means rebuilding the audit program later
+- Pay attention to industry-specific overlays (financial: NYDFS, FINMA; healthcare: HIPAA, ISO 13485; AI: ISO 42001 + EU AI Act)
+
+### 2. Where do the frameworks overlap, and what's the reuse leverage?
+**Single evidence -> N controls = the cornerstone of multi-framework efficiency.**
+- Run `cross_framework_mapper.py` with enabled frameworks
+- HIGH-confidence mappings: same evidence; MEDIUM: existing + overlay; LOW: new artefact
+- Without overlap analysis, you'll collect the same access-review records 3 times
+
+### 3. Who owns each artefact, and what's the reuse-leverage score?
+**Joint ownership without accountability is the most common cause of stale evidence.**
+- Run `evidence_pool_generator.py` for the artefact inventory
+- HIGH-leverage artefacts (≥ 5 mappings) get built first
+- Each artefact needs one accountable owner
+- Stale evidence is an effective gap  even if the artefact existed historically
+
+### 4. What's the audit calendar, and is auditor independence respected?
+**Surveillance audits stacking in the same week is a smell.**
+- Use per-framework audit-plan tools (aims_audit_scheduler, isms_audit_scheduler, audit_schedule_optimizer)
+- Auditor cannot audit their own work (Clause 9.2 across all ISO standards)
+- For small teams: rotate auditors + occasional external auditor
+
+### 5. What does a mock audit produce, and is the severity distribution healthy?
+**No mock audit, no readiness signal.**
+- Run `audit_simulator.py` with framework + scope
+- Healthy distribution: ≥ 40% observation, ≤ 15% critical
+- All-critical findings = destructive audit OR genuinely failing program
+- All-observation findings = audit too superficial
+
+### 6. What's the management review cadence across frameworks?
+**Each framework wants its own management review; an integrated review (per Annex SL) saves 5x exec time.**
+- Schedule one quarterly cross-framework review covering all enabled frameworks' Clause 9.3 inputs
+- Inputs: risk register changes, open nonconformities, audit findings, incidents, drift, KPIs
+- Outputs: action items, resource decisions, scope adjustments
+
+## Workflow
+
+```bash
+# 1. Framework selection
+python ../../skills/compliance-os/scripts/framework_selector.py profile.json
+
+# 2. Cross-framework overlap
+python ../../skills/compliance-os/scripts/cross_framework_mapper.py program.json
+
+# 3. Evidence pool consolidation
+python ../../skills/compliance-os/scripts/evidence_pool_generator.py program.json
+
+# 4. Mock audit (per framework)
+python ../../skills/compliance-os/scripts/audit_simulator.py scope.json
+```
+
+## Output Format
+
+```markdown
+# Compliance Readiness: <program>
+**Date:** YYYY-MM-DD
+
+## The Decision Being Made
+[framework-set | audit-calendar | certification-readiness | evidence-consolidation]
+
+## Framework Set
+- Applicable: <list>
+- Binding (regulations): <count>
+- Certifiable: <count>
+- Missing dependencies: <list>
+
+## Cross-Framework Overlap
+- Total merged controls in scope: N
+- High-leverage artefacts (≥ 5 mappings): M
+- Top reuse opportunities: <top 5 artefacts>
+
+## Evidence Pool
+- Artefacts in catalog: N
+- High-leverage count: M
+- Stale evidence rate: X%
+- Unowned artefacts: K
+
+## Audit Calendar
+- Frameworks scheduled this year: <list>
+- Auditor independence respected: Y/N
+- Conflicts: <list>
+
+## Mock Audit Results (per framework)
+- <framework>: total findings N, critical X%, observation Y%, healthy distribution: Y/N
+
+## Verdict
+🟢 READY | 🟡 STAGE-2-CANDIDATE | 🔴 NOT-READY
+
+## Top 3 Actions
+[3 concrete next steps with owners + dates]
+```
+
+## Routing
+
+- `/cs:aims-audit`  for ISO 42001-specific forcing questions
+- `/cs:ai-act-readiness`  for EU AI Act-specific forcing questions
+- `/cs:ciso-review`  for cybersecurity strategy
+- `/cs:caio-review`  for executive AI strategy
+- `/cs:gc-review`  for novel-case legal review
+- `/cs:decide`  to log the verdict
+- `/cs:freeze 30`  on certification commitments (multi-year financial impact)
+
+## Related
+
+- Agent: [`cs-compliance-officer`](../../agents/cs-compliance-officer.md)
+- Skill: [`compliance-os`](../compliance-os/SKILL.md)
+- Adjacent: `ra-qm-team/skills/iso42001-specialist/`, `ra-qm-team/skills/eu-ai-act-specialist/`, `ra-qm-team/skills/information-security-manager-iso27001/`, `ra-qm-team/skills/soc2-compliance/`, `ra-qm-team/skills/gdpr-dsgvo-expert/`
+
+---
+
+**Version:** 1.0.0

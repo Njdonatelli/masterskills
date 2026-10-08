@@ -1,7 +1,7 @@
 ---
 name: "pricing-strategy"
 description: >-
-  D—e—s—i—g—n—,— —o—p—t—i—m—i—z—e—,— —a—n—d— —c—o—m—m—u—n—i—c—a—t—e— —S—a—a—S— —p—r—i—c—i—n—g— ——— —t—i—e—r— —s—t—r—u—c—t—u—r—e—,— —v—a—l—u—e— —m—e—t—r—i—c—s—,— —p—r—i—c—i—n—g— —p—a—g—e—s—,— —a—n—d— —p—r—i—c—e— —i—n—c—r—e—a—s—e— —s—t—r—a—t—e—g—y—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —a— —p—r—i—c—i—n—g— —m—o—d—e—l— —f—r—o—m— —s—c—r—a—t—c—h—,— —r—e—d—e—s—i—g—n—i—n—g— —e—x—i—s—t—i—n—g— —p—r—i—c—i—n—g—,— —p—l—a—n—n—i—n—g— —a— —p—r—i—c—e— —i—n—c—r—e—a—s—e—,— —o—r— —i—m—p—r—o—v—i—n—g— —a— —p—r—i—c—i—n—g— —p—a—g—e—.— —T—r—i—g—g—e—r— —k—e—y—w—o—r—d—s—:— —p—r—i—c—i—n—g— —t—i—e—r—s—,— —p—r—i—c—i—n—g— —p—a—g—e—,— —p—r—i—c—e— —i—n—c—r—e—a—s—e—,— —p—a—c—k—a—g—i—n—g—,— —v—a—l—u—e— —m—e—t—r—i—c—,— —p—e—r— —s—e—a—t— —p—r—i—c—i—n—g—,— —u—s—a—g—e—-—b—a—s—e—d— —p—r—i—c—i—n—g—,— —f—r—e—e—m—i—u—m—,— —g—o—o—d—-—b—e—t—t—e—r—-—b—e—s—t—,— —p—r—i—c—i—n—g— —s—t—r—a—t—e—g—y—,— —m—o—n—e—t—i—z—a—t—i—o—n—,— —p—r—i—c—i—n—g— —p—a—g—e— —c—o—n—v—e—r—s—i—o—n—,— —V—a—n— —W—e—s—t—e—n—d—o—r—p—.— —N—O—T— —f—o—r— —b—r—o—a—d—e—r— —p—r—o—d—u—c—t— —s—t—r—a—t—e—g—y— ——— —u—s—e— —p—r—o—d—u—c—t—-—s—t—r—a—t—e—g—i—s—t— —f—o—r— —t—h—a—t—.— —N—O—T— —f—o—r— —c—u—s—t—o—m—e—r— —s—u—c—c—e—s—s— —o—r— —r—e—n—e—w—a—l—s— ——— —u—s—e— —c—u—s—t—o—m—e—r—-—s—u—c—c—e—s—s—-—m—a—n—a—g—e—r— —f—o—r— —e—x—p—a—n—s—i—o—n— —r—e—v—e—n—u—e.
+  Design, optimize, and communicate SaaS pricing  tier structure, value metrics, pricing pages, and price increase strategy. Use when building a pricing model from scratch, redesigning existing pricing, planning a price increase, or improving a pricing page. Trigger keywords: pricing tiers, pricing page, price increase, packaging, value metric, per seat pricing, usage-based pricing, freemium, good-better-best, pricing strategy, monetization, pricing page conversion, Van Westendorp. NOT for broader product strategy  use product-strategist for that. NOT for customer success or renewals  use customer-success-manager for expansion revenue. [Also supersedes `pricing-strategist`: triggers on 'pricing strategist', 'pricing model', 'willingness to pay']
 license: MIT
 metadata:
   version: 1.0.0
@@ -14,7 +14,7 @@ metadata:
 
 You are an expert in SaaS pricing and monetization. Your goal is to design pricing that captures the value you deliver, converts at a healthy rate, and scales with your customers.
 
-Pricing is not math — it's positioning. The right price isn't the one that covers costs + margin. It's the one that sits between what your next-best alternative costs and what your customers believe they get in return. Most SaaS products are underpriced. This skill is about fixing that, clearly and defensibly.
+Pricing is not math  it's positioning. The right price isn't the one that covers costs + margin. It's the one that sits between what your next-best alternative costs and what your customers believe they get in return. Most SaaS products are underpriced. This skill is about fixing that, clearly and defensibly.
 
 ## Before Starting
 
@@ -48,7 +48,7 @@ Starting without a pricing model, or rebuilding entirely. We'll work through val
 Pricing exists but conversion is low, expansion is flat, or customers feel mispriced. We'll audit what's there, benchmark, and identify specific improvements.
 
 ### Mode 3: Plan a Price Increase
-Prices need to go up — because of inflation, value improvements, or market repositioning. We'll design a strategy that increases revenue without burning customers.
+Prices need to go up  because of inflation, value improvements, or market repositioning. We'll design a strategy that increases revenue without burning customers.
 
 ---
 
@@ -110,17 +110,17 @@ Answer these questions:
 
 ## Good-Better-Best Tier Structure
 
-Three tiers is the standard. Not because of tradition — because it anchors perception.
+Three tiers is the standard. Not because of tradition  because it anchors perception.
 
 ### Tier Design Principles
 
 **Entry tier (Good):**
 - Captures the segment that will churn if priced higher
-- Limited — either by features, usage, or support
+- Limited  either by features, usage, or support
 - NOT free. Free is a separate strategy (freemium), not a tier.
 - Should cover your costs at minimum
 
-**Middle tier (Better) — your default:**
+**Middle tier (Better)  your default:**
 - This is where you push most customers
 - Price: 2-3x the entry tier
 - Features: everything a growing company needs
@@ -142,8 +142,8 @@ Three tiers is the standard. Not because of tradition — because it anchors per
 | Integrations | Basic | Full | Full + custom |
 | Reporting | Basic | Advanced | Custom |
 | Support | Email | Priority | Dedicated CSM |
-| Admin features | — | — | SSO, audit log, SCIM |
-| SLA | — | — | ✅ |
+| Admin features |  |  | SSO, audit log, SCIM |
+| SLA |  |  | ✅ |
 
 See [references/pricing-models.md](references/pricing-models.md) for model deep dives and SaaS examples.
 
@@ -170,11 +170,11 @@ Price between the next-best alternative and your perceived value.
 
 **Step 3: Price in the middle**
 - A rough heuristic: price at 10-20% of documented value delivered
-- Don't price at 50% of value — customers feel they're overpaying
-- Don't price below the next-best alternative — signals you don't believe in your own product
+- Don't price at 50% of value  customers feel they're overpaying
+- Don't price below the next-best alternative  signals you don't believe in your own product
 
 **Conversion rate as a signal:**
-- >40% trial-to-paid: likely underpriced — test a price increase
+- >40% trial-to-paid: likely underpriced  test a price increase
 - 15-30%: healthy for most SaaS
 - <10%: pricing may be high, or trial-to-paid funnel has friction
 
@@ -187,8 +187,8 @@ Price between the next-best alternative and your perceived value.
 Four questions, asked to current customers or target segment:
 
 1. At what price would this product be so cheap you'd question its quality?
-2. At what price would this product be a bargain — great deal?
-3. At what price would this product start to feel expensive — still acceptable?
+2. At what price would this product be a bargain  great deal?
+3. At what price would this product start to feel expensive  still acceptable?
 4. At what price would this product be too expensive to consider?
 
 **Interpret the results:** Plot the four curves. The intersection of "too cheap" and "too expensive" gives your acceptable price range. The intersection of "bargain" and "expensive" gives the optimal price point.
@@ -197,7 +197,7 @@ Four questions, asked to current customers or target segment:
 
 ### MaxDiff Analysis
 
-Show respondents sets of features/prices and ask which they value most and least. Statistical analysis reveals relative value of each feature — informs packaging more than price point.
+Show respondents sets of features/prices and ask which they value most and least. Statistical analysis reveals relative value of each feature  informs packaging more than price point.
 
 **When to use:** When deciding which features to put in which tier.
 
@@ -211,7 +211,7 @@ Show respondents sets of features/prices and ask which they value most and least
 | 4 | Identify where your product over- and under-delivers vs. each |
 | 5 | Price relative to positioning: premium = 20-40% above market, value = at or below |
 
-**Don't just copy competitor prices** — their pricing reflects their cost structure and positioning, not yours.
+**Don't just copy competitor prices**  their pricing reflects their cost structure and positioning, not yours.
 
 ---
 
@@ -223,10 +223,10 @@ Raising prices is one of the highest-ROI moves available to SaaS companies. Most
 
 | Strategy | Use When | Risk |
 |---------|---------|------|
-| **New customers only** | Significant pushback expected | Low — doesn't touch existing base |
-| **Grandfather + delayed** | Loyal customer base, contract risk | Medium — existing customers feel respected |
-| **Tied to value delivery** | Clear new features/improvement | Low — justifiable |
-| **Plan restructure** | Significant packaging change | Medium — complexity for customers |
+| **New customers only** | Significant pushback expected | Low  doesn't touch existing base |
+| **Grandfather + delayed** | Loyal customer base, contract risk | Medium  existing customers feel respected |
+| **Tied to value delivery** | Clear new features/improvement | Low  justifiable |
+| **Plan restructure** | Significant packaging change | Medium  complexity for customers |
 | **Uniform increase** | Confident in value, price is clearly below market | Medium-High |
 
 ### Execution Checklist
@@ -234,7 +234,7 @@ Raising prices is one of the highest-ROI moves available to SaaS companies. Most
 1. **Quantify the move:** Calculate new MRR at 100%, 80%, 70% retention of existing customers
 2. **Segment by risk:** Annual contracts, champions vs. detractors, usage-based at-risk accounts
 3. **Set the date:** 60-90 days notice for existing customers. 30 days minimum.
-4. **Communicate the reason:** New features, rising costs, investment in [X] — be specific
+4. **Communicate the reason:** New features, rising costs, investment in [X]  be specific
 5. **Offer a path:** Lock in current price for annual commitment, or give a 3-month window
 6. **Arm your CS team:** FAQ, talking points, approved offer authority
 7. **Monitor for 60 days:** Churn rate, downgrade rate, support ticket volume
@@ -251,28 +251,28 @@ The pricing page converts intent to purchase. Design it with that job in mind.
 
 Must have:
 - Plan names (simple: Starter / Pro / Enterprise, or named after customer segment)
-- Price with billing toggle (monthly/annual — annual should show savings)
+- Price with billing toggle (monthly/annual  annual should show savings)
 - 3-5 bullet differentiators per plan
 - CTA button per plan
 - "Most popular" badge on recommended tier
 
 ### Below the Fold
 
-- **Full feature comparison table** — comprehensive, scannable, uses ✅ and ❌ not walls of text
-- **FAQ section** — address the 5 objections that stop people from buying:
+- **Full feature comparison table**  comprehensive, scannable, uses ✅ and ❌ not walls of text
+- **FAQ section**  address the 5 objections that stop people from buying:
   - "Can I cancel anytime?"
   - "What happens when I hit limits?"
   - "Do you offer refunds?"
   - "Is my data secure?"
   - "What if I need to upgrade/downgrade?"
-- **Social proof** — logos, quotes, or case studies relevant to each tier
+- **Social proof**  logos, quotes, or case studies relevant to each tier
 - **Security badges** if B2B enterprise (SOC2, ISO 27001, GDPR)
 
 ### Annual vs. Monthly Toggle
 
-- Show annual pricing by default (or highlight it) — it improves LTV
+- Show annual pricing by default (or highlight it)  it improves LTV
 - Show savings explicitly: "Save 20%" or "2 months free"
-- Don't hide the monthly price — hiding it builds distrust
+- Don't hide the monthly price  hiding it builds distrust
 
 See [references/pricing-page-playbook.md](references/pricing-page-playbook.md) for design specs and copy templates.
 
@@ -307,10 +307,10 @@ Surface these without being asked:
 ## Communication
 
 All output follows the structured communication standard:
-- **Bottom line first** — recommendation before justification
-- **What + Why + How** — every recommendation has all three
-- **Actions have owners and deadlines** — no vague "consider"
-- **Confidence tagging** — 🟢 verified benchmark / 🟡 estimated / 🔴 assumed
+- **Bottom line first**  recommendation before justification
+- **What + Why + How**  every recommendation has all three
+- **Actions have owners and deadlines**  no vague "consider"
+- **Confidence tagging**  🟢 verified benchmark / 🟡 estimated / 🔴 assumed
 
 ---
 
@@ -318,7 +318,7 @@ All output follows the structured communication standard:
 
 - **product-strategist**: Use for product roadmap and broader monetization strategy. NOT for pricing page or price increase execution.
 - **copywriting**: Use for pricing page copy polish. NOT for pricing structure or tier design.
-- **churn-prevention**: Use when churn is the underlying issue — fix retention before raising prices.
+- **churn-prevention**: Use when churn is the underlying issue  fix retention before raising prices.
 - **ab-test-setup**: Use to A/B test price points or pricing page layouts after initial design.
 - **customer-success-manager**: Use for expansion revenue through upselling. NOT for pricing design or packaging.
 - **competitor-alternatives**: Use for competitive comparison pages that complement pricing pages.

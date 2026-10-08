@@ -1,7 +1,7 @@
 ---
 name: "cfo-advisor"
 description: >-
-  F—i—n—a—n—c—i—a—l— —l—e—a—d—e—r—s—h—i—p— —f—o—r— —s—t—a—r—t—u—p—s— —a—n—d— —s—c—a—l—i—n—g— —c—o—m—p—a—n—i—e—s—.— —F—i—n—a—n—c—i—a—l— —m—o—d—e—l—i—n—g—,— —u—n—i—t— —e—c—o—n—o—m—i—c—s—,— —f—u—n—d—r—a—i—s—i—n—g— —s—t—r—a—t—e—g—y—,— —c—a—s—h— —m—a—n—a—g—e—m—e—n—t—,— —a—n—d— —b—o—a—r—d— —f—i—n—a—n—c—i—a—l— —p—a—c—k—a—g—e—s—.— —U—s—e— —w—h—e—n— —b—u—i—l—d—i—n—g— —f—i—n—a—n—c—i—a—l— —m—o—d—e—l—s—,— —a—n—a—l—y—z—i—n—g— —u—n—i—t— —e—c—o—n—o—m—i—c—s—,— —p—l—a—n—n—i—n—g— —f—u—n—d—r—a—i—s—i—n—g—,— —m—a—n—a—g—i—n—g— —c—a—s—h— —r—u—n—w—a—y—,— —p—r—e—p—a—r—i—n—g— —b—o—a—r—d— —m—a—t—e—r—i—a—l—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—F—O—,— —b—u—r—n— —r—a—t—e—,— —r—u—n—w—a—y—,— —f—u—n—d—r—a—i—s—i—n—g—,— —u—n—i—t— —e—c—o—n—o—m—i—c—s—,— —L—T—V—,— —C—A—C—,— —t—e—r—m— —s—h—e—e—t—s—,— —o—r— —f—i—n—a—n—c—i—a—l— —s—t—r—a—t—e—g—y.
+  Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or when user mentions CFO, burn rate, runway, fundraising, unit economics, LTV, CAC, term sheets, or financial strategy. [Also supersedes `cfo-review`: triggers on '/cs:cfo-review', 'cfo review', 'financial plan interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -94,12 +94,12 @@ python scripts/fundraising_model.py
 
 ## Resources
 
-- `references/financial_planning.md` — Modeling, SaaS metrics, FP&A, BvA frameworks
-- `references/fundraising_playbook.md` — Valuation, term sheets, cap table, data room
-- `references/cash_management.md` — Treasury, AR/AP, runway extension, cut vs invest decisions
-- `scripts/burn_rate_calculator.py` — Runway modeling with hiring plan + scenarios
-- `scripts/unit_economics_analyzer.py` — Per-cohort LTV, per-channel CAC
-- `scripts/fundraising_model.py` — Dilution, cap table, multi-round projections
+- `references/financial_planning.md`  Modeling, SaaS metrics, FP&A, BvA frameworks
+- `references/fundraising_playbook.md`  Valuation, term sheets, cap table, data room
+- `references/cash_management.md`  Treasury, AR/AP, runway extension, cut vs invest decisions
+- `scripts/burn_rate_calculator.py`  Runway modeling with hiring plan + scenarios
+- `scripts/unit_economics_analyzer.py`  Per-cohort LTV, per-channel CAC
+- `scripts/fundraising_model.py`  Dilution, cap table, multi-round projections
 
 
 ## Proactive Triggers
@@ -123,7 +123,7 @@ Surface these without being asked when you detect them in company context:
 
 ## Reasoning Technique: Chain of Thought
 
-Work through financial logic step by step. Show all math. Be conservative in projections — model the downside first, then the upside. Never round in your favor.
+Work through financial logic step by step. Show all math. Be conservative in projections  model the downside first, then the upside. Never round in your favor.
 
 ## Communication
 
@@ -139,3 +139,108 @@ All output passes the Internal Quality Loop before reaching the founder (see `..
 - **Always** read `company-context.md` before responding (if it exists)
 - **During board meetings:** Use only your own analysis in Phase 2 (no cross-pollination)
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
+
+---
+
+## Consolidated Capabilities: CFO-REVIEW (Subsumed & Superceded)
+
+# /cs:cfo-review  CFO Forcing Questions
+
+**Command:** `/cs:cfo-review <plan>`
+
+The numerate skeptic stress-tests anything that touches money. Six questions before any spend or fundraise.
+
+## When to Run
+
+- Before approving any spend > 1% of revenue
+- Before opening a new hiring requisition
+- Before any fundraise conversation
+- Before changing pricing or unit economics
+- Before signing a multi-year contract
+
+## The Six CFO Questions
+
+### 1. Burn & Runway
+**What's the burn multiple and how many months of cash remain at base / bull / bear?**
+- Burn multiple = Net burn ÷ Net new ARR. Above 2x is a problem.
+- If bear case < 12 months, you're already in fundraising mode.
+
+### 2. Unit Economics
+**What is LTV / CAC per channel, and what's the payback period on the top-2 channels?**
+- LTV / CAC > 3x is healthy. Payback < 12 months is healthy.
+- If either is broken, do not scale that channel.
+
+### 3. Dilution Path
+**If this plan requires a raise, what's the dilution at base and bear valuations?**
+- Founder dilution per round.
+- Cumulative dilution to next 2 rounds.
+
+### 4. Capital Allocation Alternative
+**If this dollar wasn't spent here, where else could it go and what's the expected return?**
+- Three alternatives: hiring, product, marketing.
+- Make the opportunity cost explicit.
+
+### 5. Revenue Quality
+**What's the gross margin, and how does it trend at scale?**
+- If margin compresses with scale, the model is broken.
+- Cost-of-revenue should grow slower than revenue.
+
+### 6. Bear Case Survival
+**If revenue is 50% of plan, does the company survive 18 months?**
+- Default-alive is non-negotiable.
+- If not, identify the cut triggers in advance.
+
+## Workflow
+
+1. **Run the numbers:**
+   ```bash
+   python ../../../skills/cfo-advisor/scripts/burn_rate_calculator.py
+   python ../../../skills/cfo-advisor/scripts/unit_economics_analyzer.py
+   python ../../../skills/cfo-advisor/scripts/fundraising_model.py
+   ```
+2. **Answer all six questions** with numbers, not adjectives.
+3. **Apply the verdict:**
+   - 🟢 GREEN  fund it
+   - 🟡 YELLOW  fund with cut triggers
+   - 🔴 RED  kill or revise
+
+## Output Format
+
+```markdown
+# CFO Review: <plan>
+**Date:** YYYY-MM-DD
+**Reviewer:** cs-cfo-advisor
+
+## Numbers
+- Burn multiple: X.Xx
+- Runway (base/bull/bear): X / X / X months
+- LTV/CAC top channel: X.Xx, payback Y months
+- Gross margin: X% (trend: Y)
+- Dilution this round: X%
+- Bear-case survival: PASS / FAIL
+
+## Verdict
+🟢 GREEN | 🟡 YELLOW | 🔴 RED
+
+## Conditions (if YELLOW)
+- Cut trigger: <metric> < <threshold> → <action>
+- Review checkpoint: <date>
+
+## Recommendation
+[3 concrete next steps]
+```
+
+## Routing
+
+- `/cs:decide`  log the verdict
+- `/cs:execute`  build 90-day plan if GREEN
+- `/cs:boardroom`  escalate if multi-role implications
+
+## Related
+
+- Agent: [`cs-cfo-advisor`](../../agents/cs-cfo-advisor.md)
+- Skill: [`cfo-advisor`](../../../skills/cfo-advisor/SKILL.md)
+
+---
+
+**Version:** 1.0.0

@@ -1,7 +1,7 @@
 ---
 name: "iso42001-specialist"
 description: >-
-  I—S—O—/—I—E—C— —4—2—0—0—1—:—2—0—2—3— —A—I— —M—a—n—a—g—e—m—e—n—t— —S—y—s—t—e—m— —(—A—I—M—S—)— —s—p—e—c—i—a—l—i—s—t— —f—o—r— —c—o—m—p—l—i—a—n—c—e— —t—e—a—m—s— —r—u—n—n—i—n—g— —i—n—t—e—r—n—a—l— —a—u—d—i—t—s—.— —T—h—r—e—e— —d—e—c—i—s—i—o—n—s—:— —(—1—)— —W—h—e—r—e— —a—r—e— —t—h—e— —g—a—p—s— —a—g—a—i—n—s—t— —C—l—a—u—s—e—s— —4—-—1—0— —a—n—d— —w—h—a—t— —d—o— —w—e— —c—l—o—s—e— —f—i—r—s—t—?— —(—2—)— —W—h—a—t— —g—o—e—s— —i—n— —t—h—e— —A—I— —r—i—s—k— —r—e—g—i—s—t—e—r— —a—n—d— —w—h—i—c—h— —A—n—n—e—x— —A— —c—o—n—t—r—o—l—s— —t—r—e—a—t— —e—a—c—h— —r—i—s—k—?— —(—3—)— —W—h—a—t—'—s— —t—h—e— —1—2—-—m—o—n—t—h— —i—n—t—e—r—n—a—l— —a—u—d—i—t— —p—l—a—n— —t—h—a—t— —s—a—t—i—s—f—i—e—s— —C—l—a—u—s—e— —9—.—2—?— —U—s—e— —w—h—e—n— —p—r—e—p—a—r—i—n—g— —f—o—r— —c—e—r—t—i—f—i—c—a—t—i—o—n—,— —s—c—o—p—i—n—g— —i—n—t—e—r—n—a—l— —a—u—d—i—t— —c—y—c—l—e—s—,— —o—r— —o—n—b—o—a—r—d—i—n—g— —A—I— —s—y—s—t—e—m—s— —i—n—t—o— —a—n— —e—x—i—s—t—i—n—g— —I—S—M—S— —(—2—7—0—0—1—)— —/— —Q—M—S— —(—1—3—4—8—5—)— —p—r—o—g—r—a—m—.— —N—O—T— —a—n— —e—x—e—c—u—t—i—v—e— —A—I— —s—t—r—a—t—e—g—y— —s—k—i—l—l— —(—s—e—e— —c—h—i—e—f—-—a—i—-—o—f—f—i—c—e—r—-—a—d—v—i—s—o—r—)—.— —N—O—T— —E—U— —A—I— —A—c—t— —c—o—m—p—l—i—a—n—c—e— —(—s—e—e— —c—o—m—p—l—i—a—n—c—e—-—t—e—a—m—-—e—u—-—a—i—-—a—c—t—).
+  ISO/IEC 42001:2023 AI Management System (AIMS) specialist for compliance teams running internal audits. Three decisions: (1) Where are the gaps against Clauses 4-10 and what do we close first? (2) What goes in the AI risk register and which Annex A controls treat each risk? (3) What's the 12-month internal audit plan that satisfies Clause 9.2? Use when preparing for certification, scoping internal audit cycles, or onboarding AI systems into an existing ISMS (27001) / QMS (13485) program. NOT an executive AI strategy skill (see chief-ai-officer-advisor). NOT EU AI Act compliance (see compliance-team-eu-ai-act). [Also supersedes `aims-audit`: triggers on '/cs:aims-audit', 'aims audit', 'ISO 42001 internal audit 6 questions']
 license: MIT
 metadata:
   version: 1.0.0
@@ -17,9 +17,9 @@ metadata:
 
 Internal-audit-grade operating skill for ISO/IEC 42001:2023. **Three decisions, no executive AI strategy:**
 
-1. **Where are the AIMS gaps against Clauses 4–10?** — coverage scoring per clause + remediation priority
-2. **What's the AI risk register, and which controls treat each risk?** — Annex A.2–A.10 control mapping per ISO 23894 risk method
-3. **What's the Clause 9.2 internal audit plan?** — 12-month schedule with scope, frequency, auditor independence checks
+1. **Where are the AIMS gaps against Clauses 4–10?**  coverage scoring per clause + remediation priority
+2. **What's the AI risk register, and which controls treat each risk?**  Annex A.2–A.10 control mapping per ISO 23894 risk method
+3. **What's the Clause 9.2 internal audit plan?**  12-month schedule with scope, frequency, auditor independence checks
 
 This skill is **NOT a chief-ai-officer-advisor replacement**. CAIO decides whether to build/buy a model and what business risk to accept. This skill operates the management-system discipline that captures those decisions in audit-ready evidence.
 
@@ -70,7 +70,7 @@ python scripts/aims_audit_scheduler.py path/to/scope.json
 | **7. Support** | Resources, competence, awareness, documented info | Competence requirements undefined for ML engineers |
 | **8. Operation** | Operational planning, AI system lifecycle | Lifecycle stages not mapped to Annex A controls |
 | **9. Performance** | Monitoring, internal audit, management review | Drift monitoring exists in code but not in management review inputs |
-| **10. Improvement** | Nonconformity, corrective action, continual improvement | CAPA loop separate from existing 13485/9001 CAPA — duplication |
+| **10. Improvement** | Nonconformity, corrective action, continual improvement | CAPA loop separate from existing 13485/9001 CAPA  duplication |
 
 **Run** `aims_gap_analyzer.py` with an evidence inventory JSON to score each clause (full / partial / missing) and get a prioritized remediation list.
 
@@ -125,7 +125,7 @@ See `references/aims_implementation_guide.md` for the maturity model and rollout
 python scripts/aims_gap_analyzer.py aims_evidence.json
 # 2. Review gap matrix; group by clause
 # 3. For each gap, identify owner + due date (target: close before stage 1)
-# 4. Cross-check against ISO 27001 / 13485 existing artifacts — many can be reused
+# 4. Cross-check against ISO 27001 / 13485 existing artifacts  many can be reused
 # 5. Cross-check against EU AI Act obligations (use compliance-team-eu-ai-act)
 # 6. Output: prioritized remediation plan with owners + dates
 ```
@@ -165,32 +165,164 @@ python scripts/aims_audit_scheduler.py audit_scope.json
 ## Output Standards
 
 ```
-**Bottom Line:** [one sentence — gap severity + the one thing to close first]
+**Bottom Line:** [one sentence  gap severity + the one thing to close first]
 **The Decision:** [one of: gap-closure | risk-treatment | audit-scope]
 **The Evidence:** [clause numbers + control IDs from the tool, not adjectives]
 **How to Act:** [3 concrete next steps with owners + dates]
-**Your Decision:** [the call only the compliance officer or CAIO can make — risk acceptance, scope expansion, certification readiness]
+**Your Decision:** [the call only the compliance officer or CAIO can make  risk acceptance, scope expansion, certification readiness]
 ```
 
 ## Adjacent Skills
 
-- `ra-qm-team/skills/information-security-manager-iso27001/` — ISO 27001 ISMS implementation (many controls reusable for AIMS A.7 data controls)
-- `ra-qm-team/skills/quality-manager-qms-iso13485/` — ISO 13485 QMS (provides CAPA + management-review machinery the AIMS reuses)
-- `ra-qm-team/skills/gdpr-dsgvo-expert/` — GDPR DPIA process (input to AIMS A.5 impact assessment for personal-data systems)
-- `ra-qm-team/skills/isms-audit-expert/` — ISO 27001 internal audit pattern (the audit scheduler mirrors this for AIMS)
-- `ra-qm-team/skills/soc2-compliance/` — SOC 2 trust services (reusable controls for AIMS A.10 third-party relationships)
-- `ra-qm-team/compliance-team-eu-ai-act/` — EU AI Act Article-level compliance (binding regulation companion to voluntary 42001)
-- `compliance-os/` — Meta-orchestrator for multi-framework programs (run AIMS as one framework among 9)
-- `c-level-advisor/chief-ai-officer-advisor/` — Executive AI strategy (build-vs-buy, cost economics — different audience)
+- `ra-qm-team/skills/information-security-manager-iso27001/`  ISO 27001 ISMS implementation (many controls reusable for AIMS A.7 data controls)
+- `ra-qm-team/skills/quality-manager-qms-iso13485/`  ISO 13485 QMS (provides CAPA + management-review machinery the AIMS reuses)
+- `ra-qm-team/skills/gdpr-dsgvo-expert/`  GDPR DPIA process (input to AIMS A.5 impact assessment for personal-data systems)
+- `ra-qm-team/skills/isms-audit-expert/`  ISO 27001 internal audit pattern (the audit scheduler mirrors this for AIMS)
+- `ra-qm-team/skills/soc2-compliance/`  SOC 2 trust services (reusable controls for AIMS A.10 third-party relationships)
+- `ra-qm-team/compliance-team-eu-ai-act/`  EU AI Act Article-level compliance (binding regulation companion to voluntary 42001)
+- `compliance-os/`  Meta-orchestrator for multi-framework programs (run AIMS as one framework among 9)
+- `c-level-advisor/chief-ai-officer-advisor/`  Executive AI strategy (build-vs-buy, cost economics  different audience)
 
 ## References
 
-- [iso42001_clauses.md](references/iso42001_clauses.md) — Clauses 4–10 walkthrough with audit evidence expectations, common gaps, and reusable artifacts from ISO 27001/13485
-- [aims_controls_annex_a.md](references/aims_controls_annex_a.md) — All 38 Annex A controls (A.2–A.10) with implementation guidance, audit evidence, and severity of failure
-- [aims_implementation_guide.md](references/aims_implementation_guide.md) — 3-year maturity model (establish → certify → continually improve), rollout sequencing, integration with existing ISMS/QMS programs
-- [cross_framework_mapping_ai.md](references/cross_framework_mapping_ai.md) — ISO 42001 ↔ EU AI Act ↔ NIST AI RMF ↔ ISO 23894 ↔ ISO 38507 ↔ ISO 27001 control-level mapping with mapping-confidence ratings
+- [iso42001_clauses.md](references/iso42001_clauses.md)  Clauses 4–10 walkthrough with audit evidence expectations, common gaps, and reusable artifacts from ISO 27001/13485
+- [aims_controls_annex_a.md](references/aims_controls_annex_a.md)  All 38 Annex A controls (A.2–A.10) with implementation guidance, audit evidence, and severity of failure
+- [aims_implementation_guide.md](references/aims_implementation_guide.md)  3-year maturity model (establish → certify → continually improve), rollout sequencing, integration with existing ISMS/QMS programs
+- [cross_framework_mapping_ai.md](references/cross_framework_mapping_ai.md)  ISO 42001 ↔ EU AI Act ↔ NIST AI RMF ↔ ISO 23894 ↔ ISO 38507 ↔ ISO 27001 control-level mapping with mapping-confidence ratings
 
 ---
 
 **Version:** 1.0.0
 **Status:** Production Ready
+
+---
+
+## Consolidated Capabilities: AIMS-AUDIT (Subsumed & Superceded)
+
+# /cs:aims-audit  AIMS ISO 42001 Forcing Questions
+
+**Command:** `/cs:aims-audit <scope>`
+
+The ISO 42001 AIMS specialist pressure-tests any AI Management System work. Six questions before any certification commitment, internal audit cycle, or new-system onboarding.
+
+## When to Run
+
+- Before stage 1 ISO 42001 certification audit
+- Before annual internal audit cycle (Clause 9.2)
+- When onboarding a new AI system into existing AIMS scope
+- When AI risk register hasn't been refreshed in > 6 months
+- After material model change (re-evaluate risks per Clause 6.1.2)
+- When audit findings hint at AIMS / ISMS / QMS duplication
+
+## The Six AIMS Questions
+
+### 1. Does the AIMS scope statement name every AI system?
+**Scope omission = certification finding.**
+- Including: embedded models, third-party AI services, "experimental" production systems
+- Run `aims_gap_analyzer.py` to verify Clause 4.3 evidence
+- "AI features added by SaaS vendors we use" = in scope if they affect the company's services
+
+### 2. Does the AI policy commit to lawful use AND beneficial purpose AND human oversight AND continual improvement?
+**Missing any of the four = critical nonconformity at stage 1.**
+- AI policy is NOT info-sec policy  it has separate substantive content
+- Reference ISO 42001 Annex A.2.2 + Clause 5.2
+- Marketing-copy "AI ethics" doesn't pass
+
+### 3. What's the risk register coverage, and which Annex A controls treat each risk?
+**Risk identification without control mapping = Clause 6.1.3 fails.**
+- Run `ai_risk_register_builder.py` per ISO 23894 methodology
+- Every high/critical risk must link to ≥ 1 Annex A control
+- "Residual verdict: additional_treatment_required" must be closed before stage 1
+
+### 4. Has the AI risk assessment been re-run since the last material model change?
+**Concept drift is not a one-time event.**
+- Article 9 EU AI Act + ISO 42001 Clause 6.1.2 both require iterative risk assessment
+- Material change = retraining on new data, fine-tuning, architecture change, deployment context change
+- If "we did it 18 months ago and haven't touched it," the AIMS is broken
+
+### 5. What's the Clause 9.2 internal audit plan, and is auditor independence respected?
+**Without 9.2 plan, the AIMS is incomplete.**
+- Run `aims_audit_scheduler.py` with scope + auditors + prior findings
+- Audit every clause + applicable Annex A control over rolling 3-year cycle
+- Same auditor cannot audit own work
+- Cross-check with cs-quality-regulatory if integrated with 13485 audit programme
+
+### 6. Has the AIMS been integrated with existing ISMS / QMS, or built in parallel?
+**Parallel systems = 5x ongoing maintenance cost.**
+- 60% of Clauses 4-10 evidence reuses ISO 27001 / 13485 with AI scope appended
+- CAPA loop should be ONE loop with AI-tagged nonconformities, not separate
+- Reference `cross_framework_mapping_ai.md` for the reuse map
+- Cross-check with cs-ciso-advisor on ISO 27001 alignment
+
+## Workflow
+
+```bash
+# 1. AIMS gap analysis
+python ra-qm-team/skills/iso42001-specialist/scripts/aims_gap_analyzer.py evidence.json
+
+# 2. AI risk register
+python ra-qm-team/skills/iso42001-specialist/scripts/ai_risk_register_builder.py risks.json
+
+# 3. Internal audit plan
+python ra-qm-team/skills/iso42001-specialist/scripts/aims_audit_scheduler.py audit_scope.json
+
+# 4. Cross-framework reuse map (via compliance-os)
+python ../../skills/compliance-os/scripts/cross_framework_mapper.py program.json
+```
+
+## Output Format
+
+```markdown
+# AIMS Audit: <scope>
+**Date:** YYYY-MM-DD
+
+## The Decision Being Made
+[gap-closure | risk-treatment | audit-scope | new-system-onboarding]
+
+## Gap Analysis (Clauses 4-10)
+- Weighted coverage: X%
+- Critical gaps: N
+- Major gaps: M
+- Certification readiness: ready | stage_2_candidate | not_ready
+
+## AI Risk Register
+- Total risks: N
+- By severity: critical=X, high=Y, medium=Z, low=W
+- Requires additional treatment: K
+- Top risk requiring action: <description>
+
+## Clause 9.2 Audit Plan
+- 12-month coverage: clauses=X, controls=Y
+- Auditor independence: clean | issues
+- Prior-year follow-up: scheduled in Q1
+
+## Cross-Framework Reuse
+- ISO 27001 evidence reused: % of AIMS Clauses 4-10
+- 13485 evidence reused: % (if applicable)
+- Net-new for AIMS: % (mostly Annex A)
+
+## Verdict
+🟢 STAGE-1-READY | 🟡 CLOSE-CRITICALS-FIRST | 🔴 NOT-READY
+
+## Top 3 Actions
+[3 concrete next steps with owner + date]
+```
+
+## Routing
+
+- `/cs:compliance-readiness`  for multi-framework view
+- `/cs:ai-act-readiness`  if EU AI Act also applies
+- `/cs:caio-review`  for executive AI strategy decisions
+- `/cs:ciso-review`  for ISO 27001 cross-framework alignment
+- `/cs:decide`  to log the verdict
+- `/cs:freeze 30`  on certification commitments
+
+## Related
+
+- Agent: [`cs-aims-iso42001`](../../agents/cs-aims-iso42001.md)
+- Skill: [`iso42001-specialist`](../../../ra-qm-team/skills/iso42001-specialist/SKILL.md)
+- Adjacent: `../../skills/compliance-os/`, `../ai-act-readiness/`, `../compliance-readiness/`
+
+---
+
+**Version:** 1.0.0

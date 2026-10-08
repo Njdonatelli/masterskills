@@ -1,7 +1,7 @@
 ---
 name: "engineering-advanced-skills"
 description: >-
-  I—n—d—e—x— —o—f— —3—7— —a—d—v—a—n—c—e—d— —e—n—g—i—n—e—e—r—i—n—g— —a—g—e—n—t— —s—k—i—l—l—s— —f—o—r— —C—l—a—u—d—e— —C—o—d—e—,— —C—o—d—e—x—,— —G—e—m—i—n—i— —C—L—I—,— —C—u—r—s—o—r—,— —O—p—e—n—C—l—a—w—.— —U—s—e— —w—h—e—n— —b—r—o—w—s—i—n—g— —o—r— —c—h—o—o—s—i—n—g— —a—m—o—n—g— —t—h—e— —P—O—W—E—R—F—U—L—-—t—i—e—r— —e—n—g—i—n—e—e—r—i—n—g— —s—k—i—l—l—s—:— —a—g—e—n—t— —d—e—s—i—g—n—,— —R—A—G—,— —M—C—P— —s—e—r—v—e—r—s—,— —C—I—/—C—D—,— —d—a—t—a—b—a—s—e— —d—e—s—i—g—n—,— —o—b—s—e—r—v—a—b—i—l—i—t—y—,— —s—e—c—u—r—i—t—y— —a—u—d—i—t—i—n—g—,— —c—h—a—n—g—e—l—o—g—/—r—e—l—e—a—s—e— —a—u—t—o—m—a—t—i—o—n—,— —r—e—l—i—a—b—i—l—i—t—y— —(—S—L—O—/—c—h—a—o—s—/—f—l—a—g—s—/—o—p—e—r—a—t—o—r—s—)—,— —p—l—a—t—f—o—r—m— —o—p—s.
+  Index of 37 advanced engineering agent skills for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Use when browsing or choosing among the POWERFUL-tier engineering skills: agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, changelog/release automation, reliability (SLO/chaos/flags/operators), platform ops. [Also supersedes `engineering-skills`: triggers on 'engineering-skills', 'engineering skills bundle index']
 version: 2.9.0
 author: Alireza Rezvani
 license: MIT
@@ -82,4 +82,4 @@ Note: release management merged into `changelog-generator/` (version bumper + ho
 ## Rules
 
 - Load only the specific skill SKILL.md you need
-- These are advanced skills — combine with engineering-team/ core skills as needed
+- These are advanced skills  combine with engineering-team/ core skills as needed

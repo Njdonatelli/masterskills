@@ -1,7 +1,7 @@
 ---
 name: "cto-advisor"
 description: >-
-  T—e—c—h—n—i—c—a—l— —l—e—a—d—e—r—s—h—i—p— —g—u—i—d—a—n—c—e— —f—o—r— —e—n—g—i—n—e—e—r—i—n—g— —t—e—a—m—s—,— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n—s—,— —a—n—d— —t—e—c—h—n—o—l—o—g—y— —s—t—r—a—t—e—g—y—.— —U—s—e— —w—h—e—n— —a—s—s—e—s—s—i—n—g— —t—e—c—h—n—i—c—a—l— —d—e—b—t—,— —s—c—a—l—i—n—g— —e—n—g—i—n—e—e—r—i—n—g— —t—e—a—m—s—,— —e—v—a—l—u—a—t—i—n—g— —t—e—c—h—n—o—l—o—g—i—e—s—,— —m—a—k—i—n—g— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n—s—,— —e—s—t—a—b—l—i—s—h—i—n—g— —e—n—g—i—n—e—e—r—i—n—g— —m—e—t—r—i—c—s—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —C—T—O—,— —t—e—c—h— —d—e—b—t—,— —t—e—c—h—n—i—c—a—l— —d—e—b—t—,— —t—e—a—m— —s—c—a—l—i—n—g—,— —a—r—c—h—i—t—e—c—t—u—r—e— —d—e—c—i—s—i—o—n—s—,— —t—e—c—h—n—o—l—o—g—y— —e—v—a—l—u—a—t—i—o—n—,— —e—n—g—i—n—e—e—r—i—n—g— —m—e—t—r—i—c—s—,— —D—O—R—A— —m—e—t—r—i—c—s—,— —o—r— —t—e—c—h—n—o—l—o—g—y— —s—t—r—a—t—e—g—y.
+  Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technical debt, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, or technology strategy. [Also supersedes `cto-review`: triggers on '/cs:cto-review', 'cto review', 'architecture plan interrogation']
 license: MIT
 metadata:
   version: 2.0.0
@@ -42,7 +42,7 @@ Align technology investments with business priorities.
 See `references/technology_evaluation_framework.md` for the full evaluation framework.
 
 ### 2. Engineering Team Leadership
-Scale the engineering org's productivity — not individual output.
+Scale the engineering org's productivity  not individual output.
 
 **Scaling engineering:**
 - Hire for the next stage, not the current one
@@ -59,7 +59,7 @@ Scale the engineering org's productivity — not individual output.
 See `references/engineering_metrics.md` for DORA metrics and the engineering health dashboard.
 
 ### 3. Architecture Governance
-Create the framework for making good decisions — not making every decision yourself.
+Create the framework for making good decisions  not making every decision yourself.
 
 **Architecture Decision Records (ADRs):**
 - Every significant decision gets documented: context, options, decision, consequences
@@ -82,28 +82,28 @@ Incident response, security breaches, major outages, data loss.
 
 ### Tech Debt Assessment Workflow
 
-**Step 1 — Run the analyzer**
+**Step 1  Run the analyzer**
 ```bash
 python scripts/tech_debt_analyzer.py --output report.json
 ```
 
-**Step 2 — Interpret results**
+**Step 2  Interpret results**
 The analyzer produces a severity-scored inventory. Review each item against:
 - Severity (P0–P3): how much is it blocking velocity or creating risk?
 - Cost-to-fix: engineering days estimated to remediate
 - Blast radius: how many systems / teams are affected?
 
-**Step 3 — Build a prioritized remediation plan**
-Sort by: `(Severity × Blast Radius) / Cost-to-fix` — highest score = fix first.
+**Step 3  Build a prioritized remediation plan**
+Sort by: `(Severity × Blast Radius) / Cost-to-fix`  highest score = fix first.
 Group items into: (a) immediate sprint, (b) next quarter, (c) tracked backlog.
 
-**Step 4 — Validate before presenting to stakeholders**
+**Step 4  Validate before presenting to stakeholders**
 - [ ] Every P0/P1 item has an owner and a target date
 - [ ] Cost-to-fix estimates reviewed with the relevant tech lead
 - [ ] Debt ratio calculated: maintenance work / total engineering capacity (target: < 25%)
 - [ ] Remediation plan fits within capacity (don't promise 40 points of debt reduction in a 2-week sprint)
 
-**Example output — Tech Debt Inventory:**
+**Example output  Tech Debt Inventory:**
 ```
 Item                  | Severity | Cost-to-Fix | Blast Radius | Priority Score
 ----------------------|----------|-------------|--------------|---------------
@@ -116,39 +116,39 @@ Legacy deploy scripts | P3       | 5 days      | 1 service    | LOW
 
 ### ADR Creation Workflow
 
-**Step 1 — Identify the decision**
+**Step 1  Identify the decision**
 Trigger an ADR when: the decision affects more than one team, is hard to reverse, or has cost/risk implications > 1 sprint of effort.
 
-**Step 2 — Draft the ADR**
+**Step 2  Draft the ADR**
 Use the template from `references/architecture_decision_records.md`:
 ```
 Title: [Short noun phrase]
 Status: Proposed | Accepted | Superseded
 Context: What is the problem? What constraints exist?
 Options Considered:
-  - Option A: [description] — TCO: $X | Risk: Low/Med/High
-  - Option B: [description] — TCO: $X | Risk: Low/Med/High
+  - Option A: [description]  TCO: $X | Risk: Low/Med/High
+  - Option B: [description]  TCO: $X | Risk: Low/Med/High
 Decision: [Chosen option and rationale]
 Consequences: [What becomes easier? What becomes harder?]
 ```
 
-**Step 3 — Validation checkpoint (before finalizing)**
+**Step 3  Validation checkpoint (before finalizing)**
 - [ ] All options include a 3-year TCO estimate
 - [ ] At least one "do nothing" or "buy" alternative is documented
 - [ ] Affected team leads have reviewed and signed off
 - [ ] Consequences section addresses reversibility and migration path
 - [ ] ADR is committed to the repository (not left in a doc or Slack thread)
 
-**Step 4 — Communicate and close**
+**Step 4  Communicate and close**
 Share the accepted ADR in the engineering all-hands or architecture sync. Link it from the relevant service's README.
 
 ---
 
 ### Build vs Buy Analysis Workflow
 
-**Step 1 — Define requirements** (functional + non-functional)
-**Step 2 — Identify candidate vendors or internal build scope**
-**Step 3 — Score each option:**
+**Step 1  Define requirements** (functional + non-functional)
+**Step 2  Identify candidate vendors or internal build scope**
+**Step 3  Score each option:**
 
 ```
 Criterion              | Weight | Build Score | Vendor A Score | Vendor B Score
@@ -160,12 +160,12 @@ Vendor stability       | 15%    | N/A         | 8              | 5
 Integration effort     | 10%    | 3           | 7              | 8
 ```
 
-**Step 4 — Default rule:** Buy unless it is core IP or no vendor meets ≥ 70% of requirements.
-**Step 5 — Document the decision as an ADR** (see ADR workflow above).
+**Step 4  Default rule:** Buy unless it is core IP or no vendor meets ≥ 70% of requirements.
+**Step 5  Document the decision as an ADR** (see ADR workflow above).
 
 ## Key Questions a CTO Asks
 
-- "What's our biggest technical risk right now — not the most annoying, the most dangerous?"
+- "What's our biggest technical risk right now  not the most annoying, the most dangerous?"
 - "If we 10x our traffic tomorrow, what breaks first?"
 - "How much of our engineering time goes to maintenance vs new features?"
 - "What would a new engineer say about our codebase after their first week?"
@@ -235,7 +235,7 @@ Surface these without being asked when you detect them in company context:
 
 ## Reasoning Technique: ReAct (Reason then Act)
 
-Research the technical landscape first. Analyze options against constraints (time, team skill, cost, risk). Then recommend action. Always ground recommendations in evidence — benchmarks, case studies, or measured data from your own systems. "I think" is not enough — show the data.
+Research the technical landscape first. Analyze options against constraints (time, team skill, cost, risk). Then recommend action. Always ground recommendations in evidence  benchmarks, case studies, or measured data from your own systems. "I think" is not enough  show the data.
 
 ## Communication
 
@@ -253,6 +253,123 @@ All output passes the Internal Quality Loop before reaching the founder (see `..
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## Resources
-- `references/technology_evaluation_framework.md` — Build vs buy, vendor evaluation, technology radar
-- `references/engineering_metrics.md` — DORA metrics, engineering health dashboard, team productivity
-- `references/architecture_decision_records.md` — ADR templates, decision governance, review process
+- `references/technology_evaluation_framework.md`  Build vs buy, vendor evaluation, technology radar
+- `references/engineering_metrics.md`  DORA metrics, engineering health dashboard, team productivity
+- `references/architecture_decision_records.md`  ADR templates, decision governance, review process
+
+---
+
+## Consolidated Capabilities: CTO-REVIEW (Subsumed & Superceded)
+
+# /cs:cto-review  CTO Forcing Questions
+
+**Command:** `/cs:cto-review <plan>`
+
+Pressure-tests architecture and engineering scaling decisions. Six questions to surface the next scaling cliff before you hit it.
+
+## When to Run
+
+- Before approving a major architecture change
+- Before doubling the engineering team
+- Before a build-vs-buy decision > $100K/year
+- When a system is showing reliability stress (SLOs missed)
+- Before committing to a new platform / language / DB
+
+## The Six CTO Questions
+
+### 1. Scaling Cliff
+**Where does the current architecture break, in terms of users / requests / data volume?**
+- Be specific. "It breaks at 10× current load because the primary DB writes saturate."
+- If you don't know, run a load test before deciding.
+
+### 2. Tech Debt Inventory
+**What's the top tech debt item, what's it costing per week, and when does it become blocking?**
+```bash
+python ../../../skills/cto-advisor/scripts/tech_debt_analyzer.py
+```
+
+### 3. Team Scaling
+**For each open req, what's the ramp time and contribution model?**
+```bash
+python ../../../skills/cto-advisor/scripts/team_scaling_calculator.py
+```
+
+### 4. Build vs Buy
+**Why are we building this instead of buying it  and what's the 3-year TCO of each?**
+- If "we want control" or "it's not that hard"  push back.
+- If the answer is "this is our core moat," build.
+
+### 5. SLO / Reliability
+**What are the SLOs for this system and what's the current error budget burn?**
+- Without an SLO, you can't reason about reliability tradeoffs.
+- See `engineering/slo-architect` for SLO design.
+
+### 6. Security & Compliance Surface
+**What does this expose, and has cs-ciso-advisor signed off?**
+- Architecture decisions are compliance decisions.
+- Loop in cs-ciso-advisor before commit.
+
+## Workflow
+
+1. Run the tech debt analyzer + team scaling calculator
+2. Define the scaling-cliff hypothesis explicitly
+3. Cross-check with cs-ciso-advisor for security implications
+4. Apply the verdict
+
+## Output Format
+
+```markdown
+# CTO Review: <plan>
+**Date:** YYYY-MM-DD
+
+## Scaling Cliff
+- Current capacity: <metric>
+- Break point: <metric>
+- Headroom: X months at current growth
+
+## Tech Debt
+- Top item: <description>
+- Cost per week: $X or N eng-hours
+- Blocking date estimate: <date>
+
+## Team
+- Open reqs: N
+- Median ramp: X months
+- Contribution model: <pairing / squad / area>
+
+## Build vs Buy
+- 3-year build TCO: $X
+- 3-year buy TCO: $X
+- Strategic fit: <core / context>
+- Decision: BUILD | BUY
+
+## Reliability
+- SLO defined: yes / no
+- Error budget burn: X% (target < Y%)
+
+## Security
+- cs-ciso sign-off: ✅ / ❌
+
+## Verdict
+🟢 SHIP | 🟡 SHARPEN | 🔴 BLOCK
+
+## Next Steps
+[3 concrete actions]
+```
+
+## Routing
+
+- `/cs:ciso-review`  mandatory if data surface changes
+- `/cs:cfo-review`  for build-vs-buy > $100K
+- `/cs:execute`  quarterly plan
+- `/cs:boardroom`  for architecture pivots
+
+## Related
+
+- Agent: [`cs-cto-advisor`](../../../../agents/c-level/cs-cto-advisor.md)
+- Skill: [`cto-advisor`](../../../skills/cto-advisor/SKILL.md)
+- SLO: `../../../../engineering/slo-architect/`
+
+---
+
+**Version:** 1.0.0

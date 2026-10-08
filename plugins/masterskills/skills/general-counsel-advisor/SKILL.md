@@ -1,7 +1,7 @@
 ---
 name: "general-counsel-advisor"
 description: >-
-  G—e—n—e—r—a—l— —C—o—u—n—s—e—l— —a—d—v—i—s—o—r—y— —f—o—r— —s—t—a—r—t—u—p—s—:— —c—o—n—t—r—a—c—t— —r—e—v—i—e—w— —(—M—S—A—,— —S—a—a—S—,— —N—D—A—,— —D—P—A—,— —e—m—p—l—o—y—m—e—n—t—)—,— —I—P— —s—t—r—a—t—e—g—y—,— —t—e—r—m— —s—h—e—e—t— —d—e—c—o—d—i—n—g—,— —a—n—d— —r—e—g—u—l—a—t—o—r—y— —l—a—n—d—s—c—a—p—e— —m—a—p—p—i—n—g—.— —U—s—e— —w—h—e—n— —r—e—v—i—e—w—i—n—g— —a—n—y— —c—o—n—t—r—a—c—t— —o—r— —t—e—r—m— —s—h—e—e—t—,— —d—e—c—i—d—i—n—g— —w—h—e—n— —t—o— —e—n—g—a—g—e— —o—u—t—s—i—d—e— —c—o—u—n—s—e—l—,— —d—e—f—i—n—i—n—g— —I—P— —s—t—r—a—t—e—g—y—,— —e—v—a—l—u—a—t—i—n—g— —r—e—g—u—l—a—t—o—r—y— —e—x—p—o—s—u—r—e— —(—H—I—P—A—A—,— —G—D—P—R—,— —F—D—A—,— —f—i—n—t—e—c—h—)—,— —o—r— —w—h—e—n— —u—s—e—r— —m—e—n—t—i—o—n—s— —g—e—n—e—r—a—l— —c—o—u—n—s—e—l—,— —G—C—,— —l—e—g—a—l— —r—e—v—i—e—w—,— —c—o—n—t—r—a—c—t— —r—i—s—k—,— —t—e—r—m— —s—h—e—e—t—,— —I—P— —a—s—s—i—g—n—m—e—n—t—,— —o—r— —r—e—g—u—l—a—t—o—r—y— —e—x—p—o—s—u—r—e—.— —N—O—T— —a— —s—u—b—s—t—i—t—u—t—e— —f—o—r— —l—i—c—e—n—s—e—d— —c—o—u—n—s—e—l— ——— —s—u—r—f—a—c—e—s— —q—u—e—s—t—i—o—n—s— —t—o— —b—r—i—n—g— —t—o— —q—u—a—l—i—f—i—e—d— —a—t—t—o—r—n—e—y—s.
+  General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (HIPAA, GDPR, FDA, fintech), or when user mentions general counsel, GC, legal review, contract risk, term sheet, IP assignment, or regulatory exposure. NOT a substitute for licensed counsel  surfaces questions to bring to qualified attorneys. [Also supersedes `gc-review`: triggers on '/cs:gc-review', 'gc review', 'legal plan interrogation']
 license: MIT
 metadata:
   version: 1.0.0
@@ -39,7 +39,7 @@ python scripts/term_sheet_analyzer.py path/to/term_sheet.json
 
 - **Who owns the IP being created or shared?** (Founders forget that contractors don't auto-assign IP without a written clause.)
 - **What's the liability cap, and what's carved out?** (Standard: 12 months of fees, with carve-outs for IP infringement, data breach, willful misconduct.)
-- **Is there a DPA in place if any personal data flows?** (GDPR, CCPA, state laws — non-negotiable if EU/CA data is touched.)
+- **Is there a DPA in place if any personal data flows?** (GDPR, CCPA, state laws  non-negotiable if EU/CA data is touched.)
 - **What's the termination right, notice period, and auto-renewal trap?** (5-year auto-renew with 60-day notice is a common founder mistake.)
 - **Does this contract or product launch trigger a new regulatory regime?** (Healthcare → HIPAA. Fintech → BSA/AML. Medical device → FDA/MDR.)
 - **For term sheets: liquidation preference, pre-money option pool, anti-dilution flavor?** (Three places where 5% of founder economics can quietly disappear.)
@@ -50,24 +50,24 @@ python scripts/term_sheet_analyzer.py path/to/term_sheet.json
 
 Standard contracts a startup signs in its first 5 years:
 
-- **Vendor MSA** — Master Service Agreement (cloud, tooling, services)
-- **Customer SaaS Agreement** — your standard customer paper + customer redlines
-- **NDA** — mutual + one-way, with carve-outs for residuals + independent development
-- **DPA** — Data Processing Agreement (required when personal data flows)
-- **Employment Agreement** — offer letter, IP assignment, non-compete (where enforceable), arbitration
-- **Contractor / 1099 Agreement** — IP assignment is critical; misclassification risk
-- **Equity Agreements** — option grants, RSU agreements, advisor grants (FAST template, YC SAFE for advisors)
+- **Vendor MSA**  Master Service Agreement (cloud, tooling, services)
+- **Customer SaaS Agreement**  your standard customer paper + customer redlines
+- **NDA**  mutual + one-way, with carve-outs for residuals + independent development
+- **DPA**  Data Processing Agreement (required when personal data flows)
+- **Employment Agreement**  offer letter, IP assignment, non-compete (where enforceable), arbitration
+- **Contractor / 1099 Agreement**  IP assignment is critical; misclassification risk
+- **Equity Agreements**  option grants, RSU agreements, advisor grants (FAST template, YC SAFE for advisors)
 
 **Run** `contract_risk_scanner.py` on the text. It flags the 12 most common founder-killer clauses.
 
 ### 2. IP Strategy
 
-- **Invention assignment** — every employee and contractor signs one. No exceptions.
-- **Open source license compliance** — track every OSS dependency's license; AGPL and GPL trigger copyleft obligations.
-- **Trade secrets** — define what's protected and how (clean room dev, access controls, NDAs).
-- **Patents** — file provisional within 12 months of disclosure; PCT for international.
-- **Trademarks** — register the word mark first, design mark second; clear before launch.
-- **Copyright** — automatic on creation, but register for statutory damages eligibility.
+- **Invention assignment**  every employee and contractor signs one. No exceptions.
+- **Open source license compliance**  track every OSS dependency's license; AGPL and GPL trigger copyleft obligations.
+- **Trade secrets**  define what's protected and how (clean room dev, access controls, NDAs).
+- **Patents**  file provisional within 12 months of disclosure; PCT for international.
+- **Trademarks**  register the word mark first, design mark second; clear before launch.
+- **Copyright**  automatic on creation, but register for statutory damages eligibility.
 
 See `references/ip_and_regulatory.md`.
 
@@ -75,9 +75,9 @@ See `references/ip_and_regulatory.md`.
 
 When a term sheet arrives, the difference between a founder-friendly and founder-hostile sheet often hides in three clauses:
 
-- **Liquidation preference** — 1x non-participating is standard; 1x participating or 2x is hostile
-- **Pre-money vs post-money option pool** — pre-money pool dilutes founders; post-money dilutes everyone proportionally
-- **Anti-dilution** — broad-based weighted average is standard; full ratchet is hostile
+- **Liquidation preference**  1x non-participating is standard; 1x participating or 2x is hostile
+- **Pre-money vs post-money option pool**  pre-money pool dilutes founders; post-money dilutes everyone proportionally
+- **Anti-dilution**  broad-based weighted average is standard; full ratchet is hostile
 
 **Run** `term_sheet_analyzer.py` to get a 0-100 founder-friendliness score with flags.
 
@@ -143,20 +143,152 @@ See `references/ip_and_regulatory.md` for sequencing.
 
 ## Adjacent Skills
 
-- `c-level-advisor/skills/ciso-advisor/` — Compliance overlap (SOC 2, ISO 27001, HIPAA technical safeguards)
-- `c-level-advisor/skills/cfo-advisor/` — Term sheet → dilution math
-- `c-level-advisor/skills/ma-playbook/` — Acquisition agreements, integration playbooks
-- `ra-qm-team/` — ISO 13485, MDR, FDA 510(k), GDPR execution
-- `c-level-advisor/c-level-agents/skills/gc-review/SKILL.md` — `/cs:gc-review` slash command
+- `c-level-advisor/skills/ciso-advisor/`  Compliance overlap (SOC 2, ISO 27001, HIPAA technical safeguards)
+- `c-level-advisor/skills/cfo-advisor/`  Term sheet → dilution math
+- `c-level-advisor/skills/ma-playbook/`  Acquisition agreements, integration playbooks
+- `ra-qm-team/`  ISO 13485, MDR, FDA 510(k), GDPR execution
+- `c-level-advisor/c-level-agents/skills/gc-review/SKILL.md`  `/cs:gc-review` slash command
 
 ## References
 
-- [contracts_playbook.md](references/contracts_playbook.md) — Standard contracts, clause checklist, common founder traps
-- [ip_and_regulatory.md](references/ip_and_regulatory.md) — IP protection + regulatory landscape mapping
-- [term_sheet_decoder.md](references/term_sheet_decoder.md) — Term sheet glossary + founder-friendly defaults + pushback strategies
+- [contracts_playbook.md](references/contracts_playbook.md)  Standard contracts, clause checklist, common founder traps
+- [ip_and_regulatory.md](references/ip_and_regulatory.md)  IP protection + regulatory landscape mapping
+- [term_sheet_decoder.md](references/term_sheet_decoder.md)  Term sheet glossary + founder-friendly defaults + pushback strategies
 
 ---
 
 **Version:** 1.0.0
 **Status:** Production Ready
 **Disclaimer:** Not legal advice. Always engage qualified counsel for binding decisions.
+
+---
+
+## Consolidated Capabilities: GC-REVIEW (Subsumed & Superceded)
+
+# /cs:gc-review  General Counsel Forcing Questions
+
+**Command:** `/cs:gc-review <plan>`
+
+The General Counsel lens. Six questions before any contract, term sheet, IP move, or regulatory commitment. This is a lane gstack has zero of  and one where a single missed clause costs more than a year of engineering.
+
+> ⚠️ **Not legal advice.** This command surfaces the right questions to ask before talking to outside counsel. Always engage qualified counsel for binding decisions.
+
+## When to Run
+
+- Before signing any contract > $100K or > 1 year
+- Before issuing equity (employee grants, advisor grants)
+- Before a term sheet response
+- Before entering a regulated market (healthcare, fintech, defense)
+- Before any open-source license decision in core IP
+- Before an M&A LOI
+
+## The Six GC Questions
+
+### 1. IP Ownership
+**Who owns the IP being created or shared in this transaction?**
+- Work-for-hire vs license vs joint.
+- For employees and contractors: written IP assignment in place?
+- For OSS: license compatibility checked?
+
+### 2. Liability & Indemnity
+**What's the liability cap, and what's carved out from it?**
+- Standard cap: 12 months of fees.
+- Carve-outs: IP infringement, data breach, willful misconduct.
+- Mutual indemnity desirable.
+
+### 3. Data Processing
+**What personal data is involved, and is a DPA in place?**
+- GDPR / CCPA scope?
+- Subprocessor flow-down?
+- Data residency requirements?
+
+### 4. Termination & Renewal
+**What's the termination right, what's the notice period, and what's auto-renew?**
+- Termination for convenience vs cause.
+- Notice period (30 / 60 / 90 days).
+- Auto-renewal trap?
+
+### 5. Regulatory Surface
+**Does this expose the company to a new regulatory regime?**
+- Healthcare → HIPAA.
+- Fintech → BSA/AML, state money-transmitter.
+- Medical device → FDA, MDR, ISO 13485.
+- Data → GDPR, CCPA, state breach laws.
+
+### 6. Employment / Equity
+**If this is a hire or contractor: jurisdiction, classification, equity grant, IP assignment?**
+- Misclassification risk?
+- Equity vesting standard (4-year, 1-year cliff)?
+- Acceleration triggers?
+- 409A current?
+
+## Workflow
+
+1. Read the contract / term sheet end to end
+2. Run the six questions
+3. Identify the top-3 issues that need outside counsel review
+4. Apply the verdict
+
+## Output Format
+
+```markdown
+# GC Review: <plan>
+**Date:** YYYY-MM-DD
+
+## Document
+- Type: <contract / term sheet / grant / DPA>
+- Counterparty: <name>
+- $ value or scope: <amount>
+
+## Issues
+| # | Issue | Risk | Recommendation |
+|---|---|---|---|
+| 1 | <e.g., uncapped IP indemnity> | HIGH | Cap at fees paid, mutual |
+| 2 | <e.g., 5-year auto-renew> | MED | 1-year max, 60-day notice |
+| 3 | <e.g., no DPA, EU data> | HIGH | Require DPA before sign |
+
+## Regulatory Trigger
+- New regime triggered? <yes/no>
+- Specific frameworks: <HIPAA / GDPR / etc.>
+
+## Outside Counsel Action Items
+- [ ] <specific item 1>
+- [ ] <specific item 2>
+- [ ] <specific item 3>
+
+## Verdict
+🟢 SIGN AS-IS (rare)
+🟡 NEGOTIATE  counter on top-3 issues
+🔴 DO NOT SIGN  material risk
+```
+
+## Routing
+
+- `/cs:ciso-review`  for any data-touching contract
+- `/cs:cfo-review`  for any commitment > 1 year or > 1% of revenue
+- `/cs:decide`  log the verdict after outside counsel review
+
+## Workflow Integration with `general-counsel-advisor` skill
+
+Since v2.5.1, this command is backed by a full skill at `../../../skills/general-counsel-advisor/` with two Python tools:
+
+```bash
+# Automated contract scan (12 founder-killer patterns)
+python ../../../skills/general-counsel-advisor/scripts/contract_risk_scanner.py path/to/contract.txt
+
+# Term sheet scoring (0-100 founder-friendliness)
+python ../../../skills/general-counsel-advisor/scripts/term_sheet_analyzer.py path/to/term_sheet.json
+```
+
+The `cs-general-counsel-advisor` agent orchestrates both tools plus 3 references (contracts playbook, IP + regulatory, term sheet decoder).
+
+## Related
+
+- Skill: [`general-counsel-advisor`](../../../skills/general-counsel-advisor/SKILL.md)  full skill with Python tools + references
+- Agent: [`cs-general-counsel-advisor`](../../agents/cs-general-counsel-advisor.md)
+- Compliance execution: `../../../../ra-qm-team/`
+- Adjacent: `../../../skills/ma-playbook/`
+
+---
+
+**Version:** 1.0.0

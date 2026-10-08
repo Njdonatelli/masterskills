@@ -1,7 +1,7 @@
 ---
 name: "soc2-compliance"
 description: >-
-  U—s—e— —w—h—e—n— —t—h—e— —u—s—e—r— —a—s—k—s— —t—o— —p—r—e—p—a—r—e— —f—o—r— —S—O—C— —2— —a—u—d—i—t—s—,— —m—a—p— —T—r—u—s—t— —S—e—r—v—i—c—e— —C—r—i—t—e—r—i—a—,— —b—u—i—l—d— —c—o—n—t—r—o—l— —m—a—t—r—i—c—e—s—,— —c—o—l—l—e—c—t— —a—u—d—i—t— —e—v—i—d—e—n—c—e—,— —p—e—r—f—o—r—m— —g—a—p— —a—n—a—l—y—s—i—s—,— —o—r— —a—s—s—e—s—s— —S—O—C— —2— —T—y—p—e— —I— —v—s— —T—y—p—e— —I—I— —r—e—a—d—i—n—e—s—s.
+  Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis, or assess SOC 2 Type I vs Type II readiness. [Also supersedes `soc2-audit-prep`: triggers on '/cs:soc2-audit-prep', 'soc2 audit prep', 'SOC 2 forcing interrogation']
 ---
 
 # SOC 2 Compliance
@@ -29,7 +29,7 @@ SOC 2 Type I and Type II compliance preparation for SaaS companies. Covers Trust
 
 ### What Is SOC 2?
 
-SOC 2 (System and Organization Controls 2) is an auditing framework developed by the AICPA that evaluates how a service organization manages customer data. It applies to any technology company that stores, processes, or transmits customer information — primarily SaaS, cloud infrastructure, and managed service providers.
+SOC 2 (System and Organization Controls 2) is an auditing framework developed by the AICPA that evaluates how a service organization manages customer data. It applies to any technology company that stores, processes, or transmits customer information  primarily SaaS, cloud infrastructure, and managed service providers.
 
 ### Type I vs Type II
 
@@ -63,7 +63,7 @@ Gap Assessment → Remediation → Type I Audit → Observation Period → Type 
 
 SOC 2 is organized around five Trust Service Criteria (TSC) categories. **Security** is required for every SOC 2 report; the remaining four are optional and selected based on business need.
 
-### Security (Common Criteria CC1-CC9) — Required
+### Security (Common Criteria CC1-CC9)  Required
 
 The foundation of every SOC 2 report. Maps to COSO 2013 principles.
 
@@ -79,7 +79,7 @@ The foundation of every SOC 2 report. Maps to COSO 2013 principles.
 | **CC8** | Change Management | Change authorization, testing, approval, emergency changes |
 | **CC9** | Risk Mitigation | Vendor/business partner risk management |
 
-### Availability (A1) — Optional
+### Availability (A1)  Optional
 
 | Criteria | Focus | Key Controls |
 |----------|-------|-------------|
@@ -89,7 +89,7 @@ The foundation of every SOC 2 report. Maps to COSO 2013 principles.
 
 **Select when:** Customers depend on your uptime; you have SLAs; downtime causes direct business impact.
 
-### Confidentiality (C1) — Optional
+### Confidentiality (C1)  Optional
 
 | Criteria | Focus | Key Controls |
 |----------|-------|-------------|
@@ -99,7 +99,7 @@ The foundation of every SOC 2 report. Maps to COSO 2013 principles.
 
 **Select when:** You handle trade secrets, proprietary data, or contractually confidential information.
 
-### Processing Integrity (PI1) — Optional
+### Processing Integrity (PI1)  Optional
 
 | Criteria | Focus | Key Controls |
 |----------|-------|-------------|
@@ -110,7 +110,7 @@ The foundation of every SOC 2 report. Maps to COSO 2013 principles.
 
 **Select when:** Data accuracy is critical (financial processing, healthcare records, analytics platforms).
 
-### Privacy (P1-P8) — Optional
+### Privacy (P1-P8)  Optional
 
 | Criteria | Focus | Key Controls |
 |----------|-------|-------------|
@@ -161,7 +161,7 @@ PRV-001 through PRV-NNN  → Privacy
 2. Run `control_matrix_builder.py` to generate the baseline matrix
 3. Customize controls to match your actual environment
 4. Assign owners and evidence requirements
-5. Validate coverage — every selected TSC criterion must have at least one control
+5. Validate coverage  every selected TSC criterion must have at least one control
 
 ---
 
@@ -169,19 +169,19 @@ PRV-001 through PRV-NNN  → Privacy
 
 ### Phase 1: Current State Assessment
 
-1. **Document existing controls** — inventory all security policies, procedures, and technical controls
-2. **Map to TSC** — align existing controls to Trust Service Criteria
-3. **Collect evidence samples** — gather proof that controls exist and operate
-4. **Interview control owners** — verify understanding and execution
+1. **Document existing controls**  inventory all security policies, procedures, and technical controls
+2. **Map to TSC**  align existing controls to Trust Service Criteria
+3. **Collect evidence samples**  gather proof that controls exist and operate
+4. **Interview control owners**  verify understanding and execution
 
 ### Phase 2: Gap Identification
 
 Run `gap_analyzer.py` against your current controls to identify:
 
-- **Missing controls** — TSC criteria with no corresponding control
-- **Partially implemented** — Control exists but lacks evidence or consistency
-- **Design gaps** — Control designed but does not adequately address the criteria
-- **Operating gaps** (Type II only) — Control designed correctly but not operating effectively
+- **Missing controls**  TSC criteria with no corresponding control
+- **Partially implemented**  Control exists but lacks evidence or consistency
+- **Design gaps**  Control designed but does not adequately address the criteria
+- **Operating gaps** (Type II only)  Control designed correctly but not operating effectively
 
 ### Phase 3: Remediation Planning
 
@@ -240,10 +240,10 @@ For each gap, define:
 
 Move from point-in-time evidence collection to continuous compliance:
 
-1. **Automated evidence gathering** — scripts that pull evidence on schedule
-2. **Control dashboards** — real-time visibility into control status
-3. **Alert-based monitoring** — notify when a control drifts out of compliance
-4. **Evidence repository** — centralized, timestamped evidence storage
+1. **Automated evidence gathering**  scripts that pull evidence on schedule
+2. **Control dashboards**  real-time visibility into control status
+3. **Alert-based monitoring**  notify when a control drifts out of compliance
+4. **Evidence repository**  centralized, timestamped evidence storage
 
 ---
 
@@ -289,11 +289,11 @@ Move from point-in-time evidence collection to continuous compliance:
 
 Every vendor that accesses, stores, or processes customer data must be assessed:
 
-1. **Vendor inventory** — maintain a register of all service providers
-2. **Risk classification** — categorize vendors by data access level
-3. **Due diligence** — collect SOC 2 reports, security questionnaires, certifications
-4. **Contractual protections** — ensure DPAs, security requirements, breach notification clauses
-5. **Ongoing monitoring** — annual reassessment, continuous news monitoring
+1. **Vendor inventory**  maintain a register of all service providers
+2. **Risk classification**  categorize vendors by data access level
+3. **Due diligence**  collect SOC 2 reports, security questionnaires, certifications
+4. **Contractual protections**  ensure DPAs, security requirements, breach notification clauses
+5. **Ongoing monitoring**  annual reassessment, continuous news monitoring
 
 ### Vendor Risk Tiers
 
@@ -308,8 +308,8 @@ Every vendor that accesses, stores, or processes customer data must be assessed:
 
 When your SOC 2 report relies on controls at a subservice organization (e.g., AWS, GCP, Azure):
 
-- **Inclusive method** — your report covers the subservice org's controls (requires their cooperation)
-- **Carve-out method** — your report excludes their controls but references their SOC 2 report
+- **Inclusive method**  your report covers the subservice org's controls (requires their cooperation)
+- **Carve-out method**  your report excludes their controls but references their SOC 2 report
 - Most companies use **carve-out** and include complementary user entity controls (CUECs)
 
 ---
@@ -328,11 +328,11 @@ When your SOC 2 report relies on controls at a subservice organization (e.g., AW
 
 ### Implementation Steps
 
-1. **Automate evidence gathering** — cron jobs, API integrations, IaC snapshots
-2. **Build control dashboards** — aggregate control status into a single view
-3. **Configure drift alerts** — notify when controls fall out of compliance
-4. **Establish review cadence** — weekly control owner check-ins, monthly steering
-5. **Maintain evidence repository** — centralized, timestamped, auditor-accessible
+1. **Automate evidence gathering**  cron jobs, API integrations, IaC snapshots
+2. **Build control dashboards**  aggregate control status into a single view
+3. **Configure drift alerts**  notify when controls fall out of compliance
+4. **Establish review cadence**  weekly control owner check-ins, monthly steering
+5. **Maintain evidence repository**  centralized, timestamped, auditor-accessible
 
 ### Annual Re-Assessment Cycle
 
@@ -405,14 +405,166 @@ python scripts/gap_analyzer.py --controls current_controls.json --type type2 --j
 
 ## References
 
-- [Trust Service Criteria Reference](references/trust_service_criteria.md) — All 5 TSC categories with sub-criteria, control objectives, and evidence examples
-- [Evidence Collection Guide](references/evidence_collection_guide.md) — Evidence types per control, automation tools, documentation requirements
-- [Type I vs Type II Comparison](references/type1_vs_type2.md) — Detailed comparison, timeline, cost analysis, and upgrade path
+- [Trust Service Criteria Reference](references/trust_service_criteria.md)  All 5 TSC categories with sub-criteria, control objectives, and evidence examples
+- [Evidence Collection Guide](references/evidence_collection_guide.md)  Evidence types per control, automation tools, documentation requirements
+- [Type I vs Type II Comparison](references/type1_vs_type2.md)  Detailed comparison, timeline, cost analysis, and upgrade path
 
 ---
 
 ## Cross-References
 
-- **[gdpr-dsgvo-expert](../gdpr-dsgvo-expert/SKILL.md)** — SOC 2 Privacy criteria overlaps significantly with GDPR requirements; use together when processing EU personal data
-- **[information-security-manager-iso27001](../information-security-manager-iso27001/SKILL.md)** — ISO 27001 Annex A controls map closely to SOC 2 Security criteria; organizations pursuing both can share evidence
-- **[isms-audit-expert](../isms-audit-expert/SKILL.md)** — Audit methodology and finding management patterns transfer directly to SOC 2 audit preparation
+- **[gdpr-dsgvo-expert](../gdpr-dsgvo-expert/SKILL.md)**  SOC 2 Privacy criteria overlaps significantly with GDPR requirements; use together when processing EU personal data
+- **[information-security-manager-iso27001](../information-security-manager-iso27001/SKILL.md)**  ISO 27001 Annex A controls map closely to SOC 2 Security criteria; organizations pursuing both can share evidence
+- **[isms-audit-expert](../isms-audit-expert/SKILL.md)**  Audit methodology and finding management patterns transfer directly to SOC 2 audit preparation
+
+---
+
+## Consolidated Capabilities: SOC2-AUDIT-PREP (Subsumed & Superceded)
+
+# /cs:soc2-audit-prep  SOC 2 Type II Forcing Questions
+
+**Command:** `/cs:soc2-audit-prep <scope>`
+
+The SOC 2 Type II auditor pressure-tests any SOC 2 work. Six observation-period-disciplined questions before any Type II cycle.
+
+## When to Run
+
+- Pre-observation period (months 1-2 of cycle)
+- Mid-observation period (month 6 checkpoint)
+- Pre-field-test (month 10)
+- Post-report (planning next cycle)
+- After scope change (adding TSC category)
+- After major incident during observation period
+
+## The Six SOC 2 Type II Questions
+
+### 1. What's the scope, and which TSC categories are in?
+**Security always required; others elective based on customer ask.**
+- Common Criteria (CC1-CC9) under Security always
+- Availability (A1): for SaaS with SLA commitments
+- Processing Integrity (PI1): for systems processing transactional / financial data
+- Confidentiality (C1): for systems handling proprietary / confidential data
+- Privacy (P1-P8): for systems handling personal data (overlap with GDPR if applicable)
+- AICPA AT-C 205 description of system: complete + accurate + boundaries clear
+
+### 2. Did any control skip a cycle during observation period?
+**Type II requires consistent operation  single skipped cycle = likely exception.**
+- Quarterly controls (e.g., access reviews): all 4 quarters covered
+- Monthly controls (e.g., vulnerability scans): all months covered
+- Continuous controls (e.g., logging): no gaps during period
+- Annual controls (e.g., BCP exercises, training): completed within period
+
+### 3. Show me the change-management evidence for any control implemented mid-period.
+**Mid-period changes = high audit risk.**
+- New controls implemented during observation: documented with change-management
+- Modified controls: rationale + effective date + impact on prior samples
+- Removed controls: rationale + customer impact assessment
+- Strategy: avoid mid-period changes; defer to next cycle
+
+### 4. Where's the exception log, and what's the materiality assessment?
+**Real-time exception logging  not retroactive.**
+- Each exception logged when discovered, not at audit time
+- Per exception: what / when / impact / remediation / owner
+- Materiality assessment: does the exception affect overall control operation?
+- Audit firm threshold: typically 1-2 exceptions per control acceptable; 3+ = finding
+
+### 5. Show me sample evidence from each TSC criterion in the FIRST month of observation.
+**Not the last week  the first month.**
+- Audit firm samples across the observation period
+- Front-loaded evidence demonstrates operational discipline
+- Back-loaded evidence (last 30 days) = "scrambling" signal
+- Sample IDs should be reproducible from operational systems
+
+### 6. What's the cross-walk to ISO 27001, and which evidence reuses?
+**75% control overlap  the canonical pair.**
+- Run `cross_framework_mapper.py` for HIGH-confidence overlap themes
+- Each shared artefact cited by both audits (one collection, two reports)
+- Coordinate audit calendar with cs-ciso-iso27001
+- Avoid producing duplicate evidence files for same control
+
+## Workflow
+
+```bash
+# 1. Scoping + gap analysis (pre-observation)
+python ra-qm-team/skills/soc2-compliance/scripts/gap_analyzer.py current_state.json
+
+# 2. Control matrix with ISO 27001 cross-walk
+python ra-qm-team/skills/soc2-compliance/scripts/control_matrix_builder.py program.json
+
+# 3. Continuous evidence tracking (during observation)
+python ra-qm-team/skills/soc2-compliance/scripts/evidence_tracker.py evidence_log.json
+
+# 4. Mock audit (pre-field-test month 10)
+python ../../skills/compliance-os/scripts/audit_simulator.py soc2_scope.json
+```
+
+## Output Format
+
+```markdown
+# SOC 2 Type II Audit Prep: <scope>
+**Date:** YYYY-MM-DD
+**Observation Period:** YYYY-MM-DD to YYYY-MM-DD
+
+## The Decision Being Made
+[scoping | pre-observation | observation-status | pre-field | report-response]
+
+## TSC Scope
+- Security: included
+- Availability: <yes/no>
+- Processing Integrity: <yes/no>
+- Confidentiality: <yes/no>
+- Privacy: <yes/no>
+
+## Observation Period Status
+- Months elapsed: N / 12
+- Controls operated consistently: % of total
+- Cycle skips identified: <list>
+- Mid-period control changes: N (each documented with change-mgmt: yes/no)
+
+## Exception Log
+- Total exceptions logged: N
+- Per-control max exceptions: M (audit firm tolerance: typically 1-2)
+- Material exceptions (overall control affected): <list>
+- Remediation status per exception: complete/in-progress
+
+## Sample Evidence Coverage
+- Month 1-3 evidence: complete/gaps
+- Month 4-6 evidence: complete/gaps
+- Month 7-9 evidence: complete/gaps
+- Month 10-12 evidence: complete/gaps (only for pre-report status)
+
+## ISO 27001 Cross-Walk Reuse
+- HIGH-confidence overlap themes: N
+- Shared artefacts in evidence pool: <count>
+- Duplicate evidence collection avoided: % savings
+
+## Audit Firm Readiness
+- Scoping discussion: complete/pending
+- Description of system per AT-C 205: complete/pending
+- Walkthrough rehearsal: complete/pending
+- Sample preparation: complete/pending
+
+## Verdict
+🟢 ON-TRACK | 🟡 NEEDS-ATTENTION | 🔴 MATERIAL-RISK
+
+## Top 3 Actions
+[3 concrete next steps with owner + observation-period timing]
+```
+
+## Routing
+
+- `/cs:compliance-readiness`  for multi-framework view
+- `/cs:iso27001-audit-prep`  for ISO 27001 cross-walk pair (75% overlap)
+- `/cs:gdpr-audit-prep`  for Privacy TSC overlap
+- `/cs:ciso-review`  for executive cybersecurity strategy
+
+## Related
+
+- Agent: [`cs-soc2-auditor`](../../agents/cs-soc2-auditor.md)
+- Skill: [`soc2-compliance`](../../../ra-qm-team/skills/soc2-compliance/SKILL.md)
+- Playbook: [soc2_audit_playbook.md](../../../ra-qm-team/skills/soc2-compliance/references/soc2_audit_playbook.md)
+- Adjacent: `../iso27001-audit-prep/`, `../gdpr-audit-prep/`, `../compliance-readiness/`
+
+---
+
+**Version:** 1.0.0
