@@ -1,7 +1,7 @@
 ---
 name: writing-fragments
 description: >-
-  W—r—i—t—i—n—g—,— —e—x—p—l—o—r—e— ——— —m—i—n—e— —r—a—w— —f—r—a—g—m—e—n—t—s—,— —n—o— —s—t—r—u—c—t—u—r—e— —y—e—t.
+  Writing, explore — mine raw fragments, no structure yet.
 disable-model-invocation: true
 ---
 

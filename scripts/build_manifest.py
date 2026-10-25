@@ -35,6 +35,9 @@ def parse_frontmatter(path: Path) -> dict[str, str]:
         match = re.match(r"^([A-Za-z_][\w-]*):\s*(.*)$", line)
         if match:
             key, value = match.group(1), match.group(2)
+            # YAML block-scalar indicators (>, >-, |, |-) carry no content
+            if re.fullmatch(r"[>|]-?", value.strip()):
+                value = ""
             fields[key] = value
         elif key and line.strip():
             fields[key] = (fields[key] + " " + line.strip()).strip()

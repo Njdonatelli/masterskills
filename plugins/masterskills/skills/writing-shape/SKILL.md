@@ -1,7 +1,7 @@
 ---
 name: writing-shape
 description: >-
-  W—r—i—t—i—n—g—,— —e—x—p—l—o—i—t— ——— —s—h—a—p—e— —r—a—w— —m—a—t—e—r—i—a—l— —i—n—t—o— —a—n— —a—r—t—i—c—l—e—,— —p—a—r—a—g—r—a—p—h— —b—y— —p—a—r—a—g—r—a—p—h.
+  Writing, exploit — shape raw material into an article, paragraph by paragraph.
 disable-model-invocation: true
 ---
 

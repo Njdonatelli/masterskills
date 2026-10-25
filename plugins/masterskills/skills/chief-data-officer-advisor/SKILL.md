@@ -1,7 +1,7 @@
 ---
 name: "chief-data-officer-advisor"
 description: >-
-  Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data, choosing data architecture, valuing data for fundraising or M&A, sequencing data hires, or when user mentions CDO, chief data officer, data strategy, data mesh, lakehouse, training data, data product, data monetization, or customer data asset. NOT a tactical data engineering skill  strategic decisions only. [Also supersedes `cdo-review`: triggers on '/cs:cdo-review', 'cdo review', 'data architecture interrogation']
+  Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data, choosing data architecture, valuing data for fundraising or M&A, sequencing data hires, or when user mentions CDO, chief data officer, data strategy, data mesh, lakehouse, training data, data product, data monetization, or customer data asset. NOT a tactical data engineering skill — strategic decisions only. [Also supersedes `cdo-review`: triggers on '/cs:cdo-review', 'cdo review', 'data architecture interrogation']
 license: MIT
 metadata:
   version: 1.0.0
