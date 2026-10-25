@@ -1,0 +1,5 @@
+- Upstream: https://github.com/nexu-io/open-design
+- Path: design-templates/critique
+- Commit: 9724c44
+- License: Apache-2.0
+- Imported: 2026-10-25

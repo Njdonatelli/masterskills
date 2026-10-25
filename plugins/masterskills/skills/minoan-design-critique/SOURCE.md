@@ -1,0 +1,5 @@
+- Upstream: https://github.com/tdimino/claude-code-minoan
+- Path: skills/design-media/design-critique
+- Commit: 913180a
+- License: MIT
+- Imported: 2026-10-25

@@ -1,0 +1,5 @@
+- Upstream: https://github.com/SaddamTechie/vector-design
+- Path: SaddamTechie_vector-design
+- Commit: c331e8f
+- License: MIT (stated in upstream README)
+- Imported: 2026-10-25

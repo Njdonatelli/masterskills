@@ -1,0 +1,11 @@
+# vector-harness
+workspace/*
+!workspace/.keep
+
+# virtual environments / uv
+.venv/
+__pycache__/
+*.pyc
+
+# exports
+exports/

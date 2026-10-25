@@ -1,0 +1,5 @@
+- Upstream: https://github.com/owl-listener/designer-skills
+- Path: visual-critique/skills/critique-composition
+- Commit: 9a6930c
+- License: MIT
+- Imported: 2026-10-25

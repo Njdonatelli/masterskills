@@ -1,0 +1,5 @@
+- Upstream: https://github.com/Thecsiz/tastemaker
+- Path: skills/tastemaker
+- Commit: e39f724
+- License: MIT + CC BY 4.0 (see LICENSE)
+- Imported: 2026-10-25

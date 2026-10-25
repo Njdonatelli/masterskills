@@ -1,0 +1,5 @@
+- Upstream: https://github.com/shoemakerk/throughline-skill
+- Path: shoemakerk_throughline-skill
+- Commit: 678abfd
+- License: MIT
+- Imported: 2026-10-25

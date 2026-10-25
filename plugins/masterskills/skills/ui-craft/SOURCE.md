@@ -1,0 +1,5 @@
+- Upstream: https://github.com/educlopez/ui-craft
+- Path: skills/ui-craft
+- Commit: 49b7517
+- License: MIT
+- Imported: 2026-10-25

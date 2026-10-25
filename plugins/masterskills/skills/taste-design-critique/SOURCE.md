@@ -1,0 +1,5 @@
+- Upstream: https://github.com/Dragoon0x/taste-skills
+- Path: skills/team-practice/design-critique
+- Commit: bb8bf6b
+- License: MIT
+- Imported: 2026-10-25

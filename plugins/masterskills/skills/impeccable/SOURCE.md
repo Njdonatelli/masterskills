@@ -1,0 +1,5 @@
+- Upstream: https://github.com/pbakaus/impeccable
+- Path: .claude/skills/impeccable
+- Commit: 3671d50
+- License: Apache-2.0
+- Imported: 2026-10-25

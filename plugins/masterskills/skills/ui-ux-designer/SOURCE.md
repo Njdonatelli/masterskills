@@ -1,0 +1,5 @@
+- Upstream: https://github.com/softaworks/agent-toolkit
+- Path: agents/ui-ux-designer.md (converted from a subagent definition to a skill; model/color fields dropped)
+- Commit: 3027f20
+- License: CC BY 4.0 per in-file header (author Madina Gbotoe); repo LICENSE is MIT
+- Imported: 2026-10-25

@@ -1,0 +1,5 @@
+- Upstream: https://github.com/ibelick/ui-skills
+- Path: skills/improve-ui
+- Commit: 59193a7
+- License: MIT
+- Imported: 2026-10-25
