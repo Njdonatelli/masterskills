@@ -161,7 +161,10 @@ def run(items: dict[str, str]) -> dict[str, str]:
 
 | Input | How to get it |
 |---|---|
-| `--full-context` | Count tokens of the shared block with `client.messages.count_tokens(...)`, or estimate at about 4 chars/token for English prose (newer Claude tokenizers produce ~30% more tokens than older ones) |
+| `--full-context` | Best: `client.messages.count_tokens(...)` on the real block. Offline estimate: chars / 4 for Sonnet 4.6 and earlier; **chars / 4 x 1.3** for Claude 4.7+ and the 5.x family, whose tokenizer produces about 30% more tokens. For MCP servers, include every tool definition the agent loads (name + docstring + JSON schema) |
+| `--history-growth` | Average tokens one call adds to the agent's context: tool result size (e.g. top_k x chunk tokens + headers) plus the assistant turn |
+| `--trim-requests` | Calls per question after the trim, e.g. when search results now carry enough that a follow-up fetch is skipped |
+| `--current-rung` | 1 if nothing is trimmed, cached, or batched today. 2 if context is already selective (retrieval, top-k). 3 if `cache_control` or automatic caching is on. 4 if batched |
 | `--trimmed-context` | Top-k x chunk tokens, or the measured cited span |
 | `--per-request-input` | User question + per-request variables |
 | `--output-tokens` | `max_tokens` is the ceiling; use measured p50 when logs exist |

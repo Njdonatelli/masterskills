@@ -22,7 +22,11 @@ Pull answers from the conversation and the code first -- don't ask for what you 
 | **Optimize Existing System** | A codebase, workflow, or described workload exists; apply the ladder |
 | **Design Cost-Efficient Architecture** | Building new AI features; wire in cost controls before launch |
 
-If you were handed a repo, workflow export (n8n, Zapier), or log file, start auditing it -- don't open with questions. Ask only for numbers you cannot measure or reasonably estimate, and label every estimate.
+Rule of thumb: given code or a workflow export, use **Optimize** (and fold in Audit steps when there's also spend data). Given only a bill or spend data, use **Audit**. Given only a plan, use **Design**.
+
+If you were handed a repo, workflow export (n8n, Zapier), or log file, start auditing it -- don't open with questions. Measure token sizes from the artifacts themselves (index files, prompt templates, tool docstrings, `top_k` defaults) before estimating. Ask only for numbers you cannot measure (traffic volume, runs per month), and label every estimate.
+
+**Who pays matters.** If the workload is consumed through a Claude app subscription (Claude Desktop, Claude Code on a plan), there is no per-token bill: say so, and frame the savings as headroom against usage limits and context-window room, not dollars. Per-token dollars apply to API keys, including agents you run on the API.
 
 ---
 
@@ -47,7 +51,18 @@ python3 scripts/cost_ladder.py --model sonnet-5.5 --requests 500 \
   --output-tokens 600 --interval-seconds 30 --runs-per-month 22
 ```
 
-Flags: `--latency-sensitive` (skips L4), `--batch-hit-rate 0.6` (batch caching is best-effort), `--batch-size` (requests per submission), `--ttl 5m|1h`, `--us-only` (1.1x), `--config workload.json`, `--json`, `--list-models`. For non-Claude providers, pass `--pricing` a JSON file in the same shape as `scripts/pricing.json`.
+| Flag | Use when |
+|---|---|
+| `--current-rung 1-4` | Mark where the workload sits today (the deliverable needs this) |
+| `--history-growth N` | Agent loop or chat: each call carries the previous calls' tool results and turns. Without it, L3 is overstated for loops |
+| `--trim-requests N` | Trimming also removes calls (e.g. a follow-up full-document fetch is no longer needed) |
+| `--latency-sensitive` | A person is waiting; L4 is skipped |
+| `--batch-hit-rate 0.6` | Batch cache hits are best-effort (30-98%) |
+| `--batch-size N`, `--interval-seconds S` | Requests trickle in. The calculator reports how long pooling holds them, and when sync caching beats batch |
+| `--ttl 5m\|1h`, `--us-only`, `--cache-read-mult` | Force a TTL, apply the 1.1x US-only rate, or reproduce a third party's figures |
+| `--runs-per-month`, `--config file.json`, `--json`, `--list-models` | Monthly projection, saved workloads, machine output |
+
+Each rung shows the cheapest option up to that point. A rung that wouldn't beat the previous one prints as `not used:` with the reason, and that verdict is part of the answer. The calculator covers Claude chat/completions tokens only. Embedding costs (e.g. Voyage re-embeds) are separate line items, priced from that provider's page. For non-Claude chat models, pass `--pricing` a JSON file in the same shape as `scripts/pricing.json`.
 
 **Rates go stale.** `scripts/pricing.json` is a dated snapshot. If it is older than 30 days (the script warns), or the user's model isn't in it, re-fetch the pricing, prompt-caching, and batch pages listed in its `sources` and update the file before quoting dollars. Store absolute prices, not multipliers: cache-read multipliers differ by model (0.025x, 0.05x, 0.1x).
 
@@ -64,8 +79,8 @@ Read [references/cost_ladder.md](references/cost_ladder.md) for implementation p
 | Shape | Where the shared context is | Usual best rung |
 |---|---|---|
 | Doc Q&A / RAG endpoint | Retrieved chunks + system prompt | L2 (top-k, chunk size) then L3 on the system prompt and tool definitions |
-| MCP / tool server consumed by an agent | Tool results returned into the agent's context; tool definitions | L2: cap result size and top-k, return excerpts not full articles. L3 is the client's job; flag it if the user owns the client |
-| Agent loop / chat | Growing history + tools + system | L3 (automatic caching or a moving breakpoint) and history trimming |
+| MCP / tool server consumed by an agent | Tool **definitions** (carried on every request, even turns that never call the tool), and tool **results** that pile up in the agent's history | L2 on both: consolidate many small servers/tools into fewer, tighten docstrings, cap `top_k` and result size, return sections instead of full documents, and fix docstrings that invite unnecessary follow-up calls. L3 is the client's job: flag it if the user owns the client. The server makes no API calls, so log tool-result sizes instead of `usage` fields. Model it with `--history-growth` |
+| Agent loop / chat | Growing history + tools + system | L3 (automatic caching or a moving breakpoint) and history trimming. Use `--history-growth` |
 | Scheduled / nightly job | Same instructions and reference data per item | L4 + L3 (1h TTL), often 10x+ |
 | One-off long prompt | None shared | L1 is fine; look at routing and output length instead |
 
@@ -75,7 +90,7 @@ Read [references/cost_ladder.md](references/cost_ladder.md) for implementation p
 
 Use when spend exists but the breakdown is unknown. Instrument first; optimize second.
 
-1. **Instrument every request.** Log model, `input_tokens`, `cache_creation_input_tokens`, `cache_read_input_tokens`, `output_tokens`, latency, endpoint/feature, and calculated cost. Total input = all three input fields; `input_tokens` alone excludes cache traffic.
+1. **Instrument every request.** Log model, `input_tokens`, `cache_creation_input_tokens`, `cache_read_input_tokens`, `output_tokens`, latency, endpoint/feature, and calculated cost. Total input = all three input fields; `input_tokens` alone excludes cache traffic. For code that doesn't call the API itself (MCP servers, retrieval layers, prompt builders), log the token size of everything it hands to the model instead.
 2. **Find the 20% causing 80% of spend.** Sort by feature x model x tokens. Usually 2-3 endpoints dominate.
 3. **Place each hot path on the ladder.** Which rung is it on today? Run the calculator for the next rungs.
 4. **Classify requests by complexity** for routing (below).
