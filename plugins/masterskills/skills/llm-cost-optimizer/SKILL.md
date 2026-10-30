@@ -26,7 +26,7 @@ Rule of thumb: given code or a workflow export, use **Optimize** (and fold in Au
 
 If you were handed a repo, workflow export (n8n, Zapier), or log file, start auditing it -- don't open with questions. Measure token sizes from the artifacts themselves (index files, prompt templates, tool docstrings, `top_k` defaults) before estimating. Ask only for numbers you cannot measure (traffic volume, runs per month), and label every estimate.
 
-**Who pays matters.** If the workload is consumed through a Claude app subscription (Claude Desktop, Claude Code on a plan), there is no per-token bill: say so, and frame the savings as headroom against usage limits and context-window room, not dollars. Per-token dollars apply to API keys, including agents you run on the API.
+**Who pays matters.** If the workload is consumed through a Claude app subscription (Claude Desktop, Claude Code on a plan), there is no per-token bill: say so, and frame the savings as headroom against usage limits and context-window room, not dollars. Caching there is the client's business and you can't see or change it, so mark L3 as client-managed and focus on L2. Per-token dollars apply to API keys, including agents you run on the API.
 
 ---
 
@@ -53,8 +53,9 @@ python3 scripts/cost_ladder.py --model sonnet-5.5 --requests 500 \
 
 | Flag | Use when |
 |---|---|
-| `--current-rung 1-4` | Mark where the workload sits today (the deliverable needs this) |
-| `--history-growth N` | Agent loop or chat: each call carries the previous calls' tool results and turns. Without it, L3 is overstated for loops |
+| `--current-rung 1-4` | Mark which billing features are already on: 3 if caching is on, 4 if batched, otherwise 1. L1 always models today's payload as-is, even if it already uses retrieval |
+| `--history-growth N` | Agent loop or chat: tokens each call adds to context (tool result + assistant turn). Without it, L3 is overstated for loops |
+| `--trimmed-history-growth N` | The trim also shrinks what each call adds (smaller `top_k`, capped tool results) |
 | `--trim-requests N` | Trimming also removes calls (e.g. a follow-up full-document fetch is no longer needed) |
 | `--latency-sensitive` | A person is waiting; L4 is skipped |
 | `--batch-hit-rate 0.6` | Batch cache hits are best-effort (30-98%) |
@@ -165,6 +166,8 @@ Wire these in before launch:
 ---
 
 ## Output Artifacts
+
+Under a length limit, keep this order and cut from the bottom: bottom line ($/month now -> after, or tokens/question for subscriptions), ladder table, top 3 changes tagged answer-neutral/needs-eval, labeled assumptions, then diffs and the logging schema.
 
 | Request | Deliverable |
 |---|---|

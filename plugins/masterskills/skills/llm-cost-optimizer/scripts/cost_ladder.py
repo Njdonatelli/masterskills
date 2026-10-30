@@ -69,6 +69,7 @@ class Workload:
     cache_read_mult: Optional[float] = None
     runs_per_month: Optional[float] = None
     history_growth: int = 0
+    trimmed_history_growth: Optional[int] = None
     trim_requests: Optional[int] = None
     current_rung: Optional[int] = None
 
@@ -136,17 +137,17 @@ def request_cost(
     return dollars / 1_000_000 * discount * geo
 
 
-def plain_series(model: dict[str, Any], w: Workload, *, shared: int, n: int,
+def plain_series(model: dict[str, Any], w: Workload, *, shared: int, n: int, growth: int,
                  discount: float, geo: float) -> float:
-    """No caching. With --history-growth, request i also carries i * growth
+    """No caching. With history growth, request i also carries i * growth
     tokens of accumulated history (agent loop / chat)."""
-    g = w.history_growth
+    g = growth
     return sum(request_cost(model, plain=shared + i * g + w.per_request_input,
                             output=w.output_tokens, discount=discount, geo=geo)
                for i in range(n))
 
 
-def cached_series(model: dict[str, Any], w: Workload, *, n: int, ttl: str, writes: int,
+def cached_series(model: dict[str, Any], w: Workload, *, n: int, growth: int, ttl: str, writes: int,
                   hit_rate: float, discount: float, geo: float) -> float:
     """Independent requests sharing a prefix: `writes` requests pay the write
     rate, the rest read, except the miss share (1 - hit_rate), priced as a
@@ -157,11 +158,18 @@ def cached_series(model: dict[str, Any], w: Workload, *, n: int, ttl: str, write
     new growth, which is how automatic caching bills a growing conversation."""
     common = dict(ttl=ttl, output=w.output_tokens, discount=discount, geo=geo,
                   read_mult=w.cache_read_mult)
-    shared, u, g = w.shared, w.per_request_input, w.history_growth
+    shared, u, g = w.shared, w.per_request_input, growth
     if g > 0:
-        total = request_cost(model, write=shared, plain=u, **common)
-        for i in range(1, n):
-            total += request_cost(model, read=shared + (i - 1) * g, write=g, plain=u, **common)
+        # A prefix below the model minimum is silently not cached, so early
+        # turns of a short-prompt loop pay plain input until history grows past it.
+        total, cached = 0.0, 0
+        for i in range(n):
+            prefix = shared + i * g
+            if prefix >= model["min_cacheable"]:
+                total += request_cost(model, read=cached, write=prefix - cached, plain=u, **common)
+                cached = prefix
+            else:
+                total += request_cost(model, plain=prefix + u, **common)
         return total
     writes = min(writes, n)
     readers = n - writes
@@ -175,11 +183,11 @@ def ttl_options(w: Workload) -> list[str]:
     return ["5m", "1h"] if w.ttl == "auto" else [w.ttl]
 
 
-def cache_blocker(w: Workload, model: dict[str, Any], key: str) -> Optional[str]:
-    if w.shared < model["min_cacheable"]:
+def cache_blocker(w: Workload, model: dict[str, Any], key: str, n: int, growth: int) -> Optional[str]:
+    if w.shared + (n - 1) * growth < model["min_cacheable"]:
         return (f"prefix {w.shared:,} < {model['min_cacheable']:,}-token minimum for {key}; "
                 "API silently skips caching")
-    if w.shared == 0:
+    if w.shared == 0 and growth == 0:
         return "no shared prefix to cache"
     return None
 
@@ -196,23 +204,27 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
     warnings: list[str] = []
     n1 = w.requests
     n = w.trim_requests if w.trim_requests is not None else n1  # requests from L2 on
+    g1 = w.history_growth
+    g = w.trimmed_history_growth if w.trimmed_history_growth is not None else g1  # growth from L2 on
 
     rungs = [Rung("L1 Full", "send all shared context, sync",
-                  plain_series(model, w, shared=w.full_context, n=n1, discount=1.0, geo=geo))]
+                  plain_series(model, w, shared=w.full_context, n=n1, growth=g1, discount=1.0, geo=geo))]
 
     # --- L2 trim --------------------------------------------------------------
-    trimmed_any = w.shared < w.full_context or n < n1
+    trimmed_any = w.shared < w.full_context or n < n1 or g < g1
     lever = f"send {w.shared:,} of {w.full_context:,} shared tokens"
     if n < n1:
         lever += f", {n:,} of {n1:,} requests"
-    trim = Rung("L2 Trim", lever, plain_series(model, w, shared=w.shared, n=n, discount=1.0, geo=geo))
+    if g < g1:
+        lever += f", {g:,} of {g1:,} history/turn"
+    trim = Rung("L2 Trim", lever, plain_series(model, w, shared=w.shared, n=n, growth=g, discount=1.0, geo=geo))
     if not trimmed_any:
         trim.applied = False
         trim.notes.append("no trim given; rung is a no-op until you measure what the answer needs")
     else:
         trim.notes.append("savings hold only if answer quality is unchanged; eval before shipping")
     threshold = model.get("long_context_threshold")
-    peak = w.shared + w.per_request_input + (n - 1) * w.history_growth
+    peak = w.shared + w.per_request_input + (n - 1) * g
     if threshold is not None and peak > threshold:
         trim.notes.append(f"requests reach {peak:,} input tokens, past the {threshold:,}-token long-context "
                           "tier (5x rates for the whole request); keep each request under it")
@@ -221,7 +233,7 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
 
     # --- L3 cache (sync) ------------------------------------------------------
     cache = Rung("L3 Cache", "cache shared prefix, re-read at hit rate", best, applied=False)
-    blocker = cache_blocker(w, model, key)
+    blocker = cache_blocker(w, model, key, n, g)
     if blocker:
         cache.notes.append(blocker)
     elif n < 2:
@@ -236,15 +248,16 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
                 cache.notes.append(f"requests {w.interval_seconds:,.0f}s apart outlive every TTL "
                                    "(max 1h); each request would re-write")
         else:
-            options = {t: cached_series(model, w, n=n, ttl=t, writes=1, hit_rate=1.0, discount=1.0, geo=geo)
+            options = {t: cached_series(model, w, n=n, growth=g, ttl=t, writes=1, hit_rate=1.0,
+                                        discount=1.0, geo=geo)
                        for t in spanning}
             ttl = min(options, key=options.get)
             if options[ttl] < best:
                 cache.cost, cache.applied = options[ttl], True
                 cache.lever = (f"moving breakpoint ({ttl} TTL): re-read history, write only new turns"
-                               if w.history_growth else
+                               if g else
                                f"cache prefix ({ttl} TTL, refreshed on each hit), re-read at hit rate")
-                if w.interval_seconds == 0 and not w.history_growth:
+                if w.interval_seconds == 0 and not g:
                     cache.notes.append("send the first request and wait for its response to START before "
                                        "firing the rest; parallel cold requests all miss")
             else:
@@ -256,7 +269,7 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
     batch_rung = Rung("L4 Batch", "Message Batches API, -50% on every token", best, applied=False)
     if w.latency_sensitive:
         batch_rung.notes.append("latency-sensitive: batch results can take up to 24h")
-    elif w.history_growth:
+    elif g:
         batch_rung.notes.append("each turn depends on the previous one; batch only across independent "
                                 "loops, not within one")
     else:
@@ -265,7 +278,7 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
         hold_hours = (size - 1) * w.interval_seconds / 3600
         gap = size * w.interval_seconds  # seconds between consecutive submissions
         candidates: dict[str, tuple[float, str]] = {
-            "none": (plain_series(model, w, shared=w.shared, n=n, discount=batch, geo=geo),
+            "none": (plain_series(model, w, shared=w.shared, n=n, growth=0, discount=batch, geo=geo),
                      "Message Batches API, -50% on every token"),
         }
         if not blocker and n >= 2:
@@ -275,7 +288,7 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
                 # One warm-up covers every submission while submissions land within
                 # the TTL of each other; otherwise each submission re-warms.
                 warms = 1 if gap <= TTL_SECONDS[t] else submissions
-                cost = cached_series(model, w, n=n, ttl=t, writes=warms, hit_rate=w.batch_hit_rate,
+                cost = cached_series(model, w, n=n, growth=0, ttl=t, writes=warms, hit_rate=w.batch_hit_rate,
                                      discount=batch, geo=geo)
                 candidates[t] = (cost, f"batch + {t} cache (warm one request first), -50%")
         choice = min(candidates, key=lambda k: candidates[k][0])
@@ -308,7 +321,12 @@ def climb(w: Workload, pricing: dict[str, Any]) -> tuple[list[Rung], list[str]]:
         if not r.applied and i > 0:
             r.lever = f"not used: {r.lever}"
     if w.current_rung is not None:
-        rungs[w.current_rung - 1].notes.insert(0, "<- you are here today")
+        here = rungs[w.current_rung - 1]
+        if here.applied or w.current_rung == 1:
+            here.notes.insert(0, "<- you are here today")
+        else:
+            here.notes.insert(0, "<- you are here today, but this rung doesn't pay for this workload: "
+                                 "today's real cost is above the figure shown; turning it off saves money")
     if w.cache_read_mult is not None:
         warnings.append(f"cache reads priced at {w.cache_read_mult}x input (override), not the live table rate")
     if w.us_only:
@@ -340,6 +358,8 @@ def render(w: Workload, rungs: list[Rung], warnings: list[str], pricing: dict[st
     places = precision([r.cost for r in rungs])
     plural = "s" if w.requests != 1 else ""
     growth = f" + {w.history_growth:,} history/turn" if w.history_growth else ""
+    if w.trimmed_history_growth is not None and w.trimmed_history_growth != w.history_growth:
+        growth += f" (-> {w.trimmed_history_growth:,})"
     lines = [
         f"Model {normalize_model(w.model)} | {w.requests:,} request{plural} | shared context "
         f"{w.full_context:,} -> {w.shared:,}{growth} | {w.per_request_input:,} unique in + "
@@ -387,7 +407,7 @@ FIELD_TYPES: dict[str, type] = {
     "per_request_input": int, "output_tokens": float, "interval_seconds": float,
     "ttl": str, "batch_size": int, "batch_hit_rate": float, "latency_sensitive": bool,
     "us_only": bool, "cache_read_mult": float, "runs_per_month": float,
-    "history_growth": int, "trim_requests": int, "current_rung": int,
+    "history_growth": int, "trimmed_history_growth": int, "trim_requests": int, "current_rung": int,
 }
 
 
@@ -464,6 +484,8 @@ def build_workload(args: argparse.Namespace) -> Workload:
         raise InputError("ttl must be auto, 5m or 1h")
     if w.history_growth < 0:
         raise InputError("history_growth must be >= 0")
+    if w.trimmed_history_growth is not None and not 0 <= w.trimmed_history_growth <= w.history_growth:
+        raise InputError("trimmed_history_growth must be between 0 and history_growth")
     if w.trim_requests is not None and not 1 <= w.trim_requests <= w.requests:
         raise InputError("trim_requests must be between 1 and requests")
     if w.current_rung is not None and w.current_rung not in (1, 2, 3, 4):
@@ -494,7 +516,9 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
                    help="price cache reads as this multiple of input instead of the table rate")
     p.add_argument("--runs-per-month", type=float, help="repeat count for a monthly projection")
     p.add_argument("--history-growth", type=int,
-                   help="tokens appended to context per request (agent loop / chat: tool results, turns)")
+                   help="tokens appended to context per request (agent loop / chat: tool result + assistant turn)")
+    p.add_argument("--trimmed-history-growth", type=int,
+                   help="history growth per request from L2 on (smaller tool results after the trim)")
     p.add_argument("--trim-requests", type=int,
                    help="request count from L2 on, when trimming also removes calls (e.g. a follow-up fetch)")
     p.add_argument("--current-rung", type=int, choices=[1, 2, 3, 4], help="mark where the workload is today")

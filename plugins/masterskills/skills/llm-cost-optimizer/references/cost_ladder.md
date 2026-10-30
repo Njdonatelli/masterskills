@@ -162,9 +162,12 @@ def run(items: dict[str, str]) -> dict[str, str]:
 | Input | How to get it |
 |---|---|
 | `--full-context` | Best: `client.messages.count_tokens(...)` on the real block. Offline estimate: chars / 4 for Sonnet 4.6 and earlier; **chars / 4 x 1.3** for Claude 4.7+ and the 5.x family, whose tokenizer produces about 30% more tokens. For MCP servers, include every tool definition the agent loads (name + docstring + JSON schema) |
+| Tool definitions | Don't guess: serialize each tool exactly as the client sends it (name, description, `input_schema` JSON) and count it. MCP clients send every loaded server's tools on every request |
 | `--history-growth` | Average tokens one call adds to the agent's context: tool result size (e.g. top_k x chunk tokens + headers) plus the assistant turn |
+| `--trimmed-history-growth` | The same figure after the trim (lower `top_k`, capped or sectioned tool results) |
 | `--trim-requests` | Calls per question after the trim, e.g. when search results now carry enough that a follow-up fetch is skipped |
-| `--current-rung` | 1 if nothing is trimmed, cached, or batched today. 2 if context is already selective (retrieval, top-k). 3 if `cache_control` or automatic caching is on. 4 if batched |
+| `--current-rung` | L1 is always today's payload as-is, so leave it at 1 even if the code already uses retrieval. Use 3 if `cache_control` or automatic caching is already on, 4 if already batched. If the marked rung shows "doesn't pay", today's setup is costing money: recommend turning it off |
+| Across questions/sessions | The same prefix (tools + system) reused by separate questions is cached as long as they land within the TTL. Model it as one run with `--requests` = questions in a busy window and `--interval-seconds` = the gap between them |
 | `--trimmed-context` | Top-k x chunk tokens, or the measured cited span |
 | `--per-request-input` | User question + per-request variables |
 | `--output-tokens` | `max_tokens` is the ceiling; use measured p50 when logs exist |
