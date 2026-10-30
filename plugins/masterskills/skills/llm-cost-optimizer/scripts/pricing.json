@@ -1,0 +1,35 @@
+{
+  "_comment": "USD per million tokens. Snapshot only: refresh from the sources below before trusting any figure older than ~30 days. Cache rates are stored as absolute prices because the read multiplier is NOT uniform (0.05x on Sonnet/Opus 5.5, 0.025x on Fable/Mythos 5.1, 0.1x elsewhere).",
+  "retrieved": "2026-10-30",
+  "sources": [
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+  ],
+  "batch_discount": 0.5,
+  "us_inference_geo_multiplier": 1.1,
+  "models": {
+    "fable-5.1":   {"input": 10.0, "output": 50.0, "cache_write_5m": 12.5,  "cache_write_1h": 20.0, "cache_read": 0.25, "min_cacheable": 512},
+    "mythos-5.1":  {"input": 10.0, "output": 50.0, "cache_write_5m": 12.5,  "cache_write_1h": 20.0, "cache_read": 0.25, "min_cacheable": 512},
+    "opus-5.5":    {"input": 4.0,  "output": 20.0, "cache_write_5m": 5.0,   "cache_write_1h": 8.0,  "cache_read": 0.20, "min_cacheable": 512},
+    "sonnet-5.5":  {"input": 2.0,  "output": 10.0, "cache_write_5m": 2.5,   "cache_write_1h": 4.0,  "cache_read": 0.10, "min_cacheable": 512},
+    "haiku-5.5": {
+      "_comment": "Priced by prompt length: a request whose TOTAL input (incl. cache reads/writes) exceeds 100,000 tokens pays the long tier for every token in that request.",
+      "long_context_threshold": 100000,
+      "input": 0.10, "output": 0.50, "cache_write_5m": 0.125, "cache_write_1h": 0.20, "cache_read": 0.01,
+      "long": {"input": 0.50, "output": 2.50, "cache_write_5m": 0.625, "cache_write_1h": 1.0, "cache_read": 0.05},
+      "min_cacheable": 512
+    },
+    "fable-5":     {"input": 10.0, "output": 50.0, "cache_write_5m": 12.5,  "cache_write_1h": 20.0, "cache_read": 1.0,  "min_cacheable": 512},
+    "mythos-5":    {"input": 10.0, "output": 50.0, "cache_write_5m": 12.5,  "cache_write_1h": 20.0, "cache_read": 1.0,  "min_cacheable": 512},
+    "opus-5":      {"input": 5.0,  "output": 25.0, "cache_write_5m": 6.25,  "cache_write_1h": 10.0, "cache_read": 0.50, "min_cacheable": 512},
+    "sonnet-5":    {"input": 2.0,  "output": 10.0, "cache_write_5m": 2.5,   "cache_write_1h": 4.0,  "cache_read": 0.20, "min_cacheable": 1024},
+    "opus-4.8":    {"input": 5.0,  "output": 25.0, "cache_write_5m": 6.25,  "cache_write_1h": 10.0, "cache_read": 0.50, "min_cacheable": 1024},
+    "opus-4.7":    {"input": 5.0,  "output": 25.0, "cache_write_5m": 6.25,  "cache_write_1h": 10.0, "cache_read": 0.50, "min_cacheable": 2048},
+    "opus-4.6":    {"input": 5.0,  "output": 25.0, "cache_write_5m": 6.25,  "cache_write_1h": 10.0, "cache_read": 0.50, "min_cacheable": 4096},
+    "opus-4.5":    {"input": 5.0,  "output": 25.0, "cache_write_5m": 6.25,  "cache_write_1h": 10.0, "cache_read": 0.50, "min_cacheable": 4096},
+    "sonnet-4.6":  {"input": 3.0,  "output": 15.0, "cache_write_5m": 3.75,  "cache_write_1h": 6.0,  "cache_read": 0.30, "min_cacheable": 1024},
+    "sonnet-4.5":  {"input": 3.0,  "output": 15.0, "cache_write_5m": 3.75,  "cache_write_1h": 6.0,  "cache_read": 0.30, "min_cacheable": 1024},
+    "haiku-4.5":   {"input": 1.0,  "output": 5.0,  "cache_write_5m": 1.25,  "cache_write_1h": 2.0,  "cache_read": 0.10, "min_cacheable": 4096}
+  }
+}

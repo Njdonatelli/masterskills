@@ -1,12 +1,12 @@
 ---
 name: llm-cost-optimizer
 description: >-
-  Use proactively whenever LLM API costs come up -- or should. Triggers include: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching', 'we're about to launch an AI feature', 'build me an AI endpoint'. Don't wait for an explicit cost complaint -- if someone is building an AI feature, designing an LLM endpoint, or choosing between models, cost architecture belongs in the conversation. Apply immediately when any of these are true: a system prompt appears that exceeds a few hundred tokens, all requests are hitting the same model, max_tokens is not set, or no per-feature cost logging exists. NOT for RAG pipeline design (use rag-architect). NOT for improving prompt quality or effectiveness (use senior-prompt-engineer).
+  Use proactively whenever LLM API costs come up -- or should. Triggers include: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching', 'should I use the batch API', 'trim my context', 'how much will this pipeline cost', 'make this 10x cheaper', 'we're about to launch an AI feature', 'build me an AI endpoint'. Don't wait for an explicit cost complaint -- if someone is building an AI feature, an agent, a RAG or MCP retrieval layer, a scheduled LLM job, or choosing between models, cost architecture belongs in the conversation. Apply immediately when any of these are true: the same documents or system prompt ride along on every request, a non-interactive job (nightly, scheduled, eval, backfill) calls the API synchronously, a system prompt exceeds a few hundred tokens, all requests hit the same model, max_tokens is not set, or no per-feature cost logging exists. Ships a runnable four-rung cost-ladder calculator (full -> trim -> cache -> batch) priced from a dated Claude rate table. NOT for RAG retrieval-quality design (use rag-architect). NOT for improving prompt quality or effectiveness (use senior-prompt-engineer).
 ---
 
 # LLM Cost Optimizer
 
-You are an expert in LLM cost engineering with deep experience reducing AI API spend at scale. Your goal is to cut LLM costs by 40–80% without degrading user-facing quality -- using model routing, caching, prompt compression, and observability to make every token count.
+You are an expert in LLM cost engineering. Your goal is to cut LLM API spend -- routinely by 5-10x on document-heavy workloads -- without degrading user-facing quality, using the cost ladder, model routing, output control, and observability.
 
 AI API costs are engineering costs. Treat them like database query costs: measure first, optimize second, monitor always.
 
@@ -14,34 +14,60 @@ AI API costs are engineering costs. Treat them like database query costs: measur
 
 ## Step 0: Classify Before You Ask
 
-Before gathering context, classify which mode applies based on what the user has already said. Pull answers from the conversation first -- don't ask for what you already have.
+Pull answers from the conversation and the code first -- don't ask for what you can read.
 
 | Mode | When to use |
 |---|---|
 | **Cost Audit** | Spend exists but no clear picture of where it goes |
-| **Optimize Existing System** | Cost drivers are known; apply targeted fixes |
+| **Optimize Existing System** | A codebase, workflow, or described workload exists; apply the ladder |
 | **Design Cost-Efficient Architecture** | Building new AI features; wire in cost controls before launch |
 
-If the mode is ambiguous, ask in one shot using the context questions below. Only ask what you don't already know.
+If you were handed a repo, workflow export (n8n, Zapier), or log file, start auditing it -- don't open with questions. Ask only for numbers you cannot measure or reasonably estimate, and label every estimate.
 
 ---
 
-## Context You Need
+## The Cost Ladder (hold the model, change the billing path)
 
-**Current State**
-- Which LLM providers and models are in use?
-- Monthly spend? Which features/endpoints drive it?
-- Token usage logging in place? Cost-per-request visibility?
+Same model, same answers, four ways to pay. Climb in order; each rung compounds on the one before. Reference workload: 6 questions over the same 100K-token doc set on Sonnet 5.5.
 
-**Goals**
-- Target cost reduction? (e.g., "cut 50%", "stay under $X/month")
-- Latency constraints? (affects caching and routing tradeoffs)
-- Quality floor? (what degradation is acceptable?)
+| Rung | Lever | What changes | Video figure | Live rates 2026-10-30 |
+|---|---|---|---|---|
+| **L1 Full** | none | Every request carries all shared context at full input price, synchronously | $1.24 | $1.24 |
+| **L2 Trim** | Send only what the answer needs | Shared context per request shrinks (100K -> 40K) | $0.52 | $0.52 |
+| **L3 Cache** | Prompt caching | Shared prefix written once, re-read at the cache-hit rate | $0.18 | $0.16 |
+| **L4 Batch** | Message Batches API | Non-urgent requests pooled; every token -50% | $0.12 | $0.11 |
 
-**Workload Profile**
-- Request volume and distribution (p50, p95, p99 token counts)?
-- Repeated or similar prompts? (caching potential)
-- Mix of task types? (classification vs. generation vs. reasoning)
+Source: @donimas, "AI Levels EP 03" ("10x cheaper"). The video prices cache reads at 0.1x input. Live Sonnet 5.5 and Opus 5.5 reads are 0.05x, so L3 and L4 are cheaper today. The video's $0.12 matches a **1-hour** cache write (2x) in batch, which is the TTL the batch docs recommend. Both columns reproduce exactly with the calculator (`--scenario video` and `--scenario video --cache-read-mult 0.1`).
+
+**Run the numbers, never estimate them in prose:**
+
+```bash
+python3 scripts/cost_ladder.py --model sonnet-5.5 --requests 500 \
+  --full-context 80000 --trimmed-context 15000 --per-request-input 400 \
+  --output-tokens 600 --interval-seconds 30 --runs-per-month 22
+```
+
+Flags: `--latency-sensitive` (skips L4), `--batch-hit-rate 0.6` (batch caching is best-effort), `--batch-size` (requests per submission), `--ttl 5m|1h`, `--us-only` (1.1x), `--config workload.json`, `--json`, `--list-models`. For non-Claude providers, pass `--pricing` a JSON file in the same shape as `scripts/pricing.json`.
+
+**Rates go stale.** `scripts/pricing.json` is a dated snapshot. If it is older than 30 days (the script warns), or the user's model isn't in it, re-fetch the pricing, prompt-caching, and batch pages listed in its `sources` and update the file before quoting dollars. Store absolute prices, not multipliers: cache-read multipliers differ by model (0.025x, 0.05x, 0.1x).
+
+### How to apply each rung
+
+Read [references/cost_ladder.md](references/cost_ladder.md) for implementation patterns, code, and failure modes. Short form:
+
+- **L2 Trim** -- find the shared context (stuffed docs, whole-file reads, full tool outputs, every chunk instead of top-k, full chat history) and size what the answer needs. Trim is the only rung that can change answers, so require an eval or side-by-side check before shipping it. If retrieval quality becomes the question, hand off to `rag-architect`.
+- **L3 Cache** -- put stable content first (tools -> system -> messages), mark the **last block that is identical across requests**, and confirm with `cache_read_input_tokens > 0`. It pays when the prefix clears the model's minimum (512 tokens on the 5.x family, up to 4,096 on older models) and the same prefix is re-sent within the TTL. Caching is exact-prefix and answer-neutral.
+- **L4 Batch** -- for anything no one is waiting on: nightly jobs, scheduled agents, evals, backfills, bulk classification, embedding-adjacent summarization. Flat 50% off input and output, stacks with caching, results within 24h (usually under 1h). Use a 1h cache and send one warm-up request before the rest. Answer-neutral.
+
+**Workload shapes that hide the ladder:**
+
+| Shape | Where the shared context is | Usual best rung |
+|---|---|---|
+| Doc Q&A / RAG endpoint | Retrieved chunks + system prompt | L2 (top-k, chunk size) then L3 on the system prompt and tool definitions |
+| MCP / tool server consumed by an agent | Tool results returned into the agent's context; tool definitions | L2: cap result size and top-k, return excerpts not full articles. L3 is the client's job; flag it if the user owns the client |
+| Agent loop / chat | Growing history + tools + system | L3 (automatic caching or a moving breakpoint) and history trimming |
+| Scheduled / nightly job | Same instructions and reference data per item | L4 + L3 (1h TTL), often 10x+ |
+| One-off long prompt | None shared | L1 is fine; look at routing and output length instead |
 
 ---
 
@@ -49,116 +75,55 @@ If the mode is ambiguous, ask in one shot using the context questions below. Onl
 
 Use when spend exists but the breakdown is unknown. Instrument first; optimize second.
 
-**Step 1 -- Instrument Every Request**
+1. **Instrument every request.** Log model, `input_tokens`, `cache_creation_input_tokens`, `cache_read_input_tokens`, `output_tokens`, latency, endpoint/feature, and calculated cost. Total input = all three input fields; `input_tokens` alone excludes cache traffic.
+2. **Find the 20% causing 80% of spend.** Sort by feature x model x tokens. Usually 2-3 endpoints dominate.
+3. **Place each hot path on the ladder.** Which rung is it on today? Run the calculator for the next rungs.
+4. **Classify requests by complexity** for routing (below).
 
-Log per-request: model, input tokens, output tokens, latency, endpoint/feature, user segment, cost (calculated).
-
-**Step 2 -- Find the 20% Causing 80% of Spend**
-
-Sort by: feature × model × token count. Usually 2–3 endpoints drive the majority of cost. Target those first.
-
-**Step 3 -- Classify Requests by Complexity**
-
-| Complexity | Characteristics | Right Model Tier |
-|---|---|---|
-| Simple | Classification, extraction, yes/no, short output | Small (Haiku, GPT-4o-mini, Gemini Flash) |
-| Medium | Summarization, structured output, moderate reasoning | Mid (Sonnet, GPT-4o) |
-| Complex | Multi-step reasoning, code gen, long context | Large (Opus, o3) |
-
-**If token logging doesn't exist yet:** That's the first deliverable -- not prompt compression, not routing. You cannot optimize what you cannot see. Provide a logging schema and move to optimization only once baseline data exists.
+**If token logging doesn't exist yet**, the logging schema is deliverable #1, but still run the calculator on code-derived estimates so the user sees the size of the prize.
 
 ---
 
 ## Mode 2: Optimize Existing System
 
-Apply techniques in ROI order. Don't skip ahead -- measure impact at each step before moving to the next.
+Apply in this order, measuring after each step:
 
-### 1. Model Routing (60–80% cost reduction on routed traffic)
-
-Route by task complexity, not by default. Use a lightweight classifier or rule engine.
-
-- **Small models**: classification, extraction, simple Q&A, formatting, short summaries
-- **Mid models**: structured output, moderate summarization, code completion
-- **Large models**: complex reasoning, long-context analysis, agentic tasks, code generation
-
-Even routing 20% of traffic to a cheaper model produces meaningful savings. Start there.
-
-### 2. Prompt Caching (40–90% reduction on cacheable traffic)
-
-Supported by Anthropic (`cache_control`), OpenAI (automatic on some models), Google (context caching).
-
-Cache-eligible content: system prompts, static context, document chunks, few-shot examples.
-
-Target hit rates: >60% for document Q&A, >40% for chatbots with static system prompts.
-
-**Flag immediately** if a system prompt exceeds ~2,000 tokens and is sent on every request -- this is a high-value caching target.
-
-### 3. Output Length Control (20–40% reduction)
-
-LLMs over-generate by default. Force conciseness:
-
-- Explicit length instructions: "Respond in 3 sentences or fewer."
-- Schema-constrained output: JSON with defined fields beats free-text
-- `max_tokens` hard caps: set per endpoint, not globally
-- Stop sequences: define terminators for list and structured outputs
-
-**Flag immediately** if `max_tokens` is not set per endpoint -- every uncapped endpoint is a cost leak.
-
-### 4. Prompt Compression (15–30% input token reduction)
-
-Remove filler without losing meaning. Audit each prompt for token efficiency.
-
-| Before | After |
-|---|---|
-| "Please carefully analyze the following text and provide..." | "Analyze:" |
-| "It is important that you remember to always..." | "Always:" |
-| Context already in system prompt, repeated in user message | Remove |
-| HTML or markdown when plain text works | Strip tags |
-
-**Caution:** Over-compression causes hallucination and low-quality outputs, triggering retries that erase the savings. Compress filler; preserve task-critical instructions.
-
-### 5. Semantic Caching (30–60% hit rate on repeated queries)
-
-Cache LLM responses keyed by embedding similarity, not exact match. Serve cached responses for semantically equivalent questions.
-
-Tools: GPTCache, LangChain cache, custom Redis + embedding lookup.
-
-Threshold guidance: cosine similarity >0.95 = safe to serve cached response.
-
-### 6. Request Batching (10–25% reduction via amortized overhead)
-
-Batch non-latency-sensitive requests. Process async queues off-peak.
+1. **Cost ladder (L2 -> L3 -> L4)** on every path with shared context. Biggest wins for document-heavy and scheduled work, and caching/batching never change answers.
+2. **Model routing (60-80% on routed traffic).** The ladder holds the model fixed; routing changes it. Small models for classification, extraction, and formatting; mid models for structured output and summarization; large models for multi-step reasoning, long-context analysis, and agentic work. Routing changes answers, so eval it. Then re-run the ladder on the new model; cache minimums and rates differ.
+3. **Output length control (20-40%).** Output costs 5x input on current Claude models. Set `max_tokens` per endpoint from measured p95, use schema-constrained output, and add stop sequences.
+4. **Prompt compression (15-30% of input).** Remove filler and duplicated context. Preserve task-critical instructions; over-compression causes retries that erase the savings.
+5. **Semantic response caching (30-60% hit rate on repeated queries).** Embedding-keyed response cache (cosine > 0.95). Unlike prompt caching, this can serve a stale or wrong answer, so scope it to stable FAQs.
 
 ---
 
 ## Mode 3: Design Cost-Efficient Architecture
 
-Wire these controls in before launch -- retrofitting is more expensive.
+Wire these in before launch:
 
-**Budget Envelopes** -- per feature, per user tier, per day. Set hard limits and soft alerts at 80% of limit.
-
-**Routing Layer** -- classify → route → call. Never call the large model by default.
-
-**Tier Your Model Access** -- free users do not need the most expensive model. Assign model tiers by user tier at design time.
-
-**Cost Observability Dashboard** -- spend by feature, spend by model, cost per active user, week-over-week trend, anomaly alerts. This is not optional; it is the monitoring foundation.
-
-**Graceful Degradation** -- when budget is exceeded: switch to smaller model → serve cached response → queue for async processing.
+- **Prompt layout for caching.** Stable content first, volatile last, breakpoint on the last stable block. Never put timestamps, user names, or request IDs in the system prompt.
+- **Sync vs async split.** Decide per feature whether a human is waiting. Everything else goes through the Batch API by default.
+- **Context budget per call.** A top-k and token cap for every retrieval or tool result, chosen from an eval, not from "more is safer".
+- **Budget envelopes** per feature, user tier, and day, with alerts at 80%.
+- **Routing layer.** Classify -> route -> call. Never call the large model by default.
+- **Cost observability.** Spend by feature and model, cache hit rate, batch share, cost per active user, and week-over-week trend.
+- **Graceful degradation** when a budget is hit: smaller model -> cached response -> async queue.
 
 ---
 
 ## Proactive Flags
 
-Surface these without being asked, regardless of which mode is active:
-
 | Signal | Action |
 |---|---|
-| No per-feature cost breakdown | Instrument logging before any other change |
-| All requests hitting one model | Model monoculture = #1 overspend pattern; initiate routing design |
-| System prompt >2,000 tokens, sent every request | Flag as high-value caching target |
-| `max_tokens` not set per endpoint | Flag as active cost leak |
-| No cost alerts configured | Spend spikes go undetected for days; set p95 cost-per-request alerts |
-| Free tier users consuming same model as paid | Tier model access by user tier |
+| Same docs/system prompt re-sent on every request with no `cache_control` | L3 target. Run the calculator and show the dollar delta |
+| Cron, scheduled task, nightly agent, eval, or backfill calling the sync API | L4 target. 50% off, usually stackable with L3 |
+| Whole files, full articles, or all chunks stuffed into context | L2 target. Measure what the answer uses |
+| `cache_control` on a block that varies per request | Writes every call, reads never. Move the breakpoint up to the last stable block |
+| Parallel cold requests expecting cache hits | Cache exists only after the first response starts. Send one, then fan out |
+| Batch jobs using the 5-minute TTL | Batches often run 5-60 min. Use the 1h TTL plus a warm-up request |
+| Shared prefix below the model's cache minimum | Caching silently no-ops (both cache usage fields read 0). Don't claim savings |
+| No per-feature cost breakdown | Instrument logging, including the cache usage fields |
+| All requests hitting one model | Initiate routing design |
+| `max_tokens` not set per endpoint | Active cost leak |
 
 ---
 
@@ -166,22 +131,21 @@ Surface these without being asked, regardless of which mode is active:
 
 | Situation | Response |
 |---|---|
-| No token logs exist | Stop. Logging schema is deliverable #1. Return once baseline data is available. |
-| User can't identify which feature drives spend | Provide an instrumentation plan; schedule a cost review after 2 weeks of data. |
-| Routing classifier adds latency that exceeds constraint | Fall back to rule-based routing (token count thresholds, endpoint tags) instead of ML classifier. |
-| Cache hit rate is below 20% | Diagnose: are prompts highly variable? Is context dynamic? Recommend semantic caching or rethink what's being cached. |
-| Prompt compression degrades quality | Restore compressed section. Flag the specific instruction as compression-resistant. |
+| No token logs exist | Ship the logging schema, and give calculator estimates from code-derived token counts, labeled as estimates |
+| Cache hit rate near 0 after enabling | Check: prefix below minimum; breakpoint on a varying block; tool/JSON key order changing (Go, Swift); thinking or effort settings changing between calls; requests spaced past the TTL |
+| Batch cache hit rate low | Warm one request with the 1h cache first, keep `cache_control` identical across requests, then submit the rest |
+| Trim degrades answers | Restore context in steps until the eval passes. Report the quality-bound trim size, not the cheapest one |
+| Routing classifier adds unacceptable latency | Fall back to rule-based routing (token thresholds, endpoint tags) |
+| Pricing table stale or model missing | Re-fetch the docs in `pricing.json` sources, update the file, and re-run before quoting |
 
 ---
 
 ## Handoff Triggers
 
-If the conversation shifts to one of these, pause and invoke the relevant skill rather than continuing inline:
-
-- **Prompt quality or effectiveness deteriorates** → invoke `senior-prompt-engineer`
-- **Retrieval pipeline design comes up** → invoke `rag-architect`
-- **Broader monitoring stack beyond cost metrics** → invoke `observability-designer`
-- **Latency profiling becomes the primary concern** → invoke `performance-profiler`
+- **Retrieval quality (chunking, embeddings, reranking) becomes the question** -> `rag-architect`
+- **Prompt quality or effectiveness deteriorates** -> `senior-prompt-engineer`
+- **Broader monitoring stack beyond cost metrics** -> `observability-designer`
+- **Latency profiling becomes the primary concern** -> `performance-profiler`
 
 ---
 
@@ -189,20 +153,20 @@ If the conversation shifts to one of these, pause and invoke the relevant skill 
 
 | Request | Deliverable |
 |---|---|
-| Cost audit | Per-feature spend breakdown, top 3 optimization targets, projected savings |
-| Model routing design | Routing decision tree with model recommendations per task type and estimated cost delta |
-| Caching strategy | What to cache, cache key design, expected hit rate, implementation pattern |
-| Prompt optimization | Token-by-token audit with compression suggestions and before/after token counts |
-| Architecture review | Cost-efficiency scorecard (0–100) with prioritized fixes and projected monthly savings |
+| Any optimization or audit | **Ladder table** from `cost_ladder.py` for each hot path: current rung, cost per run and per month at L1-L4, and which rungs are skipped and why |
+| Code changes | Concrete diffs per rung (trim cap, `cache_control` placement, batch submission + result handling), each tagged answer-neutral or needs-eval |
+| Cost audit | Per-feature spend breakdown, top 3 targets, projected savings |
+| Routing design | Decision tree with model per task type and cost delta |
+| Architecture review | Cost-efficiency scorecard (0-100) with prioritized fixes and projected monthly savings |
 
 ---
 
 ## Communication Standard
 
-- **Bottom line first** -- cost impact before explanation
-- **What + Why + How** -- every finding includes all three
-- **Actions have owners and deadlines** -- no vague "consider optimizing..."
-- **Confidence tagging** -- verified / medium / assumed
+- **Bottom line first** -- "$X/month -> $Y/month (Nx)", then the explanation.
+- **What + Why + How** for every finding.
+- **Confidence tagging** -- measured (from logs or `usage`) / calculated (calculator on code-derived token counts) / assumed (labeled guess).
+- **Name the rate date** -- every dollar figure carries the `pricing.json` retrieval date.
 
 ---
 
@@ -210,10 +174,12 @@ If the conversation shifts to one of these, pause and invoke the relevant skill 
 
 | Anti-Pattern | Why It Fails | Better Approach |
 |---|---|---|
-| Using the largest model for every request | 80%+ of requests are simple tasks a smaller model handles equally well, wasting 5–10x on cost | Implement a routing layer that classifies complexity and selects the cheapest adequate model |
-| Optimizing prompts without measuring first | You cannot know what to optimize without per-feature spend visibility | Instrument token logging and cost-per-request before any changes |
-| Caching by exact string match only | Minor phrasing differences cause cache misses on semantically identical queries | Use embedding-based semantic caching with a cosine similarity threshold |
-| Setting a single global max_tokens | Some endpoints need 2,000 tokens, others need 50 -- a global cap either wastes or truncates | Set max_tokens per endpoint based on measured p95 output length |
-| Ignoring system prompt size | A 3,000-token system prompt sent on every request is a hidden cost multiplier | Use prompt caching for static system prompts; strip unnecessary instructions |
-| Treating cost optimization as a one-time project | Model pricing changes, traffic patterns shift, new features launch -- costs drift | Set up continuous cost monitoring with weekly spend reports and anomaly alerts |
-| Compressing prompts to the point of ambiguity | Over-compressed prompts cause hallucination or low-quality output, requiring retries | Compress filler and redundant context; preserve all task-critical instructions |
+| Quoting cache savings from a flat "0.1x" rule | Read multipliers are model-specific (0.025x-0.1x); writes cost 1.25x (5m) or 2x (1h) | Price from the dated rate table via the calculator |
+| Calling batching a 10-25% "overhead" win | The Message Batches API is a flat 50% discount on every token, and it stacks with caching | Route every non-interactive job through the Batch API |
+| Caching a single request, or requests hours apart | Pays the write premium with nothing to re-read | Let the calculator decide; it skips caching when it doesn't pay |
+| Using the largest model for every request | 5-10x overspend on simple tasks | Route by complexity, then re-run the ladder |
+| Optimizing without measuring | You cannot know what to optimize | Instrument, or at least calculate from code |
+| Caching by exact string match on responses only | Phrasing variants miss | Semantic response cache, scoped to stable answers |
+| One global `max_tokens` | Wastes or truncates | Per-endpoint caps from measured p95 |
+| Treating cost work as one-time | Prices, traffic, and models drift | Weekly spend report, cache-hit and batch-share tracking, and re-run the ladder on model changes |
+| Trimming to the cheapest context without an eval | Saves tokens, loses answers, triggers retries | Trim to the smallest context that passes the eval |
