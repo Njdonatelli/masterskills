@@ -1,0 +1,7 @@
+- Upstream: https://github.com/anthropics/skills
+- Path: skills/mcp-builder
+- Commit: 2c5958e
+- License: Apache-2.0 (LICENSE.txt)
+- Imported: 2026-11-08
+- Local change: retired model IDs in scripts/evaluation.py and reference/evaluation.md replaced with claude-sonnet-5-5 (default) and claude-opus-5-5 (examples).
+- Review notes (2026-11-08): evaluation.py sends MCP tool output to the Anthropic API with ANTHROPIC_API_KEY. Example servers in reference/node_mcp_server.md bind to all interfaces without auth. Do not copy that part into a deployed server.

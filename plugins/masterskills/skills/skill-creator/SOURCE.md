@@ -1,0 +1,6 @@
+- Upstream: https://github.com/anthropics/skills
+- Path: skills/skill-creator
+- Commit: 2c5958e
+- License: Apache-2.0 (LICENSE.txt)
+- Imported: 2026-11-08
+- Review notes (2026-11-08): run_eval.py and improve_description.py call `claude -p` (about 60 calls per iteration, up to 5 iterations). run_eval.py writes a temporary command file under the nearest `.claude/commands/`. eval-viewer/generate_review.py stops any process on port 3117 before it starts its local server. SKILL.md tells the agent to write "pushy" descriptions. Keep descriptions short in this library: the listing budget is shared by every skill.

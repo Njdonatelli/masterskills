@@ -1,0 +1,6 @@
+- Upstream: https://github.com/vercel-labs/skills
+- Path: skills/find-skills
+- Commit: d3701c1
+- License: MIT (LICENSE)
+- Imported: 2026-11-08
+- Local change: Step 6 requires a security audit and owner approval before an install, and routes keepers into this repo.
