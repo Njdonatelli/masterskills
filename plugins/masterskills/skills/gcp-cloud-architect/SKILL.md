@@ -428,10 +428,6 @@ Provide these details for architecture design:
 
 | Skill | Relationship |
 |-------|-------------|
-| `engineering-team/aws-solution-architect` | AWS equivalent — same 6-step workflow, different services |
-| `engineering-team/azure-cloud-architect` | Azure equivalent — completes the cloud trifecta |
-| `engineering-team/senior-devops` | Broader DevOps scope — pipelines, monitoring, containerization |
-| `engineering/terraform-patterns` | IaC implementation — use for Terraform modules targeting GCP |
 | `engineering/ci-cd-pipeline-builder` | Pipeline construction — automates Cloud Build and deployment |
 
 ---

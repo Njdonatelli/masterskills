@@ -215,7 +215,6 @@ No telemetry. No cloud sync. Export to CSV anytime via `citation_tracker.py --ac
 ## Related Skills
 
 - `marketing-skill/skills/seo-audit` — traditional click-through SEO
-- `marketing-skill/skills/programmatic-seo` — template-driven SEO at scale
 - `marketing-skill/skills/content-strategy` — broader content planning
 - `marketing-skill/skills/copywriting` — voice + tone
 - `marketing-skill/skills/schema-markup` — structured data implementation

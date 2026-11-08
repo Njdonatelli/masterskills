@@ -416,22 +416,19 @@ To add a custom profile: copy `profiles/node-express.json` to `profiles/<your-or
 
 ## Composition map
 
-This skill does NOT reimplement scope owned by the POWERFUL-tier specialists. It forks into them. See `references/composition_map.md` for the full routing table. Key forks:
+This skill does NOT reimplement scope that a specialist skill owns. It hands that scope to the specialist. See `references/composition_map.md` for the full routing table. Key hand-offs:
 
-| Concern | Fork into |
+| Concern | Use skill |
 |---|---|
-| API contract / breaking-change risk | `engineering/skills/api-design-reviewer/` |
-| Schema design + ERD + indexing | `engineering/skills/database-designer/` |
-| Zero-downtime schema migration | `engineering/skills/migration-architect/` |
-| SLO + SLI + error-budget | `engineering/slo-architect/` |
-| Observability / golden signals | `engineering/skills/observability-designer/` |
-| CI/CD pipeline | `engineering/skills/ci-cd-pipeline-builder/` |
-| Security / threat model | `engineering-team/skills/senior-security/`, `adversarial-reviewer` |
-| Compliance evidence (HIPAA / ISO 27001) | `ra-qm-team/` |
-| Pre-commit Karpathy review | `engineering/karpathy-coder/` |
-| Pre-flight architecture grill | `engineering/grill-me/` |
-
-The `cs-backend-engineer` agent orchestrates these forks via `context: fork`. Invoke it from another agent with `Agent({subagent_type: "cs-backend-engineer", prompt: "..."})` or via `/cs:backend-review <your problem>`.
+| Schema design + ERD + indexing | `database-designer` |
+| Queries, ORM work, and migrations | `sql-database-assistant` |
+| MCP server design (tools for LLM agents) | `mcp-builder`; `mcp-server-builder` when an OpenAPI spec exists |
+| CI/CD pipeline | `ci-cd-pipeline-builder` |
+| Container build and hardening | `docker-development` |
+| API test suite + contract tests | `api-test-suite-builder` |
+| Security testing / hostile review | `security-pen-testing`, `adversarial-reviewer` |
+| Cloud hosting choice | `gcp-cloud-architect` |
+| Pre-flight architecture grill | `grill-me` |
 
 ---
 
@@ -459,10 +456,7 @@ Summary:
 
 ## Invocation from other agents and skills
 
-Three surfaces:
+Two surfaces:
 
-1. **Slash command:** `/cs:backend-review <prompt>` — full grill + decision engine + composition routing.
-2. **Agent subagent:** `Agent({subagent_type: "cs-backend-engineer", prompt: "..."})` — forks context, returns ≤ 200-word digest.
-3. **Direct tool call:** `python scripts/backend_decision_engine.py ...` — deterministic profile match when inputs are known.
-
-See `agents/engineering/cs-backend-engineer.md` for the full invocation contract.
+1. **Skill:** invoke `senior-backend` with the problem. It runs the grill, the decision engine, and the composition routing.
+2. **Direct tool call:** `python scripts/backend_decision_engine.py ...` — deterministic profile match when inputs are known.

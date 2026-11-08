@@ -1,7 +1,7 @@
 ---
 name: "page-cro"
 description: >-
-  When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why isn't this page working." For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.
+  When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why isn't this page working." For lead and contact forms, see form-cro.
 license: MIT
 metadata:
   version: 1.0.0
@@ -188,12 +188,8 @@ When recommending experiments, consider tests for:
 
 ## Related Skills
 
-- **signup-flow-cro** — WHEN: the page itself converts well but users drop off during the signup or registration process that follows it. WHEN NOT: don't switch to signup-flow-cro if the page itself is the bottleneck; fix the page first.
-- **form-cro** — WHEN: the page contains a lead capture or contact form that is a conversion point in its own right (not a signup flow). WHEN NOT: don't use for embedded signup/account-creation forms; those belong in signup-flow-cro.
-- **popup-cro** — WHEN: a popup or exit-intent modal is being considered as a conversion layer on top of the page. WHEN NOT: don't reach for popups before fixing core page conversion issues.
+- **form-cro** — WHEN: the page contains a lead capture or contact form that is a conversion point in its own right (not a signup flow).
 - **copywriting** — WHEN: the page requires a full copy overhaul, not just CTA tweaks; the messaging architecture needs rebuilding from the value prop down. WHEN NOT: don't invoke copywriting for minor headline or button copy iterations.
-- **ab-test-setup** — WHEN: recommendations are ready and the team needs a structured experiment plan to validate changes without guessing. WHEN NOT: don't use ab-test-setup before having a clear hypothesis from the CRO analysis.
-- **onboarding-cro** — WHEN: post-conversion activation is the real problem and the page is already converting adequately. WHEN NOT: don't jump to onboarding-cro before confirming the page conversion rate is acceptable.
 - **marketing-context** — WHEN: always read `.claude/product-marketing-context.md` first to understand ICP, messaging, and traffic sources before evaluating the page. WHEN NOT: skip if the user has shared all relevant context directly.
 
 ---
@@ -218,7 +214,7 @@ Automatically surface page-cro recommendations when:
 2. **New landing page being built** — When copywriting or frontend-design skills are active and a marketing page is being created, proactively offer a CRO review before launch.
 3. **Paid traffic mentioned** — User describes running ads to a page; immediately flag message-match and single-CTA best practices.
 4. **Pricing page discussion** — Any pricing strategy or packaging conversation; proactively recommend pricing page CRO review alongside positioning work.
-5. **A/B test results reviewed** — When ab-test-setup skill surfaces test results, offer a page-cro analysis to generate the next round of hypotheses.
+5. **A/B test results reviewed** — When `statistical-analyst` reports test results, offer a page-cro analysis to generate the next round of hypotheses.
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 name: company-dossier
 description: >-
- — Produces decision-grade research dossiers on companies and executives with verification signals and red flags.
+ Produces decision-grade research dossiers on companies and executives with verification signals and red flags.
 license: MIT
 metadata:
- — source_spec: "megaprompts/12-dossier-megaprompt.md"
- — build_pattern: "Path B (direct conversion)"
- — research_pack_convention: "Agent Integrity Rules verbatim per PR #657 audit; hypothesis-testing variant"
- — version: 1.0.0
+  source_spec: "megaprompts/12-dossier-megaprompt.md"
+  build_pattern: "Path B (direct conversion)"
+  research_pack_convention: "Agent Integrity Rules verbatim per PR #657 audit; hypothesis-testing variant"
+  version: 1.0.0
 ---
 
 # Dossier — Decision-Grade Entity Research

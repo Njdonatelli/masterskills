@@ -23,7 +23,7 @@ Source: https://atlas.mitre.org/
 | AML.T0018 | Backdoor ML Model | Persistence | Partial — data_poisoning_marker + poisoning risk | Training data audit; behavioral testing for trigger inputs |
 | AML.T0019 | Publish Poisoned Datasets | Resource Development | Not covered — upstream supply chain only | Dataset provenance tracking |
 | AML.T0040 | ML Model Inference API Access | Collection | Not covered — requires API log analysis | Monitor inference API for high-volume systematic queries |
-| AML.T0012 | Valid Accounts — ML Service | Initial Access | Not covered — covered by cloud-security skill | IAM misconfiguration detection (delegate to cloud-security) |
+| AML.T0012 | Valid Accounts — ML Service | Initial Access | Not covered | IAM misconfiguration detection is out of scope for this skill |
 
 ---
 
@@ -144,7 +144,7 @@ The following ATLAS techniques are not currently covered by ai_threat_scanner.py
 | ATLAS ID | Technique | Coverage Gap | Recommended Assessment |
 |---------|-----------|-------------|----------------------|
 | AML.T0005 | Create Proxy ML Model | No API log analysis | Monitor inference API for high-volume systematic queries; compare query patterns to model stealing signatures |
-| AML.T0012 | Valid Accounts — ML Service | Covered by cloud-security | Use cloud_posture_check.py --check iam to assess API key access controls |
+| AML.T0012 | Valid Accounts — ML Service | Not covered | Review API key access controls in the cloud console by hand |
 | AML.T0016 | Acquire Public ML Artifacts | No artifact scanning | Verify model checksums against official sources; track model provenance |
 | AML.T0019 | Publish Poisoned Datasets | No dataset scanning | Implement dataset provenance tracking; verify against known-good checksums |
 | AML.T0040 | ML Inference API Access | No API log analysis | Implement API rate limiting and usage anomaly detection |

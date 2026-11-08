@@ -78,7 +78,7 @@ Look for: a feature/layer/check added without naming the specific failure it pre
 
 ### Corrective move
 
-Per layer: "What specific failure does this prevent? What goes wrong if we drop it?" If answer is vague, drop it. The Karpathy-coder discipline in this repo (`engineering/karpathy-coder/`) is this corrective formalized.
+Per layer: "What specific failure does this prevent? What goes wrong if we drop it?" If answer is vague, drop it.
 
 ## 5. Recency Bias
 

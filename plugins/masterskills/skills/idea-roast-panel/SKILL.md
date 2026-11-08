@@ -1,13 +1,13 @@
 ---
 name: idea-roast-panel
 description: >-
- — Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, "convene the panel", get a brutal second opinion before building something, or says "/roast". Spins up a 5-angle panel (Critic, Champion, Analyst, Investigator, Customer) that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.
+ Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, "convene the panel", get a brutal second opinion before building something, or says "/roast". Spins up a 5-angle panel (Critic, Champion, Analyst, Investigator, Customer) that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.
 argument-hint: "[the idea to roast]"
 license: MIT
 metadata:
- — version: 1.0.0
- — build_pattern: "Path-B persona skill — adversarial panel + deterministic verdict tools"
- — distinct_from: "andreessen (single market-first lens, not a panel); c-level boardroom (enterprise C-suite pipeline requiring company-context onboarding); grill-me (interrogates, no verdict)"
+  version: 1.0.0
+  build_pattern: "Path-B persona skill — adversarial panel + deterministic verdict tools"
+  distinct_from: "pre-mortem-challenge (one failure-backward lens, not a panel); grill-me (interrogates, no verdict)"
 ---
 
 # Roast — 5-Angle Idea Panel → One Verdict
@@ -161,8 +161,6 @@ Then list the five panel scores in one line: `Critic X/10 · Champion X/10 · An
 
 ## Distinct From (don't reach for the wrong tool)
 
-- **`productivity/andreessen`** — a single market-first operator. `roast` is five independent lenses → a judge. Use andreessen when you specifically want the market-dominates thesis; use roast when you want 360° coverage.
-- **`c-level-advisor` boardroom / `/cs:boardroom`** — an enterprise C-suite pipeline that needs `company-context.md` onboarding and outputs a board memo. `roast` is a zero-setup, solo-founder, 90-second gut check.
 - **`engineering/grill-me`** — interrogates a plan one question at a time to reach shared understanding. It does not issue a GO/KILL verdict. Roast judges; grill-me clarifies.
 
 ---

@@ -1,6 +1,7 @@
 ---
 name: vector-design
-description: Vector graphics design tool - create SVG logos, mascots, icons with render-critique-export loop. Write SVG directly, render previews, get automated critique, export to print-ready PDF. Trigger: /vector [command] or describe any vector graphics task (logo, mascot, icon, poster, etc.)
+description: >-
+  Vector graphics design tool - create SVG logos, mascots, icons with render-critique-export loop. Write SVG directly, render previews, get automated critique, export to print-ready PDF. Trigger: /vector [command] or describe any vector graphics task (logo, mascot, icon, poster, etc.)
 ---
 
 # vector-design

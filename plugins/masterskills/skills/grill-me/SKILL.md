@@ -13,7 +13,7 @@ metadata:
 
 # Grill Me
 
-> Derived from [Matt Pocock's grill-me](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) (MIT). Matt's interview discipline preserved verbatim. Additions: extraction + question + session tools + references + cs-* wrapper (see [references/companion_tooling.md](references/companion_tooling.md)).
+> Derived from [Matt Pocock's grill-me](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) (MIT). Matt's interview discipline preserved verbatim. Additions: extraction + question + session tools + references (see [references/companion_tooling.md](references/companion_tooling.md)).
 
 Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
 
@@ -51,7 +51,7 @@ Recommended answer: [your call + 1-sentence rationale]
 
 ## Tooling
 
-See [references/companion_tooling.md](references/companion_tooling.md). Tools: extractor + generator + tracker. Agent: `cs-grill-master`. Command: `/cs:grill-me`.
+See [references/companion_tooling.md](references/companion_tooling.md). Tools: extractor + generator + tracker.
 
 ---
 

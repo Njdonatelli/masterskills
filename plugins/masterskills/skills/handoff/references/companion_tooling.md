@@ -23,14 +23,6 @@ Matt's SKILL.md specifies:
 
 `handoff_template_generator.py --mktemp` honors this — uses `tempfile.mkstemp(prefix="handoff-", suffix=".md")` under the hood, returns the path so the caller can read-verify before writing the final content.
 
-## cs-handoff-author Persona Agent
-
-Lives at `../agents/cs-handoff-author.md`. Voice: continuity-focused, no-duplication-tolerated. The persona's hard rule: **if you find yourself typing content from a PRD/plan/ADR/issue, stop and replace with a reference**.
-
-## `/cs:handoff` Slash Command
-
-Lives at `../commands/cs-handoff.md`. Single-trigger handoff with argument hint per Matt's convention: `/cs:handoff <what-next-session-is-for>`.
-
 ## Why Wrap Matt's Original
 
 Matt's handoff skill is intentionally minimal (1 paragraph). The wrapper adds:

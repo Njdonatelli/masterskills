@@ -1,7 +1,7 @@
 ---
 name: "form-cro"
 description: >-
-  When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fields," "form completion rate," or "contact form." For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.
+  When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fields," "form completion rate," or "contact form."
 license: MIT
 metadata:
   version: 1.0.0
@@ -176,10 +176,7 @@ Ideas to A/B test with expected outcomes
 
 ## Related Skills
 
-- **signup-flow-cro** — WHEN: the form being optimized is an account creation or trial registration form specifically. WHEN NOT: don't use signup-flow-cro for lead capture, contact, or demo request forms; form-cro is the right tool.
-- **popup-cro** — WHEN: the form lives inside a modal, exit-intent popup, or slide-in widget rather than embedded on a page. WHEN NOT: don't use popup-cro for standalone page-embedded forms.
 - **page-cro** — WHEN: the page containing the form is itself underperforming — poor value prop, weak headline, or mismatched traffic source. Fix the page context before or alongside the form. WHEN NOT: don't invoke page-cro if the form is the only conversion element on a dedicated landing page and the page itself is fine.
-- **ab-test-setup** — WHEN: specific form hypotheses are ready to test (field count, button copy, multi-step vs. single-step). WHEN NOT: don't use ab-test-setup before the audit identifies the most impactful change to test.
 - **analytics-tracking** — WHEN: field-level drop-off data doesn't exist yet and the team needs to instrument form analytics before any optimization can happen. WHEN NOT: skip if analytics are already in place.
 - **marketing-context** — WHEN: check `.claude/product-marketing-context.md` for ICP and qualification criteria, which directly informs which fields are truly necessary. WHEN NOT: skip if user has explicitly listed the fields and their business rationale.
 

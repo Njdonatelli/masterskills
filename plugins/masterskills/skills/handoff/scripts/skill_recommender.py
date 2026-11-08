@@ -6,20 +6,15 @@ skills in this repo. Output: ranked recommendations with rationale.
 
 Signal-to-skill mapping (a representative subset; see references for full taxonomy):
 
-  - "write a skill" / "new skill" / "skill author"   -> write-a-skill
-  - "less tokens" / "be brief" / "caveman"           -> caveman
+  - "write a skill" / "new skill" / "skill author"   -> skill-creator
+  - "less tokens" / "be brief" / "caveman"           -> caveman (caveman plugin)
   - "grill" / "stress-test" / "decision tree"        -> grill-me
-  - "test" / "TDD" / "unit test"                     -> tdd-guide
-  - "RICE" / "prioritize" / "feature score"          -> rice-prioritizer
-  - "user story" / "INVEST"                          -> user-story-writer
-  - "code quality" / "refactor" / "complexity"       -> karpathy-coder
+  - "test" / "TDD" / "unit test"                     -> test-driven-development (superpowers plugin)
+  - "code quality" / "refactor" / "complexity"       -> improve-codebase-architecture
   - "CI" / "ship gate" / "pre-flight"                -> ship-gate
-  - "audit" / "compliance" / "ISO" / "GDPR"          -> compliance-os
-  - "SLO" / "error budget" / "burn rate"             -> slo-architect
-  - "feature flag" / "kill switch" / "rollout"       -> feature-flags-architect
-  - "incident" / "postmortem"                        -> incident-response
-  - "security" / "OWASP" / "threat"                  -> ai-security / threat-detection
-  - "research" / "citations" / "sources"             -> autoresearch-agent
+  - "bug" / "root cause" / "debug"                   -> diagnosing-bugs
+  - "security" / "OWASP" / "prompt injection"        -> ai-security
+  - "research" / "citations" / "sources"             -> deep-research
 
 NO LLM CALLS. Pattern-match recommender.
 
@@ -39,47 +34,32 @@ from typing import Any, Dict, List, Tuple
 # (keyword pattern, skill name, rationale template)
 SKILL_SIGNALS: List[Tuple[re.Pattern, str, str]] = [
     (re.compile(r"\b(write|create|author|build)\s+(a\s+)?skill\b", re.IGNORECASE),
-     "write-a-skill",
-     "Next session involves authoring a new skill; the write-a-skill skill applies Matt Pocock's 3-phase workflow + validates against the 6-item checklist."),
+     "skill-creator",
+     "Next session involves authoring a new skill; skill-creator drafts the skill, runs evals, and tunes the description."),
     (re.compile(r"\b(caveman|less\s+tokens|be\s+brief|compress)\b", re.IGNORECASE),
      "caveman",
-     "Next session benefits from token-compressed responses; caveman applies Matt's compression rules deterministically."),
+     "Next session benefits from token-compressed responses; the caveman plugin applies compression rules."),
     (re.compile(r"\b(grill|stress[-\s]?test|interrog|decision\s+tree)\b", re.IGNORECASE),
      "grill-me",
      "Next session involves stress-testing a plan; grill-me walks decision branches one-at-a-time with forcing questions."),
     (re.compile(r"\b(TDD|unit\s+test|test\s+driven)\b", re.IGNORECASE),
-     "tdd-guide",
-     "Next session involves testing; tdd-guide enforces test-first discipline."),
-    (re.compile(r"\b(RICE|prioritiz|feature\s+score)\b", re.IGNORECASE),
-     "rice-prioritizer",
-     "Next session involves feature prioritization; rice-prioritizer computes Reach × Impact × Confidence ÷ Effort."),
-    (re.compile(r"\b(user\s+stor|INVEST)\b", re.IGNORECASE),
-     "user-story-writer",
-     "Next session involves user stories; user-story-writer applies INVEST + Gherkin acceptance criteria."),
+     "test-driven-development",
+     "Next session involves testing; the superpowers test-driven-development skill enforces test-first discipline."),
     (re.compile(r"\b(karpathy|complexity|refactor|code\s+quality)\b", re.IGNORECASE),
-     "karpathy-coder",
-     "Next session involves code-quality discipline; karpathy-coder runs complexity_checker + assumption_linter + diff_surgeon."),
+     "improve-codebase-architecture",
+     "Next session involves code-quality or refactor work; improve-codebase-architecture finds deepening opportunities."),
     (re.compile(r"\b(ship\s+gate|pre[-\s]?flight|production\s+ready)\b", re.IGNORECASE),
      "ship-gate",
      "Next session involves pre-production audit; ship-gate runs 89 checks across 8 categories."),
-    (re.compile(r"\b(ISO\s+13485|ISO\s+27001|GDPR|HIPAA|MDR|FDA|compliance|audit)\b", re.IGNORECASE),
-     "compliance-os",
-     "Next session involves regulatory/compliance work; compliance-os covers 12 frameworks with mock audit scenarios."),
-    (re.compile(r"\b(SLO|error\s+budget|burn\s+rate)\b", re.IGNORECASE),
-     "slo-architect",
-     "Next session involves SLO/SLI/error-budget work; slo-architect applies Google SRE Workbook discipline."),
-    (re.compile(r"\b(feature\s+flag|kill\s+switch|gradual\s+rollout|canary)\b", re.IGNORECASE),
-     "feature-flags-architect",
-     "Next session involves feature-flag work; feature-flags-architect scans flag debt + rollout plans."),
-    (re.compile(r"\b(incident|postmortem|outage|root\s+cause)\b", re.IGNORECASE),
-     "incident-response",
-     "Next session involves incident response or postmortem; incident-response provides templates + analysis tools."),
+    (re.compile(r"\b(bug|root\s+cause|debug|regression)\b", re.IGNORECASE),
+     "diagnosing-bugs",
+     "Next session involves a defect; diagnosing-bugs runs a reproduce-isolate-fix loop."),
     (re.compile(r"\b(AI\s+security|prompt\s+inject|threat\s+model|OWASP)\b", re.IGNORECASE),
      "ai-security",
      "Next session involves AI security or threat work; ai-security covers prompt injection + model threats."),
     (re.compile(r"\b(research|citation|authoritative\s+source|deep\s+research)\b", re.IGNORECASE),
-     "autoresearch-agent",
-     "Next session needs citation-backed research; autoresearch-agent produces deep-research reports."),
+     "deep-research",
+     "Next session needs citation-backed research; deep-research triangulates claims across sources."),
     (re.compile(r"\b(handoff|next\s+session|continue\s+the\s+work)\b", re.IGNORECASE),
      "handoff",
      "Next session may need to be handed off again; handoff produces continuity docs."),

@@ -1,7 +1,7 @@
 ---
 name: "seo-audit"
 description: >-
-  When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.
+  When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For adding structured data, see schema-markup.
 license: MIT
 metadata:
   version: 1.0.0
@@ -129,7 +129,6 @@ Same format as above
 
 ## Related Skills
 
-- **programmatic-seo** — WHEN: user wants to build SEO pages at scale after the audit identifies keyword gaps. WHEN NOT: don't use for diagnosing existing issues; stay in seo-audit mode.
 - **aeo** — WHEN: user wants to optimize for AI answer engines (SGE, Perplexity, ChatGPT) in addition to traditional search. WHEN NOT: don't use for purely technical crawl/indexation issues.
 - **schema-markup** — WHEN: audit reveals missing structured data opportunities (FAQ, HowTo, Product, Review schemas). WHEN NOT: don't use as a standalone fix when core technical SEO is broken.
 - **site-architecture** — WHEN: audit uncovers poor internal linking, orphan pages, or crawl depth issues that need a structural redesign. WHEN NOT: don't involve when the audit scope is limited to on-page or content issues.

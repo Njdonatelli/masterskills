@@ -23,22 +23,6 @@ All three:
 - Audit which decisions were resolved when
 - Generate a "decisions locked" summary at end
 
-## cs-grill-master Persona Agent
-
-Lives at `../agents/cs-grill-master.md`. Voice: relentless, one-question-at-a-time, codebase-exploration-first.
-
-The persona's hard rule: **never bundle questions**. Even when there are 10 obvious follow-ups, ask one, wait for answer, then ask the next.
-
-## `/cs:grill-me` Slash Command
-
-Lives at `../commands/cs-grill-me.md`. Activation pattern:
-
-1. `/cs:grill-me <path-to-plan>` — start grill session on plan doc
-2. Persona asks Q1 with recommended answer
-3. User answers
-4. Persona asks Q2
-5. ...continues until all branches resolved
-
 ## Why Wrap Matt's Original
 
 Matt's grill-me skill is intentionally minimal (3 sentences). The wrapper adds:

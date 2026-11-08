@@ -70,7 +70,7 @@ class Inputs:
         if self.data_sensitivity in ("phi", "pci") and self.team_size < 4:
             kills.append(
                 f"data sensitivity {self.data_sensitivity!r} with team size {self.team_size}: regulated workloads "
-                "require named compliance owner + DBA + security review. Escalate to ra-qm-team or cs-ciso-advisor."
+                "require named compliance owner + DBA + security review. Escalate to a named compliance owner."
             )
         # QPS realism
         if self.qps_p99 > 5000 and self.pattern_preference == "modular-monolith":
@@ -266,7 +266,7 @@ def render_markdown(inputs: Inputs, matches: list[Match], kills: list[str]) -> s
         L.append("")
     L.append("---")
     L.append("")
-    L.append("BEFORE locking: fork into `slo-architect` to formalize the SLO, and `api-design-reviewer` to validate the API contract.")
+    L.append("BEFORE locking: write the SLO down, and run `adversarial-reviewer` on the API contract.")
     return "\n".join(L)
 
 

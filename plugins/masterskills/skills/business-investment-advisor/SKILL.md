@@ -212,10 +212,3 @@ For every investment analysis:
 | Comparing options over different time horizons | A 2-year lease vs. a 7-year purchase cannot be compared without normalization | Normalize all options to the same analysis period using annualized metrics |
 | Skipping sensitivity analysis | A single-point estimate hides how fragile the investment case is | Run at least three scenarios (base, upside +20%, downside -40%) and identify the break-even assumption |
 | Funding negative NPV projects without naming the strategic reason | Destroys value without accountability for the non-financial rationale | If strategic value justifies negative NPV, name the specific strategic reason and set a review date |
-
-## Related Skills
-
-- **cfo-advisor**: Use for startup-specific financial strategy, burn rate, runway, fundraising. NOT for individual investment ROI analysis.
-- **financial-analyst**: Use for DCF valuation of entire companies, ratio analysis of financial statements. NOT for single capital expenditure decisions.
-- **saas-metrics-coach**: Use for SaaS-specific unit economics (CAC, LTV, churn). NOT for equipment or real estate investments.
-- **ceo-advisor**: Use for strategic direction and capital allocation across the entire business. NOT for individual investment math.

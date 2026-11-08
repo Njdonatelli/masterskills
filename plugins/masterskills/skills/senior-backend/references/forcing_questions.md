@@ -48,7 +48,7 @@ These seven questions gate every meaningful backend decision: pattern pick (mono
 
 **Why it matters:** data sensitivity changes the floor of every other decision. PHI + a single shared-tenant Postgres + no audit logging = enforcement risk. PCI in scope + handing card data to a startup-built API = avoidable scope. Stripe / Plaid / Auth0 exist specifically to remove scope.
 
-**Kill criterion:** PHI or PCI in scope + no named compliance owner + no encryption-at-rest plan — STOP. Bring in `ra-qm-team` skill (HIPAA / FDA) or escalate to `cs-ciso-advisor`.
+**Kill criterion:** PHI or PCI in scope + no named compliance owner + no encryption-at-rest plan — STOP. Bring in a named compliance owner before you continue. This library has no HIPAA or PCI skill.
 
 **Canon:** HIPAA Security Rule (45 CFR § 164); PCI-DSS v4.0 (2024); GDPR Articles 5, 25, 32 (EU 2016/679); NIST SP 800-53 rev. 5 (security controls); CISA *Secure by Design* guidance (2023+).
 
@@ -82,7 +82,7 @@ These seven questions gate every meaningful backend decision: pattern pick (mono
 
 **Recommended answer:** an SLO tied to a measurable SLI (e.g., "99.9% of requests succeed in < 500ms over rolling 30 days"), AND a named team that consumes the error budget (e.g., "engineering — when budget is < 25% remaining, feature work halts and reliability work starts").
 
-**Why it matters:** without a named SLO consumer, the error budget is rhetorical. Without a measurable SLO, "reliability" is a vibe. Google's SRE program is built around this loop: SLI → SLO → error budget → budget consumer. Fork into `slo-architect` to formalize the design.
+**Why it matters:** without a named SLO consumer, the error budget is rhetorical. Without a measurable SLO, "reliability" is a vibe. Google's SRE program is built around this loop: SLI → SLO → error budget → budget consumer. Write the SLO down before you design for scale.
 
 **Kill criterion:** "we want high availability" with no SLO number AND no budget consumer — STOP. Pick a number (99%, 99.5%, 99.9%, 99.99%) and the consumer (engineering, product, executive). No SLO = no error budget = no reliability work prioritization.
 

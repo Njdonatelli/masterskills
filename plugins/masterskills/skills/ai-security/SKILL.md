@@ -6,7 +6,7 @@ description: >-
 
 # AI Security
 
-AI and LLM security assessment skill for detecting prompt injection, jailbreak vulnerabilities, model inversion risk, data poisoning exposure, and agent tool abuse. This is NOT general application security (see security-pen-testing) or behavioral anomaly detection in infrastructure (see threat-detection) — this is about security assessment of AI/ML systems and LLM-based agents specifically.
+AI and LLM security assessment skill for detecting prompt injection, jailbreak vulnerabilities, model inversion risk, data poisoning exposure, and agent tool abuse. This is NOT general application security (see security-pen-testing) or behavioral anomaly detection in infrastructure — this is about security assessment of AI/ML systems and LLM-based agents specifically.
 
 ---
 
@@ -39,8 +39,6 @@ This skill provides the methodology and tooling for **AI/ML security assessment*
 |-------|-------|----------|
 | **ai-security** (this) | AI/ML system security | Specialized — LLM injection, model inversion, ATLAS mapping |
 | security-pen-testing | Application vulnerabilities | General — OWASP Top 10, API security, dependency scanning |
-| red-team | Adversary simulation | Offensive — kill-chain planning against infrastructure |
-| threat-detection | Behavioral anomalies | Proactive — hunting in telemetry, not model inputs |
 
 ### Prerequisites
 
@@ -359,7 +357,4 @@ fi
 
 | Skill | Relationship |
 |-------|-------------|
-| [threat-detection](../threat-detection/SKILL.md) | Anomaly detection in LLM inference API logs can surface model inversion attacks and systematic prompt injection probing |
-| [incident-response](../incident-response/SKILL.md) | Confirmed prompt injection exploitation or data extraction from a model should be classified as a security incident |
-| [cloud-security](../cloud-security/SKILL.md) | LLM API keys and model endpoints are cloud resources — IAM misconfiguration enables unauthorized model access (AML.T0012) |
 | [security-pen-testing](../security-pen-testing/SKILL.md) | Application-layer security testing covers the web interface and API layer; ai-security covers the model and agent layer |

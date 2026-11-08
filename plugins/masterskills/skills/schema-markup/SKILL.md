@@ -231,4 +231,3 @@ All output follows the structured communication standard:
 - **seo-audit**: For full technical and content SEO audit. Use seo-audit when the problem spans more than just structured data. NOT for schema-specific work — use schema-markup.
 - **site-architecture**: For URL structure, internal linking, and navigation. Use when architecture is the root cause of SEO problems, not schema.
 - **content-strategy**: For what content to create. Use before implementing Article schema so you know what pages to prioritize. NOT for the schema itself.
-- **programmatic-seo**: For sites with thousands of pages that need schema at scale. Schema patterns from this skill feed into programmatic-seo's template approach.

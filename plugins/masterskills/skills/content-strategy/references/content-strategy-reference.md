@@ -79,7 +79,7 @@ Structure: Challenge → Solution → Results → Key learnings
 **Meta Content**
 Behind-the-scenes transparency. "How We Got Our First $5k MRR," "Why We Chose Debt Over VC."
 
-For programmatic content at scale, see **programmatic-seo** skill.
+Programmatic content at scale is out of scope for this skill.
 
 ---
 

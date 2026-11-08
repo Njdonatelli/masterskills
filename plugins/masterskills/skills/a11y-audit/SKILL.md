@@ -184,11 +184,7 @@ Options:
 | Skill | Relationship |
 |-------|-------------|
 | **senior-frontend** | Frontend patterns used in a11y fixes |
-| **code-reviewer** | Include a11y checks in code review workflows |
-| **senior-qa** | Integration of a11y testing into QA processes |
-| **playwright-pro** | Automated browser testing with accessibility assertions |
-| **epic-design** | WCAG 2.1 AA compliant animations and scroll storytelling |
-| **tdd-guide** | Test-driven development patterns for a11y test cases |
+| **pw** | Automated browser testing with accessibility assertions |
 
 ## Reference Documentation
 

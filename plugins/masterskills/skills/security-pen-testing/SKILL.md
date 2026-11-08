@@ -6,7 +6,7 @@ description: >-
 
 # Security Penetration Testing
 
-Hands-on offensive security testing skill for finding vulnerabilities before attackers do. This is NOT compliance checking (see senior-secops) or security policy writing (see senior-security) — this is about systematic vulnerability discovery through authorized testing.
+Hands-on offensive security testing skill for finding vulnerabilities before attackers do. This is NOT compliance checking or security policy writing — this is about systematic vulnerability discovery through authorized testing.
 
 ---
 
@@ -39,8 +39,6 @@ This skill provides the methodology, checklists, and automation for **offensive 
 | Skill | Focus | Approach |
 |-------|-------|----------|
 | **security-pen-testing** (this) | Finding vulnerabilities | Offensive — simulate attacker techniques |
-| senior-secops | Security operations | Defensive — monitoring, incident response, SIEM |
-| senior-security | Security policy | Governance — policies, frameworks, risk registers |
 | skill-security-auditor | CI/CD gates | Automated — pre-merge security checks |
 
 ### Prerequisites
@@ -301,7 +299,5 @@ Automated security checks on every PR: secret scanning (TruffleHog), dependency 
 
 | Skill | Relationship |
 |-------|-------------|
-| [senior-secops](../senior-secops/SKILL.md) | Defensive security operations — monitoring, incident response, SIEM configuration |
-| [senior-security](../senior-security/SKILL.md) | Security policy and governance — frameworks, risk registers, compliance |
-| [dependency-auditor](engineering/skills/dependency-auditor/SKILL.md) | Deep supply chain security — SBOMs, license compliance, transitive risk |
-| [code-reviewer](../code-reviewer/SKILL.md) | Code review practices — includes security review checklist |
+| [dependency-auditor](../dependency-auditor/SKILL.md) | Deep supply chain security — SBOMs, license compliance, transitive risk |
+| [adversarial-reviewer](../adversarial-reviewer/SKILL.md) | Hostile review of a diff — includes a security reviewer persona |

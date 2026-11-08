@@ -202,16 +202,11 @@ Structure all audit reports as:
 
 | Skill | Use When |
 |---|---|
-| `finance/financial-analyst` | Data involves financial statements or accounting figures |
-| `finance/saas-metrics-coach` | Data is subscription/event data feeding SaaS KPIs |
 | `engineering/database-designer` | Issues trace back to schema design or normalization |
-| `engineering/tech-debt-tracker` | Data quality issues are systemic and need to be tracked as tech debt |
-| `product-team/product-analytics` | Auditing product event data (funnels, sessions, retention) |
 
 **When NOT to use this skill:**
 - You need to design or optimize the database schema — use `engineering/database-designer`
 - You need to build the ETL pipeline itself — use an engineering skill
-- The dataset is a financial model output — use `finance/financial-analyst` for model validation
 
 ---
 

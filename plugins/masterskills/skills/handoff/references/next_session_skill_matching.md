@@ -18,20 +18,15 @@ The recommender matches handoff content keywords to skills. Full mapping:
 
 | Handoff signal | Recommended skill | Why |
 |---|---|---|
-| "write a skill", "new skill", "author" | `write-a-skill` | Matt's skill-author workflow + 6-item checklist |
-| "less tokens", "be brief", "caveman", "compress" | `caveman` | Token-compressed responses |
+| "write a skill", "new skill", "author" | `skill-creator` | Skill drafting, evals, and description tuning |
+| "less tokens", "be brief", "caveman", "compress" | `caveman` (caveman plugin) | Token-compressed responses |
 | "grill", "stress-test", "interrogate", "decision tree" | `grill-me` | Plan interrogation |
-| "TDD", "unit test", "test driven" | `tdd-guide` | Test-first discipline |
-| "RICE", "prioritize", "feature score" | `rice-prioritizer` | Feature prioritization formula |
-| "user story", "INVEST" | `user-story-writer` | INVEST + Gherkin acceptance criteria |
-| "karpathy", "complexity", "refactor", "code quality" | `karpathy-coder` | complexity_checker + assumption_linter + diff_surgeon |
+| "TDD", "unit test", "test driven" | `test-driven-development` (superpowers plugin) | Test-first discipline |
+| "karpathy", "complexity", "refactor", "code quality" | `improve-codebase-architecture` | Deepening opportunities and module design |
 | "ship gate", "pre-flight", "production ready" | `ship-gate` | 89-check pre-production audit |
-| "ISO", "GDPR", "HIPAA", "MDR", "FDA", "compliance" | `compliance-os` | 12 regulatory frameworks |
-| "SLO", "error budget", "burn rate" | `slo-architect` | Google SRE Workbook discipline |
-| "feature flag", "kill switch", "canary" | `feature-flags-architect` | Flag debt + rollout patterns |
-| "incident", "postmortem", "outage" | `incident-response` | Incident templates + analysis |
-| "AI security", "prompt inject", "OWASP" | `ai-security`, `threat-detection` | AI threat work |
-| "research", "citation", "deep research" | `autoresearch-agent` | Citation-backed research |
+| "bug", "root cause", "debug", "regression" | `diagnosing-bugs` | Reproduce, isolate, fix |
+| "AI security", "prompt inject", "OWASP" | `ai-security` | AI threat work |
+| "research", "citation", "deep research" | `deep-research` | Citation-backed research |
 | "handoff", "next session", "continue" | `handoff` | Continuity for the next-next session |
 
 ## Why Pattern-Match (Not LLM)
@@ -66,7 +61,7 @@ The recommender's failure modes:
 
 1. **Over-recommendation:** matches on tangential mentions. Fix: re-read recommendations + drop irrelevant ones.
 2. **Under-recommendation:** skill is needed but no keywords trigger it. Fix: add skill manually + add the missing pattern to `SKILL_SIGNALS` for future runs.
-3. **Same-keyword multiple skills:** "security" could mean ai-security OR cloud-security OR threat-detection. Recommender shows all; user picks.
+3. **Same-keyword multiple skills:** "security" could mean ai-security OR security-pen-testing. Recommender shows all; user picks.
 
 ## Adding New Skills to the Recommender
 
@@ -88,8 +83,8 @@ Output format the recommender produces (matches the handoff template):
 ```markdown
 ## Skills to use (next session)
 
-- `karpathy-coder` (3 matches: complexity, refactor, karpathy) — code-quality validation before PR
-- `write-a-skill` (2 matches: skill, author) — SKILL.md validation against 6-item checklist
+- `improve-codebase-architecture` (3 matches: complexity, refactor, karpathy) — code-quality work before PR
+- `skill-creator` (2 matches: skill, author) — SKILL.md drafting and evals
 - `caveman` (1 match: brief) — token-compressed responses
 ```
 
@@ -98,7 +93,7 @@ Each line: skill name, match count + keywords, rationale.
 ## Anti-Patterns
 
 1. **Recommending every skill in the repo** — defeats the purpose; recommend 1-5 skills max
-2. **Recommending without rationale** — "use karpathy-coder" without why is unhelpful
+2. **Recommending without rationale** — "use ship-gate" without why is unhelpful
 3. **Pattern-matching loosely** — single-letter keywords match too much; minimum 4-character patterns
 4. **Forgetting to add new skills to recommender** — recommender goes stale fast; update with each new skill
 

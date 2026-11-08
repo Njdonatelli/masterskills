@@ -308,8 +308,5 @@ Fixes:
 ## Cross-References
 
 - **sql-database-assistant**  query writing, optimization, and debugging for day-to-day SQL work
-- **database-schema-designer**  ERD modeling, normalization analysis, and schema generation
-- **migration-architect**  large-scale migration planning across database engines or major schema overhauls
 - **senior-backend**  application-layer patterns (connection pooling, ORM best practices)
-- **senior-devops**  infrastructure provisioning for database clusters and replicas
 

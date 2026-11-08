@@ -267,6 +267,5 @@ Surface these without being asked when noticed in context:
 
 ## Cross-References
 
-- **`senior-architect`** — pure architecture decisions with no immediate implementation. NOT for tasks where code is written in the same session.
-- **`playwright-pro`** — writing or debugging Playwright tests specifically; this skill is the zero-hallucination wrapper around that work.
+- **`pw`** — writing or debugging Playwright tests specifically; this skill is the zero-hallucination wrapper around that work.
 - **`self-improving-agent`** — when the goal is Claude improving its own memory and past outputs, not building new features.

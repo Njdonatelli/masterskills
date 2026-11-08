@@ -179,7 +179,5 @@ This skill does not:
 
 ## Integration Points
 
-- **karpathy-coder**: run ship-gate after karpathy-check passes — simplicity first, then production readiness
 - **adversarial-reviewer**: deep security review for items ship-gate flags as critical
 - **security-pen-testing**: penetration testing methodology for SEC-category findings
-- **code-reviewer**: general code quality review complements ship-gate's automated checks

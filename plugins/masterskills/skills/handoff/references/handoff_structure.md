@@ -32,7 +32,7 @@ Prompts to answer:
 ```
 
 Bad: "Continue the work."
-Good: "Open PR for the 3-skill batch (caveman, grill-me, handoff). Validate against karpathy-coder gate. Address any CI failures or review comments. Aim for green merge by EOD."
+Good: "Open PR for the 3-skill batch (caveman, grill-me, handoff). Validate against the ship-gate audit. Address any CI failures or review comments. Aim for green merge by EOD."
 
 ### 2. State of play
 
@@ -76,8 +76,8 @@ Pattern:
 ```
 ## Skills to use (next session)
 
-- `karpathy-coder` — for code-quality validation before PR
-- `write-a-skill` — to validate any new SKILL.md against the 6-item checklist
+- `adversarial-reviewer` — for a hostile review before PR
+- `skill-creator` — to draft and test any new SKILL.md
 - `ship-gate` — pre-production audit before merge
 ```
 

@@ -76,7 +76,7 @@ A build pipeline implies:
 
 The user might want this for a long-lived project. They don't want it for a landing page they're shipping today.
 
-If the user explicitly asks for "I want a React component version" → use the sibling skill `product-team/skills/landing-page-generator/` (which outputs Next.js TSX, including the build pipeline).
+If the user explicitly asks for a React component version, this skill is the wrong tool. Use `senior-frontend` for a Next.js or React build.
 
 ## When Single-File Breaks Down
 
@@ -86,7 +86,7 @@ There are cases where a single-file HTML page IS the wrong output:
 |---|---|
 | Multi-page site (about, blog, pricing, contact) | Static site generator (Astro, 11ty) — out of scope |
 | Heavy interactivity (forms, auth, state) | React / Vue / Svelte app |
-| SEO-critical lead-gen with copy frameworks | `landing-page-generator` (Next.js TSX) |
+| SEO-critical lead-gen with copy frameworks | `senior-frontend` (Next.js) with `copywriting` and `seo-audit` |
 | Multiple languages / i18n | Static site generator |
 | Server-side rendering required | Framework (Next.js, Remix, SvelteKit) |
 

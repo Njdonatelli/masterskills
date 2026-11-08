@@ -1,7 +1,7 @@
 ---
 name: llm-cost-optimizer
 description: >-
-  Use proactively whenever LLM API costs come up -- or should. Triggers include: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching', 'should I use the batch API', 'trim my context', 'how much will this pipeline cost', 'make this 10x cheaper', 'we're about to launch an AI feature', 'build me an AI endpoint'. Don't wait for an explicit cost complaint -- if someone is building an AI feature, an agent, a RAG or MCP retrieval layer, a scheduled LLM job, or choosing between models, cost architecture belongs in the conversation. Apply immediately when any of these are true: the same documents or system prompt ride along on every request, a non-interactive job (nightly, scheduled, eval, backfill) calls the API synchronously, a system prompt exceeds a few hundred tokens, all requests hit the same model, max_tokens is not set, or no per-feature cost logging exists. Ships a runnable four-rung cost-ladder calculator (full -> trim -> cache -> batch) priced from a dated Claude rate table. NOT for RAG retrieval-quality design (use rag-architect). NOT for improving prompt quality or effectiveness (use senior-prompt-engineer).
+  Use when LLM API cost comes up or should: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'implement prompt caching', 'should I use the batch API', 'how much will this pipeline cost'. Apply without being asked when someone builds an AI feature, agent, RAG or MCP layer, or scheduled LLM job, and the same context rides on every request, a non-interactive job calls the API synchronously, or no per-feature cost logging exists. Ships a four-rung cost-ladder calculator (full -> trim -> cache -> batch). NOT for retrieval quality (use rag-architect) or prompt quality (use senior-prompt-engineer).
 ---
 
 # LLM Cost Optimizer
@@ -160,8 +160,6 @@ Wire these in before launch:
 
 - **Retrieval quality (chunking, embeddings, reranking) becomes the question** -> `rag-architect`
 - **Prompt quality or effectiveness deteriorates** -> `senior-prompt-engineer`
-- **Broader monitoring stack beyond cost metrics** -> `observability-designer`
-- **Latency profiling becomes the primary concern** -> `performance-profiler`
 
 ---
 

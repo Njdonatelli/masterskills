@@ -1,18 +1,15 @@
 ---
 name: landing-page-html
 description: >-
- — Generates high-conversion single-page HTML landing pages with responsive layouts and GSAP animations.
+ Generates high-conversion single-page HTML landing pages with responsive layouts and GSAP animations.
 license: MIT
 metadata:
- — source_spec: "megaprompts/04-landing-megaprompt.md"
- — build_pattern: "Path B (direct conversion)"
- — distinct_from: "product-team/skills/landing-page-generator (different output format + optimization target)"
- — version: 1.0.0
+  source_spec: "megaprompts/04-landing-megaprompt.md"
+  build_pattern: "Path B (direct conversion)"
+  version: 1.0.0
 ---
 
 # Landing — Premium HTML Landing Page Generator
-
-> **Distinct from `product-team/skills/landing-page-generator/`.** That skill outputs Next.js TSX components optimized for conversion / lead-gen. THIS skill outputs a single self-contained `.html` file optimized for premium visual experience with GSAP animations. Pick by use case.
 
 Generate a polished, self-contained `.html` landing page from a text prompt or brief. The output is ONE HTML file: all CSS inline in `<style>`, all JS inline in `<script>`, only external dependencies being Google Fonts + GSAP via CDN. The page is visually distinctive, animated, and production-quality.
 
@@ -344,4 +341,4 @@ Run `scripts/html_validator.py --file ${OUTPUT_DIR}/<slug>.html` after generatio
 
 **Version:** 1.0.0
 **Source spec:** [`megaprompts/04-landing-megaprompt.md`](../../../../megaprompts/04-landing-megaprompt.md)
-**Build pattern:** Path B (direct conversion). Distinct from `product-team/skills/landing-page-generator/`.
+**Build pattern:** Path B (direct conversion).

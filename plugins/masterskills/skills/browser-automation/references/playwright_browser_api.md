@@ -1,6 +1,6 @@
 # Playwright Browser API Reference (Automation Focus)
 
-This reference covers Playwright's Python async API for browser automation tasks — NOT testing. For test-specific APIs (assertions, fixtures, test runners), see playwright-pro.
+This reference covers Playwright's Python async API for browser automation tasks — NOT testing. For test-specific APIs (assertions, fixtures, test runners), see the pw skill.
 
 ## Browser Launch & Context
 

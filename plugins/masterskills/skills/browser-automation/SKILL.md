@@ -1,7 +1,7 @@
 ---
 name: "browser-automation"
 description: >-
-  Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use playwright-pro for that.
+  Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use pw for that.
 ---
 
 # Browser Automation - POWERFUL
@@ -18,9 +18,9 @@ The Browser Automation skill provides comprehensive tools and knowledge for buil
 - Building repeatable browser-based data pipelines
 
 **When NOT to use this skill:**
-- Writing browser tests or E2E test suites — use **playwright-pro** instead
+- Writing browser tests or E2E test suites — use **pw** instead
 - Testing API endpoints — use **api-test-suite-builder** instead
-- Load testing or performance benchmarking — use **performance-profiler** instead
+- Load testing or performance benchmarking — this skill does not cover it
 
 **Why Playwright over Selenium or Puppeteer:**
 - **Auto-wait built in** — no explicit `sleep()` or `waitForElement()` needed for most actions
@@ -261,7 +261,5 @@ All scripts are stdlib-only. Run `python3 <script> --help` for full usage.
 
 ## Cross-References
 
-- **playwright-pro** — Browser testing skill. Use for E2E tests, test assertions, test fixtures. Browser Automation is for data extraction and workflow automation, not testing.
+- **pw** — Playwright testing skill. Use for E2E tests, test assertions, test fixtures. Browser Automation is for data extraction and workflow automation, not testing.
 - **api-test-suite-builder** — When the website has a public API, hit the API directly instead of scraping the rendered page. Faster, more reliable, less detectable.
-- **performance-profiler** — If your automation scripts are slow, profile the bottlenecks before adding concurrency.
-- **env-secrets-manager** — For securely managing credentials used in authenticated automation workflows.

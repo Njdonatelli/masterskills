@@ -180,5 +180,3 @@ All output passes quality verification:
 - **marketing-ops**: Routes marketing questions to the right skill — reads this context first.
 - **copywriting**: For landing page and web copy. Reads brand voice + customer language from this context.
 - **content-strategy**: For planning what content to create. Reads target keywords + personas from this context.
-- **marketing-strategy-pmm**: For positioning and GTM strategy. Reads competitive landscape from this context.
-- **cs-onboard** (C-Suite): For company-level context. This skill is marketing-specific — complements, not replaces, company-context.md.

@@ -15,7 +15,7 @@ Meta-skill that validates, tests, and scores skills in this repository. Four too
 3. **`scripts/quality_scorer.py`** — multi-dimensional scoring with letter grade
 4. **`scripts/security_scorer.py`** — security posture scoring (also available via `quality_scorer.py --include-security`)
 
-> **Scope note:** this skill's tier line-count minimums measure *legacy* skills. For authoring *new* skills, `engineering/write-a-skill` (SKILL.md under ~100 lines, Matt Pocock doctrine) is the binding standard — do not pad a new skill to satisfy a tier minimum here.
+> **Scope note:** this skill's tier line-count minimums measure *legacy* skills. For authoring *new* skills, `skill-creator` (Anthropic authoring and eval loop) is the binding standard — do not pad a new skill to satisfy a tier minimum here.
 
 ## Quick Start (exact, runnable from repo root)
 
@@ -32,7 +32,6 @@ python3 engineering/skills/skill-tester/scripts/quality_scorer.py engineering/sk
 
 Consume the JSON: validator emits `overall_score`, `compliance_level`, per-check `checks{}`; scorer emits `overall_score`, `letter_grade`, `tier_recommendation`, `dimensions`, and an `improvement_roadmap` — work the roadmap top-down, then re-run until the target score is met.
 
-For repo-wide auditing prefer `scripts/audit_skills.py` at the repo root (wraps the write-a-skill checklist runner across all skills).
 
 ## What Each Tool Checks
 
@@ -57,7 +56,7 @@ Four dimensions, 25% each: **Documentation** (depth, examples, references), **Co
 | STANDARD | ≥ 200 lines | 1-2 (300-500 LOC) | subcommands, JSON + text output |
 | POWERFUL | ≥ 300 lines | 2-3 (500-800 LOC) | multiple modes, CI integration |
 
-(Advisory for legacy skills; new skills follow write-a-skill — see scope note above.)
+(Advisory for legacy skills; new skills follow skill-creator — see scope note above.)
 
 ## CI Integration
 
@@ -88,6 +87,6 @@ If any step fails, apply the top `improvement_roadmap` item and re-run all three
 
 - **Timeout errors** → raise `--timeout` or optimize the script under test
 - **Import failures** → external deps detected; stdlib-only is the repo policy
-- **Tier misclassification** → check line counts/LOC against the tier table; remember the write-a-skill exception for new skills
+- **Tier misclassification** → check line counts/LOC against the tier table; remember the skill-creator exception for new skills
 
 References: `references/` holds the structure specification, tier requirements matrix, and scoring rubric the tools implement.

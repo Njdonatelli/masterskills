@@ -40,9 +40,9 @@ User wants to assess their marketing → you run a cross-functional audit touchi
 | "Write a blog post," "content ideas," "what should I write" | **content-strategy** | Not copywriting (that's for page copy) |
 | "Write copy for my homepage," "landing page copy," "headline" | **copywriting** | Not content-strategy (that's for planning) |
 | "Edit this copy," "proofread," "polish this" | **copy-editing** | Not copywriting (that's for writing new) |
-| "Social media post," "LinkedIn post," "tweet" | **social-content** | Not social-media-manager (that's for strategy) |
-| "Marketing ideas," "brainstorm," "what else can I try" | **marketing-ideas** | |
-| "Write an article," "research and write," "SEO article" | **content-production** | Not content-creator (production has the full pipeline) |
+| "Social media post," "Instagram post," "Facebook post" | **social-content** | Not linkedin-post-writer (that's the owner's own LinkedIn voice) |
+| "Draft a LinkedIn post for me," "reply to this comment" | **linkedin-post-writer** | Not social-content (that's for client or brand accounts) |
+| "Write an article," "research and write," "SEO article" | **content-production** | Not content-strategy (production has the full pipeline) |
 | "Sounds too robotic," "make it human," "AI watermarks" | **content-humanizer** | |
 
 ### SEO Pod
@@ -52,70 +52,29 @@ User wants to assess their marketing → you run a cross-functional audit touchi
 | "AI search," "ChatGPT visibility," "Perplexity," "AEO" | **aeo** | Not seo-audit (that's traditional SEO) |
 | "Schema markup," "structured data," "JSON-LD," "rich snippets" | **schema-markup** | |
 | "Site structure," "URL structure," "navigation," "sitemap" | **site-architecture** | |
-| "Programmatic SEO," "pages at scale," "template pages" | **programmatic-seo** | |
 | "Local SEO," "Google Business Profile," "GBP," "NAP consistency," "Map Pack," "service area pages" | **local-seo-manager** | Not seo-audit (that's national/technical) |
 
 ### CRO Pod
 | Trigger | Route to | NOT this |
 |---------|----------|----------|
 | "Optimize this page," "conversion rate," "CRO audit" | **page-cro** | Not form-cro (that's for forms specifically) |
-| "Form optimization," "lead form," "contact form" | **form-cro** | Not signup-flow-cro (that's for registration) |
-| "Signup flow," "registration," "account creation" | **signup-flow-cro** | Not onboarding-cro (that's post-signup) |
-| "Onboarding," "activation," "first-run experience" | **onboarding-cro** | Not signup-flow-cro (that's pre-signup) |
-| "Popup," "modal," "overlay," "exit intent" | **popup-cro** | |
-| "Paywall," "upgrade screen," "upsell modal" | **paywall-upgrade-cro** | |
+| "Form optimization," "lead form," "contact form" | **form-cro** | Not page-cro (that's the whole page) |
+| "Build a landing page," "one-page site" | **landing-page-html** | Not page-cro (that audits an existing page) |
 
 ### Channels Pod
 | Trigger | Route to | NOT this |
 |---------|----------|----------|
-| "Email sequence," "drip campaign," "welcome sequence" | **email-sequence** | Not cold-email (that's for outbound) |
-| "Cold email," "outreach," "prospecting email" | **cold-email** | Not email-sequence (that's for lifecycle) |
-| "Paid ads," "Google Ads," "Meta ads," "ad campaign" | **paid-ads** | Not ad-creative (that's for copy generation) |
-| "Ad copy," "ad headlines," "ad variations," "RSA" | **ad-creative** | Not paid-ads (that's for strategy) |
-| "Social media strategy," "social calendar," "community" | **social-media-manager** | Not social-content (that's for individual posts) |
-| "X growth," "Twitter growth," "grow my X account" | **x-twitter-growth** | Not social-content (that's cross-platform posts) |
+| "Cold email," "outreach," "prospecting email" | **cold-email** | |
 | "YouTube," "video SEO," "channel strategy," "thumbnails" | **youtube-full** | Not video-content-strategist (that's platform-agnostic strategy) |
-| "Video strategy," "short-form video," "video content plan" | **video-content-strategist** (sibling folder `video-content-strategist/`) | Not youtube-full (that's YouTube-specific + API-backed) |
-| "Webinar," "webinar funnel," "registration rate," "show-up rate" | **webinar-marketing** | |
-| "App Store," "Play Store," "ASO," "app keywords" | **app-store-optimization** | Not seo-audit (that's web search) |
-
-### Growth Pod
-| Trigger | Route to | NOT this |
-|---------|----------|----------|
-| "A/B test," "experiment," "split test" | **ab-test-setup** | |
-| "Referral program," "affiliate," "word of mouth" | **referral-program** | |
-| "Free tool," "calculator," "marketing tool" | **free-tool-strategy** | |
-| "Churn," "cancel flow," "dunning," "retention" | **churn-prevention** | |
+| "Video strategy," "short-form video," "video content plan" | **video-content-strategist** | Not youtube-full (that's YouTube-specific + API-backed) |
 
 ### Intelligence Pod
 | Trigger | Route to | NOT this |
 |---------|----------|----------|
-| "Campaign analytics," "channel performance," "attribution" | **campaign-analytics** | Not analytics-tracking (that's for setup) |
-| "Set up tracking," "GA4," "GTM," "event tracking" | **analytics-tracking** | Not campaign-analytics (that's for analysis) |
-| "Competitor page," "vs page," "alternative page" | **competitor-alternatives** | |
-| "Psychology," "persuasion," "behavioral science" | **marketing-psychology** | |
-| "Analyze my social accounts," "engagement rate," "social audit" | **social-media-analyzer** | Not social-media-manager (that's planning, not analysis) |
-| "Marketing prompts," "prompt templates," "LLM governance for marketing" | **prompt-engineer-toolkit** | |
-
-### Sales & GTM Pod
-| Trigger | Route to | NOT this |
-|---------|----------|----------|
-| "Product launch," "feature announcement," "Product Hunt" | **launch-strategy** | |
-| "Pricing," "how much to charge," "pricing tiers" | **pricing-strategy** | |
-| "Positioning," "ICP," "product marketing," "messaging framework" | **marketing-strategy-pmm** | Not copywriting (that's execution) |
-| "Demand gen," "lead gen program," "MQL/SQL funnel," "CRM campaigns" | **marketing-demand-acquisition** | Not paid-ads (that's one channel) |
+| "Set up tracking," "GA4," "GTM," "event tracking" | **analytics-tracking** | Not statistical-analyst (that's for test results) |
+| "Did the test win," "is this significant" | **statistical-analyst** | Not analytics-tracking (that's for setup) |
+| "Competitive teardown," "feature matrix," "competitor pricing" | **competitive-teardown** | |
 | "Brand guidelines," "brand consistency," "style guide audit" | **brand-guidelines** | Not marketing-context (that's the foundation doc) |
-
-### Cross-Domain (route outside marketing-skill/)
-| Trigger | Route to | Domain |
-|---------|----------|--------|
-| "Revenue operations," "pipeline," "lead scoring" | **revenue-operations** | business-growth/ |
-| "Sales deck," "pitch deck," "objection handling" | **sales-engineer** | business-growth/ |
-| "Customer health," "expansion," "NPS" | **customer-success-manager** | business-growth/ |
-| "Landing page code," "React component" | **landing-page-generator** | product-team/ |
-| "Competitive teardown," "feature matrix" | **competitive-teardown** | product-team/ |
-| "Email template code," "transactional email" | **email-template-builder** | engineering-team/ |
-| "Brand strategy," "growth model," "marketing budget" | **cmo-advisor** | c-level-advisor/ |
 
 ---
 
@@ -131,17 +90,15 @@ Use it during orchestration: after laying out a campaign sequence (below), captu
 
 For multi-skill campaigns, follow this sequence:
 
-### New Product/Feature Launch
+### Service or Offer Launch
 ```
 1. marketing-context (ensure foundation exists)
-2. launch-strategy (plan the launch)
-3. content-strategy (plan content around launch)
-4. copywriting (write landing page)
-5. email-sequence (write launch emails)
-6. social-content (write social posts)
-7. paid-ads + ad-creative (paid promotion)
-8. analytics-tracking (set up tracking)
-9. campaign-analytics (measure results)
+2. content-strategy (plan content around the offer)
+3. copywriting (write the landing page)
+4. landing-page-html (build the page)
+5. social-content and linkedin-post-writer (write social posts)
+6. cold-email (direct outreach)
+7. analytics-tracking (set up tracking)
 ```
 
 ### Content Campaign
@@ -152,17 +109,15 @@ For multi-skill campaigns, follow this sequence:
 4. content-humanizer (polish for natural voice)
 5. schema-markup (add structured data)
 6. social-content (promote on social)
-7. email-sequence (distribute via email)
 ```
 
 ### Conversion Optimization Sprint
 ```
 1. page-cro (audit current pages)
 2. copywriting (rewrite underperforming copy)
-3. form-cro or signup-flow-cro (optimize forms)
-4. ab-test-setup (design tests)
-5. analytics-tracking (ensure tracking is right)
-6. campaign-analytics (measure impact)
+3. form-cro (optimize forms)
+4. analytics-tracking (ensure tracking is right)
+5. statistical-analyst (measure impact)
 ```
 
 ---
@@ -182,7 +137,6 @@ Before any marketing output reaches the user:
 
 - **No marketing context exists** → "Run marketing-context first  every skill works 3x better with context."
 - **Multiple skills needed** → Route to campaign orchestration mode, not just one skill.
-- **Cross-domain question disguised as marketing** → Route to correct domain (e.g., "help with pricing" → pricing-strategy, not CRO).
 - **Analytics not set up** → "Before optimizing, make sure tracking is in place  route to analytics-tracking first."
 - **Content without SEO** → "This content should be SEO-optimized. Run seo-audit or content-production, not just copywriting."
 
@@ -204,7 +158,5 @@ All output passes quality verification:
 
 ## Related Skills
 
-- **chief-of-staff** (C-Suite): The C-level router. Marketing-ops is the domain-specific equivalent.
-- **marketing-context**: Foundation  run this first if it doesn't exist.
-- **cmo-advisor** (C-Suite): Strategic marketing decisions. Marketing-ops handles execution routing.
-- **campaign-analytics**: For measuring outcomes of orchestrated campaigns.
+- **marketing-context**: Foundation — run this first if it doesn't exist.
+- **competitive-teardown**: Competitor input for positioning and copy.

@@ -1,56 +1,48 @@
 ---
 name: "pw"
 description: >-
-  Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserStack. 55 templates, 3 agents, smart reporting.
+  Playwright end-to-end testing toolkit and router. Use when the user mentions Playwright tests, end-to-end testing, a test suite, or flaky tests. Routes to pw-init-project (setup), pw-generate-tests (write tests), pw-review-tests (quality gate), and pw-fix-flaky-tests (repair). 55 test templates.
 ---
 
 # Playwright Pro
 
 Production-grade Playwright testing toolkit for AI coding agents.
 
-## Available Commands
+## Sub-skills
 
-When installed as a Claude Code plugin, these are available as `/pw:` commands:
-
-| Command | What it does |
+| Skill | What it does |
 |---|---|
-| `/pw:init` | Set up Playwright — detects framework, generates config, CI, first test |
-| `/pw:generate <spec>` | Generate tests from user story, URL, or component |
-| `/pw:review` | Review tests for anti-patterns and coverage gaps |
-| `/pw:fix <test>` | Diagnose and fix failing or flaky tests |
-| `/pw:migrate` | Migrate from Cypress or Selenium to Playwright |
-| `/pw:coverage` | Analyze what's tested vs. what's missing |
-| `/pw:testrail` | Sync with TestRail — read cases, push results |
-| `/pw:browserstack` | Run on BrowserStack, pull cross-browser reports |
-| `/pw:report` | Generate test report in your preferred format |
+| `pw-init-project` | Set up Playwright: detects the framework, writes the config and CI, adds a first test |
+| `pw-generate-tests` | Generates tests from a user story, a URL, or a component |
+| `pw-review-tests` | Reviews tests for anti-patterns and coverage gaps |
+| `pw-fix-flaky-tests` | Diagnoses and fixes failing or flaky tests |
 
 ## Quick Start Workflow
 
 The recommended sequence for most projects:
 
 ```
-1. /pw:init          → scaffolds config, CI pipeline, and a first smoke test
-2. /pw:generate      → generates tests from your spec or URL
-3. /pw:review        → validates quality and flags anti-patterns      ← always run after generate
-4. /pw:fix <test>    → diagnoses and repairs any failing/flaky tests  ← run when CI turns red
+1. pw-init-project     → scaffolds config, CI pipeline, and a first smoke test
+2. pw-generate-tests   → generates tests from your spec or URL
+3. pw-review-tests     → validates quality and flags anti-patterns      ← always run after generate
+4. pw-fix-flaky-tests  → diagnoses and repairs any failing/flaky tests  ← run when CI turns red
 ```
 
 **Validation checkpoints:**
-- After `/pw:generate` — always run `/pw:review` before committing; it catches locator anti-patterns and missing assertions automatically.
-- After `/pw:fix` — re-run the full suite locally (`npx playwright test`) to confirm the fix doesn't introduce regressions.
-- After `/pw:migrate` — run `/pw:coverage` to confirm parity with the old suite before decommissioning Cypress/Selenium tests.
+- After `pw-generate-tests`, always run `pw-review-tests` before you commit. It catches locator anti-patterns and missing assertions.
+- After `pw-fix-flaky-tests`, run the full suite locally (`npx playwright test`). Make sure that the fix does not cause regressions.
 
 ### Example: Generate → Review → Fix
 
 ```bash
-# 1. Generate tests from a user story
-/pw:generate "As a user I can log in with email and password"
+# 1. Generate tests from a user story (pw-generate-tests)
+"As a user I can log in with email and password"
 
 # Generated: tests/auth/login.spec.ts
 # → Playwright Pro creates the file using the auth template.
 
-# 2. Review the generated tests
-/pw:review tests/auth/login.spec.ts
+# 2. Review the generated tests (pw-review-tests)
+tests/auth/login.spec.ts
 
 # → Flags: one test used page.locator('input[type=password]') — suggests getByLabel('Password')
 # → Fix applied automatically.
@@ -58,8 +50,8 @@ The recommended sequence for most projects:
 # 3. Run locally to confirm
 npx playwright test tests/auth/login.spec.ts --headed
 
-# 4. If a test is flaky in CI, diagnose it
-/pw:fix tests/auth/login.spec.ts
+# 4. If a test is flaky in CI, diagnose it (pw-fix-flaky-tests)
+tests/auth/login.spec.ts
 # → Identifies missing web-first assertion; replaces waitForTimeout(2000) with expect(locator).toBeVisible()
 ```
 
@@ -89,28 +81,9 @@ npx playwright test tests/auth/login.spec.ts --headed
 
 ## What's Included
 
-- **9 skills** with detailed step-by-step instructions
-- **3 specialized agents**: test-architect, test-debugger, migration-planner
+- **4 sub-skills**: pw-init-project, pw-generate-tests, pw-review-tests, pw-fix-flaky-tests
 - **55 test templates**: auth, CRUD, checkout, search, forms, dashboard, settings, onboarding, notifications, API, accessibility
-- **2 MCP servers** (TypeScript): TestRail and BrowserStack integrations
-- **Smart hooks**: auto-validate test quality, auto-detect Playwright projects
 - **6 reference docs**: golden rules, locators, assertions, fixtures, pitfalls, flaky tests
-- **Migration guides**: Cypress and Selenium mapping tables
-
-## Integration Setup
-
-### TestRail (Optional)
-```bash
-export TESTRAIL_URL="https://your-instance.testrail.io"
-export TESTRAIL_USER="your@email.com"
-export TESTRAIL_API_KEY="your-api-key"
-```
-
-### BrowserStack (Optional)
-```bash
-export BROWSERSTACK_USERNAME="your-username"
-export BROWSERSTACK_ACCESS_KEY="your-access-key"
-```
 
 ## Quick Reference
 

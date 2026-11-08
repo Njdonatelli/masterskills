@@ -1,7 +1,7 @@
 ---
 name: "analytics-tracking"
 description: >-
-  Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keywords: GA4 setup, Google Tag Manager, GTM, event tracking, analytics implementation, conversion tracking, tracking plan, event taxonomy, custom dimensions, UTM tracking, analytics audit, missing events, tracking broken. NOT for analyzing marketing campaign data — use campaign-analytics for that. NOT for BI dashboards — use product-analytics for in-product event analysis.
+  Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keywords: GA4 setup, Google Tag Manager, GTM, event tracking, analytics implementation, conversion tracking, tracking plan, event taxonomy, custom dimensions, UTM tracking, analytics audit, missing events, tracking broken. NOT for analyzing experiment results — use statistical-analyst for that.
 license: MIT
 metadata:
   version: 1.0.0
@@ -375,8 +375,5 @@ All output follows the structured communication standard:
 
 ## Related Skills
 
-- **campaign-analytics**: Use for analyzing marketing performance and channel ROI. NOT for implementation — use this skill for tracking setup.
-- **ab-test-setup**: Use when designing experiments. NOT for event tracking setup (though this skill's events feed A/B tests).
-- **analytics-tracking** (this skill): covers setup only. For dashboards and reporting, use campaign-analytics.
+- **analytics-tracking** (this skill): covers setup only.
 - **seo-audit**: Use for technical SEO. NOT for analytics tracking (though both use GA4 data).
-- **gdpr-dsgvo-expert**: Use for GDPR compliance posture. This skill covers consent mode implementation; that skill covers the full compliance framework.

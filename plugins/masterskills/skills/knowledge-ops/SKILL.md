@@ -72,7 +72,7 @@ cd business-operations/skills/knowledge-ops && python3 scripts/kb_ingester.py --
 2. The user has authority to commission rewrites or archives. Producing a cleanup list nobody acts on is wasted work — route findings to a named owner before running the ingester.
 3. Owner metadata lives in YAML frontmatter (`owner: alex@company.com`) or in a top-of-page "Owner:" line. Tribal-knowledge ownership (the person who last edited the page) is treated as missing.
 4. "Stale" defaults to 12 months. Override with `--stale-days` on `kb_ingester.py`. Some compliance regimes (FDA, ISO 13485) require shorter review cycles; use `--profile regulated` and `--stale-days 365`.
-5. The user is not asking for a personal PKM. Personal Karpathy-style second-brain work belongs in `engineering/llm-wiki`.
+5. The user is not asking for a personal PKM. This skill does not cover a personal second-brain vault.
 
 ## Anti-patterns
 
@@ -86,16 +86,13 @@ cd business-operations/skills/knowledge-ops && python3 scripts/kb_ingester.py --
 
 ## Distinct from
 
-- **`engineering/llm-wiki`** — Karpathy-style personal PKM second brain where one human ingests sources into their own interlinked vault. Knowledge-ops is *organizational*: many authors, many readers, named owners per doc, formal review cycles, compliance overlays.
-- **`engineering-team/runbook-generator`** — system-ops runbook for debugging a production system (logs, alerts, k8s, on-call). Knowledge-ops runbooks are *operator* runbooks for business processes (incident-comms cascade, vendor offboarding, employee onboarding). The audience is fellow operators, not engineers tailing logs.
 - **`project-management/*`** — Jira / Confluence delivery tracking, sprint ticket workflow, project-status reporting. Knowledge-ops is the *content* in those Confluence pages, not the *tracking* of who edits them.
 - **`business-operations/process-mapper`** (sibling) — BPMN process *design*: where the stages are, where work waits, which stage is the bottleneck. Knowledge-ops is process *documentation*: the SOP and runbook artifacts that tell an operator how to execute the process the mapper described.
-- **`business-operations/internal-comms`** (sibling) — broadcast announcements, all-hands messaging, change-management comms. Knowledge-ops is the durable reference artifact; internal-comms is the broadcast.
 - **`ra-qm-team/*`** — formal regulatory compliance authoring (ISO 13485 QMS, MDR technical files, 21 CFR Part 820). Knowledge-ops borrows the regulatory checklist but is not a substitute for a notified-body audit.
 
 ## Forcing-question library (Matt Pocock grill discipline)
 
-Before invoking the tools, the orchestrator (or `/cs:grill-bizops`) walks the user through these questions **one at a time, with a recommended answer + canon citation**. Never bundled. Walk depth-first — do not open question 4 until 1-3 are locked.
+Before invoking the tools, the orchestrator (or `grill-me`) walks the user through these questions **one at a time, with a recommended answer + canon citation**. Never bundled. Walk depth-first — do not open question 4 until 1-3 are locked.
 
 1. **"Who is the named owner of this SOP / runbook, and do they know they own it?"**
    Recommended: a single human (not "the team"), and yes — they have agreed in writing.

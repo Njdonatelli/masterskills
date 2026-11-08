@@ -79,13 +79,12 @@ cd business-operations/skills/process-mapper && python3 scripts/process_document
 ## Distinct from
 
 - **business-growth skills** — external sales motion, lead-funnel conversion, customer-success retention. Process-mapper is *internal* operations.
-- **engineering/slo-architect** — system-reliability SLOs / error budgets / burn-rate alerts. Process-mapper is *business-process* cycle time, not system uptime.
 - **c-level-advisor (COO / CEO)** — strategic prioritization of which processes to fix. Process-mapper is the tactical instrument used after that prioritization decision.
 - **project-management skills** — Jira / Confluence ticket workflow tooling. Process-mapper is process *design*, not ticket *tracking*.
 
 ## Forcing-question library (Matt Pocock grill discipline)
 
-Before invoking the tools, the orchestrator (or `/cs:grill-bizops`) walks the user through these questions **one at a time, with a recommended answer + canon citation**. Never bundled.
+Before invoking the tools, the orchestrator (or `grill-me`) walks the user through these questions **one at a time, with a recommended answer + canon citation**. Never bundled.
 
 1. **"Do you have measured cycle times for the top-3 longest stages, or only estimates?"**
    Recommended: insist on measured data.

@@ -84,4 +84,4 @@ These are what separate a documented investigation from a confident guess:
 
 - **research router** — for fast topic overviews where decision risk is low; `deep-research` is the heavyweight alternative when rigor matters more than speed.
 - **competitive-teardown** — for comparing N competitors on a structured 12-dimension matrix.
-- **litreview / dossier / patent** — domain specialists when the investigation is narrowly academic, person/company-focused, or patent-focused.
+- **company-dossier** — domain specialist when the investigation is about one company or executive.

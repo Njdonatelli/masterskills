@@ -318,7 +318,5 @@ Always include a hook as the first element. Never deliver body copy without it. 
 - **copywriting**: USE when long-form page or landing page copy is needed. NOT for short-form social posts.
 - **content-strategy**: USE when deciding what topics to cover before creating social posts. NOT for writing the posts themselves.
 - **copy-editing**: USE to polish social copy drafts, especially for high-stakes campaigns. NOT for casual post creation.
-- **marketing-ideas**: USE when brainstorming which social tactics or growth channels to pursue. NOT for writing specific posts.
 - **content-production**: USE when operating a high-volume content machine across multiple creators. NOT for one-off post creation.
 - **content-humanizer**: USE when AI-drafted posts sound robotic or templated. NOT for strategy or scheduling.
-- **launch-strategy**: USE when coordinating social content around a product launch. NOT for evergreen posting schedules.

@@ -525,18 +525,16 @@ To add a custom profile (e.g., your org's internal-tool defaults): copy `profile
 
 ## Composition map
 
-This skill does NOT reimplement scope owned by the POWERFUL-tier specialists. It forks into them. See `references/composition_map.md` for the full routing table. Key forks:
+This skill does NOT reimplement scope that a specialist skill owns. It hands that scope to the specialist. See `references/composition_map.md` for the full routing table. Key hand-offs:
 
-| Concern | Fork into |
+| Concern | Use skill |
 |---|---|
-| WCAG audit, contrast, screen-reader | `engineering-team/skills/a11y-audit/` |
-| Bundle profiling + runtime perf | `engineering/skills/performance-profiler/` |
-| Cinematic / scroll-storytelling landing | `engineering-team/skills/epic-design/` |
-| Apple HIG (iOS / macOS / visionOS) | `product-team/skills/apple-hig-expert/` |
-| Pre-commit Karpathy review | `engineering/karpathy-coder/` |
-| Pre-flight architecture grill | `engineering/grill-me/` |
-
-The `cs-frontend-engineer` agent orchestrates these forks via `context: fork`. Invoke it from another agent with `Agent({subagent_type: "cs-frontend-engineer", prompt: "..."})` or via `/cs:frontend-review <your problem>`.
+| WCAG audit, contrast, screen-reader | `a11y-audit` |
+| Single-file landing page | `landing-page-html` |
+| Visual design build or polish | `impeccable`, `ui-craft` |
+| End-to-end and visual-regression tests | `pw` |
+| SEO and answer-engine visibility | `seo-audit`, `aeo` |
+| Pre-flight architecture grill | `grill-me` |
 
 ---
 
@@ -564,10 +562,7 @@ Summary:
 
 ## Invocation from other agents and skills
 
-Three surfaces:
+Two surfaces:
 
-1. **Slash command:** `/cs:frontend-review <prompt>` — full grill + decision engine + composition routing.
-2. **Agent subagent:** `Agent({subagent_type: "cs-frontend-engineer", prompt: "..."})` — forks context, returns ≤ 200-word digest.
-3. **Direct tool call:** `python scripts/frontend_decision_engine.py ...` — deterministic profile match when inputs are known.
-
-See `agents/engineering/cs-frontend-engineer.md` for the full invocation contract.
+1. **Skill:** invoke `senior-frontend` with the problem. It runs the grill, the decision engine, and the composition routing.
+2. **Direct tool call:** `python scripts/frontend_decision_engine.py ...` — deterministic profile match when inputs are known.
