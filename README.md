@@ -1,7 +1,8 @@
 # masterskills
 
-Personal hosted Claude Code plugin marketplace. One repo, one plugin, 361 skills. Add the
+Personal hosted Claude Code plugin marketplace. One repo, one plugin, 137 curated skills. Add the
 marketplace once on a machine, install the plugin, and every skill is available everywhere.
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each release and why.
 
 ## Install on a new machine
 
@@ -35,7 +36,7 @@ reach every machine.
 
 ## Third-party plugins
 
-Plugins installed from other marketplaces (superpowers, caveman, claude-code-skills, ...) are not
+Plugins installed from other marketplaces (superpowers, caveman, document-skills, ...) are not
 vendored here — they ship hooks, agents and commands that only work through their own
 marketplace. Instead `plugins.lock.json` records every one installed on the authoring machine.
 Reproduce the full setup on a new machine with:
@@ -49,6 +50,43 @@ After installing or removing a plugin locally, refresh the lockfile and commit i
 ```bash
 python scripts/export_plugins.py
 ```
+
+### Per-project plugins
+
+Some plugins add a large always-on cost through a SessionStart hook. Install them only in the
+project folder that needs them, not for the whole user. Example for n8n work. In a terminal
+(PowerShell or Bash/Zsh), go to the n8n project folder first, then run:
+
+```
+claude plugin marketplace add n8n-io/skills
+```
+
+The plugin needs the base URL of the n8n instance, with no path and no trailing slash. In the
+next command, replace `https://YOUR-INSTANCE.app.n8n.cloud` with that URL:
+
+```
+claude plugin install n8n-skills@n8n-io --scope project --config n8n_url=https://YOUR-INSTANCE.app.n8n.cloud
+```
+
+The install command prints `Successfully installed plugin: n8n-skills@n8n-io (scope: project)`.
+The plugin's SessionStart hook adds about 27 KB of n8n routing text to every session in that
+folder, which is why it is not in `plugins.lock.json`.
+
+## Curation rules
+
+- Claude Code puts every skill description into one listing budget of about 1% of the context
+  window. When the listing is too large, it drops the descriptions of the least-used skills.
+  Keep the library small. Run `claude plugin details masterskills` to see the always-on cost.
+- One skill for each job. Before you add a skill, check that no kept skill or installed plugin
+  covers it. Never vendor a skill that an installed plugin already ships.
+- Read every file of a third-party skill before it lands. The `skill-security-auditor` skill
+  helps. Record the source, commit, license, and review notes in a `SOURCE.md` next to `SKILL.md`.
+- To find a skill on demand, use the `find-skills` skill. It installs to `~/.claude/skills`
+  first. Bring a keeper into this repo with `sync_skills.py pull --apply`.
+- Retired skills live in `archive/retired_skills/`. The CHANGELOG gives the reason for each one
+  and the command to restore it.
+- Private owner facts go in `profile.md` inside a skill folder. `.gitignore` keeps them out of
+  the repo. Ship a `profile.example.md` template instead.
 
 ## Layout
 

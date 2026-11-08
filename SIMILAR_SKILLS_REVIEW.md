@@ -1,5 +1,10 @@
 # Similar skills — review queue
 
+> **Status (2026-11-08): resolved in release 2.0.0.** Every cluster below has a keep, merge, or
+> retire decision in [CHANGELOG.md](CHANGELOG.md), under "Review-cluster decisions". The broken
+> cross-references at the end of this file are fixed. The text below is the original 2026-10-25
+> review. It stays for history.
+
 Generated 2026-10-25 from a full read of all 360 `SKILL.md` descriptions after the
 description repair and generic-name renames. Nothing here has been merged or removed;
 each cluster is a decision for the owner. "Overlap" is functional overlap as described,
