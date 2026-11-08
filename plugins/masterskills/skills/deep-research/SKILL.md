@@ -1,7 +1,7 @@
 ---
 name: "deep-research"
 description: >-
-  Run a disciplined, multi-source research investigation for a high-stakes question or decision — fan-out web search across many channels, parallel sub-agents, source triangulation (each claim backed by ≥3 independent sources), an adversarial review pass, and every source saved to its own file with verbatim quotes for reuse. Use when a low-quality answer is expensive: strategy work, comparing N products/methods/markets, validating a hypothesis with external data, or mapping how a field works. NOT for quick fact-checks (answer directly), structured 12-dimension competitor scoring (use competitive-teardown), or fast topic overviews where the decision risk is low (use the research router instead).
+  Run a disciplined, multi-source research investigation for a high-stakes question or decision — fan-out web search across many channels, parallel sub-agents, source triangulation (each claim backed by ≥3 independent sources), an adversarial review pass, and every source saved to its own file with verbatim quotes for reuse. Use when a low-quality answer is expensive: strategy work, comparing N products/methods/markets, validating a hypothesis with external data, or mapping how a field works. NOT for quick fact-checks (answer directly), structured 12-dimension competitor scoring (use competitive-teardown), or fast topic overviews where the decision risk is low (use recency-pulse, or answer directly).
 ---
 
 # Deep Research — Disciplined Meta-Research
@@ -82,6 +82,6 @@ These are what separate a documented investigation from a confident guess:
 
 ## Cross-References
 
-- **research router** — for fast topic overviews where decision risk is low; `deep-research` is the heavyweight alternative when rigor matters more than speed.
+- **recency-pulse** — for a fast read on what people say about a topic now; `deep-research` is the heavyweight alternative when rigor matters more than speed.
 - **competitive-teardown** — for comparing N competitors on a structured 12-dimension matrix.
 - **company-dossier** — domain specialist when the investigation is about one company or executive.

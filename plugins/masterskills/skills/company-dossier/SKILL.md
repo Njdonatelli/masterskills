@@ -1,7 +1,7 @@
 ---
 name: company-dossier
 description: >-
- Produces decision-grade research dossiers on companies and executives with verification signals and red flags.
+ Produces decision-grade research dossiers on companies and executives with verification signals and red flags. Use when the user asks for a "dossier on", "background on", or "research this company", including an employer before an interview or a prospect before a pitch.
 license: MIT
 metadata:
   source_spec: "megaprompts/12-dossier-megaprompt.md"

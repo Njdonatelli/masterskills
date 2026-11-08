@@ -1,7 +1,7 @@
 ---
 name: "browser-automation"
 description: >-
-  Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use pw for that.
+  Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use pw for that. For recurring crawls or extraction pipelines that produce a dataset, use universal-scraping-architect.
 ---
 
 # Browser Automation - POWERFUL

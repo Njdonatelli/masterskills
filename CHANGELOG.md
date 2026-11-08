@@ -164,10 +164,12 @@ These were reviewed and not added. Do not research them again unless the reason 
 - Many skills pointed at `cs-*` agents and `/cs:*` commands from the upstream repo. This library does not ship them. The pointers now name real skills.
 - `handoff/scripts/skill_recommender.py` recommended 9 skills that do not exist here.
 - `mcp-builder/scripts/evaluation.py` defaulted to a retired model ID.
+- A trigger probe by a fresh agent found 8 description pairs that competed for the same request. Each pair now has a hand-off clause (for example, code-review sends a hostile pre-merge review to adversarial-reviewer).
+- The deep-research, content-production, and cold-email descriptions named skills that do not exist.
 
 ### Follow-ups
 
-- Descriptions still average about 400 characters. A pass that front-loads the trigger words and cuts each description to about 250 characters can cut the always-on cost by about a third. Do it only with a trigger probe for each change.
+- Descriptions still average about 400 characters. In a test session with other plugins loaded, Claude Code still dropped the descriptions of the skills after `job-application` in alphabetical order. A pass that front-loads the trigger words and cuts each description to about 250 characters can cut the always-on cost by about a third. Do it only with a trigger probe for each change.
 - `plugins/masterskills/plugin.json` is a stale file from before the build script. Claude Code reads `.claude-plugin/plugin.json` only.
 - `autoresearch-agent` and `docker-development` keep upstream install notes for other tools (`clawhub`, `scripts/convert.sh`). These files do not exist here.
 - Provenance notes in some `references/` and `scripts/` files name upstream paths. They are attribution, not routing, so they stay.
