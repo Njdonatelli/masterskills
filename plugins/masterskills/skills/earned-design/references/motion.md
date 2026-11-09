@@ -14,7 +14,7 @@ Confidence: **A** stated in a primary source. **B** consistent with primary sour
 | Press feedback | `scale(0.97)` on `:active`, about 100-160 ms | A | Kowalski |
 | Enter scale | from `scale(0.95)` with `opacity: 0`; never from `scale(0)` | A | Kowalski skills |
 | Popover origin | `transform-origin` at the trigger, on enter and exit. Modals stay centred | A | Kowalski |
-| Exit vs enter | exit 20-35% shorter (250 in / 200 out) | A | Material 3, Atlassian |
+| Exit vs enter | exit 20-35% shorter (250 in / 200 out) | A | Material, Atlassian |
 | Everyday UI springs | no overshoot; bounce only after a gesture that carried momentum | B | Apple, via Kowalski |
 | Dragging | track the pointer 1:1; no easing while held | B | Apple, via Kowalski |
 | Past a drag limit | diminishing resistance, then return | B | Apple, via Kowalski |
