@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.2.0 — 2026-11-09
+
+New skill: `earned-design`. 138 skills.
+
+- What it is: a short decision protocol for any visual output (page, dashboard, deck, document,
+  chart). It derives each open choice from the subject, the audience and the intent. A governing
+  design system always wins.
+- Why: `ui-craft` and `impeccable` already list the AI-design tells and the motion values, but both
+  are large and UI-only. A list of tells also dates: published lists contradict each other, and one
+  creator's fix is another creator's tell. This skill makes the decision first and uses the tells
+  only as a check on the finished render.
+- Files: `SKILL.md` (six steps), `references/tells.md` (read after rendering),
+  `references/motion.md` (motion values, each with a source and a confidence grade).
+- Tested on three briefs, with and without the skill, over three revision passes. Each pass
+  changed the skill: pass 1 added the costume rule, pass 2 added the reflex rule, pass 3 added the
+  rule that a missing fact stays a marked gap.
+- The claude.ai account copy is one file: the two reference files are appendices in `SKILL.md`.
+- Known limit: four with-skill runs of one brief reused the same central idea three times. The
+  skill reduces the model's repeat habits and does not remove them.
+
 ## 2.1.0 — 2026-11-08
 
 All skills are on the claude.ai account, so they sync to the web, desktop, and mobile apps.
