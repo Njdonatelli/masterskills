@@ -1,7 +1,7 @@
 ---
 name: grill-with-docs
 description: >-
-  Docs-anchored grilling session — challenges a plan against the project's existing language (CONTEXT.md) and recorded decisions (docs/adr/), and updates those files inline as terminology and decisions crystallise. Use when user wants to stress-test a plan against documented domain language, or mentions "grill with docs".
+  Grill a plan against the project's CONTEXT.md and docs/adr decisions, updating those files as terms and decisions settle. Use when asked to stress-test a plan against domain docs or "grill with docs".
 license: MIT
 metadata:
   derived_from: "https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs"

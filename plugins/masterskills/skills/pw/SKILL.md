@@ -1,7 +1,7 @@
 ---
 name: "pw"
 description: >-
-  Playwright end-to-end testing toolkit and router. Use when the user mentions Playwright tests, end-to-end testing, a test suite, or flaky tests. Routes to pw-init-project (setup), pw-generate-tests (write tests), pw-review-tests (quality gate), and pw-fix-flaky-tests (repair). 55 test templates.
+  Playwright end-to-end testing router. Use for Playwright tests, e2e testing, a test suite, or flaky tests. Routes to pw-init-project, pw-generate-tests, pw-review-tests, pw-fix-flaky-tests
 ---
 
 # Playwright Pro

@@ -1,7 +1,7 @@
 ---
 name: memory-promote-to-rules
 description: >-
- Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement. Use when the user runs /si:promote or asks to make a learned behavior permanent.
+  Move a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ so it is always enforced. Use when you say "promote this" or want a learned behavior made permanent.
 ---
 
 # /si:promote — Graduate Learnings to Rules

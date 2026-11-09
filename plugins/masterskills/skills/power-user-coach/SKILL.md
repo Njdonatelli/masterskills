@@ -1,13 +1,7 @@
 ---
-Name: claude-coach
-name: claude-coach
+name: power-user-coach
 description: >-
-  Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a user asks to "learn Claude", "be a power user", "coach me", "teach me Claude tricks", "what can Claude do", "make me better at prompting", or any variation. After activation, also use it on EVERY subsequent turn to detect missed optimization opportunities (vague prompts, ignored capabilities, manual work Claude could automate) and surface a single power-user tip. Trigger generously — most users do not know what they do not know, so err on the side of coaching.
-Tier: POWERFUL
-Category: meta
-Author: claude-skills
-Dependencies: python3.11
-Version: 1.0.0
+  Coach you to become a Claude power user and give one tip per turn when you miss a better way. Use when you say 'coach me', 'learn Claude', 'be a power user', or 'what can Claude do'.
 version: 2.9.0
 license: MIT
 ---
@@ -145,7 +139,7 @@ Good: "One thing — adding 'in 200 words' to that prompt would have cut three t
 
 ## Name
 
-claude-coach
+power-user-coach
 
 ## Description
 

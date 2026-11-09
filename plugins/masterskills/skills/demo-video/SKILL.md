@@ -1,7 +1,7 @@
 ---
 name: "demo-video"
 description: >-
-  Use when the user asks to create a demo video, product walkthrough, feature showcase, animated presentation, marketing video, or GIF from screenshots or scene descriptions. Orchestrates playwright, ffmpeg, and edge-tts MCPs to produce polished video content.
+  Build demo videos, product walkthroughs and GIFs from screenshots or scene descriptions. Use when asked to create a demo video, product walkthrough, feature showcase or marketing video.
 ---
 
 # Demo Video
@@ -107,5 +107,5 @@ See [references/scene-design-system.md](references/scene-design-system.md) for t
 
 ## Cross-References
 
-- Related: `engineering/browser-automation` — for playwright-based browser workflows
+- Related: `browser-automation` — for playwright-based browser workflows
 - See also: [framecraft](https://github.com/vaddisrinivas/framecraft) — open-source scene rendering pipeline

@@ -1,7 +1,7 @@
 ---
 name: "senior-prompt-engineer"
 description: >-
-  Use when the user asks to optimize prompts, design prompt templates, evaluate LLM outputs with an eval set, measure RAG retrieval quality, validate agent/tool configurations, analyze token usage, or design structured-output contracts. Covers eval-driven prompt iteration, RAG metrics (relevance, faithfulness, coverage), agent workflow validation, and token/cost budgeting — all model-agnostic, with three stdlib Python tools.
+  Optimize prompts, design templates, and evaluate LLM output with eval sets, RAG metrics, and token budgets. Use when you say "optimize this prompt", "eval set", or "analyze token usage".
 ---
 
 # Senior Prompt Engineer
@@ -135,5 +135,5 @@ Without the two price flags, `--estimate-cost` reports token estimates only. The
 
 ## Related Skills
 
-- `engineering/rag-architect` — RAG system architecture (this skill measures RAG quality; that one designs the pipeline)
-- `engineering/agent-designer` — full agent system design (this skill validates configs; that one designs the architecture)
+- `rag-architect` — RAG system architecture (this skill measures RAG quality; that one designs the pipeline)
+- `agent-designer` — full agent system design (this skill validates configs; that one designs the architecture)

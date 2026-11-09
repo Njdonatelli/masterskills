@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-cheat_code_filter.py — filter the claude-coach cheat-code glossary by use case.
+cheat_code_filter.py — filter the power-user-coach cheat-code glossary by use case.
 
 Reads references/cheat-codes.md, parses tiered technique entries, and returns
 the top-N matches scored against a user's stated use cases (writing, coding,

@@ -18,3 +18,6 @@ venv/
 
 # Private owner profiles: facts and decisions stay on the authoring machine
 plugins/masterskills/skills/*/profile.md
+
+# claude.ai upload packages (scripts/package_claude_ai.py)
+dist/

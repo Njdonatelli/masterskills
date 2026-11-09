@@ -1,7 +1,7 @@
 ---
 name: process-mapper
 description: >-
-  Documents end-to-end business processes in BPMN notation, measuring stage cycle times and bottleneck value-add ratios.
+  Documents end-to-end business processes in BPMN notation, measuring stage cycle times and bottleneck value-add ratios. Use when you need to map or analyze a business process.
 version: 2.8.0
 author: claude-code-skills
 license: MIT

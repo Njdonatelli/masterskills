@@ -1,7 +1,7 @@
 ---
 name: "cold-email"
 description: >-
-  When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'email prospecting.' Also use when they share an email draft that sounds too sales-y and needs to be humanized. This is unsolicited outreach to new prospects. It also covers short follow-up sequences. [Also supersedes `email-sequence`: triggers on 'email sequence', 'drip campaign', 'automated email series']
+  Write and improve B2B cold outreach emails and short follow-up sequences. Use when you say 'cold email', 'cold outreach', 'prospecting emails', 'drip campaign', or a draft sounds too salesy.
 license: MIT
 metadata:
   version: 1.0.0

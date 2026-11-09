@@ -1,7 +1,7 @@
 ---
 name: landing-page-html
 description: >-
- Generates high-conversion single-page HTML landing pages with responsive layouts and GSAP animations.
+  Generates high-conversion single-page HTML landing pages with responsive layouts and GSAP animations.
 license: MIT
 metadata:
   source_spec: "megaprompts/04-landing-megaprompt.md"

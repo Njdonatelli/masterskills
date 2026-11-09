@@ -1,7 +1,7 @@
 ---
 name: svg-to-pdf
 description: >-
-  Convert one or more SVG files to PDF using Inkscape. Use when the user asks to convert SVG(s) to PDF, batch-convert a folder of SVGs, or export vector graphics to PDF.
+  Convert one or more SVG files to PDF using Inkscape. Use when you ask to convert SVGs to PDF, batch-convert a folder of SVGs, or export vector graphics to PDF.
 ---
 
 # SVG to PDF Conversion

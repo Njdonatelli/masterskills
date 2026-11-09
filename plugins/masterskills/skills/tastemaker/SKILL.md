@@ -1,6 +1,7 @@
 ---
 name: tastemaker
-description: "Evaluates whether a design is well made, has taste, and should exist. Use when a designer asks 'does this have taste', 'why does this look off', 'is the craft solid', 'does this have a point of view', or 'what should I cut', or shares a screenshot, Figma URL, live page, file path, description, feature list, or roadmap for critique. Teaches the craft floor (spacing, type, color, shadow, alignment, density) through CR-NNN rules, evaluates coherence, character, conviction, and contextual fit through TS-NNN principles, and decides principle conflicts and scope cuts through TR-NNN ranked trade-offs. Modes: critique, scope (pre-build cut list), and system (conviction across many surfaces). Produces chat critiques, cut lists, optional Figma cards, or local HTML reports. Does not replace usability, accessibility, market-strategy, or brand-compliance review."
+description: >-
+  Critique whether a design is well made and has taste, and decide what to cut. Use for "does this have taste", "why does this look off", or "what should I cut" on a design or feature list.
 ---
 
 # Tastemaker — the whole ladder

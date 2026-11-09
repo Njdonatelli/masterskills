@@ -1,7 +1,7 @@
 ---
 name: writing-fragments
 description: >-
-  Writing, explore — mine raw fragments, no structure yet.
+  Mine raw fragments with no structure yet. Use in the writing explore stage.
 disable-model-invocation: true
 ---
 

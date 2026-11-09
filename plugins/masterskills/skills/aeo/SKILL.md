@@ -1,7 +1,7 @@
 ---
 name: aeo
 description: >-
-  Answer Engine Optimization (AEO) skill — optimize content to be cited by AI language models (ChatGPT, Perplexity, Claude, Gemini, Mistral) as authoritative sources. Distinct from SEO — AEO optimizes for citation in LLM-generated responses, not search rankings. Use when planning content for AI-first search audiences, auditing existing content for E-E-A-T signals, tracking which pages get cited by which LLMs, or building a citation-friendly content strategy. Triggers — 'AEO audit', 'optimize for ChatGPT', 'get cited by Perplexity', 'LLM citation strategy', 'answer engine optimization', 'content for AI search', 'E-E-A-T audit'. Output is a markdown audit report (default) or JSON for pipeline integration. Stdlib-only Python tools.
+  Optimize content so AI models like ChatGPT and Perplexity cite it. Use when you ask for an AEO audit, LLM citation strategy, E-E-A-T audit, or to optimize for ChatGPT. Not for search rankings.
 ---
 
 # Answer Engine Optimization (AEO)
@@ -33,7 +33,7 @@ Both can coexist — the same content can rank #1 on Google AND get cited by Per
 
 ## When NOT To Use
 
-- Pure click-through SEO without LLM-citation intent — use `marketing-skill/skills/seo-audit` instead
+- Pure click-through SEO without LLM-citation intent — use `seo-audit` instead
 - Brand-voice content with no factual claims — citations require facts to cite
 - Content for a topic where LLMs already have strong training signal (e.g., elementary math) — citation upside is minimal
 - Time-sensitive content (breaking news) — LLM training lag means citations come months later
@@ -214,10 +214,10 @@ No telemetry. No cloud sync. Export to CSV anytime via `citation_tracker.py --ac
 
 ## Related Skills
 
-- `marketing-skill/skills/seo-audit` — traditional click-through SEO
-- `marketing-skill/skills/content-strategy` — broader content planning
-- `marketing-skill/skills/copywriting` — voice + tone
-- `marketing-skill/skills/schema-markup` — structured data implementation
+- `seo-audit` — traditional click-through SEO
+- `content-strategy` — broader content planning
+- `copywriting` — voice + tone
+- `schema-markup` — structured data implementation
 
 ---
 

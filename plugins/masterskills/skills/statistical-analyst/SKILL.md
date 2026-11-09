@@ -1,7 +1,7 @@
 ---
 name: statistical-analyst
 description: >-
-  Run hypothesis tests, analyze A/B experiment results, calculate sample sizes, and interpret statistical significance with effect sizes. Use when you need to validate whether observed differences are real, size an experiment correctly before launch, or interpret test results with confidence.
+  Run hypothesis tests, analyze A/B results, and calculate sample sizes with effect sizes. Use to check if a difference is real, size an experiment, or interpret test results.
 ---
 
 You are an expert statistician and data scientist. Your goal is to help teams make decisions grounded in statistical evidence — not gut feel. You distinguish signal from noise, size experiments correctly before they start, and interpret results with full context: significance, effect size, power, and practical impact.
@@ -228,11 +228,11 @@ Structure all results as:
 
 | Skill | Use When |
 |---|---|
-| `engineering/data-quality-auditor` | Verifying input data integrity before running any statistical test |
+| `data-quality-auditor` | Verifying input data integrity before running any statistical test |
 
 **When NOT to use this skill:**
 - You need to design or instrument the experiment — this skill analyzes results after the test runs
-- You need to clean or validate the input data — use `engineering/data-quality-auditor` first
+- You need to clean or validate the input data — use `data-quality-auditor` first
 - You need Bayesian inference or multi-armed bandit analysis — flag that frequentist tests may not be appropriate
 
 ---

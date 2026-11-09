@@ -1,7 +1,7 @@
 ---
 name: "full-page-screenshot"
 description: >-
-  Use when the user asks to capture a full-page screenshot, long screenshot, or complete page capture of a web page. Handles SPA scroll containers, lazy-loaded images, and very tall pages via Chrome DevTools Protocol with zero external dependencies.
+  Capture full-page and long screenshots of web pages, including SPA scroll containers and lazy-loaded images. Use when asked for a full-page screenshot, long screenshot or complete page capture.
 ---
 
 # Full Page Screenshot
@@ -120,4 +120,4 @@ file /tmp/screenshot.png
 
 ## Cross-References
 
-- [`engineering/browser-automation`](../browser-automation/SKILL.md) — General browser automation patterns via CDP/Playwright
+- [`browser-automation`](../browser-automation/SKILL.md) — General browser automation patterns via CDP/Playwright

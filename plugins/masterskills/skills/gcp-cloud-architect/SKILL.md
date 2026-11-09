@@ -1,7 +1,7 @@
 ---
 name: "gcp-cloud-architect"
 description: >-
-  Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure BigQuery pipelines, optimize GCP costs, or migrate to GCP. Covers Cloud Run, GKE, Cloud Functions, Cloud SQL, BigQuery, and cost optimization.
+  Design Google Cloud architectures for startups and enterprises. Use when asked to design GCP infrastructure, deploy to GKE or Cloud Run, build BigQuery pipelines, cut GCP costs or migrate to GCP.
 ---
 
 # GCP Cloud Architect
@@ -428,7 +428,7 @@ Provide these details for architecture design:
 
 | Skill | Relationship |
 |-------|-------------|
-| `engineering/ci-cd-pipeline-builder` | Pipeline construction — automates Cloud Build and deployment |
+| `ci-cd-pipeline-builder` | Pipeline construction — automates Cloud Build and deployment |
 
 ---
 

@@ -11,7 +11,7 @@ Gates (in order):
   5. Exactly one higher-impact path missed? → emit that one tip
 
 Stdlib-only. Heuristic-only — no LLM calls. Designed to be invoked by the
-claude-coach skill before composing a response.
+power-user-coach skill before composing a response.
 
 Usage:
     python3 coach_tip_classifier.py --prompt "Can you help me with my email?"

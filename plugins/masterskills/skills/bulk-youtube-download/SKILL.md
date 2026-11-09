@@ -1,7 +1,7 @@
 ---
 name: bulk-youtube-download
 description: >-
-  Use when the user wants to download many videos or audio tracks at once from YouTube or any other yt-dlp-supported site — a list of links, whole playlists, or a channel's /videos or /shorts tab — with subtitles, thumbnail, metadata and chapters embedded and output organized into per-playlist folders. Trigger phrases: 'bulk download these videos', 'download this playlist', 'download every video from this channel', 'archive these YouTube links', 'rip the audio from these videos'. Wraps EDM115/bulk-youtube-download (yt-dlp + FFmpeg). Do NOT use for transcripts, search, or channel metadata without downloading files (use youtube-full).
+  Download many videos or audio tracks from YouTube and similar sites into folders. Use when you say 'download this playlist' or 'download a whole channel'. For transcripts, use youtube-full.
 license: "MIT"
 ---
 

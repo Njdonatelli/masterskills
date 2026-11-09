@@ -1,7 +1,7 @@
 ---
 name: "copywriting"
 description: >-
-  When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" or \"CTA copy.\" For outbound email copy, see cold-email. This skill writes the words only. To build the page, use landing-page-html or ui-craft.
+  Write or rewrite marketing page copy: homepage, landing, pricing, feature, and about pages. Use when you say 'write copy for' or 'headline help'. To build the page, use landing-page-html or ui-craft.
 license: MIT
 metadata:
   version: 1.0.0

@@ -1,7 +1,7 @@
 ---
 name: "mcp-server-builder"
 description: >-
-  Generate an MCP server scaffold and tool manifest from an OpenAPI spec, then validate the tool schemas and check backward compatibility. Python and TypeScript. Use when an OpenAPI or Swagger file for the API exists. For MCP server design, tool naming, transports, and evaluations without a spec, use mcp-builder.
+  Generate an MCP server scaffold and tool manifest from an OpenAPI spec, then validate the schemas. Use when an OpenAPI or Swagger file exists. For design, tool naming, and no spec, use mcp-builder.
 ---
 
 # MCP Server Builder

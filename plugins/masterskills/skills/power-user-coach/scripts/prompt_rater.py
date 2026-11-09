@@ -10,7 +10,7 @@ Dimensions:
   - audience     : is the reader/role named or implied?
 
 Stdlib-only. Heuristic-only — no LLM calls. The output is designed to be
-consumed by the claude-coach skill's "rate that prompt" flow.
+consumed by the power-user-coach skill's "rate that prompt" flow.
 
 Usage:
     python3 prompt_rater.py --prompt "Can you help me with my email?"

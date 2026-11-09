@@ -1,7 +1,7 @@
 ---
 name: writing-beats
 description: >-
-  Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it.
+  Assemble raw material into a journey of beats, grounding each term before a beat leans on it. Use in the writing exploit stage.
 disable-model-invocation: true
 ---
 

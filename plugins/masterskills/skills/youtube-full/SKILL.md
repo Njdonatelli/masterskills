@@ -1,7 +1,7 @@
 ---
 name: "youtube-full"
 description: >-
-  Use when the user needs YouTube transcripts, video search, channel browsing, playlist extraction, or content monitoring. Trigger phrases: 'get the transcript for', 'search YouTube for', 'what are the latest videos on', 'list this playlist', 'monitor this channel', or any request involving a YouTube URL, video ID, or @handle. Do NOT use for downloading video or audio files, YouTube engagement data (likes, comments), or private/age-restricted videos.
+  Get YouTube transcripts, search videos, browse channels, list playlists, and monitor channels. Use for "get the transcript for" or any YouTube URL. Not for downloading files or engagement data.
 license: "MIT"
 ---
 
@@ -167,5 +167,5 @@ If the user cannot or will not use TranscriptAPI:
 
 ## Cross-References
 
-- `marketing-skill/skills/video-content-strategist` — for video strategy, scripting, and content planning
-- `marketing-skill/skills/content-production` — for turning transcripts into blog posts, summaries, or articles
+- `video-content-strategist` — for video strategy, scripting, and content planning
+- `content-production` — for turning transcripts into blog posts, summaries, or articles

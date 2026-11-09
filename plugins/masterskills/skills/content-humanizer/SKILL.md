@@ -1,7 +1,7 @@
 ---
 name: "content-humanizer"
 description: >-
-  Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', 'sounds robotic', 'fix AI writing', 'inject our voice'. NOT for initial content creation (use content-production). NOT for SEO optimization (use content-production Mode 3).
+  Make AI-written content sound human and add personality. Use when you say 'this sounds like AI', 'make it more human', 'sounds robotic', or 'fix AI writing'. For first drafts, use content-production.
 license: MIT
 metadata:
   version: 1.0.0

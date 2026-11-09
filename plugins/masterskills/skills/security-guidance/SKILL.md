@@ -1,7 +1,7 @@
 ---
 name: security-guidance
 description: >-
-  PreToolUse security-anti-pattern hook for Claude Code. Catches 12 common security risks (command injection, XSS, SQL injection, unsafe deserialization, GitHub Actions workflow injection, eval/new Function code injection) BEFORE the Edit/Write/MultiEdit operation completes. Session-state caching prevents duplicate warnings on the same file+rule combo. Stdlib only — no dependencies. Use when you want a safety net during Claude Code sessions that touch security-sensitive code (auth, payments, user input handling, IaC). Disable with ENABLE_SECURITY_REMINDER=0 if you need to perform a verified-safe operation that would otherwise trip a pattern. Triggers — "add security hook", "block unsafe code", "detect command injection before write", "prevent SQL injection patterns", "security warning hook".
+  Claude Code hook that warns about risky code (command injection, XSS, SQL injection, unsafe eval) before an Edit or Write completes. Use when you say "add security hook" or "block unsafe code".
 ---
 
 # Security Guidance Hook
@@ -139,9 +139,9 @@ The cache prevents nag-spam but is per-session. Don't rely on "I dismissed this 
 
 ## Related Skills
 
-- `engineering-team/skills/ai-security` — AI-specific security (prompt injection, etc.)
-- `engineering/ship-gate` — pre-production audit (8-category, ~89 checks)
-- `engineering/skill-security-auditor` — security scan for skill packages
+- `ai-security` — AI-specific security (prompt injection, etc.)
+- `ship-gate` — pre-production audit (8-category, ~89 checks)
+- `skill-security-auditor` — security scan for skill packages
 
 ## Trigger Phrases
 

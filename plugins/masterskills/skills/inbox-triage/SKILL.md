@@ -1,7 +1,7 @@
 ---
 name: inbox-triage
 description: >-
-  Runs a full inbox triage using the knowledge base created by the 'inbox-setup' skill. Light-intake by design (most invocations skip questions and run with KB-default preferences); asks at most 2 grill-me override questions when invocation is outside normal cadence or includes category-skip intent. Searches recent emails, classifies them via the user's taxonomy, researches new senders, generates recommendations, drafts replies (NEVER sends), delivers a report in the user's preferred format, and updates the knowledge base with learnings. Designed to run on a recurring schedule (1-3x daily) or on demand. Use when the user wants their inbox processed, in any variation (e.g., 'triage my inbox', 'inbox triage', 'check my email', 'run email triage', 'process my inbox', 'what's new in my email', 'handle my email', 'email triage'). Requires the inbox-setup skill to have been run first.
+  Triage the inbox using the inbox-setup knowledge base: classify mail, research new senders, draft replies (never sends) and report. Use when asked to triage my inbox, check my email or process inbox.
 license: MIT
 metadata:
   source_spec: "megaprompts/07-inbox-triage-megaprompt.md"

@@ -1,7 +1,7 @@
 ---
 name: "adversarial-reviewer"
 description: >-
-  Adversarial code review that breaks the self-review monoculture. Use when you want a genuinely critical review of recent changes, before merging a PR, or when you suspect Claude is being too agreeable about code quality. Forces perspective shifts through hostile reviewer personas that catch blind spots the author's mental model shares with the reviewer.
+  Hostile code review that finds what the author missed. Use when you want a critical review of recent changes, a check before merging a PR, or suspect the review is too agreeable.
 tier: "STANDARD"
 category: "Engineering / Code Quality"
 dependencies: "None (prompt-only, no external tools required)"
@@ -243,5 +243,4 @@ You are likely reviewing code you just wrote or just read. Your brain (weights) 
 
 ## Cross-References
 
-- Related: `engineering-team/code-reviewer` — general code quality review
-- Complementary: `ra-qm-team/` — quality management workflows
+- Related: `code-review` — standards and spec review

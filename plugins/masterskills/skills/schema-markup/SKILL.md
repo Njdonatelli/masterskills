@@ -1,7 +1,7 @@
 ---
 name: "schema-markup"
 description: >-
-  When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data errors in Search Console.' Also use when someone asks why their content isn't showing rich results or wants to improve AI search visibility. NOT for general SEO audits (use seo-audit) or technical SEO crawl issues (use site-architecture).
+  Implement, audit, and validate structured data (schema.org JSON-LD). Use when you say "schema markup", "rich snippets", "FAQ schema", or ask why rich results fail. For SEO audits, use seo-audit.
 license: MIT
 metadata:
   version: 1.0.0

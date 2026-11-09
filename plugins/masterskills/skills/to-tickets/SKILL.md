@@ -1,7 +1,7 @@
 ---
 name: to-tickets
 description: >-
-  Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.
+  Break a plan, spec, or conversation into tracer-bullet tickets with blocking edges, published to the configured tracker. Use when you want a plan split into tickets.
 disable-model-invocation: true
 ---
 

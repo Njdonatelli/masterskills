@@ -1,6 +1,7 @@
 ---
 name: ui-craft
-description: "Use for UI design and implementation work to avoid generic AI-looking interfaces. Provides anti-slop rules, a required discovery phase before coding, and guidance for layout, typography, color, motion, accessibility, dashboards, tables, landing pages, theming, and polish. Trigger when building new UI code from a brief. To redesign, critique, or polish an interface that already exists, use impeccable."
+description: >-
+  Build new UI from a brief while avoiding generic AI-looking interfaces, with a discovery phase first. Use for layout, type, color, and dashboards. For an existing interface, use impeccable.
 argument-hint: "[action: build|animate|review|polish|audit] [target]"
 ---
 

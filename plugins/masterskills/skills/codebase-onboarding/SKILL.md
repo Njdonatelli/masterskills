@@ -1,7 +1,7 @@
 ---
 name: "codebase-onboarding"
 description: >-
-  Analyze a codebase and generate onboarding documentation for engineers, tech leads, and contractors. Fast fact-gathering and repeatable onboarding outputs. Use when onboarding a new engineer, writing architecture-overview docs for a new project, or producing tech-lead briefings for unfamiliar repos.
+  Analyze a codebase and write onboarding docs for engineers, tech leads, and contractors. Use when onboarding a new engineer, writing an architecture overview, or briefing on an unfamiliar repo.
 ---
 
 # Codebase Onboarding

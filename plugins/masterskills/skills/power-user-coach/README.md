@@ -1,6 +1,6 @@
-# claude-coach — Inner Skill
+# power-user-coach — Inner Skill
 
-This is the SKILL.md-bearing folder for the `claude-coach` plugin. Plugin manifest, persona agent, and slash command live one level up.
+This is the SKILL.md-bearing folder for the `power-user-coach` plugin. Plugin manifest, persona agent, and slash command live one level up.
 
 ## Contents
 

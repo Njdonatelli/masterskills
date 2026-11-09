@@ -1,7 +1,7 @@
 ---
 name: ship-gate
 description: >-
-  Pre-production audit that scans a codebase for security, database, deployment, code quality, AI/LLM, dependency, frontend, and observability issues. Intercepts deploy commands and blocks until critical items pass. Stack-agnostic. Use for "run ship gate", "am I ready to ship", "pre-launch audit", "can I deploy", "push to production", "go live checklist", "preflight check". Not for CI/CD setup or infra provisioning.
+  Pre-production audit of a codebase for security, database, deploy, code quality, and dependency issues, blocking deploys until critical items pass. Use for "am I ready to ship" or "pre-launch audit".
 license: MIT
 metadata:
   author: Rajaraman Arumugam

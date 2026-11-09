@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.1.0 — 2026-11-08
+
+All skills are on the claude.ai account, so they sync to the web, desktop, and mobile apps.
+
+- Rule: every skill description is 200 characters or fewer. `build_manifest.py` stops with an
+  error and writes nothing when a description is longer. All 137 descriptions now obey the rule.
+- New: `scripts/package_claude_ai.py` writes one upload ZIP for each skill to `dist/claude-ai/`.
+  `dist/` is in `.gitignore`.
+- Renamed `claude-coach` to `power-user-coach`, and `git-guardrails-claude-code` to
+  `git-guardrails`. claude.ai refuses a skill name that contains "claude".
+- Removed the `.claude-plugin/plugin.json` files from `aeo` and `youtube-full`. claude.ai refuses
+  a skill that contains a plugin manifest.
+- Cross-references now use the skill name, not a path such as `engineering/rag-architect`.
+- Not uploaded, because claude.ai already has a skill with the same name: `skill-creator`,
+  `brand-guidelines`, `deep-research`, `mcp-builder`, and `asd-ste100`. `job-application` is on
+  the account as `job-screen-mobile`.
+
 ## 2.0.0 — 2026-11-08
 
 The library is now a curated set for one solo operator. It is no longer a copy of every skill pack.

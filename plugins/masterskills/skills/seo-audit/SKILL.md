@@ -1,7 +1,7 @@
 ---
 name: "seo-audit"
 description: >-
-  When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For adding structured data, see schema-markup.
+  Audit a site for SEO problems and diagnose ranking issues. Use when you say "SEO audit", "technical SEO", "why am I not ranking", or "meta tags review". For structured data, use schema-markup.
 license: MIT
 metadata:
   version: 1.0.0

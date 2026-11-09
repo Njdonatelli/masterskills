@@ -1,7 +1,7 @@
 ---
 name: weekly-review
 description: >-
-  Use when someone wants to run a weekly review, close open loops, audit stalled projects and commitments, get their system back to trusted, restart a lapsed review habit, or says "weekly review". Walks David Allen's three-phase loop — GET CLEAR, GET CURRENT, GET CREATIVE — with deterministic scripts that inventory open loops, gate the checklist with named gaps, and score commitment health 0-100.
+  Run David Allen's weekly review: get clear, get current, get creative, with scripts that inventory open loops and score commitment health. Use for "weekly review" or stalled projects.
 argument-hint: "[optional: directory or notes to review]"
 license: MIT
 metadata:
@@ -91,8 +91,8 @@ issues HEALTHY / DRIFTING / OVERCOMMITTED. End the review with one named next ac
 
 ## Distinct From (don't reach for the wrong sibling)
 
-- **`productivity/reflect`** — reflects on one conversation or piece of work, once. The weekly review is a recurring cadence over the whole system.
-- **`productivity/capture`** — the intake funnel (brain dump → actions). Capture feeds the system; this review keeps it trusted.
+- **`step-back-reflect`** — reflects on one conversation or piece of work, once. The weekly review is a recurring cadence over the whole system.
+- **`brain-dump-capture`** — the intake funnel (brain dump → actions). Capture feeds the system; this review keeps it trusted.
 - **`project-management` sprint retros** — a team ceremony about a shared iteration. This is a personal trusted-system audit.
 
 ---

@@ -1,7 +1,7 @@
 ---
 name: pw-review-tests
 description: >-
- Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+  Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
 ---
 
 # Review Playwright Tests

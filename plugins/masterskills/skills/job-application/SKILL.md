@@ -1,7 +1,7 @@
 ---
 name: job-application
 description: >-
-  Screen one job posting against the owner's job-search rules, then draft truthful application materials if it passes. Use when the user pastes a job posting or link, or asks "should I apply", "do I qualify", "tailor my resume for this", "cover letter for this job", or "prep me for this interview". For research on the employer itself, use company-dossier.
+  Screen a job posting against the owner's search rules, then draft truthful application materials. Use when asked "should I apply" or for a tailored resume. For employer research, use company-dossier.
 ---
 
 # Job Application

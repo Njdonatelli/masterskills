@@ -16,6 +16,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "marketplace.config.json"
+# Owner rule (2026-11-08), also the claude.ai upload limit: a longer description
+# fails the account upload and crowds the Claude Code skill listing.
+MAX_DESCRIPTION = 200
 
 
 def parse_frontmatter(path: Path) -> dict[str, str]:
@@ -80,6 +83,7 @@ def main() -> int:
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
     version = config["version"]
     problems: list[str] = []
+    errors: list[str] = []
     entries = []
     index_lines = [
         "# Skill index",
@@ -98,6 +102,11 @@ def main() -> int:
         for skill in skills:
             if not skill["description"]:
                 problems.append(f"{spec['name']}/{skill['dir']}: SKILL.md has no description")
+            if len(skill["description"]) > MAX_DESCRIPTION:
+                errors.append(
+                    f"{spec['name']}/{skill['dir']}: description has "
+                    f"{len(skill['description'])} characters (max {MAX_DESCRIPTION})"
+                )
             if skill["name"] in seen:
                 problems.append(
                     f"{spec['name']}: duplicate skill name '{skill['name']}' "
@@ -109,6 +118,9 @@ def main() -> int:
                     f"{spec['name']}/{skill['dir']}: frontmatter name '{skill['name']}' "
                     "does not match its directory name"
                 )
+
+        if errors:
+            continue
 
         plugin_json = {
             "name": spec["name"],
@@ -143,6 +155,12 @@ def main() -> int:
                 summary = summary[:197].rstrip() + "..."
             index_lines.append(f"- **{skill['name']}** — {summary}")
         index_lines.append("")
+
+    if errors:
+        print(f"{len(errors)} error(s). Nothing was written:", file=sys.stderr)
+        for error in errors:
+            print(f"  - {error}", file=sys.stderr)
+        return 1
 
     marketplace = {
         "name": config["name"],

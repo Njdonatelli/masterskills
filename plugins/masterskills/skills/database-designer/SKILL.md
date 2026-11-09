@@ -1,7 +1,7 @@
 ---
 name: "database-designer"
 description: >-
-  Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships. [Also supersedes `database-schema-designer`: triggers on 'database schema designer', 'ERD diagram', 'normalize schema']
+  Design database schemas, plan migrations, optimize queries and model data relationships. Use when asked to design a schema, plan a data migration, pick SQL or NoSQL, or draw an ERD.
 ---
 
 # Database Designer - POWERFUL Tier Skill

@@ -77,6 +77,8 @@ folder, which is why it is not in `plugins.lock.json`.
 - Claude Code puts every skill description into one listing budget of about 1% of the context
   window. When the listing is too large, it drops the descriptions of the least-used skills.
   Keep the library small. Run `claude plugin details masterskills` to see the always-on cost.
+- Every skill description is 200 characters or fewer. claude.ai refuses a longer description,
+  and `build_manifest.py` stops with an error and writes nothing when one is longer.
 - One skill for each job. Before you add a skill, check that no kept skill or installed plugin
   covers it. Never vendor a skill that an installed plugin already ships.
 - Read every file of a third-party skill before it lands. The `skill-security-auditor` skill
@@ -102,6 +104,7 @@ scripts/sync_skills.py            moves skills between ~/.claude/skills and this
 plugins.lock.json                 generated — third-party marketplaces + plugins installed locally
 scripts/export_plugins.py         writes plugins.lock.json from ~/.claude/plugins
 scripts/install_plugins.py        installs everything in plugins.lock.json via the claude CLI
+scripts/package_claude_ai.py      writes dist/claude-ai/<skill>.zip for upload to claude.ai
 ```
 
 The filesystem is the source of truth. Nothing lists skills by hand — whatever sits at
@@ -127,7 +130,29 @@ The filesystem is the source of truth. Nothing lists skills by hand — whatever
 
 `build_manifest.py` warns — without failing — when a `SKILL.md` has no `description`, when a
 frontmatter `name` disagrees with its directory name, or when two skills claim the same name.
+It fails, and writes nothing, when a description is longer than 200 characters.
 Both scripts are stdlib-only Python 3.9+; `sync_skills.py` is a dry run unless given `--apply`.
+
+## Sync to claude.ai (web, desktop, and mobile)
+
+Skills on the claude.ai account sync to the web app, the desktop app, the mobile apps, and
+Claude Code. This repo stays the master copy. After you change a skill, upload it again.
+
+1. Build the packages. In PowerShell or Bash/Zsh, from the repo root:
+
+   ```
+   python scripts/package_claude_ai.py
+   ```
+
+   Success: the last line is `built <N> ZIPs in dist/claude-ai`, and the exit code is 0.
+
+2. Open https://claude.ai/customize/skills/new/upload and add up to 20 ZIPs at a time.
+3. If the skill is already on the account, click **Replace**, then **Upload and replace**.
+   The version history of the skill keeps the earlier versions.
+
+The script skips the skills in its `SKIP` table, because claude.ai already has a skill with that
+name. It leaves out `profile.md` files and nested sample skills, because claude.ai accepts one
+`SKILL.md` for each ZIP.
 
 ## Adding a second plugin
 

@@ -1,7 +1,7 @@
 ---
 name: business-investment-advisor
 description: >-
-  Business investment analysis and capital allocation advisor. Use when evaluating whether to invest in equipment, real estate, a new business, hiring, technology, or any capital expenditure. Also use for ROI calculations, IRR, NPV, payback period, build vs buy decisions, lease vs buy analysis, vendor evaluation, or deciding where to allocate limited budget for maximum return.
+  Analyze business investments and capital allocation. Use when judging equipment, real estate, hiring, or tech spend, or asking for ROI, IRR, NPV, payback, build vs buy, or lease vs buy.
 ---
 
 # Business Investment Advisor

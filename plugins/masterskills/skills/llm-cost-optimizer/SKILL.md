@@ -1,7 +1,7 @@
 ---
 name: llm-cost-optimizer
 description: >-
-  Use when LLM API cost comes up or should: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'implement prompt caching', 'should I use the batch API', 'how much will this pipeline cost'. Apply without being asked when someone builds an AI feature, agent, RAG or MCP layer, or scheduled LLM job, and the same context rides on every request, a non-interactive job calls the API synchronously, or no per-feature cost logging exists. Ships a four-rung cost-ladder calculator (full -> trim -> cache -> batch). NOT for retrieval quality (use rag-architect) or prompt quality (use senior-prompt-engineer).
+  Cut LLM API cost with a cost ladder: full, trim, cache, batch. Use when asked about high AI costs, token usage, model choice, prompt caching or batch API. For retrieval, use rag-architect.
 ---
 
 # LLM Cost Optimizer

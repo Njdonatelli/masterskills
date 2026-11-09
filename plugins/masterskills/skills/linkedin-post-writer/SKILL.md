@@ -1,7 +1,7 @@
 ---
 name: linkedin-post-writer
 description: >-
-  Draft LinkedIn posts, comments and replies for Nick from his real work (donatelli.tech products, vlogs, research), in a plain and slightly reluctant voice. Drafts by default; posts to LinkedIn only when he asks for a specific approved draft to be posted. Use when the user asks for a LinkedIn post, a LinkedIn draft, "something to post", a comment or reply for LinkedIn, or wants to turn a finished job, product, vlog or lesson into a post. Also use when he asks to post an approved draft to LinkedIn.
+  Draft LinkedIn posts, comments and replies for Nick from his real work, in a plain, slightly reluctant voice. Use when asked for a LinkedIn post, draft, comment or reply. Posts only when told to.
 ---
 
 # LinkedIn Post Writer

@@ -1,7 +1,7 @@
 ---
 name: wait-what-repitch
 description: >-
- Stop. That last message did not land — re-pitch it.
+  Stop. That last message did not land. Re-pitch it.
 disable-model-invocation: true
 ---
 
