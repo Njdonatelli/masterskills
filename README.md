@@ -1,6 +1,6 @@
 # masterskills
 
-Personal hosted Claude Code plugin marketplace. One repo, one plugin, 137 curated skills. Add the
+Personal hosted Claude Code plugin marketplace. One repo, one plugin, 138 curated skills. Add the
 marketplace once on a machine, install the plugin, and every skill is available everywhere.
 See [CHANGELOG.md](CHANGELOG.md) for what changed in each release and why.
 
